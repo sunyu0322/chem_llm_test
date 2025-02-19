@@ -1,0 +1,25 @@
+question,answer
+"比较大小。
+
+(1) 晶格能: ${\mathrm{{AlF}}}_{3}$  ___ ${\mathrm{{AlCl}}}_{3},$$\mathrm{{NaCl}}$ ___ $\mathrm{{KCl}}$ ;
+
+(2) 溶解度: ${\mathrm{{CuF}}}_{2}$ ___ ${\mathrm{{CuCl}}}_{2},$${\mathrm{{Ca}\left( {{HC}{O}_{3}}\right) }}_{2}$ ___ ${\mathrm{{NaHCO}}}_{3}$ ","(1) $>$ , $>$ ; (2) $<$ , $<$ "
+给出晶胞中离子总数:立方 $\mathrm{{ZnS}}$ ; $\mathrm{{NaCl}}$ ; $\mathrm{{CsCl}}$ 。,"8,8,2"
+"已知 ${\mathrm{{Cd}}}^{2 + }$ 半径为 ${97}\mathrm{{pm}},{\mathrm{S}}^{2 - }$ 半径为 ${184}\mathrm{{pm}}$ ,按正、负离子半径比, $\mathrm{{CdS}}$ 应具有___ 型晶格,正、负离子的配位数之比应是___ ; 但 CdS 却具有立方 $\mathrm{{ZnS}}$ 型晶格,正、负离子的配位数之比是___ , 这主要是由于___","$\mathrm{{NaCl}},6 : 6,4 : 4$ ,正、负离子之间的相互极化作用"
+"比较下列各对化合物中键的极性大小 (用 $>$ 或 $<$ 表示)
+
+$\mathrm{{PbO}}$ ___ $\mathrm{{PbS}},\;{\mathrm{{FeCl}}}_{3}$ ___ ${\mathrm{{FeCl}}}_{2}$ , $\mathrm{{SnS}}$ ___ ${\mathrm{{SnS}}}_{2}$ ,
+
+${\mathrm{{AsH}}}_{3}$ ___ ${\mathrm{{SeH}}}_{2}$ , ${\mathrm{{PH}}}_{3}$ ___ ${\mathrm{H}}_{2}\mathrm{\;S}$ , $\mathrm{{HF}}$ ___ ${\mathrm{H}}_{2}\mathrm{O}$ 。","$\mathrm{{PbO}} > \mathrm{{PbS}},{\mathrm{{FeCl}}}_{3} < {\mathrm{{FeCl}}}_{2},\mathrm{{SnS}} > {\mathrm{{SnS}}}_{2}$ ,
+
+${\mathrm{{AsH}}}_{3} < {\mathrm{{SeH}}}_{2},{\mathrm{{PH}}}_{3} < {\mathrm{H}}_{2}\mathrm{\;S},\mathrm{{HF}} > {\mathrm{H}}_{2}\mathrm{O}$ "
+"将 ${\mathrm{{Na}}}_{2}{\mathrm{{CO}}}_{3},{\mathrm{{MgCO}}}_{3},{\mathrm{\;K}}_{2}{\mathrm{{CO}}}_{3},{\mathrm{{MnCO}}}_{3},{\mathrm{{PbCO}}}_{3}$ . 按热稳定性由高到低排列,顺序为___","${\mathrm{\;K}}_{2}{\mathrm{{CO}}}_{3},{\mathrm{{Na}}}_{2}{\mathrm{{CO}}}_{3},{\mathrm{{MgCO}}}_{3},{\mathrm{{MnCO}}}_{3},{\mathrm{{PbCO}}}_{3}$ "
+"将 $\mathrm{{KCl}},{\mathrm{{CaCl}}}_{2},{\mathrm{{MnCl}}}_{2},{\mathrm{{ZnCl}}}_{2}$ 按阳离子极化能力由强至弱排列,顺序为","${\mathrm{{ZnCl}}}_{2},{\mathrm{{MnCl}}}_{2},{\mathrm{{CaCl}}}_{2},{\mathrm{{KCl}}}$"
+"比较下列各对分子偶极矩的大小 (用 $> , =$ 或 $<$ 表示)。
+
+${\mathrm{{CO}}}_{2}$ ___ ${\mathrm{{SO}}}_{2}$,${\mathrm{{CCl}}}_{4}$ ___ ${\mathrm{{CH}}}_{4}$,${\mathrm{{PH}}}_{3}$ ___ ${\mathrm{{NH}}}_{3}$,${\mathrm{{BF}}}_{3}$ ___ ${\mathrm{{NF}}}_{3},$
+
+${\mathrm{{NH}}}_{3}$ ___ ${\mathrm{{NF}}}_{3}$,${\mathrm{{CH}}}_{3}{\mathrm{{OCH}}}_{3}$ ___ ${\mathrm{C}}_{6}{\mathrm{H}}_{6}$ 。","< , = , < , < , > , >"
+"金属 $\mathrm{{Cu}}$ 为面心立方结构,晶胞参数为 $a = {361.4}\mathrm{{pm}}$ ,金属原子配位数为___,晶胞中原子数为___,金属 $\mathrm{{Cu}}$ 原子半径为___ $\mathrm{{pm}}$ ,晶胞密度___ $\mathrm{g} \cdot {\mathrm{{cm}}}^{-3},\mathrm{{Cu}}$ 的空间占有率是___。已知 ${A}_{\mathrm{r}}\left( \mathrm{{Cu}}\right) = {63.54}$ 。","12,4,127.8,8.94,74.05%"
+"金属钾晶体为体心立方结构, 则在单位晶胞中钾原子的个数是___, 已知金属钾的密度为 ${0.862}\mathrm{\;g} \cdot {\mathrm{{cm}}}^{-3}$ ,则钾原子半径为___ $\mathrm{{pm}}$ 。","2,230"
+

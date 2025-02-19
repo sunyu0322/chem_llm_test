@@ -1,0 +1,34 @@
+question,answer
+"某温度下反应 $2\mathrm{{NO}}\left( \mathrm{g}\right) + {\mathrm{O}}_{2}\left( \mathrm{\;g}\right) = 2{\mathrm{{NO}}}_{2}\left( \mathrm{\;g}\right)$ 的速率常数 $k = {8.8} \times {10}^{-2}{\mathrm{{dm}}}^{6} \cdot {\mathrm{{mol}}}^{-2} \cdot {\mathrm{s}}^{-1}$ , 已知反应对 ${\mathrm{O}}_{2}$ 来说是一级反应,则对 $\mathrm{{NO}}$ 为当反应物浓度都是 ${0.05}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 时,反应的速率是","二, $r = k{\left\lbrack c\left( \mathrm{{NO}}\right) \right\rbrack }^{2}c\left( {\mathrm{O}}_{2}\right) ,{1.1} \times {10}^{-5}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3} \cdot {\mathrm{s}}^{-1}$"
+"反应 $\mathrm{A} + \mathrm{B} = \mathrm{C}$ 的速率方程为 $v = {kc}\left( \mathrm{\;A}\right) {\left\lbrack c\left( \mathrm{\;B}\right) \right\rbrack }^{\frac{1}{2}}$ ,其反应速率的单位是
+
+率常数的单位是","$\mathrm{{mol}} \cdot {\mathrm{{dm}}}^{-3} \cdot {\mathrm{s}}^{-1},{\mathrm{{mol}}}^{-1/2} \cdot {\mathrm{{dm}}}^{3/2} \cdot {\mathrm{s}}^{-1}$"
+"物质 $\mathrm{A}$ 与 $\mathrm{B}$ 混合,反应按下列反应机理进行
+
+$\mathrm{A} + \mathrm{B} = \mathrm{C}\;$ (快)
+
+$\mathrm{B} + \mathrm{C} = \mathrm{D} + \mathrm{E} + \mathrm{A}$ （慢）
+
+则该反应的反应方程式为___; 物质 A 为___; 物质 C 为___。","$2\mathrm{B} = \mathrm{D} + \mathrm{E}$ ,催化剂,中间产物"
+"同位素 ${}_{38}^{90}\mathrm{{Sr}}$ 放射性衰变的速率常数 $k = {3.48} \times {10}^{-2}{\mathrm{a}}^{-1}$ ,则反应的半衰期为___ $\mathrm{a}$ ; 若有 ${1.00}\mathrm{\;g}$ 的 ${}_{38}^{90}\mathrm{{Sr}},{30}$ 年后的残留量为___ $\mathrm{g}$ 。","19.91,0.352"
+"若反应 $\mathrm{A} = - 2\mathrm{B}$ 的活化能为 ${E}_{\mathrm{a}}$ ,而反应 $2\mathrm{\;B} = \mathrm{A}$ 的活化能为 ${E}_{\mathrm{a}}^{\prime }$ 。加催化剂后, ${E}_{\mathrm{a}}$ 和 ${E}_{\mathrm{a}}^{\prime }$ ; 加不同的催化剂则 ${E}_{\mathrm{a}}$ 的数值变化___; 提高反应温度, ${E}_{\mathrm{a}}$ 和 ${E}_{\mathrm{a}}^{\prime }$ ___; 改变起始浓度后, ${E}_{\mathrm{a}}$ ___。","同等程度降低, 不同, 基本不变, 不变"
+"由阿仑尼乌斯公式 $\ln k = - \frac{{E}_{a}}{RT} + \ln A$ 可以看出,升高温度,反应速率常数 $k$ 将___; 使用催化剂时,反应速率常数 $k$ 将___; 而改变反应物或生成物浓度时,反应速率常数 $k$ ___。","增大, 增大, 不变"
+"${\mathrm{{CH}}}_{2}{\left( {\mathrm{{CH}}}_{2}\mathrm{{COOH}}\right) }_{2}$ 在水溶液中分解成丙酮和二氧化碳。在 ${283}\mathrm{\;K}$ 时分解反应速率常数为 ${1.08} \times {10}^{-4}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3} \cdot {\mathrm{s}}^{-1},{333}\mathrm{\;K}$ 时为 ${5.48} \times {10}^{-2}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3} \cdot {\mathrm{s}}^{-1}$ ,则该反应的活化能为 $\mathrm{{kJ}} \cdot {\mathrm{{mol}}}^{-1},{303}\mathrm{\;K}$ 时分解反应的速率常数为","97.63,${1.67} \times {10}^{-3}\mathrm{{mol}} \cdot {\mathrm{{dm}}}^{-3} \cdot {\mathrm{s}}^{-1}$"
+"在 ${650}\mathrm{K}$ ,丙酮的分解反应为一级反应,测得 ${200}\mathrm{{min}}$ 时,丙酮浓度是 ${0.0300}\mathrm{{mol}} \cdot {\mathrm{{dm}}}^{-3}$ , ${400}\mathrm{{min}}$ 时是 ${0.0200}\mathrm{{mol}} \cdot {\mathrm{{dm}}}^{-3}$ ,则丙酮分解反应的速率常数为___; 丙酮的初始浓度为___ $\mathrm{{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 。","${2.03} \times {10}^{-3}{\mathrm{{min}}}^{-1}$ ,0.0450"
+"已知各基元反应的活化能如下表:
+
+<table><thead><tr><th></th><th>A</th><th>B</th><th>C</th><th>D</th><th>E</th></tr></thead><tr><td>正反应的活化能/(kJ $\cdot {\mathrm{{mol}}}^{-1}$ )</td><td>70</td><td>16</td><td>40</td><td>20</td><td>20</td></tr><tr><td>逆反应的活化能 $/\left( {\mathrm{{kJ}} \cdot {\mathrm{{mol}}}^{-1}}\right)$</td><td>20</td><td>35</td><td>45</td><td>80</td><td>30</td></tr></table>
+
+在相同的温度和指前因子时:
+
+（1）正反应是吸热反应的是
+
+（2）放热最多的反应是___；
+
+（3）正反应速率常数最大的反应是
+
+（4）反应可逆程度最大的反应是 ;
+
+（5）正反应的速率常数 $k$ 随温度变化最大的是","(1) A, (2) D, (3) B, (4) C, (5) A"
+"在常温常压下, $\mathrm{{HCl}}\left( \mathrm{g}\right)$ 的生成热为 $- {92.3}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ ,生成反应的活化能为 ${113}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ , 则其逆反应的活化能为___ $\mathrm{{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ 。",205.3
+,

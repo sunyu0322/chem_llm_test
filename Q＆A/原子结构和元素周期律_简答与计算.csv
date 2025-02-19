@@ -1,0 +1,218 @@
+question,answer
+" 核外某电子的动能为 ${13.6}\mathrm{{eV}}$ ,求该电子德布罗意波的波长。","先将 ${13.6}\mathrm{{eV}}$ 转换成以 $\mathrm{J}$ 为单位的能量:
+
+$$
+E = {13.6}\mathrm{{eV}} \times {1.602} \times {10}^{-{19}}\mathrm{\;J} \cdot {\mathrm{{eV}}}^{-1}
+$$
+
+$$
+1\mathrm{\;J} = 1\mathrm{\;{kg}} \cdot {\mathrm{m}}^{2} \cdot {\mathrm{s}}^{-2}
+$$
+
+由 $E = \frac{1}{2}m{v}^{2}$ 得 $v = \sqrt{\frac{2E}{m}}$
+
+将电子质量 $m = {9.11} \times {10}^{-{31}}\mathrm{\;{kg}}$ 和 $E$ 值代入其中,得
+
+$$
+v = \sqrt{\frac{2 \times {13.6} \times {1.602} \times {10}^{-{19}}\mathrm{\;J}}{{9.11} \times {10}^{-{31}}\mathrm{\;{kg}}}} = {2.19} \times {10}^{6}\mathrm{\;m} \cdot {\mathrm{s}}^{-1}
+$$
+
+动量 $p = {mv}$
+
+$$
+= {9.11} \times {10}^{-{31}}\mathrm{\;{kg}} \times {2.19} \times {10}^{6}\mathrm{\;m} \cdot {\mathrm{s}}^{-1}
+$$
+
+$$
+= {2.00} \times {10}^{-{24}}\mathrm{\;{kg}} \cdot \mathrm{m} \cdot {\mathrm{s}}^{-1}
+$$
+
+$$
+\lambda = \frac{h}{p}
+$$
+
+$$
+= \frac{{6.626} \times {10}^{-{34}}\mathrm{\;J} \cdot \mathrm{s}}{{2.00} \times {10}^{-{24}}\mathrm{\;{kg}} \cdot \mathrm{m} \cdot {\mathrm{s}}^{-1}}
+$$
+
+$$
+= {3.31} \times {10}^{-{10}}\mathrm{\;m} = {331}\mathrm{{pm}}
+$$
+"
+" 试指出下列用 4 个量子数表示的电子运动状态哪些是错误的, 并说明出现错误的原因。
+
+(1) $n = 3,\;l = 2,\;m = - 2,\;{m}_{\mathrm{s}} = \frac{1}{2};$
+
+(2) $n = 4,\;l = 0,\;m = 0$ , ${m}_{\mathrm{s}} = 0$
+
+(3) $n = 3,\;l = 1,\;m = - 1,\;{m}_{\mathrm{s}} = - \frac{1}{2}$ ;
+
+(4) $n = 4,\;l = 1,\;m = - 2,\;{m}_{s}$ ${m}_{\mathrm{s}} = \frac{1}{2}$
+
+(5) $n = 2,\;l = - 1,\;m = 0$ , ${m}_{\mathrm{s}} = - \frac{1}{2}$
+
+(6) $n = - 2,\;l = 1,\;m = - 1,\;{m}_{\mathrm{s}} = \frac{1}{2}$ ;
+
+(7) $n = 3,\;l = 3,\;m = 1,\;{m}_{\mathrm{s}} = - \frac{1}{2}$ 。","错误的有 (2) (4) (5) (6) (7)。
+
+(2) 错在自旋量子数 ${m}_{\mathrm{s}}$ 的取值没有 0 这个值。
+
+(4) 错在角量子数 $l = 1$ 时,磁量子数 $m$ 不能取 -2 这个值。
+
+(5) 错在角量子数 $l$ 不能为 -1 。
+
+(6) 错在主量子数 $n$ 不能为 -2 。
+
+(7) 错在主量子数 $n = 3$ 时,角量子数 $l$ 不能取 3 这个值。
+"
+"通过计算说明,原子序数为 25 的元素原子中, $4\mathrm{\;s}$ 和 $3\mathrm{\;d}$ 轨道哪个能量高?","25 号元素的基态原子电子排布式为 $1{\mathrm{\;s}}^{2}2{\mathrm{\;s}}^{2}2{\mathrm{p}}^{6}3{\mathrm{\;s}}^{2}3{\mathrm{p}}^{6}3{\mathrm{\;d}}^{5}4{\mathrm{\;s}}^{2}$ 。
+
+$$
+{\sigma }_{4\mathrm{\;s}} = 1 \times {0.35} + {13} \times {0.85} + {10} \times {1.0} = {21.4}
+$$
+
+$$
+{E}_{4\mathrm{\;s}} = - {13.6} \times \frac{{\left( {25} - {21.4}\right) }^{2}}{{4}^{2}}\mathrm{{eV}} = - {11.0}\mathrm{{eV}}
+$$
+
+$$
+{\sigma }_{3\mathrm{\;d}} = 4 \times {0.35} + {18} \times {1.0} = {19.4}
+$$
+
+$$
+{E}_{3\mathrm{\;d}} = - {13.6} \times \frac{{\left( {25} - {19.4}\right) }^{2}}{{3}^{2}}\mathrm{{eV}} = - {47.4}\mathrm{{eV}}
+$$
+
+可见对于 25 号元素, ${E}_{4\mathrm{\;s}} > {E}_{3\mathrm{\;d}}$ 。
+"
+"由下列元素在元素周期表中的位置, 给出元素名称、元素符号及其价层电子排布式。
+
+（1）第四周期第 VIB 族; （2）第五周期第 IB 族;
+
+（3）第五周期第 IVA 族; （4）第六周期第 II A 族;
+
+（5）第四周期第 VII A 族。","(1) 铬 $\mathrm{{Cr}}3{\mathrm{\;d}}^{5}4{\mathrm{\;s}}^{1}$ ; (2) 银 $\mathrm{{Ag}}4{\mathrm{\;d}}^{10}5{\mathrm{\;s}}^{1}$ ;
+
+(3) 锡 $\mathrm{{Sn}}5{\mathrm{\;s}}^{2}5{\mathrm{p}}^{2}$ ; (4) 钡 $\mathrm{{Ba}}6{\mathrm{\;s}}^{2}$ ;
+
+（5）溴 $\mathrm{{Br}}4{\mathrm{\;s}}^{2}4{\mathrm{p}}^{5}$ 。"
+"写出下列离子的电子排布式, 并给出化学式:
+
+（1）与 $\mathrm{{Ar}}$ 电子排布相同的 +2 价离子;
+
+（2）与 ${\mathrm{F}}^{ - }$ 电子排布相同的 +3 价离子;
+
+（3）核中质子数最少的 $3\mathrm{\;d}$ 轨道全充满的 +1 价离子;
+
+（4）与 $\mathrm{{Kr}}$ 电子排布相同的 -1 价离子。
+","(1) $1{\mathrm{\;s}}^{2}2{\mathrm{\;s}}^{2}2{\mathrm{p}}^{6}3{\mathrm{\;s}}^{2}3{\mathrm{p}}^{6}$ ${\mathrm{{Ca}}}^{2 + }$
+
+(2) $1{\mathrm{\;s}}^{2}2{\mathrm{\;s}}^{2}2{\mathrm{p}}^{6}$ ${\mathrm{{Al}}}^{3 + }$
+
+(3) $\left\lbrack \mathrm{{Ar}}\right\rbrack 3{\mathrm{\;d}}^{10}$ ${\mathrm{{Cu}}}^{ + }$
+
+(4) $\left\lbrack \mathrm{{Ar}}\right\rbrack 3{\mathrm{\;d}}^{10}4{\mathrm{\;s}}^{2}4{\mathrm{p}}^{6}$ ${\mathrm{{Br}}}^{ - }$"
+"有 A, B, C, D, E, F 六种元素, 试按下列条件推断各元素在元素周期表中的位置、元素符
+
+号, 给出各元素的价层电子排布式。
+
+(1) $\mathrm{A},\mathrm{B},\mathrm{C}$ 为同一周期活泼金属元素,原子半径满足 $\mathrm{A} > \mathrm{B} > \mathrm{C}$ ,已知 $\mathrm{C}$ 有 3 个电子层。
+
+(2) D, E 为非金属元素, 与氢结合生成 HD 和 HE。室温下 D 的单质为液体, E 的单质为固体。
+
+(3) $\mathrm{F}$ 为金属元素,它有 4 个电子层并且有 6 个单电子。","见下表:
+
+<table><thead><tr><th></th><th>周期</th><th>族</th><th>元素符号</th><th>价层电子排布式</th></tr></thead><tr><td>A</td><td>三</td><td>I A</td><td>$\mathrm{{Na}}$</td><td>$3{\mathrm{\;s}}^{1}$</td></tr><tr><td>B</td><td>川</td><td>II A</td><td>$\mathrm{{Mg}}$</td><td>$3{\mathrm{\;s}}^{2}$</td></tr><tr><td>C</td><td>三</td><td>III A</td><td>A1</td><td>$3{\mathrm{\;s}}^{2}3{\mathrm{p}}^{1}$</td></tr><tr><td>D</td><td>四</td><td>VII A</td><td>$\mathrm{{Br}}$</td><td>$4{\mathrm{\;s}}^{2}4{\mathrm{p}}^{5}$</td></tr><tr><td>E</td><td>五</td><td>VII A</td><td>I</td><td>$5{\mathrm{\;s}}^{2}5{\mathrm{p}}^{5}$</td></tr><tr><td>F</td><td>四</td><td>VI B</td><td>$\mathrm{{Cr}}$</td><td>$3{\mathrm{\;d}}^{5}4{\mathrm{\;s}}^{1}$</td></tr></table>
+"
+"$\mathrm{\;A},\mathrm{\;B},\mathrm{C}$ 三种元素的原子最后一个电子填充在相同的能级组轨道上, $\mathrm{B}$ 的核电荷比 $\mathrm{A}$ 大 9 个单位, $\mathrm{C}$ 的质子数比 $\mathrm{B}$ 多 7 个; $1\mathrm{\;{mol}}$ 的 $\mathrm{A}$ 单质同酸反应置换出 $1\mathrm{\;g}{\mathrm{H}}_{2}$ ,同时转化为具有氩原子电子排布的离子。判断 $\mathrm{A},\mathrm{B},\mathrm{C}$ 各为何元素,给出 $\mathrm{A},\mathrm{B}$ 同 $\mathrm{C}$ 反应时生成的化合物的分子式。"," A: $\mathrm{K},\mathrm{B} : \mathrm{{Ni}},\mathrm{C} : \mathrm{{Br}},\mathrm{{KBr}},{\mathrm{{NiBr}}}_{2}$ 。"
+"$\mathrm{\;A},\mathrm{\;B}$ 两元素, $\mathrm{A}$ 原子的 $\mathrm{M}$ 层和 $\mathrm{N}$ 层的电子数分别比 $\mathrm{B}$ 原子的 $\mathrm{M}$ 层和 $\mathrm{N}$ 层的电子数少 7 个和 4 个。写出 $\mathrm{A},\mathrm{B}$ 的元素名称和电子排布式,给出推理过程。"," A 为钒 $\left( \mathrm{V}\right) \;1{\mathrm{\;s}}^{2}2{\mathrm{\;s}}^{2}2{\mathrm{p}}^{6}3{\mathrm{\;s}}^{2}3{\mathrm{p}}^{6}3{\mathrm{\;d}}^{3}4{\mathrm{\;s}}^{2}$
+
+B 为硒 (Se) $\;1{\mathrm{\;s}}^{2}2{\mathrm{\;s}}^{2}2{\mathrm{p}}^{6}3{\mathrm{\;s}}^{2}3{\mathrm{p}}^{6}3{\mathrm{\;d}}^{10}4{\mathrm{\;s}}^{2}4{\mathrm{p}}^{4}$
+
+推理过程:
+
+(1) 元素 $\mathrm{B}$ 的 $\mathrm{N}$ 层比 $\mathrm{A}$ 的 $\mathrm{N}$ 层多 4 个电子,这 4 个电子一定要填入 $4\mathrm{p}$ 轨道,于是 $3\mathrm{\;d}$ 轨道必定全充满 (即 $3{\mathrm{\;d}}^{10}$ )。由此可知 $\mathrm{B}$ 的 $\mathrm{K},\mathrm{L},\mathrm{M}$ 层均充满电子。
+
+(2) A 原子的 $\mathrm{M}$ 层比 $\mathrm{B}$ 原子的 $\mathrm{M}$ 层少 7 个电子,所以 $\mathrm{A}$ 的 $\mathrm{M}$ 层电子排布为 $3{\mathrm{\;s}}^{2}3{\mathrm{p}}^{6}3{\mathrm{\;d}}^{3}$ , 这样 $\mathrm{A}$ 的 $\mathrm{K},\mathrm{L}$ 层全充满电子, $4\mathrm{\;s}$ 轨道也充满电子 $\left( {{E}_{4\mathrm{\;s}} < {E}_{3\mathrm{\;d}}}\right)$ 。于是 $\mathrm{A}$ 原子的电子排布式为 $1{\mathrm{\;s}}^{2}2{\mathrm{\;s}}^{2}2{\mathrm{p}}^{6}3{\mathrm{\;s}}^{2}3{\mathrm{p}}^{6}3{\mathrm{\;d}}^{3}4{\mathrm{\;s}}^{2}$ 。
+
+(3) 元素 $\mathrm{B}$ 的 $\mathrm{N}$ 层比元素 $\mathrm{A}$ 的 $\mathrm{N}$ 层多 4 个电子, $\mathrm{A}$ 的 $\mathrm{N}$ 层已有 $4{\mathrm{\;s}}^{2}$ ,所以元素 $\mathrm{B}$ 的 $\mathrm{N}$ 层必为 $4{\mathrm{\;s}}^{2}4{\mathrm{p}}^{4}$ ,即 $\mathrm{B}$ 原子的电子排布式为 $1{\mathrm{\;s}}^{2}2{\mathrm{\;s}}^{2}2{\mathrm{p}}^{6}3{\mathrm{\;s}}^{2}3{\mathrm{p}}^{6}3{\mathrm{\;d}}^{10}4{\mathrm{\;s}}^{2}4{\mathrm{p}}^{4}$ 。
+"
+"关于 116 号元素, 请给出:
+
+（1）钠盐的化学式;
+
+（2）简单氢化物的化学式;
+
+（3）最高氧化态的氧化物的化学式;
+
+（4）该元素是金属元素还是非金属元素?","若以 $\mathrm{A}$ 代表 116 号元素,则有
+
+(1) $\mathrm{{Na}}$ 盐的化学式 ${\mathrm{{Na}}}_{2}\mathrm{\;A}$ ; (2) 氢化物 ${\mathrm{H}}_{2}\mathrm{\;A}$ ;
+
+（3）最高价态氧化物 ${\mathrm{{AO}}}_{3}$ ; （4）该元素为金属。
+"
+"给出 166 号元素的周期和族, 预测该元素氢化物的化学式及最高氧化态的氧化物的化学式。"," 第八周期, $\mathrm{{VIA}}$ 族; 假如元素符号为 $\mathrm{A}$ ,其氢化物的化学式为 ${\mathrm{H}}_{2}\mathrm{\;A}$ ; 最高氧化态的氧化物的化学式 ${\mathrm{{AO}}}_{3}$ 。"
+"判断下列各对元素中哪一种元素的第一电离能大, 并说明原因。
+
+(1) $\mathrm{S}$ 与 $\mathrm{P}$ ; (2) $\mathrm{{Al}}$ 与 $\mathrm{{Mg}}$ ; (3) $\mathrm{{Sr}}$ 与 $\mathrm{{Rb}}$ ; (4) $\mathrm{{Cu}}$ 与 $\mathrm{{Zn}}$ ; (5) $\mathrm{{Cs}}$ 与 $\mathrm{{Au}}$ 。","题中各对元素均为同周期元素。一般来说, 在同一周期中, 从左至右随有效核电荷数的增加, 半径减小, 第一电离能总的趋势是增大。但由于电子构型对电离能影响较大, 可能会造成某些反常现象。
+
+(1) $\mathrm{P} > \mathrm{S}$ 因 $\mathrm{P}$ 的价层电子排布为 $3{\mathrm{\;s}}^{2}3{\mathrm{p}}^{3},3\mathrm{p}$ 轨道半充满; 而 $\mathrm{S}$ 的价层电子排布为 $3{\mathrm{\;s}}^{2}3{\mathrm{p}}^{4}$ ,失去一个电子后 $3\mathrm{p}$ 轨道半充满。
+
+(2) $\mathrm{{Mg}} > \mathrm{{Al}}\;\mathrm{{Mg}}$ 失去的是 $3\mathrm{\;s}$ 电子,而 $\mathrm{{Al}}$ 失去的是 $3\mathrm{p}$ 电子; ${E}_{3\mathrm{\;s}} < {E}_{3\mathrm{p}},3\mathrm{p}$ 电子能量高而更易失去。同时, $\mathrm{{Mg}}$ 的价层电子排布为 $3{\mathrm{\;s}}^{2},3\mathrm{\;s}$ 轨道全充满; $\mathrm{{Al}}$ 的价层电子排布为 $3{\mathrm{\;s}}^{2}3{\mathrm{p}}^{1}$ ,失去一个电子后变为 $3{\mathrm{\;s}}^{2}3{\mathrm{p}}^{0}$ 稳定结构。
+
+（3） $\mathrm{{Sr}} > \mathrm{{Rb}}\mathrm{{Sr}}$ 的核电荷比 $\mathrm{{Rb}}$ 多,半径也比 $\mathrm{{Rb}}$ 小。其次 $\mathrm{{Sr}}$ 的 $5{\mathrm{\;s}}^{2}$ 较稳定。
+
+(4) $\mathrm{{Zn}} > \mathrm{{Cu}}\mathrm{{Zn}}$ 的核电荷比 $\mathrm{{Cu}}$ 多,同时 $\mathrm{{Zn}}$ 的 $3\mathrm{\;d}$ 轨道全充满, $4\mathrm{\;s}$ 轨道也全充满; $\mathrm{{Cu}}$ 的 $4\mathrm{\;s}$ 轨道半充满,失去一个电子后变为 $3{\mathrm{\;d}}^{10}4{\mathrm{\;s}}^{0}$ 稳定结构。
+
+(5) $\mathrm{{Au}} > \mathrm{{Cs}}\;\mathrm{{Au}}$ 为 $\mathrm{{IB}}$ 族元素,价层电子排布为 $5{\mathrm{\;d}}^{10}6{\mathrm{\;s}}^{1}$ ,由于 $5\mathrm{\;d}$ 电子对 $6\mathrm{\;s}$ 电子的屏蔽作用较小,有效核电荷数大,半径小; $\mathrm{{Cs}}$ 为 $\mathrm{{IA}}$ 族元素,价层电子排布为 $5{\mathrm{\;s}}^{2}5{\mathrm{p}}^{6}6{\mathrm{\;s}}^{1}$ ,失去一个电子后变为 $5{\mathrm{\;s}}^{2}5{\mathrm{p}}^{6}$ 稳定结构。
+"
+"比较下列各对元素或离子的半径大小, 并说明原因。
+
+(1) $\mathrm{{Sr}}$ 与 $\mathrm{{Ba}}$ ; (2) $\mathrm{{Ca}}$ 与 $\mathrm{{Sc}}$ ; (3) $\mathrm{{Ni}}$ 与 $\mathrm{{Cu}}$ ; (4) $\mathrm{{Zr}}$ 与 $\mathrm{{Hf}}$ ; (5) ${\mathrm{S}}^{2 - }$ 与 $\mathrm{S}$ ;
+
+(6) ${\mathrm{{Na}}}^{ + }$ 与 ${\mathrm{{Al}}}^{3 + }$ ; (7) ${\mathrm{{Sn}}}^{2 + }$ 与 ${\mathrm{{Pb}}}^{2 + }$ ; (8) ${\mathrm{{Fe}}}^{2 + }$ 与 ${\mathrm{{Fe}}}^{3 + }$ 。","
+(1) $\mathrm{{Ba}} > \mathrm{{Sr}}$ 同族元素, $\mathrm{{Ba}}$ 比 $\mathrm{{Sr}}$ 多一电子层;
+
+（2） $\mathrm{{Ca}} > \mathrm{{Sc}}$ 同周期元素, $\mathrm{{Sc}}$ 核电荷多;
+
+(3) $\mathrm{{Cu}} > \mathrm{{Ni}}$ 同周期元素, $\mathrm{{Cu}}$ 次外层为 18 电子,屏蔽作用大,有效核电荷数小,外层电子受引力小;
+
+（4） $\mathrm{{Zr}} \approx \mathrm{{Hf}}$ 镧系收缩的结果;
+
+(5) ${\mathrm{S}}^{2 - } > \mathrm{S}$ 同一元素,电子数越多,半径越大;
+
+（6） ${\mathrm{{Na}}}^{ + } > {\mathrm{{Al}}}^{3 + }$ 同一周期元素, ${\mathrm{{Al}}}^{3 + }$ 正电荷高;
+
+(7) ${\mathrm{{Pb}}}^{2 + } > {\mathrm{{Sn}}}^{2 + }$ 同一族元素的离子,正电荷数相同,但 ${\mathrm{{Pb}}}^{2 + }$ 比 ${\mathrm{{Sn}}}^{2 + }$ 多一电子层;
+
+(8) ${\mathrm{{Fe}}}^{2 + } > {\mathrm{{Fe}}}^{3 + }$ 同一元素离子,电子越少,正电荷越高则半径越小。
+"
+"试根据原子结构理论预测:
+
+（1）第八周期将包括多少种元素?
+
+（2）核外出现第一个 $5\mathrm{\;g}$ 电子的元素其原子序数是多少?
+
+（3）第 114 号元素位于第几周期? 第几族?","(1) 第八周期包括第八能级组,最多可容纳 50 个电子 $\left( {8{\mathrm{\;s}}^{2}5{\mathrm{\;g}}^{18}6{\mathrm{f}}^{14}7{\mathrm{\;d}}^{10}8{\mathrm{p}}^{6}}\right)$ ,即共有 50 种元素。
+
+（2）该元素原子价层电子排布为 $8{\mathrm{\;s}}^{2}5{\mathrm{\;g}}^{1}$ 。该元素原子序数为 121。
+
+（3）第 114 号元素原子电子排布为 $\left\lbrack \mathrm{{Rn}}\right\rbrack 5{\mathrm{f}}^{14}6{\mathrm{\;d}}^{10}7{\mathrm{\;s}}^{2}7{\mathrm{p}}^{2}$ 。该元素属于第七周期, IV A 族。"
+"比较大小并简要说明原因。
+
+（1）第一电离能: $\mathrm{O}$ 与 $\mathrm{N},\mathrm{{Cd}}$ 与 $\mathrm{{In}},\mathrm{{Cr}}$ 与 $\mathrm{W}$ ;
+
+（2）第一电子亲和能: $\mathrm{C}$ 与 $\mathrm{N},\mathrm{S}$ 与 $\mathrm{P}$ 。","(1) 第一电离能
+
+$\mathrm{N} > \mathrm{O}\mathrm{N}$ 的电子排布为 $1{\mathrm{\;s}}^{2}2{\mathrm{\;s}}^{2}2{\mathrm{p}}^{3}$ ,其 $2\mathrm{p}$ 轨道为半充满,比较稳定; 而 $\mathrm{O}$ 的电子排布为 $1{\mathrm{\;s}}^{2}2{\mathrm{\;s}}^{2}2{\mathrm{p}}^{4}$ ,其 $2\mathrm{p}$ 轨道失去一个电子后为半充满。
+
+$\mathrm{{Cd}} > \mathrm{{In}}\mathrm{{Cd}}$ 的价层电子排布为 $5{\mathrm{\;s}}^{2},5\mathrm{\;s}$ 轨道全充满,较稳定; 而 $\mathrm{{In}}$ 的价层电子排布为 $5{\mathrm{\;s}}^{2}5{\mathrm{p}}^{1}$ ,失去 $5\mathrm{p}$ 电子后为稳定结构。
+
+$\mathrm{W} > \mathrm{{Cr}}\mathrm{{Cr}}$ 与 $\mathrm{W}$ 同族, $\mathrm{W}$ 比 $\mathrm{{Cr}}$ 的核电荷数增加很多,但 $\mathrm{W}$ 半径比 $\mathrm{{Cr}}$ 增大不多,核对外层引力 $\mathrm{W} > \mathrm{{Cr}}$ 。
+
+（2）第一电子亲和能
+
+$\mathrm{C} > \mathrm{N}$ ,因 $\mathrm{N}$ 的 $2\mathrm{p}$ 轨道半充满,为较稳定状态,若再结合一个电子,要克服较多的成对能, 体系能量升高,第一电子亲和能较小; 而 $\mathrm{C}$ 的 $2\mathrm{p}$ 轨道未达半充满,再结合一个电子才达到半充满稳定结构, 因而第一电子亲和能较大。
+
+$\mathrm{S} > \mathrm{P},\mathrm{P}$ 与 $\mathrm{N}$ 同族, $3\mathrm{p}$ 轨道已达半充满,再结合电子时要克服较大的电子成对能; 而 $\mathrm{S}$ 原子 $3\mathrm{p}$ 轨道有 4 个电子,超过半充满,此外, $\mathrm{S}$ 的有效核电荷数比 $\mathrm{P}$ 大,半径 $\mathrm{S}$ 比 $\mathrm{P}$ 小,因而 $\mathrm{S}$ 容易得电子,电子亲和能比 $\mathrm{P}$ 大。"
+
