@@ -1,0 +1,223 @@
+question,answer
+"通过计算说明 ${\mathrm{K}}_{2}{\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}$ 能否氧化浓度分别为 $1\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 和 ${12}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 盐酸中的 ${\mathrm{{Cl}}}^{ - }$ 。已知 ${E}^{ \ominus }\left( {{\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}^{2 - }/{\mathrm{{Cr}}}^{3 + }}\right) = {1.36}\mathrm{\;V},{E}^{ \ominus }\left( {{\mathrm{{Cl}}}_{2}/{\mathrm{{Cl}}}^{ - }}\right) = {1.36}\mathrm{\;V}$ 。
+","盐酸浓度为 $1\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 时 (标准状态下):
+
+$$
+{E}^{ \ominus }\left( {{\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}^{2 - }/{\mathrm{{Cr}}}^{3 + }}\right) = {E}^{ \ominus }\left( {{\mathrm{{Cl}}}_{2}/{\mathrm{{Cl}}}^{ - }}\right)
+$$
+
+考虑由 ${\mathrm{{Cl}}}^{ - }$ 生成 ${\mathrm{{Cl}}}_{2}$ 时存在超电势,所以 ${\mathrm{K}}_{2}{\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}$ 不能氧化 $1\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 盐酸中的 ${\mathrm{{Cl}}}^{ - }$ 。
+
+盐酸浓度为 ${12}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 时, $c\left( {\mathrm{H}}^{ + }\right) = c\left( {\mathrm{{Cl}}}^{ - }\right) \approx {12}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 。由电极反应
+
+$$
+{\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}^{2 - } + {14}{\mathrm{H}}^{ + } + 6{\mathrm{e}}^{ - } = 2{\mathrm{{Cr}}}^{3 + } + 7{\mathrm{H}}_{2}\mathrm{O}
+$$
+
+则 ${\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}^{2 - }/{\mathrm{{Cr}}}^{3 + }$ 电对的电极电势 (设 ${\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}^{2 - }$ 和 ${\mathrm{{Cr}}}^{3 + }$ 的浓度符合标准状态):
+
+$$
+E = {E}^{ \ominus } + \frac{{0.059}\mathrm{\;V}}{6}\lg \frac{c{\left( {\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}^{2 - }\right) }^{14}{\left\lbrack c\left( {\mathrm{H}}^{ + }\right) \right\rbrack }^{14}}{c\left( {\mathrm{{Cr}}}^{3 + }\right) }
+$$
+
+$$
+= {E}^{ \ominus } + \frac{{0.059}\mathrm{\;V}}{6}\lg {\left\lbrack c\left( {\mathrm{H}}^{ + }\right) \right\rbrack }^{14} = {1.36}\mathrm{\;V} + \frac{{0.059}\mathrm{\;V}}{6}\lg {\left( {12}\right) }^{14}
+$$
+
+$$
+= {1.51}\mathrm{\;V}
+$$
+
+由电极反应
+
+$$
+{\mathrm{{Cl}}}_{2} + 2{\mathrm{e}}^{ - } = 2{\mathrm{{Cl}}}^{ - }
+$$
+
+则 ${\mathrm{{Cl}}}_{2}/{\mathrm{{Cl}}}^{ - }$ 电对的电极电势 (设 ${\mathrm{{Cl}}}_{2}$ 的分压符合标准状态):
+
+$$
+E = {E}^{ \ominus } + \frac{{0.059}\mathrm{\;V}}{2}\lg \frac{p\left( {\mathrm{{Cl}}}_{2}\right) /{p}^{ \ominus }}{{\left\lbrack c\left( {\mathrm{{Cl}}}^{ - }\right) /{c}^{ \ominus }\right\rbrack }^{2}}
+$$
+
+$$
+= {E}^{ \ominus } + \frac{{0.059}\mathrm{\;V}}{2}\lg \frac{1}{{\left\lbrack c\left( {\mathrm{{Cl}}}^{ - }\right) \right\rbrack }^{2}} = {1.36}\mathrm{\;V} + \frac{{0.059}\mathrm{\;V}}{2}\lg \frac{1}{{12}^{2}}
+$$
+
+$$
+= {1.30}\mathrm{\;V}
+$$
+
+计算结果表明, ${\mathrm{K}}_{2}{\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}$ 能氧化浓盐酸中的 ${\mathrm{{Cl}}}^{ - }$ :
+
+$$
+{\mathrm{K}}_{2}{\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7} + {14}\mathrm{{HCl}}\text{ (浓) } = 2{\mathrm{{CrCl}}}_{3} + 3{\mathrm{{Cl}}}_{2} \uparrow + 2\mathrm{{KCl}} + 7{\mathrm{H}}_{2}\mathrm{O}
+$$
+"
+为什么用 $\mathrm{{Cr}}\left( \text{II}\right)$ 可以除去氮气中痕量的氧气?," $\mathrm{{Cr}}\left( \text{II}\right)$ 具有强还原性,据此可以用来从氮气中除去痕量的氧:
+
+$$
+4{\mathrm{{Cr}}}^{2 + } + {\mathrm{O}}_{2} + 4{\mathrm{H}}^{ + } = 4{\mathrm{{Cr}}}^{3 + } + 2{\mathrm{H}}_{2}\mathrm{O}
+$$
+
+将气体通过 $\mathrm{{Cr}}\left( \text{ II }\right)$ 溶液, $\mathrm{{Cr}}\left( \text{ II }\right)$ 迅速被氮气中痕量的氧气所氧化,杂质氧气因而被除去。
+
+一般来说,凡是有强还原性且与 ${\mathrm{O}}_{2}$ 反应较快的还原剂都可用来除去氮气中痕量的氧气, 如保险粉 ${\mathrm{{Na}}}_{2}{\mathrm{\;S}}_{2}{\mathrm{O}}_{4}$ 等。
+"
+"在三份 ${\mathrm{{Cr}}}_{2}{\left( {\mathrm{{SO}}}_{4}\right) }_{3}$ 溶液中分别加入下列溶液:
+
+(1) ${\mathrm{{Na}}}_{2}\mathrm{\;S}$ ; (2) ${\mathrm{{Na}}}_{2}{\mathrm{{CO}}}_{3}$ ; (3) ${\mathrm{{NH}}}_{3} \cdot {\mathrm{H}}_{2}\mathrm{O}$ 。
+
+得到的沉淀各是什么? 写出化学反应方程式。
+","${\mathrm{{Cr}}}^{3 + }$ 正电荷数高,半径也比较小,极化能力强,在 ${\mathrm{{Na}}}_{2}\mathrm{\;S},{\mathrm{{Na}}}_{2}{\mathrm{{CO}}}_{3}$ 和 ${\mathrm{{NH}}}_{3} \cdot {\mathrm{H}}_{2}\mathrm{O}$ 溶液中均生成氢氧化物沉淀。
+
+(1) ${\mathrm{{Cr}}}^{3 + } + 3{\mathrm{\;S}}^{2 - } + 3{\mathrm{H}}_{2}\mathrm{O} = \mathrm{{Cr}}{\left( \mathrm{{OH}}\right) }_{3} \downarrow + 3{\mathrm{{HS}}}^{ - }$
+
+$2{\mathrm{{Cr}}}^{3 + } + 3{\mathrm{\;S}}^{2 - } + 6{\mathrm{H}}_{2}\mathrm{O} = 2\mathrm{{Cr}}{\left( \mathrm{{OH}}\right) }_{3} \downarrow + 3{\mathrm{H}}_{2}\mathrm{\;S} \uparrow$
+
+${\mathrm{{Na}}}_{2}\mathrm{\;S}$ 溶液过量时生成 ${\mathrm{{HS}}}^{ - },{\mathrm{{Cr}}}_{2}{\left( {\mathrm{{SO}}}_{4}\right) }_{3}$ 溶液过量时生成 ${\mathrm{H}}_{2}\mathrm{\;S}$ 。 ${\mathrm{H}}_{2}\mathrm{\;S}$ 溶解度为 ${0.1}\mathrm{\;{mol}}$ . ${\mathrm{{dm}}}^{-3}$ ,浓度较低时不能从溶液中逸出。
+
+(2) ${\mathrm{{Cr}}}^{3 + } + 3{\mathrm{{CO}}}_{3}^{2 - } + 3{\mathrm{H}}_{2}\mathrm{O} = \mathrm{{Cr}}{\left( \mathrm{{OH}}\right) }_{3} \downarrow + 3{\mathrm{{HCO}}}_{3}^{ - }$
+
+$2{\mathrm{{Cr}}}^{3 + } + 3{\mathrm{{CO}}}_{3}^{2 - } + 3{\mathrm{H}}_{2}\mathrm{O} = 2\mathrm{{Cr}}{\left( \mathrm{{OH}}\right) }_{3} \downarrow + 3{\mathrm{{CO}}}_{2} \uparrow$
+
+${\mathrm{{Na}}}_{2}{\mathrm{{CO}}}_{3}$ 溶液过量时生成 ${\mathrm{{HCO}}}_{3}^{ - },{\mathrm{{Cr}}}_{2}{\left( {\mathrm{{SO}}}_{4}\right) }_{3}$ 溶液过量时生成 ${\mathrm{{CO}}}_{2}$ 。 ${\mathrm{{CO}}}_{2}$ 溶解度为 ${0.04}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ ,浓度较高时从溶液中逸出。
+
+(3) ${\mathrm{{Cr}}}^{3 + } + 3{\mathrm{{NH}}}_{3} \cdot {\mathrm{H}}_{2}\mathrm{O} = \mathrm{{Cr}}{\left( \mathrm{{OH}}\right) }_{3} \downarrow + 3{\mathrm{{NH}}}_{4}^{ + }$
+
+由于 $\mathrm{{Cr}}{\left( \mathrm{{OH}}\right) }_{3}$ 溶度积常数很小而 ${\left\lbrack \mathrm{{Cr}}{\left( {\mathrm{{NH}}}_{3}\right) }_{6}\right\rbrack }^{3 + }$ 稳定常数不是很大,在过量 ${\mathrm{{NH}}}_{3} \cdot {\mathrm{H}}_{2}\mathrm{O}$ 中 $\mathrm{{Cr}}{\left( \mathrm{{OH}}\right) }_{3}$ 溶解度不大。
+"
+"测定水中溶氧量的方法是,在隔绝空气的条件下向一定量的水样中加入适量的 ${\mathrm{{MnCl}}}_{2}$ 及过量的 $\mathrm{{NaOH}}$ 溶液。然后以过量的 ${\mathrm{H}}_{2}{\mathrm{{SO}}}_{4}$ 酸化该溶液,再加入过量的 $\mathrm{{KI}}$ 溶液。充分反应后用已知浓度的标准 ${\mathrm{{Na}}}_{2}{\mathrm{\;S}}_{2}{\mathrm{O}}_{3}$ 溶液滴定生成的 ${\mathrm{I}}_{2}$ 。
+
+写出有关化学反应方程式,并给出 ${\mathrm{O}}_{2}$ 和消耗 ${\mathrm{{Na}}}_{2}{\mathrm{\;S}}_{2}{\mathrm{O}}_{3}$ 的物质的量之比。","在碱性溶液中,水中溶解的氧气能将 ${\mathrm{{Mn}}}^{2 + }$ 氧化成 $\mathrm{{MnO}}{\left( \mathrm{{OH}}\right) }_{2}$ 或 ${\mathrm{{MnO}}}_{2}$ :
+
+$$
+{\mathrm{{Mn}}}^{2 + } + 2{\mathrm{{OH}}}^{ - } = \mathrm{{Mn}}{\left( \mathrm{{OH}}\right) }_{2} \downarrow
+$$
+
+$$
+2\mathrm{{Mn}}{\left( \mathrm{{OH}}\right) }_{2} + {\mathrm{O}}_{2} = 2\mathrm{{MnO}}{\left( \mathrm{{OH}}\right) }_{2}
+$$
+
+在酸性溶液中, $\mathrm{{MnO}}{\left( \mathrm{{OH}}\right) }_{2}$ 能将 ${\mathrm{I}}^{ - }$ 氧化成 ${\mathrm{I}}_{2}$ :
+
+$$
+\mathrm{{MnO}}{\left( \mathrm{{OH}}\right) }_{2} + 2{\mathrm{I}}^{ - } + 4{\mathrm{H}}^{ + } = {\mathrm{{Mn}}}^{2 + } + {\mathrm{I}}_{2} + 3{\mathrm{H}}_{2}\mathrm{O}
+$$
+
+通过消耗 ${\mathrm{S}}_{2}{\mathrm{O}}_{3}^{2 - }$ 的量可间接地测定水中溶氧量:
+
+$$
+{\mathrm{I}}_{2} + 2{\mathrm{\;S}}_{2}{\mathrm{O}}_{3}^{2 - } = {\mathrm{S}}_{4}{\mathrm{O}}_{6}^{2 - } + 2{\mathrm{I}}^{ - }
+$$
+
+根据上述反应式得各物质的计量关系:
+
+$$
+{\mathrm{O}}_{2} \sim 2\mathrm{{MnO}}{\left( \mathrm{{OH}}\right) }_{2} \sim 2{\mathrm{I}}_{2} \sim 4{\mathrm{\;S}}_{2}{\mathrm{O}}_{3}^{2 - }
+$$
+
+从而有 ${\mathrm{O}}_{2}$ 和 ${\mathrm{{Na}}}_{2}{\mathrm{\;S}}_{2}{\mathrm{O}}_{3}$ 的定量关系为 ${\mathrm{O}}_{2} : {\mathrm{S}}_{2}{\mathrm{O}}_{3}^{2 - } = 1 : 4$ 。
+"
+"根据下列实验现象, 给出化学反应方程式。在酸性介质中,用 $\mathrm{{Zn}}$ 还原 ${\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}^{2 - }$ 时,溶液由橙色经绿色最后变为蓝色,放置一段时间后又变为绿色。"," ${\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}^{2 - } + 3\mathrm{{Zn}} + {14}{\mathrm{H}}^{ + } = 2{\mathrm{{Cr}}}^{3 + } + 3{\mathrm{{Zn}}}^{2 + } + 7{\mathrm{H}}_{2}\mathrm{O}$
+
+$2{\mathrm{{Cr}}}^{3 + } + \mathrm{{Zn}} = 2{\mathrm{{Cr}}}^{2 + } + {\mathrm{{Zn}}}^{2 + }$
+
+$4{\mathrm{{Cr}}}^{2 + } + {\mathrm{O}}_{2} + 4{\mathrm{H}}^{ + } = 4{\mathrm{{Cr}}}^{3 + } + 2{\mathrm{H}}_{2}\mathrm{O}$
+"
+"根据下列实验现象, 给出化学反应方程式。向酸性 ${\mathrm{K}}_{2}{\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}$ 溶液中通入 ${\mathrm{{SO}}}_{2}$ 气体时,溶液由橙色变为绿色。", ${\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}^{2 - } + 3{\mathrm{{SO}}}_{2} + 2{\mathrm{H}}^{ + } = 2{\mathrm{{Cr}}}^{3 + } + 3{\mathrm{{SO}}}_{4}^{2 - } + {\mathrm{H}}_{2}\mathrm{O}$
+"根据下列实验现象, 给出化学反应方程式。向 ${\mathrm{{MnSO}}}_{4}$ 溶液中滴加 $\mathrm{{NaOH}}$ 溶液有白色沉淀生成,在空气中放置沉淀逐渐变为棕褐色。"," ${\mathrm{{Mn}}}^{2 + } + 2{\mathrm{{OH}}}^{ - } = \mathrm{{Mn}}{\left( \mathrm{{OH}}\right) }_{2} \downarrow$
+
+$2\mathrm{{Mn}}{\left( \mathrm{{OH}}\right) }_{2} + {\mathrm{O}}_{2} = 2\mathrm{{MnO}}{\left( \mathrm{{OH}}\right) }_{2}$"
+"根据下列实验现象, 给出化学反应方程式。向酸性 ${\mathrm{{KMnO}}}_{4}$ 溶液中通入 ${\mathrm{H}}_{2}\mathrm{\;S}$ 气体,溶液由紫色变成近无色,并有乳白色沉淀析出。", $2{\mathrm{{MnO}}}_{4}^{ - } + 5{\mathrm{H}}_{2}\mathrm{\;S} + 6{\mathrm{H}}^{ + } = 2{\mathrm{{Mn}}}^{2 + } + 5\mathrm{\;S} \downarrow + 8{\mathrm{H}}_{2}\mathrm{O}$
+"解释实验现象。
+向 ${\mathrm{{BaCrO}}}_{4}$ 固体加浓盐酸时无明显变化,经加热后溶液变绿。","${\mathrm{{BaCrO}}}_{4}$ 与浓盐酸反应较慢; 加热时反应速率较快,同时 $\mathrm{{Cr}}\left( \mathrm{{VI}}\right)$ 氧化能力增强。反应
+
+产物 ${\mathrm{{CrCl}}}_{3}$ 为绿色:
+
+$$
+2{\mathrm{{BaCrO}}}_{4} + 2{\mathrm{H}}^{ + } = {\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}^{2 - } + 2{\mathrm{{Ba}}}^{2 + } + {\mathrm{H}}_{2}\mathrm{O}
+$$
+
+$$
+{\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}^{2 - } + 6{\mathrm{{Cl}}}^{ - } + {14}{\mathrm{H}}^{ + } = 2{\mathrm{{Cr}}}^{3 + } + 3{\mathrm{{Cl}}}_{2} \uparrow + 7{\mathrm{H}}_{2}\mathrm{O}
+$$
+"
+"解释实验现象。
+向 ${\mathrm{K}}_{2}{\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}$ 溶液中滴加 ${\mathrm{{AgNO}}}_{3}$ 溶液,有砖红色沉淀析出,再加入 $\mathrm{{NaCl}}$ 溶液并煮沸, 沉淀变为白色。"," ${\mathrm{K}}_{2}{\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}$ 与 ${\mathrm{{AgNO}}}_{3}$ 生成溶解度较小的 ${\mathrm{{Ag}}}_{2}{\mathrm{{CrO}}}_{4}$ (砖红色),加入 $\mathrm{{NaCl}}$ 后沉淀转化为溶解度更小的 $\mathrm{{AgCl}}$ :
+
+$$
+{\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}^{2 - } + 4{\mathrm{{Ag}}}^{ + } + {\mathrm{H}}_{2}\mathrm{O} = 2{\mathrm{{Ag}}}_{2}{\mathrm{{CrO}}}_{4} \downarrow + 2{\mathrm{H}}^{ + }
+$$
+
+$$
+{\mathrm{{Ag}}}_{2}{\mathrm{{CrO}}}_{4} + 2{\mathrm{{Cl}}}^{ - } = 2\mathrm{{AgCl}} \downarrow + {\mathrm{{CrO}}}_{4}^{2 - }
+$$
+"
+"解释实验现象。
+金属铬溶于盐酸生成蓝色溶液, 后又转化为绿色溶液。","铬可以缓慢溶于盐酸先生成蓝色的 ${\mathrm{{CrCl}}}_{2}$ :
+
+$$
+\mathrm{{Cr}} + 2\mathrm{{HCl}} = {\mathrm{{CrCl}}}_{2} + {\mathrm{H}}_{2} \uparrow
+$$
+
+$\mathrm{{Cr}}\left( \text{ II }\right)$ 还原性很强,在空气中被氧化成绿色的 $\mathrm{{Cr}}\left( \text{ III }\right)$ :
+
+$$
+4{\mathrm{{CrCl}}}_{2} + {\mathrm{O}}_{2} + 4\mathrm{{HCl}} = 4{\mathrm{{CrCl}}}_{3} + 2{\mathrm{H}}_{2}\mathrm{O}
+$$
+"
+叙述下列反应实验现象并用化学反应方程式加以说明。 向 ${\mathrm{{CrCl}}}_{3}$ 溶液中缓慢滴加 $\mathrm{{NaOH}}$ 溶液;,"向 ${\mathrm{{CrCl}}}_{3}$ 溶液中缓慢滴加 $\mathrm{{NaOH}}$ 溶液,先有灰蓝色沉淀生成:
+
+$$
+{\mathrm{{Cr}}}^{3 + } + 3{\mathrm{{OH}}}^{ - } = \mathrm{{Cr}}{\left( \mathrm{{OH}}\right) }_{3} \downarrow
+$$
+
+$\mathrm{{NaOH}}$ 溶液过量则沉淀逐渐溶解,最后得到绿色溶液:
+
+$$
+\mathrm{{Cr}}{\left( \mathrm{{OH}}\right) }_{3} + {\mathrm{{OH}}}^{ - } = {\left\lbrack \mathrm{{Cr}}{\left( \mathrm{{OH}}\right) }_{4}\right\rbrack }^{ - }
+$$
+"
+叙述下列反应实验现象并用化学反应方程式加以说明。向 ${\mathrm{K}}_{2}{\mathrm{{CrO}}}_{4}$ 与 ${\mathrm{H}}_{2}{\mathrm{O}}_{2}$ 混合溶液中加入硫酸;,"溶液先变为蓝色,因生成了 ${\mathrm{{CrO}}}_{5}$ :
+
+$$
+{\mathrm{K}}_{2}{\mathrm{{CrO}}}_{4} + 2{\mathrm{H}}_{2}{\mathrm{O}}_{2} + {\mathrm{H}}_{2}{\mathrm{{SO}}}_{4} = {\mathrm{{CrO}}}_{5} \downarrow + 3{\mathrm{H}}_{2}\mathrm{O} + {\mathrm{K}}_{2}{\mathrm{{SO}}}_{4}
+$$
+
+${\mathrm{{CrO}}}_{5}$ 在酸性溶液中不稳定而分解放出 ${\mathrm{O}}_{2}$ ,最后得到绿色溶液:
+
+$$
+4{\mathrm{{CrO}}}_{5} + {12}{\mathrm{H}}^{ + } = 4{\mathrm{{Cr}}}^{3 + } + 7{\mathrm{O}}_{2} \uparrow + 6{\mathrm{H}}_{2}\mathrm{O}
+$$
+"
+"叙述下列反应实验现象并用化学反应方程式加以说明。向 ${\mathrm{K}}_{2}{\mathrm{{MnO}}}_{4}$ 固体缓慢滴加水并充分摇动。
+","水较少时 ${\mathrm{K}}_{2}{\mathrm{{MnO}}}_{4}$ 固体溶解,溶液为绿色。水较多时, ${\mathrm{K}}_{2}{\mathrm{{MnO}}}_{4}$ 发生歧化反应,溶液变为紫红色并有棕褐色沉淀生成:
+
+$$
+3{\mathrm{{MnO}}}_{4}^{2 - } + 2{\mathrm{H}}_{2}\mathrm{O} = 2{\mathrm{{MnO}}}_{4}^{ - } + {\mathrm{{MnO}}}_{2} \downarrow + 4{\mathrm{{OH}}}^{ - }
+$$
+"
+"(A) 的水合物为紫色晶体。向 $\left( \mathrm{A}\right)$ 的水溶液中加入 ${\mathrm{{Na}}}_{2}{\mathrm{{CO}}}_{3}$ 溶液有灰蓝色沉淀 $\left( \mathrm{B}\right)$ 生成。 (B) 溶于过量 $\mathrm{{NaOH}}$ 溶液得到绿色溶液 $\left( \mathrm{C}\right)$ 。向 $\left( \mathrm{C}\right)$ 中滴加 ${\mathrm{H}}_{2}{\mathrm{O}}_{2}$ 得黄色溶液 $\left( \mathrm{D}\right)$ 。取少量 $\left( \mathrm{D}\right)$ 经醋酸酸化后加入 ${\mathrm{{BaCl}}}_{2}$ 溶液则析出黄色沉淀 $\left( \mathrm{E}\right)$ 。将 $\left( \mathrm{D}\right)$ 用硫酸酸化后通入 ${\mathrm{{SO}}}_{2}$ 气体得到绿色溶液 $\left( \mathrm{F}\right)$ 。将 $\left( \mathrm{A}\right)$ 溶于浓盐酸后加入 $\mathrm{{KI}}$ 溶液经鉴定有 ${\mathrm{I}}_{2}$ 生成,同时放出无色气体 $\left( \mathrm{G}\right)$ 。 $\left( \mathrm{G}\right)$ 在空气中逐渐变为棕色。试给出 $\left( \mathrm{A}\right) \text{、}\left( \mathrm{B}\right) \text{、}\left( \mathrm{C}\right) \text{、}\left( \mathrm{D}\right) \text{、}\left( \mathrm{E}\right) \text{、}\left( \mathrm{F}\right)$ 和 (G) 所代表的物质的化学式。
+","(A)- $\mathrm{{Cr}}{\left( {\mathrm{{NO}}}_{3}\right) }_{3}$ ; (B) $- \mathrm{{Cr}}{\left( \mathrm{{OH}}\right) }_{3}$ ; (D) $- {\mathrm{{CrO}}}_{4}^{2 - }$ ;
+
+(E) $- {\mathrm{{BaCrO}}}_{4}$ ; (F) $- {\mathrm{{Cr}}}_{2}{\left( {\mathrm{{SO}}}_{4}\right) }_{3}$ ; (G) $- \mathrm{{NO}}$ 。"
+将黄色晶体 $\left( \mathrm{A}\right)$ 溶于水后通入 ${\mathrm{{SO}}}_{2}$ 气体得绿色溶液 $\left( \mathrm{B}\right)$ 。向 $\left( \mathrm{B}\right)$ 中加入过量的 $\mathrm{{NaOH}}$ 溶液得绿色溶液 $\left( \mathrm{C}\right)$ 。向 $\left( \mathrm{C}\right)$ 中滴加 ${\mathrm{H}}_{2}{\mathrm{O}}_{2}$ 得黄色溶液 $\left( \mathrm{D}\right)$ 。将 $\left( \mathrm{D}\right)$ 酸化至弱酸性后加入 $\mathrm{{Pb}}{\left( {\mathrm{{NO}}}_{3}\right) }_{2}$ 有黄色沉淀 $\left( \mathrm{E}\right)$ 生成。向 $\left( \mathrm{B}\right)$ 中加入氨水至过量有沉淀 $\left( \mathrm{F}\right)$ 生成。过滤后将 (F) 与 ${\mathrm{{KClO}}}_{3}$ 和 $\mathrm{{KOH}}$ 共熔又得到 $\left( \mathrm{A}\right)$ 。试给出 $\left( \mathrm{A}\right) \text{、}\left( \mathrm{B}\right) \text{、}\left( \mathrm{C}\right) \text{、}\left( \mathrm{D}\right) \text{、}\left( \mathrm{E}\right)$ 和 $\left( \mathrm{F}\right)$ 所代表的物质的化学式。," $\left( \mathrm{A}\right) - {\mathrm{K}}_{2}{\mathrm{{CrO}}}_{4}$ ; $\left( \mathrm{B}\right) - {\mathrm{{Cr}}}_{2}{\left( {\mathrm{{SO}}}_{4}\right) }_{3}$ ; $\left( \mathrm{C}\right) - {\left\lbrack \mathrm{{Cr}}{\left( \mathrm{{OH}}\right) }_{4}\right\rbrack }^{ - }$ 或 ${\mathrm{{CrO}}}_{2}^{ - }$ ; $\left( \mathrm{D}\right) - {\mathrm{{CrO}}}_{4}^{2 - }$ ;
+
+(E) $- {\mathrm{{PbCrO}}}_{4}$ ; (F) $- \mathrm{{Cr}}{\left( \mathrm{{OH}}\right) }_{3}$ 。
+"
+"红色固体 (A) 溶于热浓盐酸放出气体 (B), 溶液经冷却后析出绿色晶体 (C)。少量 (B) 通入 $\mathrm{{KI}}$ 溶液中则溶液变黄。向 $\left( \mathrm{C}\right)$ 的水溶液中加入 ${\mathrm{{Na}}}_{2}{\mathrm{{CO}}}_{3}$ 溶液生成沉淀 $\left( \mathrm{D}\right)$ 。将 $\left( \mathrm{D}\right)$ 溶于 $\mathrm{{KOH}}$ 溶液后加入 ${\mathrm{H}}_{2}{\mathrm{O}}_{2}$ 溶液得到黄色溶液 (E)。用稀硫酸酸化溶液 (E) 后,经蒸发、 浓缩后冷却, 析出橘红色晶体 (F)。(F) 与浓硫酸作用能够得到 (A)。试给出 (A)、(B)、 (C)、(D)、(E) 和 (F) 所代表的物质的化学式。","(A) $- {\mathrm{{CrO}}}_{3}$ ; $\;$ (B) $- {\mathrm{{Cl}}}_{2}$ ; (C) $- {\mathrm{{CrCl}}}_{3} \cdot 6{\mathrm{H}}_{2}\mathrm{O}$ ;
+
+(D) $- \mathrm{{Cr}}{\left( \mathrm{{OH}}\right) }_{3}$ ; (E) $- {\mathrm{K}}_{2}{\mathrm{{CrO}}}_{4}$ ; (F) $- {\mathrm{K}}_{2}{\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}$ 。"
+"白色粉末 (A) 溶于水后与 $\mathrm{{NaOH}}$ 溶液作用生成白色沉淀 (B)。(B) 与 ${\mathrm{H}}_{2}{\mathrm{O}}_{2}$ 溶液作用转化为棕黑色沉淀 $\left( \mathrm{C}\right)$ 。 $\left( \mathrm{C}\right)$ 与 $\mathrm{{KOH}}$ 和 ${\mathrm{{KClO}}}_{3}$ 共熔得到绿色化合物 $\left( \mathrm{D}\right)$ 。将 $\left( \mathrm{D}\right)$ 溶于 $\mathrm{{KOH}}$ 溶液后加入氯水生成紫色的 $\left( \mathrm{E}\right)$ 。向 $\left( \mathrm{E}\right)$ 的水溶液中通入过量的 ${\mathrm{{SO}}}_{2}$ 气体得到无色溶液, 再进行蒸发、浓缩后冷却, 析出水合晶体 (F)。将 (F) 小心加热又生成白色粉末 (A)。试给出 (A)、(B)、(C)、(D)、(E) 和 (F) 所代表的物质的化学式。","(A)- ${\mathrm{{MnSO}}}_{4}$ ; (B)- $\mathrm{{Mn}}{\left( \mathrm{{OH}}\right) }_{2}$ ; (C) $- {\mathrm{{MnO}}}_{2}$ ;
+
+(D) $- {\mathrm{K}}_{2}{\mathrm{{MnO}}}_{4}$ ; (E) $- {\mathrm{{KMnO}}}_{4}$ ; (F) $- {\mathrm{{MnSO}}}_{4} \cdot 7{\mathrm{H}}_{2}\mathrm{O}$ 。
+"
+"绿色固体 (A) 易溶于水,其水溶液中通入 ${\mathrm{{CO}}}_{2}$ 即得棕黑色固体 (B) 和紫红色溶液 (C)。 (B) 与浓盐酸共热时得黄绿色气体 (D) 和近乎无色溶液 (E)。将溶液 (E) 和溶液 (C) 混合能生成沉淀 (B)。将气体 (D) 通入 (A) 的溶液, 可得 (C)。试给出 (A)、(B)、(C)、(D) 和 (E) 所代表的物质的化学式。","(A) $- {\mathrm{K}}_{2}{\mathrm{{MnO}}}_{4}$ ; (B) $- {\mathrm{{MnO}}}_{2}$ ; (C)- ${\mathrm{{KMnO}}}_{4}$ 或 ${\mathrm{{MnO}}}_{4}^{ - }$ ;
+
+(D) $- {\mathrm{{Cl}}}_{2}$ ; (E)- ${\mathrm{{MnCl}}}_{2}$ 或 ${\mathrm{{Mn}}}^{2 + }$ 。"
+"棕黑色粉末 (A) 不溶于水。将 (A) 与稀硫酸混合后加入 ${\mathrm{H}}_{2}{\mathrm{O}}_{2}$ 并微热得无色溶液 (B)。 向酸性的 $\left( \mathrm{B}\right)$ 中加入 ${\mathrm{{NaBiO}}}_{3}$ 粉末后得紫红色溶液 $\left( \mathrm{C}\right)$ 。向 $\left( \mathrm{C}\right)$ 中加入 $\mathrm{{NaOH}}$ 溶液至碱性后滴加 ${\mathrm{{Na}}}_{2}{\mathrm{{SO}}}_{3}$ 溶液有绿色溶液 $\left( \mathrm{D}\right)$ 生成。向 $\left( \mathrm{D}\right)$ 中滴加稀硫酸又生成 $\left( \mathrm{A}\right)$ 和 $\left( \mathrm{C}\right)$ 。少量 (A) 与浓盐酸作用在室温下生成暗黄色溶液 (E), 加热 (E) 后有黄绿色气体 (F) 和近无色的溶液 $\left( \mathrm{G}\right)$ 生成。向 $\left( \mathrm{B}\right)$ 中滴加 $\mathrm{{NaOH}}$ 溶液有白色沉淀 $\left( \mathrm{H}\right)$ 生成, $\left( \mathrm{H}\right)$ 不溶于过量的 $\mathrm{{NaOH}}$ 溶液。但在空气中 $\left( \mathrm{H}\right)$ 逐渐变为棕黑色。试给出 $\left( \mathrm{A}\right) \text{、}\left( \mathrm{B}\right) \text{、}\left( \mathrm{C}\right) \text{、}\left( \mathrm{D}\right) \text{、}\left( \mathrm{E}\right) \text{、}\left( \mathrm{F}\right)$ 、 (G) 和 (H) 所代表的物质的化学式。"," (A) $- {\mathrm{{MnO}}}_{2}$ ; (B) $- {\mathrm{{MnSO}}}_{4}$ ; (C) $- {\mathrm{{NaMnO}}}_{4}$ ; (D) $- {\mathrm{{Na}}}_{2}{\mathrm{{MnO}}}_{4}$ ;
+
+(E) $- {\mathrm{{MnCl}}}_{4}$ ; (F) $- {\mathrm{{Cl}}}_{2}$ ; (G) $- {\mathrm{{MnCl}}}_{2}$ ; (H)-Mn(OH) ${}_{2}$ "
+"",
+"",

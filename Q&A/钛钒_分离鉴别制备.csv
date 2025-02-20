@@ -1,0 +1,88 @@
+question,answer
+写出从钛铁矿 $\left( {\mathrm{{FeTiO}}}_{3}\right)$ 提取钛白粉的化学反应方程式。,"先用浓硫酸处理钛铁矿粉:
+
+$$
+{\mathrm{{FeTiO}}}_{3} + 3{\mathrm{H}}_{2}{\mathrm{{SO}}}_{4}\overset{\bigtriangleup }{ \rightleftharpoons }\mathrm{{Ti}}{\left( {\mathrm{{SO}}}_{4}\right) }_{2} + {\mathrm{{FeSO}}}_{4} + 3{\mathrm{H}}_{2}\mathrm{O}
+$$
+
+加入铁粉防止 ${\mathrm{{Fe}}}^{2 + }$ 被氧化。低温下结晶析出 ${\mathrm{{FeSO}}}_{4} \cdot 7{\mathrm{H}}_{2}\mathrm{O}$ ,过滤后稀释、加热使 $\mathrm{{Ti}}{\left( {\mathrm{{SO}}}_{4}\right) }_{2}$ 水解转化为 ${\mathrm{{TiOSO}}}_{4}$ ,进一步沉淀出偏钛酸 ${\mathrm{H}}_{2}{\mathrm{{TiO}}}_{3}$ ,然后煅烧 ${\mathrm{H}}_{2}{\mathrm{{TiO}}}_{3}$ ,脱水得 ${\mathrm{{TiO}}}_{2}$ :
+
+$$
+{\mathrm{H}}_{2}{\mathrm{{TiO}}}_{3}\xrightarrow[]{\text{ 煅烧 }}{\mathrm{{TiO}}}_{2} + {\mathrm{H}}_{2}\mathrm{O}
+$$
+"
+由 ${\mathrm{{TiO}}}_{2}$ 制备 ${\mathrm{{TiCl}}}_{4}$ 。,"高温下 ${\mathrm{{TiO}}}_{2}$ 和炭粉的混合物与 ${\mathrm{{Cl}}}_{2}$ 反应得到 ${\mathrm{{TiCl}}}_{4}$ :
+
+$$
+{\mathrm{{TiO}}}_{2} + 2\mathrm{C} + 2{\mathrm{{Cl}}}_{2}\xrightarrow[]{\bigtriangleup }{\mathrm{{TiCl}}}_{4} + 2\mathrm{{CO}}
+$$
+
+${\mathrm{{TiO}}}_{2}$ 和 ${\mathrm{{CCl}}}_{4}$ 共热也能生成 ${\mathrm{{TiCl}}}_{4}$ :
+
+$$
+{\mathrm{{TiO}}}_{2} + {\mathrm{{CCl}}}_{4} = {\mathrm{{TiCl}}}_{4} + {\mathrm{{CO}}}_{2} \uparrow
+$$
+"
+如何由金属钛制取三氯化钛和钛酸钡?,"三氯化钛一般由金属钛在高温下还原四氯化钛制得:
+
+$$
+\mathrm{{Ti}} + 2{\mathrm{{Cl}}}_{2}\xrightarrow[]{\text{ 高温 }}{\mathrm{{TiCl}}}_{4}
+$$
+
+$$
+3{\mathrm{{TiCl}}}_{4} + \mathrm{{Ti}}\xrightarrow[]{{600}{}^{ \circ }\mathrm{C}}4{\mathrm{{TiCl}}}_{3}
+$$
+
+金属钛在加热条件下与盐酸反应也可制得紫色的 ${\mathrm{{TiCl}}}_{3}$ 溶液。
+
+钛酸钡可通过以下反应制备:
+
+$$
+\mathrm{{Ti}} + {\mathrm{O}}_{2}\xrightarrow[]{\text{ 高温 }}{\mathrm{{TiO}}}_{2}
+$$
+
+$$
+{\mathrm{{TiO}}}_{2} + {\mathrm{{BaCO}}}_{3}\xrightarrow[]{\text{ 熔融 }}{\mathrm{{BaTiO}}}_{3} + {\mathrm{{CO}}}_{2} \uparrow
+$$
+"
+写出以金属钒为原料制取五氧化二钒和偏钒酸铵的化学反应方程式。,"金属钒与氧气在 ${660}^{ \circ }\mathrm{C}$ 共热可得到五氧化二钒:
+
+$$
+4\mathrm{\;V} + 5{\mathrm{O}}_{2}\xrightarrow[]{{660}{}^{ \circ }\mathrm{C}}2{\mathrm{\;V}}_{2}{\mathrm{O}}_{5}
+$$
+
+${\mathrm{V}}_{2}{\mathrm{O}}_{5}$ 在热的 $\mathrm{{NaOH}}$ 溶液中生成浅黄色的偏钒酸根 ${\mathrm{{VO}}}_{3}^{ - }$ :
+
+$$
+{\mathrm{V}}_{2}{\mathrm{O}}_{5} + 2{\mathrm{{OH}}}^{ - }\xrightarrow[]{\bigtriangleup }2{\mathrm{{VO}}}_{3}^{ - } + {\mathrm{H}}_{2}\mathrm{O}
+$$
+
+用盐酸中和至 $\mathrm{{pH}} = {7.5} \sim 8$ ,过滤,滤液加热到 ${70} \sim {80}{}^{ \circ }\mathrm{C}$ ,搅拌下加入氯化铵溶液,析出偏钒酸铵:
+
+$$
+{\mathrm{{VO}}}_{3}^{ - } + {\mathrm{{NH}}}_{4}^{ + } = {\mathrm{{NH}}}_{4}{\mathrm{{VO}}}_{3}
+$$
+"
+"紫色溶液可能是 ${\mathrm{{TiCl}}}_{3}$ 溶液和 ${\mathrm{{KMnO}}}_{4}$ 溶液中的一种,试加以鉴别。","向紫色溶液中滴加 ${\mathrm{{FeCl}}}_{3}$ 溶液,若紫色褪去,则原溶液为 ${\mathrm{{TiCl}}}_{3}$ 溶液,发生的反应为
+
+$$
+{\mathrm{{Ti}}}^{3 + } + {\mathrm{{Fe}}}^{3 + } + {\mathrm{H}}_{2}\mathrm{O} = {\mathrm{{TiO}}}^{2 + } + {\mathrm{{Fe}}}^{2 + } + 2{\mathrm{H}}^{ + }
+$$
+"
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
