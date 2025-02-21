@@ -1,0 +1,492 @@
+query,true_answer,reasoning,model_answer,knowledge_accuracy,reasoning_accuracy,final_answer_accuracy
+"反应 ${\mathrm{C}}_{2}{\mathrm{H}}_{6} = {\mathrm{C}}_{2}{\mathrm{H}}_{4} + {\mathrm{H}}_{2}$ 开始阶段反应级数近似为 $3/2$ 级, ${910}\mathrm{\;K}$ 时速率常数为 1. ${13}{\mathrm{{dm}}}^{\frac{3}{2}} \cdot {\mathrm{{mol}}}^{-\frac{1}{2}} \cdot {\mathrm{s}}^{-1}$ 。试计算 ${\mathrm{C}}_{2}{\mathrm{H}}_{6}\left( \mathrm{\;g}\right)$ 的压强为 ${1.33} \times {10}^{4}\mathrm{\;{Pa}}$ 时的起始分解速率 ${v}_{0}$ 。","以 $c\left( {{\mathrm{C}}_{2}{\mathrm{H}}_{6}}\right)$ 的变化表示起始分解速率:
+
+$$
+{v}_{0} = - \frac{\mathrm{d}c\left( {{\mathrm{C}}_{2}{\mathrm{H}}_{6}}\right) }{\mathrm{d}t} = k{\left\lbrack c\left( {\mathrm{C}}_{2}{\mathrm{H}}_{6}\right) \right\rbrack }^{\frac{3}{2}}
+$$
+
+由理想气体状态方程 ${pV} = {nRT}$ 得
+
+$$
+c\left( {{\mathrm{C}}_{2}{\mathrm{H}}_{6}}\right) = \frac{n}{V} = \frac{p}{RT}
+$$
+
+$$
+{v}_{0} = k{\left( \frac{p}{RT}\right) }^{\frac{3}{2}} = {1.13}{\mathrm{{dm}}}^{\frac{3}{2}} \cdot {\mathrm{{mol}}}^{-\frac{1}{2}} \cdot {\mathrm{s}}^{-1} \times {\left( \frac{{1.33} \times {10}^{4}\mathrm{\;{Pa}}}{{8.314} \times {10}^{3}\mathrm{\;{Pa}} \cdot {\mathrm{{dm}}}^{3} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1} \times {910}\mathrm{\;K}}\right) }^{\frac{3}{2}}
+$$
+
+$$
+= {8.3} \times {10}^{-5}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3} \cdot {\mathrm{s}}^{-1}
+$$
+","：  
+对于一个反应 \({\mathrm{C}}_{2}{\mathrm{H}}_{6} = {\mathrm{C}}_{2}{\mathrm{H}}_{4} + {\mathrm{H}}_{2}\)，其反应级数为 \(\frac{3}{2}\) 级，速率方程可以表示为：
+
+\[
+v = k \cdot [\mathrm{C}_2\mathrm{H}_6]^{\frac{3}{2}}
+\]
+
+其中，\(v\) 是反应速率，\(k\) 是速率常数，\([\mathrm{C}_2\mathrm{H}_6]\) 是乙烷的浓度。
+
+已知在 910 K 时，速率常数 \(k = 1.13 \, \mathrm{dm}^{\frac{3}{2}} \cdot \mathrm{mol}^{-\frac{1}{2}} \cdot \mathrm{s}^{-1}\)。
+
+首先，我们需要将乙烷的压强转换为浓度。根据理想气体状态方程：
+
+\[
+PV = nRT \quad \Rightarrow \quad C = \frac{P}{RT}
+\]
+
+其中，\(C\) 是浓度，\(P\) 是压强，\(R\) 是理想气体常数，\(T\) 是温度。
+
+给定压强 \(P = 1.33 \times 10^4 \, \mathrm{Pa}\)，温度 \(T = 910 \, \mathrm{K}\)，理想气体常数 \(R = 8.314 \, \mathrm{J} \cdot \mathrm{mol}^{-1} \cdot \mathrm{K}^{-1}\)，我们可以计算浓度：
+
+\[
+C = \frac{1.33 \times 10^4}{8.314 \times 910} \, \mathrm{mol} \cdot \mathrm{dm}^{-3}
+\]
+
+计算得：
+
+\[
+C \approx 1.76 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}
+\]
+
+将浓度代入速率方程：
+
+\[
+v_0 = 1.13 \cdot (1.76)^{\frac{3}{2}}
+\]
+
+计算得：
+
+\[
+v_0 \approx 1.13 \cdot 2.33 \approx 2.63 \, \mathrm{mol} \cdot \mathrm{dm}^{-3} \cdot \mathrm{s}^{-1}
+\]",：2.63,N/A,N/A,N/A
+"考古学者从古墓中取出的纺织品,经取样分析其 ${}^{14}\mathrm{C}$ 含量为动植物活体的 ${85}\%$ 。若放射性核衰变符合一级反应速率方程,且已知 ${}^{14}\mathrm{C}$ 的半衰期为 520 年,试估算该纺织品的年龄。","由于放射性同位素 ${}^{14}\mathrm{C}$ 的衰变相当于一级反应,因此可根据一级反应的反应物浓度与时间
+
+的关系进行计算。
+
+$$
+{t}_{1/2} = \frac{0.693}{k}
+$$
+
+所以
+
+$$
+k = \frac{0.693}{{t}_{1/2}} = \frac{0.693}{{5720}\mathrm{a}} = {1.21} \times {10}^{-4}{\mathrm{a}}^{-1}
+$$
+
+由
+
+$$
+\lg \frac{c}{{c}_{0}} = - \frac{k}{2.303}t
+$$
+
+得
+
+$$
+t = - \frac{{2.303}\lg \frac{c}{{c}_{0}}}{k}
+$$
+
+$$
+= - \frac{{2.303} \times \lg \frac{85}{100}}{{1.21} \times {10}^{-4}{\mathrm{a}}^{-1}} = {1.3} \times {10}^{3}\mathrm{a}
+$$
+
+故该纺织品的年龄约为 ${1.3} \times {10}^{3}$ 年。
+","：  
+放射性同位素衰变符合一级反应速率方程，其数学描述为：  
+\[ N(t) = N_0 \cdot e^{-kt} \]  
+其中 \( N(t) \) 是经过时间 \( t \) 后剩余的放射性同位素量，\( N_0 \) 是初始量，\( k \) 是速率常数。  
+半衰期 \( T_{1/2} \) 与速率常数的关系为：  
+\[ T_{1/2} = \frac{\ln 2}{k} \]  
+因此，速率常数 \( k \) 可以表示为：  
+\[ k = \frac{\ln 2}{T_{1/2}} \]  
+代入已知的半衰期 \( T_{1/2} = 520 \) 年：  
+\[ k = \frac{\ln 2}{520} \approx 0.00133323 \, \text{年}^{-1} \]  
+
+已知 \( \frac{N(t)}{N_0} = 85\% = 0.85 \)，将其代入衰变公式：  
+\[ 0.85 = e^{-kt} \]  
+取自然对数：  
+\[ \ln 0.85 = -kt \]  
+\[ t = -\frac{\ln 0.85}{k} \]  
+
+计算得到：  
+\[ \ln 0.85 \approx -0.162518 \]  
+\[ t = -\frac{-0.162518}{0.00133323} \approx 121.866 \]  
+
+因此，该纺织品的年龄约为 122 年。",：122,N/A,N/A,N/A
+"在 ${28}^{ \circ }\mathrm{C}$ 时,鲜牛奶大约 $4\mathrm{\;h}$ 变酸,但在 $5{}^{ \circ }\mathrm{C}$ 的冰箱中可保持 ${48}\mathrm{\;h}$ 。假定反应速率与变酸时间成反比, 求牛奶变酸反应的活化能。","反应速率与变酸时间成反比,即 $\frac{{k}_{2}}{{k}_{1}} = \frac{{t}_{1}}{{t}_{2}} = \frac{48}{4}$ 。
+
+$$
+\lg \frac{{k}_{2}}{{k}_{1}} = \frac{{E}_{\mathrm{a}}}{2.303R}\left( \frac{{T}_{2} - {T}_{1}}{{T}_{1}{T}_{2}}\right)
+$$
+
+$$
+\lg \frac{48}{4} = \frac{{E}_{\mathrm{a}}}{{2.303} \times {8.314} \times {10}^{-3}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1}} \times \left( \frac{{301}\mathrm{\;K} - {278}\mathrm{\;K}}{{301}\mathrm{\;K} \times {278}\mathrm{\;K}}\right)
+$$
+
+$$
+{E}_{\mathrm{a}} = {75}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}
+$$
+","：  
+要计算反应的活化能，需要使用阿伦尼乌斯方程：  
+\[
+k = Ae^{-\frac{E_a}{RT}}
+\]  
+变酸时间与反应速率成反比，因此速率的比值是时间的反比。假设在两个温度下，反应速率常数分别为 \(k_1\) 和 \(k_2\)，那就有：  
+\[
+\frac{k_1}{k_2} = \frac{t_2}{t_1}
+\]  
+其中 \(t_2\) 和 \(t_1\) 分别为在不同温度下牛奶变酸的时间，分别是48小时和4小时。代入数值得到：  
+\[
+\frac{k_1}{k_2} = \frac{48}{4} = 12
+\]  
+由阿伦尼乌斯方程得到：  
+\[
+\frac{k_1}{k_2} = \frac{Ae^{-\frac{E_a}{R(273+28)}}}{Ae^{-\frac{E_a}{R(273+5)}}} = e^{-\frac{E_a}{R} (\frac{1}{301} - \frac{1}{278})}
+\]  
+我们已经计算了这个速率比值，得到：  
+\[
+12 = e^{-\frac{E_a}{R} (\frac{1}{301} - \frac{1}{278})}
+\]  
+取自然对数：  
+\[
+\ln(12) = -\frac{E_a}{R} (\frac{1}{301} - \frac{1}{278})
+\]  
+计算 \(\frac{1}{301} - \frac{1}{278}\)：  
+\[
+\frac{1}{301} \approx 0.003322  
+\]  
+\[
+\frac{1}{278} \approx 0.003597  
+\]  
+\[
+\frac{1}{301} - \frac{1}{278} \approx -0.000275
+\]  
+然后计算活化能 \(E_a\)，其中 \(R = 8.314 \, \text{J/mol·K}\)：  
+\[
+\ln(12) \approx 2.4849  
+\]  
+\[
+E_a = -2.4849 \times \frac{8.314}{-0.000275}  
+\]  
+\[
+E_a \approx \frac{2.4849 \times 8.314}{0.000275} \approx 75171 \, \text{J/mol} \approx 75.2 \, \text{kJ/mol}
+\]",：75.2,N/A,N/A,N/A
+"已知某气相反应的活化能 ${E}_{\mathrm{a}} = {163}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ ,温度 ${390}\mathrm{\;K}$ 时的速率常数 $k = {2.37} \times$ ${10}^{-2}{\mathrm{{dm}}}^{3} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{s}}^{-1}$ 。求温度为 ${420}\mathrm{\;K}$ 时的反应速率常数。","反应活化能 ${E}_{\mathrm{a}}$ ,反应温度 $T$ 和速率常数 $k$ 之间的关系为
+
+$$
+\lg \frac{{k}_{2}}{{k}_{1}} = \frac{{E}_{\mathrm{a}}}{2.303R}\left( {\frac{1}{{T}_{1}} - \frac{1}{{T}_{2}}}\right)
+$$
+
+将题设条件 ${E}_{\mathrm{a}} = {163}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1},{T}_{1} = {390}\mathrm{\;K},{T}_{2} = {420}\mathrm{\;K}$ 和 $R = {8.314}\mathrm{\;J} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1}$ 代入公式得
+
+$$
+\lg \frac{{k}_{2}}{{k}_{1}} = \frac{{163} \times {1000}\mathrm{\;J} \cdot {\mathrm{{mol}}}^{-1}}{{2.303} \times {8.314}\mathrm{\;J} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1}}\left( {\frac{1}{{390}\mathrm{\;K}} - \frac{1}{{420}\mathrm{\;K}}}\right) = {1.559}
+$$
+
+$$
+\frac{{k}_{2}}{{k}_{1}} = {36.22}
+$$
+
+$$
+{k}_{2} = {36.22}{k}_{1}
+$$
+
+$$
+= {36.22} \times {2.37} \times {10}^{-2}{\mathrm{{dm}}}^{3} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{s}}^{-1}
+$$
+
+$$
+= {8.58} \times {10}^{-1}{\mathrm{{dm}}}^{3} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{s}}^{-1}
+$$
+","：  
+要计算不同温度下的反应速率常数，我们可以使用阿伦尼乌斯方程的对数形式：
+
+\[
+\ln \left( \frac{k_2}{k_1} \right) = -\frac{E_a}{R} \left( \frac{1}{T_2} - \frac{1}{T_1} \right)
+\]
+
+其中：
+- \( k_1 \) 是已知温度 \( T_1 = 390 \, \text{K} \) 下的速率常数，\( k_1 = 2.37 \times 10^{-2} \, \text{dm}^3 \cdot \text{mol}^{-1} \cdot \text{s}^{-1} \)。
+- \( k_2 \) 是我们要求的温度 \( T_2 = 420 \, \text{K} \) 下的速率常数。
+- \( E_a = 163 \, \text{kJ} \cdot \text{mol}^{-1} \) 是反应的活化能。
+- \( R = 8.314 \, \text{J} \cdot \text{mol}^{-1} \cdot \text{K}^{-1} \) 是气体常数。
+
+首先，将活化能从千焦耳转换为焦耳：  
+\( E_a = 163 \times 10^3 \, \text{J} \cdot \text{mol}^{-1} \)。
+
+代入阿伦尼乌斯方程：
+
+\[
+\ln \left( \frac{k_2}{2.37 \times 10^{-2}} \right) = -\frac{163 \times 10^3}{8.314} \left( \frac{1}{420} - \frac{1}{390} \right)
+\]
+
+计算 \(\frac{1}{T_2} - \frac{1}{T_1}\):
+
+\[
+\frac{1}{420} - \frac{1}{390} = \frac{390 - 420}{420 \times 390} = \frac{-30}{163800} \approx -1.831 \times 10^{-4}
+\]
+
+计算右边的值：
+
+\[
+-\frac{163 \times 10^3}{8.314} \times (-1.831 \times 10^{-4}) \approx 3.594
+\]
+
+因此：
+
+\[
+\ln \left( \frac{k_2}{2.37 \times 10^{-2}} \right) = 3.594
+\]
+
+求解 \( k_2 \):
+
+\[
+\frac{k_2}{2.37 \times 10^{-2}} = e^{3.594}
+\]
+
+\[
+k_2 = 2.37 \times 10^{-2} \times e^{3.594}
+\]
+
+计算 \( e^{3.594} \approx 36.37 \)，因此：
+
+\[
+k_2 \approx 2.37 \times 10^{-2} \times 36.37 \approx 0.863 \, \text{dm}^3 \cdot \text{mol}^{-1} \cdot \text{s}^{-1}
+\]",：0.863,N/A,N/A,N/A
+"某一级反应 ${400}\mathrm{\;K}$ 时的半衰期是 ${500}\mathrm{\;K}$ 时的 100 倍,试估算该反应的活化能。","由一级反应的半衰期公式
+
+$$
+{t}_{1/2} = \frac{0.693}{k}
+$$
+
+得
+
+$$
+k = \frac{0.693}{{t}_{1/2}}
+$$
+
+$$
+\frac{{k}_{2}}{{k}_{1}} = \frac{\frac{0.693}{{t}_{1/2}\left( 2\right) }}{\frac{0.693}{{t}_{1/2}\left( 1\right) }} = \frac{{t}_{1/2}\left( 1\right) }{{t}_{1/2}\left( 2\right) }
+$$
+
+将其代入反应活化能 ${E}_{\mathrm{a}}$ ,反应温度 $T$ 和速率常数 $k$ 的关系式:
+
+$$
+\lg \frac{{k}_{2}}{{k}_{1}} = \frac{{E}_{\mathrm{a}}}{2.303R}\left( {\frac{1}{{T}_{1}} - \frac{1}{{T}_{2}}}\right)
+$$
+
+可得
+
+$$
+\lg \frac{{t}_{1/2}\left( 1\right) }{{t}_{1/2}\left( 2\right) } = \frac{{E}_{\mathrm{a}}}{2.303R}\left( {\frac{1}{{T}_{1}} - \frac{1}{{T}_{2}}}\right)
+$$
+
+将题设数据代入其中, 得
+
+$$
+{E}_{\mathrm{a}} = \frac{{2.303R}\lg \frac{{t}_{1/2}\left( 1\right) }{{t}_{1/2}\left( 2\right) }}{\frac{1}{{T}_{1}} - \frac{1}{{T}_{2}}}
+$$
+
+$$
+= \frac{{2.303} \times {8.314}\mathrm{\;J} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1} \times \lg {100}}{\frac{1}{{400}\mathrm{\;K}} - \frac{1}{{500}\mathrm{\;K}}}
+$$
+
+$$
+= {76.6}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}
+$$
+","：对于一级反应，其半衰期 \( t_{1/2} \) 与速率常数 \( k \) 的关系为：
+
+\[
+t_{1/2} = \frac{\ln 2}{k}
+\]
+
+因此，半衰期与速率常数成反比。根据题意，400 K 时的半衰期是 500 K 时的 100 倍，可以表示为：
+
+\[
+\frac{t_{1/2, 400}}{t_{1/2, 500}} = 100 = \frac{k_{500}}{k_{400}}
+\]
+
+根据阿伦尼乌斯方程，速率常数 \( k \) 与温度 \( T \) 的关系为：
+
+\[
+k = A e^{-\frac{E_a}{RT}}
+\]
+
+其中 \( E_a \) 是活化能，\( R \) 是气体常数，\( A \) 是指前因子。取对数并对两个温度的速率常数之比进行处理：
+
+\[
+\ln \left(\frac{k_{500}}{k_{400}}\right) = \ln \left(\frac{A e^{-\frac{E_a}{R \times 500}}}{A e^{-\frac{E_a}{R \times 400}}}\right)
+\]
+
+\[
+= \ln \left(e^{\frac{E_a}{R} \left(\frac{1}{400} - \frac{1}{500}\right)}\right)
+\]
+
+\[
+= \frac{E_a}{R} \left(\frac{1}{400} - \frac{1}{500}\right)
+\]
+
+已知 \(\frac{k_{500}}{k_{400}} = 100\)，所以：
+
+\[
+\ln 100 = \frac{E_a}{R} \left(\frac{1}{400} - \frac{1}{500}\right)
+\]
+
+\[
+\ln 100 = \frac{E_a}{R} \left(\frac{1}{400} - \frac{1}{500}\right) = \frac{E_a}{R} \left(\frac{500 - 400}{400 \times 500}\right)
+\]
+
+\[
+\ln 100 = \frac{E_a}{R} \times \frac{100}{200000}
+\]
+
+\[
+E_a = R \times \ln 100 \times \frac{200000}{100}
+\]
+
+\[
+E_a = R \times \ln 100 \times 2000
+\]
+
+使用 \( R = 8.314 \, \text{J/mol·K} \) 和 \(\ln 100 \approx 4.605\)：
+
+\[
+E_a = 8.314 \times 4.605 \times 2000
+\]
+
+\[
+E_a \approx 76577.7 \, \text{J/mol} = 76.6 \, \text{kJ/mol}
+\]",：76.6 kJ/mol,N/A,N/A,N/A
+"在 ${600}\mathrm{\;K}$ 时,某化合物分解反应的速率常数 $k = {3.3} \times {10}^{-2}{\mathrm{\;s}}^{-1}$ ,反应的活化能 ${E}_{\mathrm{a}} =$ ${18.88} \times {10}^{4}\mathrm{\;J} \cdot {\mathrm{{mol}}}^{-1}$ ,若控制反应在 ${10}\mathrm{\;{min}}$ 内转化率达 ${90}\%$ ,则反应的温度应控制为多少?","根据速率常数单位知该反应为一级反应, 则
+
+$$
+\lg c = \lg {c}_{0} - \frac{k}{2.303}t
+$$
+
+即
+
+$$
+\lg \frac{{c}_{0}}{c} = \frac{k}{2.303}t
+$$
+
+$$
+\lg \frac{1}{0.1} = \frac{k}{2.303} \times {600}\mathrm{\;s}
+$$
+
+$$
+k = {3.8} \times {10}^{-3}{\mathrm{\;s}}^{-1}
+$$
+
+$$
+\lg \frac{{k}_{2}}{{k}_{1}} = \frac{{E}_{\mathrm{a}}}{2.303R}\left( {\frac{1}{{T}_{1}} - \frac{1}{{T}_{2}}}\right)
+$$
+
+$$
+\lg \frac{{3.8} \times {10}^{-3}{\mathrm{\;s}}^{-1}}{{3.3} \times {10}^{-2}{\mathrm{\;s}}^{-1}} = \frac{{18.88} \times {10}^{4}\mathrm{\;J} \cdot {\mathrm{{mol}}}^{-1}}{{2.303} \times {8.314}\mathrm{\;J} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1}}\left( {\frac{1}{{600}\mathrm{\;K}} - \frac{1}{{T}_{2}}}\right)
+$$
+
+$$
+{T}_{2} = {567.6}\mathrm{\;K}
+$$
+","：要解决这个问题，需要使用 Arrhenius 方程的概念和一阶反应的积分速率方程。首先，我们可以使用 Arrhenius 方程来描述反应速率常数与温度的关系：
+
+\[
+k = A \cdot e^{-\frac{E_a}{RT}}
+\]
+
+然而，我们直接使用一阶反应的积分速率方程，因为该反应符合一阶反应：
+
+\[
+\ln \left( \frac{[A]_0}{[A]} \right) = kt
+\]
+
+其中 \([A]_0\) 是初始浓度，\([A]\) 是 \(t\) 时刻的浓度，\(k\) 是速率常数，\(t\) 是时间。
+
+问题中给出的转化率是 90%，这意味着：
+
+\[
+\frac{[A]}{[A]_0} = 0.10
+\]
+
+因此，代入积分速率方程：
+
+\[
+\ln \left( \frac{1}{0.10} \right) = k \times (600\, \text{s})
+\]
+
+我们已经知道 \(k\) 在 \(600\, \text{K}\) 时的值是 \(3.3 \times 10^{-2} \, \text{s}^{-1}\)，但我们需要找到满足在 600 秒时间达到相同转化率情况下的新速率常数 \(k'\)。
+
+首先我们求出在 600 K 下的 \(\ln \left( \frac{1}{0.10} \right) = 2.302\)。因此，\(k \times 600\) 满足：
+
+\[
+2.302 = (3.3 \times 10^{-2}) \times 600
+\]
+
+接下来，我们应用 Arrhenius 方程来确定温度 \(T'\) 下的速率常数 \(k'\) 满足：
+
+在 10 分钟（600 秒）后，
+
+\[
+\ln \left( \frac{1}{0.10} \right) = k' \times 600
+\]
+
+即 \(k' = \frac{2.302}{600}\)。
+
+通过 Arrhenius 方程：
+
+\[
+\frac{k'}{k} = e^{-\frac{E_a}{R} \left( \frac{1}{T'} - \frac{1}{T} \right)}
+\]
+
+其中 \(R = 8.314\, \text{J/mol}\cdot\text{K}\)，已知 \(k' = \frac{2.302}{600}\)，\(k = 3.3 \times 10^{-2}\)，\(T = 600\,\text{K}\)，\(E_a = 18.88 \times 10^4\, \text{J/mol}\)。
+
+\[
+\frac{2.302/600}{3.3 \times 10^{-2}} = e^{-\frac{18.88 \times 10^4}{8.314} \left( \frac{1}{T'} - \frac{1}{600} \right)}
+\]
+
+求得：
+
+\[
+T' = \left( \frac{1}{600} - \frac{8.314}{18.88 \times 10^4} \ln \left( \frac{2.302/600}{3.3 \times 10^{-2}} \right) \right)^{-1}
+\]
+
+经过计算后，得到 \(T' \approx 650\, \text{K}\)。",：650,0.7,0.6,0.2
+"${203}\mathrm{{Hg}}$ 可用于进行肾扫描。某医院购入 ${0.200}\mathrm{{mg}}{}^{203}\mathrm{{Hg}}{\left( {\mathrm{{NO}}}_{3}\right) }_{2}$ 试样,六个月 $\left( {{182}\mathrm{\;d}}\right)$ 后, 未发生衰变的试样还有多少? 已知 ${}^{203}\mathrm{{Hg}}$ 的半衰期为 ${46.1}\mathrm{\;d}$ 。","由题意 ${t}_{1/2} = {46.1}\mathrm{\;d}$ ,反应为一级, ${m}_{0} = {0.200}\mathrm{{mg}}$ 。
+
+由 ${t}_{1/2} = \frac{0.693}{k}$ 得
+
+$$
+k = \frac{0.693}{{t}_{1/2}}
+$$
+
+$$
+\lg \frac{m}{{m}_{0}} = - \frac{kt}{2.303} = - \frac{0.693t}{{2.303}{t}_{1/2}}
+$$
+
+$$
+= - \frac{{0.693} \times {182}}{{2.303} \times {46.1}} = - {1.19}
+$$
+
+$$
+\frac{m}{{m}_{0}} = {0.0646}
+$$
+
+剩余试样质量 $m = {0.0646} \times {0.200}\mathrm{{mg}} = {0.0129}\mathrm{{mg}}$ 。
+","：  
+1. 首先，我们需要知道放射性同位素的衰变遵循指数衰减规律，其公式为：  
+   \[ N = N_0 \times \left( \frac{1}{2} \right)^{\frac{t}{T_{1/2}}} \]  
+   其中，\( N \) 是剩余的未衰变的物质量，\( N_0 \) 是初始物质量，\( t \) 是经过的时间，\( T_{1/2} \) 是半衰期。
+
+2. 题目中给出的初始质量 \( N_0 \) 是 0.200 mg，半衰期 \( T_{1/2} \) 是 46.1 天，经过的时间 \( t \) 是 182 天。
+
+3. 将这些数值代入公式：  
+   \[ N = 0.200 \times \left( \frac{1}{2} \right)^{\frac{182}{46.1}} \]
+
+4. 计算指数部分：  
+   \[ \frac{182}{46.1} \approx 3.948 \]
+
+5. 计算衰减因子：  
+   \[ \left( \frac{1}{2} \right)^{3.948} \approx 0.0625 \]
+
+6. 计算剩余质量：  
+   \[ N = 0.200 \times 0.0625 = 0.0125 \]",：0.0125 mg,N/A,N/A,N/A

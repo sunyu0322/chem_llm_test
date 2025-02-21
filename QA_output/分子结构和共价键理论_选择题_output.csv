@@ -1,0 +1,25 @@
+query,true_answer,reasoning,model_answer,knowledge_accuracy,reasoning_accuracy,final_answer_accuracy
+"下列分子中, 属抗磁性的是
+
+(A) ${\mathrm{O}}_{2}$ ; (B) $\mathrm{{CO}}$ ; (C) ${\mathrm{B}}_{2}$ ; (D) $\mathrm{{NO}}$ 。",B,"：抗磁性是指分子中所有电子都成对存在的性质。根据分子轨道理论，抗磁性分子没有未成对电子，而顺磁性分子则有未成对电子。我们需要分析每个分子的电子排布：
+
+(A) ${\mathrm{O}}_{2}$：氧气分子有16个电子，根据分子轨道理论，电子排布为：$\sigma_{1s}^2 \sigma_{1s}^2 \sigma_{2s}^2 \sigma_{2s}^2 \sigma_{2p_z}^2 \pi_{2p_x}^2 \pi_{2p_y}^2 \pi_{2p_x}^1 \pi_{2p_y}^1$。有两个未成对电子，因此是顺磁性。
+
+(B) $\mathrm{CO}$：一氧化碳分子有14个电子，电子排布为：$\sigma_{1s}^2 \sigma_{1s}^2 \sigma_{2s}^2 \sigma_{2s}^2 \sigma_{2p_z}^2 \pi_{2p_x}^2 \pi_{2p_y}^2$。所有电子成对，因此是抗磁性。
+
+(C) ${\mathrm{B}}_{2}$：硼分子有10个电子，电子排布为：$\sigma_{1s}^2 \sigma_{1s}^2 \sigma_{2s}^2 \sigma_{2s}^2 \pi_{2p_x}^1 \pi_{2p_y}^1$。有两个未成对电子，因此是顺磁性。
+
+(D) $\mathrm{NO}$：一氧化氮分子有15个电子，电子排布为：$\sigma_{1s}^2 \sigma_{1s}^2 \sigma_{2s}^2 \sigma_{2s}^2 \sigma_{2p_z}^2 \pi_{2p_x}^2 \pi_{2p_y}^2 \pi_{2p_x}^1$。有一个未成对电子，因此是顺磁性。",：B,0.9,0.9,1.0
+"按分子轨道理论, 下列分子或离子中键长最短的是
+
+(A) ${\mathrm{{NO}}}^{ + }$ ; (B) $\mathrm{{NO}}$ ; (C) ${\mathrm{O}}_{2}$ ; (D) ${\mathrm{O}}_{2}^{ - }$ 。",A,"：根据分子轨道理论，分子的键长与键级成反比，键级越高，键长越短。首先，我们需要计算每个分子或离子的键级。
+
+1. **${\mathrm{NO}}^{+}$**：电子总数为14。分子轨道排布为：$\sigma(1s)^2 \sigma^*(1s)^2 \sigma(2s)^2 \sigma^*(2s)^2 \pi(2p_x)^2 \pi(2p_y)^2 \sigma(2p_z)^2 \pi^*(2p_x)^1$. 键级 = (8 - 3)/2 = 2.5。
+
+2. **$\mathrm{NO}$**：电子总数为15。分子轨道排布为：$\sigma(1s)^2 \sigma^*(1s)^2 \sigma(2s)^2 \sigma^*(2s)^2 \pi(2p_x)^2 \pi(2p_y)^2 \sigma(2p_z)^2 \pi^*(2p_x)^2$. 键级 = (8 - 4)/2 = 2。
+
+3. **${\mathrm{O}}_{2}$**：电子总数为16。分子轨道排布为：$\sigma(1s)^2 \sigma^*(1s)^2 \sigma(2s)^2 \sigma^*(2s)^2 \pi(2p_x)^2 \pi(2p_y)^2 \sigma(2p_z)^2 \pi^*(2p_x)^1 \pi^*(2p_y)^1$. 键级 = (8 - 4)/2 = 2。
+
+4. **${\mathrm{O}}_{2}^{-}$**：电子总数为17。分子轨道排布为：$\sigma(1s)^2 \sigma^*(1s)^2 \sigma(2s)^2 \sigma^*(2s)^2 \pi(2p_x)^2 \pi(2p_y)^2 \sigma(2p_z)^2 \pi^*(2p_x)^2 \pi^*(2p_y)^1$. 键级 = (8 - 5)/2 = 1.5。
+
+比较键级，${\mathrm{NO}}^{+}$的键级最高为2.5，因此键长最短。",：A,0.1,0.1,1.0

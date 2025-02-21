@@ -1,0 +1,38 @@
+query,true_answer,reasoning,model_answer,knowledge_accuracy,reasoning_accuracy,final_answer_accuracy
+"根据分子轨道理论预测, 下列分子或离子中最稳定的是 ___,  最不稳定的是 ___。
+
+$$
+{\mathrm{O}}_{2},\;{\mathrm{O}}_{2}^{ - },\;{\mathrm{O}}_{2}^{2 - },\;{\mathrm{O}}_{2}^{ + },\;{\mathrm{O}}_{2}^{2 + }\text{。}
+$$
+","${\mathrm{O}}_{2}^{2 + },{\mathrm{O}}_{2}^{2 - }$ ","：根据分子轨道理论，氧分子及其离子的稳定性可以通过键级来判断。键级的计算公式为：键级 = (成键电子数 - 反键电子数) / 2。
+
+1. \(\mathrm{O}_2\) 的电子构型为 \((\sigma_{1s})^2(\sigma^*_{1s})^2(\sigma_{2s})^2(\sigma^*_{2s})^2(\sigma_{2p_z})^2(\pi_{2p_x})^2(\pi_{2p_y})^2(\pi^*_{2p_x})^1(\pi^*_{2p_y})^1\)。成键电子数为 10，反键电子数为 6，键级 = (10 - 6) / 2 = 2。
+
+2. \(\mathrm{O}_2^-\) 的电子构型为 \((\sigma_{1s})^2(\sigma^*_{1s})^2(\sigma_{2s})^2(\sigma^*_{2s})^2(\sigma_{2p_z})^2(\pi_{2p_x})^2(\pi_{2p_y})^2(\pi^*_{2p_x})^2(\pi^*_{2p_y})^1\)。成键电子数为 10，反键电子数为 7，键级 = (10 - 7) / 2 = 1.5。
+
+3. \(\mathrm{O}_2^{2-}\) 的电子构型为 \((\sigma_{1s})^2(\sigma^*_{1s})^2(\sigma_{2s})^2(\sigma^*_{2s})^2(\sigma_{2p_z})^2(\pi_{2p_x})^2(\pi_{2p_y})^2(\pi^*_{2p_x})^2(\pi^*_{2p_y})^2\)。成键电子数为 10，反键电子数为 8，键级 = (10 - 8) / 2 = 1。
+
+4. \(\mathrm{O}_2^+\) 的电子构型为 \((\sigma_{1s})^2(\sigma^*_{1s})^2(\sigma_{2s})^2(\sigma^*_{2s})^2(\sigma_{2p_z})^2(\pi_{2p_x})^2(\pi_{2p_y})^2(\pi^*_{2p_x})^1\)。成键电子数为 10，反键电子数为 5，键级 = (10 - 5) / 2 = 2.5。
+
+5. \(\mathrm{O}_2^{2+}\) 的电子构型为 \((\sigma_{1s})^2(\sigma^*_{1s})^2(\sigma_{2s})^2(\sigma^*_{2s})^2(\sigma_{2p_z})^2(\pi_{2p_x})^2(\pi_{2p_y})^2\)。成键电子数为 10，反键电子数为 4，键级 = (10 - 4) / 2 = 3。
+
+根据键级的大小，键级越大，分子越稳定。因此，\(\mathrm{O}_2^{2+}\) 最稳定，\(\mathrm{O}_2^{2-}\) 最不稳定。","：\(\mathrm{O}_2^{2+}\), \(\mathrm{O}_2^{2-}\)",0.99,0.99,0.99
+"已知 $\mathrm{P} - \mathrm{P}$ 键, $\mathrm{C} - \mathrm{C}$ 键, $\mathrm{{OH}}\cdots \mathrm{O}$ 键的键能分别为 ${201}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1},{345.6}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ , ${18.8}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ ,试粗略估算: ${\mathrm{P}}_{4}\left( \mathrm{\;g}\right)$ 的原子化热为___ $\mathrm{{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ ,金刚石的原子化热为___ $\mathrm{{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ ,冰的升华热为___ $\mathrm{{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ 。","1206,691.2,37.6","：  
+1. **${\mathrm{P}}_{4}$ 的原子化热**：  
+   - ${\mathrm{P}}_{4}$ 是由四个磷原子通过 $\mathrm{P} - \mathrm{P}$ 键连接形成的分子。  
+   - ${\mathrm{P}}_{4}$ 分子中有 6 个 $\mathrm{P} - \mathrm{P}$ 键。  
+   - 原子化热是将分子完全分解为气态原子的能量，因此需要打破所有的 $\mathrm{P} - \mathrm{P}$ 键。  
+   - 计算：$6 \times 201 \mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1} = 1206 \mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$。
+
+2. **金刚石的原子化热**：  
+   - 金刚石是碳的同素异形体，具有立体网状结构，每个碳原子与其他四个碳原子通过 $\mathrm{C} - \mathrm{C}$ 键连接。  
+   - 原子化热是将固体完全分解为气态原子的能量。  
+   - 每个碳原子在金刚石中形成 4 个 $\mathrm{C} - \mathrm{C}$ 键，但由于每个键被两个碳原子共享，实际需要考虑的键数是每个碳原子 2 个键。  
+   - 计算：$4 \times 345.6 \mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1} = 1382.4 \mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$。
+
+3. **冰的升华热**：  
+   - 冰的升华热是将固态水直接转变为气态水的能量。  
+   - 主要涉及打破 $\mathrm{{OH}}\cdots \mathrm{O}$ 氢键。  
+   - 每个水分子平均形成 4 个氢键（2 个作为氢键供体，2 个作为氢键受体）。  
+   - 计算：$4 \times 18.8 \mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1} = 75.2 \mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$。","：  
+1206, 1382.4, 75.2",0.6,0.5,0.4

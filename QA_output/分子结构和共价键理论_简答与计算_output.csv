@@ -1,0 +1,28 @@
+query,true_answer,reasoning,model_answer,knowledge_accuracy,reasoning_accuracy,final_answer_accuracy
+"分别指出下列分子的空间构型和中心原子的杂化方式。
+
+(1) $\mathrm{N}{\left( {\mathrm{{CH}}}_{3}\right) }_{3}$ ; (2) ${\mathrm{F}}_{3}\mathrm{\;B} - \mathrm{N}{\left( {\mathrm{{CH}}}_{3}\right) }_{3}$ ; (3) ${\mathrm{F}}_{4}\mathrm{{Si}} - \mathrm{N}{\left( {\mathrm{{CH}}}_{3}\right) }_{3}$ 。","(1) $\mathrm{N}{\left( {\mathrm{{CH}}}_{3}\right) }_{3}$ 分子的空间构型为三角锥形, $\mathrm{N}$ 采取 ${\mathrm{{sp}}}^{3}$ 杂化。
+
+(2) ${\mathrm{F}}_{3}\mathrm{\;B} - \mathrm{N}{\left( {\mathrm{{CH}}}_{3}\right) }_{3}$ 分子中有 $\mathrm{N}$ 向 $\mathrm{B}$ 的配位键, $\mathrm{N}$ 和 $\mathrm{B}$ 均采取 ${\mathrm{{sp}}}^{3}$ 杂化。
+
+(3) ${\mathrm{F}}_{4}\mathrm{{Si}} - \mathrm{N}{\left( {\mathrm{{CH}}}_{3}\right) }_{3}$ 分子中有 $\mathrm{N}$ 向 $\mathrm{{Si}}$ 的配位键, $\mathrm{N}$ 采取 ${\mathrm{{sp}}}^{3}$ 杂化, $\mathrm{{Si}}$ 采取 ${\mathrm{{sp}}}^{3}\mathrm{\;d}$ 杂化。","：
+
+(1) $\mathrm{N}{\left( {\mathrm{{CH}}}_{3}\right) }_{3}$:
+- 中心原子是氮（N），氮有5个价电子。
+- 氮与三个甲基（CH₃）形成三个σ键，使用3个电子。
+- 剩余2个电子形成一个孤对电子。
+- 由于有3个键和1个孤对电子，氮的杂化方式为sp³。
+- 这种杂化方式对应的空间构型是三角锥形。
+
+(2) ${\mathrm{F}}_{3}\mathrm{\;B} - \mathrm{N}{\left( {\mathrm{{CH}}}_{3}\right) }_{3}$:
+- 该分子由两个部分组成：${\mathrm{F}}_{3}\mathrm{B}$和$\mathrm{N}{\left( {\mathrm{{CH}}}_{3}\right) }_{3}$。
+- 对于${\mathrm{F}}_{3}\mathrm{B}$，硼（B）是中心原子，有3个价电子，与3个氟（F）形成3个σ键，没有孤对电子。
+- 硼的杂化方式为sp²，对应的空间构型是平面三角形。
+- 对于$\mathrm{N}{\left( {\mathrm{{CH}}}_{3}\right) }_{3}$，如上所述，氮的杂化方式为sp³，空间构型是三角锥形。
+
+(3) ${\mathrm{F}}_{4}\mathrm{{Si}} - \mathrm{N}{\left( {\mathrm{{CH}}}_{3}\right) }_{3}$:
+- 该分子由两个部分组成：${\mathrm{F}}_{4}\mathrm{Si}$和$\mathrm{N}{\left( {\mathrm{{CH}}}_{3}\right) }_{3}$。
+- 对于${\mathrm{F}}_{4}\mathrm{Si}$，硅（Si）是中心原子，有4个价电子，与4个氟（F）形成4个σ键，没有孤对电子。
+- 硅的杂化方式为sp³，对应的空间构型是四面体。
+- 对于$\mathrm{N}{\left( {\mathrm{{CH}}}_{3}\right) }_{3}$，如上所述，氮的杂化方式为sp³，空间构型是三角锥形。","：
+(1) 三角锥形, sp³; (2) 平面三角形, sp²; (3) 四面体, sp³.",0.4,0.4,0.4
