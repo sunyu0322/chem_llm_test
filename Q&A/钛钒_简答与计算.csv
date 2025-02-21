@@ -1,0 +1,198 @@
+question,answer
+"解释实验现象。冷却浓的 ${\mathrm{{TiCl}}}_{3}$ 溶液析出的 ${\mathrm{{TiCl}}}_{3} \cdot 6{\mathrm{H}}_{2}\mathrm{O}$ 晶体为紫色,用乙醚萃取 ${\mathrm{{TiCl}}}_{3}$ 溶液在一定条件下析出的 ${\mathrm{{TiCl}}}_{3} \cdot 6{\mathrm{H}}_{2}\mathrm{O}$ 晶体为绿色。"," ${\mathrm{{TiCl}}}_{3} \cdot 6{\mathrm{H}}_{2}\mathrm{O}$ 有三种异构体:
+
+$\left\lbrack {\mathrm{{Ti}}{\left( {\mathrm{H}}_{2}\mathrm{O}\right) }_{6}}\right\rbrack {\mathrm{{Cl}}}_{3}$ 紫色 $\;\left\lbrack {\mathrm{{Ti}}{\left( {\mathrm{H}}_{2}\mathrm{O}\right) }_{5}\mathrm{{Cl}}}\right\rbrack {\mathrm{{Cl}}}_{2} \cdot {\mathrm{H}}_{2}\mathrm{O}$ 和 $\left\lbrack {\mathrm{{Ti}}{\left( {\mathrm{H}}_{2}\mathrm{O}\right) }_{4}{\mathrm{{Cl}}}_{2}}\right\rbrack \mathrm{{Cl}} \cdot 2{\mathrm{H}}_{2}\mathrm{O}$ 绿色"
+解释实验现象。 ${\mathrm{{TiCl}}}_{3}$ 溶液与 ${\mathrm{{CuCl}}}_{2}$ 溶液反应后加水稀释有白色沉淀析出。," ${\mathrm{{Ti}}}^{3 + }$ 还原能力比 ${\mathrm{{Sn}}}^{2 + }$ 强,可以将 ${\mathrm{{Cu}}}^{2 + }$ 还原为 ${\mathrm{{Cu}}}^{ + }$ 而生成白色 $\mathrm{{CuCl}}$ 沉淀:
+
+$$
+{\mathrm{{Ti}}}^{3 + } + {\mathrm{{Cu}}}^{2 + } + {\mathrm{{Cl}}}^{ - } + {\mathrm{H}}_{2}\mathrm{O} = {\mathrm{{TiO}}}^{2 + } + \mathrm{{CuCl}} \downarrow + 2{\mathrm{H}}^{ + }
+$$
+"
+"解释实验现象。向酸性的 ${\mathrm{{VOSO}}}_{4}$ 溶液中滴加 ${\mathrm{{KMnO}}}_{4}$ 溶液,溶液颜色由蓝变黄。",${\mathrm{{MnO}}}_{4}^{ - } + 5{\mathrm{{VO}}}^{2 + } + {\mathrm{H}}_{2}\mathrm{O} = {\mathrm{{Mn}}}^{2 + } + 5{\mathrm{{VO}}}_{2}^{ + } + 2{\mathrm{H}}^{ + }$
+"解释实验现象。向 ${\mathrm{V}}^{2 + }$ 溶液中缓慢滴加 ${\mathrm{{KMnO}}}_{4}$ 溶液至大过量,体系的颜色由紫色到绿色,再到蓝色, 最后到黄色。","用 ${\mathrm{{KMnO}}}_{4}$ 溶液滴定 ${\mathrm{V}}^{2 + }$ ,体系由 ${\mathrm{V}}^{2 + }$ 的紫色,到 ${\mathrm{V}}^{3 + }$ 的绿色,到 ${\mathrm{{VO}}}^{2 + }$ 的蓝色,最后到 ${\mathrm{{VO}}}_{2}^{ + }$ 的黄色。各步的反应为
+
+$$
+5{\mathrm{\;V}}^{2 + } + {\mathrm{{MnO}}}_{4}^{ - } + 8{\mathrm{H}}^{ + } = 5{\mathrm{\;V}}^{3 + } + {\mathrm{{Mn}}}^{2 + } + 4{\mathrm{H}}_{2}\mathrm{O}
+$$
+
+$$
+5{\mathrm{\;V}}^{3 + } + {\mathrm{{MnO}}}_{4}^{ - } + {\mathrm{H}}_{2}\mathrm{O} = 5{\mathrm{{VO}}}^{2 + } + {\mathrm{{Mn}}}^{2 + } + 2{\mathrm{H}}^{ + }
+$$
+
+$$
+5{\mathrm{{VO}}}^{2 + } + {\mathrm{{MnO}}}_{4}^{ - } + {\mathrm{H}}_{2}\mathrm{O} = 5{\mathrm{{VO}}}_{2}^{ + } + {\mathrm{{Mn}}}^{2 + } + 2{\mathrm{H}}^{ + }
+$$
+"
+"解释实验现象。 ${\mathrm{V}}_{2}{\mathrm{O}}_{5}$ 溶于热的浓盐酸生成黄色溶液,后溶液颜色逐渐变蓝并有气体放出。","首先是黄棕色的 ${\mathrm{V}}_{2}{\mathrm{O}}_{5}$ 溶解于盐酸,生成 ${\mathrm{{VOCl}}}_{3}$ 的黄色溶液:
+
+$$
+{\mathrm{V}}_{2}{\mathrm{O}}_{5} + 6\mathrm{{HCl}} = 2{\mathrm{{VOCl}}}_{3} + 3{\mathrm{H}}_{2}\mathrm{O}
+$$
+
+之后 ${\mathrm{{VOCl}}}_{3}$ 分解,放出 ${\mathrm{{Cl}}}_{2}$ ,得到 ${\mathrm{{VOCl}}}_{2}$ 的蓝色溶液:
+
+$$
+2{\mathrm{{VOCl}}}_{3} = 2{\mathrm{{VOCl}}}_{2} + {\mathrm{{Cl}}}_{2} \uparrow
+$$
+
+总的化学反应方程式可以写成:
+
+$$
+{\mathrm{V}}_{2}{\mathrm{O}}_{5} + 6\mathrm{{HCl}} = 2{\mathrm{{VOCl}}}_{2} + {\mathrm{{Cl}}}_{2} \uparrow + 3{\mathrm{H}}_{2}\mathrm{O}
+$$
+"
+"给出实验现象和化学反应方程式。
+
+（1）向 ${\mathrm{{TiCl}}}_{4}$ 溶液中加入浓盐酸和金属锌后充分反应。
+
+（2）向（1）反应后的溶液中缓慢加入 $\mathrm{{NaOH}}$ 溶液至溶液呈碱性。
+
+（3）将 (2) 的沉淀过滤出来, 用硝酸将其溶解后再加入稀碱溶液。","(1) 溶液变为紫色,有 ${\mathrm{{TiCl}}}_{3}$ 生成:
+
+$$
+2{\mathrm{{TiCl}}}_{4} + \mathrm{{Zn}} = 2{\mathrm{{TiCl}}}_{3} + {\mathrm{{ZnCl}}}_{2}
+$$
+
+（2）有紫色沉淀生成:
+
+$$
+{\mathrm{{TiCl}}}_{3} + 3\mathrm{{NaOH}} = \mathrm{{Ti}}{\left( \mathrm{{OH}}\right) }_{3} \downarrow + 3\mathrm{{NaCl}}
+$$
+
+（3）沉淀被 ${\mathrm{{HNO}}}_{3}$ 氧化后得到无色溶液:
+
+$$
+3\mathrm{{Ti}}{\left( \mathrm{{OH}}\right) }_{3} + 7{\mathrm{{HNO}}}_{3} = 3\mathrm{{TiO}}{\left( {\mathrm{{NO}}}_{3}\right) }_{2} + \mathrm{{NO}} \uparrow + 8{\mathrm{H}}_{2}\mathrm{O}
+$$
+
+再加 $\mathrm{{NaOH}}$ 溶液后得白色沉淀:
+
+$$
+{\mathrm{{TiO}}}^{2 + } + 2{\mathrm{{OH}}}^{ - } + {\mathrm{H}}_{2}\mathrm{O} = \mathrm{{Ti}}{\left( \mathrm{{OH}}\right) }_{4} \downarrow
+$$
+"
+"测定 ${\mathrm{{TiO}}}_{2}$ 中的钛含量时,先将 ${\mathrm{{TiO}}}_{2}$ 溶于热的 ${\mathrm{H}}_{2}{\mathrm{{SO}}}_{4} - {\left( {\mathrm{{NH}}}_{4}\right) }_{2}{\mathrm{{SO}}}_{4}$ 混合溶液中,冷却,
+
+稀释; 用金属铝还原后,再用 KSCN 为指示剂, ${\mathrm{{Fe}}}^{3 + }$ 为氧化剂滴定溶液中的 ${\mathrm{{Ti}}}^{3 + }$ ,便可计算钛的含量。写出有关化学反应方程式, 并说明测定方法的依据。","(1) ${\mathrm{{TiO}}}_{2}$ 溶于热的硫酸,生成 ${\mathrm{{TiOSO}}}_{4}$ :
+
+$$
+{\mathrm{{TiO}}}_{2} + {\mathrm{H}}_{2}{\mathrm{{SO}}}_{4} = {\mathrm{{TiOSO}}}_{4} + {\mathrm{H}}_{2}\mathrm{O}
+$$
+
+（2）在隔绝空气的条件下,金属铝将 ${\mathrm{{TiO}}}^{2 + }$ 还原为 ${\mathrm{{Ti}}}^{3 + }$ :
+
+$$
+3{\mathrm{{TiO}}}^{2 + } + \mathrm{{Al}} + 6{\mathrm{H}}^{ + } = 3{\mathrm{{Ti}}}^{3 + } + {\mathrm{{Al}}}^{3 + } + 3{\mathrm{H}}_{2}\mathrm{O}
+$$
+
+因为 ${E}^{ \ominus }\left( {{\mathrm{{TiO}}}^{2 + }/{\mathrm{{Ti}}}^{3 + }}\right) > {E}^{ \ominus }\left( {{\mathrm{{Al}}}^{3 + }/\mathrm{{Al}}}\right)$ 。
+
+（3） ${\mathrm{{Fe}}}^{3 + }$ 可以将溶液中的 ${\mathrm{{Ti}}}^{3 + }$ 氧化,自身还原为 ${\mathrm{{Fe}}}^{2 + }$ :
+
+$$
+{\mathrm{{Ti}}}^{3 + } + {\mathrm{{Fe}}}^{3 + } + {\mathrm{H}}_{2}\mathrm{O} = {\mathrm{{TiO}}}^{2 + } + {\mathrm{{Fe}}}^{2 + } + 2{\mathrm{H}}^{ + }
+$$
+
+因为 ${E}^{ \ominus }\left( {{\mathrm{{Fe}}}^{3 + }/{\mathrm{{Fe}}}^{2 + }}\right) > {E}^{ \ominus }\left( {{\mathrm{{TiO}}}^{2 + }/{\mathrm{{Ti}}}^{3 + }}\right)$ 。
+
+当 ${\mathrm{{Ti}}}^{3 + }$ 反应完全后,过量的 ${\mathrm{{Fe}}}^{3 + }$ 会与 ${\mathrm{{SCN}}}^{ - }$ 生成红色的配位化合物:
+
+$$
+{\mathrm{{Fe}}}^{3 + } + 6{\mathrm{{SCN}}}^{ - } = {\left\lbrack \mathrm{{Fe}}{\left( \mathrm{{SCN}}\right) }_{6}\right\rbrack }^{3 - }
+$$
+
+溶液由无色变为红色即为终点。
+"
+"试写出钛白、锌白、锌钡白的化学组成, 并指出钛白作为染料的优点。"," 钛白 (惰性颜料) ${\mathrm{{TiO}}}_{2}$ ; 锌白 (锌氧粉) $\mathrm{{ZnO}}$ ; 锌钡白 $\mathrm{{ZnS}} \cdot {\mathrm{{BaSO}}}_{4}$ 。
+
+钛白作为染料有如下优点:
+
+（1）折射率高, 着色能力强, 遮盖能力强。
+
+（2）化学性能稳定且无毒。
+"
+"酸性钒酸盐溶液中通入 ${\mathrm{{SO}}}_{2}$ 时生成深蓝色溶液,相同量的钒酸盐溶液被锌汞齐还原,得到紫色溶液, 将此两溶液相混, 得到绿色溶液, 在这个过程中进行了哪些反应? 写出化学反应方程式。","$\mathrm{\;V}$ 常见氧化态有 $\mathrm{V}\left( \mathrm{{II}}\right) ,\mathrm{V}\left( \mathrm{{III}}\right) ,\mathrm{V}\left( \mathrm{{IV}}\right) ,\mathrm{V}\left( \mathrm{V}\right)$ 。
+
+酸性钒酸盐中 $\mathrm{V}\left( \mathrm{V}\right)$ 以 ${\mathrm{{VO}}}_{2}^{ + }$ 形式存在, $\mathrm{V}\left( \mathrm{{IV}}\right)$ 以 ${\mathrm{{VO}}}^{2 + }$ 存在。
+
+因为 ${E}^{ \ominus }\left( {{\mathrm{{VO}}}_{2}^{ + }/{\mathrm{{VO}}}^{2 + }}\right) > {E}^{ \ominus }\left( {{\mathrm{{SO}}}_{4}^{2 - }/{\mathrm{{SO}}}_{2}}\right)$ ,所以
+
+$$
+2{\mathrm{{VO}}}_{2}^{ + }\text{(黄色)} + {\mathrm{{SO}}}_{2} = 2{\mathrm{{VO}}}^{2 + }\text{(蓝色)} + {\mathrm{{SO}}}_{4}^{2 - }
+$$
+
+因为 ${E}^{ \ominus }\left( {{\mathrm{{VO}}}_{2}^{ + }/{\mathrm{V}}^{2 + }}\right) > {E}^{ \ominus }\left( {{\mathrm{{Zn}}}^{2 + }/\mathrm{{Zn}}}\right)$ ,所以
+
+$$
+2{\mathrm{{VO}}}_{2}^{ + } + 3\mathrm{{Zn}}\left( \mathrm{{Hg}}\right) + 8{\mathrm{H}}^{ + } = 2{\mathrm{\;V}}^{2 + }\text{(紫色)} + 3{\mathrm{{Zn}}}^{2 + } + 4{\mathrm{H}}_{2}\mathrm{O}
+$$
+
+因为 ${E}^{ \ominus }\left( {{\mathrm{{VO}}}^{2 + }/{\mathrm{V}}^{3 + }}\right) > {E}^{ \ominus }\left( {{\mathrm{V}}^{3 + }/{\mathrm{V}}^{2 + }}\right)$ ,所以
+
+$$
+{\mathrm{{VO}}}^{2 + }\text{(蓝色)} + {\mathrm{V}}^{2 + }\text{(紫色)} + 2{\mathrm{H}}^{ + } = 2{\mathrm{\;V}}^{3 + }\text{(绿色)} + {\mathrm{H}}_{2}\mathrm{O}
+$$
+"
+"下面数据是 $\mathrm{{Ti}}\left( \mathrm{{IV}}\right)$ 的卤化物的熔点,请对其规律加以解释:
+
+${\mathrm{{TiF}}}_{4}\;{284}{}^{ \circ }\mathrm{C};\;{\mathrm{{TiCl}}}_{4} - {25}{}^{ \circ }\mathrm{C};\;{\mathrm{{TiBr}}}_{4}\;{39}{}^{ \circ }\mathrm{C};\;{\mathrm{{TiI}}}_{4}\;{150}{}^{ \circ }\mathrm{C}$ 。","Ti(IV) 的极化能力很强,但 ${\mathrm{F}}^{ - }$ 变形性很小, ${\mathrm{{TiF}}}_{4}$ 为离子化合物,熔点高。而其他几个卤化物均为共价化合物,熔点低于 ${\mathrm{{TiF}}}_{4}$ 。按 ${\mathrm{{Cl}}}^{ - },{\mathrm{{Br}}}^{ - },{\mathrm{I}}^{ - }$ 的顺序,半径依次增大,即按 ${\mathrm{{TiCl}}}_{4},{\mathrm{{TiBr}}}_{4},{\mathrm{{TiI}}}_{4}$ 的顺序,分子半径依次增大,分子间范德华力增大,熔点依次升高。
+"
+"在酸性介质中, 钒元素的元素电势图如下:
+
+$$
+{\mathrm{{VO}}}_{2}^{ + }\xrightarrow[]{{1.00}\mathrm{\;V}}{\mathrm{{VO}}}^{2 + }\xrightarrow[]{{0.34}\mathrm{\;V}}{\mathrm{\;V}}^{3 + }\xrightarrow[]{-{0.26}\mathrm{\;V}}{\mathrm{\;V}}^{2 + }\xrightarrow[]{-{1.175}\mathrm{\;V}}\mathrm{\;V}
+$$
+
+（1）写出钒溶解在盐酸中的离子反应方程式;
+
+（2）计算 ${\mathrm{V}}^{3 + }/\mathrm{V}$ 电对的 ${E}^{ \ominus }$ ;
+
+（3）这些钒的氧化态能否发生歧化反应?
+
+（4）将 $\mathrm{V}$ 放入含有 ${\mathrm{V}}^{3 + }$ 的溶液中,写出离子反应方程式。","(1) $2\mathrm{\;V} + 6{\mathrm{H}}^{ + } = 2{\mathrm{\;V}}^{3 + } + 3{\mathrm{H}}_{2} \uparrow$
+
+(2) ${E}^{ \ominus }\left( {{\mathrm{V}}^{3 + }/\mathrm{V}}\right) = \left\lbrack {\left( {-{0.26}}\right) \times 1 + \left( {-{1.175}}\right) \times 2}\right\rbrack \mathrm{V}/\left( {1 + 2}\right) = - {0.87}\mathrm{\;V}$ 。
+
+（3）都不能发生歧化反应。
+
+(4) $\mathrm{V} + 2{\mathrm{\;V}}^{3 + } = 3{\mathrm{\;V}}^{2 + }$ 。
+"
+"将 ${\mathrm{N}}_{2}{\mathrm{O}}_{5}$ 与 ${\mathrm{{TiCl}}}_{4}$ 作用可制备无水 $\mathrm{{Ti}}{\left( {\mathrm{{NO}}}_{3}\right) }_{4}$ 。已知 $\mathrm{{Ti}}{\left( {\mathrm{{NO}}}_{3}\right) }_{4}$ 熔点为 ${58}{}^{ \circ }\mathrm{C}$ ,试分析它比一般的硝酸盐熔点低的原因。","化合物 $\mathrm{{Ti}}{\left( {\mathrm{{NO}}}_{3}\right) }_{4}$ 熔点明显偏低,说明该化合物分子之间的作用力小。 ${\mathrm{{NO}}}_{3}^{ - }$ 有时可作为双基配体,在 $\mathrm{{Ti}}{\left( {\mathrm{{NO}}}_{3}\right) }_{4}$ 中, ${\mathrm{{NO}}}_{3}^{ - }$ 用两个 $\mathrm{O}$ 向 ${\mathrm{{Ti}}}^{4 + }$ 配位, ${\mathrm{{Ti}}}^{4 + }$ 周围有 8 个 $\mathrm{O}$ 配位,形成近球状的分子。 $\mathrm{{Ti}}{\left( {\mathrm{{NO}}}_{3}\right) }_{4}$ 分子间靠范德华力结合,因而熔点偏低。
+"
+"化合物 $\left( \mathrm{A}\right)$ 为无色液体。 $\left( \mathrm{A}\right)$ 在潮湿的空气中冒白烟。取 $\left( \mathrm{A}\right)$ 的水溶液加入 ${\mathrm{{AgNO}}}_{3}$ 溶液, 有不溶于硝酸的白色沉淀 (B) 生成, (B) 易溶于氨水。取锌粒投入 (A) 的盐酸溶液中, 最终得到紫色溶液 $\left( \mathrm{C}\right)$ 。向 $\left( \mathrm{C}\right)$ 中加入 $\mathrm{{NaOH}}$ 溶液至碱性则有紫色沉淀 $\left( \mathrm{D}\right)$ 生成。将 (D) 洗净后置于稀硝酸中得无色溶液 (E)。将溶液 (E) 加热得白色沉淀 (F)。试给出 (A)、(B)、(C)、(D)、(E)和(F) 所代表的物质的化学式。","(A)- ${\mathrm{{TiCl}}}_{4}$ ; (B)- $\mathrm{{AgCl}}$ ; (C) $= {\mathrm{{TiCl}}}_{3}$ ; (D) $- \mathrm{{Ti}}{\left( \mathrm{{OH}}\right) }_{3}$ ; (E) $- \mathrm{{TiO}}{\left( {\mathrm{{NO}}}_{3}\right) }_{2}$ ;
+
+(F)- ${\mathrm{{TiO}}}_{2}$ 或 ${\mathrm{H}}_{2}{\mathrm{{TiO}}}_{3}$ 。"
+"无色液体 (A) 与干燥氧气在高温下反应, 生成不溶于水的白色粉末 (B)。(B) 和锌粉混合后与盐酸缓慢作用, 最后得到紫红色溶液, 说明有化合物 (C) 生成。向 (C) 的溶液中加入 ${\mathrm{{CuCl}}}_{2}$ 溶液得白色沉淀 $\left( \mathrm{D}\right)$ 。紫色化合物 $\left( \mathrm{C}\right)$ 溶于过量硝酸得无色溶液 $\left( \mathrm{E}\right)$ 。将溶液 $\left( \mathrm{E}\right)$ 蒸干后, 在较高温度下加热又得到 (B)。(A) 与铝粉混合, 在高温下反应有化合物 (C) 生成。试给出 $\left( \mathrm{A}\right) \text{、}\left( \mathrm{B}\right) \text{、}\left( \mathrm{C}\right) \text{、}\left( \mathrm{D}\right)$ 和 $\left( \mathrm{E}\right)$ 所代表的物质的化学式。",(A)- ${\mathrm{{TiCl}}}_{4}$ ; (B) $- {\mathrm{{TiO}}}_{2}$ ; (C) $- {\mathrm{{TiCl}}}_{3}$ ; (D)-CuCl; (E)- $\mathrm{{TiO}}{\left( {\mathrm{{NO}}}_{3}\right) }_{2}$ 。
+"钒与吡啶-2-甲酸根 $\left( {{\mathrm{C}}_{6}{\mathrm{{NO}}}_{2}{\mathrm{H}}_{4}^{ - }}\right)$ 形成电中性的单核配位化合物,测得其氮的质量分数为 ${4.5}\%$ 。给出配位化合物的组成和钒的氧化数。","吡啶-2-甲酸根 $\left( {{\mathrm{C}}_{6}{\mathrm{{NO}}}_{2}{\mathrm{H}}_{4}^{ - }}\right)$ 的相对分子质量为 ${M}_{\mathrm{r}} = {122}$ 。
+
+设配位化合物中配体数为 $n$ ,则有
+
+$$
+{4.5}\% = \frac{14n}{{50.9} + {122n}} \tag{1}
+$$
+
+解得 $n = {0.27}$ ,不合题意。
+
+欲使 $n$ 值增大,需增大式 (1) 分母的值。
+
+事实上,四价钒和五价钒在酸性介质的存在形式是钒氧阳离子 ${\mathrm{{VO}}}^{2 + },{\mathrm{{VO}}}_{2}^{ + }$ 。
+
+设配位化合物中非配体的氧个数为 $m$ ,则
+
+$$
+{4.5}\% = \frac{14n}{{50.9} + {16m} + {122n}}
+$$
+
+当 $m = 1$ 时, $n = 2$ ,所以
+
+配位化合物的组成为 $\mathrm{{VO}}{\left( {\mathrm{C}}_{6}{\mathrm{{NO}}}_{2}{\mathrm{H}}_{4}\right) }_{2}$
+
+钒的氧化数为 +4 。
+"
+,
+"",
+"",
+"",
+"",
+"",
+"",

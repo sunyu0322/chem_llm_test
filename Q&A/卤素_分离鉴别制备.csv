@@ -1,0 +1,206 @@
+question,answer
+"用化学反应方程式表示下列提纯和鉴别过程。工业碘中常常含有 ICl 或 IBr 杂质, 试设计方案提纯碘, 并说明方案的理论根据;","可将含有 $\mathrm{{ICl}}$ 或 $\mathrm{{IBr}}$ 的 ${\mathrm{I}}_{2}$ 与 $\mathrm{{KI}}$ 共热,发生如下反应:
+
+$$
+\mathrm{{ICl}} + \mathrm{{KI}}\xrightarrow[]{\bigtriangleup }\mathrm{{KCl}} + {\mathrm{I}}_{2}
+$$
+
+$$
+\mathrm{{IBr}} + \mathrm{{KI}} = \mathrm{{KBr}} + {\mathrm{I}}_{2}
+$$
+
+这种反应进行的方向是生成晶格能大的物质, 由于 $\mathrm{{KCl}}$ 和 $\mathrm{{KBr}}$ 的晶格能大于 $\mathrm{{KI}}$ ,所以可以将 $\mathrm{{ICl}}$ 和 $\mathrm{{IBr}}$ 中的 $\mathrm{I}$ 元素游离出来。在加热的过程中 ${\mathrm{I}}_{2}$ 升华,与 $\mathrm{{KCl}},\mathrm{{KBr}}$ 分离得以纯化。
+"
+"用化学反应方程式表示下列提纯和鉴别过程。某 $\mathrm{{NaCl}}$ 样品中混有少量 $\mathrm{{NaBr}}$ ,试设法提纯该样品;","将样品溶于水,通少许氯气, $\mathrm{{NaBr}}$ 将被 ${\mathrm{{Cl}}}_{2}$ 氧化:
+
+$$
+2\mathrm{{NaBr}} + {\mathrm{{Cl}}}_{2} = 2\mathrm{{NaCl}} + {\mathrm{{Br}}}_{2}
+$$
+
+向溶液中加些许 ${\mathrm{{CCl}}}_{4}$ ,振荡,过量的 ${\mathrm{{Cl}}}_{2}$ 和生成的 ${\mathrm{{Br}}}_{2}$ 溶解在 ${\mathrm{{CCl}}}_{4}$ 层。用分液漏斗进行分离。浓缩水相, 结晶得纯净的 $\mathrm{{NaCl}}$ 。
+"
+"用化学反应方程式表示下列提纯和鉴别过程。一白色粉末,可能是 $\mathrm{{KCl}},\mathrm{{KBr}}$ 或 $\mathrm{{KI}}$ ,试设计方案加以鉴别;","取三种粉末分别置于试管中,用 ${\mathrm{H}}_{2}\mathrm{O}$ 溶解后滴加 ${\mathrm{{AgNO}}}_{3}$ 溶液。根据生成的卤化银的颜色和溶解性可区别三种样品:
+
+生成白色沉淀, 且沉淀可溶于稀氨水, 则样品为 $\mathrm{{NaCl}}$ 。
+
+生成浅黄色沉淀,且沉淀可溶于 ${\mathrm{{Na}}}_{2}{\mathrm{\;S}}_{2}{\mathrm{O}}_{3}$ 溶液,则样品为 $\mathrm{{NaBr}}$ 。
+
+生成黄色沉淀,且沉淀不溶于 ${\mathrm{{Na}}}_{2}{\mathrm{\;S}}_{2}{\mathrm{O}}_{3}$ 溶液,则样品为 $\mathrm{{NaI}}$ 。
+"
+"用化学反应方程式表示下列提纯和鉴别过程。一固体样品,可能是 ${\mathrm{{KClO}}}_{4}$ 或 ${\mathrm{K}}_{5}{\mathrm{{IO}}}_{6}$ ,试设计方案加以鉴别;","将固体样品溶于 ${\mathrm{H}}_{2}{\mathrm{{SO}}}_{4}$ 溶液,并加入少许 ${\mathrm{{MnSO}}}_{4}$ 稀溶液,微热,溶液显紫色的是 ${\mathrm{K}}_{5}{\mathrm{{IO}}}_{6}$ ,剩下的是 ${\mathrm{{KClO}}}_{4}$ 。 ${\mathrm{K}}_{5}{\mathrm{{IO}}}_{6}$ 氧化 ${\mathrm{{Mn}}}^{2 + }$ 的化学反应方程式为
+
+$$
+2{\mathrm{{Mn}}}^{2 + } + 5{\mathrm{H}}_{5}{\mathrm{{IO}}}_{6}\mathop{\rightleftharpoons }\limits^{\bigtriangleup }2{\mathrm{{MnO}}}_{4}^{ - } + 5{\mathrm{{IO}}}_{3}^{ - } + {11}{\mathrm{H}}^{ + } + 7{\mathrm{H}}_{2}\mathrm{O}
+$$
+"
+"用化学反应方程式表示下列提纯和鉴别过程。3 个试剂瓶中分别装有 $\mathrm{{KI}},{\mathrm{{KIO}}}_{3}$ 和 ${\mathrm{K}}_{5}{\mathrm{{IO}}}_{6}$ ,试设计方案加以鉴别;","将固体样品溶于 ${\mathrm{H}}_{2}{\mathrm{{SO}}}_{4}$ 溶液,并加入少许 ${\mathrm{{MnSO}}}_{4}$ 稀溶液,微热,溶液显紫色的
+
+是 ${\mathrm{K}}_{5}{\mathrm{{IO}}}_{6}$ :
+
+$$
+2{\mathrm{{Mn}}}^{2 + } + 5{\mathrm{H}}_{5}{\mathrm{{IO}}}_{6}\overset{\bigtriangleup }{ \rightleftharpoons }2{\mathrm{{MnO}}}_{4}^{ - } + 5{\mathrm{{IO}}}_{3}^{ - } + {11}{\mathrm{H}}^{ + } + 7{\mathrm{H}}_{2}\mathrm{O}
+$$
+
+将固体样品溶于 ${\mathrm{H}}_{2}{\mathrm{{SO}}}_{4}$ 溶液,加少许淀粉溶液,并逐渐滴加 ${\mathrm{{Na}}}_{2}{\mathrm{{SO}}}_{3}$ 溶液,溶液变蓝色又消失,说明此样品为 ${\mathrm{{KIO}}}_{3}$ :
+
+$$
+2{\mathrm{{IO}}}_{3}^{ - } + 5{\mathrm{{SO}}}_{3}^{2 - } + 2{\mathrm{H}}^{ + } = {\mathrm{I}}_{2} + 5{\mathrm{{SO}}}_{4}^{2 - } + {\mathrm{H}}_{2}\mathrm{O}
+$$
+
+$$
+{\mathrm{I}}_{2} + {\mathrm{{SO}}}_{3}^{2 - } + {\mathrm{H}}_{2}\mathrm{O} = 2{\mathrm{I}}^{ - } + {\mathrm{{SO}}}_{4}^{2 - } + 2{\mathrm{H}}^{ + }
+$$
+
+剩下的是 $\mathrm{{KI}}。{\mathrm{K}}_{5}{\mathrm{{IO}}}_{6}$ 和 ${\mathrm{{KIO}}}_{3}$ 均具有氧化性,而 $\mathrm{{KI}}$ 具有还原性。
+"
+"用化学反应方程式表示下列提纯和鉴别过程。4 个试剂瓶中分别装有 $\mathrm{{KCl}},\mathrm{{KClO}},{\mathrm{{KClO}}}_{3}$ 和 ${\mathrm{{KClO}}}_{4}$ ,试设计方案加以鉴别。","分别取少量固体加水溶解。其中,不溶解的是 ${\mathrm{{KClO}}}_{4}$ ,因 ${\mathrm{{KClO}}}_{4}$ 的溶解度小。
+
+试验其他几种溶液的 $\mathrm{{pH}}$ ,溶液呈碱性的是 $\mathrm{{KClO}}$ 。因次氯酸为弱酸, $\mathrm{{KClO}}$ 溶液水解显碱性, 而其他几种盐均是强酸盐, 水溶液无明显的碱性。
+
+进一步确认,向显碱性的溶液中滴入 ${\mathrm{{MnSO}}}_{4}$ 溶液,能产生棕色沉淀则肯定为 $\mathrm{{KClO}}$ :
+
+$$
+{\mathrm{{Mn}}}^{2 + } + {\mathrm{{ClO}}}^{ - } + 2{\mathrm{{OH}}}^{ - } = {\mathrm{{MnO}}}_{2} \downarrow + {\mathrm{{Cl}}}^{ - } + {\mathrm{H}}_{2}\mathrm{O}
+$$
+
+剩下的两个样品分别加入浓盐酸,溶液为黄色的是 ${\mathrm{{KClO}}}_{3}$ :
+
+$$
+8{\mathrm{{KClO}}}_{3} + {24}\mathrm{{HCl}}\text{ (浓) } = 9{\mathrm{{Cl}}}_{2} \uparrow + 8\mathrm{{KCl}} + 6{\mathrm{{ClO}}}_{2} \uparrow + {12}{\mathrm{H}}_{2}\mathrm{O}
+$$
+
+溶液不变色的是 $\mathrm{{KCl}}$ 。
+"
+"用化学反应方程式表示下列制备过程, 并注明反应条件。以萤石 $\left( {\mathrm{{CaF}}}_{2}\right)$ 为原料制备单质氟; ","${\mathrm{{CaF}}}_{2} + {\mathrm{H}}_{2}{\mathrm{{SO}}}_{4}$ (浓) $\overset{\bigtriangleup }{ = }{\mathrm{{CaSO}}}_{4} + 2\mathrm{{HF}} \uparrow$
+
+向液态 $\mathrm{{HF}}$ 中加入强电解质 $\mathrm{{KF}}$ ,形成导电性强且熔点较低的混合物。
+
+电解 ${\mathrm{{KHF}}}_{2}$ 制取单质 ${\mathrm{F}}_{2}$ 。阳极反应为
+
+$$
+2{\mathrm{\;F}}^{ - } = {\mathrm{F}}_{2} + 2{\mathrm{e}}^{ - }
+$$
+
+得到的 ${\mathrm{F}}_{2}$ 压入镍制的特种钢瓶内储存。
+"
+"用化学反应方程式表示下列制备过程, 并注明反应条件。从氯酸钾制备高氯酸;"," $4{\mathrm{{KClO}}}_{3}\mathop{=}\limits^{\bigtriangleup }3{\mathrm{{KClO}}}_{4} + \mathrm{{KCl}}$
+
+${\mathrm{{KClO}}}_{4}$ 溶解度比 $\mathrm{{KCl}}$ 小,可分离。
+
+$$
+{\mathrm{{KClO}}}_{4} + {\mathrm{H}}_{2}{\mathrm{{SO}}}_{4} = {\mathrm{{KHSO}}}_{4} + {\mathrm{{HClO}}}_{4}
+$$
+
+减压蒸馏出 ${\mathrm{{HClO}}}_{4}$ 。
+"
+"用化学反应方程式表示下列制备过程, 并注明反应条件。由海水制备溴;","先将海水日照浓缩,调成酸性,通入 ${\mathrm{{Cl}}}_{2}$ 将 ${\mathrm{{Br}}}^{ - }$ 氧化成 ${\mathrm{{Br}}}_{2}$ :
+
+$$
+2{\mathrm{{Br}}}^{ - } + {\mathrm{{Cl}}}_{2} = 2{\mathrm{{Cl}}}^{ - } + {\mathrm{{Br}}}_{2}
+$$
+
+然后鼓入空气将 ${\mathrm{{Br}}}_{2}$ 吹出,用 ${\mathrm{{Na}}}_{2}{\mathrm{{CO}}}_{3}$ 溶液吸收:
+
+$$
+3{\mathrm{{Br}}}_{2} + 3{\mathrm{{Na}}}_{2}{\mathrm{{CO}}}_{3} = 5\mathrm{{NaBr}} + {\mathrm{{NaBrO}}}_{3} + 3{\mathrm{{CO}}}_{2} \uparrow
+$$
+
+最后加酸制得 ${\mathrm{{Br}}}_{2}$ :
+
+$$
+5\mathrm{{HBr}} + {\mathrm{{HBrO}}}_{3} = 3{\mathrm{{Br}}}_{2} + 3{\mathrm{H}}_{2}\mathrm{O}
+$$
+"
+"用化学反应方程式表示下列制备过程, 并注明反应条件。从液溴制备溴酸钾水溶液。","使液溴在 $\mathrm{{KOH}}$ 溶液中发生歧化反应:
+
+$$
+3{\mathrm{{Br}}}_{2} + 6\mathrm{{KOH}} = 5\mathrm{{KBr}} + {\mathrm{{KBrO}}}_{3} + 3{\mathrm{H}}_{2}\mathrm{O}
+$$
+
+反应温度应在 ${50} \sim {80}{}^{ \circ }\mathrm{C}$ 。
+"
+以盐酸为基本原料制备下列物质:氯气,"加热浓盐酸和 ${\mathrm{{MnO}}}_{2}$ 的混合物制备 ${\mathrm{{Cl}}}_{2}$ :
+
+$$
+{\mathrm{{MnO}}}_{2} + 4\mathrm{{HCl}}\text{ (浓) }\xrightarrow[]{\Delta }{\mathrm{{MnCl}}}_{2} + {\mathrm{{Cl}}}_{2} \uparrow + 2{\mathrm{H}}_{2}\mathrm{O}
+$$
+"
+以盐酸为基本原料制备下列物质:次氯酸;," ${\mathrm{{Cl}}}_{2}$ 歧化生成 $\mathrm{{HClO}}$ 和 $\mathrm{{HCl}}$ 。向体系中加入 $\mathrm{{HgO}}$ 或 ${\mathrm{{Ag}}}_{2}\mathrm{O}$ 以除去 ${\mathrm{H}}^{ + }$ ,使歧化反应能够进行:
+
+$$
+2\mathrm{{HgO}} + 2{\mathrm{{Cl}}}_{2} + {\mathrm{H}}_{2}\mathrm{O} = \mathrm{{HgO}} \cdot {\mathrm{{HgCl}}}_{2} + 2\mathrm{{HClO}}
+$$
+
+$$
+{\mathrm{{Ag}}}_{2}\mathrm{O} + 2{\mathrm{{Cl}}}_{2} + {\mathrm{H}}_{2}\mathrm{O} = 2\mathrm{{AgCl}} + 2\mathrm{{HClO}}
+$$
+
+也可在 ${\mathrm{{CaCO}}}_{3}$ 悬浮液中通入 ${\mathrm{{Cl}}}_{2}$ ,利用 ${\mathrm{{CO}}}_{3}^{2 - }$ 与形成的 ${\mathrm{H}}^{ + }$ 结合成 ${\mathrm{{CO}}}_{2}$ 使歧化反应能够进行,形成较高浓度的 $\mathrm{{HClO}}$ :
+
+$$
+{\mathrm{{CaCO}}}_{3} + 2{\mathrm{{Cl}}}_{2} + {\mathrm{H}}_{2}\mathrm{O} = {\mathrm{{CaCl}}}_{2} + {\mathrm{{CO}}}_{2} + 2\mathrm{{HClO}}
+$$
+"
+"以盐酸为基本原料制备下列物质:
+氯酸钾"," ${\mathrm{{Cl}}}_{2}$ 通入热的 $\mathrm{{KOH}}$ 溶液则歧化为 ${\mathrm{{KClO}}}_{3}$ :
+
+$$
+3{\mathrm{{Cl}}}_{2} + 6\mathrm{{KOH}}\overset{\bigtriangleup }{ = }{\mathrm{{KClO}}}_{3} + 5\mathrm{{KCl}} + 3{\mathrm{H}}_{2}\mathrm{O}
+$$
+"
+以盐酸为基本原料制备下列物质:二氧化氯," ${\mathrm{{KClO}}}_{3}$ 被草酸 $\left( {{\mathrm{H}}_{2}{\mathrm{C}}_{2}{\mathrm{O}}_{4}}\right)$ 或 ${\mathrm{{SO}}}_{2}$ 还原得到二氧化氯:
+
+$$
+2{\mathrm{{KClO}}}_{3} + 3{\mathrm{H}}_{2}{\mathrm{C}}_{2}{\mathrm{O}}_{4} = 2{\mathrm{{ClO}}}_{2} \uparrow + 2{\mathrm{{CO}}}_{2} \uparrow + 2{\mathrm{{KHC}}}_{2}{\mathrm{O}}_{4} + 2{\mathrm{H}}_{2}\mathrm{O}
+$$
+
+$$
+2{\mathrm{{KClO}}}_{3} + {\mathrm{{SO}}}_{2} = 2{\mathrm{{ClO}}}_{2} + {\mathrm{K}}_{2}{\mathrm{{SO}}}_{4}
+$$
+"
+"实验室常用浓盐酸与 ${\mathrm{{MnO}}}_{2}$ 或 ${\mathrm{{KMnO}}}_{4}$ 反应制备 ${\mathrm{{Cl}}}_{2}$ ,试分析两种方法的优缺点。","室温下浓盐酸与 ${\mathrm{{MnO}}}_{2}$ 反应速率慢,制备 ${\mathrm{{Cl}}}_{2}$ 时需要加热,停止加热则反应速率很快降下来,因此该法的优点是便于随制随停; 另外, ${\mathrm{{MnO}}}_{2}$ 价格比 ${\mathrm{{KMnO}}}_{4}$ 便宜,制备成本低。 用浓盐酸与 ${\mathrm{{KMnO}}}_{4}$ 反应制备 ${\mathrm{{Cl}}}_{2}$ 的优点是不需要加热,但反应速率不易控制,不能随制随停; 另外, ${\mathrm{{KMnO}}}_{4}$ 价格比 ${\mathrm{{MnO}}}_{2}$ 贵,制备成本高。
+"
+实验室中制备少量 $\mathrm{{HBr}}$ 所采用的方法是将红磷与 ${\mathrm{H}}_{2}\mathrm{O}$ 混合后滴加 ${\mathrm{{Br}}}_{2}$ 。为什么不能将红磷与 ${\mathrm{{Br}}}_{2}$ 混合后滴加 ${\mathrm{H}}_{2}\mathrm{O}$ 制备 $\mathrm{{HBr}}$ ?,"如果将红磷与 ${\mathrm{{Br}}}_{2}$ 混合,立即有易挥发的 ${\mathrm{{PBr}}}_{3}$ 生成,且反应放热而难以控制反应速率, 不利于制备 $\mathrm{{HBr}}$ 气体。将红磷与 ${\mathrm{H}}_{2}\mathrm{O}$ 混合后滴加 ${\mathrm{{Br}}}_{2}$ ,可以通过滴加 ${\mathrm{{Br}}}_{2}$ 的速度控制反应; 同时,生成的 ${\mathrm{{PBr}}}_{3}$ 立即水解生成 $\mathrm{{HBr}}$ ,有利于制备 $\mathrm{{HBr}}$ 。"
+"四支试管中分别装有 $\mathrm{{HCl}},\mathrm{{HBr}},\mathrm{{HI}},{\mathrm{H}}_{2}{\mathrm{{SO}}}_{4}$ 溶液。如何鉴别?","向四支试管中分别加入少许 ${\mathrm{{CCl}}}_{4}$ 和 ${\mathrm{{KMnO}}}_{4},{\mathrm{{CCl}}}_{4}$ 层变黄或橙色的是 $\mathrm{{HBr}},{\mathrm{{CCl}}}_{4}$ 层变紫的是 $\mathrm{{HI}},{\mathrm{{CCl}}}_{4}$ 层不变色、但 ${\mathrm{{KMnO}}}_{4}$ 褪色或颜色变浅的是 $\mathrm{{HCl}}$ ,无明显变化的是 ${\mathrm{H}}_{2}{\mathrm{{SO}}}_{4}$ 。本题也可由生成沉淀的实验加以鉴别。"
+"有三瓶白色固体失去了标签,它们分别是 $\mathrm{{KClO}},{\mathrm{{KClO}}}_{3}$ 和 ${\mathrm{{KClO}}}_{4}$ ,可用什么方法加以鉴别?","可用两种方法加以鉴别。
+
+（1）分别取少许固体加入干燥的试管中, 再分别进行如下实验。
+
+加入稀盐酸即有 ${\mathrm{{Cl}}}_{2}$ 气放出的是 $\mathrm{{KClO}}$ :
+
+$$
+\mathrm{{KClO}} + 2\mathrm{{HCl}} = \mathrm{{KCl}} + {\mathrm{{Cl}}}_{2} \uparrow + {\mathrm{H}}_{2}\mathrm{O}
+$$
+
+加入浓盐酸有 ${\mathrm{{Cl}}}_{2}$ 放出且溶液变黄的是 ${\mathrm{{KClO}}}_{3}$ :
+
+$$
+8{\mathrm{{KClO}}}_{3} + {24}\mathrm{{HCl}}\text{ (浓) } = 9{\mathrm{{Cl}}}_{2} \uparrow + 8\mathrm{{KCl}} + 6{\mathrm{{ClO}}}_{2} \uparrow + {12}{\mathrm{H}}_{2}\mathrm{O}
+$$
+
+剩下的则为 ${\mathrm{{KClO}}}_{4}$ 。
+
+（2）分别取少许固体加水溶解,几乎不溶于水的是 ${\mathrm{{KClO}}}_{4}$ 。再进行如下实验。
+
+加入 $\mathrm{{KI}}$ ,溶液有 ${\mathrm{I}}_{2}$ 生成的是 $\mathrm{{KClO}}$ :
+
+$$
+{\mathrm{{ClO}}}^{ - } + 2{\mathrm{I}}^{ - } + {\mathrm{H}}_{2}\mathrm{O} = {\mathrm{{Cl}}}^{ - } + {\mathrm{I}}_{2} + 2{\mathrm{{OH}}}^{ - }
+$$
+
+加入 $\mathrm{{KI}}$ ,溶液无变化,再加少许 ${\mathrm{H}}_{2}{\mathrm{{SO}}}_{4}$ 酸化后有 ${\mathrm{I}}_{2}$ 生成的是 ${\mathrm{{KClO}}}_{3}$ :
+
+$$
+{\mathrm{{ClO}}}_{3}^{ - } + 6{\mathrm{I}}^{ - } + 6{\mathrm{H}}^{ + } = 3{\mathrm{I}}_{2} + {\mathrm{{Cl}}}^{ - } + 3{\mathrm{H}}_{2}\mathrm{O}
+$$
+"
+"某一试液能使 ${\mathrm{{KMnO}}}_{4}$ 的酸性溶液褪色,但不能使碘一淀粉溶液褪色。试指出下列阴离子哪些可能存在于试液中。已知 ${E}^{ \ominus }\left( {{\mathrm{{MnO}}}_{4}^{ - }/{\mathrm{{Mn}}}^{2 + }}\right) = {1.51}\mathrm{\;V},{E}^{ \ominus }\left( {{\mathrm{I}}_{2}/{\mathrm{I}}^{ - }}\right) = {0.535}\mathrm{\;V}$ 。
+
+(1) ${\mathrm{S}}_{2}{\mathrm{O}}_{3}^{2 - }$ ; (2) ${\mathrm{S}}^{2 - }$ ; (3) ${\mathrm{{Br}}}^{ - }$ ; (4) ${\mathrm{I}}^{ - }$ ; (5) ${\mathrm{{NO}}}_{2}^{ - }$ ; (6) ${\mathrm{{SO}}}_{3}^{2 - }$ 。","查电极电势表得 ${E}^{ \ominus }\left( {{\mathrm{S}}_{4}{\mathrm{O}}_{6}^{2 - }/{\mathrm{S}}_{2}{\mathrm{O}}_{3}^{2 - }}\right) = {0.08}\mathrm{\;V},{E}^{ \ominus }\left( {\mathrm{S}/{\mathrm{H}}_{2}\mathrm{\;S}}\right) = {0.142}\mathrm{\;V},{E}^{ \ominus }\left( {{\mathrm{{Br}}}_{2}/{\mathrm{{Br}}}^{ - }}\right) =$ ${1.07}\mathrm{\;V},{E}^{ \ominus }\left( {{\mathrm{{NO}}}_{3}^{ - }/{\mathrm{{HNO}}}_{2}}\right) = {0.934}\mathrm{\;V},{E}^{ \ominus }\left( {{\mathrm{{SO}}}_{4}^{2 - }/{\mathrm{H}}_{2}{\mathrm{{SO}}}_{3}}\right) = {0.172}\mathrm{\;V}$ 。
+
+因为 ${E}^{ \ominus }\left( {{\mathrm{{MnO}}}_{4}^{ - }/{\mathrm{{Mn}}}^{2 + }}\right)$ 大于 ${E}^{ \ominus }\left( {{\mathrm{S}}_{4}{\mathrm{O}}_{6}^{2 - }/{\mathrm{S}}_{2}{\mathrm{O}}_{3}^{2 - }}\right) ,{E}^{ \ominus }\left( {\mathrm{S}/{\mathrm{H}}_{2}\mathrm{\;S}}\right) ,{E}^{ \ominus }\left( {{\mathrm{{Br}}}_{2}/{\mathrm{{Br}}}^{ - }}\right) ,{E}^{ \ominus }\left( {{\mathrm{I}}_{2}/}\right.$ $\left. {\mathrm{I}}^{ - }\right) ,{E}^{ \ominus }\left( {{\mathrm{{NO}}}_{3}^{ - }/{\mathrm{{HNO}}}_{2}}\right)$ 和 ${E}^{ \ominus }\left( {{\mathrm{{SO}}}_{4}^{2 - }/{\mathrm{H}}_{2}{\mathrm{{SO}}}_{3}}\right)$ ,所以,在酸性溶液中 ${\mathrm{S}}_{2}{\mathrm{O}}_{3}^{2 - },{\mathrm{S}}^{2 - },{\mathrm{{Br}}}^{ - },{\mathrm{I}}^{ - }$ , ${\mathrm{{NO}}}_{2}^{ - },{\mathrm{{SO}}}_{3}^{2 - }$ 均能使 ${\mathrm{{KMnO}}}_{4}$ 褪色。而 ${E}^{ \ominus }\left( {{\mathrm{I}}_{2}/{\mathrm{I}}^{ - }}\right)$ 只比 ${E}^{ \ominus }\left( {{\mathrm{S}}_{4}{\mathrm{O}}_{6}^{2 - }/{\mathrm{S}}_{2}{\mathrm{O}}_{3}^{2 - }}\right) ,{E}^{ \ominus }\left( {\mathrm{S}/{\mathrm{H}}_{2}\mathrm{\;S}}\right)$ 和 ${E}^{ \ominus }\left( {{\mathrm{{SO}}}_{4}^{2 - }/{\mathrm{H}}_{2}{\mathrm{{SO}}}_{3}}\right)$ 大,故 ${\mathrm{S}}_{2}{\mathrm{O}}_{3}^{2 - },{\mathrm{S}}^{2 - },{\mathrm{{SO}}}_{3}^{2 - }$ 能使碘-淀粉溶液褪色,而 ${\mathrm{{Br}}}^{ - },{\mathrm{I}}^{ - },{\mathrm{{NO}}}_{2}^{ - }$ 则不能。
+
+因此, ${\mathrm{{Br}}}^{ - },{\mathrm{I}}^{ - },{\mathrm{{NO}}}_{2}^{ - }$ 可能存在。"
+,
+"",
+"",
