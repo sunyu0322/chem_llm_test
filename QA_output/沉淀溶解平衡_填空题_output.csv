@@ -1,0 +1,240 @@
+query,true_answer,reasoning,model_answer,knowledge_accuracy,reasoning_accuracy,final_answer_accuracy
+难溶电解质 ${\mathrm{{MgNH}}}_{4}{\mathrm{{PO}}}_{4}$ 和 $\mathrm{{TiO}}{\left( \mathrm{{OH}}\right) }_{2}$ 的溶度积表达式分别是___。,"${K}_{\mathrm{{sp}}}^{ \ominus }\left( {{\mathrm{{MgNH}}}_{4}{\mathrm{{PO}}}_{4}}\right) = c\left( {\mathrm{{Mg}}}^{2 + }\right) c\left( {\mathrm{{NH}}}_{4}^{ + }\right) c\left( {\mathrm{{PO}}}_{4}^{3 - }\right) ,$
+
+${K}_{\mathrm{{sp}}}^{ \ominus }\left\lbrack {\mathrm{{TiO}}{\left( \mathrm{{OH}}\right) }_{2}}\right\rbrack = c\left( {\mathrm{{TiO}}}^{2 + }\right) {\left\lbrack c\left( {\mathrm{{OH}}}^{ - }\right) \right\rbrack }^{2}。$","：  
+1. 难溶电解质的溶度积（Ksp）表示该物质在水中饱和状态下，离子化生成的各成分离子的浓度乘积。溶度积表达式取决于溶解方程式以及化学计量比。  
+   
+2. 首先分析 $\mathrm{MgNH}_4\mathrm{PO}_4$：  
+   该物质的溶解平衡为：  
+   \[
+   \mathrm{MgNH}_4\mathrm{PO}_4 \leftrightharpoons \mathrm{Mg}^{2+} + \mathrm{NH}_4^+ + \mathrm{PO}_4^{3-}
+   \]  
+   在这里，$1$摩尔的 $\mathrm{MgNH}_4\mathrm{PO}_4$ 溶解后，生成1摩尔的 $\mathrm{Mg}^{2+}$、1摩尔的 $\mathrm{NH}_4^+$ 和1摩尔的 $\mathrm{PO}_4^{3-}$。  
+   因此，溶度积表达式为：  
+   \[
+   K_\text{sp} = [\mathrm{Mg}^{2+}] \cdot [\mathrm{NH}_4^+] \cdot [\mathrm{PO}_4^{3-}]
+   \]  
+
+3. 然后分析 $\mathrm{TiO}(\mathrm{OH})_2$：  
+   该物质的溶解平衡为：  
+   \[
+   \mathrm{TiO}(\mathrm{OH})_2 \leftrightharpoons \mathrm{TiO}^{2+} + 2\mathrm{OH}^-
+   \]  
+   在这里，$1$摩尔 $\mathrm{TiO}(\mathrm{OH})_2$ 溶解后，生成1摩尔的 $\mathrm{TiO}^{2+}$ 和 2摩尔的 $\mathrm{OH}^-$。  
+   因此，溶度积表达式为：  
+   \[
+   K_\text{sp} = [\mathrm{TiO}^{2+}] \cdot [\mathrm{OH}^-]^2
+   \]","：  
+$K_\text{sp} (\mathrm{MgNH}_4\mathrm{PO}_4) = [\mathrm{Mg}^{2+}] \cdot [\mathrm{NH}_4^+] \cdot [\mathrm{PO}_4^{3-}]$  
+$K_\text{sp} (\mathrm{TiO}(\mathrm{OH})_2) = [\mathrm{TiO}^{2+}] \cdot [\mathrm{OH}^-]^2$",N/A,N/A,N/A
+"已知 ${\mathrm{{PbF}}}_{2}$ 的 ${K}_{\mathrm{{sp}}}^{ \ominus } = {3.3} \times {10}^{-8}$ ,则在 ${\mathrm{{PbF}}}_{2}$ 饱和溶液中, $c\left( {\mathrm{\;F}}^{ - }\right) =$ mol $\cdot {\mathrm{{dm}}}^{-3}$ ,溶解度为___ $\mathrm{{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 。","${4.0} \times {10}^{-3},{2.0} \times {10}^{-3}$","：  
+要解决这个问题，我们必须首先理解氟化铅 \((\text{PbF}_2)\) 的溶解平衡过程：  
+\[
+\text{PbF}_2 (s) \rightleftharpoons \text{Pb}^{2+} (aq) + 2\text{F}^- (aq)
+\]  
+根据化学计量数，这表明1摩尔的 \(\text{PbF}_2\) 解离产生1摩尔的 \(\text{Pb}^{2+}\) 离子和2摩尔的 \(\text{F}^-\) 离子。因此，如果 \(\text{PbF}_2\) 在水中的溶解度为 \(s\)，则 \(\text{Pb}^{2+}\) 离子的浓度为 \(s\)，而 \(\text{F}^-\) 离子的浓度为 \(2s\)。
+
+根据溶度积表达式：
+\[
+K_{sp} = [\text{Pb}^{2+}][\text{F}^-]^2
+\]
+给定 \(\text{PbF}_2\) 的溶度积常数 \(K_{sp} = 3.3 \times 10^{-8}\)，代入浓度变量：
+\[
+3.3 \times 10^{-8} = (s)(2s)^2 = 4s^3
+\]
+解这个方程来求 \(s\)：
+\[
+4s^3 = 3.3 \times 10^{-8}
+\]
+\[
+s^3 = \frac{3.3 \times 10^{-8}}{4} = 0.825 \times 10^{-8} = 8.25 \times 10^{-9}
+\]
+\[
+s = \sqrt[3]{8.25 \times 10^{-9}}
+\]
+用计算器求得：
+\[
+s \approx 2.03 \times 10^{-3} \, \text{mol} \cdot \text{dm}^{-3}
+\]
+
+因此，在饱和溶液中，\(\text{F}^-\) 的浓度是：
+\[
+c(\text{F}^-) = 2s = 2 \times 2.03 \times 10^{-3} = 4.06 \times 10^{-3} \, \text{mol} \cdot \text{dm}^{-3}
+\]",：\(4.06 \times 10^{-3}\),N/A,N/A,N/A
+"已知 ${K}_{\mathrm{{sp}}}^{ \ominus } : \mathrm{{FeS}} {6.3}\times {10}^{-{18}},\mathrm{{ZnS}} {2.5} \times {10}^{-{22}},\mathrm{{CdS}} {8.0} \times {10}^{-{27}}$ 。在浓度相同的 ${\mathrm{{Fe}}}^{2 + },{\mathrm{{Zn}}}^{2 + }$ 和 ${\mathrm{{Cd}}}^{2 + }$ 混合溶液中滴加 ${\mathrm{{Na}}}_{2}\mathrm{\;S}$ 溶液,最先生成沉淀的离子是子是___。","${\mathrm{{Cd}}}^{2 + },{\mathrm{{Fe}}}^{2 + }$","：
+1. 题目中给出了三种硫化物 (\(\mathrm{FeS}\), \(\mathrm{ZnS}\), \(\mathrm{CdS}\)) 的溶度积常数（\(K_{\mathrm{sp}}^{\ominus}\)），分别为 \(6.3 \times 10^{-18}\)、\(2.5 \times 10^{-22}\)、和 \(8.0 \times 10^{-27}\)。这些值的大小顺序为：\(\mathrm{FeS} > \mathrm{ZnS} > \mathrm{CdS}\)。
+
+2. 溶度积常数（\(%{K}_{\mathrm{sp}}^{\ominus}\)）表示饱和溶液中溶解平衡的离子积。当\((\mathrm{cation})\)和 \([\mathrm{S}^{2-}]\) 的离子积等于或超过 \({K}_{\mathrm{sp}}^{\ominus}\) 时，对应的硫化物开始沉淀。
+
+3. 题目中说明 \(\mathrm{Fe}^{2+}\)、\(\mathrm{Zn}^{2+}\)、\(\mathrm{Cd}^{2+}\) 的浓度是相同的，设其浓度为 \(c\)。同时，\(\mathrm{Na}_2\mathrm{S}\) 是提供 \(\mathrm{S}^{2-}\) 离子的来源，通过控制 \([\mathrm{S}^{2-}]\) 的浓度可以决定何种沉淀最先形成。
+
+4. 判断何种硫化物会最先沉淀，需要计算各硫化物达到沉淀条件所需的最低 \([\mathrm{S}^{2-}]\) 浓度——该浓度可以通过溶度积公式计算：
+
+   \[
+   K_{\mathrm{sp}} = [\mathrm{M}^{2+}][\mathrm{S}^{2-}]
+   \]
+
+   其中 \([\mathrm{M}^{2+}] = c\)。解得：
+   \[
+   [\mathrm{S}^{2-}] = \frac{K_{\mathrm{sp}}}{[\mathrm{M}^{2+}]} = \frac{K_{\mathrm{sp}}}{c}
+   \]
+
+   分别计算三种硫化物的 \([\mathrm{S}^{2-}]\)（假设 \(c\) 值为相等常数）：
+   - 对 \(\mathrm{CdS}\)：\([\mathrm{S}^{2-}] = \frac{8.0 \times 10^{-27}}{c}\)。
+   - 对 \(\mathrm{ZnS}\)：\([\mathrm{S}^{2-}] = \frac{2.5 \times 10^{-22}}{c}\)。
+   - 对 \(\mathrm{FeS}\)：\([\mathrm{S}^{2-}] = \frac{6.3 \times 10^{-18}}{c}\)。
+
+5. 由以上计算结果可以看出，对于相同的 \([\mathrm{M}^{2+}] = c\)，\(\mathrm{CdS}\) 需要最低 \([\mathrm{S}^{2-}]\) 浓度开始沉淀，其次是 \(\mathrm{ZnS}\)，最后是 \(\mathrm{FeS}\)。因此，\(\mathrm{CdS}\) 会最先形成沉淀。",：\(\mathrm{Cd}^{2+}\),N/A,N/A,N/A
+"若 $\mathrm{{AgCl}}$ 在水中, ${0.010}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}{\mathrm{{CaCl}}}_{2}$ 溶液中, ${0.010}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}\mathrm{{NaCl}}$ 溶液中及 0.050 $\mathrm{{mol}} \cdot {\mathrm{{dm}}}^{-3}{\mathrm{{AgNO}}}_{3}$ 溶液中的溶解度分别为 ${s}_{1},{s}_{2},{s}_{3}$ 和 ${s}_{4}$ ,将这些溶解度按由大到小排列的顺序为___",${s}_{1} > {s}_{3} > {s}_{2} > {s}_{4}$,"：  
+要比较 $\mathrm{AgCl}$ 在不同溶液中的溶解度，需要考虑公共离子效应和溶解平衡。
+
+1. **氯化银 ($\mathrm{AgCl}$) 溶解度常数：**  
+   $\mathrm{AgCl}$ 的溶解平衡为： $\mathrm{AgCl(s) \rightleftharpoons Ag^{+}(aq) + Cl^{-}(aq)}$  
+   K_{sp} = $[Ag^+][Cl^-]$
+
+2. **在纯水($s_1$)：**  
+    在纯水中，没有共同离子，AgCl 的溶度最主要依赖 $K_{sp}$. 溶解度为 s，K_{sp} = s^2，所以 $s_1 = \sqrt{K_{sp}}$。
+
+3. **在 $0.010 \mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}{\mathrm{{CaCl}}}_{2}$ 溶液中 ($s_2$)：**  
+    $\mathrm{CaCl}_2$ 提供了 Cl^- 作为公共离子，使得溶解度下降。假设 $\mathrm{CaCl}_2$ 完全电离，$[Cl^-]=0.02\ \mathrm{mol} \cdot \mathrm{dm}^{-3}$。  
+    设AgCl的溶解度为$s_2$，则 $K_{sp} = [Ag^+][Cl^-] = s_2 \cdot 0.02$，所以 $s_2 = \frac{K_{sp}}{0.02}$。
+
+4. **在 $0.010 \mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}\mathrm{{NaCl}}$ 溶液中 ($s_3$)：**  
+   NaCl完全电离后, $[Cl^-]=0.01\ \mathrm{mol} \cdot \mathrm{dm}^{-3}$。  
+    设溶解度为$s_3$，K_{sp} = $s_3 \cdot 0.01$，所以 $s_3 = \frac{K_{sp}}{0.01}$。
+
+5. **在 $0.050 \mathrm{{mol}} \cdot {\mathrm{{dm}}}^{-3}{\mathrm{{AgNO}}}_{3}$ 溶液中 ($s_4$)：**  
+   $\mathrm{AgNO}_3$ 提供了Ag^+作为公共离子，降低了AgCl的溶解度。  
+   $[Ag^+] = 0.05\ \mathrm{mol} \cdot \mathrm{dm}^{-3}$  
+   设溶解度为$s_4$，K_{sp} = $0.05 \cdot s_4$，所以 $s_4 = \frac{K_{sp}}{0.05}$。
+
+通过计算，$s_1 > s_3 > s_2 > s_4$。","：$s_1, s_3, s_2, s_4$",N/A,N/A,N/A
+"在纯水中 $\mathrm{{Mn}}{\left( \mathrm{{OH}}\right) }_{2}$ 的溶解度为___ $\mathrm{{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 。若使 ${0.050}\mathrm{\;{mol}}\mathrm{{Mn}}{\left( \mathrm{{OH}}\right) }_{2}$ 刚好溶解在 ${0.50}{\mathrm{{dm}}}^{3}$ 的 ${\mathrm{{NH}}}_{4}\mathrm{{Cl}}$ 溶液中,则此 ${\mathrm{{NH}}}_{4}\mathrm{{Cl}}$ 溶液的浓度为 $\;\mathrm{{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 。已知 $\mathrm{{Mn}}{\left( \mathrm{{OH}}\right) }_{2}$ 的 ${K}_{\mathrm{{sp}}}^{ \ominus } = {1.9} \times {10}^{-{13}},{\mathrm{{NH}}}_{3}$ 的 ${K}_{\mathrm{b}}^{ \ominus } = {1.8} \times {10}^{-5}$ 。","${3.6} \times {10}^{-5},{2.8}$ ","：为了找到$\mathrm{Mn}{\left( \mathrm{OH}\right) }_{2}$在纯水中的溶解度，我们可以使用它的溶度积常数（$K_{\mathrm{sp}}$）。$\mathrm{Mn}{\left( \mathrm{OH}\right) }_{2}$在水中解离为$\mathrm{Mn}^{2+}$和$2\mathrm{OH}^{-}$。设溶解度为$s$，那么解离方程为$\mathrm{Mn}{\left( \mathrm{OH}\right) }_{2}(s) \rightleftharpoons \mathrm{Mn}^{2+}(aq) + 2\mathrm{OH}^{-}(aq)$，相关浓度关系为：$\left[\mathrm{Mn}^{2+}\right] = s$，$\left[\mathrm{OH}^{-}\right] = 2s$。因此，$K_{\mathrm{sp}} = \left[\mathrm{Mn}^{2+}\right] \left[\mathrm{OH}^{-}\right]^2 = s \cdot (2s)^2 = 4s^3$。
+
+通过$K_{\mathrm{sp}} = 1.9 \times 10^{-13}$，可以计算得到$s$：  
+\[ 4s^3 = 1.9 \times 10^{-13} \]  
+\[ s^3 = \frac{1.9 \times 10^{-13}}{4} \]  
+\[ s^3 = 4.75 \times 10^{-14} \]  
+\[ s = \sqrt[3]{4.75 \times 10^{-14}} \approx 3.64 \times 10^{-5} \, \mathrm{mol} \cdot \mathrm{dm}^{-3} \]
+
+接下来需要确定为了使$0.050\, \mathrm{mol}$的$\mathrm{Mn}{\left( \mathrm{OH}\right) }_{2}$溶于$0.50\, \mathrm{dm}^{3}$的$\mathrm{NH}_4\mathrm{Cl}$溶液中，该溶液需要的浓度。总的溶解度条件为：$s = \frac{0.050}{0.50} = 0.10 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$。
+
+在$\mathrm{NH}_4\mathrm{Cl}$溶液中，由于$\mathrm{NH}_4^+$解离，降低了$\mathrm{OH}^-$的量，从而需要计算出的pH使得$\mathrm{Mn}{\left( \mathrm{OH}\right) }_{2}$能完全溶解。那么此时在平衡时，$\left[\mathrm{OH}^-\right] = \frac{K_{\mathrm{sp}}}{\left[\mathrm{Mn}^{2+}\right]}$。  
+\[ \left[\mathrm{OH}^-\right] = \frac{1.9 \times 10^{-13}}{0.10} = 1.9 \times 10^{-12} \, \mathrm{mol} \cdot \mathrm{dm}^{-3} \]
+
+通过$\mathrm{NH}_4^+$和$\mathrm{NH}_3$平衡关系：$\mathrm{NH}_4^+(aq) \rightleftharpoons \mathrm{NH}_3(aq) + \mathrm{H}^+(aq)$，$K_b$可用于计算该平衡体系的pOH。首先，我们计算pOH：  
+\[ \text{pOH} = -\log(1.9 \times 10^{-12}) \approx 11.72 \]
+
+此时$\text{pH} = 14 - \text{pOH} = 2.28$。此条件下$\text{pH}$的盐酸铵浓度可由氨的平衡表达式$\left[\mathrm{OH}^-\right] = \frac{K_w}{\left[\mathrm{H}^+\right]} = \frac{1.0 \times 10^{-14}}{10^{-2.28}} \approx 5.25 \times 10^{-12} \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$求出。
+
+最终由关联反应得出：$K_b \cdot \frac{\left[\mathrm{NH}_3\right]}{\left[\mathrm{H}^+\right]} = \left[\mathrm{OH}^-\right]/\left[\mathrm{NH}_4^+\right]$。此处未知氨和铵浓度相同，用浓度衡算：
+
+\[ C = \left[\mathrm{NH}_3\right] = \left[\mathrm{NH}_4^+\right] = \frac{\left[\mathrm{OH}^-\right] \cdot \left[\mathrm{H}^+\right]}{K_b} = \frac{5.25 \times 10^{-12} \cdot 10^{-2.28}}{1.8 \times 10^{-5}} \approx 2.88 \times 10^{-3} \, \mathrm{mol} \cdot \mathrm{dm}^{-3} \]",：$2.88 \times 10^{-3}$ $\mathrm{mol} \cdot \mathrm{dm}^{-3}$ (NH_4Cl浓度),N/A,N/A,N/A
+"${\mathrm{{Ag}}}_{2}{\mathrm{{CrO}}}_{4}$ 固体加到 ${\mathrm{{Na}}}_{2}\mathrm{\;S}$ 溶液中,大部分 ${\mathrm{{Ag}}}_{2}{\mathrm{{CrO}}}_{4}$ 转化为 ${\mathrm{{Ag}}}_{2}\mathrm{\;S}$ ,这是由于",${\mathrm{{Ag}}}_{2}{\mathrm{{CrO}}}_{4}$ 的溶解度比 ${\mathrm{{Ag}}}_{2}\mathrm{\;S}$ 的大,"：  
+首先，分析题干，${\mathrm{Ag}}_{2}{\mathrm{CrO}}_{4}$ 和 ${\mathrm{Ag}}_{2}\mathrm{\;S}$ 都是溶解度极小的化合物。根据溶解度积的原理，化合物在溶液中的溶解度可以用它的溶解度积常数（Ksp）来描述。而对于两种固态化合物之间的转化，主要取决于它们各自Ksp值的大小：Ksp小的化合物更稳定，因此在沉淀形成过程中会优先析出。
+
+对比 ${\mathrm{Ag}}_{2}{\mathrm{CrO}}_{4}$ 和 ${\mathrm{Ag}}_{2}\mathrm{\;S}$ 的Ksp，通常${\mathrm{Ag}}_{2}\mathrm{\;S}$的溶解度积恒小于${\mathrm{Ag}}_{2}{\mathrm{CrO}}_{4}$，说明在${\mathrm{Na}}_{2}\mathrm{\;S}$溶液中，析出${\mathrm{Ag}}_{2}\mathrm{\;S}$较为稳定。根据化学反应的趋动性，体系会朝着生成更稳定产物的方向进行，即Ksp较小的化合物优先形成固体析出。
+
+在该场合，尽管溶液最初是${\mathrm{Ag}}_{2}{\mathrm{CrO}}_{4}$，由于加入了含有S^2-的溶液，该配对的S^2-离子与Ag^+进一步反应生成溶解度积更小的${\mathrm{Ag}}_{2}\mathrm{\;S}$，根据相对较低的Ksp使沉淀转化为次稳化合物，以致大部分${\mathrm{Ag}}_{2}{\mathrm{CrO}}_{4}$转化为${\mathrm{Ag}}_{2}\mathrm{\;S}$。",：${\mathrm{Ag}}_{2}\mathrm{\;S}$ 的溶解度积常数（Ksp）较小，形成条件下更稳定。,N/A,N/A,N/A
+"已知 ${K}_{\text{sp }}^{ \ominus } : {\mathrm{{BaSO}}}_{4}{1.1} \times {10}^{-{10}},{\mathrm{{BaCO}}}_{3}{2.6} \times {10}^{-9}$ 。溶液中 ${\mathrm{{BaSO}}}_{4}$ 转化为 ${\mathrm{{BaCO}}}_{3}$ 反应的标
+
+准平衡常数值为",${4.2} \times {10}^{-2}$,"：  
+该反应是溶解度积相关的平衡问题，涉及到溶解度积常数（\( K_{\text{sp}} \)）的使用。反应可以表示为：  
+\[ \text{BaSO}_4 (s) + \text{CO}_3^{2-} (aq) \rightleftharpoons \text{BaCO}_3 (s) + \text{SO}_4^{2-} (aq) \]  
+
+对应此反应的标准平衡常数 \( K^\ominus \) 应满足以下关系：  
+\[ K^\ominus = \frac{K_{\text{sp}}^{\ominus} (\text{BaCO}_3)}{K_{\text{sp}}^{\ominus} (\text{BaSO}_4)} \]  
+
+这是因为此类型的平衡常数描述的是一种离子交换或替代反应，而 \( K_{\text{sp}}^{\ominus} \) 值定义为相关离解的溶解-沉淀平衡常数。  
+将已知数据代入公式：
+\[
+K^\ominus = \frac{K_{\text{sp}}^{\ominus}(\text{BaCO}_3)}{K_{\text{sp}}^{\ominus}(\text{BaSO}_4)} = \frac{2.6 \times 10^{-9}}{1.1 \times 10^{-10}}
+\]  
+
+计算：
+\[
+K^\ominus = 2.364 \times 10^1 = 23.64
+\]",：\( 23.64 \),N/A,N/A,N/A
+"向含有固体 $\mathrm{{AgI}}$ 的饱和溶液中:
+
+(1) 加入固体 ${\mathrm{{AgNO}}}_{3}$ ,则 $c\left( {\mathrm{I}}^{ - }\right)$ 变
+
+（2）若改加更多的 $\mathrm{{AgI}}$ ,则 $c\left( {\mathrm{{Ag}}}^{ + }\right)$ 将
+
+（3）若改加 $\mathrm{{AgBr}}$ 固体,则 $c\left( {\mathrm{I}}^{ - }\right)$ 变","(1)小; (2) 不变; (3)小, 增大","：
+(1) 向饱和溶液中加入固体 $\mathrm{AgNO_3}$，$\mathrm{AgNO_3}$ 会溶解并释放出 $\mathrm{Ag^+}$ 离子。由于溶液最初是 $\mathrm{AgI}$ 的饱和溶液，加入多余的 $\mathrm{Ag^+}$ 离子将破坏 $\mathrm{AgI}$ 的溶解平衡，使得平衡向左移动以重新达到饱和，从而导致 $\mathrm{I^-}$ 的浓度减少。
+
+(2) 若加入更多的 $\mathrm{AgI}$ 固体，由于溶液已经饱和，并且 $\mathrm{AgI}$ 的溶解度很低，额外的固体不会改变溶解平衡中的离子浓度。因为溶解度没有改变，$\mathrm{Ag^+}$ 的浓度保持不变。
+
+(3) 若加入 $\mathrm{AgBr}$ 固体，由于 $\mathrm{AgBr}$ 的溶解度较高，有可能使得溶液中 $\mathrm{Ag^+}$ 的浓度增大。然而，由于加入的是固体 $\mathrm{AgBr}$，除非其溶解并增加 $\mathrm{Ag^+}$ 的浓度，否则变化极小。根据溶解度顺序及混合溶解平衡，加入固体 $\mathrm{AgBr}$ 将不会引起 $\mathrm{I^-}$ 浓度的变化。","：
+(1) 减少
+(2) 不变
+(3) 不变",N/A,N/A,N/A
+"$\mathrm{{AgCl}}$ 饱和溶液中 ${\mathrm{{Ag}}}^{ + }$ 和 ${\mathrm{{Cl}}}^{ - }$ 的浓度均为 ${1.3} \times {10}^{-5}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ ,则 $\mathrm{{AgCl}}$ 溶解反应的 ${\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus }$ 为___ $\mathrm{{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ 。
+",55.7,"：在计算溶解反应的标准摩尔吉布斯自由能变ΔrGm⊖时，可以利用溶解平衡常数Ksp与ΔrGm⊖的关系。已知对于反应：
+
+\[ \text{AgCl(s)} \rightleftharpoons \text{Ag}^+(\text{aq}) + \text{Cl}^-(\text{aq}) \]
+
+其平衡常数Ksp（溶度积常数）可以用溶液中Ag+和Cl-离子浓度的乘积表示，即：
+
+\[ K_{sp} = [\text{Ag}^+][\text{Cl}^-] \]
+
+根据题意：
+
+\[ [\text{Ag}^+] = [\text{Cl}^-] = 1.3 \times 10^{-5} \text{ mol dm}^{-3} \]
+
+因此，
+
+\[ K_{sp} = (1.3 \times 10^{-5}) \times (1.3 \times 10^{-5}) = 1.69 \times 10^{-10} \]
+
+根据标准摩尔吉布斯自由能变与平衡常数的关系：
+
+\[ \Delta_rG_m^\ominus = -RT \ln K_{sp} \]
+
+其中，R是气体常数（8.314 J K⁻¹ mol⁻¹），T是绝对温度，通常假定为298 K。
+
+\[ \Delta_rG_m^\ominus = - (8.314 \, \text{J K}^{-1} \text{mol}^{-1} \times 298 \, \text{K}) \ln (1.69 \times 10^{-10}) \]
+
+计算时，应先计算\(\ln(1.69 \times 10^{-10})\)，大致为\(-22.196\)。
+
+因此：
+
+\[ \Delta_rG_m^\ominus = - (8.314 \times 298) \times (-22.196) \approx 54961 \, \text{J mol}^{-1} \]
+
+换算为\[ \text{kJ mol}^{-1} \]：
+
+\[ \Delta_rG_m^\ominus \approx 55.0 \, \text{kJ mol}^{-1} \]",：55.0,N/A,N/A,N/A
+"混合溶液中 ${\mathrm{{Ba}}}^{2 + }$ 和 ${\mathrm{{Sr}}}^{2 + }$ 的浓度均为 ${0.10}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ ,将稀 ${\mathrm{{Na}}}_{2}{\mathrm{{SO}}}_{4}$ 溶液滴加到混合溶液中,当 ${\mathrm{{Ba}}}^{2 + }$ 已有 ${99}\%$ 沉淀为 ${\mathrm{{BaSO}}}_{4}$ 时,溶液中 ${\mathrm{{Sr}}}^{2 + }$ 的浓度为 $\;\mathrm{{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 。已知 ${\mathrm{{BaSO}}}_{4}$ 的 ${K}_{\mathrm{{sp}}}^{ \ominus } = {1.1} \times {10}^{-{10}},{\mathrm{{SrSO}}}_{4}$ 的 ${K}_{\mathrm{{sp}}}^{ \ominus } = {3.4} \times {10}^{-7}$ 。",0.10,"：
+1. 根据题意，开始滴加稀 \(\mathrm{Na_2SO_4}\) 溶液时，\(\mathrm{BaSO_4}\) 和 \(\mathrm{SrSO_4}\) 会依次析出沉淀。由于 \(\mathrm{BaSO_4}\) 的溶解度积 \((K_\mathrm{sp}^\ominus = 1.1 \times 10^{-10})\) 较小，其优先沉淀。
+
+2. \(\mathrm{Ba}^{2+}\) 的初始浓度为 0.10 \(\mathrm{mol \cdot dm^{-3}}\)。当 \(\mathrm{Ba}^{2+}\) 已有 99% 沉淀为 \(\mathrm{BaSO_4}\)，剩余的 \(\mathrm{Ba}^{2+}\) 的浓度为 \(0.10 \times (1 - 0.99) = 0.001 \;\mathrm{mol \cdot dm^{-3}}\)。
+
+3. 根据 \(\mathrm{BaSO_4}\) 的溶解平衡：
+   \[\mathrm{BaSO_4(s) \rightleftharpoons Ba^{2+}(aq) + SO_4^{2-}(aq)}\]
+   可以写出：
+   \[K_\mathrm{sp}^\ominus(\mathrm{BaSO_4}) = [\mathrm{Ba^{2+}}] [\mathrm{SO_4^{2-}}]\]
+
+   将已知的饱和浓度 \([\mathrm{Ba^{2+}}] = 0.001 \;\mathrm{mol \cdot dm^{-3}}\) 和溶解度积代入：
+   \[1.1 \times 10^{-10} = 0.001 \times [\mathrm{SO_4^{2-}}]\]
+
+   解得：
+   \[[\mathrm{SO_4^{2-}}] = \frac{1.1 \times 10^{-10}}{0.001} = 1.1 \times 10^{-7} \;\mathrm{mol \cdot dm^{-3}}\]
+
+   这说明此时溶液中的 \([\mathrm{SO_4^{2-}}]\) 浓度为 \(1.1 \times 10^{-7} \;\mathrm{mol \cdot dm^{-3}}\)。
+
+4. 在 \(\mathrm{BaSO_4}\) 沉淀时，\(\mathrm{SrSO_4}\) 同时有可能沉淀或溶解。为了判断此时 \(\mathrm{SrSO_4}\) 的沉淀条件，以及计算 \(\mathrm{Sr^{2+}}\) 的浓度，需要考虑 \(\mathrm{SrSO_4}\) 的溶解平衡：
+   \[\mathrm{SrSO_4(s) \rightleftharpoons Sr^{2+}(aq) + SO_4^{2-}(aq)}\]
+
+   溶解度积表达式：
+   \[K_\mathrm{sp}^\ominus(\mathrm{SrSO_4}) = [\mathrm{Sr^{2+}}] \cdot [\mathrm{SO_4^{2-}}]\]
+
+   代入 \(\mathrm{SrSO_4}\) 的溶解度积 \(K_\mathrm{sp}^\ominus = 3.4 \times 10^{-7}\) 和 \([\mathrm{SO_4^{2-}}] = 1.1 \times 10^{-7} \;\mathrm{mol \cdot dm^{-3}}\)：
+   \[3.4 \times 10^{-7} = [\mathrm{Sr^{2+}}] \cdot (1.1 \times 10^{-7})\]
+
+   解得：
+   \[[\mathrm{Sr^{2+}}] = \frac{3.4 \times 10^{-7}}{1.1 \times 10^{-7}} = 3.09 \;\mathrm{mol \cdot dm^{-3}}\]
+
+   这是此时溶液中 \(\mathrm{Sr^{2+}}\) 的实际浓度。
+
+5. 检查是否符合题意和计算条件：\(\mathrm{SO_4^{2-}}\) 的浓度随着滴加硫酸盐而增加，直至 \(\mathrm{BaSO_4}\) 沉淀了 99% 即稳定达到上述平衡，此条件下 \(\mathrm{SrSO_4}\) 并未完全沉淀，因而计算有效。","：
+\(3.09 \;\mathrm{mol \cdot dm^{-3}}\)",N/A,N/A,N/A

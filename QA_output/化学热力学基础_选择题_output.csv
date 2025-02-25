@@ -1,0 +1,58 @@
+query,true_answer,reasoning,model_answer,knowledge_accuracy,reasoning_accuracy,final_answer_accuracy
+"液体沸腾过程中,下列几种物理量中数值增加的是
+
+(A) 蒸气压; (B) 标准摩尔自由能; (C) 标准摩尔熵; (D) 液体质量。",C,"：  
+液体沸腾是一个液体与气体相平衡的过程。在沸腾过程中，液体转变为蒸气，而蒸气压是在液体温度足够高时蒸气与液体达到动态平衡的压力，此时，蒸气压等于外界压力，保持不变。  
+标准摩尔自由能是一个状态函数，与物质在标准状态下（如1 atm压力下）的热力学性质有关。在沸腾过程中，体系从液态转变为气态，反应方向是自由能减小的过程，故不能增加。  
+标准摩尔熵在某一测压下是反应的一个衡量，会因为气态的无序程度增加而增加，因为气态时，分子间距大，自由度增加，体系无序度增加。  
+液体质量在沸腾过程中会随着液体转变为蒸气而减少。",：C,N/A,N/A,N/A
+"下列过程中, ${\Delta G} = 0$ 的是
+
+(A) 氨在水中解离达平衡; (B) 理想气体向真空膨胀;
+
+(C) 乙醇溶于水; (D) 炸药爆炸。",A,"：  
+在热力学中，自由能变（ΔG）是一个过程是否自发进行的判据。当ΔG = 0时，系统处于平衡状态，既没有净反应发生。我们逐一分析选项：
+
+(A) 氨在水中解离达平衡：氨在水中解离是一个可逆反应，当达到平衡时，正反应速率等于逆反应速率，系统的自由能变为零，即ΔG = 0。
+
+(B) 理想气体向真空膨胀：理想气体向真空膨胀是一个不可逆过程，虽然没有外界做功，但由于是自发过程，ΔG < 0。
+
+(C) 乙醇溶于水：乙醇溶于水是一个自发过程，通常ΔG < 0，因为混合过程增加了系统的熵。
+
+(D) 炸药爆炸：炸药爆炸是一个剧烈的自发过程，ΔG < 0，因为反应释放大量能量。
+
+综上所述，只有选项(A)氨在水中解离达平衡时，ΔG = 0。",：A,N/A,N/A,N/A
+"已知反应 ${\mathrm{A}}_{2}\left( \mathrm{\;g}\right) + 2{\mathrm{\;B}}_{2}\left( \mathrm{\;g}\right) = 3{\mathrm{C}}_{2}\left( \mathrm{\;g}\right)$ 在恒压和温度 ${1000}\mathrm{\;K}$ 时的 ${\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}$ 为 ${40}\mathrm{\;{kJ}}$ . ${\mathrm{{mol}}}^{-1},{\Delta }_{\mathrm{r}}{S}_{\mathrm{m}}$ 为 ${40}\mathrm{\;J} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1}$ ,则下列关系中正确的是
+
+(A) ${\Delta }_{\mathrm{r}}{U}_{\mathrm{m}} = {\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}$ ; (B) ${\Delta }_{\mathrm{r}}{G}_{\mathrm{m}} = 0$ ;
+
+(C) ${\Delta }_{\mathrm{r}}{U}_{\mathrm{m}} = T{\Delta }_{\mathrm{r}}{S}_{\mathrm{m}}$ ; (D) 所有关系都正确。",D,"：  
+首先，我们分析每个关系。给定的是一个理想气体反应，且发生在恒压过程。因此：
+
+1. ${\Delta}_{\mathrm{r}}{H}_{\mathrm{m}}$ 和  ${\Delta}_{\mathrm{r}}{U}_{\mathrm{m}}$ 的关系为
+   \[
+   {\Delta}_{\mathrm{r}}{H}_{\mathrm{m}} = {\Delta}_{\mathrm{r}}{U}_{\mathrm{m}} + \Delta n \cdot R \cdot T
+   \]
+   其中 $\Delta n$ 是生成物和反应物气体摩尔数的变化，$\Delta n = 3 - (1+2) = 0$ 。因而，
+   \[
+   {\Delta}_{\mathrm{r}}{U}_{\mathrm{m}} = {\Delta}_{\mathrm{r}}{H}_{\mathrm{m}} = 40 \mathrm{kJ/mol}
+   \]
+   因此选项 (A) 是正确的。
+
+2. 计算 ${\Delta}_{\mathrm{r}}{G}_{\mathrm{m}}$：
+   \[
+   {\Delta}_{\mathrm{r}}{G}_{\mathrm{m}} = {\Delta}_{\mathrm{r}}{H}_{\mathrm{m}} - T{\Delta}_{\mathrm{r}}{S}_{\mathrm{m}}
+   \]
+   代入已知值：
+   \[
+   {\Delta}_{\mathrm{r}}{G}_{\mathrm{m}} = 40\mathrm{kJ} - 1000\mathrm{K} \times 40\mathrm{J/mol \cdot K} = 40\mathrm{kJ} - 40\mathrm{kJ} = 0
+   \]
+   因此选项 (B) 是正确的。
+
+3. 检查选项 (C)：
+   \[
+   {\Delta}_{\mathrm{r}}{U}_{\mathrm{m}} \neq T{\Delta}_{\mathrm{r}}{S}_{\mathrm{m}}
+   \]
+   因为我们计算出了 ${\Delta}_{\mathrm{r}}{U}_{\mathrm{m}} = 40\mathrm{kJ}$，而 $T{\Delta}_{\mathrm{r}}{S}_{\mathrm{m}} = 40\mathrm{kJ}$，所以这不是通常的关系。
+
+4. 总结：选项 (A) 和 (B) 是正确的，但选项 (C) 是错误的，因而选项 (D) 也是错误的。",：D,0.6,0.6,1.0

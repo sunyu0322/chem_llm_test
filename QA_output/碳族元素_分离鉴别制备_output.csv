@@ -1,0 +1,329 @@
+query,true_answer,reasoning,model_answer,knowledge_accuracy,reasoning_accuracy,final_answer_accuracy
+"用化学反应方程式表示制备过程: 以方铅矿 (PbS) 为原料, 制备氧化铅、二氧化铅和铅单质。","先在空气中灼烧方铅矿粉:
+
+$$
+2\mathrm{{PbS}} + 3{\mathrm{O}}_{2} = 2\mathrm{{PbO}} + 2{\mathrm{{SO}}}_{2}
+$$
+
+用过量的 $\mathrm{{NaOH}}$ 处理 $\mathrm{{PbO}}$ ,则
+
+$$
+\mathrm{{PbO}} + 2\mathrm{{NaOH}} = {\mathrm{{Na}}}_{2}{\mathrm{{PbO}}}_{2} + {\mathrm{H}}_{2}\mathrm{O}
+$$
+
+用 $\mathrm{{NaClO}}$ 氧化 ${\mathrm{{Na}}}_{2}{\mathrm{{PbO}}}_{2}$ 得到 ${\mathrm{{PbO}}}_{2}$ :
+
+$$
+{\mathrm{{Na}}}_{2}{\mathrm{{PbO}}}_{2} + \mathrm{{NaClO}} + {\mathrm{H}}_{2}\mathrm{O} = {\mathrm{{PbO}}}_{2} \downarrow + \mathrm{{NaCl}} + 2\mathrm{{NaOH}}
+$$
+
+高温下用碳还原 $\mathrm{{PbO}}$ ,可得金属铅:
+
+$$
+\mathrm{{PbO}} + \mathrm{C} = \mathrm{{Pb}} + \mathrm{{CO}} \uparrow
+$$
+
+$$
+\mathrm{{CO}} + \mathrm{{PbO}} = \mathrm{{Pb}} + {\mathrm{{CO}}}_{2} \uparrow
+$$","：  
+1. 方铅矿 (PbS) 是一种硫化物矿物，其化学式为 PbS。通过不同的化学反应过程，可以将其转化为氧化铅（PbO）、二氧化铅（PbO₂）和金属铅（Pb）。  
+2. **制备氧化铅 (PbO)**：  
+   PbS 可通过高温空气中焙烧转化为 PbO。这一过程中，PbS 会与氧气发生反应，分解生成氧化铅，并释放出二氧化硫：  
+   \[ 2PbS + 3O_2 \xrightarrow{\Delta} 2PbO + 2SO_2 \]  
+
+3. **制备二氧化铅 (PbO₂)**：  
+   PbS 可经氧化进一步得到二氧化铅。先将 PbS 转化为 PbO（如以上步骤），然后通过酸性条件下的强氧化作用（如氯气或硝酸作用）将 PbO 转化为 PbO₂：  
+   \[ PbO + Cl_2 + 2H_2O \rightarrow PbO_2 + 2HCl \]  
+
+4. **制备金属铅 (Pb)**：  
+   PbS 可通过高温还原反应以制备金属铅。例如，使用碳还原 PbS：  
+   \[ PbS + 2C \xrightarrow{\Delta} Pb + 2CO \]  
+   另一种办法是利用 PbS 的部分氧化为 PbO，然后通过 PbO 与过量的 PbS 反应生成金属铅：  
+   \[ 2PbO + PbS \xrightarrow{\Delta} 3Pb + SO_2 \]","：  
+1. 制备氧化铅 (PbO):  
+   \[ 2PbS + 3O_2 \xrightarrow{\Delta} 2PbO + 2SO_2 \]  
+
+2. 制备二氧化铅 (PbO₂):  
+   \[ PbO + Cl_2 + 2H_2O \rightarrow PbO_2 + 2HCl \]  
+
+3. 制备金属铅 (Pb):  
+   \[ PbS + 2C \xrightarrow{\Delta} Pb + 2CO \]   
+   或  
+   \[ 2PbO + PbS \xrightarrow{\Delta} 3Pb + SO_2 \]",N/A,N/A,N/A
+"用四种方法鉴别 ${\mathrm{{SnCl}}}_{4}$ 和 ${\mathrm{{SnCl}}}_{2}$ 溶液。
+","(1) 酸性条件下分别加入少量 ${\mathrm{{FeCl}}}_{3}$ 溶液,充分反应后加入 $\mathrm{{KSCN}}$ 溶液,变红的未知液为 ${\mathrm{{SnCl}}}_{4}$ ,另一种为 ${\mathrm{{SnCl}}}_{2}$ :
+
+$$
+2{\mathrm{{Fe}}}^{3 + } + {\mathrm{{Sn}}}^{2 + } = 2{\mathrm{{Fe}}}^{2 + } + {\mathrm{{Sn}}}^{4 + }
+$$
+
+（2）将少量溶液加入 ${\mathrm{{HgCl}}}_{2}$ 溶液中,产生白色沉淀的未知液为 ${\mathrm{{SnCl}}}_{2}$ ,不产生沉淀的未知液为 ${\mathrm{{SnCl}}}_{4}$ :
+
+$$
+2{\mathrm{{HgCl}}}_{2} + {\mathrm{{SnCl}}}_{2} = {\mathrm{{Hg}}}_{2}{\mathrm{{Cl}}}_{2} \downarrow + {\mathrm{{SnCl}}}_{4}
+$$
+
+(3) 将未知液分别与 ${\mathrm{{Na}}}_{2}\mathrm{\;S}$ 溶液作用,产生黄色沉淀的为 ${\mathrm{{SnCl}}}_{4}$ ,产生棕色沉淀的为 ${\mathrm{{SnCl}}}_{2}$ :
+
+$$
+{\mathrm{{SnCl}}}_{4} + 2{\mathrm{{Na}}}_{2}\mathrm{\;S} = {\mathrm{{SnS}}}_{2} \downarrow + 4\mathrm{{NaCl}}
+$$
+
+$$
+{\mathrm{{SnCl}}}_{2} + {\mathrm{{Na}}}_{2}\mathrm{\;S} = \mathrm{{SnS}} \downarrow + 2\mathrm{{NaCl}}
+$$
+
+（4）向未知液中加入过量 $\mathrm{{NaOH}}$ 溶液至生成的白色沉淀全部溶解,再加入 ${\mathrm{{BiCl}}}_{3}$ 溶液, 有黑色沉淀生成的为 ${\mathrm{{SnCl}}}_{2}$ ,另一种为 ${\mathrm{{SnCl}}}_{4}$ :
+
+$$
+{\mathrm{{SnCl}}}_{2} + 4\mathrm{{NaOH}} = {\mathrm{{Na}}}_{2}\left\lbrack {\mathrm{{Sn}}{\left( \mathrm{{OH}}\right) }_{4}}\right\rbrack + 2\mathrm{{NaCl}}
+$$
+
+$$
+3{\left\lbrack \mathrm{{Sn}}{\left( \mathrm{{OH}}\right) }_{4}\right\rbrack }^{2 - } + 2{\mathrm{{Bi}}}^{3 + } + 6{\mathrm{{OH}}}^{ - } = 2\mathrm{{Bi}} \downarrow + 3{\left\lbrack \mathrm{{Sn}}{\left( \mathrm{{OH}}\right) }_{6}\right\rbrack }^{2 - }
+$$
+","：  
+我们需要通过化学性质的差异，设计实验步骤以鉴别四氯化锡（\(\mathrm{SnCl_4}\)）和二氯化锡（\(\mathrm{SnCl_2}\)）的溶液。以下通过深入分析，逐步列出可能的鉴别方法：  
+
+1. **氧化还原性质差异**：
+   - \(\mathrm{SnCl_2}\)（二价）是还原剂，容易被氧化为四价的锡（\(\mathrm{Sn^{4+}}\)）。而\(\mathrm{SnCl_4}\)中的锡已经处于四价氧化态，不易进一步被氧化。
+   - 使用**强氧化剂**（如\(\mathrm{Cl_2}\)或\(\mathrm{HgCl_2}\)）可以区分：
+     - \(\mathrm{SnCl_2}\)：会与\(\mathrm{HgCl_2}\)反应生成白色沉淀\(\mathrm{Hg_2Cl_2}\)：
+       \[
+       \mathrm{SnCl_2 + 2HgCl_2 \to SnCl_4 + Hg_2Cl_2 \downarrow}
+       \]
+     - \(\mathrm{SnCl_4}\)：不发生反应。
+
+2. **与硫化氢（\(\mathrm{H_2S}\)）的反应差异**：
+   - \(\mathrm{SnCl_2}\)：\(\mathrm{Sn^{2+}}\)离子与硫化氢反应，产生棕色硫化亚锡（\(\mathrm{SnS}\)）沉淀：
+     \[
+     \mathrm{SnCl_2 + H_2S \to SnS \downarrow + 2HCl}
+     \]
+   - \(\mathrm{SnCl_4}\)：由于\(\mathrm{Sn^{4+}}\)的性质，和硫化氢反应则生成黄色的硫化锡（\(\mathrm{SnS_2}\)）：
+     \[
+     \mathrm{SnCl_4 + 2H_2S \to SnS_2 \downarrow + 4HCl}
+     \]
+
+3. **水解性质差异**：  
+   - \(\mathrm{SnCl_4}\)的水解性更强，水解后会形成不溶的氢氧化物，并慢慢生成氧化锡（\(\mathrm{SnO_2}\)）沉淀：
+     \[
+     \mathrm{SnCl_4 + 2H_2O \to SnO_2 \downarrow + 4HCl}
+     \]
+   - \(\mathrm{SnCl_2}\)的水解性较弱，水解生成少量的\(\mathrm{Sn(OH)_2}\)，不易产生明显沉淀：
+     \[
+     \mathrm{SnCl_2 + 2H_2O \to Sn(OH)_2 + 2HCl}
+     \]
+
+4. **配位化学反应差异**：  
+   - \(\mathrm{SnCl_4}\)与**碘化钾溶液（\(\mathrm{KI}\)）**反应较弱，不会发生明显反应。
+   - \(\mathrm{SnCl_2}\)可作为还原剂，将碘单质（\(\mathrm{I_2}\)）生成碘离子（\(\mathrm{I^-}\)），溶液从棕色变为无色：
+     \[
+     \mathrm{SnCl_2 + I_2 \to SnCl_4 + 2I^-}
+     \]","：  
+1. 使用\(\mathrm{HgCl_2}\)溶液区分：\(\mathrm{SnCl_2}\)生成白色沉淀\(\mathrm{Hg_2Cl_2}\)，\(\mathrm{SnCl_4}\)无明显反应。  
+2. 加入\(\mathrm{H_2S}\)：\(\mathrm{SnCl_2}\)生成棕色\(\mathrm{SnS}\)沉淀，\(\mathrm{SnCl_4}\)生成黄色\(\mathrm{SnS_2}\)沉淀。  
+3. 水解试验：\(\mathrm{SnCl_4}\)产生白色\(\mathrm{SnO_2}\)沉淀，\(\mathrm{SnCl_2}\)无沉淀或沉淀极少。  
+4. 使用\(\mathrm{I_2}\)溶液：\(\mathrm{SnCl_2}\)将\(\mathrm{I_2}\)还原为\(\mathrm{I^-}\)，溶液褪色；\(\mathrm{SnCl_4}\)无反应。",N/A,N/A,N/A
+设计实验鉴别下列物质。${\mathrm{{Sb}}}_{2}{\mathrm{O}}_{5}$ 与 $\mathrm{{SnO}}$,"将 ${\mathrm{{Sb}}}_{2}{\mathrm{O}}_{5}$ 和 $\mathrm{{SnO}}$ 分别溶于盐酸,滴加淀粉一碘化钾试液,有 ${\mathrm{I}}_{2}$ 生成使体系变蓝的是 ${\mathrm{{Sb}}}_{2}{\mathrm{O}}_{5}$ 。","：  
+要设计实验鉴别 ${\mathrm{Sb}}_{2}{\mathrm{O}}_{5}$ (五氧化二锑) 和 $\mathrm{SnO}$ (一氧化锡)，需要结合它们的化学性质，特别是它们在酸碱环境中的反应以及氧化还原特性：
+
+1. **分析化学性质**：  
+   - ${\mathrm{Sb}}_{2}{\mathrm{O}}_{5}$ 是锑的高价氧化物，表现为两性氧化物性质，但倾向于显酸性，在碱性溶液中会和强碱反应生成锑酸盐。  
+   - $\mathrm{SnO}$ 是锡的低价氧化物，亦表现为两性，但偏向于碱性，主要会溶于酸并反应生成锡盐，而在强碱溶液中的反应不会发生显著变化。
+
+2. **对比溶解性及反应性**：  
+   - 将样品分别悬浮于酸（如稀硝酸或稀盐酸）中：
+     - ${\mathrm{Sb}}_{2}{\mathrm{O}}_{5}$ 和酸可能反应轻微，生成相应的锑化合物，但此过程反应较慢，难作为显著特征。
+     - $\mathrm{SnO}$ 则更容易与酸反应生成对应的锡盐，并释放气体（例如过量酸中氢气）。
+   - 放入浓碱（如 NaOH 溶液）中实验：
+     - ${\mathrm{Sb}}_{2}{\mathrm{O}}_{5}$ 会与强碱反应生成可溶性的锑酸盐（例如 NaSbO3），溶液变清澈。
+     - $\mathrm{SnO}$ 在强碱溶液中的反应可能非常不显著，其基本不溶。
+
+3. **氧化还原性质的实验对比**：  
+   - $\mathrm{SnO}$ 一般为锡的低氧化态，容易被氧化。可以用强氧化剂（如 $\mathrm{KMnO}_{4}$）测试，锡的低氧化态可能使氧化剂褪色。  
+   - ${\mathrm{Sb}}_{2}{\mathrm{O}}_{5}$ 为高价氧化物，通常不易被氧化测试反应。
+
+因此，通过对酸碱实验和氧化还原反应的观察，就可以区分两者。",：在强碱溶液中 ${\mathrm{Sb}}_{2}{\mathrm{O}}_{5}$ 溶解生成锑酸盐，而 $\mathrm{SnO}$ 基本不溶。,N/A,N/A,N/A
+设计实验鉴别下列物质。${\mathrm{{As}}}_{2}{\mathrm{\;S}}_{3}$ 与 ${\mathrm{{SnS}}}_{2}$,"将等质量的 ${\mathrm{{As}}}_{2}{\mathrm{\;S}}_{3}$ 和 ${\mathrm{{SnS}}}_{2}$ 分别置于 $6\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 盐酸中,溶解的是 ${\mathrm{{SnS}}}_{2}$ ,基本不溶解的是 ${\mathrm{{As}}}_{2}{\mathrm{\;S}}_{3}$ 。","：
+1. ${\mathrm{As}}_{2}{\mathrm{S}}_{3}$（三硫化二砷）为砷的硫化物，而${\mathrm{SnS}}_{2}$（二硫化锡）为锡的硫化物。两者均为黄色固体，不溶于水，因此需要通过化学性质的差异进行鉴别。
+  
+2. 针对${\mathrm{As}}_{2}{\mathrm{S}}_{3}$：
+   - 它是酸性硫化物，能溶于强酸（如稀硝酸），并释放出${\mathrm{H}}_{2}{\mathrm{S}}$气体。
+   - ${\mathrm{As}}_{2}{\mathrm{S}}_{3}$也可以溶解于碱性溶液（如氢氧化铵${\mathrm{NH}}_{3}\cdot{\mathrm{H}}_{2}\mathrm{O}$），生成可溶性砷酸盐或砷化物。
+
+3. 针对${\mathrm{SnS}}_{2}$：
+   - 它是较稳定的硫化物，不易被强酸溶解，且不能释放出${\mathrm{H}}_{2}{\mathrm{S}}$气体。
+   - ${\mathrm{SnS}}_{2}$不溶于氢氧化铵，但可以相对缓慢溶解于热的浓碱溶液（如${\mathrm{NaOH}}$浓溶液），生成可溶性锡酸盐。
+
+4. 实验方法设计：
+   - 将少量两种样品分别置于两支试管中，并添加稀硝酸。如果黄色固体溶解并释放出臭鸡蛋气味的${\mathrm{H}}_{2}{\mathrm{S}}$气体，可断定该试管中是${\mathrm{As}}_{2}{\mathrm{S}}_{3}$。
+   - 若不明显溶解且无明显气体产生，则可进一步加入氢氧化铵溶液。若溶解则为${\mathrm{As}}_{2}{\mathrm{S}}_{3}$，反之为${\mathrm{SnS}}_{2}$。
+
+5. 依据上述方法的结果可显著区分${\mathrm{As}}_{2}{\mathrm{S}}_{3}$和${\mathrm{SnS}}_{2}$，实验安全性高且现象显著。","：
+利用稀硝酸和氢氧化铵溶液，观察溶解性和是否释放出${\mathrm{H}}_{2}{\mathrm{S}}$气体。",N/A,N/A,N/A
+设计实验鉴别下列物质。$\mathrm{{Pb}}{\left( {\mathrm{{NO}}}_{3}\right) }_{2}$ 与 $\mathrm{{Bi}}{\left( {\mathrm{{NO}}}_{3}\right) }_{3}$,"
+ 溶于过量 $\mathrm{{NaOH}}$ 溶液的是 $\mathrm{{Pb}}{\left( {\mathrm{{NO}}}_{3}\right) }_{2}$ ,不溶于过量 $\mathrm{{NaOH}}$ 溶液的是 $\mathrm{{Bi}}{\left( {\mathrm{{NO}}}_{3}\right) }_{3}$ 。","：要设计实验鉴别 $\mathrm{Pb}(\mathrm{NO}_3)_2$ 和 $\mathrm{Bi}(\mathrm{NO}_3)_3$，可以利用它们在一些特定反应中的差异，特别是离子反应的生成物。以下为详细分析步骤：
+
+1. **化学性质的比较**：
+   - $\mathrm{Pb}^{2+}$（铅离子）和 $\mathrm{Bi}^{3+}$（铋离子）是不同的阳离子，在一些特定试剂的作用下，它们会表现出显著不同的反应特征。
+   - 一种常用的鉴别方法是加入 $\mathrm{HCl}$，利用氯化物的沉淀差异：
+     - 加入稀盐酸（$\mathrm{HCl}$），$\mathrm{Pb}^{2+}$ 会与 $\mathrm{Cl}^-$ 结合生成难溶的白色沉淀 $\mathrm{PbCl}_2$，但 $\mathrm{Bi}^{3+}$ 不会生成沉淀，因为 $\mathrm{BiCl}_3$ 在水中是可溶的。
+   - 另一种方法是加入硫化氢（$\mathrm{H_2S}$）：
+     - 在酸性条件下，$\mathrm{Pb}^{2+}$ 会与 $\mathrm{S}^{2-}$ 结合生成黑色沉淀 $\mathrm{PbS}$。
+     - 同样，$\mathrm{Bi}^{3+}$ 会与 $\mathrm{S}^{2-}$ 结合生成黑色沉淀 $\mathrm{Bi_2S_3}$。由于两者均能生成黑色硫化物沉淀，因此这种方法无法用于区分两者。
+
+2. **选择合适的实验方案**：
+   - 鉴于 $\mathrm{HCl}$ 能选择性地让 $\mathrm{Pb}^{2+}$ 生成白色沉淀 $\mathrm{PbCl}_2$ 而无明显反应对 $\mathrm{Bi}^{3+}$，该方法可以清晰地区分这两种物质。
+   - 实验步骤可以设计为：分别向两种溶液中加入稀盐酸，观察是否有白色沉淀生成。如果有，则溶液中为 $\mathrm{Pb}(\mathrm{NO}_3)_2$；如果没有，则为 $\mathrm{Bi}(\mathrm{NO}_3)_3$。
+
+3. **可能的误差与补充**：
+   - 如果环境温度较高，有些 $\mathrm{PbCl}_2$ 会溶解，因此实验需要在较低温度下进行，保证沉淀析出完全。
+   - 如果需要进一步验证，可结合其他鉴定试剂（如硫化氢），但单用 $\mathrm{HCl}$ 即可有效区分。",：通过加入稀盐酸（$\mathrm{HCl}$），观察白色沉淀（$\mathrm{PbCl}_2$）的生成，可以鉴别 $\mathrm{Pb}(\mathrm{NO}_3)_2$ 和 $\mathrm{Bi}(\mathrm{NO}_3)_3$。,N/A,N/A,N/A
+设计实验鉴别下列物质。${\mathrm{{PbCl}}}_{2}$ 和 ${\mathrm{{SnCl}}}_{2}$ 。,"分别向其溶液中通入 ${\mathrm{H}}_{2}\mathrm{\;S}$ 气体,生成棕褐色沉淀的是 ${\mathrm{{SnCl}}}_{2}$ ; 生成黑色沉淀的是 ${\mathrm{{PbCl}}}_{2}$ ,且 $\mathrm{{SnS}}$ 可以被 ${\mathrm{{Na}}}_{2}{\mathrm{\;S}}_{2}$ 氧化,因此溶于硫化钠溶液:
+
+$$
+\mathrm{{SnS}} + {\mathrm{{Na}}}_{2}{\mathrm{\;S}}_{2} = {\mathrm{{SnS}}}_{2} + {\mathrm{{Na}}}_{2}\mathrm{\;S}
+$$
+
+而 $\mathrm{{PbS}}$ 不能溶于硫化钠溶液,亦可用 ${\mathrm{{HgCl}}}_{2}$ 进行鉴定。
+","：  
+1. ${\mathrm{{PbCl}}}_{2}$（氯化铅）和 ${\mathrm{{SnCl}}}_{2}$（氯化亚锡）都是白色固体，且都能溶于热水形成无色溶液，因此仅通过外观或溶解性无法区分二者。
+
+2. 两种化合物的化学性质不同：  
+   - ${\mathrm{{PbCl}}}_{2}$ 中的铅是 +2 价，不容易被氧化或还原，在一般情况下化学性质比较稳定。  
+   - ${\mathrm{{SnCl}}}_{2}$ 中的锡是 +2 价，具有较强的还原性，容易被氧化为 +4 价的 ${\mathrm{{Sn}}}^{4+}$ 离子。
+
+3. 因此，可以利用 ${\mathrm{{SnCl}}}_{2}$ 的还原性设计实验：将两种化合物分别与含氧化性的试剂反应，观察反应现象，判断物质。  
+   - 常用的氧化性试剂有酸性条件下的高锰酸钾溶液（紫色）。在酸性条件下，如果加入 ${\mathrm{{SnCl}}}_{2}$ 溶液，${\mathrm{{SnCl}}}_{2}$ 会被氧化，同时高锰酸钾被还原，溶液从紫色变为无色，发生如下反应：  
+     \[
+     2{\mathrm{MnO}}_{4}^{-} + 5{\mathrm{Sn}}^{2+} + 16{\mathrm{H}}^{+} \rightarrow 2{\mathrm{Mn}}^{2+} + 5{\mathrm{Sn}}^{4+} + 8{\mathrm{H}}_{2}{\mathrm{O}}
+     \]
+   - 而 ${\mathrm{{PbCl}}}_{2}$ 在相同条件下不会与高锰酸钾溶液反应，高锰酸钾溶液保持紫色。
+
+4. 通过上述方法，观察反应现象即可有效鉴别 ${\mathrm{{PbCl}}}_{2}$ 和 ${\mathrm{{SnCl}}}_{2}$。",：利用酸性 ${\mathrm{{KMnO}}}_{4}$ 溶液作为试剂，${\mathrm{{SnCl}}}_{2}$ 使溶液由紫色变无色，而 ${\mathrm{{PbCl}}}_{2}$ 不发生变化。,N/A,N/A,N/A
+提纯除去气体中的少量杂质。除去氢气中少量的一氧化碳;,"将含有少量一氧化碳的氢气, 通入 $\mathrm{{CuCl}}$ 的盐酸溶液。少量 $\mathrm{{CO}}$ 将被定量吸收:
+
+$$
+\mathrm{{CO}} + \mathrm{{CuCl}} + 2{\mathrm{H}}_{2}\mathrm{O} = \mathrm{{Cu}}\left( \mathrm{{CO}}\right) \mathrm{{Cl}} \cdot 2{\mathrm{H}}_{2}\mathrm{O}
+$$
+
+则氢气被提纯。","：  
+要除去氢气中少量的一氧化碳（CO），需要选择一种能够选择性去除CO而不会与氢气发生反应的方法。通常，CO可以通过氧化为二氧化碳（CO₂）来除去。这可以通过将气体混合物通过一个盛有足量氧化剂的装置来实现。
+
+一种常用的方法是通过氢氧化铁（Fe(OH)₃）来去除CO。反应过程中，CO与Fe(OH)₃发生反应，生成Fe₃O₄和CO₂，方程式如下：  
+3CO + Fe(OH)₃ → Fe₃O₄ + 3CO₂
+
+生成的二氧化碳可以通过低温冷凝除去，剩余的氢气则可以得到净化。",：通过氧化的方法将一氧化碳转化为二氧化碳。,N/A,N/A,N/A
+"提纯除去气体中的少量杂质。工业上生产的 ${\mathrm{{CO}}}_{2}$ 气体中常含有 $\mathrm{{CO}},{\mathrm{O}}_{2},{\mathrm{\;N}}_{2}$ ,水蒸气和微量的 ${\mathrm{H}}_{2}\mathrm{\;S},{\mathrm{{SO}}}_{2}$ ,如何纯化二氧化碳?","将气体通过冷的浓碳酸钾溶液吸收 ${\mathrm{{CO}}}_{2},\mathrm{{CO}}\text{、}{\mathrm{O}}_{2}\text{、}{\mathrm{\;N}}_{2}$ 不被吸收而分离; 然后加热放出 ${\mathrm{{CO}}}_{2}$ 千燥后即可应用。微量的 ${\mathrm{H}}_{2}\mathrm{\;S}\text{、}{\mathrm{{SO}}}_{2}$ 被吸收后再加热并不逸出。有关反应方程式如下:
+
+$$
+{\mathrm{{CO}}}_{2} + {\mathrm{K}}_{2}{\mathrm{{CO}}}_{3} + {\mathrm{H}}_{2}\mathrm{O} = 2{\mathrm{{KHCO}}}_{3}
+$$
+
+$$
+2{\mathrm{{KHCO}}}_{3}\xrightarrow[]{\bigtriangleup }{\mathrm{K}}_{2}{\mathrm{{CO}}}_{3} + {\mathrm{H}}_{2}\mathrm{O} + {\mathrm{{CO}}}_{2} \uparrow
+$$
+
+$$
+{\mathrm{{SO}}}_{2} + {\mathrm{K}}_{2}{\mathrm{{CO}}}_{3} = {\mathrm{K}}_{2}{\mathrm{{SO}}}_{3} + {\mathrm{{CO}}}_{2}
+$$
+
+$$
+{\mathrm{H}}_{2}\mathrm{\;S} + {\mathrm{K}}_{2}{\mathrm{{CO}}}_{3} = {\mathrm{K}}_{2}\mathrm{\;S} + {\mathrm{H}}_{2}\mathrm{O} + {\mathrm{{CO}}}_{2}
+$$
+","：要纯化工业生产的二氧化碳气体，需要将其与几种杂质分离。以下是常见杂质和相应的去除方法：
+
+1. **CO 和 O₂ (可燃气体)**：可以通过在气体中加入适量的碱金属氧化物（如碱石灰）或在适当温度下通过金属催化剂（如钯或铂）进行催化反应，以氧化 CO 为 CO₂，从而减少 CO。
+
+2. **N₂ (惰性气体)**：通常不容易用化学方法去除。工业上，通常通过物理方法如低温分馏进行分离，但这较复杂，可以略去。
+
+3. **水蒸气**：可以通过冷凝器将气体冷却到露点以下以去除水分；或者用浓硫酸、五氧化二磷等干燥剂进行化学干燥。
+
+4. **H₂S 和 SO₂ (酸性气体)**：可通过碱液（如 NaOH 溶液）吸收去除。
+
+综合以上分析，纯化二氧化碳的步骤可以是：
+- 使用碱金属氧化物催化燃烧去除 CO。
+- 用冷凝或化学干燥法去除水蒸气。
+- 用碱溶液吸收 H₂S 和 SO₂。
+
+这些方法将会有效地去除主要的杂质，得到较为纯净的 CO₂。",：使用加碱金属氧化物方法去除 CO 和 O₂、冷凝去除水蒸气、碱溶液吸收 H₂S 和 SO₂。,N/A,N/A,N/A
+"有一白色粉末是 ${\mathrm{{Na}}}_{2}{\mathrm{{SO}}}_{3},{\mathrm{{Na}}}_{2}{\mathrm{{CO}}}_{3},{\mathrm{{NaClO}}}_{3},{\mathrm{{Na}}}_{2}{\mathrm{{SO}}}_{4}$ 中的一种,设计实验加以鉴别。","向白色粉末中加入稀盐酸,有刺激性气体生成,且气体使品红溶液褪色的为 ${\mathrm{{Na}}}_{2}{\mathrm{{SO}}}_{3}$ :
+
+$$
+{\mathrm{{Na}}}_{2}{\mathrm{{SO}}}_{3} + 2\mathrm{{HCl}} = 2\mathrm{{NaCl}} + {\mathrm{{SO}}}_{2} \uparrow + {\mathrm{H}}_{2}\mathrm{O}
+$$
+
+加入稀盐酸, 有气体生成, 且气体使澄清石灰水出现浑浊, 但不能使品红溶液褪色的为 ${\mathrm{{Na}}}_{2}{\mathrm{{CO}}}_{3}$ :
+
+$$
+{\mathrm{{Na}}}_{2}{\mathrm{{CO}}}_{3} + 2\mathrm{{HCl}} = 2\mathrm{{NaCl}} + {\mathrm{{CO}}}_{2} \uparrow + {\mathrm{H}}_{2}\mathrm{O}
+$$
+
+$$
+\mathrm{{Ca}}{\left( \mathrm{{OH}}\right) }_{2} + {\mathrm{{CO}}}_{2} = {\mathrm{{CaCO}}}_{3} \downarrow + {\mathrm{H}}_{2}\mathrm{O}
+$$
+
+加入稀盐酸,无明显变化的为 ${\mathrm{{NaClO}}}_{3}$ 和 ${\mathrm{{Na}}}_{2}{\mathrm{{SO}}}_{4}$ 。向此白色粉末中加入浓盐酸,溶液变黄的为 ${\mathrm{{NaClO}}}_{3}$ ,无现象的为 ${\mathrm{{Na}}}_{2}{\mathrm{{SO}}}_{4}$ :
+
+$$
+8{\mathrm{{NaClO}}}_{3} + {24}\mathrm{{HCl}}\text{(浓)} = 9{\mathrm{{Cl}}}_{2} \uparrow + 8\mathrm{{NaCl}} + 6{\mathrm{{ClO}}}_{2} \uparrow + {12}{\mathrm{H}}_{2}\mathrm{O}
+$$
+","：  
+要鉴别这四种物质，需要设计实验，通过它们的化学性质的差异来加以区分。分析如下：  
+
+1. **化学性质和分析：**  
+   - ${\mathrm{Na}}_{2}{\mathrm{SO}}_{3}$（亚硫酸钠）：具有还原性，与酸作用会生成二氧化硫（SO₂）气体，SO₂能使品红溶液褪色。  
+   - ${\mathrm{Na}}_{2}{\mathrm{CO}}_{3}$（碳酸钠）：与酸发生反应会放出二氧化碳（CO₂）气体，CO₂能使澄清石灰水变浑浊。  
+   - ${\mathrm{NaClO}}_{3}$（氯酸钠）：具有强氧化性，与还原性物质（如KI或淀粉-KI试纸）反应会产生可检测的效果，比如使淀粉-KI试纸变蓝。  
+   - ${\mathrm{Na}}_{2}{\mathrm{SO}}_{4}$（硫酸钠）：是一种典型的惰性盐，对酸碱和氧化还原试剂均没有特殊反应。  
+
+2. **设计实验：**  
+   1) 取少量四种白色粉末样品各自溶于水，分别编号。  
+   2) 向每种溶液中逐渐加入稀盐酸：
+      - 若产生刺激性气体并使品红褪色，则样品为${\mathrm{Na}}_{2}{\mathrm{SO}}_{3}$。  
+      - 若产生无色气体并能使澄清石灰水变浑浊，则样品为${\mathrm{Na}}_{2}{\mathrm{CO}}_{3}$。  
+      - 若无明显现象，继续测试下一步。
+   3) 向剩余溶液使用淀粉-KI试纸检测：
+      - 若使试纸变蓝，则样品为${\mathrm{NaClO}}_{3}$。  
+      - 若无明显现象，则样品为${\mathrm{Na}}_{2}{\mathrm{SO}}_{4}$。",：加酸实验和淀粉-KI试纸检测组合能分别鉴别这四种粉末。,N/A,N/A,N/A
+如何配制 ${\mathrm{{SnCl}}}_{2}$ 溶液?,"将 ${\mathrm{{SnCl}}}_{2}$ 加入一定量水中充分搅拌后,再边搅拌边滴加稀盐酸至沉淀消失后并稍过量。 再加少许锡粒。
+
+加入过量的盐酸是为抑制 ${\mathrm{{SnCl}}}_{2}$ 的水解:
+
+$$
+\mathrm{{Sn}}\left( \mathrm{{OH}}\right) \mathrm{{Cl}} + \mathrm{{HCl}} \rightleftharpoons {\mathrm{{SnCl}}}_{2} + {\mathrm{H}}_{2}\mathrm{O}
+$$
+
+向配好的溶液中加少量 $\mathrm{{Sn}}$ 粒,以防止 ${\mathrm{{SnCl}}}_{2}$ 被氧化:
+
+$$
+2{\mathrm{{Sn}}}^{2 + } + {\mathrm{O}}_{2} + 4{\mathrm{H}}^{ + } = 2{\mathrm{{Sn}}}^{4 + } + 2{\mathrm{H}}_{2}\mathrm{O}
+$$
+
+$$
+{\mathrm{{Sn}}}^{4 + } + \mathrm{{Sn}} = 2{\mathrm{{Sn}}}^{2 + }
+$$
+","：配制 ${\mathrm{SnCl}}_2$（氯化亚锡）溶液需要综合考虑其物质性质、溶解性以及如何使溶液长期稳定。
+
+1. **SnCl₂的性质**：
+   - ${\mathrm{SnCl}}_2$ 易溶于水，但容易被氧化生成不溶于水的氢氧化亚锡（${\mathrm{Sn(OH)_2}}$）和氯化高锡产物，尤其是在空气中或有氧化性杂质时。
+   - 亚锡离子（${\mathrm{Sn^{2+}}}$）是强还原剂，容易被空气中的氧气氧化为四价锡（${\mathrm{Sn^{4+}}}$），因此在制备时需要采取防氧化措施。
+
+2. **准备工作**：
+   - 原料：分析纯的固体 ${\mathrm{SnCl}}_2 \cdot 2{\mathrm{H_2O}}$ 或纯的无水 ${\mathrm{SnCl}}_2$。
+   - 溶剂：通常使用去离子水或蒸馏水。
+   - 防氧化剂：可以加入少量浓盐酸（${\mathrm{HCl}}$），因为 ${\mathrm{HCl}}$ 的强酸性环境可抑制 ${\mathrm{Sn^{2+}}}$ 的氧化，同时盐酸减少溶液中氧气的溶解度。
+
+3. **实际制备过程**：
+   - 称取一定量的 ${\mathrm{SnCl}}_2$（根据所需浓度计算质量），尽快加入少量浓盐酸和去离子水，以减少它与空气的暴露。
+   - 快速搅拌，使氯化亚锡完全溶解。
+   - 调节盐酸的量使溶液保持在一个酸性环境（通常加盐酸的体积是溶液总体积的 5%-10%）。
+   - 最终用去离子水稀释到所需体积。
+
+4. **注意事项**：
+   - 避免溶液直接长时间暴露在空气中，可将配制好的溶液密封保存在阴凉处。
+   - ${\mathrm{SnCl}}_2$ 溶液仍旧可能逐渐变混浊，应尽量在短时间内使用。
+   - 配制过程中需用玻璃棒并避免铁器，因为 ${\mathrm{SnCl}}_2$ 可与铁反应。","：参照上述步骤，按下列操作配制：
+- 准备所需量的 ${\mathrm{SnCl}}_2$，加入少量浓盐酸并搅拌。
+- 加入去离子水，待溶解后，根据需要稀释至最终所需的浓度。
+- 使用后及时密封保存，保持酸性防止氧化。",N/A,N/A,N/A

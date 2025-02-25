@@ -1,0 +1,966 @@
+query,true_answer,reasoning,model_answer,knowledge_accuracy,reasoning_accuracy,final_answer_accuracy
+"根据下列给定条件求溶度积常数。
+ ${\mathrm{{FeC}}}_{2}{\mathrm{O}}_{4} \cdot 2{\mathrm{H}}_{2}\mathrm{O}$ 在 $1{\mathrm{{dm}}}^{3}$ 水中能溶解 ${0.10}\mathrm{\;g}$ ;","${\mathrm{{FeC}}}_{2}{\mathrm{O}}_{4} \cdot 2{\mathrm{H}}_{2}\mathrm{O}$ 在水中的溶解度为
+
+$$
+\frac{{0.10}\mathrm{\;g}}{{180}\mathrm{\;g} \cdot {\mathrm{{mol}}}^{-1} \times 1{\mathrm{{dm}}}^{3}} = {5.6} \times {10}^{-4}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+$$
+{\mathrm{{FeC}}}_{2}{\mathrm{O}}_{4} \rightleftharpoons {\mathrm{{Fe}}}^{2 + } + {\mathrm{C}}_{2}{\mathrm{O}}_{4}^{2 - }
+$$
+
+$$
+{K}_{\mathrm{{sp}}}^{ \ominus } = c\left( {\mathrm{{Fe}}}^{2 + }\right) c\left( {{\mathrm{C}}_{2}{\mathrm{O}}_{4}^{2 - }}\right) = {\left( {5.6} \times {10}^{-4}\right) }^{2} = {3.1} \times {10}^{-7}
+$$
+","：
+1. 溶解度 (S) 是指在某一特定温度下，饱和溶液中溶质的最大浓度。在这里，给出的溶解度是质量 (g) / 体积 (dm³)，即该化合物在水中的最大溶解量为 0.10 g/dm³。
+2. 需要计算摩尔溶解度，需先确定化合物的摩尔质量。${\mathrm{FeC}}_{2}{\mathrm{O}}_{4} \cdot 2{\mathrm{H}}_{2}\mathrm{O}$ 的摩尔质量计算如下：
+   - 铁 (Fe) 的摩尔质量为 55.85 g/mol。
+   - 碳氧化合物 (C₂O₄) 的摩尔质量 = 2 × 12.01 (C) + 4 × 16.00 (O) = 88.02 g/mol。
+   - 水分子 (2H₂O) 的摩尔质量 = 2 × (2 × 1.01 (H) + 16.00 (O)) = 36.04 g/mol。
+   - 总摩尔质量 = 55.85 + 88.02 + 36.04 = 179.91 g/mol。
+3. 将溶解度转换为摩尔溶解度：溶解度 (以 mol/L 或 mol/dm³ 表示) = 0.10 g/dm³ ÷ 179.91 g/mol ≈ 5.56 × 10⁻⁴ mol/L。
+4. ${\mathrm{FeC}}_{2}{\mathrm{O}}_{4}$ 在水中解离为：$\mathrm{FeC}_{2}\mathrm{O}_{4} \rightleftharpoons \mathrm{Fe}^{2+} + \mathrm{C}_{2}\mathrm{O}_{4}^{2-}$。
+   - 若摩尔溶解度为 S，则 $\mathrm{Fe}^{2+}$ 和 $\mathrm{C}_{2}\mathrm{O}_{4}^{2-}$ 的浓度均为 S mol/dm³。
+5. 溶度积常数表达式为：$K_{sp} = [\mathrm{Fe}^{2+}][\mathrm{C}_{2}\mathrm{O}_{4}^{2-}] = S^2 = (5.56 × 10^{-4})^2$。
+6. 计算 $K_{sp}$：$K_{sp} = (5.56 × 10^{-4})^2 ≈ 3.09 × 10^{-7}$。",：3.09 × 10⁻⁷,N/A,N/A,N/A
+根据下列给定条件求溶度积常数。$\mathrm{{Ni}}{\left( \mathrm{{OH}}\right) }_{2}$ 在 $\mathrm{{pH}} = {9.00}$ 的溶液中的溶解度为 ${1.6} \times {10}^{-6}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 。,"$\mathrm{{pH}} = {9c}\left( {\mathrm{{OH}}}^{ - }\right) = {1.0} \times {10}^{-5}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$
+
+$$
+\mathrm{{Ni}}{\left( \mathrm{{OH}}\right) }_{2} \rightleftharpoons {\mathrm{{Ni}}}^{2 + } + 2{\mathrm{{OH}}}^{ - }
+$$
+
+$$
+\text{s}\;{1.0} \times {10}^{-5} + {2s}
+$$
+
+$$
+s = {1.6} \times {10}^{-6}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+$$
+{K}_{\mathrm{{sp}}}^{ \ominus } = s{\left( {1.0} \times {10}^{-5} + 2s\right) }^{2} = {1.6} \times {10}^{-6} \times {\left( {1.0} \times {10}^{-5} + 2 \times {1.6} \times {10}^{-6}\right) }^{2}
+$$
+
+$$
+= {2.8} \times {10}^{-{16}}
+$$
+","：  
+解题的关键在于理解溶度积常数（\(K_\text{sp}\)）的定义及其计算方法，具体步骤如下：  
+
+1. **分析化学平衡**：  
+   \(\mathrm{Ni(OH)_2}\) 在水溶液中溶解时的平衡可表示为：  
+   \[\mathrm{Ni(OH)_2(s) \rightleftharpoons Ni^{2+}_{(aq)} + 2OH^-_{(aq)}}\]  
+   根据溶度积常数的定义：  
+   \[K_\text{sp} = [\mathrm{Ni^{2+}}][\mathrm{OH^-}]^2\]  
+   因此，我们需要确定平衡浓度 \([\mathrm{Ni^{2+}}]\) 和 \([\mathrm{OH^-}]\) 来计算 \(K_\text{sp}\)。  
+
+2. **溶解度与离子浓度的关系**：  
+   设溶解度为 \(s = 1.6 \times 10^{-6} \, \mathrm{mol\,dm^{-3}}\)。  
+   根据化学计量比，镍离子 \(\mathrm{Ni^{2+}}\) 的浓度为：  
+   \[[\mathrm{Ni^{2+}}] = s = 1.6 \times 10^{-6} \, \mathrm{mol\,dm^{-3}}\]  
+   每溶解 1 摩尔 \(\mathrm{Ni(OH)_2}\) 将释放 2 摩尔 \(\mathrm{OH^-}\)，故氢氧根离子的浓度为：  
+   \[[\mathrm{OH^-}] = 2s = 2 \times (1.6 \times 10^{-6}) = 3.2 \times 10^{-6} \, \mathrm{mol\,dm^{-3}}\]  
+
+3. **将溶液 \(\mathrm{pH}\) 与 \([\mathrm{OH^-}]\) 结合校验**：  
+   已知溶液的 \(\mathrm{pH} = 9.00\)，利用 \(\mathrm{pH + pOH = 14}\)，可得到：  
+   \[\mathrm{pOH} = 14 - 9 = 5.00\]  
+   \[[\mathrm{OH^-}] = 10^{-\mathrm{pOH}} = 10^{-5} = 1.0 \times 10^{-5} \, \mathrm{mol\,dm^{-3}}\]  
+   由此可知，在计算中需要综合考虑氢氧根离子的来源，既包括 \(\mathrm{Ni(OH)_2}\) 的解离贡献（\(3.2 \times 10^{-6}\,\mathrm{mol\,dm^{-3}}\)），也包括溶液本身的自发电离产生的 \([\mathrm{OH^-}] = 1.0 \times 10^{-5}\,\mathrm{mol\,dm^{-3}}\)。  
+   故实际氢氧根离子浓度为两者之和：  
+   \[[\mathrm{OH^-}] = 3.2 \times 10^{-6} + 1.0 \times 10^{-5} = 1.32 \times 10^{-5} \, \mathrm{mol\,dm^{-3}}\]  
+
+4. **计算溶度积常数 \(K_\text{sp}\)**：  
+   将 \([\mathrm{Ni^{2+}}] = 1.6 \times 10^{-6}\,\mathrm{mol\,dm^{-3}}\) 和 \([\mathrm{OH^-}] = 1.32 \times 10^{-5}\,\mathrm{mol\,dm^{-3}}\) 代入溶度积公式：  
+   \[K_\text{sp} = [\mathrm{Ni^{2+}}][\mathrm{OH^-}]^2 = (1.6 \times 10^{-6})(1.32 \times 10^{-5})^2\]  
+   首先计算 \((1.32 \times 10^{-5})^2\)：  
+   \[(1.32 \times 10^{-5})^2 = 1.7424 \times 10^{-10}\]  
+   然后计算 \(K_\text{sp}\)：  
+   \[K_\text{sp} = (1.6 \times 10^{-6})(1.7424 \times 10^{-10}) = 2.78784 \times 10^{-16}\]",：\(2.79 \times 10^{-16}\),N/A,N/A,N/A
+"已知 ${\mathrm{{Ag}}}_{2}{\mathrm{{CO}}}_{3}$ 的溶度积为 ${8.46} \times {10}^{-{12}}$ ,若 ${\mathrm{{Ag}}}_{2}{\mathrm{{CO}}}_{3}$ 在饱和溶液中完全解离,试计算
+${\mathrm{{Ag}}}_{2}{\mathrm{{CO}}}_{3}$ 饱和溶液中 ${\mathrm{{Ag}}}^{ + },{\mathrm{{CO}}}_{3}^{2 - }$ 的浓度 (忽略 ${\mathrm{{CO}}}_{3}^{2 - }$ 的水解);","设 ${\mathrm{{Ag}}}_{2}{\mathrm{{CO}}}_{3}$ 在水中的溶解度为 $\mathrm{s}$ :
+
+$$
+{\mathrm{{Ag}}}_{2}{\mathrm{{CO}}}_{3} \rightleftharpoons 2{\mathrm{{Ag}}}^{ + } + {\mathrm{{CO}}}_{3}^{2 - }
+$$
+
+平衡时相对浓度
+
+$$
+{2s}\;s
+$$
+
+$$
+{K}_{\mathrm{{sp}}}^{ \ominus } = {\left\lbrack c\left( {\mathrm{{Ag}}}^{ + }\right) \right\rbrack }^{2}c\left( {\mathrm{{CO}}}_{3}^{2 - }\right)
+$$
+
+$$
+= {\left( 2s\right) }^{2}s
+$$
+
+$$
+= 4{s}^{3}
+$$
+
+所以
+
+$$
+s = \sqrt[3]{\frac{{K}_{\mathrm{{sp}}}^{ \ominus }}{4}} = \sqrt[3]{\frac{{8.46} \times {10}^{-{12}}}{4}}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+$$
+= {1.28} \times {10}^{-4}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+$$
+c\left( {\mathrm{{Ag}}}^{ + }\right) = {2s} = {2.56} \times {10}^{-4}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+$$
+c\left( {\mathrm{{CO}}}_{3}^{2 - }\right) = s = {1.28} \times {10}^{-4}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+","：  
+1. 溶解度积的定义表示在饱和溶液中溶质的离子浓度的乘积。在这里，因为 $\mathrm{Ag}_2\mathrm{CO}_3$ 是微溶盐，其在饱和溶液中完全解离为以下离子：  
+   \[
+   \mathrm{Ag}_2\mathrm{CO}_3 (s) \rightleftharpoons 2\mathrm{Ag}^+ (aq) + \mathrm{CO}_3^{2-} (aq)
+   \]
+
+2. 假设 $\mathrm{Ag}_2\mathrm{CO}_3$ 的溶解度为 $s$（即每升水中解离的 $\mathrm{Ag}_2\mathrm{CO}_3$ 的摩尔数），则根据化学计量比，可以得到：  
+   \[
+   [\mathrm{Ag}^+] = 2s
+   \]
+   \[
+   [\mathrm{CO}_3^{2-}] = s
+   \]
+
+3. 溶度积表达式为：  
+   \[
+   K_{sp} = [\mathrm{Ag}^+]^2 \cdot [\mathrm{CO}_3^{2-}]
+   \]
+   将离子浓度代入此表达式，有：  
+   \[
+   K_{sp} = (2s)^2 \cdot s = 4s^3
+   \]
+   已知 $K_{sp} = 8.46 \times 10^{-12}$，代入计算 $s$ 的值：  
+   \[
+   8.46 \times 10^{-12} = 4s^3
+   \]
+   \[
+   s^3 = \frac{8.46 \times 10^{-12}}{4} = 2.115 \times 10^{-12}
+   \]
+   \[
+   s = \sqrt[3]{2.115 \times 10^{-12}}
+   \]
+
+4. 使用计算器进行开三次方计算，得到：  
+   \[
+   s \approx 1.29 \times 10^{-4} \, (\text{mol/L})
+   \]
+
+5. 根据离子浓度关系，饱和溶液中：
+   \[
+   [\mathrm{Ag}^+] = 2s = 2 \times 1.29 \times 10^{-4} = 2.58 \times 10^{-4} \, (\text{mol/L})
+   \]
+   \[
+   [\mathrm{CO}_3^{2-}] = s = 1.29 \times 10^{-4} \, (\text{mol/L})
+   \]","：  
+$[\mathrm{Ag}^+] = 2.58 \times 10^{-4} \, \mathrm{mol/L}$  
+$[\mathrm{CO}_3^{2-}] = 1.29 \times 10^{-4} \, \mathrm{mol/L}$",N/A,N/A,N/A
+"已知 ${\mathrm{{Ag}}}_{2}{\mathrm{{CO}}}_{3}$ 的溶度积为 ${8.46} \times {10}^{-{12}}$ ,若 ${\mathrm{{Ag}}}_{2}{\mathrm{{CO}}}_{3}$ 在饱和溶液中完全解离,试计算
+${\mathrm{{Ag}}}_{2}{\mathrm{{CO}}}_{3}$ 在 ${0.01}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}{\mathrm{{Na}}}_{2}{\mathrm{{CO}}}_{3}$ 溶液中的溶解度;","设 ${\mathrm{{Ag}}}_{2}{\mathrm{{CO}}}_{3}$ 在 ${0.01}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}{\mathrm{{Na}}}_{2}{\mathrm{{CO}}}_{3}$ 溶液中的溶解度为 $s$ :
+
+$$
+c\left( {\mathrm{{CO}}}_{3}^{2 - }\right) \approx {0.01}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+$$
+{\mathrm{{Ag}}}_{2}{\mathrm{{CO}}}_{3} \rightleftharpoons 2{\mathrm{{Ag}}}^{ + } + {\mathrm{{CO}}}_{3}^{2 - }
+$$
+
+平衡时相对浓度
+
+$$
+{2s}\;{0.01} + s \approx {0.01}
+$$
+
+$$
+{K}_{\mathrm{{sp}}}^{ \ominus } = {\left\lbrack c\left( {\mathrm{{Ag}}}^{ + }\right) \right\rbrack }^{2}c\left( {\mathrm{{CO}}}_{3}^{2 - }\right)
+$$
+
+$$
+= {\left( 2s\right) }^{2} \times {0.01}
+$$
+
+$$
+= {0.04}{s}^{2}
+$$
+
+所以
+
+$$
+s = \sqrt{\frac{{K}_{\mathrm{{sp}}}^{ \ominus }}{0.04}} = \sqrt{\frac{{8.46} \times {10}^{-{12}}}{0.04}}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+$$
+= {1.45} \times {10}^{-5}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+","：
+1. **溶度积基本概念**：
+   ${\mathrm{Ag}}_2{\mathrm{CO}}_3$ 的溶解过程为：
+   \[
+   \mathrm{{Ag}}_2\mathrm{{CO}}_3(s) \leftrightharpoons 2\mathrm{{Ag}}^+ + \mathrm{{CO}}_3^{2-}.
+   \]
+   可得溶度积表达式为：
+   \[
+   K_{\mathrm{sp}} = [\mathrm{Ag}^+]^2 [\mathrm{CO}_3^{2-}].
+   \]
+   其中，$K_{\mathrm{sp}} = 8.46 \times 10^{-12}$。溶解度问题需要将上述式子代入具体浓度关系求解。
+
+2. **饱和溶液中离子浓度的约定**：
+   在普通纯水中，${\mathrm{Ag}}_2{\mathrm{CO}}_3$ 的溶解度可表示为 $s$，即：
+   \[
+   [\mathrm{Ag}^+] = 2s, \quad [\mathrm{CO}_3^{2-}] = s.
+   \]
+   然而，在此问题中，${\mathrm{Na}}_2{\mathrm{CO}}_3$ 溶液已经提供了 $[\mathrm{CO}_3^{2-}] = 0.01 \ \mathrm{mol}/\mathrm{dm}^3$，因此我们需重新计算平衡时的离子浓度。
+
+3. **在 ${\mathrm{Na}}_2{\mathrm{CO}}_3$ 溶液中的情况**：
+   因为溶液已经含有一定浓度的 $\mathrm{CO}_3^{2-}$，${\mathrm{Ag}}_2{\mathrm{CO}}_3$ 的溶解受到公共离子效应的影响，使 $[\mathrm{Ag}^+]$ 和溶解度大大降低：
+   \[
+   K_{\mathrm{sp}} = [\mathrm{Ag}^+]^2 \cdot [\mathrm{CO}_3^{2-}].
+   \]
+   代入 $[\mathrm{CO}_3^{2-}] = 0.01$，重新表达平衡关系：
+   \[
+   8.46 \times 10^{-12} = [\mathrm{Ag}^+]^2 \cdot 0.01.
+   \]
+
+4. **计算 $[\mathrm{Ag}^+]$**：
+   整理方程，得：
+   \[
+   [\mathrm{Ag}^+]^2 = \frac{8.46 \times 10^{-12}}{0.01}.
+   \]
+   计算：
+   \[
+   [\mathrm{Ag}^+]^2 = 8.46 \times 10^{-10}.
+   \]
+   求平方根：
+   \[
+   [\mathrm{Ag}^+] = \sqrt{8.46 \times 10^{-10}} \approx 2.91 \times 10^{-5} \ \mathrm{mol}/\mathrm{dm}^3.
+   \]
+
+5. **溶解度**：
+   在平衡中每溶解 1 摩尔的 ${\mathrm{Ag}}_2{\mathrm{CO}}_3$，会产生 2 摩尔 $\mathrm{Ag}^+$，因此溶解度 $s$ 的关系为：
+   \[
+   s = \frac{[\mathrm{Ag}^+]}{2} = \frac{2.91 \times 10^{-5}}{2} = 1.455 \times 10^{-5} \ \mathrm{mol}/\mathrm{dm}^3.
+   \]","：
+$1.455 \times 10^{-5}$ $\mathrm{mol}/\mathrm{dm}^3$",N/A,N/A,N/A
+"已知 ${\mathrm{{Ag}}}_{2}{\mathrm{{CO}}}_{3}$ 的溶度积为 ${8.46} \times {10}^{-{12}}$ ,若 ${\mathrm{{Ag}}}_{2}{\mathrm{{CO}}}_{3}$ 在饱和溶液中完全解离,试计算
+ ${\mathrm{{Ag}}}_{2}{\mathrm{{CO}}}_{3}$ 在 ${0.01}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}{\mathrm{{AgNO}}}_{3}$ 溶液中的溶解度。"," 设 ${\mathrm{{Ag}}}_{2}{\mathrm{{CO}}}_{3}$ 在 ${0.01}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}{\mathrm{{AgNO}}}_{3}$ 溶液中的溶解度为 $s$ :
+
+$$
+c\left( {\mathrm{{Ag}}}^{ + }\right) = {0.01}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+$$
+{\mathrm{{Ag}}}_{2}{\mathrm{{CO}}}_{3} \rightleftharpoons 2{\mathrm{{Ag}}}^{ + } + {\mathrm{{CO}}}_{3}^{2 - }
+$$
+
+平衡时相对浓度
+
+$$
+{0.01} + s \approx {0.01}\;s
+$$
+
+$$
+{K}_{\mathrm{{sp}}}^{ \ominus } = {\left\lbrack c\left( {\mathrm{{Ag}}}^{ + }\right) \right\rbrack }^{2}c\left( {\mathrm{{CO}}}_{3}^{2 - }\right)
+$$
+
+$$
+= {0.01}^{2} \times s
+$$
+
+所以
+
+$$
+s = \frac{{K}_{\mathrm{{sp}}}^{ \ominus }}{{0.01}^{2}} = \frac{{8.46} \times {10}^{-{12}}}{{0.01}^{2}}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+$$
+= {8.46} \times {10}^{-8}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+","：  
+1. 首先，通过溶度积计算涉及的关系式，${\mathrm{{Ag}}}_{2}{\mathrm{{CO}}}_{3}$ 在水中完全解离时的平衡方程式为：  
+   \[ \mathrm{Ag}_2\mathrm{CO}_3 (s) \rightleftharpoons 2\mathrm{Ag}^+ (aq) + \mathrm{CO}_3^{2-}(aq) \]  
+   根据溶度积概念，有：  
+   \[ K_{\text{sp}} = [\mathrm{Ag}^+]^2 [\mathrm{CO}_3^{2-}] \]  
+   设 $\mathrm{Ag}_2\mathrm{CO}_3$ 在溶液中的溶解度为 $s$，在纯水中：  
+   \[ [\mathrm{Ag}^+] = 2s \quad \text{,} \quad [\mathrm{CO}_3^{2-}] = s \]  
+   故溶度积表达式变为：  
+   \[ K_{\text{sp}} = (2s)^2 (s) = 4s^3 \]  
+   解得：  
+   \[ s = \sqrt[3]{\frac{K_{\text{sp}}}{4}} \]  
+   代入 $K_{\text{sp}} = 8.46 \times 10^{-12}$，先计算出在纯水中的溶解度为基准。
+
+2. 本题涉及 $0.01 \mathrm{\;mol \cdot dm^{-3}}$ $\mathrm{AgNO}_3$ 溶液的背景电解质干扰效应。  
+   在$\mathrm{AgNO}_3$溶液中，由于$\mathrm{AgNO}_3$完全解离，溶液中会提供初始的 $\mathrm{Ag}^+$ 离子浓度 $[\mathrm{Ag}^+] = 0.01$。  
+   假设$\mathrm{Ag}_2\mathrm{CO}_3$的附加溶解导致$\mathrm{Ag}^+$离子浓度较小的增加 $2s$，解离的 $\mathrm{CO}_3^{2-}$ 浓度为 $s$，则：  
+   \[ [\mathrm{Ag}^+] = 0.01 + 2s \quad \text{,} \quad [\mathrm{CO}_3^{2-}] = s \]  
+   将这些浓度代入溶度积表达式：  
+   \[ K_{\text{sp}} = [\mathrm{Ag}^+]^2 [\mathrm{CO}_3^{2-}] = (0.01 + 2s)^2 s \]  
+   考虑到溶解度 $s$ 通常远小于 $0.01 \; \mathrm{mol \cdot dm^{-3}}$，可近似处理 $[\mathrm{Ag}^+] \approx 0.01$，则溶度积简化为：  
+   \[ K_{\text{sp}} \approx (0.01)^2 s = 10^{-4} s \]  
+   从中可以求解 $s$：  
+   \[ s = \frac{K_{\text{sp}}}{10^{-4}} \]  
+   将 $K_{\text{sp}} = 8.46 \times 10^{-12}$ 代入计算。",：$8.46 \times 10^{-8} \; \mathrm{mol \; dm^{-3}}$,N/A,N/A,N/A
+"$1\mathrm{\;g}\mathrm{{FeS}}$ 固体能否溶于 ${100}{\mathrm{\;{cm}}}^{3}1\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 的盐酸中? 已知 $\mathrm{{FeS}}$ 的 ${K}_{sp}^{ \ominus } = {6.3} \times {10}^{-{18}}$ , ${\mathrm{H}}_{2}\mathrm{\;S}$ 的 ${K}_{\mathrm{a}}^{ \ominus } = {1.4} \times {10}^{-{20}}$ 。","$1\mathrm{g}\mathrm{{FeS}}$ 为 ${0.0114}\mathrm{\;{mol}}$ ,若溶于 ${100}{\mathrm{\;{cm}}}^{3}1\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 盐酸,则
+
+$$
+\mathrm{{FeS}} + 2{\mathrm{H}}^{ + } \rightleftharpoons {\mathrm{{Fe}}}^{2 + } + {\mathrm{H}}_{2}\mathrm{\;S}
+$$
+
+${c}_{\text{平 }}/\left( {\mathrm{{mol}} \cdot {\mathrm{{dm}}}^{-3}}\right)$
+
+$$
+1 - 2 \times {0.114}\;{0.114}\;{0.114}
+$$
+
+但 ${\mathrm{H}}_{2}\mathrm{\;S}$ 饱和浓度为 ${0.1}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ ,即 $c\left( {{\mathrm{H}}_{2}\mathrm{\;S}}\right) = {0.1}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ ,过多的 ${\mathrm{H}}_{2}\mathrm{\;S}$ 以气体形式释放出来。
+
+由 ${K}_{\mathrm{{sp}}}^{ \ominus } = c\left( {\mathrm{{Fe}}}^{2 + }\right) c\left( {\mathrm{\;S}}^{2 - }\right) ,\mathrm{{FeS}}$ 全溶解时 ${\mathrm{S}}^{2 - }$ 浓度为
+
+$$
+c\left( {\mathrm{\;S}}^{2 - }\right) \leq \frac{{K}_{\mathrm{{sp}}}^{ \ominus }}{c\left( {\mathrm{{Fe}}}^{2 + }\right) } = \frac{{6.3} \times {10}^{-{18}}}{0.114}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+$$
+= {5.5} \times {10}^{-{17}}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+由 ${K}_{\mathrm{a}}^{ \ominus }\left( {{\mathrm{H}}_{2}\mathrm{\;S}}\right) = \frac{{\left\lbrack c\left( {\mathrm{H}}^{ + }\right) \right\rbrack }^{2}c\left( {\mathrm{\;S}}^{2 - }\right) }{c\left( {{\mathrm{H}}_{2}\mathrm{\;S}}\right) }$, FeS 全溶解时 ${\mathrm{H}}^{ + }$ 浓度应满足
+
+$$
+c\left( {\mathrm{H}}^{ + }\right) \geq \sqrt{\frac{{K}_{\mathrm{a}}^{ \ominus }\left( {{\mathrm{H}}_{2}\mathrm{\;S}}\right) \cdot c\left( {{\mathrm{H}}_{2}\mathrm{\;S}}\right) }{c\left( {\mathrm{\;S}}^{2 - }\right) }}
+$$
+
+$$
+= \sqrt{\frac{{1.4} \times {10}^{-{20}} \times {0.10}}{{5.5} \times {10}^{-{17}}}}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+$$
+= {5.0} \times {10}^{-3}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+而 $\mathrm{{FeS}}$ 全溶解时溶液中实际 $c\left( {\mathrm{H}}^{ + }\right)$ 为
+
+$$
+c\left( {\mathrm{H}}^{ + }\right) = \left( {1 - 2 \times {0.114}}\right) \mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3} = {0.772}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+故 FeS 能完全溶解。
+","：  
+要判断 $1\mathrm{\;g}$ 的 $\mathrm{FeS}$ 是否能溶于 $100\mathrm{\;cm}^{3}$ 的 $1\mathrm{mol\;dm}^{-3}$ 盐酸中，我们需要考虑 $\mathrm{FeS}$ 在盐酸中的溶解情况。$\mathrm{FeS}$ 溶于盐酸的过程涉及到硫化铁的溶解平衡和硫化氢的解离。
+
+1. 首先计算 $1\mathrm{g}$ $\mathrm{FeS}$ 的物质的量。  
+   $\mathrm{FeS}$ 的摩尔质量为 $55.85 \, (\text{Fe}) + 32.07 \, (\text{S}) = 87.92 \, \text{g/mol}$。  
+   $1\mathrm{g}$ $\mathrm{FeS}$ 对应的物质的量为  
+   \[
+   \frac{1 \, \text{g}}{87.92 \, \text{g/mol}} \approx 0.0114 \, \text{mol}
+   \]
+
+2. 考虑 $\mathrm{FeS}$ 的溶解平衡：  
+   \(\mathrm{FeS(s) \rightleftharpoons Fe^{2+}(aq) + S^{2-}(aq)}\)  
+   该反应的溶度积常数 \(K_{sp}\) 为 $6.3 \times 10^{-18}$。
+
+3. 在盐酸中，表观的溶解度受到 $\mathrm{H^+}$ 离子的影响，因为 \(\mathrm{H^+}\) 会与 \(\mathrm{S^{2-}}\) 反应，生成 \(\mathrm{H_2S}\)。该过程可以分为以下两个平衡：  
+   \[
+   \mathrm{S^{2-} + 2H^+ \rightleftharpoons H_2S}
+   \]
+
+4. 为了判断溶解性，假设 $\mathrm{FeS}$ 完全溶解：  
+   如果 $\mathrm{FeS}$ 完全溶解，0.0114 mol 需要的溶解的 $\mathrm{H^+}$ 大于 $1 \, \mathrm{mol/dm^3}$ 的酸中能够提供的 $\mathrm{H^+}$。
+
+5. 计算给定条件下的离子浓度，求解 $\mathrm{H^+}$ 的浓度：
+   使用盐酸的体积换算：  
+   $100 \, \text{cm}^3 = 0.1 \, \text{dm}^3$，其包含的 $\mathrm{H^+}$ 滴定的浓度为 $0.1 \, \text{mol}$。
+   这些 $\mathrm{H^+}$ 用于消耗 $\mathrm{S^{2-}}$ 离子。  
+   如果要消耗完全溶解的 $\mathrm{FeS}$ 需要 $0.0114 \times 2 = 0.0228 \, \text{mol}$ $\mathrm{H^+}$，足以说明 $\mathrm{FeS}$ 完全溶解所需的 $\mathrm{H^+}$ 比盐酸能够提供的多。",：不能溶解。因此，$1\mathrm{ g}$ 的 $\mathrm{FeS}$ 不能完全溶于 $100\mathrm{ cm^3}$ 的 $1\mathrm{ mol/dm^3}$ 的盐酸中。,N/A,N/A,N/A
+"向 $c\left( {\mathrm{{Zn}}}^{2 + }\right)$ 和 $c\left( {\mathrm{{Mn}}}^{2 + }\right)$ 均为 ${0.010}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 的混合溶液中通入 ${\mathrm{H}}_{2}\mathrm{\;S}$ 气体至饱和,拟使 ${\mathrm{{Zn}}}^{2 + }$ 完全沉淀而 ${\mathrm{{Mn}}}^{2 + }$ 不沉淀,溶液的 $\mathrm{{pH}}$ 应控制在什么范围? 已知 $\mathrm{{ZnS}}$ 的 ${K}_{\mathrm{{sp}}}^{ \ominus } =$ ${2.5} \times {10}^{-{22}},\mathrm{{MnS}}$ 的 ${K}_{\mathrm{{sp}}}^{ \ominus } = {2.5} \times {10}^{-{13}},{\mathrm{H}}_{2}\mathrm{\;S}$ 的 ${K}_{\mathrm{a}}^{ \ominus } = {1.4} \times {10}^{-{20}}$ 。","${\mathrm{{Zn}}}^{2 + }$ 沉淀完全是指溶液中 $c\left( {\mathrm{{Zn}}}^{2 + }\right) < {1.0} \times {10}^{-5}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 。
+
+$$
+\mathrm{{ZnS}} \rightleftharpoons {\mathrm{{Zn}}}^{2 + } + {\mathrm{S}}^{2 - }
+$$
+
+$$
+{K}_{\mathrm{{sp}}}^{ \ominus }\left( \mathrm{{ZnS}}\right) = c\left( {\mathrm{{Zn}}}^{2 + }\right) c\left( {\mathrm{\;S}}^{2 - }\right)
+$$
+
+$$
+c\left( {\mathrm{\;S}}^{2 - }\right) = \frac{{K}_{\mathrm{{sp}}}^{ \ominus }\left( \mathrm{{ZnS}}\right) }{c\left( {\mathrm{{Zn}}}^{2 + }\right) } = \frac{{2.5} \times {10}^{-{22}}}{{1.0} \times {10}^{-5}}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3} = {2.5} \times {10}^{-{17}}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+$$
+{\mathrm{H}}_{2}\mathrm{\;S} \rightleftharpoons 2{\mathrm{H}}^{ + } + {\mathrm{S}}^{2 - }
+$$
+
+$$
+{K}_{\mathrm{a}}^{ \ominus } = \frac{{\left\lbrack c\left( {\mathrm{H}}^{ + }\right) \right\rbrack }^{2}c\left( {\mathrm{\;S}}^{2 - }\right) }{c\left( {{\mathrm{H}}_{2}\mathrm{\;S}}\right) }
+$$
+
+故
+
+$$
+c\left( {\mathrm{H}}^{ + }\right) = \sqrt{\frac{{K}_{\mathrm{a}}^{ \ominus }c\left( {{\mathrm{H}}_{2}\mathrm{\;S}}\right) }{c\left( {\mathrm{\;S}}^{2 - }\right) }}
+$$
+
+$$
+= \sqrt{\frac{{1.4} \times {10}^{-{20}} \times {0.1}}{{2.5} \times {10}^{-{17}}}}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+$$
+= {7.5} \times {10}^{-3}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+即
+
+$$
+\mathrm{{pH}} = {2.1}
+$$
+
+不生成 $\mathrm{{MnS}}$ 沉淀,则 $c\left( {\mathrm{{Mn}}}^{2 + }\right) = {0.010}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 。
+
+$$
+\mathrm{{MnS}} \rightleftharpoons {\mathrm{{Mn}}}^{2 + } + {\mathrm{S}}^{2 - }
+$$
+
+$$
+{K}_{\mathrm{{sp}}}^{ \ominus }\left( \mathrm{{MnS}}\right) = c\left( {\mathrm{{Mn}}}^{2 + }\right) c\left( {\mathrm{\;S}}^{2 - }\right)
+$$
+
+$$
+c\left( {\mathrm{\;S}}^{2 - }\right) = \frac{{K}_{\mathrm{{sp}}}^{ \ominus }\left( \mathrm{{MnS}}\right) }{c\left( {\mathrm{{Zn}}}^{2 + }\right) } = \frac{{2.5} \times {10}^{-{13}}}{0.010}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3} = {2.5} \times {10}^{-{11}}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+由 ${\mathrm{H}}_{2}\mathrm{\;S}$ 的解离平衡
+
+$$
+{\mathrm{H}}_{2}\mathrm{\;S} \rightleftharpoons 2{\mathrm{H}}^{ + } + {\mathrm{S}}^{2 - }
+$$
+
+得
+
+$$
+c\left( {\mathrm{H}}^{ + }\right) = \sqrt{\frac{{K}_{\mathrm{a}}^{ \ominus }c\left( {{\mathrm{H}}_{2}\mathrm{\;S}}\right) }{c\left( {\mathrm{\;S}}^{2 - }\right) }}
+$$
+
+$$
+= \sqrt{\frac{{1.4} \times {10}^{-{20}} \times {0.1}}{{2.5} \times {10}^{-{11}}}}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+$$
+= {7.5} \times {10}^{-6}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+即
+
+$$
+\mathrm{{pH}} = {5.1}
+$$
+
+所以溶液的 $\mathrm{{pH}}$ 应控制在 ${2.1} \sim {5.1}$ 。
+","：
+
+1. **背景知识**：  
+   - 在溶液中通入 \( \mathrm{H_2S} \)，会发生下列电离：
+     \[
+     \mathrm{H_2S \leftrightharpoons HS^- + H^+},
+     \]
+     \[
+     \mathrm{HS^- \leftrightharpoons S^{2-} + H^+}.
+     \]
+     上述反应的平衡常数满足以下关系：
+     \[
+     K_\mathrm{a} = K_{\mathrm{a1}} \cdot K_{\mathrm{a2}},
+     \]
+     其中 \( K_{\mathrm{a1}} \) 和 \( K_{\mathrm{a2}} \) 分别为 \( \mathrm{H_2S \to HS^-} \) 和 \( \mathrm{HS^- \to S^{2-}} \) 的平衡常数。
+
+     给定 \( K_\mathrm{a}^\ominus = 1.4 \times 10^{-20} \)，通过查表或已知数据，可近似取 \( K_{\mathrm{a1}} \approx 9 \times 10^{-8} \)，因此：
+     \[
+     K_{\mathrm{a2}} = \frac{K_\mathrm{a}^\ominus}{K_{\mathrm{a1}}} = \frac{1.4 \times 10^{-20}}{9 \times 10^{-8}} \approx 1.56 \times 10^{-13}.
+     \]
+
+     **对应有效 \( \mathrm{S^{2-}} \) 浓度计算公式**：  
+     在给定的 \( \mathrm{H^+} \) 浓度（即 pH 确定后），有：
+     \[
+     [\mathrm{S^{2-}}] = \frac{K_{\mathrm{a2}} \cdot [\mathrm{HS^-}]}{[\mathrm{H^+}]},
+     \]
+     又因 \( \mathrm{HS^-} \) 是通过第一个离解平衡获得的，其浓度为：
+     \[
+     [\mathrm{HS^-}] = \frac{K_{\mathrm{a1}} \cdot [\mathrm{H_2S}]}{[\mathrm{H^+}]},
+     \]
+     所以最终：
+     \[
+     [\mathrm{S^{2-}}] = \frac{K_{\mathrm{a1}} \cdot K_{\mathrm{a2}} \cdot [\mathrm{H_2S}]}{[\mathrm{H^+}]^2}.
+     \]
+
+2. **具体分析**：  
+   要求：通入饱和的 \( \mathrm{H_2S} \) 气体至溶液中，使 \( \mathrm{Zn^{2+}} \) 完全沉淀，而 \( \mathrm{Mn^{2+}} \) 不沉淀。对应的溶解平衡为：
+   \[
+   \mathrm{Zn^{2+} + S^{2-} \leftrightharpoons ZnS (s)},
+   \]
+   \[
+   \mathrm{Mn^{2+} + S^{2-} \leftrightharpoons MnS (s)}.
+   \]
+   沉淀依据溶度积常数 \( K_\mathrm{sp} \)：当离子积 \( [\mathrm{M^{2+}}][\mathrm{S^{2-}}] \geq K_\mathrm{sp} \)，对应的 \( \mathrm{M^{2+}} \) 沉淀析出。
+
+   已知：
+   \[
+   K_{\mathrm{sp}}^\ominus (\mathrm{ZnS}) = 2.5 \times 10^{-22}, \quad K_{\mathrm{sp}}^\ominus (\mathrm{MnS}) = 2.5 \times 10^{-13}.
+   \]
+
+   假设溶液中 \( [\mathrm{H_2S}] = 1 \)（饱和时的浓度），则根据条件：
+   - \( \mathrm{Zn^{2+}} \) 必须完全沉淀：  
+     \[
+     [\mathrm{Zn^{2+}}][\mathrm{S^{2-}}] \geq K_{\mathrm{sp}}^\ominus (\mathrm{ZnS}),
+     \]
+     即：
+     \[
+     [\mathrm{S^{2-}}] \geq \frac{K_{\mathrm{sp}}^\ominus (\mathrm{ZnS})}{[\mathrm{Zn^{2+}}]} = \frac{2.5 \times 10^{-22}}{0.010} = 2.5 \times 10^{-20}.
+     \]
+
+   - \( \mathrm{Mn^{2+}} \) 不得沉淀：  
+     \[
+     [\mathrm{Mn^{2+}}][\mathrm{S^{2-}}] < K_{\mathrm{sp}}^\ominus (\mathrm{MnS}),
+     \]
+     即：
+     \[
+     [\mathrm{S^{2-}}] < \frac{K_{\mathrm{sp}}^\ominus (\mathrm{MnS})}{[\mathrm{Mn^{2+}}]} = \frac{2.5 \times 10^{-13}}{0.010} = 2.5 \times 10^{-11}.
+     \]
+
+     综合上述两条件，得：
+     \[
+     2.5 \times 10^{-20} \leq [\mathrm{S^{2-}}] < 2.5 \times 10^{-11}.
+     \]
+
+3. **与 pH 的关系**：  
+   由 \( [\mathrm{S^{2-}}] \) 的表达式：
+   \[
+   [\mathrm{S^{2-}}] = \frac{K_{\mathrm{a1}} \cdot K_{\mathrm{a2}} \cdot [\mathrm{H_2S}]}{[\mathrm{H^+}]^2},
+   \]
+   则：
+   \[
+   [\mathrm{H^+}]^2 = \frac{K_{\mathrm{a1}} \cdot K_{\mathrm{a2}} \cdot [\mathrm{H_2S}]}{[\mathrm{S^{2-}}]}.
+   \]
+
+   我们计算对应的 pH 范围：
+   - 当 \( [\mathrm{S^{2-}}] = 2.5 \times 10^{-20} \)：
+     \[
+     [\mathrm{H^+}]^2 = \frac{(9 \times 10^{-8}) \cdot (1.56 \times 10^{-13}) \cdot 1}{2.5 \times 10^{-20}}.
+     \]
+     化简得：
+     \[
+     [\mathrm{H^+}]^2 = 5.616 \times 10^{-2} \implies [\mathrm{H^+}] \approx 0.237.
+     \]
+     对应：
+     \[
+     \mathrm{pH} = -\log_{10} (0.237) \approx 0.62.
+     \]
+
+   - 当 \( [\mathrm{S^{2-}}] = 2.5 \times 10^{-11} \)：
+     \[
+     [\mathrm{H^+}]^2 = \frac{(9 \times 10^{-8}) \cdot (1.56 \times 10^{-13}) \cdot 1}{2.5 \times 10^{-11}}.
+     \]
+     化简得：
+     \[
+     [\mathrm{H^+}]^2 = 5.616 \times 10^{-10} \implies [\mathrm{H^+}] \approx 2.37 \times 10^{-5}.
+     \]
+     对应：
+     \[
+     \mathrm{pH} = -\log_{10} (2.37 \times 10^{-5}) \approx 4.63.
+     \]
+
+     故 pH 的范围为：
+     \[
+     0.62 \leq \mathrm{pH} < 4.63.
+     \]","：  
+\( 0.62 \leq \mathrm{pH} < 4.63 \)",N/A,N/A,N/A
+"向下列溶液中不断通入 ${\mathrm{H}}_{2}\mathrm{S}$ 气体,计算溶液中最后残留的 ${\mathrm{{Cu}}}^{2 + }$ 的浓度。
+
+(1) ${0.10}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}{\mathrm{{CuSO}}}_{4}$ 溶液;
+
+(2) ${0.10}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}{\mathrm{{CuSO}}}_{4}$ 与 ${1.0}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}\mathrm{{HCl}}$ 的混合溶液。","(1) $\mathrm{{CuS}}$ 的 ${K}_{\mathrm{{sp}}}^{ \ominus } = {6.3} \times {10}^{-{36}}$ ,可见 ${0.10}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}{\mathrm{{Cu}}}^{2 + }$ 完全沉淀,生成 $\mathrm{{CuS}}$ 并产生 ${\mathrm{H}}^{ + }$ ,
+
+使 $c\left( {\mathrm{H}}^{ + }\right) = {0.20}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ :
+
+$$
+{\mathrm{{Cu}}}^{2 + } + {\mathrm{H}}_{2}\mathrm{\;S} = \mathrm{{CuS}} + 2{\mathrm{H}}^{ + }
+$$
+
+同时, 溶液中存在平衡
+
+$$
+{\mathrm{H}}^{ + } + {\mathrm{{SO}}}_{4}^{2 - } = {\mathrm{{HSO}}}_{4}^{ - }
+$$
+
+$$
+{0.20} - x\;{0.10} - x\;x
+$$
+
+$$
+\frac{x}{\left( {{0.20} - x}\right) \left( {{0.10} - x}\right) } = \frac{1}{{K}_{{a}_{2}}^{ \ominus }} = \frac{1}{{1.0} \times {10}^{-2}}
+$$
+
+$$
+x = {0.09}
+$$
+
+$$
+c\left( {\mathrm{H}}^{ + }\right) = {0.20}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3} - {0.09}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3} = {0.11}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+${\mathrm{H}}_{2}\mathrm{\;S} : {K}_{\mathrm{a}}^{ \ominus } = {1.4} \times {10}^{-{20}}$
+
+由 ${\mathrm{H}}_{2}\mathrm{\;S} \rightleftharpoons 2{\mathrm{H}}^{ + } + {\mathrm{S}}^{2 - }$
+
+${K}_{\mathrm{a}}^{ \ominus } = \frac{{\left\lbrack c\left( {\mathrm{H}}^{ + }\right) \right\rbrack }^{2}c\left( {\mathrm{\;S}}^{2 - }\right) }{c\left( {{\mathrm{H}}_{2}\mathrm{\;S}}\right) },{\mathrm{H}}_{2}\mathrm{\;S}$ 饱和浓度为 ${0.10}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ ,得
+
+$$
+c\left( {\mathrm{\;S}}^{2 - }\right) = \frac{{K}_{\mathrm{a}}^{ \ominus }c\left( {{\mathrm{H}}_{2}\mathrm{\;S}}\right) }{{\left\lbrack c\left( {\mathrm{H}}^{ + }\right) \right\rbrack }^{2}} = \frac{{1.4} \times {10}^{-{20}} \times {0.10}}{{\left( {0.11}\right) }^{2}}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+$$
+= {1.2} \times {10}^{-{19}}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+溶液中残留的 ${\mathrm{{Cu}}}^{2 + }$ 浓度为
+
+$$
+c\left( {\mathrm{{Cu}}}^{2 + }\right) = \frac{{K}_{\mathrm{{sp}}}^{ \ominus }}{c\left( {\mathrm{\;S}}^{2 - }\right) } = \frac{{6.3} \times {10}^{-{36}}}{{1.2} \times {10}^{-{19}}}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3} = {5.3} \times {10}^{-{17}}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+(2) ${\mathrm{{Cu}}}^{2 + }$ 完全沉淀产生 ${0.20}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}{\mathrm{H}}^{ + }$ ,则混合溶液中
+
+$$
+c\left( {\mathrm{H}}^{ + }\right) = \left( {{1.0} + {0.20}}\right) \mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3} = {1.20}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+$$
+{\mathrm{H}}^{ + } + {\mathrm{{SO}}}_{4}^{2 - } \rightleftharpoons {\mathrm{{HSO}}}_{4}^{ - }
+$$
+
+$$
+{1.20} - x\;{0.10} - x\;x
+$$
+
+$$
+\frac{x}{\left( {{1.20} - x}\right) \left( {{0.10} - x}\right) } = \frac{1}{{1.0} \times {10}^{-2}}
+$$
+
+$$
+x = {0.10}
+$$
+
+$$
+c\left( {\mathrm{H}}^{ + }\right) = \left( {{1.20} - {0.10}}\right) \mathrm{{mol}} \cdot {\mathrm{{dm}}}^{-3} = {1.10}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+$$
+c\left( {\mathrm{\;S}}^{2 - }\right) = \frac{{K}_{\mathrm{a}}^{ \ominus }c\left( {{\mathrm{H}}_{2}\mathrm{\;S}}\right) }{{\left\lbrack c\left( {\mathrm{H}}^{ + }\right) \right\rbrack }^{2}} = \frac{{1.4} \times {10}^{-{20}} \times {0.10}}{{\left( {1.10}\right) }^{2}}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+$$
+= {1.2} \times {10}^{-{21}}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+溶液中残留 ${\mathrm{{Cu}}}^{2 + }$ 的浓度为
+
+$$
+c\left( {\mathrm{{Cu}}}^{2 + }\right) = \frac{{K}_{\mathrm{{sp}}}^{ \ominus }}{c\left( {\mathrm{\;S}}^{2 - }\right) } = \frac{{6.3} \times {10}^{-{36}}}{{1.2} \times {10}^{-{21}}}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3} = {5.3} \times {10}^{-{15}}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+","：
+
+(1) 在 $0.10\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}{\mathrm{{CuSO}}}_{4}$ 溶液中通入氢硫化气体($\mathrm{H}_2\mathrm{S}$)，我们考虑$\mathrm{Cu}^{2+}$与$\mathrm{S}^{2-}$的沉淀反应，形成硫化铜($\mathrm{CuS}$)沉淀。硫化铜的溶度积($K_\mathrm{sp}$)为$8.0 \times 10^{-37}$。
+
+在没有其他影响因素的情况下，溶液中$\mathrm{Cu}^{2+}$离子浓度与$\mathrm{S}^{2-}$离子的关系可通过$K_\mathrm{sp}$表示：
+$$[\mathrm{Cu}^{2+}][\mathrm{S}^{2-}] = K_\mathrm{sp} = 8.0 \times 10^{-37}.$$
+
+因未加入其它物质，且$\mathrm{H}_2\mathrm{S}$在溶液中电离产生$\mathrm{S}^{2-}$，此时可以忽略$\mathrm{S}^{2-}$的浓度只考虑溶度积公式：
+最终溶液中$\mathrm{Cu}^{2+}$被沉淀的几乎全部，$\mathrm{S}^{2-}$过量并满足该平衡：
+
+设最终时$\mathrm{Cu}^{2+}$的浓度是$x$:
+$$ x \times [\mathrm{S}^{2-}] \approx 8.0 \times 10^{-37}$$
+
+(2) 在${0.10}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}{\mathrm{{CuSO}}}_{4}$和${1.0}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}\mathrm{{HCl}}$的混合溶液中通入$\mathrm{H}_2\mathrm{S}$。$\mathrm{HCl}$会显著影响溶液的酸度，通过$\mathrm{H}^+$抑制$\mathrm{H}_2\mathrm{S}$的解离。
+
+在酸性较强的溶液中，氢硫化的电离会被抑制，$\mathrm{S}^{2-}$的浓度产出会大幅降低。氢硫化的电离平衡为：
+$$\mathrm{H}_2\mathrm{S} \rightleftharpoons 2\mathrm{H}^+ + \mathrm{S}^{2-}.$$
+其电离平衡常数为：
+$$K = \frac{[\mathrm{H}^+]^2 [\mathrm{S}^{2-}]}{[\mathrm{H}_2\mathrm{S}]}.$$
+
+在强酸（$[\mathrm{H}^+] = 1 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$）溶液中，该平衡向左偏移，即$\mathrm{S}^{2-}$浓度极小，几乎没有$\mathrm{Cu}^{2+}$沉淀，因此$\mathrm{Cu}^{2+}$的浓度改变不大。","：
+(1) $8.0 \times 10^{-37}\ /\ [\mathrm{S}^{2-}]$ (包含$\mathrm{S}^{2-}$根据实际$\mathrm{H}_2\mathrm{S}$浓度确定)
+(2) $0.10 \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$",N/A,N/A,N/A
+"常温常压下, ${\mathrm{{CO}}}_{2}$ 在水中的溶解度为 ${0.033}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ ,求该条件下 ${\mathrm{{CaCO}}}_{3}$ 在 ${\mathrm{{CO}}}_{2}$ 饱和水溶液中的溶解度。已知 ${\mathrm{{CaCO}}}_{3}$ 的 ${K}_{\mathrm{{sp}}}^{ \ominus } = {2.8} \times {10}^{-9},{\mathrm{H}}_{2}{\mathrm{{CO}}}_{3}$ 的 ${K}_{{\mathrm{a}}_{1}}^{ \ominus } = {4.5} \times {10}^{-7},{K}_{{\mathrm{a}}_{2}}^{ \ominus } =$ 4. $7 \times {10}^{-{11}}$ 。","该溶解过程用化学反应方程式表示为
+
+$$
+{\mathrm{{CaCO}}}_{3} + {\mathrm{H}}_{2}{\mathrm{{CO}}}_{3} = {\mathrm{{Ca}}}^{2 + } + 2{\mathrm{{HCO}}}_{3}^{ - }
+$$
+
+其平衡常数
+
+$$
+{K}^{ \ominus } = \frac{c\left( {\mathrm{{Ca}}}^{2 + }\right) {\left\lbrack c\left( {\mathrm{{HCO}}}_{3}^{ - }\right) \right\rbrack }^{2}}{c\left( {{\mathrm{H}}_{2}{\mathrm{{CO}}}_{3}}\right) }
+$$
+
+在平衡常数表示式的分子和分母中同时乘以 $c\left( {\mathrm{{CO}}}_{3}^{2 - }\right) c\left( {\mathrm{H}}^{ + }\right)$ ,得
+
+$$
+{K}^{\Theta } = \frac{c\left( {\mathrm{{Ca}}}^{2 + }\right) c\left( {\mathrm{{CO}}}_{3}^{2 - }\right) \cdot \frac{c\left( {\mathrm{H}}^{ + }\right) c\left( {\mathrm{{HCO}}}_{3}^{ - }\right) }{c\left( {{\mathrm{H}}_{2}{\mathrm{{CO}}}_{3}}\right) }}{\frac{c\left( {\mathrm{H}}^{ + }\right) c\left( {\mathrm{{CO}}}_{3}^{2 - }\right) }{c\left( {\mathrm{{HCO}}}_{3}^{ - }\right) }} = \frac{{K}_{\mathrm{{sp}}}^{\Theta } \cdot {K}_{{\mathrm{a}}_{1}}^{\Theta }}{{K}_{{\mathrm{a}}_{2}}^{\Theta }}
+$$
+
+所以
+
+$$
+{K}^{ \ominus } = \frac{{2.8} \times {10}^{-9} \times {4.5} \times {10}^{-7}}{{4.7} \times {10}^{-{11}}} = {2.68} \times {10}^{-5}
+$$
+
+反应过程中 $1\mathrm{\;{mol}}{\mathrm{{CaCO}}}_{3}$ 溶解,则得到 $1\mathrm{\;{mol}}{\mathrm{{Ca}}}^{2 + }$ 和 $2\mathrm{\;{mol}}{\mathrm{{HCO}}}_{3}^{ - }$ ,故平衡时 $c\left( {\mathrm{{Ca}}}^{2 + }\right)$ 等于 ${\mathrm{{CaCO}}}_{3}$ 的溶解度 $s, c\left( {\mathrm{{HCO}}}_{3}^{ - }\right) = {2s}$ 。 所以上式可以表示为
+
+$$
+{K}^{ \ominus } = \frac{s \times {\left( 2s\right) }^{2}}{0.033} = {2.68} \times {10}^{-5}
+$$
+
+$$
+s = {6.0} \times {10}^{-3}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+","：
+1. **问题分析**：  
+   本题求解的是 CaCO₃ 在 CO₂ 饱和水溶液中的溶解度。溶解平衡主要涉及以下化学反应：  
+   - CaCO₃ 的溶解平衡：  
+     \[
+     \mathrm{CaCO}_3(s) \leftrightarrow \mathrm{Ca}^{2+}(aq) + \mathrm{CO}_3^{2-}(aq)
+     \]  
+     其溶解平衡常数为：
+     \[
+     K_{\mathrm{sp}} = [\mathrm{Ca}^{2+}][\mathrm{CO}_3^{2-}] = 2.8 \times 10^{-9}.
+     \]
+   - CO₂ 与水的反应（假设 CO₂ 溶解形成 \(\mathrm{H}_2\mathrm{CO}_3\) 达到平衡）：  
+     \[
+     \mathrm{CO}_2(aq) + \mathrm{H}_2O(l) \leftrightarrow \mathrm{H}_2\mathrm{CO}_3(aq).
+     \]
+     虽然溶解后大部分 CO₂ 以未水合形式存在，但水解后生成 \(\mathrm{H}_2\mathrm{CO}_3\) 推动反应平衡。为方便，假设 \(\mathrm{H}_2\mathrm{CO}_3 = \mathrm{CO}_2\) 的总浓度为 0.033 mol·dm⁻³。
+
+2. **碳酸体系的平衡关系**：  
+   \(\mathrm{H}_2\mathrm{CO}_3\) 会逐级电离，电离常数为：  
+   - \(\mathrm{H}_2\mathrm{CO}_3 \leftrightarrow \mathrm{H}^+ + \mathrm{HCO}_3^-\)，\(\,K_{a_1} = 4.5 \times 10^{-7}\),
+   - \(\mathrm{HCO}_3^- \leftrightarrow \mathrm{H}^+ + \mathrm{CO}_3^{2-}\)，\(\,K_{a_2} = 4.7 \times 10^{-11}\).
+
+   这表明溶液中 \([\mathrm{CO}_3^{2-}]\) 的浓度会受到碳酸的一级和二级电离平衡影响，同时 \([\mathrm{H}^+]\) 会抑制碳酸根离子浓度。
+
+3. **\(\mathrm{CaCO}_3\) 溶解性的限制**：  
+   在 CO₂ 饱和溶液中，除了 \(\mathrm{CaCO}_3\) 自身溶解产生的 \(\mathrm{CO}_3^{2-}\)，还需要考虑由 \(\mathrm{H}_2\mathrm{CO}_3\) 提供的 \(\mathrm{CO}_3^{2-}\)。  
+   令以下符号：  
+   \[
+   s = \text{CaCO₃ 的溶解度} = \text{溶液中 } [\mathrm{Ca}^{2+}]
+   \]
+   \[
+   [\mathrm{CO}_3^{2-}] = s + [\mathrm{CO}_3^{2-}]_{\mathrm{carbonic\ acid}}.
+   \]
+   为保证平衡，上述 \([\mathrm{CO}_3^{2-}]\) 要同时满足溶解度积限制 \(K_{\mathrm{sp}} = [\mathrm{Ca}^{2+}][\mathrm{CO}_3^{2-}]\)。
+
+4. **建立平衡关系**：  
+   根据碳酸的逐级电离平衡，可以得到：
+   \[
+   K_{a_1} = \frac{[\mathrm{H}^+][\mathrm{HCO}_3^-]}{[\mathrm{H}_2\mathrm{CO}_3]}
+   \]
+   \[
+   K_{a_2} = \frac{[\mathrm{H}^+][\mathrm{CO}_3^{2-}]}{[\mathrm{HCO}_3^-]}.
+   \]
+   联立上述公式并结合水解电离中 \([\mathrm{H}^+] \approx 10^{-6.4}\, \text{mol·dm}^{-3}\)（通过 \(\mathrm{pH}\) 推算），可以近似求得 \([\mathrm{CO}_3^{2-}]_{\mathrm{carbonic\ acid}}\)。计算细节如下：  
+   - 已知 CO₂ 的总浓度为 0.033 mol·dm⁻³。
+   - 通过电离平衡，约有 \([\mathrm{H}_2\mathrm{CO}_3] \approx 4.5 \times 10^{-7}\, \mathrm{mol·dm}^{-3}\) 发生一级电离；一级电离产生的 \([\mathrm{HCO}_3^-]\) 也接近 \(4.5 \times 10^{-7} \, \mathrm{mol·dm}^{-3}\)。  
+   - 二级电离的 \([\mathrm{CO}_3^{2-}] \approx \frac{K_{a_2} [\mathrm{HCO}_3^-]}{[\mathrm{H}^+]} \approx \frac{4.7 \times 10^{-11} \times 4.5 \times 10^{-7}}{4 \times 10^{-7}} \approx 5.3 \times 10^{-11}\, \mathrm{mol·dm}^{-3}。
+
+   因此，碳酸体系贡献的 \([\mathrm{CO}_3^{2-}]_{\mathrm{carbonic\ acid}} \ll s\)，可以忽略。
+
+5. **计算 \(s\) 值**：  
+   在溶解平衡中，\([\mathrm{Ca}^{2+}] = s\)，\([\mathrm{CO}_3^{2-}] = s\)，有：
+   \[
+   K_{\mathrm{sp}} = s^2 = 2.8 \times 10^{-9},
+   \]
+   \[
+   s = \sqrt{2.8 \times 10^{-9}} \approx 5.29 \times 10^{-5} \, \mathrm{mol·dm}^{-3}.
+   \]","：\(5.29 \times 10^{-5}\, \mathrm{mol·dm}^{-3}\)",N/A,N/A,N/A
+"在 $1{\mathrm{{dm}}}^{3}{0.20}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}{\mathrm{{ZnSO}}}_{4}$ 溶液中含有 ${\mathrm{{Fe}}}^{2 + }$ 杂质 ${0.056}\mathrm{\;g}$ 。加入氧化剂将 ${\mathrm{{Fe}}}^{2 + }$ 氧化为 ${\mathrm{{Fe}}}^{3 + }$ 后,调 $\mathrm{{pH}}$ 生成 $\mathrm{{Fe}}{\left( \mathrm{{OH}}\right) }_{3}$ 而除去杂质,问如何控制溶液的 $\mathrm{{pH}}$ ? 已知 ${K}_{\text{sp }}^{ \ominus }\left\lbrack {\mathrm{{Zn}}{\left( \mathrm{{OH}}\right) }_{2}}\right\rbrack = {3.0} \times {10}^{-{17}},{K}_{\text{sp }}^{ \ominus }\left\lbrack {\mathrm{{Fe}}{\left( \mathrm{{OH}}\right) }_{3}}\right\rbrack = {2.8} \times {10}^{-{39}},{A}_{\mathrm{r}}\left( \mathrm{{Fe}}\right) = {56}$ 。","溶液中 ${\mathrm{{Fe}}}^{3 + }$ 浓度为
+
+$$
+c\left( {\mathrm{{Fe}}}^{3 + }\right) = \frac{0.056}{56}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3} = {1.0} \times {10}^{-3}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+欲使 ${\mathrm{{Fe}}}^{3 + }$ 沉淀完全 (浓度低于 ${1.0} \times {10}^{-5}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ ),溶液中 ${\mathrm{{OH}}}^{ - }$ 浓度至少为
+
+$$
+c\left( {\mathrm{{OH}}}^{ - }\right) = \sqrt[3]{\frac{{2.8} \times {10}^{-{39}}}{{1.0} \times {10}^{-5}}}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3} = {6.5} \times {10}^{-{12}}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+$$
+\mathrm{{pH}} = {14} - \mathrm{{pOH}} = {2.8}
+$$
+
+欲使 ${\mathrm{{Zn}}}^{2 + }$ 不沉淀, ${\mathrm{{OH}}}^{ - }$ 浓度应低于
+
+$$
+c\left( {\mathrm{{OH}}}^{ - }\right) = \sqrt{\frac{{3.0} \times {10}^{-{17}}}{0.20}}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3} = {1.2} \times {10}^{-8}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+$$
+\mathrm{{pH}} = {14} - \mathrm{{pOH}} = {6.1}
+$$
+
+故应控制溶液 $\mathrm{{pH}}$ 在 ${2.8} \sim {6.1}$ 。
+","：
+
+1. 题目要求除去溶液中的 ${\mathrm{Fe}}^{2+}$ 杂质，步骤分为以下几步：
+   - 首先用氧化剂将 ${\mathrm{Fe}}^{2+}$ 氧化为 ${\mathrm{Fe}}^{3+}$。
+   - 然后通过调节溶液 $\mathrm{pH}$，使溶液中的 ${\mathrm{Fe}}^{3+}$ 形成 ${\mathrm{Fe}}{\left( \mathrm{OH}\right) }_{3}$ 沉淀。
+
+2. 要保证除去 ${\mathrm{Fe}}^{3+}$ 杂质，同时不能让溶液中的 ${\mathrm{Zn}}^{2+}$ 形成氢氧化锌 ${\mathrm{Zn}}{\left( \mathrm{OH}\right) }_{2}$ 沉淀，必须选择一个合适的 $\mathrm{pH}$ 范围。
+
+3. 根据溶解平衡的知识点分析：
+   - 氢氧化物的溶解平衡式：
+     \[
+     \mathrm{Zn}{\left( \mathrm{OH}\right) }_{2} \rightleftharpoons \mathrm{Zn}^{2+} + 2\mathrm{OH}^-
+     \]
+     \[
+     \mathrm{Fe}{\left( \mathrm{OH}\right) }_{3} \rightleftharpoons \mathrm{Fe}^{3+} + 3\mathrm{OH}^-
+     \]
+   - 溶度积表达式：
+     \[
+     K_\text{sp}[\mathrm{Zn}{\left( \mathrm{OH}\right) }_{2}] = [\mathrm{Zn}^{2+}][\mathrm{OH}^-]^2 
+     \]
+     \[
+     K_\text{sp}[\mathrm{Fe}{\left( \mathrm{OH}\right) }_{3}] = [\mathrm{Fe}^{3+}][\mathrm{OH}^-]^3
+     \]
+
+4. ZnSO₄ 溶液中：溶液中 ${\mathrm{Zn}}^{2+}$ 的浓度为 $[\mathrm{Zn}^{2+}] = 0.20 \; \mathrm{mol} \cdot \mathrm{dm}^{-3}$。
+
+   若要避免 $\mathrm{Zn}{\left( \mathrm{OH}\right) }_{2}$ 沉淀的生成，根据其溶度积，可通过溶度积定义求出溶液中 $\mathrm{OH}^-$ 的最大浓度：
+   \[
+   K_\text{sp}[\mathrm{Zn}{\left( \mathrm{OH}\right) }_{2}] = [\mathrm{Zn}^{2+}][\mathrm{OH}^-]^2
+   \]
+   将 $[\mathrm{Zn}^{2+}] = 0.20 \; \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 代入：
+   \[
+   3.0 \times 10^{-17} = 0.20 \times [\mathrm{OH}^-]^2
+   \]
+   \[
+   [\mathrm{OH}^-]^2 = \frac{3.0 \times 10^{-17}}{0.20} = 1.5 \times 10^{-16}
+   \]
+   \[
+   [\mathrm{OH}^-] = \sqrt{1.5 \times 10^{-16}} \approx 1.22 \times 10^{-8} \; \mathrm{mol} \cdot \mathrm{dm}^{-3}
+   \]
+
+   溶液的 $\mathrm{pH}$ 与 $\mathrm{pOH}$ 的关系为：
+   \[
+   \mathrm{pOH} = -\log[\mathrm{OH}^-] = -\log(1.22 \times 10^{-8}) \approx 7.91
+   \]
+   \[
+   \mathrm{pH} = 14 - \mathrm{pOH} \approx 14 - 7.91 = 6.09
+   \]
+   因此，溶液的 $\mathrm{pH}$ 必须小于 6.09 才能防止 $\mathrm{Zn}{\left( \mathrm{OH}\right) }_{2}$ 沉淀。
+
+5. 而生成 ${\mathrm{Fe}}{\left( \mathrm{OH}\right) }_{3}$ 沉淀的 $\mathrm{pH}$：
+   根据 ${K}_{\text{sp }}^{\ominus }[\mathrm{Fe}{\left( \mathrm{OH}\right) }_{3}]$，可计算 ${\mathrm{OH}}^-$ 的最小浓度：
+   \[
+   K_\text{sp}[\mathrm{Fe}{\left( \mathrm{OH}\right) }_{3}] = [\mathrm{Fe}^{3+}][\mathrm{OH}^-]^3
+   \]
+   其中，${\mathrm{Fe}}^{3+}$ 的浓度可由杂质质量 $0.056 \; \mathrm{g}$ 计算，对应 $[\mathrm{Fe}^{3+}]$：
+   \[
+   [\mathrm{Fe}^{3+}] = \frac{\text{物质的量}}{\text{体积}} = \frac{0.056 / 56}{1.0} = 0.001 \; \mathrm{mol} \cdot \mathrm{dm}^{-3}
+   \]
+   将 $[\mathrm{Fe}^{3+}] = 0.001$ 代入溶度积表达式：
+   \[
+   2.8 \times 10^{-39} = 0.001 \times [\mathrm{OH}^-]^3
+   \]
+   \[
+   [\mathrm{OH}^-]^3 = \frac{2.8 \times 10^{-39}}{0.001} = 2.8 \times 10^{-36}
+   \]
+   \[
+   [\mathrm{OH}^-] = \sqrt[3]{2.8 \times 10^{-36}} \approx 3.04 \times 10^{-12} \; \mathrm{mol} \cdot \mathrm{dm}^{-3}
+   \]
+
+   相应的 $\mathrm{pOH}$ 和 $\mathrm{pH}$ 为：
+   \[
+   \mathrm{pOH} = -\log[\mathrm{OH}^-] = -\log(3.04 \times 10^{-12}) \approx 11.52
+   \]
+   \[
+   \mathrm{pH} = 14 - \mathrm{pOH} \approx 14 - 11.52 = 2.48
+   \]
+
+   因此，溶液的 $\mathrm{pH}$ 必须大于 2.48 才能生成 ${\mathrm{Fe}}{\left( \mathrm{OH}\right) }_{3}$ 沉淀。
+
+6. 综合上述分析：
+   - 要避免 $\mathrm{Zn}{\left( \mathrm{OH}\right) }_{2}$ 沉淀，$\mathrm{pH} < 6.09$。
+   - 要生成 ${\mathrm{Fe}}{\left( \mathrm{OH}\right) }_{3}$ 沉淀，$\mathrm{pH} > 2.48$。
+   - 为满足这两个条件，$\mathrm{pH}$ 应调控在 $2.48 < \mathrm{pH} < 6.09$。","：
+$2.48 < \mathrm{pH} < 6.09$",N/A,N/A,N/A
+"如果 ${\mathrm{{BaCO}}}_{3}$ 沉淀中尚有 ${0.010}\mathrm{\;{mol}}{\mathrm{{BaSO}}}_{4}$ ,在 ${1.0}{\mathrm{{dm}}}^{3}$ 此沉淀的饱和溶液中加入多少摩尔 ${\mathrm{{Na}}}_{2}{\mathrm{{CO}}}_{3}$ 才能使 ${0.010}\mathrm{\;{mol}}{\mathrm{{BaSO}}}_{4}$ 完全转化为 ${\mathrm{{BaCO}}}_{3}$ ? 已知 ${\mathrm{{BaSO}}}_{4}$ 的 ${K}_{\mathrm{{sp}}}^{ \ominus } = {1.1} \times$ ${10}^{-{10}},{\mathrm{{BaCO}}}_{3}$ 的 ${K}_{\mathrm{{sp}}}^{ \ominus } = {2.6} \times {10}^{-9}$ 。","
+$$
+{\mathrm{{BaSO}}}_{4} + {\mathrm{{CO}}}_{3}^{2 - } = {\mathrm{{BaCO}}}_{3} + {\mathrm{{SO}}}_{4}^{2 - }
+$$
+
+$$
+{c}_{\text{平 }}/\left( {\mathrm{{mol}} \cdot {\mathrm{{dm}}}^{-3}}\right)
+$$
+
+$$
+x = {0.010}\;{0.010}
+$$
+
+$$
+{K}^{ \ominus } = \frac{c\left( {\mathrm{{SO}}}_{4}^{2 - }\right) }{c\left( {\mathrm{{CO}}}_{3}^{2 - }\right) } = \frac{c\left( {\mathrm{{SO}}}_{4}^{2 - }\right) }{c\left( {\mathrm{{CO}}}_{3}^{2 - }\right) } \cdot \frac{c\left( {\mathrm{{Ba}}}^{2 + }\right) }{c\left( {\mathrm{{Ba}}}^{2 + }\right) } = \frac{{K}_{\mathrm{{sp}}}^{ \ominus }\left( {\mathrm{{BaSO}}}_{4}\right) }{{K}_{\mathrm{{sp}}}^{ \ominus }\left( {\mathrm{{BaCO}}}_{3}\right) } = \frac{{1.1} \times {10}^{-{10}}}{{2.6} \times {10}^{-9}} = {4.2} \times {10}^{-2}
+$$
+
+$$
+\frac{0.010}{x - {0.010}} = {4.2} \times {10}^{-2}
+$$
+
+$$
+x = {0.25}
+$$
+
+所以,加入 ${0.25}\mathrm{\;{mol}}{\mathrm{{Na}}}_{2}{\mathrm{{CO}}}_{3}$ 于 ${1.0}{\mathrm{{dm}}}^{3}$ 饱和溶液中便能实现沉淀的转化。
+","：
+1. 问题给定的条件显示，与两种沉淀相关联的两个平衡溶解度常数分别为：
+   - \({K}_{\text{sp, BaSO}_4} = 1.1 \times 10^{-10}\)
+   - \({K}_{\text{sp, BaCO}_3} = 2.6 \times 10^{-9}\)
+2. 首先分析反应机制：\(\text{BaSO}_4\)沉淀与\(\text{Na}_2\text{CO}_3\)反应生成\(\text{BaCO}_3\)，反应的化学方程式为：
+   \[
+   \text{BaSO}_4(s) + \text{CO}_3^{2-}(aq) \rightleftharpoons \text{BaCO}_3(s) + \text{SO}_4^{2-}(aq)
+   \]
+   这个反应的方向是由溶度积的大小决定的，且\(\text{BaSO}_4\)的溶度积（\({K}_{\text{sp}} = 1.1 \times 10^{-10}\)）小于\(\text{BaCO}_3\)的溶度积（\({K}_{\text{sp}} = 2.6 \times 10^{-9}\)），因此，如果在溶液中加入足够的\(\text{CO}_3^{2-}\)，反应会向生成\(\text{BaCO}_3\)的方向进行，从而使\(\text{BaSO}_4\)转化为\(\text{BaCO}_3\)。
+
+3. 现在我们需要确定完全转化的条件。为使0.010 mol的\(\text{BaSO}_4\)完全转化为\(\text{BaCO}_3\)，应充分增加溶液中的\(\text{CO}_3^{2-}\)浓度并确保\(\text{SO}_4^{2-}\)浓度控制在不大于\(\text{K}_{\text{sp BaSO}_4}\)允许的范围。
+   - 假设加入的\(\text{Na}_2\text{CO}_3\)完全解离，即将所有的\(\text{CO}_3^{2-}\)离子提供给反应，计算需要的最小\(\text{CO}_3^{2-}\)浓度。
+
+4. 平衡计算：
+   - 假设\(\text{BaCO}_3\)反应的生成已经达到最大限度，此时体系满足两沉淀的溶解平衡：
+     - 对\(\text{BaCO}_3\)：\([\text{Ba}^{2+}] \cdot [\text{CO}_3^{2-}] = \text{K}_{\text{sp BaCO}_3}\)
+     - 对\(\text{BaSO}_4\)：\([\text{Ba}^{2+}] \cdot [\text{SO}_4^{2-}] = \text{K}_{\text{sp BaSO}_4}\)
+
+5. 以0.010 mol \(\text{BaSO}_4\)完全转化为\(\text{BaCO}_3\)为目标，设加入的\(\text{CO}_3^{2-}\)的总物质的量为\(x\) mol，则最后剩余的浓度计算如下：
+   - \(\text{SO}_4^{2-}\)-计算：反应完全后，所有\(\text{BaSO}_4\)释放出0.010 mol \(\text{SO}_4^{2-}\)，在1.0 dm\(^3\)溶液中，其浓度为\([SO_4^{2-}] = 0.010\ \text{mol/dm}^3\)。
+   - 对于溶解的\(\text{Ba}^{2+}\)：根据\(\text{BaSO}_4\)的溶解平衡：
+     \[
+     [Ba^{2+}] = \frac{K_{\text{sp BaSO}_4}}{[SO_4^{2-}]} = \frac{1.1 \times 10^{-10}}{0.010} = 1.1 \times 10^{-8}\ \text{mol/dm}^3
+     \]
+   - 对于溶解的\(\text{CO}_3^{2-}\)：利用\(\text{BaCO}_3\)的溶解平衡：
+     \[
+     [CO_3^{2-}] = \frac{K_{\text{sp BaCO}_3}}{[Ba^{2+}]} = \frac{2.6 \times 10^{-9}}{1.1 \times 10^{-8}} = 0.236\ \text{mol/dm}^3
+     \]
+
+6. 总物质的量计算：
+   - 要完全消耗0.010 mol \(\text{BaSO}_4\)，至少需要0.010 mol \(\text{CO}_3^{2-}\)来参与反应。
+   - 考虑到额外还需要在平衡状态下保持\([CO_3^{2-}] = 0.236\ \text{mol/dm}^3\)，因此：
+     \[
+     x = 0.010 + 0.236 \times 1.0 = 0.246\ \text{mol}
+     \]","：
+0.246",N/A,N/A,N/A

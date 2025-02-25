@@ -1,0 +1,420 @@
+query,true_answer,reasoning,model_answer,knowledge_accuracy,reasoning_accuracy,final_answer_accuracy
+"已知 ${\mathrm{H}}_{2}{\mathrm{{SO}}}_{4}$ 的二级解离平衡常数为 ${1.0} \times {10}^{-2}$ ,则 ${0.010}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}{\mathrm{H}}_{2}{\mathrm{{SO}}}_{4}$ 溶液的 $c\left( {\mathrm{H}}^{ + }\right)$ 为 ___ mol $\cdot {\mathrm{{dm}}}^{-3},\mathrm{{pH}}$ 为___。","0.014,1.85","：
+
+1. **解离过程分析**：
+   ${\mathrm{H}}_{2}{\mathrm{{SO}}}_{4}$ 是一个强酸，在水溶液中通常分为两个步骤解离：
+   - 第一级解离（完全解离）：
+     \[
+     {\mathrm{H}}_{2}{\mathrm{{SO}}}_{4} \rightarrow {\mathrm{H}}^{+} + {\mathrm{HSO}}_{4}^{-}
+     \]
+     因为此过程完全解离，所以 ${\mathrm{H}}_{2}{\mathrm{{SO}}}_{4}$ 的浓度将完全转化为 ${\mathrm{H}}^{+}$ 和 ${\mathrm{HSO}}_{4}^{-}$，即在 $0.010 \; \mathrm{{mol}} \cdot \mathrm{{dm}}^{-3}$ 的氢硫酸中，初始由这一级解离产生的 ${\mathrm{H}}^{+}$ 浓度为 $0.010 \; \mathrm{{mol}} \cdot \mathrm{{dm}}^{-3}$。
+
+   - 第二级解离（有限解离）： 
+     \[
+     {\mathrm{HSO}}_{4}^{-} \rightleftharpoons {\mathrm{H}}^{+} + {\mathrm{SO}}_{4}^{2-}
+     \]
+     第二级解离平衡常数为 $K_2 = 1.0 \times 10^{-2}$。从这一步解离中会额外产生一定量的 ${\mathrm{H}}^{+}$。
+
+2. **设置变量并建立平衡关系**：
+   第二级解离的初始条件和变化如下：
+   - 初始时：${\mathrm{HSO}}_{4}^{-} = 0.010 \; \mathrm{{mol}} \cdot \mathrm{{dm}}^{-3}$，${\mathrm{H}}^{+} = 0.010 \; \mathrm{{mol}} \cdot \mathrm{{dm}}^{-3}$，${\mathrm{SO}}_{4}^{2-} = 0 \; \mathrm{{mol}} \cdot \mathrm{{dm}}^{-3}$。
+   - 设第二级解离中 ${\mathrm{HSO}}_{4}^{-}$ 解离$x$，则平衡时浓度为：
+     \[
+     [{\mathrm{HSO}}_{4}^{-}] = 0.010 - x, \quad [{\mathrm{H}}^{+}] = 0.010 + x, \quad [{\mathrm{SO}}_{4}^{2-}] = x
+     \]
+
+   根据平衡常数$K_2$：
+   \[
+   K_2 = \frac{[{\mathrm{H}}^{+}][{\mathrm{SO}}_{4}^{2-}]}{[{\mathrm{HSO}}_{4}^{-}]}
+   \]
+   将数据代入表达式：
+   \[
+   1.0 \times 10^{-2} = \frac{(0.010 + x)(x)}{0.010 - x}
+   \]
+
+3. **简化与近似求解**：
+   因为 $K_2 = 1.0 \times 10^{-2}$ 是比较小的值，说明 ${\mathrm{HSO}}_{4}^{-}$ 的解离程度不高，$x$ 远小于 $0.010$，因此可近似 $0.010 - x \approx 0.010$。代入得到：
+   \[
+   1.0 \times 10^{-2} = \frac{(0.010)(x)}{0.010}
+   \]
+   简化后：
+   \[
+   x = 1.0 \times 10^{-2} \; \mathrm{{mol}} \cdot \mathrm{{dm}}^{-3}
+   \]
+
+4. **总 ${\mathrm{H}}^{+}$ 浓度计算**：
+   总的 ${\mathrm{H}}^{+}$ 浓度为：
+   \[
+   c({\mathrm{H}}^{+}) = 0.010 + x = 0.010 + 0.001 = 0.011 \; \mathrm{{mol}} \cdot \mathrm{{dm}}^{-3}
+   \]
+
+5. **pH 计算**：
+   pH 的定义为：
+   \[
+   \mathrm{pH} = -\log_{10}[{\mathrm{H}}^{+}]
+   \]
+   因此：
+   \[
+   \mathrm{pH} = -\log_{10}(0.011)
+   \]
+   用对数计算：
+   \[
+   \mathrm{pH} \approx 2.0
+   \]","：  
+0.011, 2.0",N/A,N/A,N/A
+"某一元弱酸的钠盐 $\left( \mathrm{{NaX}}\right)$ 溶液浓度为 ${0.2}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ ,测得其 $\mathrm{{pH}} = 9$ ,则钠盐 $\mathrm{{NaX}}$ 的水解度为___,弱酸 $\mathrm{{HX}}$ 的解离平衡常数为___
+","$\left( {5 \times {10}^{-3}}\right) \%$ (或 $5 \times {10}^{-5}$ ), $2 \times {10}^{-5}$","：
+1. 本题涉及弱酸的钠盐溶液具有碱性，其碱性来源于弱酸阴离子（\(\mathrm{X^-}\)）的水解。水解反应为：
+   \[
+   \mathrm{X^-} + \mathrm{H_2O} \rightleftharpoons \mathrm{HX} + \mathrm{OH^-}
+   \]
+   确定水解平衡后，使用水解公式和相关的弱电解质知识解题。
+
+2. **水解度定义**：
+   弱酸钠盐的水解度（\(h\)）为溶液中水解的\(\mathrm{X^-}\)所占总量的比例，可表示为：
+   \[
+   h = \frac{\text{水解生成的}\ \mathrm{OH^-} \ \text{物质的量浓度}}{\text{初始钠盐浓度}}
+   \]
+
+3. **已知信息和关系分析**：
+   - 溶液中的\(\mathrm{OH^-}\)导致碱性对应的\(\mathrm{pH}\)为9，故\(\mathrm{pOH} = 14 - \mathrm{pH} = 14 - 9 = 5\)，由此得\([\mathrm{OH^-}] = 10^{-\mathrm{pOH}} = 10^{-5}\ \mathrm{mol\ dm^{-3}}\)。
+   - 钠盐的初始浓度为\([ \mathrm{NaX} ] = 0.2\ \mathrm{mol\ dm^{-3}}\)。
+   - 水解度\(h\)与\([\mathrm{OH^-}]\)的关系为：
+     \[
+     h = \frac{[\mathrm{OH^-}]}{[ \mathrm{NaX} ]}
+     \]
+
+4. **计算水解度（\(h\)）**：
+   \[
+   h = \frac{10^{-5}}{0.2} = 5 \times 10^{-5}
+   \]
+
+5. **弱酸解离平衡常数（\(K_a\)）分析**：
+   - 水解常数（\(K_h\)）与水的离子积（\(\mathrm{K_w} = 1.0 \times 10^{-14}\))，以及弱酸的解离平衡常数（\(K_a\)）的关系为：
+     \[
+     K_h = \frac{\mathrm{K_w}}{K_a}
+     \]
+   - 水解常数（\(K_h\)）也可由钠盐水解反应当量得出：
+     \[
+     K_h \approx h^2 \cdot [ \mathrm{NaX} ] = (5 \times 10^{-5})^2 \cdot 0.2 = 5.0 \times 10^{-9}
+     \]
+   - 联立得：
+     \[
+     K_a = \frac{\mathrm{K_w}}{K_h} = \frac{1.0 \times 10^{-14}}{5.0 \times 10^{-9}} = 2.0 \times 10^{-6}
+     \]","：
+水解度为：\(5 \times 10^{-5}\)  
+弱酸的解离平衡常数为：\(2.0 \times 10^{-6}\)",N/A,N/A,N/A
+"已知 ${18}^{ \circ }\mathrm{C}$ 时水的 ${K}_{\mathrm{w}}^{ \ominus } = {6.4} \times {10}^{-{15}}$ ,此时中性溶液中氢离子的浓度为 $\;\mathrm{{mol}} \cdot {\mathrm{{dm}}}^{-3}$ , $\mathrm{{pH}}$ 为___。","$8\times {10}^{-8},$ 7.10","：在给定温度下，水的离子积常数\({K}_{\mathrm{w}}^{ \ominus }\)是\({6.4} \times {10}^{-{15}}\)。 中性溶液意味着\([\mathrm{H}^+] = [\mathrm{OH}^-]\)。因此，
+
+\[
+[\mathrm{H}^+]^2 = {K}_{\mathrm{w}}^{ \ominus }
+\]
+
+我们可以通过取\({K}_{\mathrm{w}}^{ \ominus }\)的平方根来找到氢离子的浓度：
+
+\[
+[\mathrm{H}^+] = \sqrt{6.4 \times 10^{-15}} = 8.0 \times 10^{-8} \, \mathrm{mol} \cdot \mathrm{dm}^{-3}
+\]
+
+接下来，\(\mathrm{pH}\)值是氢离子浓度的负对数：
+
+\[
+\mathrm{pH} = -\log_{10}(8.0 \times 10^{-8})
+\]
+
+使用对数性质:
+
+\[
+\mathrm{pH} = 7.1
+\]",：7.1,N/A,N/A,N/A
+"已知某二元弱酸 ${\mathrm{H}}_{2}\mathrm{\;A}$ 的 ${K}_{{\mathrm{a}}_{1}}^{ \ominus } = 1 \times {10}^{-7},{K}_{{\mathrm{a}}_{2}}^{ \ominus } = 1 \times {10}^{-{14}}$ ,则 ${0.10}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}{\mathrm{H}}_{2}\mathrm{\;A}$ 溶液中 $c\left( {\mathrm{\;A}}^{2 - }\right)$ 为___ $\mathrm{{mol}} \cdot {\mathrm{{dm}}}^{-3}$ ; 在 ${0.10}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}{\mathrm{H}}_{2}\mathrm{\;A}$ 和 ${0.10}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 盐酸混合溶液中 $c\left( {\mathrm{\;A}}^{2 - }\right)$ 为___ $\mathrm{{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 。","$1 \times {10}^{-{14}},1 \times {10}^{-{20}}$","：
+
+### 第一步：分析第一个问题 $c\left({\mathrm{A}}^{2-}\right)$ 的求解
+1. 已知 $\mathrm{H}_2\mathrm{A}$ 是一个二元弱酸，其两个酸离解常数分别为：
+   - 第一步离解：$\mathrm{H}_2\mathrm{A} \rightleftharpoons \mathrm{H}^+ + \mathrm{HA}^-$，${K}_{{a}_1}^\ominus = 1 \times 10^{-7}$。
+   - 第二步离解：$\mathrm{HA}^- \rightleftharpoons \mathrm{H}^+ + \mathrm{A}^{2-}$，${K}_{{a}_2}^\ominus = 1 \times 10^{-14}$。
+2. 初始浓度为 $0.10 \; \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 的 $\mathrm{H}_2\mathrm{A}$ 溶液，由于 ${K}_{{a}_1}^\ominus$ 和 ${K}_{{a}_2}^\ominus$ 显著小，酸的离解程度较弱，因此可假设其离解不显著改变 $\mathrm{H}_2\mathrm{A}$ 的初始浓度，并将逐步离解的各离子浓度一一计算。
+   
+#### 计算第一步离解（$\mathrm{H}_2\mathrm{A} \rightarrow \mathrm{H}^+ + \mathrm{HA}^-$）
+- 根据第一步酸的离解平衡关系：$K_{{a}_1}^{\ominus} = \frac{[\mathrm{H}^+][\mathrm{HA}^-]}{[\mathrm{H}_2\mathrm{A}]}$。
+- 设 $\mathrm{H}^+$ 离解浓度为 $x$，则 $\mathrm{HA}^-$ 的浓度也是 $x$，$\mathrm{H}_2\mathrm{A}$ 的平衡浓度为 $0.10 - x$。代入平衡常数表达式：
+  \[
+  K_{{a}_1}^{\ominus} = 1 \times 10^{-7} = \frac{x \cdot x}{0.10 - x}。
+  \]
+- 因为 $K_{{a}_1}^{\ominus}$ 很小，$x$ 远小于 $0.10$，可近似 $0.10 - x \approx 0.10$，得到：
+  \[
+  x^2 = 1 \times 10^{-7} \cdot 0.10 = 1 \times 10^{-8} \implies x = 1 \times 10^{-4}.
+  \]
+  因此，$\mathrm{HA}^-$ 的浓度为 $[\mathrm{HA}^-] = 1 \times 10^{-4}\, \mathrm{mol} \cdot \mathrm{dm}^{-3}$。
+
+#### 计算第二步离解（$\mathrm{HA}^- \rightarrow \mathrm{H}^+ + \mathrm{A}^{2-}$）
+- 根据第二步酸的离解平衡关系：$K_{{a}_2}^{\ominus} = \frac{[\mathrm{H}^+][\mathrm{A}^{2-}]}{[\mathrm{HA}^-]}$。
+- $[\mathrm{H}^+] \approx 1 \times 10^{-4}\; \mathrm{mol} \cdot \mathrm{dm}^{-3}$，来自第一步离解的贡献。设 $\mathrm{HA}^-$ 的浓度变化为 $y$，则 $\mathrm{A}^{2-}$ 的浓度为 $y$。
+  \[
+  K_{{a}_2}^\ominus = 1 \times 10^{-14} = \frac{(1 \times 10^{-4})(y)}{1 \times 10^{-4}}。
+  \]
+- 可得：
+  \[
+  y = 1 \times 10^{-14}\, \mathrm{mol} \cdot \mathrm{dm}^{-3}.
+  \]
+  因此，$c\left(\mathrm{A}^{2-}\right) = 1 \times 10^{-14}\, \mathrm{mol} \cdot \mathrm{dm}^{-3}$。
+
+---
+
+### 第二步：分析混合溶液中 $c\left(\mathrm{A}^{2-}\right)$ 的求解
+1. 将 $0.10\, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 的盐酸与 $0.10\, \mathrm{mol} \cdot \mathrm{dm}^{-3}$ 的 $\mathrm{H}_2\mathrm{A}$ 混合，根据强酸完全电离的性质，混合体系中的 $[\mathrm{H}^+]$ 将主要来源于盐酸。
+2. 盐酸供给的 $[\mathrm{H}^+] = 0.10\, \mathrm{mol} \cdot \mathrm{dm}^{-3}$。因为酸性强，$\mathrm{H}_2\mathrm{A}$ 与 $\mathrm{HA}^-$ 的离解将受到抑制，混合溶液中 $\mathrm{A}^{2-}$ 浓度主要由第二步离解平衡决定。
+3. 第二步离解平衡：$\mathrm{HA}^- \leftrightharpoons \mathrm{H}^+ + \mathrm{A}^{2-}$，有
+   \[
+   K_{{a}_2}^\ominus = \frac{[\mathrm{H}^+][\mathrm{A}^{2-}]}{[\mathrm{HA}^-]}。
+   \]
+4. 此时 $[\mathrm{H}^+] = 0.10\, \mathrm{mol} \cdot \mathrm{dm}^{-3}$，设 $\mathrm{HA}^-$ 的浓度为 $c \approx 0.10\, \mathrm{mol} \cdot \mathrm{dm}^{-3}$（因其第一步离解亦被显著抑制）。则：
+   \[
+   1 \times 10^{-14} = \frac{(0.10)([\mathrm{A}^{2-}])}{0.10}。
+   \]
+5. 解得：
+   \[
+   c\left(\mathrm{A}^{2-}\right) = 1 \times 10^{-14}\, \mathrm{mol} \cdot \mathrm{dm}^{-3}.
+   \]
+
+---","：
+1. $1 \times 10^{-14}$
+2. $1 \times 10^{-14}$",N/A,N/A,N/A
+"下列溶液中各物质的浓度均为 ${0.10}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ ,则按 $\mathrm{{pH}}$ 由大到小排列的顺序为
+
+(1) ${\mathrm{{NH}}}_{4}\mathrm{{Cl}}$ 和 ${\mathrm{{NH}}}_{3} \cdot {\mathrm{H}}_{2}\mathrm{O}$ 混合溶液;
+(2) NaAc 和 HAc 混合溶液;
+(3) $\mathrm{{HAc}}$ ;
+(4) ${\mathrm{{NH}}}_{3} \cdot {\mathrm{H}}_{2}\mathrm{O}$ ;
+(5) $\mathrm{{HCl}}$ ;
+(6) $\mathrm{{NaOH}}$ 。",$\left( 6\right) \left( 4\right) \left( 1\right) \left( 2\right) \left( 3\right) \left( 5\right)$,"：
+这是一个溶液pH比较问题，需要通过对溶液的酸碱性进行分析，确定各物质的离解平衡特性及其对pH的具体影响。
+
+1. **分析溶液组分的酸碱性**：
+   - **(1)** ${\mathrm{{NH}}}_{4}\mathrm{{Cl}}$ 和 ${\mathrm{{NH}}}_{3} \cdot {\mathrm{H}}_{2}\mathrm{O}$ 混合溶液：这是一种弱酸（${\mathrm{{NH}}}_{4}^+$）和弱碱（${\mathrm{{NH}}}_{3}$）组成的缓冲溶液，其pH由弱酸和弱碱的缓冲作用决定，但以${\mathrm{{NH}}}_{3}$为主要作用组分表现出弱碱性。
+   - **(2)** $\mathrm{{NaAc}}$ 和 $\mathrm{{HAc}}$ 混合溶液：这是一个弱酸（乙酸/HAc）和其共轭碱（乙酸钠/NaAc）组成的缓冲溶液，pH略显酸性，但较(1)更酸。
+   - **(3)** $\mathrm{{HAc}}$：乙酸是弱酸，溶液中通过自身的电离提供酸性环境，pH低于上述缓冲溶液。
+   - **(4)** ${\mathrm{{NH}}}_{3} \cdot {\mathrm{H}}_{2}\mathrm{O}$：氨水是一个弱碱性溶液，pH较高，但比缓冲溶液中的弱碱体系更体现单一碱性。
+   - **(5)** $\mathrm{{HCl}}$：盐酸是强酸，完全电离，溶液呈强酸性，pH最低。
+   - **(6)** $\mathrm{{NaOH}}$：氢氧化钠是强碱，完全电离，溶液呈强碱性，pH最高。
+
+2. **确定pH的大致排序**：
+   根据上述分析，可以得出以下规律：
+   - $\mathrm{{NaOH}}$ > ${\mathrm{{NH}}}_{4}\mathrm{{Cl}}$ 和 ${\mathrm{{NH}}}_{3} \cdot {\mathrm{{H}}}_{2}\mathrm{O}$ 混合溶液 > ${\mathrm{{NH}}}_{3} \cdot {\mathrm{{H}}}_{2}\mathrm{O}$ > $\mathrm{{NaAc}}$ 和 $\mathrm{{HAc}}$ 混合溶液 > $\mathrm{{HAc}}$ > $\mathrm{{HCl}}$。",：6 > 1 > 4 > 2 > 3 > 5,N/A,N/A,N/A
+"在 ${0.10}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}\mathrm{{HAc}}$ 溶液中加入少许 $\mathrm{{NaCl}}$ 晶体,溶液的 $\mathrm{{pH}}$ 将会___; 若以 ${\mathrm{{Na}}}_{2}{\mathrm{{CO}}}_{3}$ 代替 $\mathrm{{NaCl}}$ ,则溶液的 $\mathrm{{pH}}$ 将会___。","减小, 增大","：  
+1. 需要分析两个情境下HAc溶液的pH变化情况，并对加入的物质与溶液的化学性质进行探讨。  
+   
+   **情境一：加入少许NaCl**  
+   - HAc（乙酸）是弱酸，部分电离可表示为：  
+     \[\mathrm{CH_3COOH \; \rightleftharpoons \; H^+ \; + \; CH_3COO^-}\]  
+   - NaCl在水中完全溶解：  
+     \[\mathrm{NaCl \; \rightarrow \; Na^+ \; + \; Cl^-}\]  
+     NaCl的两个离子（\(\mathrm{Na^+}\) 和 \(\mathrm{Cl^-}\)）均为中性离子，不参与HAc的电离平衡，也不会影响HAc的解离程度。因此，当少量的NaCl加入时，溶液的pH值不会发生显著变化。  
+
+   **情境二：以\(\mathrm{Na_2CO_3}\)代替NaCl**  
+   - Na₂CO₃（碳酸钠）是强碱弱酸盐，溶于水中会完全离解为：  
+     \[\mathrm{Na_2CO_3 \; \rightarrow \; 2Na^+ \; + \; CO_3^{2-}}\]  
+   - \(\mathrm{CO_3^{2-}}\)（碳酸根离子）是碳酸弱酸的共轭碱，具有较强的碱性，会与\(\mathrm{H^+}\)发生反应：  
+     \[\mathrm{CO_3^{2-} \; + \; H^+ \; \rightarrow \; HCO_3^-}\]  
+     该反应会消耗溶液中的\(\mathrm{H^+}\)，降低溶液中\(\mathrm{H^+}\)的浓度，从而导致溶液的pH值升高。此外，\(\mathrm{CO_3^{2-}}\)的加入还可能通过抑制乙酸的电离平衡进一步降低\(\mathrm{H^+}\)浓度。  
+
+2. 结合以上情境分析得知：加入NaCl对溶液的pH值基本没有影响，而加入Na₂CO₃会显著提高溶液的pH值。",：保持不变；升高,N/A,N/A,N/A
+"实验室有 $\mathrm{{HCl}},\mathrm{{HAc}}\left( {{K}_{\mathrm{a}}^{ \ominus } = {1.8} \times {10}^{-5}}\right) ,\mathrm{{NaOH}},\mathrm{{NaAc}}$ 四种浓度相同的溶液,现要配制 $\mathrm{{pH}} = {4.44}$ 的缓冲溶液,共有三种配法,每种配法所用的两种溶液及其体积比分别为 ____________________________,_________________________________________________________________________,______________________________________________________________","HAc-NaAc, 2:1; HCl-NaAc, 2:3; HAc-NaOH, 3:1","：
+
+缓冲溶液由弱酸及其共轭碱（或弱碱及其共轭酸）组成，通过调节弱酸和共轭碱的比例可以控制溶液的 pH。在本题中，四种可选试剂包括：强酸 $\mathrm{HCl}$、弱酸 $\mathrm{HAc}$、强碱 $\mathrm{NaOH}$ 和弱酸的共轭碱 $\mathrm{NaAc}$，可通过不同组合和体积比的调整满足 pH 要求。
+
+缓冲溶液 pH 的计算通常用亨德森-哈塞尔巴尔赫方程：
+\[
+\mathrm{pH} = \mathrm{pKa} + \log{\frac{[\text{共轭碱}]}{[\text{弱酸}]}}
+\]
+$\mathrm{HAc}$ 的电离平衡常数已知为 $\mathrm{K_a} = 1.8 \times 10^{-5}$，因此：
+\[
+\mathrm{pKa} = -\log{(1.8 \times 10^{-5})} \approx 4.74
+\]
+题目要求配制 $\mathrm{pH} = 4.44$ 的缓冲溶液，因此：
+\[
+4.44 = 4.74 + \log{\frac{[\text{共轭碱}]}{[\text{弱酸}]}}
+\]
+\[
+\log{\frac{[\text{共轭碱}]}{[\text{弱酸}]}} = 4.44 - 4.74 = -0.30
+\]
+将对数还原回指数形式：
+\[
+\frac{[\text{共轭碱}]}{[\text{弱酸}]} = 10^{-0.30} \approx 0.50
+\]
+因此，为满足 pH = 4.44，缓冲体系中 $\mathrm{[共轭碱]}:\mathrm{[弱酸]} = 1:2$。
+
+接下来，我们分析实验室四种溶液的可能配制方案。
+
+1. **方案一：$\mathrm{HAc}$ 和 $\mathrm{NaAc}$ 配制**
+   - $\mathrm{HAc}$ 是弱酸，$\mathrm{NaAc}$ 是其共轭碱。它们直接组成缓冲体系。
+   - 根据计算的浓度比，需 $\mathrm{[NaAc]}:\mathrm{[HAc]} = 1:2$。
+   - 因溶液浓度相同，实际体积比也为 1:2。
+
+2. **方案二：$\mathrm{HAc}$ 和 $\mathrm{NaOH}$ 配制**
+   - $\mathrm{HAc}$ 是弱酸，$\mathrm{NaOH}$ 是强碱。$\mathrm{NaOH}$ 部分中和 $\mathrm{HAc}$ 后可以生成 $\mathrm{NaAc}$，形成缓冲体系。
+   - 设用 $V_{\mathrm{HAc}}$ 和 $V_{\mathrm{NaOH}}$ 配制，$\mathrm{NaOH}$ 中和相当于缓冲体系中引入了共轭碱。因此中和产生的 $\mathrm{NaAc}$ 浓度与未被中和的 $\mathrm{HAc}$ 浓度满足浓度比 $1:2$。
+   - 综合考虑，需体积比 $\mathrm{V_{NaOH}}:\mathrm{V_{HAc}} = 1:4$。
+
+3. **方案三：$\mathrm{HCl}$ 和 $\mathrm{NaAc}$ 配制**
+   - $\mathrm{NaAc}$ 是弱酸的共轭碱，$\mathrm{HCl}$ 是强酸。$\mathrm{HCl}$ 部分中和 $\mathrm{NaAc}$ 后可以生成 $\mathrm{HAc}$，形成缓冲体系。
+   - 设用 $V_{\mathrm{NaAc}}$ 和 $V_{\mathrm{HCl}}$ 配制，$\mathrm{HCl}$ 中和相当于缓冲体系中引入了弱酸。根据浓度比 $1:2$。
+   - 综合考虑，需体积比 $\mathrm{V_{NaAc}}:\mathrm{V_{HCl}} = 2:1$。","：  
+1:2；1:4；2:1",N/A,N/A,N/A
+"在 ${0.10}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}{\mathrm{{NH}}}_{3} \cdot {\mathrm{H}}_{2}\mathrm{O}$ 中加入 ${\mathrm{{NH}}}_{4}\mathrm{{Cl}}$ 固体,则 ${\mathrm{{NH}}}_{3} \cdot {\mathrm{H}}_{2}\mathrm{O}$ 的浓度___ ,解离度 ___ , pH___ ,解离平衡常数 ___","增大,变小,变小,不变","：
+1. 这是一个弱碱溶液（氨水，\(\mathrm{NH}_3 \cdot \mathrm{H}_2O\)），属于弱电解质，在溶液中部分电离，发生平衡：  
+   \[\mathrm{NH}_3 \cdot \mathrm{H}_2O \rightleftharpoons \mathrm{NH}_4^+ + \mathrm{OH}^-\]
+   电离度为溶解物中电离形成的离子摩尔数与溶解物总摩尔数之比。
+
+2. 若向该溶液中加入大量\(\mathrm{NH}_4\mathrm{Cl}\)（强电解质，完全电离为\(\mathrm{NH}_4^+\)和\(\mathrm{Cl}^-\)），将明显增加\(\mathrm{NH}_4^+\)的浓度。由于\(\mathrm{NH}_3 \cdot \mathrm{H}_2O\)与\(\mathrm{NH}_4^+\)呈可逆平衡关系，依据**勒夏特列原理**，平衡将向消耗\(\mathrm{NH}_4^+\)方向移动，即抑制\(\mathrm{NH}_3 \cdot \mathrm{H}_2O\)的解离，使\(\mathrm{OH}^-\)浓度降低。从而，解离度减小，溶液的碱性减弱，\(\mathrm{pH}\)也降低。
+
+3. **关键点：**  
+   - 解离度：随着\(\mathrm{NH}_4^+\)浓度增大，解离被抑制，解离度减小。  
+   - \(\mathrm{pH}\)：\(\mathrm{OH}^-\)浓度减小（\(\mathrm{pH} = 14 - \mathrm{pOH}\)），pH降低。  
+   - \(\mathrm{NH}_3 \cdot \mathrm{H}_2O\)的浓度：由于原始解离部分被抑制，未解离的\(\mathrm{NH}_3 \cdot \mathrm{H}_2O\)物质增多，其本身浓度略有上升。  
+   - 解离平衡常数：解离平衡常数(\(K_b\))是弱碱的特性，取决于温度，不随浓度变化，因此不受影响。",：下降 减小 下降 不变,N/A,N/A,N/A
+"$2\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}{\mathrm{{NH}}}_{3} \cdot {\mathrm{H}}_{2}\mathrm{O}\left( {{K}_{\mathrm{b}}^{ \ominus } = {1.8} \times {10}^{-5}}\right)$ 的 $\mathrm{{pH}}$ 为___; 将它与 $2\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 盐酸等体积混合后,溶液的 $\mathrm{{pH}}$ 为 $\;$ ; 若将氨水与 $4\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 盐酸等体积混合,则混合溶液的 $\mathrm{{pH}}$ 为___。","11.78,4.63,0.00","：
+1. 首先，我们处理氨水的初始 pH：
+   - 氨水（NH₃·H₂O）是一个弱碱，满足碱离解平衡：\( \mathrm{NH_3 + H_2O \leftrightarrow NH_4^+ + OH^-} \)。
+   - 氢氧根离子浓度 \( [\mathrm{OH^-}] \) 由其碱离解常数 \( K_b = 1.8 \times 10^{-5} \) 和初始浓度 \( [\mathrm{NH_3}] = 2\ \mathrm{mol \cdot dm^{-3}} \) 得出。我们使用公式：
+     \[
+     K_b = \frac{[\mathrm{OH^-}]^2}{[\mathrm{NH_3}] - [\mathrm{OH^-}]}
+     \]
+     由于氨水的离解度较小，简化为：
+     \[
+     K_b = \frac{[\mathrm{OH^-}]^2}{[\mathrm{NH_3}]}
+     \]
+     解得：
+     \[
+     [\mathrm{OH^-}] = \sqrt{K_b \cdot [\mathrm{NH_3}]} = \sqrt{1.8 \times 10^{-5} \cdot 2} = \sqrt{3.6 \times 10^{-5}} = 6 \times 10^{-3}\ \mathrm{mol\cdot dm^{-3}}
+     \]
+   - 溶液的 pOH 为：
+     \[
+     \mathrm{pOH} = -\log_{10}[\mathrm{OH^-}] = -\log_{10}(6 \times 10^{-3}) \approx 2.22
+     \]
+   - 溶液的 pH 为：
+     \[
+     \mathrm{pH} = 14 - \mathrm{pOH} = 14 - 2.22 = 11.78
+     \]
+
+2. 考虑与 2 mol dm⁻³ 的盐酸等体积混合后溶液的 pH：
+   - 盐酸是强酸，完全解离生成 \( \mathrm{H^+} \)。
+   - 两种溶液等体积混合后，其浓度减半：
+     \[
+     [\mathrm{NH_3}] = 1\ \mathrm{mol \cdot dm^{-3}}, \quad [\mathrm{HCl}] = 1\ \mathrm{mol \cdot dm^{-3}}
+     \]
+   - HCl 的 \( \mathrm{H^+} \) 与氨水中的 \( \mathrm{NH_3} \) 反应生成 \( \mathrm{NH_4^+} \)：\\
+     \[
+     \mathrm{NH_3 + H^+ \to NH_4^+}
+     \]
+   - \( \mathrm{H^+} \) 被完全中和，生成的 \( \mathrm{NH_4^+} \) 为 \( [\mathrm{NH_4^+}] = 1\ \mathrm{mol \cdot dm^{-3}} \)。
+   - 混合溶液中的 \( \mathrm{pH} \) 由 \( \mathrm{NH_4^+} \) 的酸解离决定：
+     \[
+     \mathrm{NH_4^+ + H_2O \leftrightarrow NH_3 + H_3O^+}
+     \]
+     \( \mathrm{NH_4^+} \) 的 \( K_a \) 与 \( K_b \) 有以下关系：
+     \[
+     K_a \cdot K_b = K_w, \quad K_a = \frac{K_w}{K_b} = \frac{10^{-14}}{1.8 \times 10^{-5}} \approx 5.56 \times 10^{-10}
+     \]
+     \(\mathrm{H^+}\) 的浓度由公式：
+     \[
+     K_a = \frac{[\mathrm{H^+}]^2}{[\mathrm{NH_4^+}]}
+     \]
+     解得：
+     \[
+     [\mathrm{H^+}] = \sqrt{K_a \cdot [\mathrm{NH_4^+}]} = \sqrt{5.56 \times 10^{-10} \cdot 1} \approx 2.36 \times 10^{-5}\ \mathrm{mol \cdot dm^{-3}}
+     \]
+     溶液的 pH 为：
+     \[
+     \mathrm{pH} = -\log_{10}[\mathrm{H^+}] = -\log_{10}(2.36 \times 10^{-5}) \approx 4.63
+     \]
+
+3. 考虑氨水与 4 mol dm⁻³ 盐酸等体积混合：
+   - 盐酸的浓度为 4 mol dm⁻³，氨水的浓度为 2 mol dm⁻³，混合等体积后：
+     \[
+     [\mathrm{HCl}] = 2\ \mathrm{mol \cdot dm^{-3}}, \quad [\mathrm{NH_3}] = 1\ \mathrm{mol \cdot dm^{-3}}
+     \]
+   - 盐酸的 \( \mathrm{H^+} \) 与 \( \mathrm{NH_3} \) 反应：
+     \[
+     \mathrm{NH_3 + H^+ \to NH_4^+}
+     \]
+     反应后剩余 \( \mathrm{H^+} \)：
+     \[
+     [\mathrm{H^+}_{\text{剩余}}] = [\mathrm{HCl}] - [\mathrm{NH_3}] = 2 - 1 = 1\ \mathrm{mol \cdot dm^{-3}}
+     \]
+   - 剩余的 \( \mathrm{H^+} \) 决定溶液的 pH：
+     \[
+     \mathrm{pH} = -\log_{10}[\mathrm{H^+}_{\text{剩余}}] = -\log_{10}(1) = 0
+     \]","：
+11.78; 4.63; 0",N/A,N/A,N/A
+"已知 ${\mathrm{H}}_{3}{\mathrm{{PO}}}_{4}$ 的 ${K}_{{\mathrm{a}}_{1}}^{ \ominus } = {6.9} \times {10}^{-3},{K}_{{\mathrm{a}}_{2}}^{ \ominus } = {6.1} \times {10}^{-8},{K}_{{\mathrm{a}}_{3}}^{ \ominus } = {4.8} \times {10}^{-{13}}$ 。 ${\mathrm{H}}_{3}{\mathrm{{PO}}}_{4}$ 的共轭碱为___,其 ${K}_{\mathrm{b}}^{ \ominus }$ 值为___。","${\mathrm{H}}_{2}{\mathrm{{PO}}}_{4}^{ - },{1.4} \times {10}^{-{12}}$","：
+1. 根据酸碱化学中的定义，共轭碱是指某种酸失去一个质子 (H⁺) 后形成的种类。对于磷酸 (\(H_3PO_4\))，其共轭碱为失去 \(H^+\) 后的物种 \(\mathrm{H_2PO_4^-}\)。
+
+2. 酸性常数 (\(K_a\)) 和碱性常数 (\(K_b\)) 在水溶液中有如下关系：
+   \[
+   K_a \cdot K_b = K_w
+   \]
+   其中，\(K_w = 10^{-14}\) 是水的离子积常数 (在标准状态下，25°C)。
+
+3. 磷酸 (\(H_3PO_4\)) 的共轭碱 \(\mathrm{H_2PO_4^-}\) 对应的是它的一级电离常数 \(K_{a1}^\ominus = 6.9 \times 10^{-3}\)。因此，通过上述关系，\(\mathrm{H_2PO_4^-}\) 的 \(K_b^\ominus\) 可以通过以下公式计算：
+   \[
+   K_b = \frac{K_w}{K_{a1}}
+   \]
+   
+4. 将数值代入公式：
+   \[
+   K_b = \frac{10^{-14}}{6.9 \times 10^{-3}} = 1.45 \times 10^{-12}
+   \]","：
+\(\mathrm{H_2PO_4^-}\), \(1.45 \times 10^{-12}\)",N/A,N/A,N/A
+"在醋酸溶剂中, 高氯酸的酸性比盐酸 ___ , 因为醋酸是 ___ 溶剂; 在水中, 高氯酸的酸
+
+性与盐酸的酸性 ___ , 这是因为水是 ___ 溶剂。","强, 示差; 相近, 拉平","：  
+这是一道关于溶剂效应对酸性影响的题目，需要分别考虑在醋酸和水中两种酸的行为。  
+
+1. 在醋酸溶剂中：  
+   - 醋酸是一种质子给予体相对弱的溶剂，其本质上是弱极性溶剂，具有极低的自解离能力。醋酸的溶剂化作用较弱，因此对不同强酸之间的酸性差异反映更加明显。    
+   - 高氯酸（HClO₄）是比盐酸（HCl）更强的酸，由于在醋酸中，不同酸的酸强显现出来，因此高氯酸的酸性会比盐酸强得多。  
+
+2. 在水溶剂中：  
+   - 水是一种强极性的溶剂，也是典型的质子给予体溶剂，具有很强的自解离能力。    
+   - 在水中，强酸（如HClO₄和HCl）的酸性会通过溶剂化作用被“平衡”或“均一化”，即所有强酸在水溶液中完全解离，最终的酸性都取决于溶液中的H⁺离子浓度，而不是酸本身的强弱。因此在水中，高氯酸与盐酸的酸性表现相近。",：比盐酸强极性相近,N/A,N/A,N/A
+"已知 $\mathrm{{HAc}}$ 的 ${K}_{\mathrm{a}}^{ \ominus } = {1.8} \times {10}^{-5},\mathrm{{HCN}}$ 的 ${K}_{\mathrm{a}}^{ \ominus } = {6.2} \times {10}^{-{10}},\mathrm{{HF}}$ 的 ${K}_{\mathrm{a}}^{ \ominus } = {6.3} \times {10}^{-4}$ ,则相同浓度的稀溶液 $\mathrm{{NaAc}},\mathrm{{NaCN}}$ 和 $\mathrm{{NaF}}$ ,水解度由大到小的顺序是
+
+${\mathrm{{OH}}}^{ - },{\mathrm{{Ac}}}^{ - },{\mathrm{{CN}}}^{ - },{\mathrm{F}}^{ - }$ 碱性由强至弱的顺序是","NaCN, NaAc, NaF; ${\mathrm{{OH}}}^{ - } > {\mathrm{{CN}}}^{ - } > {\mathrm{{Ac}}}^{ - } > {\mathrm{F}}^{ - }$ ","：
+1. **关于溶液水解度的分析**：
+   根据弱酸的共轭碱（由相应弱酸的阴离子形成的碱）的水解程度，水解度 \( h \) 与弱酸的酸度常数 \( K_a \) 和溶质初始浓度 \( c \) 的关系可以通过公式 \( h = \sqrt{\frac{K_w}{K_a \cdot c}} \)（\( K_w \) 为水的离子积）来确定。  
+   由公式可知，水解度 \( h \) 与 \( K_a \) 成反比，即酸的 \( K_a \) 越大，对应的共轭碱的水解度就越小。  
+   给出的酸的 \( K_a \) 值的大小关系为：  
+   \( K_a(\mathrm{HF}) = 6.3 \times 10^{-4} > K_a(\mathrm{HAc}) = 1.8 \times 10^{-5} > K_a(\mathrm{HCN}) = 6.2 \times 10^{-10} \)。  
+   因此，相应阴离子（碱）水解度的大小关系是：  
+   \( \mathrm{CN}^- > \mathrm{Ac}^- > \mathrm{F}^- \)。
+
+2. **关于碱性的分析**：
+   根据弱酸的共轭碱碱性强弱，碱性强弱主要由水解反应对溶液中 \( \mathrm{OH}^- \) 浓度的贡献决定。碱的碱性与弱酸的 \( K_a \) 反比，即弱酸的酸性越弱，对应的共轭碱的碱性越强。  
+   给出的酸的 \( K_a \) 大小关系与第一部分一致：  
+   \( K_a(\mathrm{HF}) > K_a(\mathrm{HAc}) > K_a(\mathrm{HCN}) \)，  
+   因此共轭碱的碱性大小关系为：  
+   \( \mathrm{CN}^- > \mathrm{Ac}^- > \mathrm{F}^- \)。","：  
+1. 水解度由大到小的顺序：\(\mathrm{NaCN} > \mathrm{NaAc} > \mathrm{NaF}\)。  
+2. 碱性由强至弱的顺序：\(\mathrm{CN}^- > \mathrm{Ac}^- > \mathrm{F}^-\)。",N/A,N/A,N/A
+"根据酸碱质子理论,
+${\left\lbrack \mathrm{{Fe}}{\left( {\mathrm{H}}_{2}\mathrm{O}\right) }_{5}\left( \mathrm{{OH}}\right) \right\rbrack }^{2 + }$ 的共轭酸是
+${\mathrm{{HNO}}}_{3}$ 的共轭酸是
+${\mathrm{{NH}}}_{2}^{ - }$ 的共轭碱是","${\left\lbrack \mathrm{{Fe}}{\left( {\mathrm{H}}_{2}\mathrm{O}\right) }_{6}\right\rbrack }^{3 + },{\left\lbrack \mathrm{{Fe}}{\left( {\mathrm{H}}_{2}\mathrm{O}\right) }_{4}{\left( \mathrm{{OH}}\right) }_{2}\right\rbrack }^{ + };{\mathrm{H}}_{2}{\mathrm{{NO}}}_{3}^{ + };{\mathrm{{NH}}}^{2 - }$ ","：
+
+1. **识别物种及其酸碱性**：
+   - 根据酸碱质子理论，酸是能够给予质子（H⁺）的物种，而碱是能够接受质子的物种。
+   - 共轭酸是一个碱接受一个质子（H⁺）后形成的物种。
+
+2. **推导每个物种的共轭酸或共轭碱**：
+   - 对于 \([ \mathrm{Fe}(\mathrm{H}_2\mathrm{O})_5(\mathrm{OH}) ]^{2+}\)，它是一个带2+电荷的配合物，可视作碱性质，如果它接受一个质子，会在\(\mathrm{OH}^-\)上加一个氢，形成\[ \mathrm{Fe}(\mathrm{H}_2\mathrm{O})_5(\mathrm{OH}_2) \]^{3+}。
+   - \(\mathrm{HNO}_3\)本身是一个酸，因此其没有共轭酸（因为酸不能再给予质子形成新的物种）。
+   - 对于 \(\mathrm{NH}_2^-\)：它是一个常见的碱，能够接受一个质子来形成 \(\mathrm{NH}_3\)。
+
+3. **分析共轭关系及结果**：
+   - \([ \mathrm{Fe}(\mathrm{H}_2\mathrm{O})_5(\mathrm{OH}) ]^{2+}\) 的共轭酸是 \([ \mathrm{Fe}(\mathrm{H}_2\mathrm{O})_5(\mathrm{OH}_2) ]^{3+}\)。
+   - \(\mathrm{HNO}_3\) 的共轭酸不能定义，因为作为强酸，它不会再接受质子。
+   - \(\mathrm{NH}_2^-\) 的共轭碱是 \(\mathrm{NH}_3\)。","：
+1. \([ \mathrm{Fe}(\mathrm{H}_2\mathrm{O})_5(\mathrm{OH}_2) ]^{3+}\)
+2. 无
+3. \(\mathrm{NH}_3\)",N/A,N/A,N/A

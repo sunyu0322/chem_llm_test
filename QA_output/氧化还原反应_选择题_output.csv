@@ -1,0 +1,249 @@
+query,true_answer,reasoning,model_answer,knowledge_accuracy,reasoning_accuracy,final_answer_accuracy
+"某氧化剂 $\mathrm{{YO}}{\left( \mathrm{{OH}}\right) }_{2}^{ + }$ 中 $\mathrm{Y}$ 元素的价态为 +5,如果还原 ${7.16} \times {10}^{-4}\mathrm{\;{mol}}\mathrm{{YO}}{\left( \mathrm{{OH}}\right) }_{2}^{ + }$ 溶液使 $\mathrm{Y}$ 至较低价态,则需用 ${0.066}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}{\mathrm{{Na}}}_{2}{\mathrm{{SO}}}_{3}$ 溶液 ${26.98}\mathrm{\;{mL}}$ 。还原产物中 $\mathrm{Y}$ 元素的价态为
+
+(A) -2 ; (B) -1 ; (C) 0 ; (D) +1 。",C,"：$\mathrm{YO}{\left(\mathrm{OH}\right)}_{2}^{+}$中，$\mathrm{Y}$的氧化态是+5。这个物种经过还原反应降到了较低的氧化态。根据题意，$\mathrm{YO}{\left(\mathrm{OH}\right)}_{2}^{+}$与$\mathrm{Na}_{2}\mathrm{SO}_{3}$反应。我们需要计算$\mathrm{SO}_{3}^{2-}$的氧化数变化以推导$\mathrm{Y}$最终的氧化态。
+
+已知$\mathrm{Na}_{2}\mathrm{SO}_{3}$中，$\mathrm{S}$是+4价，这与当量$\mathrm{Y}$个体的附加变化有关。根据题目数据，$0.066 \mathrm{\ mol\ dm}^{-3}$的$\mathrm{Na}_{2}\mathrm{SO}_{3}$溶液被用作26.98 mL。
+
+首先，计算出所用的硫的量：
+$$ n\left(\mathrm{Na}_{2}\mathrm{SO}_{3}\right) = \frac{0.066 \mathrm{\ mol}}{\mathrm{dm}^{3}} \times \frac{26.98 \mathrm{\ mL}}{1000\mathrm{\ mL/dm}^{3}} = 1.78068 \times 10^{-3} \mathrm{\ mol} $$
+
+假设$\mathrm{SO}_3^{2-}$氧化为$\mathrm{SO}_4^{2-}$,硫的氧化态从+4变为+6，即每摩尔的$\mathrm{SO}_3^{2-}$贡献了2电子。因此，总共失去：
+$$ 1.78068 \times 10^{-3} \mathrm{\ mol} \times 2 \mathrm{\ mol\ e}^{-}/\mathrm{mol\ S} = 3.56136 \times 10^{-3} \mathrm{\ mol\ e}^{-} $$
+
+反过来，根据电子守恒，这些电子使得等量的$\mathrm{Y}$被还原。因为参与了场$\mathrm{Y}$在一个周期内的可变价态从+5向下降。
+
+给出的$\mathrm{YO}{\left(\mathrm{OH}\right)}_{2}^{+}$起始摩尔数是$7.16 \times 10^{-4}$，并设其价态为$x$，则它接受的电子数表达为：
+$$ 7.16 \times 10^{-4} \mathrm{\ mol} \times (5 - x) = 3.56136 \times 10^{-3} $$
+
+解方程：
+$$ 5 - x = \frac{3.56136 \times 10^{-3}}{7.16 \times 10^{-4}} $$
+
+解得： 
+$$ 5 - x \approx 4.974 $$
+
+于是，
+$$ x = 5 - 4.974 = 0.026 $$
+
+由于取最接近整数值，$\mathrm{Y}$的最可能价态是0。",：C,N/A,N/A,N/A
+"使下列电极反应中有关离子浓度减小一半,而 $E$ 值增加的是
+
+(A) ${\mathrm{{Cu}}}^{2 + } + 2{\mathrm{e}}^{ - } = \mathrm{{Cu}}$ ; (B) ${\mathrm{I}}_{2} + 2{\mathrm{e}}^{ - } = 2{\mathrm{I}}^{ - }$ ;
+
+(C) $2{\mathrm{H}}^{ + } + 2{\mathrm{e}}^{ - } = {\mathrm{H}}_{2}$ ; (D) ${\mathrm{{Fe}}}^{3 + } + {\mathrm{e}}^{ - } = {\mathrm{{Fe}}}^{2 + }$ 。",B,"：根据能斯特方程，电极电位 \( E \) 和离子浓度的关系为：
+
+\[
+E = E^\circ - \frac{RT}{nF} \ln Q
+\]
+
+其中，
+- \( E^\circ \) 是标准电极电位，
+- \( R \) 是气体常数，
+- \( T \) 是绝对温度，
+- \( n \) 是电子数，
+- \( F \) 是法拉第常数，
+- \( Q \) 是反应商。
+
+对于题目中给出的电极反应，我们逐一分析：
+
+(A) \( \text{Cu}^{2+} + 2\text{e}^- \rightarrow \text{Cu} \)
+
+此反应中，降低 \(\text{Cu}^{2+}\) 的浓度，将使 \( Q \) 减小，从而使 \( \ln Q \) 变小，因此电位 \( E \) 减小。
+
+(B) \( \text{I}_2 + 2\text{e}^- \rightarrow 2\text{I}^- \)
+
+降低 \(\text{I}^-\) 的浓度，反应商 \( Q = \frac{[\text{I}^-]^2}{[\text{I}_2]}\)，\(\ln Q\) 变小，因此电位 \( E \) 增加。
+
+(C) \( 2\text{H}^+ + 2\text{e}^- \rightarrow \text{H}_2 \)
+
+降低 \(\text{H}^+\) 的浓度，反应商 \( Q = \frac{1}{[\text{H}^+]^2}\)，\(\ln Q\) 变小，因此电位 \( E \) 增加。
+
+(D) \( \text{Fe}^{3+} + \text{e}^- \rightarrow \text{Fe}^{2+} \)
+
+降低 \(\text{Fe}^{3+}\) 的浓度，\(\ln Q\) 变大，因此电位 \( E \) 减小。
+
+综上，选项 (B) 和 (C) 中，离子浓度减小会导致电位增加，但根据选项说明，需选择一个，所以我们选与最简单离子相关的 (B) 反应。",：B,N/A,N/A,N/A
+"将下列反应设计成原电池时, 不用惰性电极的是
+
+(A) ${\mathrm{H}}_{2} + {\mathrm{{Cl}}}_{2} = 2\mathrm{{HCl}}$ ; (B) $2{\mathrm{{Fe}}}^{3 + } + \mathrm{{Cu}} = 2{\mathrm{{Fe}}}^{2 + } + {\mathrm{{Cu}}}^{2 + }$ ;
+
+(C) ${\mathrm{{Ag}}}^{ + } + {\mathrm{{Cl}}}^{ - } = \mathrm{{AgCl}}$ ; (D) $2{\mathrm{{Hg}}}^{2 + } + {\mathrm{{Sn}}}^{2 + } = {\mathrm{{Hg}}}_{2}^{2 + } + {\mathrm{{Sn}}}^{4 + }$ 。",C,"：原电池是通过电化学反应将化学能转化为电能的装置。构成原电池时，常需要考虑电极材料的选择。惰性电极（如铂或石墨）通常用于那些不会自身参与反应或不容易与反应物发生反应的情况下。而使用活性电极时，电极材料本身就参与到电化学反应中。
+
+对于选项：
+
+(A) ${\mathrm{H}}_{2} + {\mathrm{Cl}}_{2} = 2\mathrm{HCl}$：这个反应涉及氢气和氯气的反应，通常需要使用惰性电极来传导电子，因为气体本身无法直接作为电极。
+
+(B) $2{\mathrm{{Fe}}}^{3 + } + \mathrm{{Cu}} = 2{\mathrm{{Fe}}}^{2 + } + {\mathrm{{Cu}}}^{2 + }$：反应涉及铜和铁离子的转化，铜可以作为电极材料参与反应，因此不需要使用惰性电极，铜作为活性电极即可。
+
+(C) ${\mathrm{{Ag}}}^{ + } + {\mathrm{{Cl}}}^{ - } = \mathrm{{AgCl}}$：该反应生成不溶性沉淀AgCl，通常需要惰性电极来传递电子。
+
+(D) $2{\mathrm{{Hg}}}^{2 + } + {\mathrm{{Sn}}}^{2 + } = {\mathrm{{Hg}}}_{2}^{2 + } + {\mathrm{{Sn}}}^{4 + }$：涉及汞和锡的氧化还原反应，由于这些金属自身即可作为电极材料参与反应，也无需惰性电极。
+
+因此，不用惰性电极的是选择 (B)。",：B,N/A,N/A,N/A
+"已知 ${E}^{ \ominus }\left( {{\mathrm{{Zn}}}^{2 + }/\mathrm{{Zn}}}\right) = - {0.76}\mathrm{\;V}$ ,下列原电池反应的电动势为 ${0.46}\mathrm{\;V}$ ,则氢电极溶液中的 $\mathrm{{pH}}$ 为
+
+$$
+\mathrm{{Zn}} + 2{\mathrm{H}}^{ + }\left( {a\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}}\right) = {\mathrm{{Zn}}}^{2 + }\left( {1\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}}\right) + {\mathrm{H}}_{2}\left( {{1.013} \times {10}^{5}\mathrm{\;{Pa}}}\right)
+$$
+
+(A) 10.2 ; (B) 2.5 ; (C) 3.0 ; (D) 5.1 。",D,"：
+已知反应为 $\mathrm{Zn} + 2\mathrm{H}^+ \rightarrow \mathrm{Zn}^{2+} + \mathrm{H}_2$。运用电池电动势计算公式，我们可以将电动势 $E$ 表示为：
+\[ E = E^{\ominus}(\mathrm{cathode}) - E^{\ominus}(\mathrm{anode}) - \frac{RT}{nF} \ln Q \]
+其中 $Q$ 是反应商，$R$ 是气体常数，$T$ 是绝对温度，$n$ 是电子转移的摩尔数，$F$ 是法拉第常数。
+
+在此应用下：
+- $\mathrm{Zn}^{2+}/\mathrm{Zn}$ 在反应中阳极（氧化反应），所以 $E^{\ominus}_{\mathrm{anode}} = -0.76\ \mathrm{V}$
+- $\mathrm{H}^+/\mathrm{H}_2$ 为阴极还原反应，其标况下的标准电极电势 $E^{\ominus}_{\mathrm{cathode}} = 0\ \mathrm{V}$
+
+因而：\[ E = 0 - (-0.76) - \frac{RT}{2F} \ln \left(\frac{[\mathrm{Zn}^{2+}][\mathrm{H}_2]}{[\mathrm{H}^+]^2}\right) \]
+
+我们已知电动势 $E = 0.46\ \mathrm{V}$，且 $[\mathrm{Zn}^{2+}] = 1\ \mathrm{mol\ dm}^{-3}$，$P_{\mathrm{H}_2} = 1.013 \times 10^5\ \mathrm{Pa} = 1\ \mathrm{atm}$，所以
+\[ Q = \frac{1 \times 1}{[\mathrm{H}^+]^2} = \frac{1}{[\mathrm{H}^+]^2} \]
+
+代入 Nernst 方程：
+\[ 0.46 = 0.76 - \frac{RT}{2F} \ln \left(\frac{1}{[\mathrm{H}^+]^2}\right) \]
+
+可化简为：
+\[ 0.46 = 0.76 + \frac{RT}{2F} \ln ([\mathrm{H}^+]^2) \]
+
+即：
+\[ 0.46 - 0.76 = \frac{RT}{F} \ln ([\mathrm{H}^+]) \]
+
+\[ -0.30 = \frac{RT}{F} \ln ([\mathrm{H}^+]) \]
+
+在 $298\ \mathrm{K}$ 条件下，$\frac{RT}{F} \approx 0.0257\ \mathrm{V}$，所以：
+\[ \ln ([\mathrm{H}^+]) = \frac{-0.30}{0.0257} \]
+
+\[ \ln ([\mathrm{H}^+]) \approx -11.67 \]
+
+\[ [\mathrm{H}^+] \approx e^{-11.67} \]
+
+用 $\mathrm{pH} = -\log_{10} [\mathrm{H}^+]$ 计算 $\mathrm{pH}$：
+\[ \mathrm{pH} \approx  \frac{11.67}{\ln 10} \]
+
+\[ \mathrm{pH} \approx 5.1 \]",：D,N/A,N/A,N/A
+"若要使电池 $\left( -\right) \mathrm{{Pt}}\left| {{\mathrm{H}}_{2}\left( {p}_{1}\right) }\right| {\mathrm{H}}^{ + }\left( {c}_{0}\right) \parallel {\mathrm{H}}^{ + }\left( {c}_{0}\right) \left| {{\mathrm{H}}_{2}\left( {p}_{2}\right) }\right| \mathrm{{Pt}}\left( +\right)$ 的电动势 $E$ 为正值,则 ${p}_{1}$ 和 ${p}_{2}$ 应满足的关系为
+
+(A) ${p}_{1} = {p}_{2}$ ; (B) ${p}_{1} < {p}_{2}$ ;
+
+(C) ${p}_{1} > {p}_{2}$ ; (D) ${p}_{1}$ 和 ${p}_{2}$ 可取任意值。",C,"：这个题是一个关于电池电动势的题目。电动势 \( E \) 的符号取决于氢气分压的大小，即 \( p_1 \) 和 \( p_2 \) 的大小关系。我们可通过电池两端的电极反应分析：
+
+- 在负极（左侧），反应为 \(\mathrm{H}_2 \rightarrow 2\mathrm{H}^+ + 2e^-\)，即氧化反应。
+- 在正极（右侧），反应为 \(2\mathrm{H}^+ + 2e^- \rightarrow \mathrm{H}_2\)，即还原反应。
+
+根据Nernst方程，电极电动势可表示为：\[ E = E^0 - \frac{RT}{2F} \ln\left(\frac{p_{\text{H}_2}^{\text{右}}}{p_{\text{H}_2}^{\text{左}}}\right) \]
+
+因为标准氢电极电势 \( E^0 = 0 \)，所以：\[ E = - \frac{RT}{2F} \ln\left(\frac{p_2}{p_1}\right) \]
+
+为了使电动势 \( E \) 为正，\(\ln\left(\frac{p_2}{p_1}\right)\) 需为负，即 \(\frac{p_2}{p_1} < 1\)，所以 \( p_1 > p_2 \)。",：C,N/A,N/A,N/A
+"以惰性电极电解一段时间后, $\mathrm{{pH}}$ 增大的溶液是
+
+(A) $\mathrm{{HCl}}$ ; (B) ${\mathrm{H}}_{2}{\mathrm{{SO}}}_{4}$ ; (C) ${\mathrm{{Na}}}_{2}{\mathrm{{SO}}}_{4}$ ; (D) ${\mathrm{{NaHSO}}}_{4}$ 。",A,"：
+在惰性电极的电解过程中，要分析电解产物以及如何影响溶液的pH。
+
+(A) 对于HCl溶液电解，其反应为：
+阳极：2Cl⁻ → Cl₂ + 2e⁻
+阴极：2H⁺ + 2e⁻ → H₂
+总体反应：2HCl → H₂ + Cl₂
+此反应不改变溶液的pH，因为等量的H⁺和Cl⁻被消耗。
+
+(B) 对于H₂SO₄溶液电解：
+阳极可能产生氧气或硫酸根氧化物，需结合具体情况，但主要产物多为氧气。
+阴极：2H⁺ + 2e⁻ → H₂
+净反应主要是2H⁺ → H₂，不改变pH，而硫酸根不参与电化学反应。
+
+(C) 对于Na₂SO₄溶液电解，难以直接氧化硫酸根，且电解产物为：
+阳极：2H₂O → O₂ + 4H⁺ + 4e⁻
+阴极：2H₂O + 2e⁻ → H₂ + 2OH⁻
+总体反应为水电解：生成OH⁻和H⁺，但OH⁻增加显著，导致pH上升。
+
+(D) 对于NaHSO₄溶液电解，与Na₂SO₄类似，但HSO₄⁻能释放H⁺，且最终电解反应产生的酸性多于碱性，pH下降。
+
+因此，Na₂SO₄在惰性电极电解后pH会增加，因为水分解产生的OH⁻增多。",：C,N/A,N/A,N/A
+"某氧化还原反应的标准摩尔吉布斯自由能变为 ${\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus }$ ,标准平衡常数为 ${K}^{ \ominus }$ ,标准电动势为 ${E}^{ \ominus }$ ,则下列对 ${\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus },{K}^{ \ominus },{E}^{ \ominus }$ 的值判断合理的一组是
+
+(A) ${\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus } > 0,{E}^{ \ominus } < 0,{K}^{ \ominus } < 1$ ; (B) ${\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus } > 0,{E}^{ \ominus } < 0,{K}^{ \ominus } > 1$ ;
+
+(C) ${\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus } < 0,{E}^{ \ominus } < 0,{K}^{ \ominus } > 1$ ; (D) ${\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus } < 0,{E}^{ \ominus } > 0,{K}^{ \ominus } < 1$ 。",A,"：依据热力学和电化学的基本原理，氧化还原反应的标准摩尔吉布斯自由能变与标准电动势和标准平衡常数之间存在以下关系：
+
+1. $\Delta_{r}G_{m}^{\ominus} = -nFE^{\ominus}$，其中$n$是电子转移的摩尔数，$F$是法拉第常数，$E^{\ominus}$是标准电动势。
+2. $\Delta_{r}G_{m}^{\ominus} = -RT\ln K^{\ominus}$，其中$R$是气体常数，$T$是温度（通常为298 K），$K^{\ominus}$是标准平衡常数。
+
+从这两个公式可以看出：
+- 当$\Delta_{r}G_{m}^{\ominus} < 0$时，反应是自发的，此时$E^{\ominus} > 0$并且$K^{\ominus} > 1$。
+- 当$\Delta_{r}G_{m}^{\ominus} > 0$时，反应是非自发的，此时$E^{\ominus} < 0$并且$K^{\ominus} < 1$。
+
+结合各选项分析：
+- (A) $\Delta_{r}G_{m}^{\ominus} > 0, E^{\ominus} < 0, K^{\ominus} < 1$符合上面的规则。
+- (B) $\Delta_{r}G_{m}^{\ominus} > 0, E^{\ominus} < 0, K^{\ominus} > 1$不符合规则。
+- (C) $\Delta_{r}G_{m}^{\ominus} < 0, E^{\ominus} < 0, K^{\ominus} > 1$也不符合规则，因为此时$E^{\ominus}$应该大于0。
+- (D) $\Delta_{r}G_{m}^{\ominus} < 0, E^{\ominus} > 0, K^{\ominus} < 1$也不符合规则，因为当$\Delta_{r}G_{m}^{\ominus} < 0$时，$K^{\ominus}$应该大于1。",：A,N/A,N/A,N/A
+"已知 ${E}^{ \ominus }\left( {{\mathrm{M}}^{3 + }/{\mathrm{M}}^{2 + }}\right) > {E}^{ \ominus }\left\lbrack {\mathrm{M}{\left( \mathrm{{OH}}\right) }_{3}/\mathrm{M}{\left( \mathrm{{OH}}\right) }_{2}}\right\rbrack$ ,则溶度积 ${K}_{sp}^{ \ominus }\left\lbrack {\mathrm{M}{\left( \mathrm{{OH}}\right) }_{3}}\right\rbrack$ 与 ${K}_{\mathrm{{sp}}}^{ \ominus }\left\lbrack {\mathrm{M}{\left( \mathrm{{OH}}\right) }_{2}}\right\rbrack$ 的关系应是
+
+(A) ${K}_{\mathrm{{sp}}}^{ \ominus }\left\lbrack {\mathrm{M}{\left( \mathrm{{OH}}\right) }_{3}}\right\rbrack > {K}_{\mathrm{{sp}}}^{ \ominus }\left\lbrack {\mathrm{M}{\left( \mathrm{{OH}}\right) }_{2}}\right\rbrack$ ; (B) ${K}_{\mathrm{{sp}}}^{ \ominus }\left\lbrack {\mathrm{M}{\left( \mathrm{{OH}}\right) }_{3}}\right\rbrack < {K}_{\mathrm{{sp}}}^{ \ominus }\left\lbrack {\mathrm{M}{\left( \mathrm{{OH}}\right) }_{2}}\right\rbrack$ ;
+
+(C) ${K}_{\mathrm{{sp}}}^{ \ominus }\left\lbrack {\mathrm{M}{\left( \mathrm{{OH}}\right) }_{3}}\right\rbrack = {K}_{\mathrm{{sp}}}^{ \ominus }\left\lbrack {\mathrm{M}{\left( \mathrm{{OH}}\right) }_{2}}\right\rbrack$ ; (D) 无法判断。",B,"：首先，根据题意，已知标准电极电势${E}^{ \ominus }\left( {{\mathrm{M}}^{3 + }/{\mathrm{M}}^{2 + }}\right) > {E}^{ \ominus }\left\lbrack {\mathrm{M}{\left( \mathrm{{OH}}\right) }_{3}/\mathrm{M}{\left( \mathrm{{OH}}\right) }_{2}}\right\rbrack$。标准电极电势反映的是体系的氧化还原能力，电极电势越大，体系越容易被还原。
+
+电极电势可以与溶度积常数通过Nernst方程和热力学关系联系起来。电势更大意味着体系的稳定性不同，比如对于${\mathrm{M}}^{3+}$和${\mathrm{M}{\left( \mathrm{{OH}}\right) }_{3}}$，结合氢氧化物的溶度积可以得出：
+
+更大的${E}^{ \ominus }$值通常对应于结合更紧密的氢氧化物，因为这个氢氧化物中的金属离子更倾向于还原为金属态。因此，${E}^{ \ominus }\left( {{\mathrm{M}}^{3 + }/{\mathrm{M}}^{2 + }}\right)$ 高于${E}^{ \ominus }\left\lbrack {\mathrm{M}{\left( \mathrm{{OH}}\right) }_{3}/\mathrm{M}{\left( \mathrm{{OH}}\right) }_{2}}\right\rbrack$意味着${\mathrm{M}^{3+}}$更加稳定，而${\mathrm{M}{\left( \mathrm{{OH}}\right) }_{3}}$会有较小的溶度积。
+
+这表明$\mathrm{M}{\left( \mathrm{{OH}}\right) }_{3}$是更难溶的氢氧化物，相对于$\mathrm{M}{\left( \mathrm{{OH}}\right) }_{2}$，所以其溶度积常数是更小的，即${K}_{\mathrm{{sp}}}^{ \ominus }\left\lbrack {\mathrm{M}{\left( \mathrm{{OH}}\right) }_{3}}\right\rbrack < {K}_{\mathrm{{sp}}}^{ \ominus }\left\lbrack {\mathrm{M}{\left( \mathrm{{OH}}\right) }_{2}}\right\rbrack$。",：B,N/A,N/A,N/A
+"某电池 $\left( -\right) \mathrm{A} \mid {\mathrm{A}}^{2 + }\left( {{0.1}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}}\right) \parallel {\mathrm{B}}^{2 + }\left( {{1.0} \times {10}^{-2}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}) \mid \mathrm{B}\left( +\right) }\right.$ 的电动势 $E$ 为 ${0.27}\mathrm{\;V}$ ,则该电池的标准电动势 ${E}^{ \ominus }$ 为
+
+(A) ${0.24}\mathrm{\;V}$ ; (B) ${0.27}\mathrm{\;V}$ ; (C) ${0.30}\mathrm{\;V}$ ; (D) ${0.33}\mathrm{\;V}$ 。",C,"：根据题意，我们需要计算电池的标准电动势 $E^\ominus$。已知电池反应的电动势 $E = 0.27 \mathrm{\;V}$。利用能斯特方程（Nernst equation）计算标准电动势：
+
+\[ E = E^\ominus - \frac{RT}{nF} \ln Q \]
+
+其中：
+- $R$ 为气体常数，$8.314 \mathrm{\;J \cdot K^{-1} \cdot mol^{-1}}$。
+- $T$ 为温度，$298 \mathrm{\;K}$ 。
+- $n$ 为反应中转移的电子数目，这里假设 $n = 2$ (A 和 B 均为二价)。
+- $F$ 为法拉第常数，$96485 \mathrm{\;C \cdot mol^{-1}}$。
+- $Q$ 为反应商，$Q = \frac{[\mathrm{B}^{2+}]}{[\mathrm{A}^{2+}]} = \frac{1.0 \times 10^{-2}}{0.1} = 0.1$。
+
+简化能斯特方程：
+
+\[ E = E^\ominus - \frac{0.0592}{2} \log_{10}(0.1) \]
+
+我们把 $0.0592$ V 作为常用的室温下的能斯特常数已经乘入 $T$ 和 $R$ 的系数。
+
+代入已知电动势 $E = 0.27 \mathrm{\;V}$，求解：
+
+\[ 0.27 = E^\ominus - \frac{0.0592}{2} \times (-1) \]
+
+\[ 0.27 = E^\ominus + 0.0296 \]
+
+\[ E^\ominus = 0.27 - 0.0296 = 0.2404 \approx 0.24 \mathrm{\;V} \]",：A,N/A,N/A,N/A
+"若将反应 $2{\mathrm{{MnO}}}_{4}^{ - } + {10}{\mathrm{{Fe}}}^{2 + } + {16}{\mathrm{H}}^{ + } = 2{\mathrm{{Mn}}}^{2 + } + {10}{\mathrm{{Fe}}}^{3 + } + 8{\mathrm{H}}_{2}\mathrm{O}$ 设计成原电池,则该电池的符号为
+
+(A) $\mathrm{{Pt}}\left| {{\mathrm{{MnO}}}_{4}^{ - },{\mathrm{{Mn}}}^{2 + },{\mathrm{H}}^{ + }\parallel {\mathrm{{Fe}}}^{2 + },{\mathrm{{Fe}}}^{3 + }}\right| \mathrm{{Pt}}$ ;
+
+(B) $\mathrm{{Pt}}\left| {{\mathrm{{Fe}}}^{2 + },{\mathrm{{Fe}}}^{3 + }}\right| {\mathrm{{MnO}}}_{4}^{ - },{\mathrm{{Mn}}}^{2 + },{\mathrm{H}}^{ + } \mid \mathrm{{Pt}}$ ;
+
+(C) $\mathrm{{Fe}}\left| {{\mathrm{{Fe}}}^{2 + },{\mathrm{{Fe}}}^{3 + }}\right| {\mathrm{{MnO}}}_{4}^{ - },{\mathrm{{Mn}}}^{2 + },{\mathrm{H}}^{ + } \mid \mathrm{{Mn}}$ ;
+
+(D) $\mathrm{{Mn}}\left| {{\mathrm{{MnO}}}_{4}^{ - },{\mathrm{{Mn}}}^{2 + },{\mathrm{H}}^{ + }\parallel {\mathrm{{Fe}}}^{2 + },{\mathrm{{Fe}}}^{3 + }}\right| \mathrm{{Fe}}$ 。",B,"：在原电池中，电子流动是通过外部电路从阳极流向阴极。在给出的反应中，${\mathrm{Fe}}^{2+}$被氧化为${\mathrm{Fe}}^{3+}$，意味着铁离子是阳极，负责失去电子。${\mathrm{MnO}}_{4}^{-}$被还原为${\mathrm{Mn}}^{2+}$，意味着这部分是阴极，负责获得电子。
+
+使用燃料电池符号书写法时，阳极写在左边，阴极写在右边，中间用双竖线表示盐桥或液接。对于阳极的${\mathrm{Fe}}^{2+}/{\mathrm{Fe}}^{3+}$电极和阴极的${\mathrm{MnO}}_{4}^{-}/{\mathrm{Mn}}^{2+}$电极，还需要加上铂电极（Pt），如果它们不能直接进行金属电极反应。
+
+(A) 和 (B) 中的符号均使用了铂电极，没有给定金属可以充当电极的反应物，所以这些选项是合理的。
+
+- (A) 中，左侧的氧化反应为${\mathrm{Fe}}^{2+}/{\mathrm{Fe}}^{3+}$，右侧的还原反应为${\mathrm{MnO}}_{4}^{-}/{\mathrm{Mn}}^{2+}$，方向正确。
+- (B) 中，方向错误，因为${\mathrm{Fe}}^{2+}/{\mathrm{Fe}}^{3+}$应在左侧。
+
+因此我们可以确定准确的原电池符号应该是(A)。",：A,N/A,N/A,N/A
+"电极电势与 $\mathrm{{pH}}$ 无关的电对是
+
+(A) ${\mathrm{H}}_{2}{\mathrm{O}}_{2}/{\mathrm{H}}_{2}\mathrm{O}$ ; (B) ${\mathrm{{IO}}}_{3}^{ - }/{\mathrm{I}}^{ - }$ ; (C) ${\mathrm{{MnO}}}_{2}/{\mathrm{{Mn}}}^{2 + }$ ; (D) ${\mathrm{{MnO}}}_{4}^{ - }/{\mathrm{{MnO}}}_{4}^{2 - }$ 。
+",D,"：电极电势的影响因素一般包括金属活性、离子浓度和体系的 $\mathrm{pH}$ 值。当涉及到 $\mathrm{H}^+$ 或 $\mathrm{OH}^-$ 参与的电对，电极电势通常会受到 $\mathrm{pH}$ 的影响。我们需要分析每一个选项，判断其中是否涉及到 $\mathrm{pH}$ 的变化。
+
+- (A) ${\mathrm{H}}_{2}{\mathrm{O}}_{2}/{\mathrm{H}}_{2}\mathrm{O}$：这对涉及到的半反应可能是 ${\mathrm{H}}_{2}{\mathrm{O}}_{2} + 2\mathrm{H}^+ + 2\mathrm{e}^- \rightarrow 2\mathrm{H}_2\mathrm{O}$，明显其中涉及 $\mathrm{H}^+$，所以电势与 $\mathrm{pH}$ 有关。
+  
+- (B) ${\mathrm{{IO}}}_{3}^{ - }/{\mathrm{I}}^{ - }$：这对涉及的可能反应是 ${\mathrm{IO}}_{3}^{-} + 6\mathrm{H}^+ + 6\mathrm{e}^- \rightarrow \mathrm{I}^- + 3\mathrm{H}_2\mathrm{O}$，同样涉及 $\mathrm{H}^+$，电势也与 $\mathrm{pH}$ 有关。
+  
+- (C) ${\mathrm{{MnO}}}_{2}/{\mathrm{{Mn}}}^{2 + }$：涉及的反应是与 $\mathrm{H}^+$ 有关的变化从而可能影响电势，因为常见的 ${\mathrm{MnO}}_{2}$ 在酸性溶液中会与 $\mathrm{H}^+$ 结合反应。
+
+- (D) ${\mathrm{{MnO}}}_{4}^{ - }/{\mathrm{{MnO}}}_{4}^{2 - }$：这对的变化不直接涉及 $\mathrm{H}^+$ 或 $\mathrm{OH}^-$，其中两种锰氧离子间的转变主要是氧化还原改变，而不涉及质子交换，因此它的电势不会直接受 $\mathrm{pH}$ 影响。
+
+基于上述分析和逻辑推理，选项 (D) 是电极电势与 $\mathrm{pH}$ 无关的化学电对。",：D,N/A,N/A,N/A

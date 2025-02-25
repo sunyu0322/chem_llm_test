@@ -1,0 +1,374 @@
+query,true_answer,reasoning,model_answer,knowledge_accuracy,reasoning_accuracy,final_answer_accuracy
+"由 ${\mathrm{C}}_{2}{\mathrm{H}}_{4}$ 和过量 ${\mathrm{H}}_{2}$ 组成的混合气体的总压为 ${6930}\mathrm{\;{Pa}}$ 。使混合气体通过铂催化剂进行下列反应:
+
+$$
+{\mathrm{C}}_{2}{\mathrm{H}}_{4}\left( \mathrm{\;g}\right) + {\mathrm{H}}_{2}\left( \mathrm{\;g}\right) = {\mathrm{C}}_{2}{\mathrm{H}}_{6}\left( \mathrm{\;g}\right)
+$$
+
+待完全反应后,在相同温度和体积下,压强降为 ${4530}\mathrm{\;{Pa}}$ 。求原混合气体中 ${\mathrm{C}}_{2}{\mathrm{H}}_{4}$ 的摩尔分数。
+","设原混合气体中 ${\mathrm{C}}_{2}{\mathrm{H}}_{4}$ 的物质的量为 ${n}_{1},{\mathrm{H}}_{2}$ 的物质的量为 ${n}_{2}$ 。
+
+反应 $\;{\mathrm{C}}_{2}{\mathrm{H}}_{4} + {\mathrm{H}}_{2} = {\mathrm{C}}_{2}{\mathrm{H}}_{6}$
+
+反应前 $\;{n}_{1}\;{n}_{2}\;0\;{n}_{\text{总 }} = {n}_{1} + {n}_{2}$
+
+反应后 $\;0\;{n}_{2} - {n}_{1}\;{n}_{1}\;{n}_{\text{总 }} = \left( {{n}_{2} - {n}_{1}}\right) + {n}_{1} = {n}_{2}$
+
+原混合气体中 ${\mathrm{C}}_{2}{\mathrm{H}}_{4}$ 的摩尔分数为
+
+$$
+x\left( {{\mathrm{C}}_{2}{\mathrm{H}}_{4}}\right) = \frac{{n}_{1}}{{n}_{1} + {n}_{2}}
+$$
+
+$$
+= 1 - \frac{{n}_{2}}{{n}_{1} + {n}_{2}} = 1 - \frac{{p}_{\text{终 }}}{{p}_{\text{始 }}}
+$$
+
+$$
+= 1 - \frac{{4530}\mathrm{\;{Pa}}}{{6930}\mathrm{\;{Pa}}} = {0.346}
+$$
+","：  
+1. 首先考虑反应方程：
+
+   \[
+   {\mathrm{C}}_{2}{\mathrm{H}}_{4}\left( \mathrm{\;g}\right) + {\mathrm{H}}_{2}\left( \mathrm{\;g}\right) = {\mathrm{C}}_{2}{\mathrm{H}}_{6}\left( \mathrm{\;g}\right)
+   \]
+
+   该反应中，1摩尔乙烯（${\mathrm{C}}_{2}{\mathrm{H}}_{4}$）和1摩尔氢气（${\mathrm{H}}_{2}$）生成1摩尔乙烷（${\mathrm{C}}_{2}{\mathrm{H}}_{6}$），因此气体摩尔数的变化 Δn = -1。
+
+2. 根据理想气体定律，压强与摩尔数成正比。在反应开始时，总压为 6930 Pa，反应完成后，总压为 4530 Pa。
+
+3. 若设反应前乙烯的物质的量为 \( n_{\mathrm{C_2H_4}} \)，氢气为 \( n_{\mathrm{H_2}} \)，则反应前的总物质的量 \( n_{\text{total initial}} = n_{\mathrm{C_2H_4}} + n_{\mathrm{H_2}} \)。
+
+4. 设反应中消耗 \( x \) 摩尔乙烯和 \( x \) 摩尔氢气，那么反应后总物质的量为 \( n_{\text{total final}} = n_{\mathrm{C_2H_4}} + n_{\mathrm{H_2}} - x \)。
+
+5. 根据压强和摩尔数的关系：
+
+   \[
+   \frac{P_{\text{final}}}{P_{\text{initial}}} = \frac{n_{\text{total final}}}{n_{\text{total initial}}}
+   \]
+
+   \[
+   \frac{4530}{6930} = \frac{n_{\mathrm{C_2H_4}} + n_{\mathrm{H_2}} - x}{n_{\mathrm{C_2H_4}} + n_{\mathrm{H_2}}}
+   \]
+
+   \[
+   \frac{453}{693} = \frac{n_{\mathrm{C_2H_4}} + n_{\mathrm{H_2}} - x}{n_{\mathrm{C_2H_4}} + n_{\mathrm{H_2}}}
+   \]
+
+6. 可以得到 \(\frac{453}{693} = \frac{2}{3}\)。因此，\( \frac{2}{3} = \frac{n_{\mathrm{C_2H_4}} + n_{\mathrm{H_2}} - x}{n_{\mathrm{C_2H_4}} + n_{\mathrm{H_2}}} \)。
+
+7. 化简得到 \( x = \frac{1}{3}(n_{\mathrm{C_2H_4}} + n_{\mathrm{H_2}}) \)。
+
+8. 乙烯全被消耗，因此 \( x = n_{\mathrm{C_2H_4}} \)。
+
+9. 代入 x 的表达式：\\
+   \( n_{\mathrm{C_2H_4}} = \frac{1}{3}(n_{\mathrm{C_2H_4}} + n_{\mathrm{H_2}}) \)\\
+   解得 \( 3n_{\mathrm{C_2H_4}} = n_{\mathrm{C_2H_4}} + n_{\mathrm{H_2}} \)\\
+   也就是 \( 2n_{\mathrm{C_2H_4}} = n_{\mathrm{H_2}} \)。
+
+10. 摩尔分数求法：
+    \[
+    \text{摩尔分数} = \frac{n_{\mathrm{C_2H_4}}}{n_{\mathrm{C_2H_4}} + n_{\mathrm{H_2}}} = \frac{n_{\mathrm{C_2H_4}}}{3n_{\mathrm{C_2H_4}}} = \frac{1}{3}
+    \]",：\(\frac{1}{3}\),N/A,N/A,N/A
+"某项实验要求缓慢地加入乙醇 $\left( {{\mathrm{C}}_{2}{\mathrm{H}}_{5}\mathrm{{OH}}}\right)$ ,现采用将空气通过液体乙醇带入乙醇气体的方法进行。在 ${293}\mathrm{\;K},{1.013} \times {10}^{5}\mathrm{\;{Pa}}$ 时,为引入 ${2.3}\mathrm{\;g}$ 乙醇,求需空气的体积。已知 ${293}\mathrm{\;K}$ 时乙醇的饱和蒸气压为 5866.2 Pa。","根据理想气体状态方程可知 ${2.3}\mathrm{\;g}$ 乙醇气体所占的体积为
+
+$$
+V = \frac{nRT}{p}
+$$
+
+$$
+= \frac{\left( {{2.3}\mathrm{\;g}/{46}\mathrm{\;g} \cdot {\mathrm{{mol}}}^{-1}}\right) \times {8.314}\mathrm{\;{Pa}} \cdot {\mathrm{m}}^{3} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1} \times {293}\mathrm{\;K}}{{5866.2}\mathrm{\;{Pa}}}
+$$
+
+$$
+= {2.076} \times {10}^{-2}{\mathrm{\;m}}^{3} = {20.76}{\mathrm{{dm}}}^{3}
+$$
+
+在 ${20.76}{\mathrm{{dm}}}^{3}$ 气体中,空气的分压为
+
+$$
+p\left( \text{空气}\right) = {1.013} \times {10}^{5}\mathrm{\;{Pa}} - {5866.2}\mathrm{\;{Pa}} = {9.54} \times {10}^{4}\mathrm{\;{Pa}}
+$$
+
+通入 ${1.013} \times {10}^{5}\mathrm{\;{Pa}}$ 的空气的体积为
+
+$$
+V\left( \text{ 空气 }\right) = \frac{{9.54} \times {10}^{4}\mathrm{\;{Pa}} \times {20.76}{\mathrm{{dm}}}^{3}}{{1.013} \times {10}^{5}\mathrm{\;{Pa}}} = {19.55}{\mathrm{{dm}}}^{3}
+$$
+
+或 $V$ (空气) $= {20.76}{\mathrm{{dm}}}^{3} \times \left( {1 - \frac{{5866.2}\mathrm{\;{Pa}}}{{1.013} \times {10}^{5}\mathrm{\;{Pa}}}}\right) = {19.56}{\mathrm{{dm}}}^{3}$
+","：
+为了完成这一题目，我们需要应用理想气体定律以及蒸气压的概念。可以根据乙醇的摩尔质量与理想气体的状态方程进行分析。
+
+1. 先计算 2.3 g 乙醇的物质的量。乙醇的摩尔质量为 46 g/mol。所以，我们有
+   \[
+   n = \frac{2.3 \text{ g}}{46 \text{ g/mol}} = 0.05 \text{ mol}
+   \]
+
+2. 理想气体方程为 \( PV = nRT \)，因为需要考虑混合气体的总压力，所以引入乙醇的气体时，空气已经包含有乙醇蒸气，压力为空气的压强减去乙醇的饱和蒸气压。所以需要用乙醇蒸气压和n来计算理想体积：
+   \[
+   P_{\text{液体乙醇}} = 5866.2 \text{ Pa}
+   \]
+
+3. 实际需要的气体压力 \( P \) 是总压力减去乙醇的分压：
+   \[
+   P_{\text{空气}} = 1.013 \times 10^5 \text{ Pa} - 5866.2 \text{ Pa} = 95433.8 \text{ Pa}
+   \]
+
+4. 利用理想气体方程计算体积： 
+   \[
+   V = \frac{nRT}{P} 
+   \]
+
+5. 将已知值带入， \( R = 8.314 \text{ J/(mol K)}\) 和 \( T = 293 \text{ K}\):
+   \[
+   V = \frac{0.05 \text{ mol} \times 8.314 \text{ J/(mol K)} \times 293 \text{ K}}{5866.2 \text{ Pa}}
+   \]
+
+6. 计算得到：
+   \[
+   V \approx 0.207 \text{ m}^3 = 207 \text{ L}
+   \]",：207.,N/A,N/A,N/A
+"在 ${273}\mathrm{\;K}$ 和 ${1.013} \times {10}^{5}\mathrm{\;{Pa}}$ 条件下,将 ${1.0}{\mathrm{{dm}}}^{3}$ 干燥的空气缓慢通过二甲醚 $\left( {{\mathrm{{CH}}}_{3}{\mathrm{{OCH}}}_{3}}\right)$ 液体。在此过程中,液体损失了 ${0.0335}\mathrm{\;g}$ 。求二甲醚在 ${273}\mathrm{\;K}$ 时的饱和蒸气压。","通入空气的物质的量为
+
+$$
+n\text{(空气)} = \frac{pV}{RT} = \frac{{1.013} \times {10}^{5}\mathrm{\;{Pa}} \times {1.0} \times {10}^{-3}{\mathrm{\;m}}^{3}}{{8.314}\mathrm{\;{Pa}} \cdot {\mathrm{m}}^{3} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1} \times {273}\mathrm{\;K}} = {0.0446}\mathrm{\;{mol}}
+$$
+
+被空气带走的二甲醚蒸气的物质的量为
+
+$$
+n\text{(二甲醚)} = \frac{{0.0335}\mathrm{\;g}}{{46}\mathrm{\;g} \cdot {\mathrm{{mol}}}^{-1}} = {7.28} \times {10}^{-4}\mathrm{\;{mol}}
+$$
+
+依题意,混合气体的总压等于外压 $\left( {{1.013} \times {10}^{5}\mathrm{\;{Pa}}}\right)$ ,二甲醚蒸气的分压为
+
+$$
+p\text{ (二甲醚) } = \frac{n\left( \text{ 二甲醚 }\right) }{n\left( \text{ 二甲醚 }\right) + n\left( \text{ 空气 }\right) } \cdot {p}_{\text{总 }}
+$$
+
+$$
+= \frac{{7.28} \times {10}^{-4}}{{7.28} \times {10}^{-4} + {0.0446}} \times {1.013} \times {10}^{5}\mathrm{\;{Pa}}
+$$
+
+$$
+= {1.63} \times {10}^{3}\mathrm{\;{Pa}}
+$$
+","：本题涉及计算物质的饱和蒸气压，在一定条件下通过液体损失量与气体通过的量的关系求得。
+
+首先，利用空气的体积和其气体常数来计算此条件下空气的摩尔数。假设空气可以当做理想气体处理，体积为 \({1.0 \,\mathrm{dm}^3=1.0\times10^{-3} \,\mathrm{m}^3}\)，温度 \(T = 273\,\mathrm{K}\)，压力为 \({1.013\times10^5\,\mathrm{Pa}}\)。理想气体状态方程为：
+
+\[
+PV = nRT
+\]
+
+公式中，\(R = 8.31 \,\mathrm{J\,mol^{-1}\,K^{-1}}\) 为气体常数。
+
+利用理想气体方程求得空气的摩尔数：
+\[
+n = \frac{PV}{RT} = \frac{1.013\times10^5 \times 1.0 \times 10^{-3}}{8.31 \times 273} = 0.0446 \,\mathrm{mol}
+\]
+
+然后知道空气通过是干燥的，所以在通过时的二甲醚是饱和的。液体损失表示通过空气的二甲醚的量总共蒸发为 0.0335g，先转换成摩尔数。二甲醚的摩尔质量约为 \(46.08 \,\mathrm{g/mol}\)（\(\mathrm{C: 12.01 + H: 3 \times 1.01 + O: 16.00 + H: 3 \times 1.01}\)）。
+
+损失二甲醚的摩尔数为：
+
+\[
+n_{\text{二甲醚}} = \frac{0.0335}{46.08} = 7.27 \times 10^{-4} \,\mathrm{mol}
+\]
+
+设二甲醚在 273 K 的饱和蒸气压为 \(p_{\text{二甲醚}}\)，空气的总压为 \(P = 1.013 \times 10^5\,\mathrm{Pa}\)。根据Dalton's Law（道尔顿分压定律）对于气体混合物中的总压，每种气体贡献的分压等于该种气体的摩尔分数乘以总压。
+
+蒸气压 \(p_{\text{二甲醚}}\) 对应于二甲醚相对于总空气量的分压，所以根据摩尔分数可得：
+
+\[
+\frac{p_{\text{二甲醚}}}{P-p_{\text{二甲醚}}} = \frac{n_{\text{二甲醚}}}{n_{\text{空气}}} \approx \frac{7.27 \times 10^{-4}}{0.0446}
+\]
+
+\[
+p_{\text{二甲醚}} = \frac{n_{\text{二甲醚}} \cdot P}{n_{\text{空气}} + n_{\text{二甲醚}}}
+\]
+
+由于相较于空气，二甲醚量较小，故可简化运算：
+
+\[
+p_{\text{二甲醚}} \approx \frac{7.27 \times 10^{-4} \times 1.013 \times 10^5}{0.0446} \approx \frac{73.66}{0.0446} \approx 1644 \, \mathrm{Pa}
+\]",：1644 \(\mathrm{Pa}\),N/A,N/A,N/A
+"${313}\mathrm{\;K}$ 时将 ${1000}{\mathrm{\;{cm}}}^{3}$ 饱和苯蒸气和空气的混合气体从压强为 ${9.97} \times {10}^{4}\mathrm{\;{Pa}}$ 压缩到 ${5.05} \times {10}^{5}\mathrm{\;{Pa}}$ ,问在此过程中有多少克苯凝结成了液体? 已知 ${313}\mathrm{\;K}$ 时苯的饱和蒸气压为 ${2.41} \times {10}^{4}\mathrm{\;{Pa}}$ 。
+","在压缩前后混合气体中苯的分压均等于苯的饱和蒸气压, 则压缩前空气的分压为
+
+$$
+{p}_{1} = {9.97} \times {10}^{4}\mathrm{\;{Pa}} - {2.41} \times {10}^{4}\mathrm{\;{Pa}} = {7.56} \times {10}^{4}\mathrm{\;{Pa}}
+$$
+
+压缩后空气的分压为
+
+$$
+{p}_{2} = {5.05} \times {10}^{5}\mathrm{\;{Pa}} - {2.41} \times {10}^{4}\mathrm{\;{Pa}} = {4.81} \times {10}^{5}\mathrm{\;{Pa}}
+$$
+
+压缩前后空气的物质的量、温度均未发生变化,由 ${p}_{1}{V}_{1} = {p}_{2}{V}_{2}$ 得压缩后混合气体的体
+
+积为
+
+$$
+{V}_{2} = \frac{{p}_{1}{V}_{1}}{{p}_{2}} = \frac{{7.56} \times {10}^{4}\mathrm{\;{Pa}} \times {1000}{\mathrm{\;{cm}}}^{3}}{{4.81} \times {10}^{5}\mathrm{\;{Pa}}} = {157.2}{\mathrm{\;{cm}}}^{3}
+$$
+
+凝结成液体的苯的物质的量等于压缩前后苯蒸气的物质的量之差:
+
+$$
+{n}_{\text{其 }} = {n}_{1} - {n}_{2} = \frac{p{V}_{1}}{RT} - \frac{p{V}_{2}}{RT} = \frac{p}{RT}\left( {{V}_{1} - {V}_{2}}\right)
+$$
+
+$$
+= \frac{{2.41} \times {10}^{4}\mathrm{\;{Pa}}}{{8.314}\mathrm{\;{Pa}} \cdot {\mathrm{m}}^{3} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1} \times {313}\mathrm{\;K}} \times \left( {{1000} - {157.2}}\right) \times {10}^{-6}{\mathrm{\;m}}^{3}
+$$
+
+$$
+= {7.81} \times {10}^{-3}\mathrm{\;{mol}}
+$$
+
+凝结成液体的苯的质量为
+
+$$
+{7.81} \times {10}^{-3}\mathrm{\;{mol}} \times {78}\mathrm{\;g} \cdot {\mathrm{{mol}}}^{-1} = {0.609}\mathrm{\;g}
+$$
+","：首先，题目中给出的初始条件为 313 K 时 1000 cm³ 的饱和苯蒸气和空气混合气体，初始压强为 \(9.97 \times 10^{4} \, \text{Pa}\)。苯的饱和蒸气压为 \(2.41 \times 10^{4} \, \text{Pa}\)，这意味着在这个温度下，苯蒸气的压强不能超过其饱和蒸气压，否则会有部分苯凝结成液体。
+
+当我们将混合气体压缩到 \(5.05 \times 10^{5} \, \text{Pa}\) 时，气体的总体积减少，压强增加，若混合气体中苯的分压超过其饱和蒸气压，苯就会开始凝结。
+
+根据道尔顿分压定律，初始时苯的分压为其饱和蒸气压 \(2.41 \times 10^{4} \, \text{Pa}\)，空气的分压为 \(9.97 \times 10^{4} - 2.41 \times 10^{4} = 7.56 \times 10^{4} \, \text{Pa}\)。
+
+在压缩过程中，根据道尔顿定律，空气的压强变化可认为是等温变化，比例地增大。设压缩后空气的压强为 \(P_{\text{空气, 压缩}}\)，则：
+
+\[
+P_{\text{空气, 压缩}} = \frac{7.56 \times 10^{4}}{9.97 \times 10^{4}} \times 5.05 \times 10^{5}
+\]
+
+计算得到 \(P_{\text{空气, 压缩}} = 3.83 \times 10^{5} \, \text{Pa}\)。
+
+压缩后的总压为 \(5.05 \times 10^{5} \, \text{Pa}\)，因此压缩后苯的分压为：
+
+\[
+P_{\text{苯, 压缩}} = 5.05 \times 10^{5} - 3.83 \times 10^{5} = 1.22 \times 10^{5} \, \text{Pa}
+\]
+
+这明显大于苯的饱和蒸气压 \(2.41 \times 10^{4} \, \text{Pa}\)，因此会有苯凝结。
+
+计算凝结的苯的量。由于苯总是达到饱和蒸气压，因此在压缩后仍在气态的苯的分压为 \(2.41 \times 10^{4} \, \text{Pa}\)，则凝结的部分占用了最初的一部分苯的分压：
+
+\[
+1.22 \times 10^{5} - 2.41 \times 10^{4} = 9.8 \times 10^{4} \, \text{Pa}
+\]
+
+计算此变化所对应的摩尔数：
+
+\[
+n_{\text{凝结}} = \frac{9.8 \times 10^{4} \times 1.0 \times 10^{-3}}{R \times 313}
+\]
+
+用 \(R = 8.314\) J/(mol·K) 进行计算：
+
+\[
+n_{\text{凝结}} = \frac{9.8 \times 10^{4} \times 1.0 \times 10^{-3}}{8.314 \times 313} \approx 0.0378 \, \text{mol}
+\]
+
+苯的摩尔质量约为 78.11 g/mol，因此凝结的苯的质量为：
+
+\[
+m_{\text{凝结}} = 0.0378 \times 78.11 \approx 2.95 \, \text{g}
+\]",：2.95 g,N/A,N/A,N/A
+"${313}\mathrm{\;K}$ 时 ${\mathrm{{CHCl}}}_{3}$ 的饱和蒸气压为 ${49.3}\mathrm{{kPa}}$ ,于此温度和 ${98.6}\mathrm{{kPa}}$ 的压强下,将 ${4.00}{\mathrm{{dm}}}^{3}$ 空气缓慢通过 ${\mathrm{{CHCl}}}_{3}$ ,致使每个气泡都为 ${\mathrm{{CHCl}}}_{3}$ 所饱和。求:
+
+（1）通过 ${\mathrm{{CHCl}}}_{3}$ 后,空气和 ${\mathrm{{CHCl}}}_{3}$ 混合气体的体积;
+
+（2）被空气带走的 ${\mathrm{{CHCl}}}_{3}$ 的质量。","(1) 将题设的过程理解为一个 ${p}_{1} = {98.6}\mathrm{{kPa}},{V}_{1} = {4.00}{\mathrm{{dm}}}^{3}$ 的空气气泡缓缓通过 ${\mathrm{{CHCl}}}_{3}$ 液体,气泡在被 ${\mathrm{{CHCl}}}_{3}$ 饱和的过程中体系的总压没变,气泡的体积增大。通过 ${\mathrm{{CHCl}}}_{3}$ 后的气泡是个混合气体体系, ${V}_{\text{总 }}$ 是其体积, ${p}_{\text{总 }} = {98.6}\mathrm{{kPa}}$ 。 ${\mathrm{{CHCl}}}_{3}$ 的饱和蒸气压 ${49.3}\mathrm{{kPa}}$ 是混合气体中该组分的分压 ${p}_{2}$ ,设另一组分空气的分压为 $p$ (空气),则
+
+$$
+p\text{ (空气) } = {p}_{\text{总 }} - {p}_{2}
+$$
+
+$$
+= {98.6}\mathrm{{kPa}} - {49.3}\mathrm{{kPa}}
+$$
+
+$$
+= {49.3}\mathrm{{kPa}}
+$$
+
+对组分气体空气,使用 Boyle 定律,因为 $T, n$ 不变, $p$ (空气) ${V}_{\text{总 }} = {p}_{1}{V}_{1}$ ,故
+
+$$
+{V}_{\text{总 }} = \frac{{p}_{1}{V}_{1}}{p\left( \text{ 空气 }\right) }
+$$
+
+$$
+{V}_{\text{总 }} = \frac{{98.6}\mathrm{{kPa}} \times {4.0}{\mathrm{{dm}}}^{3}}{{49.3}\mathrm{{kPa}}} = {8.0}{\mathrm{{dm}}}^{3}
+$$
+
+（2）对组分气体 ${\mathrm{{CHCl}}}_{3}$ 使用理想气体状态方程 ${p}_{2}{V}_{\text{总 }} = {nRT}$ ,故混合气体中 ${\mathrm{{CHCl}}}_{3}$ 的物质的量为
+
+$$
+n = \frac{{p}_{2}{V}_{\text{总 }}}{RT} = \frac{{49.3} \times {10}^{3}\mathrm{\;{Pa}} \times {8.0} \times {10}^{-3}{\mathrm{\;m}}^{3}}{{8.314}\mathrm{\;{Pa}} \cdot {\mathrm{m}}^{3} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1} \times {313}\mathrm{\;K}} = {0.152}\mathrm{\;{mol}}
+$$
+
+因为 ${\mathrm{{CHCl}}}_{3}$ 的摩尔质量 $M = {119.5}\mathrm{\;g} \cdot {\mathrm{{mol}}}^{-1}$ ,故带走的 ${\mathrm{{CHCl}}}_{3}$ 的质量为
+
+$$
+m = {Mn} = {119.5}\mathrm{\;g} \cdot {\mathrm{{mol}}}^{-1} \times {0.152}\mathrm{\;{mol}} = {18.2}\mathrm{\;g}
+$$
+","：
+
+(1) 要求通过 \({\mathrm{CHCl}}_3\) 后空气和 \({\mathrm{CHCl}}_3\) 混合气体的体积。我们需要知道在给定条件下（313 K，98.6 kPa）的混合气体中空气和\({\mathrm{CHCl}}_3\)的分压。
+
+首先，根据道尔顿分压定律，混合气体的总压是各气体分压之和：
+\[ P_{\text{总}} = P_{\text{空气}} + P_{\text{{CHCl}}_3} \]
+
+由于\({\mathrm{CHCl}}_3\)在313 K下的饱和蒸气压是49.3 kPa，因此在98.6 kPa总压下，\({\mathrm{CHCl}}_3\)会达到或小于其饱和蒸气压。假设达到饱和，则
+\[ P_{\text{{CHCl}}_3} = 49.3 \text{kPa} \]
+\[ P_{\text{空气}} = P_{\text{总}} - P_{\text{{CHCl}}_3} = 98.6 \text{kPa} - 49.3 \text{kPa} = 49.3 \text{kPa} \]
+
+使用理想气体定律 \(PV = nRT\)计算：
+在初始条件（313 K，98.6 kPa），原始空气体积 \(V_{\text{空气}} = 4.00 \text{dm}^3\)。
+
+为了简化计算，假设在新条件下（即，313 K和49.3 kPa空气分压）空气体积变化为\(V'_{\text{空气}}\)。保持温度不变的情况下，应用理想气体定律的比例形式： 
+\[ \frac{V_{\text{空气}}}{V'_{\text{空气}}} = \frac{P_{\text{空气初}}}{P_{\text{空气}}} = \frac{98.6}{49.3} = 2 \]
+\[
+V'_{\text{空气}} = 4.00 \text{dm}^3 \times 2 = 8.00 \text{dm}^3
+\]
+
+混合体积即为空气的膨胀体积：
+\[
+V_{\text{混合}} = V'_{\text{空气}} = 8.00 \text{dm}^3
+\]
+
+(2) 求被空气带走的\({\mathrm{CHCl}}_3\)的质量：
+首先确定混合气体中的\({\mathrm{CHCl}}_3\)体积份额。 
+
+根据饱和蒸气压条件，\({\mathrm{CHCl}}_3\)易于体积分数为：
+\[
+\text{体积分数} = \frac{P_{\text{{CHCl}}_3}}{P_{\text{总}}} = \frac{49.3}{98.6} = 0.5
+\]
+
+因此，\({\mathrm{CHCl}}_3\)体积为：
+\[
+V_{\text{{CHCl}}_3} = 8.00 \text{dm}^3 \times 0.5 = 4.00 \text{dm}^3
+\]
+
+对于求质量，可以使用理想气体定律计算\({\mathrm{CHCl}}_3\)的摩尔数，再乘以摩尔质量。处于313 K和49.3 kPa下：
+\[
+n_{\text{{CHCl}}_3} = \frac{P_{\text{{CHCl}}_3}V_{\text{{CHCl}}_3}}{RT} = \frac{49.3 \times 4.00}{8.314 \times 313} (\text{单位转换成适当的体积、压强和R值单位})
+\]
+
+\[
+n_{\text{{CHCl}}_3} = \frac{49.3 \times 10^3 \times 4.00 \times 10^{-3}}{8.314 \times 313} = 0.0756 \text{mol}
+\]
+
+再乘以\({\mathrm{CHCl}}_3\)的摩尔质量(119.38 \(g/mol\))：
+\[
+m_{\text{{CHCl}}_3} = 0.0756 \times 119.38 = 9.03 \text{g}
+\]","：
+(1) 8.00 \(\mathrm{dm^3}\)
+(2) 9.03 \(\mathrm{g}\)",N/A,N/A,N/A

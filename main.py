@@ -1,14 +1,15 @@
 import os
 from scripts.LLM import generate_answer_from_gpt_4o
 from scripts.evaluate_response import evaluate_answer_accuracy
+from scripts.evaluate_response import evaluate_none
 from scripts.load_csv_data import load_csv_data
 from scripts.file_operations import write_csv
 from scripts.extract_reasoning_and_answer import extract_reasoning_and_answer  # 引入新的处理函数
 
-def generate_and_evaluate(input_csv_path: str, output_csv_path: str):
+def generate_and_evaluate(input_csv_path: str, output_csv_path: str, processed_files: set, processed_file_path: str):
     """
     从CSV文件中获取问题，生成模型回答，评估知识准确性、推理准确性和答案的正确性，最后将结果写入输出CSV。
-    每处理5条记录保存一次。
+    每处理5条记录保存一次。并在处理完每个文件后及时更新已处理文件列表。
     """
     results = []
     try:
@@ -44,7 +45,7 @@ def generate_and_evaluate(input_csv_path: str, output_csv_path: str):
 
         try:
             # 使用大模型进行知识准确性、推理准确性和最终结果的评估
-            eval_result = evaluate_answer_accuracy(reasoning_answer["reasoning"], reasoning_answer["answer"], true_answer)
+            eval_result = evaluate_none(reasoning_answer["reasoning"], reasoning_answer["answer"], true_answer)
         except Exception as e:
             print(f"评估模型回答时发生错误: {e}")
             continue  # 发生错误时跳过当前记录，继续下一个
@@ -80,8 +81,13 @@ def generate_and_evaluate(input_csv_path: str, output_csv_path: str):
             print(f"结果已保存到: {output_csv_path}")
         except Exception as e:
             print(f"写入CSV文件时发生错误: {e}")
+    
+    # 在每个文件处理完后更新已处理文件列表
+    processed_files.add(os.path.basename(input_csv_path))
+    save_processed_files(processed_file_path, processed_files)
 
-def process_all_files_in_directory(input_dir: str, output_dir: str, processed_files: set):
+
+def process_all_files_in_directory(input_dir: str, output_dir: str, processed_files: set, processed_file_path: str):
     """
     遍历输入文件夹中的所有CSV文件，跳过已经处理过的文件，并为每个文件调用 `generate_and_evaluate` 函数。
     """
@@ -101,16 +107,16 @@ def process_all_files_in_directory(input_dir: str, output_dir: str, processed_fi
         
         # 调用生成和评估的处理函数
         print(f"正在处理文件: {input_csv_path}")
-        generate_and_evaluate(input_csv_path, output_csv_path)
+        generate_and_evaluate(input_csv_path, output_csv_path, processed_files, processed_file_path)
         print(f"已处理并保存输出到: {output_csv_path}")
-        
-        # 处理完后记录已处理文件
-        processed_files.add(input_file)
+
 
 def load_processed_files(file_path):
     try:
+        # 读取已处理文件，加载为集合
         with open(file_path, 'r', encoding='utf-8') as f:
             processed_files = set(f.read().splitlines())
+            print(f"已加载已处理文件: {processed_files}")  # 打印已加载的文件列表
     except Exception as e:
         print(f"加载已处理文件时发生错误: {e}")
         processed_files = set()
@@ -119,11 +125,16 @@ def load_processed_files(file_path):
 
 def save_processed_files(processed_file_path: str, processed_files: set):
     """
-    将处理过的文件名保存到文件中
+    将处理过的文件名保存到文件中（追加写入模式）。
     """
-    with open(processed_file_path, 'w') as f:
-        for file in processed_files:
-            f.write(file + "\n")
+    try:
+        with open(processed_file_path, 'a', encoding='utf-8') as f:  # 使用追加模式
+            for file in processed_files:
+                f.write(file + "\n")
+        print(f"已将处理过的文件列表追加写入到: {processed_file_path}")
+    except Exception as e:
+        print(f"保存已处理文件时发生错误: {e}")
+
 
 # 调用示例，设置文件路径
 if __name__ == "__main__":
@@ -139,7 +150,4 @@ if __name__ == "__main__":
     processed_files = load_processed_files(processed_file_path)
 
     # 处理所有CSV文件
-    process_all_files_in_directory(input_dir, output_dir, processed_files)
-
-    # 保存处理过的文件列表
-    save_processed_files(processed_file_path, processed_files)
+    process_all_files_in_directory(input_dir, output_dir, processed_files, processed_file_path)

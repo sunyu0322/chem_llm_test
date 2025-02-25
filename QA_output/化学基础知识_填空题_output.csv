@@ -1,0 +1,36 @@
+query,true_answer,reasoning,model_answer,knowledge_accuracy,reasoning_accuracy,final_answer_accuracy
+"常压下将 ${2.0}\mathrm{\;g}$ 尿素 $\left\lbrack {\mathrm{{CO}}{\left( {\mathrm{{NH}}}_{2}\right) }_{2}}\right\rbrack$ 溶入 ${75}\mathrm{\;g}$ 水中,则该溶液的凝固点为 ___ $\mathrm{K}$ (已知水的 ${K}_{\mathrm{f}} = {1.86}\mathrm{\;K} \cdot \mathrm{{kg}} \cdot {\mathrm{{mol}}}^{-1}$ )。",272.17,"：要计算溶液的凝固点，需要使用凝固点降低公式：
+\[
+\Delta T_f = i \cdot K_f \cdot m
+\]
+其中：
+- \( \Delta T_f \) 是凝固点降低的温度。
+- \( i \) 是溶质的范特霍夫因子，对于尿素（不电离物质），\( i = 1 \)。
+- \( K_f \) 是溶剂（水）的凝固点下降常数，题目中给定为 \( 1.86 \ \mathrm{K \cdot kg \cdot mol^{-1}} \)。
+- \( m \) 是溶液的质量摩尔浓度（molality），定义为每千克溶剂中溶质的摩尔数。
+
+首先计算尿素的摩尔质量：
+\[
+\text{尿素} (\mathrm{CO(NH_2)_2}) = 12.01 + 16.00 + 2 \times (14.01 + 2 \times 1.01)
+= 60.06 \ \mathrm{g/mol}
+\]
+
+计算尿素的摩尔数：
+\[
+\text{摩尔数} = \frac{2.0 \ \mathrm{g}}{60.06 \ \mathrm{g/mol}} = 0.0333 \ \mathrm{mol}
+\]
+
+计算质量摩尔浓度 \(m\)：
+\[
+m = \frac{0.0333 \ \mathrm{mol}}{0.075 \ \mathrm{kg}} = 0.444 \ \mathrm{m}
+\]
+
+现在可以代入凝固点降低公式：
+\[
+\Delta T_f = 1 \times 1.86 \ \mathrm{K \cdot kg \cdot mol^{-1}} \times 0.444 \ \mathrm{mol/kg} = 0.826 \ \mathrm{K}
+\]
+
+由于纯水的凝固点是 \(273.15 \ \mathrm{K}\)，所以溶液的凝固点为：
+\[
+273.15 \ \mathrm{K} - 0.826 \ \mathrm{K} = 272.324 \ \mathrm{K}
+\]",：272.324,N/A,N/A,N/A

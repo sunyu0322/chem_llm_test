@@ -1,0 +1,93 @@
+query,true_answer,reasoning,model_answer,knowledge_accuracy,reasoning_accuracy,final_answer_accuracy
+"反应 ${\mathrm{I}}_{2}\left( \mathrm{\;g}\right) \rightleftharpoons 2\mathrm{I}\left( \mathrm{g}\right)$ 达平衡时:
+
+（1）升高温度, 平衡常数
+
+（2）压缩气体时, ${\mathrm{I}}_{2}\left( \mathrm{\;g}\right)$ 的解离度 ; 原因是
+
+（3）恒容时充入 ${\mathrm{N}}_{2}$ 气体, ${\mathrm{I}}_{2}\left( \mathrm{\;g}\right)$ 的解离度 ; 原因是
+
+___。
+
+（4）恒压时充入 ${\mathrm{N}}_{2}$ 气体, ${\mathrm{I}}_{2}\left( \mathrm{\;g}\right)$ 的解离度___; 原因是
+
+___。","(1) 增大, ${\mathrm{I}}_{2}$ 解离是吸热反应 $\left( {\Delta {}_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus } > 0}\right)$ ;
+
+（2）减小, 总体积减小, 压强增大, 平衡向气体粒子数减少的方向移动;
+
+（3）不变, ${\mathrm{I}}_{2}\left( \mathrm{\;g}\right)$ 和 $\mathrm{I}\left( \mathrm{g}\right)$ 的分压都不变;
+
+（4）增大,体积变大时则 ${\mathrm{I}}_{2}\left( \mathrm{\;g}\right)$ 和 $\mathrm{I}\left( \mathrm{g}\right)$ 的分压同时减小,平衡向粒子数增多的方向移动。","：
+(1) 对于反应 \( \mathrm{I}_{2}(g) \rightleftharpoons 2\mathrm{I}(g) \)，该反应是吸热反应（因为键断裂需要吸收能量）。根据勒夏特列原理，升高温度会使平衡向吸热方向移动，因此增大反应的平衡常数 \( K \)。
+
+(2) 压缩气体等效于增加整个系统的压力。该反应的摩尔气体数从1变成2，即增加气体总压有利于平衡向少气体摩尔数方向移动，所以 \(\mathrm{I}_{2}(g)\) 的解离度减小。
+
+(3) 在恒容条件下，充入惰性气体（如 \(\mathrm{N}_{2}\)）并不会改变气体分子的总数，因此不会影响平衡，\(\mathrm{I}_{2}(g)\) 的解离度不变。
+
+(4) 在恒压条件下，充入惰性气体意味着总容积会增加，而根据反应前后的气体体积变化，反应会向着气体分子数增多的方向移动。因此，恒压充入 \(\mathrm{N}_{2}\) 后，\(\mathrm{I}_{2}(g)\) 的解离度增大。","：
+(1) 增大
+(2) 减小 原因是 容积减小，平衡向减少气体分子数方向移动。
+(3) 不变 原因是 恒容充惰性气体不影响平衡体系。
+(4) 增大 原因是 恒压下充入惰性气体增加体系体积，平衡向增多气体分子方向移动。",N/A,N/A,N/A
+"合成氨反应 ${\mathrm{N}}_{2}\left( \mathrm{\;g}\right) + 3{\mathrm{H}}_{2}\left( \mathrm{\;g}\right) = 2{\mathrm{{NH}}}_{3}\left( \mathrm{\;g}\right)$ 在 ${673}\mathrm{\;K}$ 时 ${K}^{ \ominus } = {5.7} \times {10}^{-4}$ ; 在 ${473}\mathrm{\;K}$ 时 ${K}^{ \ominus } = {0.61}$ ,则在 ${873}\mathrm{\;K}$ 时 ${K}^{ \ominus } =$",${1.3} \times {10}^{-5}$,"：根据题目给出的平衡常数随温度变化的信息，我们可以推测反应是放热的。因为随着温度的升高，平衡常数的数值减小，这通常意味着放热反应，因为升高温度会使放热反应的平衡常数变小。
+
+为了计算不同温度下的平衡常数，可以使用范特霍夫方程：
+\[
+\ln \left( \frac{K_2}{K_1} \right) = - \frac{\Delta H^{\ominus}}{R} \left( \frac{1}{T_2} - \frac{1}{T_1} \right)
+\]
+其中，\( \Delta H^{\ominus} \) 是标准反应焓变，\( R \) 是气体常数（8.314 J/(mol·K)），\( T_1 \) 和 \( T_2 \) 是不同温度下的绝对温度（以开尔文计），\( K_1 \) 和 \( K_2 \) 是对应温度下的平衡常数。
+
+我们有三个温度和对应的平衡常数：
+- \( T_1 = 473 \) K，\( K_1 = 0.61 \)
+- \( T_2 = 673 \) K，\( K_2 = 5.7 \times 10^{-4} \)
+
+从这两个温度的平衡常数来计算反应的 \( \Delta H^{\ominus} \)：
+
+\[
+\ln \left( \frac{5.7 \times 10^{-4}}{0.61} \right) = -\frac{\Delta H^{\ominus}}{8.314} \left( \frac{1}{673} - \frac{1}{473} \right)
+\]
+
+首先，计算：
+\[
+\ln \left( \frac{5.7 \times 10^{-4}}{0.61} \right) = \ln (9.344 \times 10^{-4}) = -6.971
+\]
+
+然后：
+\[
+\frac{1}{673} - \frac{1}{473} = -0.0004785
+\]
+
+接下来，解方程求 \( \Delta H^{\ominus} \)：
+\[
+-6.971 = -\frac{\Delta H^{\ominus}}{8.314} \times (-0.0004785)
+\]
+\[
+6.971 \times 8.314 \times 0.0004785 = \Delta H^{\ominus}
+\]
+\[
+\Delta H^{\ominus} \approx -95,055 \, \text{J/mol} = -95.055 \, \text{kJ/mol}
+\]
+
+现在我们知道 \( \Delta H^{\ominus} \)，可以用同样的范特霍夫方程估算 \( K \) 在 873 K 时的数值：
+
+\[
+\ln \left( \frac{K_{873}}{5.7 \times 10^{-4}} \right) = -\frac{-95,055}{8.314} \left( \frac{1}{873} - \frac{1}{673} \right)
+\]
+
+计算：
+\[
+\frac{1}{873} - \frac{1}{673} = -0.000272
+\]
+
+\[
+x = \frac{95,055}{8.314} \times 0.000272 = 3.105
+\]
+
+因此：
+\[
+\ln K_{873} = \ln (5.7 \times 10^{-4}) + 3.105 = -7.467 + 3.105 = -4.362
+\]
+
+\[
+K_{873} = e^{-4.362} \approx 0.013
+\]",：0.013,0.8,0.6,0.2

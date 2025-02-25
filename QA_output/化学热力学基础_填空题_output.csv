@@ -1,0 +1,16 @@
+query,true_answer,reasoning,model_answer,knowledge_accuracy,reasoning_accuracy,final_answer_accuracy
+"将下列物质按摩尔熵值由小到大排列, 其顺序为___
+
+$\mathrm{{LiCl}}\left( \mathrm{s}\right) ,\mathrm{{Li}}\left( \mathrm{s}\right) ,{\mathrm{{Cl}}}_{2}\left( \mathrm{\;g}\right) ,{\mathrm{I}}_{2}\left( \mathrm{\;g}\right) ,\mathrm{{Ne}}\left( \mathrm{g}\right)$ 。","$\mathrm{{Li}}\left( \mathrm{s}\right) ,\mathrm{{LiCl}}\left( \mathrm{s}\right) ,\mathrm{{Ne}}\left( \mathrm{g}\right) ,{\mathrm{{Cl}}}_{2}\left( \mathrm{\;g}\right) ,{\mathrm{I}}_{2}\left( \mathrm{\;g}\right)$","：摩尔熵值是衡量物质微观状态数的一个指标，通常情况下，气体的熵值大于液体，液体的熵值大于固体。对于同一状态的物质，分子量越大，熵值通常越大。根据题目中给出的物质：
+
+1. $\mathrm{LiCl(s)}$ 和 $\mathrm{Li(s)}$ 都是固体，通常固体的熵值较小。
+2. $\mathrm{Cl_2(g)}$、$\mathrm{I_2(g)}$ 和 $\mathrm{Ne(g)}$ 都是气体，气体的熵值较大。
+3. 在固体中，$\mathrm{LiCl(s)}$ 是离子化合物，通常熵值比金属单质（如 $\mathrm{Li(s)}$）要小。
+4. 在气体中，单原子气体（如 $\mathrm{Ne(g)}$）的熵值通常比双原子分子（如 $\mathrm{Cl_2(g)}$ 和 $\mathrm{I_2(g)}$）要小。
+5. 在双原子分子中，分子量越大，熵值越大，因此 $\mathrm{I_2(g)}$ 的熵值大于 $\mathrm{Cl_2(g)}$。
+
+综上所述，摩尔熵值由小到大的顺序为：$\mathrm{LiCl(s)} < \mathrm{Li(s)} < \mathrm{Ne(g)} < \mathrm{Cl_2(g)} < \mathrm{I_2(g)}$。","：$\mathrm{LiCl(s)}, \mathrm{Li(s)}, \mathrm{Ne(g)}, \mathrm{Cl_2(g)}, \mathrm{I_2(g)}$。",N/A,N/A,N/A
+"将少量 $\mathrm{{NaOH}}$ 固体溶于水,溶液变热,则 $\mathrm{{NaOH}}$ 溶于水过程的 ${\Delta H}\underline{\;}0,{\Delta S}\underline{\;}0$ , ${\Delta G}$ ___ 0。
+","< , > , <",：当少量 $\mathrm{NaOH}$ 固体溶于水时，溶液变热，说明这个过程是放热的。对于放热过程，焓变 $\Delta H$ 是负的，因为系统向周围放热而失去能量。溶解过程通常导致系统熵增，因为固体变成了液体中分散的离子，杂乱度增加，因此熵变 $\Delta S$ 为正。根据吉布斯自由能公式 $\Delta G = \Delta H - T\Delta S$，我们可以判断吉布斯自由能的变化。在放热和熵增的情况下，无论温度如何，都有利于使$\Delta G$为负，即该过程自发进行。因此，$\Delta G < 0$。,"：<,>,<",N/A,N/A,N/A
+"若 $3\mathrm{\;{mol}}$ 理想气体向真空膨胀,该过程的 $Q, W,{\Delta U},{\Delta H},{\Delta S},{\Delta G}$ 中不为零的是","${\Delta S},{\Delta G}$ ","：  
+在理想气体向真空膨胀的过程中，由于是真空膨胀，外界对气体没有做功，因此$W = 0$。同时，由于没有热量交换，$Q = 0$。根据第一定律，$\Delta U = Q + W = 0 + 0 = 0$。对于理想气体，焓变$\Delta H$与内能变$\Delta U$在等温过程中相同，因此$\Delta H = 0$。吉布斯自由能变$\Delta G$在自发过程（如自由膨胀）中为负，但在真空膨胀中，由于没有外界压力，$\Delta G = 0$。然而，熵变$\Delta S$在自由膨胀过程中是正的，因为系统的无序度增加。因此，$\Delta S \neq 0$。",：$\Delta S$,N/A,N/A,N/A

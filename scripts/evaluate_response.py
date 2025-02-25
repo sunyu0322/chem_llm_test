@@ -82,3 +82,17 @@ def evaluate_answer_accuracy(reasoning: str, model_answer: str, true_answer: str
     except Exception as e:
         print(f"评估过程中发生错误: {e}")
         return {"error": f"评估失败: {str(e)}"}
+
+def evaluate_none(reasoning: str, model_answer: str, true_answer: str) -> dict:
+    """
+    不通过任何大模型评估，仅生成NA占位结果。
+    返回格式与真实评估函数完全一致的字典，并在控制台输出NA结果。
+    """
+    # 直接构造NA结果
+    scores = {
+        "knowledge_accuracy": "N/A",
+        "reasoning_accuracy": "N/A",
+        "final_answer_accuracy": "N/A"
+    }
+    
+    return scores

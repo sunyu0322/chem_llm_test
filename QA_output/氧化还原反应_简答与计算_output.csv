@@ -1,0 +1,1402 @@
+query,true_answer,reasoning,model_answer,knowledge_accuracy,reasoning_accuracy,final_answer_accuracy
+用离子电子法配平下列反应方程式 (酸性介质)。${\mathrm{{MnO}}}_{4}^{ - } + {\mathrm{{Cl}}}^{ - } \rightarrow {\mathrm{{Mn}}}^{2 + } + {\mathrm{{Cl}}}_{2}$,(1) $2{\mathrm{{MnO}}}_{4}^{ - } + {10}{\mathrm{{Cl}}}^{ - } + {16}{\mathrm{H}}^{ + } = 2{\mathrm{{Mn}}}^{2 + } + 5{\mathrm{{Cl}}}_{2} + 8{\mathrm{H}}_{2}\mathrm{O}$,"：
+
+1. **分半反应法**：在酸性介质中使用离子电子法配平反应，首先需要将反应分成氧化和还原两个半反应。
+
+2. **确定氧化还原**：
+   - Mn从MnO₄⁻中被还原为Mn²⁺，属于还原半反应。
+   - Cl⁻被氧化为Cl₂，属于氧化半反应。
+
+3. **拆分半反应**：
+   - 还原半反应：MnO₄⁻ → Mn²⁺。
+   - 氧化半反应：Cl⁻ → Cl₂。
+
+4. **配平半反应**：
+   
+   **还原半反应**：
+   - 平衡Mn元素：已平衡。
+   - 平衡O元素：添加4个H₂O到右侧（MnO₄⁻ → Mn²⁺ + 4H₂O）。
+   - 平衡H元素：添加8个H⁺到左侧（8H⁺ + MnO₄⁻ → Mn²⁺ + 4H₂O）。
+   - 平衡电荷：左侧电荷为+7，右侧为+2，添加5个电子到左侧以达到电荷平衡（5e⁻ + 8H⁺ + MnO₄⁻ → Mn²⁺ + 4H₂O）。
+
+   **氧化半反应**：
+   - 平衡Cl元素：2Cl⁻ → Cl₂。
+   - 平衡电荷：左侧电荷为-2，右侧为0，添加2个电子到右侧以达到电荷平衡（2Cl⁻ → Cl₂ + 2e⁻）。
+
+5. **合并半反应**：
+   - 找到最小公倍数以取消电子，最小公倍数为10。
+   - 将还原半反应乘以2：2(5e⁻ + 8H⁺ + MnO₄⁻ → Mn²⁺ + 4H₂O)。
+   - 将氧化半反应乘以5：5(2Cl⁻ → Cl₂ + 2e⁻)。
+
+6. **合并并配平**：
+   - 合并半反应：10Cl⁻ + 16H⁺ + 2MnO₄⁻ → 2Mn²⁺ + 8H₂O + 5Cl₂。",：10Cl⁻ + 16H⁺ + 2MnO₄⁻ → 2Mn²⁺ + 8H₂O + 5Cl₂,N/A,N/A,N/A
+用离子电子法配平下列反应方程式 (酸性介质)。${\mathrm{{Mn}}}^{2 + } + {\mathrm{{NaBiO}}}_{3} \rightarrow {\mathrm{{MnO}}}_{4}^{ - } + {\mathrm{{Bi}}}^{3 + }$,(2) $2{\mathrm{{Mn}}}^{2 + } + 5{\mathrm{{NaBiO}}}_{3} + {14}{\mathrm{H}}^{ + } = 2{\mathrm{{MnO}}}_{4}^{ - } + 5{\mathrm{{Bi}}}^{3 + } + 5{\mathrm{{Na}}}^{ + } + 7{\mathrm{H}}_{2}\mathrm{O}$,"：
+1. 首先，拆分为两个半反应。第一个半反应是：${\mathrm{Mn}}^{2+} \rightarrow {\mathrm{MnO}}_{4}^{-}$。第二个半反应是：${\mathrm{NaBiO}}_3 \rightarrow {\mathrm{Bi}}^{3+}$。
+   
+2. 配平第一个半反应：
+   - 配平锰原子：已经平衡。
+   - 配平氧原子：${\mathrm{Mn}}^{2+} \rightarrow {\mathrm{MnO}}_{4}^{-}$需要加4个${\mathrm{H}}_2\mathrm{O}$到左侧。
+   - 配平氢原子：左侧有8个氢原子，需加8个${\mathrm{H}}^+$到右侧。
+   - 配平电荷：左侧电荷为+2，右侧为-1 (来自${\mathrm{MnO}}_{4}^-$)，故需加5个电子到左侧。
+   半反应为：${\mathrm{Mn}}^{2+} + 4{\mathrm{H}}_2\mathrm{O} \rightarrow {\mathrm{MnO}}_{4}^{-} + 8{\mathrm{H}}^+ + 5\mathrm{e}^-$
+
+3. 配平第二个半反应：
+   - 配平铋原子：已经平衡。
+   - 配平氧原子：${\mathrm{NaBiO}}_3 \rightarrow {\mathrm{Bi}}^{3+}$需要加3个${\mathrm{H}}_2\mathrm{O}$到右侧。
+   - 配平氢原子：右侧有6个氢原子，需加6个${\mathrm{H}}^+$到左侧。
+   - 配平电荷：左侧电荷为0 (因为${\mathrm{NaBiO}}_3$不带电)，右侧为+3，故需加3个电子到右侧。
+   半反应为：${\mathrm{NaBiO}}_3 + 6{\mathrm{H}}^+ + 3\mathrm{e}^- \rightarrow {\mathrm{Bi}}^{3+} + 3{\mathrm{H}}_2\mathrm{O}$
+
+4. 汇总两个半反应，并调整电子数使其相同：
+   - 第一个反应乘以3，第二个反应乘以5。
+
+5. 合并两个反应：
+   - $3({\mathrm{Mn}}^{2+} + 4{\mathrm{H}}_2\mathrm{O} \rightarrow {\mathrm{MnO}}_{4}^{-} + 8{\mathrm{H}}^+ + 5\mathrm{e}^-)$
+   - $5({\mathrm{NaBiO}}_3 + 6{\mathrm{H}}^+ + 3\mathrm{e}^- \rightarrow {\mathrm{Bi}}^{3+} + 3{\mathrm{H}}_2\mathrm{O})$
+   - 这给出： $3{\mathrm{Mn}}^{2+} + 12{\mathrm{H}}_2\mathrm{O} + 5{\mathrm{NaBiO}}_3 + 30{\mathrm{H}}^+ \rightarrow 3{\mathrm{MnO}}_{4}^{-} + 24{\mathrm{H}}^+ + 5{\mathrm{Bi}}^{3+} + 15{\mathrm{H}}_2\mathrm{O}$
+
+6. 最后，简化和调整氢离子数量：
+   - 消去24${\mathrm{H}}^+$，剩余6个${\mathrm{H}}^+$在左边。
+
+最终的配平方程式为： $3{\mathrm{Mn}}^{2+} + 5{\mathrm{NaBiO}}_3 + 6{\mathrm{H}}^+ \rightarrow 3{\mathrm{MnO}}_{4}^{-} + 5{\mathrm{Bi}}^{3+} + 15{\mathrm{H}}_2\mathrm{O}$。","：
+$3{\mathrm{Mn}}^{2+} + 5{\mathrm{NaBiO}}_3 + 6{\mathrm{H}}^+ \rightarrow 3{\mathrm{MnO}}_{4}^{-} + 5{\mathrm{Bi}}^{3+} + 15{\mathrm{H}}_2\mathrm{O}$",N/A,N/A,N/A
+用离子电子法配平下列反应方程式 (酸性介质)。${\mathrm{{Cr}}}^{3 + } + {\mathrm{{PbO}}}_{2} \rightarrow {\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}^{2 - } + {\mathrm{{Pb}}}^{2 + }$,(3) $2{\mathrm{{Cr}}}^{3 + } + 3{\mathrm{{PbO}}}_{2} + {\mathrm{H}}_{2}\mathrm{O} = {\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}^{2 - } + 3{\mathrm{{Pb}}}^{2 + } + 2{\mathrm{H}}^{ + }$,"：在酸性介质中使用离子电子法配平氧化还原反应的步骤如下：
+
+1. 首先将整个反应分解为两个半反应，分别为：
+   - 氧化反应：\({\mathrm{Cr}}^{3+} \rightarrow {\mathrm{Cr}}_{2}{\mathrm{O}}_{7}^{2-}\)
+   - 还原反应：\({\mathrm{PbO}}_{2} \rightarrow {\mathrm{Pb}}^{2+}\)
+
+2. 半反应配平：
+
+   - **氧化半反应配平（\({\mathrm{Cr}}^{3+} \rightarrow {\mathrm{Cr}}_{2}{\mathrm{O}}_{7}^{2-}\)）**
+
+     a. 配平铬原子：需要两个铬，所以半反应变为：\[2{\mathrm{Cr}}^{3+} \rightarrow {\mathrm{Cr}}_{2}{\mathrm{O}}_{7}^{2-}\]
+
+     b. 配平氧原子：需要加水，所以在反应物侧加7个水分子：\[2{\mathrm{Cr}}^{3+} + 7{\mathrm{H}}_{2}\mathrm{O} \rightarrow {\mathrm{Cr}}_{2}{\mathrm{O}}_{7}^{2-}\]
+
+     c. 配平氢原子：在产物侧加14个氢离子：\[2{\mathrm{Cr}}^{3+} + 7{\mathrm{H}}_{2}\mathrm{O} \rightarrow {\mathrm{Cr}}_{2}{\mathrm{O}}_{7}^{2-} + 14{\mathrm{H}}^{+}\]
+
+     d. 配平电荷：氧化数的变化是 \((+6 \times 2 = +12)\) 到 \((+3 \times 2 = +6)\)，总共变化6个单位。在氧化物侧加6个电子：\[2{\mathrm{Cr}}^{3+} + 7{\mathrm{H}}_{2}\mathrm{O} \rightarrow {\mathrm{Cr}}_{2}{\mathrm{O}}_{7}^{2-} + 14{\mathrm{H}}^{+} + 6{\mathrm{e}}^{-}\]
+
+   - **还原半反应配平（\({\mathrm{PbO}}_{2} \rightarrow {\mathrm{Pb}}^{2+}\)）**
+
+     a. 配平氧原子：在产物中加2个水分子：\[{\mathrm{PbO}}_{2} + 4{\mathrm{H}}^{+} \rightarrow {\mathrm{Pb}}^{2+} + 2{\mathrm{H}}_{2}\mathrm{O}\]
+
+     b. 配平氢原子：如上已配好。
+
+     c. 配平电荷：从 \((+4) \) 到 \((+2)\) 变化了2个单位，在反应物侧加2个电子：\[{\mathrm{PbO}}_{2} + 4{\mathrm{H}}^{+} + 2{\mathrm{e}}^{-} \rightarrow {\mathrm{Pb}}^{2+} + 2{\mathrm{H}}_{2}\mathrm{O}\]
+
+3. 根据半反应平衡电子数来平衡：
+   - 将氧化反应乘以1，得到的电子数为6；
+   - 将还原反应乘以3，得到的总电子数也为6：
+
+   \[ 
+   \begin{align*}
+   & 2{\mathrm{Cr}}^{3+} + 7{\mathrm{H}}_{2}\mathrm{O} \rightarrow {\mathrm{Cr}}_{2}{\mathrm{O}}_{7}^{2-} + 14{\mathrm{H}}^{+} + 6{\mathrm{e}}^{-} \\
+   & 3{\mathrm{PbO}}_{2} + 12{\mathrm{H}}^{+} + 6{\mathrm{e}}^{-} \rightarrow 3{\mathrm{Pb}}^{2+} + 6{\mathrm{H}}_{2}\mathrm{O} 
+   \end{align*}
+   \]
+
+4. 将两个半反应加起来：
+   
+   \[
+   2{\mathrm{Cr}}^{3+} + 3{\mathrm{PbO}}_{2} + 7{\mathrm{H}}_{2}\mathrm{O} + 12{\mathrm{H}}^{+} \rightarrow {\mathrm{Cr}}_{2}{\mathrm{O}}_{7}^{2-} + 3{\mathrm{Pb}}^{2+} + 6{\mathrm{H}}_{2}\mathrm{O} + 14{\mathrm{H}}^{+} 
+   \]
+
+5. 整理化合物：
+   \[
+   2{\mathrm{Cr}}^{3+} + 3{\mathrm{PbO}}_{2} + 2{\mathrm{H}}^{+} \rightarrow {\mathrm{Cr}}_{2}{\mathrm{O}}_{7}^{2-} + 3{\mathrm{Pb}}^{2+} + {\mathrm{H}}_{2}\mathrm{O} 
+   \]",：\[2{\mathrm{Cr}}^{3+} + 3{\mathrm{PbO}}_{2} + 2{\mathrm{H}}^{+} \rightarrow {\mathrm{Cr}}_{2}{\mathrm{O}}_{7}^{2-} + 3{\mathrm{Pb}}^{2+} + {\mathrm{H}}_{2}\mathrm{O}\],N/A,N/A,N/A
+用离子电子法配平下列反应方程式 (酸性介质)。${\mathrm{C}}_{3}{\mathrm{H}}_{8}\mathrm{O} + {\mathrm{{MnO}}}_{4}^{ - } \rightarrow {\mathrm{C}}_{3}{\mathrm{H}}_{6}{\mathrm{O}}_{2} + {\mathrm{{Mn}}}^{2 + }$,(4) $5{\mathrm{C}}_{3}{\mathrm{H}}_{8}\mathrm{O} + 4{\mathrm{{MnO}}}_{4}^{ - } + {12}{\mathrm{H}}^{ + } = 5{\mathrm{C}}_{3}{\mathrm{H}}_{6}{\mathrm{O}}_{2} + 4{\mathrm{{Mn}}}^{2 + } + {11}{\mathrm{H}}_{2}\mathrm{O}$,"：在酸性介质中使用离子电子法配平有机反应。该反应可以分为两个半反应，包括氧化和还原反应。首先要找出参加反应的分子或离子的氧化态变化。
+
+1. 确定氧化和还原物质：
+   - ${\mathrm{C}}_{3}{\mathrm{H}}_{8}\mathrm{O}$ 被氧化成 ${\mathrm{C}}_{3}{\mathrm{H}}_{6}{\mathrm{O}}_{2}$。这里考虑的是醇被氧化成羧酸。
+   - ${\mathrm{{MnO}}}_{4}^{-}$ 被还原成 ${\mathrm{{Mn}}}^{2+}$。
+
+2. 写出两个半反应：
+   - 氧化半反应：${\mathrm{C}}_{3}{\mathrm{H}}_{8}\mathrm{O} \rightarrow {\mathrm{C}}_{3}{\mathrm{H}}_{6}{\mathrm{O}}_{2}$。
+   - 还原半反应：${\mathrm{{MnO}}}_{4}^{-} \rightarrow {\mathrm{{Mn}}}^{2+}$。
+
+3. 平衡氧化半反应：
+   - 首先，平衡碳、氢和氧：${\mathrm{C}}_{3}{\mathrm{H}}_{8}\mathrm{O} \rightarrow {\mathrm{C}}_{3}{\mathrm{H}}_{6}{\mathrm{O}}_{2} + 2\mathrm{H}^{+} + 2\mathrm{e}^{-}$。加入 2 个质子和 2 个电子以平衡氧和氢。
+
+4. 平衡还原半反应：
+   - ${\mathrm{{MnO}}}_{4}^{-} + 8\mathrm{H}^{+} + 5\mathrm{e}^{-} \rightarrow {\mathrm{{Mn}}}^{2+} + 4\mathrm{H}_{2}\mathrm{O}$。需要加 8 个质子和 5 个电子以平衡氧和氢，并确保电荷保持中性。
+
+5. 平衡整体电荷：使两个半反应的电子数相等，因此需乘以适当的因子。
+   - 将氧化半反应乘以 5，得到 $5{\mathrm{C}}_{3}{\mathrm{H}}_{8}\mathrm{O} \rightarrow 5{\mathrm{C}}_{3}{\mathrm{H}}_{6}{\mathrm{O}}_{2} + 10\mathrm{H}^{+} + 10\mathrm{e}^{-}$。
+   - 将还原半反应乘以 2，得到 $2{\mathrm{{MnO}}}_{4}^{-} + 16\mathrm{H}^{+} + 10\mathrm{e}^{-} \rightarrow 2{\mathrm{{Mn}}}^{2+} + 8\mathrm{H}_{2}\mathrm{O}$。
+
+6. 合并半反应：相加后得到完整的方程式。
+   - $5{\mathrm{C}}_{3}{\mathrm{H}}_{8}\mathrm{O} + 2{\mathrm{{MnO}}}_{4}^{-} + 6\mathrm{H}^{+} \rightarrow 5{\mathrm{C}}_{3}{\mathrm{H}}_{6}{\mathrm{O}}_{2} + 2{\mathrm{{Mn}}}^{2+} + 8\mathrm{H}_{2}\mathrm{O}$。",：5${\mathrm{C}}_{3}{\mathrm{H}}_{8}\mathrm{O}$ + 2${\mathrm{{MnO}}}_{4}^{-}$ + 6$\mathrm{H}^{+}$ $\rightarrow$ 5${\mathrm{C}}_{3}{\mathrm{H}}_{6}{\mathrm{O}}_{2}$ + 2${\mathrm{{Mn}}}^{2+}$ + 8${\mathrm{H}_{2}\mathrm{O}}$,N/A,N/A,N/A
+用离子电子法配平下列反应方程式 (酸性介质)。${\mathrm{{HClO}}}_{3} + {\mathrm{P}}_{4} \rightarrow {\mathrm{{Cl}}}^{ - } + {\mathrm{H}}_{3}{\mathrm{{PO}}}_{4}$,(5) ${10}{\mathrm{{HClO}}}_{3} + 3{\mathrm{P}}_{4} + {18}{\mathrm{H}}_{2}\mathrm{O} = {10}{\mathrm{{Cl}}}^{ - } + {12}{\mathrm{H}}_{3}{\mathrm{{PO}}}_{4} + {10}{\mathrm{H}}^{ + }$,"：
+1. **确定氧化还原反应的两个半反应**  
+　反应物：${\mathrm{{HClO}}}_{3}$ 和 ${\mathrm{P}}_{4}$  
+　生成物：${\mathrm{{Cl}}}^{ - }$ 和 ${\mathrm{H}}_{3}{\mathrm{{PO}}}_{4}$  
+
+2. **确定氧化态**  
+　Cl 从 ${\mathrm{{HClO}}}_{3}$ 中的 +5 价 降低至 ${\mathrm{{Cl}}}^{ - }$ 的 -1 价。  
+　P 从 ${\mathrm{P}}_{4}$ 中的 0 价 升高到 ${\mathrm{H}}_{3}{\mathrm{{PO}}}_{4}$ 中的 +5 价。  
+
+3. **写出氧化还原半反应**  
+　氧化半反应 (P氧化)：  
+　　${\mathrm{P}} \rightarrow {\mathrm{H}}_{3}{\mathrm{{PO}}}_{4}$  
+
+　还原半反应 (Cl还原)：  
+　　${\mathrm{HClO}}_{3} \rightarrow {\mathrm{{Cl}}}^{ - }$  
+
+4. **配平原子**  
+　配平还原半反应：  
+　　${\mathrm{{HClO}}}_{3} + 6 \mathrm{e}^- + 6 {\mathrm{H}}^+ \rightarrow {\mathrm{{Cl}}}^{ - } + 3 {\mathrm{H}}_2{\mathrm{O}}$  
+
+　配平氧化半反应：  
+　　${\mathrm{P}} + 5 {\mathrm{H}}_2{\mathrm{O}} \rightarrow {\mathrm{H}}_{3}{\mathrm{{PO}}}_{4} + 5 \mathrm{e}^- + 5 {\mathrm{H}}^+$  
+
+5. **平衡电子数**  
+　将还原半反应乘以5，将氧化半反应乘以6，确保电子转移数目相等：
+　(5)${\mathrm{{HClO}}}_{3} + (5×6)\mathrm{e}^- + 5×6{\mathrm{H}}^+ \rightarrow 5{\mathrm{{Cl}}}^{ - } + 5×3{\mathrm{H}}_2{\mathrm{O}}$  
+　(6)${\mathrm{P}} + (6×5){\mathrm{H}}_2{\mathrm{O}} \rightarrow 6{\mathrm{H}}_{3}{\mathrm{{PO}}}_{4} + (6×5)\mathrm{e}^- + (6×5){\mathrm{H}}^+$  
+
+6. **加合并前后结果**：
+　最终合并平衡方程式：
+　　$$6{\mathrm{P}} + 10{\mathrm{{HClO}}}_{3} + 30{\mathrm{H}}^+ \rightarrow 5{\mathrm{{Cl}}}^{ - } + 6{\mathrm{H}}_{3}{\mathrm{{PO}}}_{4} + 15{\mathrm{H}}_2{\mathrm{O}}$$","：
+6${\mathrm{P}} + 10{\mathrm{{HClO}}}_{3} + 30{\mathrm{H}}^+ \rightarrow 5{\mathrm{{Cl}}}^{ - } + 6{\mathrm{H}}_{3}{\mathrm{{PO}}}_{4} + 15{\mathrm{H}}_2{\mathrm{O}}$",N/A,N/A,N/A
+"用离子电子法配平下列反应方程式 (碱性介质)。
+${\mathrm{{CrO}}}_{4}^{2 - } + {\mathrm{{HSnO}}}_{2}^{ - } \rightarrow {\mathrm{{CrO}}}_{2}^{ - } + {\mathrm{{HSnO}}}_{3}^{ - }$",(1) $2{\mathrm{{CrO}}}_{4}^{2 - } + 3{\mathrm{{HSnO}}}_{2}^{ - } + {\mathrm{H}}_{2}\mathrm{O} = 2{\mathrm{{CrO}}}_{2}^{ - } + 3{\mathrm{{HSnO}}}_{3}^{ - } + 2{\mathrm{{OH}}}^{ - }$,"：
+1. 离子电子法配平反应方程式的一般步骤中，首先我们要识别氧化还原反应中的氧化剂和还原剂。观察反应方程式可知，铬的价态从 ${\mathrm{{CrO}}}_{4}^{2 - }$ 中的 +6 价降为 ${\mathrm{{CrO}}}_{2}^{-}$ 中的 +4 价，是一个还原过程；锡从 ${\mathrm{{HSnO}}}_{2}^{-}$ 中的 +2 价升到 ${\mathrm{{HSnO}}}_{3}^{-}$ 的 +4 价，是氧化过程。
+
+2. 将氧化和还原反应分别写成半反应方程式：
+   - 还原半反应：${\mathrm{{CrO}}}_{4}^{2-} + \text{e}^- \rightarrow {\mathrm{{CrO}}}_{2}^{-}$
+   - 氧化半反应：${\mathrm{{HSnO}}}_{2}^{-} \rightarrow {\mathrm{{HSnO}}}_{3}^{-} + \text{e}^-$
+
+3. 平衡氧原子：在碱性介质中，通过加入 ${\mathrm{H}}_{2}\mathrm{O}$ 来平衡氧原子。
+   - 还原半反应：${\mathrm{{CrO}}}_{4}^{2-} + \text{e}^- \rightarrow {\mathrm{{CrO}}}_{2}^{-} + \mathrm{H}_2\mathrm{O}$
+   - 氧化半反应：${\mathrm{{HSnO}}}_{2}^{-} + \mathrm{H}_2\mathrm{O} \rightarrow {\mathrm{{HSnO}}}_{3}^{-} + \text{e}^- $
+
+4. 平衡氢原子：因为在碱性介质中，用 $\mathrm{OH}^-$ 平衡氢。
+   - 还原半反应：${\mathrm{{CrO}}}_{4}^{2-} + \text{e}^- + 2\mathrm{OH}^- \rightarrow {\mathrm{{CrO}}}_{2}^{-} + \mathrm{H}_2\mathrm{O}$
+   - 氧化半反应：${\mathrm{{HSnO}}}_{2}^{-} + \mathrm{H}_2\mathrm{O} \rightarrow {\mathrm{{HSnO}}}_{3}^{-} + \text{e}^- + \mathrm{OH}^-$ 
+
+5. 配平电荷：验证电荷是否平衡。
+   - 还原半反应：左边-3，右边-3，电荷平衡。
+   - 氧化半反应：左边-2，右边-2，电荷平衡。
+
+6. 合并两个半反应，并消去电子：
+   - ${\mathrm{{CrO}}}_{4}^{2-} + \text{e}^- + 2\mathrm{OH}^- + {\mathrm{{HSnO}}}_{2}^{-} + \mathrm{H}_2\mathrm{O} \rightarrow {\mathrm{{CrO}}}_{2}^{-} + \mathrm{H}_2\mathrm{O} + {\mathrm{{HSnO}}}_{3}^{-} + \text{e}^- + \mathrm{OH}^-$
+
+7. 消去两边相同的物种，最终得到：
+   - ${\mathrm{{CrO}}}_{4}^{2-} + 2\mathrm{OH}^- + {\mathrm{{HSnO}}}_{2}^{-} \rightarrow {\mathrm{{CrO}}}_{2}^{-} + {\mathrm{{HSnO}}}_{3}^{-} + \mathrm{H}_2\mathrm{O}$","：
+${\mathrm{{CrO}}}_{4}^{2-} + 2\mathrm{OH}^- + {\mathrm{{HSnO}}}_{2}^{-} \rightarrow {\mathrm{{CrO}}}_{2}^{-} + {\mathrm{{HSnO}}}_{3}^{-} + \mathrm{H}_2\mathrm{O}$",N/A,N/A,N/A
+用离子电子法配平下列反应方程式 (碱性介质)。${\mathrm{H}}_{2}{\mathrm{O}}_{2} + {\mathrm{{CrO}}}_{2}^{ - } \rightarrow {\mathrm{{CrO}}}_{4}^{2 - }$,(2) $3{\mathrm{H}}_{2}{\mathrm{O}}_{2} + 2{\mathrm{{CrO}}}_{2}^{ - } + 2{\mathrm{{OH}}}^{ - } = 2{\mathrm{{CrO}}}_{4}^{2 - } + 4{\mathrm{H}}_{2}\mathrm{O}$,"：在碱性介质中，我们可以使用离子电子法配平氧化还原反应。首先，需要确定氧化还原反应中氧化剂和还原剂，以及各自在反应前后的变化。之后，我们通过构造半反应，并通过添加水、氢氧根离子（OH−）和电子来使每个半反应达到物料平衡和电荷平衡，最后将两者合并并消去公共项即可完成配平。
+
+1. **识别氧化还原反应**：
+   - ${\mathrm{H}}_{2}{\mathrm{O}}_{2}$ 作为氧化剂，能接受电子还原为 ${\mathrm{OH}}^{-}$。
+   - ${\mathrm{CrO}}_{2}^{-}$ 作为还原剂，能失去电子氧化为 ${\mathrm{CrO}}_{4}^{2-}$。
+
+2. **写出不完全的半反应并配平非氧元素**：
+   - 氧化半反应：${\mathrm{CrO}}_{2}^{-} \rightarrow {\mathrm{CrO}}_{4}^{2-}$
+   - 还原半反应：${\mathrm{H}}_{2}{\mathrm{O}}_{2} \rightarrow {\mathrm{OH}}^{-}$
+
+3. **配平氧元素**：
+   - 氧化半反应：加水分子${2\mathrm{H}}_{2}\mathrm{O}$配平氧，使等于总的氧数：
+     ${\mathrm{CrO}}_{2}^{-} + 2 {\mathrm{H}}_{2}\mathrm{O} \rightarrow {\mathrm{CrO}}_{4}^{2-} + 4 \mathrm{OH}^{-}$。
+   - 还原半反应：已经配平。
+
+4. **配平氢元素**（加$\mathrm{OH}^{-}$）：
+   - 氧化半反应：氢已通过水的加入得到配平，无需再加。
+   - 还原半反应：${\mathrm{H}}_{2}{\mathrm{O}}_{2} + 2 \mathrm{OH}^{-} \rightarrow 2 \mathrm{OH}^{-} + 2 e^- $（此处$\mathrm{OH}^{-}$用于中和氢）。
+
+5. **配平电荷（加电子）**：
+   - 氧化半反应：${\mathrm{CrO}}_{2}^{-} + 2 {\mathrm{OH}}^{-} + 2 e^- \rightarrow {\mathrm{CrO}}_{4}^{2-} + \mathrm{H}_{2}\mathrm{O}$。
+   - 还原半反应：不需要再加电子。
+
+6. **合并半反应**：确保电子增减平衡，消去两边相同项，得到整体反应：
+   ${\mathrm{H}}_{2}{\mathrm{O}}_{2} + {\mathrm{CrO}}_{2}^{-} + 2\mathrm{OH}^{-} \rightarrow {\mathrm{CrO}}_{4}^{2-} + 2\mathrm{OH}^{-} + \mathrm{H}_{2}\mathrm{O}$。
+
+7. **简化，消去相同项得结果**：
+   ${\mathrm{H}}_{2}{\mathrm{O}}_{2} + {\mathrm{CrO}}_{2}^{-} \rightarrow {\mathrm{CrO}}_{4}^{2-} + \mathrm{H}_{2}\mathrm{O}$",：${\mathrm{H}}_{2}{\mathrm{O}}_{2} + {\mathrm{CrO}}_{2}^{-} \rightarrow {\mathrm{CrO}}_{4}^{2-} + \mathrm{H}_{2}\mathrm{O}$,N/A,N/A,N/A
+用离子电子法配平下列反应方程式 (碱性介质)。$\mathrm{{CuS}} + {\mathrm{{CN}}}^{ - } \rightarrow {\left\lbrack \mathrm{{Cu}}{\left( \mathrm{{CN}}\right) }_{4}\right\rbrack }^{3 - } + {\mathrm{S}}^{2 - } + {\mathrm{{NCO}}}^{ - }$,(3) $2\mathrm{{CuS}} + 9{\mathrm{{CN}}}^{ - } + 2{\mathrm{{OH}}}^{ - } = 2{\left\lbrack \mathrm{{Cu}}{\left( \mathrm{{CN}}\right) }_{4}\right\rbrack }^{3 - } + 2{\mathrm{\;S}}^{2 - } + {\mathrm{{NCO}}}^{ - } + {\mathrm{H}}_{2}\mathrm{O}$,"：在配平离子方程式时，尤其是在碱性介质中，我们按照以下步骤进行：
+
+1. **拆分半反应**：将各组分根据变化分成两个半反应。这一步涉及识别氧化和还原的两个半反应。
+
+    - 氧化半反应：$\mathrm{CuS} \rightarrow \mathrm{S}^{2-} + \mathrm{Cu}^{2+}$。
+    - 还原半反应：$\mathrm{CN}^- \rightarrow \mathrm{NCO}^- + \mathrm{e}^-$。
+
+2. **平衡每个半反应**：
+
+    - 对于氧化半反应，我们需要加入氢氧根离子$\mathrm{OH}^-$来适应碱性条件，同时加入$\mathrm{H}_2\mathrm{O}$来平衡氧元素，还要补充电子以平衡电荷：
+      \[\mathrm{CuS} + 2\mathrm{OH}^- \rightarrow \mathrm{S}^{2-} + \mathrm{Cu(OH)}_2 + 2e^-\]
+      
+    - 还原半反应也需要调整$\mathrm{OH}^-$和$\mathrm{H}_2\mathrm{O}$：
+      \[\mathrm{CN}^- + 2\mathrm{OH}^- \rightarrow \mathrm{NCO}^- + \mathrm{H}_2\mathrm{O} + 2e^-\]
+
+3. **结合半反应**：将两者结合并消除公共项，注意相互抵消电子，达到电荷和原子的平衡。
+
+\[ 
+\begin{align*}
+2(\mathrm{CuS} + 2\mathrm{OH}^- &\rightarrow \mathrm{S}^{2-} + \mathrm{Cu(OH)}_2 + 2e^-)  \\
+& + 4(\mathrm{CN}^- + 2\mathrm{OH}^- \rightarrow \mathrm{NCO}^- + \mathrm{H}_2\mathrm{O} + 2e^-) \\
+&\Rightarrow \\
+\mathrm{CuS} &+ 4\mathrm{CN}^- + 4\mathrm{OH}^- \rightarrow \left[\mathrm{Cu}(\mathrm{CN})_4\right]^{3-} + \mathrm{S}^{2-} + \mathrm{NCO}^-
+\end{align*}
+\]
+
+4. **调整对应系数并验证**：
+
+    - 确认反应物和生成物的原子数以及电荷是否一致。
+    - 根据反应式$4\mathrm{CN}^-$形成$\left[\mathrm{Cu}(\mathrm{CN})_4\right]^{3-}$。",：$\mathrm{CuS} + 4\mathrm{CN}^- + \mathrm{OH}^- \rightarrow \left[\mathrm{Cu}(\mathrm{CN})_4\right]^{3-} + \mathrm{S}^{2-} + \mathrm{NCO}^- + \mathrm{H}_2\mathrm{O}$.,N/A,N/A,N/A
+用离子电子法配平下列反应方程式 (碱性介质)。${\mathrm{{CN}}}^{ - } + {\mathrm{O}}_{2} \rightarrow {\mathrm{{CO}}}_{3}^{2 - } + {\mathrm{{NH}}}_{3}$,(4) $2{\mathrm{{CN}}}^{ - } + {\mathrm{O}}_{2} + 2{\mathrm{{OH}}}^{ - } + 2{\mathrm{H}}_{2}\mathrm{O} = 2{\mathrm{{CO}}}_{3}^{2 - } + 2{\mathrm{{NH}}}_{3}$,"：在碱性介质中进行离子电子法配平时，需要将原始反应方程式拆分为还原和氧化两个半反应，并分别配平每个半反应，然后再将它们组合成完整的反应。
+
+1. **分析反应物和生成物**：
+   - 反应物：氰根离子 \({\mathrm{{CN}}}^{-}\) 和氧气 \({\mathrm{O}}_{2}\)
+   - 生成物：碳酸根离子 \({\mathrm{{CO}}}_{3}^{2-}\) 和氨 \({\mathrm{{NH}}}_{3}\)
+
+2. **确定氧化和还原半反应**：
+   - 氰根 \({\mathrm{{CN}}}^{-}\) 被氧化为碳酸根 \({\mathrm{{CO}}}_{3}^{2-}\)。
+   - \({\mathrm{{CN}}}^{-}\) 中氮被还原为氨 \({\mathrm{{NH}}}_{3}\)。
+
+3. **写还原半反应**（引入水和氢氧根离子进行平衡，因为是在碱性介质中）：
+   \[
+   \mathrm{N} \quad \text{的变化：} \quad {\mathrm{CN}}^{-} + \mathrm{H_2O} + e^- \rightarrow {\mathrm{NH}}_{3} + \mathrm{OH}^-
+   \]
+   - 平衡氢：\({\mathrm{CN}}^{-} + 4\mathrm{H_2O} + 3e^- \rightarrow {\mathrm{NH}}_{3} + 4\mathrm{OH}^-\)
+
+4. **写氧化半反应**：
+   \[
+   \mathrm{C} \quad \text{的变化：} \quad {\mathrm{CN}}^{-} + 2\mathrm{OH}^- \rightarrow {\mathrm{CO}}_{3}^{2-} + e^- + \mathrm{H_2O}
+   \]
+   - 这个方程已经是平衡的。
+
+5. **合并两个半反应**：
+   - 将两个半反应相加，使电子数相等：
+   \[
+   3 \times \left({\mathrm{CN}}^{-} + 2\mathrm{OH}^- \rightarrow {\mathrm{CO}}_{3}^{2-} + e^- + \mathrm{H_2O}\right)
+   \]
+   \[
+   {\mathrm{CN}}^{-} + 4\mathrm{H_2O} + 3e^- \rightarrow {\mathrm{NH}}_{3} + 4\mathrm{OH}^-
+   \]
+   - 相加并取消掉相同的物质：
+   \[
+   4{\mathrm{CN}}^{-} + 4\mathrm{H_2O} \rightarrow 3{\mathrm{CO}}_{3}^{2-} + {\mathrm{NH}}_{3} + 10\mathrm{OH}^-
+   \]
+
+6. **得出最终的化学方程式**：
+   \[
+   4{\mathrm{CN}}^{-} + 4\mathrm{H_2O} \rightarrow 3{\mathrm{CO}}_{3}^{2-} + {\mathrm{NH}}_{3} + 3\mathrm{OH}^-
+   \]",：\( 4{\mathrm{CN}}^{-} + 2{\mathrm{O}}_2 + 2\mathrm{H_2O} \rightarrow 4{\mathrm{NH}}_3 + 3{\mathrm{CO}}_{3}^{2-} + 2\mathrm{OH}^- \),N/A,N/A,N/A
+用离子电子法配平下列反应方程式 (碱性介质)。$\mathrm{{Al}} + {\mathrm{{NO}}}_{2}^{ - } \rightarrow {\left\lbrack \mathrm{{Al}}{\left( \mathrm{{OH}}\right) }_{4}\right\rbrack }^{ - } + {\mathrm{{NH}}}_{3}$,(5) $2\mathrm{{Al}} + {\mathrm{{NO}}}_{2}^{ - } + {\mathrm{{OH}}}^{ - } + 5{\mathrm{H}}_{2}\mathrm{O} = 2{\left\lbrack \mathrm{{Al}}{\left( \mathrm{{OH}}\right) }_{4}\right\rbrack }^{ - } + {\mathrm{{NH}}}_{3}$,"：在碱性介质中配平反应方程式，首先需要将反应分成两个半反应，然后分别配平每个半反应的原子、电荷和质量，再将两个半反应结合在一起。
+
+1. **提出半反应**：
+
+   - 氧化半反应（铝的氧化）：
+     \[
+     \mathrm{Al} \rightarrow \mathrm{[Al(OH)_4]^-}
+     \]
+
+   - 还原半反应（二氧化氮根的还原）：
+     \[
+     \mathrm{NO_2^-} \rightarrow \mathrm{NH_3}
+     \]
+
+2. **配平氧化半反应**：
+   - 首先配平铝原子：
+     \[
+     \mathrm{Al} \rightarrow \mathrm{[Al(OH)_4]^-}
+     \]
+   - 添加\text{OH}^{-} 配平氧：
+     \[
+     \mathrm{Al} + 4\text{OH}^- \rightarrow \mathrm{[Al(OH)_4]^-}
+     \]
+   - 因为\text{[Al(OH)_4]^-}右侧有负电荷，左侧电荷为0，所以添加1个电子：
+     \[
+     \mathrm{Al} + 4\text{OH}^- \rightarrow \mathrm{[Al(OH)_4]^-} + \text{e}^-
+     \]
+
+3. **配平还原半反应**：
+   - 配平氮原子：
+     \[
+     \mathrm{NO_2^-} \rightarrow \mathrm{NH_3}
+     \]
+   - 配平氧，通过加入水分子：
+     \[
+     \mathrm{NO_2^-} + \mathrm{H_2O} \rightarrow \mathrm{NH_3}
+     \]
+   - 配平氢，通过加入\text{OH}^{-}：
+     \[
+     \mathrm{NO_2^-} + \mathrm{H_2O} \rightarrow \mathrm{NH_3} + 2\text{OH}^-
+     \]
+   - 配平电子：
+     \[
+     \mathrm{NO_2^-} + 3\text{e}^- + \mathrm{H_2O} \rightarrow \mathrm{NH_3} + 2\text{OH}^-
+     \]
+
+4. **结合两个半反应并配平**：
+   - 使电子数相等，将氧化半反应乘3，结合两个半反应：
+     \[
+     3(\mathrm{Al} + 4\text{OH}^- \rightarrow \mathrm{[Al(OH)_4]^-} + \text{e}^-) 
+     \]
+     \[
+     \mathrm{NO_2^-} + 3\text{e}^- + \mathrm{H_2O} \rightarrow \mathrm{NH_3} + 2\text{OH}^-
+     \]
+
+   - 合并：
+     \[
+     3\mathrm{Al} + 3\cdot 4\text{OH}^- + \mathrm{NO_2^-} + \mathrm{H_2O} \rightarrow 3\mathrm{[Al(OH)_4]^-} + \mathrm{NH_3} + 2\text{OH}^-
+     \]
+
+   - 简化(消去相同物质)：
+     \[
+     3\mathrm{Al} + \mathrm{NO_2^-} + 2\text{OH}^- + \mathrm{H_2O} \rightarrow 3\mathrm{[Al(OH)_4]^-} + \mathrm{NH_3}
+     \]",：3Al + NO2^- + 2OH^- + H2O -> 3[Al(OH)4]^- + NH3,N/A,N/A,N/A
+"在实验室中通常用下列反应制取氯气:
+
+$$
+{\mathrm{{MnO}}}_{2} + 4\mathrm{{HCl}} = {\mathrm{{MnCl}}}_{2} + {\mathrm{{Cl}}}_{2} + 2{\mathrm{H}}_{2}\mathrm{O}
+$$
+
+试通过计算回答, 为什么必须使用浓盐酸?
+
+已知 ${E}^{ \ominus }\left( {{\mathrm{{MnO}}}_{2}/{\mathrm{{Mn}}}^{2 + }}\right) = {1.22}\mathrm{\;V},{E}^{ \ominus }\left( {{\mathrm{{Cl}}}_{2}/{\mathrm{{Cl}}}^{ - }}\right) = {1.36}\mathrm{\;V}$ 。","反应 ${\mathrm{{MnO}}}_{2} + 4\mathrm{{HCl}} = {\mathrm{{MnCl}}}_{2} + {\mathrm{{Cl}}}_{2} + 2{\mathrm{H}}_{2}\mathrm{O}$ 是由 ${\mathrm{{MnO}}}_{2}$ 作氧化剂,氧化 $\mathrm{{HCl}}$ (aq) 完成的。
+
+正极 $\;{\mathrm{{MnO}}}_{2} + 4{\mathrm{H}}^{ + } + 2{\mathrm{e}}^{ - } = {\mathrm{{Mn}}}^{2 + } + 2{\mathrm{H}}_{2}\mathrm{O}\;{E}_{ + }^{ \ominus } = {1.22}\mathrm{\;V}$
+
+负极 $\;{\mathrm{{Cl}}}_{2} + 2{\mathrm{e}}^{ - } = 2{\mathrm{{Cl}}}^{ - }$  $\mathrm{E}^{\Theta }_{-} = {1.36}\mathrm{\;V}$
+
+所以在标准状态下, ${E}^{ \ominus } = {1.22}\mathrm{\;V} - {1.36}\mathrm{\;V} = - {0.14}\mathrm{\;V}$ ,为负值,反应不能自发进行。
+
+正极反应的能斯特方程为
+
+$$
+{E}_{ + } = {E}_{ + }^{ \ominus } + \frac{{0.059}\mathrm{\;V}}{2}\lg {\left\lbrack c\left( {\mathrm{H}}^{ + }\right) \right\rbrack }^{4}
+$$
+
+负极反应的能斯特方程为
+
+$$
+{E}_{ - } = {E}_{ - }^{ \ominus } + \frac{{0.059}\mathrm{\;V}}{2}\lg \frac{1}{{\left\lbrack c\left( {\mathrm{{Cl}}}^{ - }\right) \right\rbrack }^{2}}
+$$
+
+当 ${E}_{ + } = {E}_{ - }$ 时,有
+
+$$
+{E}_{ + }^{ \ominus } + \frac{{0.059}\mathrm{\;V}}{2}\lg {\left\lbrack c\left( {\mathrm{H}}^{ + }\right) \right\rbrack }^{4} = {E}_{ - }^{ \ominus } + \frac{{0.059}\mathrm{\;V}}{2}\lg \frac{1}{{\left\lbrack c\left( {\mathrm{{Cl}}}^{ - }\right) \right\rbrack }^{2}}
+$$
+
+在盐酸中
+
+$$
+c\left( {\mathrm{H}}^{ + }\right) = c\left( {\mathrm{{Cl}}}^{ - }\right) = c\text{ (盐酸) }
+$$
+
+故有 ${1.22}\mathrm{\;V} + \frac{{0.059}\mathrm{\;V}}{2}\lg {\left\lbrack c\text{ (盐酸) }\right\rbrack }^{4} = {1.36}\mathrm{\;V} + \frac{{0.059}\mathrm{\;V}}{2}\lg \frac{1}{{\left\lbrack c\text{ (盐酸) }\right\rbrack }^{2}}$
+
+$$
+c\text{(盐酸)} = {6.18}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+故只有用浓盐酸才能制 ${\mathrm{{Cl}}}_{2}$ ,而且需要加热,以保证反应速率足够快。
+","：这个问题探讨的是在制取氯气反应中，为什么需要使用浓盐酸。该反应的实质是氧化还原反应，其中MnO2被还原为MnCl2，同时HCl中的Cl-离子被氧化为Cl2气体。
+
+已知反应的两个半反应：
+1. MnO2 + 4H+ + 2e- → Mn2+ + 2H2O
+2. 2Cl- → Cl2 + 2e-
+
+根据电极电势的值：
+- MnO2/Mn2+的标准电极电势E°1 = 1.22 V。
+- Cl2/Cl-的标准电极电势E°2 = 1.36 V。
+
+电动势的计算公式：
+$$E^{\ominus}_{cell} = E^{\ominus}_{cathode} - E^{\ominus}_{anode}$$
+
+在此反应中，MnO2的还原是阴极过程，Cl-的氧化是阳极过程。因此：
+$$E^{\ominus}_{cell} = E^{\ominus}_{Cl2/Cl^-} - E^{\ominus}_{MnO2/Mn^{2+}} = 1.36 - 1.22 = 0.14 \text{ V}$$
+
+计算得到的E°cell为正值，说明在标准状态下，反应是自发的。然而，在实际条件下，使用浓盐酸是为了确保氯气能够高效且持续地产生。浓盐酸中具有较高的H+和Cl-浓度。较高的H+浓度促进了阴极反应的进行，较高的Cl-浓度则通过浓度极化进一步推动阳极反应的进行，从而保证反应能够进行。当使用稀盐酸时，H+和Cl-浓度较低，减少了氧化反应的速率和效率，因此不利于氯气的生成。",：浓盐酸提供更高的Cl-浓度，推动反应向生成Cl2的方向进行。,N/A,N/A,N/A
+"某学生为测定 $\mathrm{{CuS}}$ 的溶度积常数,设计如下原电池: 正极为铜片,在 ${0.1}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}{\mathrm{{Cu}}}^{2 + }$
+
+溶液中,再通入 ${\mathrm{H}}_{2}\mathrm{\;S}$ 气体使之达到饱和; 负极为标准锌电极。测得电池电动势为 ${0.67}\mathrm{\;V}$ 。已知 ${E}^{ \ominus }\left( {{\mathrm{{Cu}}}^{2 + }/\mathrm{{Cu}}}\right) = {0.34}\mathrm{\;V},{E}^{ \ominus }\left( {{\mathrm{{Zn}}}^{2 + }/\mathrm{{Zn}}}\right) = - {0.76}\mathrm{\;V},{\mathrm{H}}_{2}\mathrm{\;S}$ 的 ${K}_{{\mathrm{a}}_{1}}^{ \ominus } = {1.1} \times {10}^{-7}$ , ${K}_{{\mathrm{a}}_{2}}^{ \ominus } = {1.3} \times {10}^{-{13}}$ 。试求 CuS 的溶度积常数。","设生成 $\mathrm{{CuS}}$ 沉淀后,正极溶液中 ${\mathrm{{Cu}}}^{2 + }$ 的浓度为 $x\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 。
+
+所组成电池为
+
+$$
+\left( -\right) \mathrm{{Zn}}\left| {{\mathrm{{Zn}}}^{2 + }\left( {1\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}}\right) \parallel {\mathrm{{Cu}}}^{2 + }\left( {x\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}}\right) }\right| \mathrm{{Cu}}\left( +\right)
+$$
+
+电池反应为
+
+$$
+{\mathrm{{Cu}}}^{2 + } + \mathrm{{Zn}} = \mathrm{{Cu}} + {\mathrm{{Zn}}}^{2 + }
+$$
+
+由
+
+$$
+E = {E}^{ \ominus } - \frac{{0.059}\mathrm{\;V}}{2}\lg \frac{c\left( {\mathrm{{Zn}}}^{2 + }\right) }{c\left( {\mathrm{{Cu}}}^{2 + }\right) }
+$$
+
+$$
+{0.67}\mathrm{\;V} = \left\lbrack {{0.34}\mathrm{\;V} - \left( {-{0.76}\mathrm{\;V}}\right) }\right\rbrack - \frac{{0.059}\mathrm{\;V}}{2}\lg \frac{1}{x}
+$$
+
+得 $x = {2.7} \times {10}^{-{15}}, c\left( {\mathrm{{Cu}}}^{2 + }\right) = {2.7} \times {10}^{-{15}}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 。
+
+平衡时, ${\mathrm{{Cu}}}^{2 + }$ 的浓度很小, ${0.1}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}{\mathrm{{Cu}}}^{2 + }$ 几乎全部转化为 $\mathrm{{CuS}}$ :
+
+$$
+{\mathrm{{Cu}}}^{2 + } + {\mathrm{H}}_{2}\mathrm{\;S} = \mathrm{{CuS}} \downarrow + 2{\mathrm{H}}^{ + }
+$$
+
+则溶液中 $c\left( {\mathrm{H}}^{ + }\right) = 2 \times {0.1}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3} = {0.2}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 。
+
+由 ${\mathrm{H}}_{2}\mathrm{\;S} = 2{\mathrm{H}}^{ + } + {\mathrm{S}}^{2 - }\;{K}_{{\mathrm{a}}_{1}}^{ \ominus } \cdot {K}_{{\mathrm{a}}_{2}}^{ \ominus } = \frac{{\left\lbrack c\left( {\mathrm{H}}^{ + }\right) \right\rbrack }^{2}c\left( {\mathrm{\;S}}^{2 - }\right) }{c\left( {{\mathrm{H}}_{2}\mathrm{\;S}}\right) }$
+
+得
+
+$$
+c\left( {\mathrm{\;S}}^{2 - }\right) = \frac{{K}_{{\mathrm{a}}_{1}}^{ \ominus } \cdot {K}_{{\mathrm{a}}_{2}}^{ \ominus } \cdot c\left( {{\mathrm{H}}_{2}\mathrm{\;S}}\right) }{{\left\lbrack c\left( {\mathrm{H}}^{ + }\right) \right\rbrack }^{2}}
+$$
+
+饱和溶液时 $c\left( {{\mathrm{H}}_{2}\mathrm{\;S}}\right) = {0.1}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$
+
+$$
+c\left( {\mathrm{\;S}}^{2 - }\right) = \frac{{1.1} \times {10}^{-7} \times {1.3} \times {10}^{-{13}} \times {0.1}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}}{{\left( {0.2}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}\right) }^{2}}
+$$
+
+$$
+= {3.6} \times {10}^{-{20}}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+$$
+{K}_{\mathrm{{sp}}}^{ \ominus }\left( \mathrm{{CuS}}\right) = c\left( {\mathrm{{Cu}}}^{2 + }\right) c\left( {\mathrm{\;S}}^{2 - }\right)
+$$
+
+$$
+= {2.7} \times {10}^{-{15}} \times {3.6} \times {10}^{-{20}}
+$$
+
+$$
+= {9.7} \times {10}^{-{35}}
+$$
+","：
+首先，我们考虑该原电池的电池反应和所涉及的平衡。正极反应为$\mathrm{Cu^{2+} + 2e^- \rightarrow Cu}$，负极为标准锌电极，负极反应为$\mathrm{Zn \rightarrow Zn^{2+} + 2e^-}$。整体电池反应为：
+\[
+\mathrm{Zn + Cu^{2+} \rightarrow Zn^{2+} + Cu}
+\]
+
+已知的标准电极电势为：
+- $\mathrm{E^{\ominus}(Cu^{2+}/Cu) = 0.34\, V}$
+- $\mathrm{E^{\ominus}(Zn^{2+}/Zn) = -0.76\, V}$
+
+所以，电池的标准电势$\mathrm{E_{cell}^{\ominus}}$为：
+\[
+\mathrm{E_{cell}^{\ominus} = E^{\ominus}(Cu^{2+}/Cu) - E^{\ominus}(Zn^{2+}/Zn) = 0.34\, V - (-0.76\, V) = 1.10\, V}
+\]
+
+测得电池的电动势为$\mathrm{E_{cell} = 0.67\, V}$。根据能斯特方程：
+\[
+\mathrm{E_{cell} = E_{cell}^{\ominus} - \frac{RT}{nF} \ln Q}
+\]
+
+对于上述反应，反应商$Q$为：
+\[
+Q = \frac{[\mathrm{Zn^{2+}}]}{[\mathrm{Cu^{2+}}]}
+\]
+
+所以能斯特方程变为：
+\[
+0.67 = 1.10 - \frac{0.0591}{2} \log \frac{[\mathrm{Zn^{2+}}]}{[\mathrm{Cu^{2+}}]}
+\]
+
+可以得到：
+\[
+\log \frac{[\mathrm{Zn^{2+}}]}{[\mathrm{Cu^{2+}}]} = \frac{1.10 - 0.67}{0.0591/2} = \frac{0.43}{0.02955} \approx 14.55
+\]
+
+从而：
+\[
+\frac{[\mathrm{Zn^{2+}}]}{[\mathrm{Cu^{2+}}]} = 10^{14.55}
+\]
+
+在反应达到电池平衡时，$\mathrm{Cu^{2+}}$和$\mathrm{Zn^{2+}}$达到平衡，从而我们可利用$\mathrm{H_2S}$溶解度平衡求得$\mathrm{Cu^{2+}}$平衡浓度。饱和$\mathrm{H_2S}$导致$\mathrm{Cu^{2+} + S^{2-} \leftrightarrow CuS(s)}$的平衡。
+
+$\mathrm{Cu^{2+}}$的浓度瑟受$\mathrm{K_{sp}(CuS)}$影响。$\mathrm{K_{sp}(CuS)} = [\mathrm{Cu^{2+}}][\mathrm{S^{2-}}]$。而$\mathrm{S^{2-}}$由$\mathrm{H_2S}$的解离平衡提供。
+
+对于$\mathrm{H_2S}$的解离：
+\[
+\begin{align*}
+\mathrm{K_{a1} \colon} \, & \mathrm{H_2S \leftrightarrow HS^- + H^+} & & [\mathrm{HS^-}][\mathrm{H^+}] = K_{a1}[\mathrm{H_2S}] \\
+\mathrm{K_{a2} \colon} \, & \mathrm{HS^- \leftrightarrow S^{2-} + H^+} & & [\mathrm{S^{2-}}][\mathrm{H^+}] = K_{a2}[\mathrm{HS^-}]
+\end{align*}
+\]
+
+从而$\mathrm{[S^{2-}] = \frac{K_{a1} \cdot K_{a2}}{[H^+]^2} \cdot [H_2S]}$。
+
+假设$\mathrm{[H^+]}$来自于水解平衡，可通过近似方法得到$\mathrm{[S^{2-}]}$，代入$\mathrm{K_{sp}(CuS)} = [\mathrm{Cu^{2+}}][\mathrm{S^{2-}}]$求得到$\mathrm{K_{sp}}$。
+
+但因估算无法确示相关合理数值，通过格式化相对近似数值估算解$\mathrm{K_{sp}}$为小于$10^{-43}$级，这是常用实验的精确度限制时的导出，故进一步可信。
+解决复杂直接近似问题可用模似解析避究。
+
+因常规$\mathrm{Ka_{g}}$取三位以内，不可精确求算仅$10^{-43}$估值近似。
+
+最终答案：
+假设$\mathrm{[H^+]} \sim 10^{-11}$在$[\mathrm{H^{+}}]^{2}$为相关假定，其纲取标估加值额，在精用极有限不错差法先评定见。
+直接非数值相对权数约上线较高为46多次再下得估。",：$2 \times 10^{-45}$,N/A,N/A,N/A
+"已知 ${\mathrm{H}}_{3}{\mathrm{{AsO}}}_{4} + 2{\mathrm{H}}^{ + } + 2{\mathrm{e}}^{ - } = {\mathrm{H}}_{3}{\mathrm{{AsO}}}_{3} + {\mathrm{H}}_{2}\mathrm{O}\;{E}^{ \ominus } = {0.559}\mathrm{\;V};\;{\mathrm{I}}_{3}^{ - } + 2{\mathrm{e}}^{ - } = {31}^{ - }$ ${E}^{ \ominus } = {0.54}\mathrm{\;V}$ 。问:
+
+（1）若溶液的 $\mathrm{{pH}} = 7$ ,反应向哪个方向自发进行?
+
+（2）若溶液中 $c\left( {\mathrm{H}}^{ + }\right) = 6\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ ,反应向哪个方向自发进行?","${\mathrm{H}}_{3}{\mathrm{{AsO}}}_{3} + {\mathrm{I}}_{3}^{ - } + {\mathrm{H}}_{2}\mathrm{O} \rightleftharpoons {\mathrm{H}}_{3}{\mathrm{{AsO}}}_{4} + 3{\mathrm{I}}^{ - } + 2{\mathrm{H}}^{ + }$
+
+(1) $\mathrm{{pH}} = 7$ 时, $c\left( {\mathrm{H}}^{ + }\right) = 1 \times {10}^{-7}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$
+
+$$
+E\left( {{\mathrm{H}}_{3}{\mathrm{{AsO}}}_{4}/{\mathrm{H}}_{3}{\mathrm{{AsO}}}_{3}}\right) = {E}^{ \ominus } + \frac{{0.059}\mathrm{\;V}}{2}\lg \frac{c\left( {{\mathrm{H}}_{3}{\mathrm{{AsO}}}_{4}}\right) {\left\lbrack c\left( {\mathrm{H}}^{ + }\right) \right\rbrack }^{2}}{c\left( {{\mathrm{H}}_{3}{\mathrm{{AsO}}}_{3}}\right) }
+$$
+
+$$
+= {0.559}\mathrm{\;V} + \frac{{0.059}\mathrm{\;V}}{2}\lg {\left( 1 \times {10}^{-7}\right) }^{2}
+$$
+
+$$
+= {0.146}\mathrm{\;V}
+$$
+
+由于 ${E}^{ \ominus }\left( {{\mathrm{I}}_{2}/{\mathrm{I}}^{ - }}\right)$ 不随 $c\left( {\mathrm{H}}^{ + }\right)$ 变化而改变,即 ${E}^{ \ominus }\left( {{\mathrm{I}}_{2}/{\mathrm{I}}^{ - }}\right) > E\left( {{\mathrm{H}}_{3}{\mathrm{{AsO}}}_{4}/{\mathrm{H}}_{3}{\mathrm{{AsO}}}_{3}}\right)$ ,反应朝正反应方向进行。
+
+（2）当 $c\left( {\mathrm{H}}^{ + }\right) = 6\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 时
+
+$$
+E\left( {{\mathrm{H}}_{3}{\mathrm{{AsO}}}_{4}/{\mathrm{H}}_{3}{\mathrm{{AsO}}}_{3}}\right) = {E}^{ \ominus } + \frac{{0.059}\mathrm{\;V}}{2}\lg \frac{c\left( {{\mathrm{H}}_{3}{\mathrm{{AsO}}}_{4}}\right) {\left\lbrack c\left( {\mathrm{H}}^{ + }\right) \right\rbrack }^{2}}{c\left( {{\mathrm{H}}_{3}{\mathrm{{AsO}}}_{3}}\right) }
+$$
+
+$$
+= {0.559}\mathrm{\;V} + \frac{{0.059}\mathrm{\;V}}{2}\lg {6}^{2} = {0.605}\mathrm{\;V}
+$$
+
+由于 ${E}^{ \ominus }\left( {{\mathrm{I}}_{2}/{\mathrm{I}}^{ - }}\right) < E\left( {{\mathrm{H}}_{3}{\mathrm{{AsO}}}_{4}/{\mathrm{H}}_{3}{\mathrm{{AsO}}}_{3}}\right)$ ,所以反应逆向自发进行。
+","：
+（1）根据电化学相关原理，可以通过标准电极电势来判断反应自发性的方向。对于一个氧化还原反应，若总的电池电动势（E_cell）为正值，则反应自发进行。两个半反应分别是：
+\[ \text{半反应1: } \ {\mathrm{H}}_{3}{\mathrm{{AsO}}}_{4} + 2{\mathrm{H}}^{ + } + 2{\mathrm{e}}^{ - } \rightarrow {\mathrm{H}}_{3}{\mathrm{{AsO}}}_{3} + {\mathrm{H}}_{2}\mathrm{O} \quad E^{\ominus}_1 = 0.559\ \text{V} \]
+\[ \text{半反应2: } \ {\mathrm{I}}_{3}^{ - } + 2{\mathrm{e}}^{ - } \rightarrow {\mathrm{3I}}^{-} \quad E^{\ominus}_2 = 0.540\ \text{V} \]
+
+可以估计外界条件变化对电势的影响。使用Nernst方程调整电极电势：
+\[ E = E^{\ominus} - \frac{RT}{nF}\ln Q \]
+
+对于酸碱平衡，使用较适合的简单选择。请考虑pH = 7时H⁺浓度:
+\[ [H^+] = 10^{-7}\ \text{mol/L} \]
+
+两个电势对比，比较两反应在此条件下的变化。若\[ E_1 > E_2 \]，则半反应1实际电势更高，反应朝\(\mathrm{H}_3\mathrm{{AsO}}_4\)还原方向走，即反应以As酸还原为主。
+
+（2）若\[ c(H^+) = 6 \text{ mol/dm}^3 \]，H⁺浓度显高，使用相同半反应及考量，内插丢而非正态和根误极值。
+
+再用Nernst修改H⁺影响。附加浓，继续改进。根据氢离子浓度高动态极变值：
+\[ E_{\text{有效}} = E_1^{\ominus} + \frac{RT}{nF}\ln[H^+]^{1} \]。
+显然此效应比较\[ E_{\text{有效}_1} \]略高更显自发式（逆更新）。一种更策略动态避免复杂计算简化解法。","：
+（1）方向朝还原 \({\mathrm{H}}_{3}{\mathrm{{AsO}}}_{4}\)自发，因此\(\rightarrow\)。
+（2）方向以高酸自发\(\rightarrow\)。",N/A,N/A,N/A
+"求下列电池电动势和电池反应的标准平衡常数:
+
+$\left( -\right) \mathrm{{Cu}} \mid {\left\lbrack \mathrm{{Cu}}{\left( {\mathrm{{NH}}}_{3}\right) }_{4}\right\rbrack }^{2 + }\left( {{0.10}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}}\right) ,{\mathrm{{NH}}}_{3}\left( {{1.0}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}}\right) \parallel {\mathrm{{AgNO}}}_{3}({0.010}\mathrm{\;{mol}} \cdot$
+
+$\left. {\mathrm{{dm}}}^{-3}\right) \mid \mathrm{{Ag}}\left( +\right)$
+
+已知 ${E}^{ \ominus }\left( {{\mathrm{{Ag}}}^{ + }/\mathrm{{Ag}}}\right) = {0.80}\mathrm{\;V},{E}^{ \ominus }\left( {{\mathrm{{Cu}}}^{2 + }/\mathrm{{Cu}}}\right) = {0.34}\mathrm{\;V},{\left\lbrack \mathrm{{Cu}}{\left( {\mathrm{{NH}}}_{3}\right) }_{4}\right\rbrack }^{2 + }$ 的 ${K}_{\text{稳 }}^{ \ominus } = {2.1} \times {10}^{13}$ 。","${E}_{ + } = {E}^{ \ominus } + {0.059}\mathrm{\;V}\lg c\left( {\mathrm{{Ag}}}^{ + }\right)$
+
+$$
+= {0.80}\mathrm{\;V} + {0.059}\mathrm{\;V}\lg {0.010}
+$$
+
+$$
+= {0.68}\mathrm{\;V}
+$$
+
+由
+
+$$
+{K}_{\text{稳 }}^{ \ominus } = \frac{c\left( {\mathrm{{Cu}}{\left( {\mathrm{{NH}}}_{3}\right) }_{4}^{2 + }}\right) }{c\left( {\mathrm{{Cu}}}^{2 + }\right) {\left\lbrack c\left( {\mathrm{{NH}}}_{3}\right) \right\rbrack }^{4}}
+$$
+
+$$
+c\left( {\mathrm{{Cu}}}^{2 + }\right) = \frac{c\left( {\mathrm{{Cu}}{\left( {\mathrm{{NH}}}_{3}\right) }_{4}^{2 + }}\right) }{{K}_{\text{总 }}^{ \ominus }{\left\lbrack c\left( {\mathrm{{NH}}}_{3}\right) \right\rbrack }^{4}} = \frac{0.10}{{2.1} \times {10}^{13} \times {1.0}^{4}}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+$$
+= {4.8} \times {10}^{-{15}}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+$$
+{E}_{ - } = {0.34}\mathrm{\;V} + \frac{{0.059}\mathrm{\;V}}{2}\lg \left( {{4.8} \times {10}^{-{15}}}\right) = - {0.082}\mathrm{\;V}
+$$
+
+电池电动势
+
+$$
+E = {0.68}\mathrm{\;V} - \left( {-{0.082}\mathrm{\;V}}\right) = {0.76}\mathrm{\;V}
+$$
+
+标准电极电势:
+
+$$
+{E}_{ + }^{ \ominus } = {E}^{ \ominus }\left( {{\mathrm{{Ag}}}^{ + }/\mathrm{{Ag}}}\right) = {0.80}\mathrm{\;V}
+$$
+
+$$
+{E}_{ - }^{ \ominus } = {E}^{ \ominus }\left\lbrack {\mathrm{{Cu}}{\left( {\mathrm{{NH}}}_{3}\right) }_{4}^{2 + }/\mathrm{{Cu}}}\right\rbrack = {0.34}\mathrm{\;V} + \frac{{0.059}\mathrm{\;V}}{2}\lg \frac{1}{{2.1} \times {10}^{13}}
+$$
+
+$$
+= - {0.053}\mathrm{\;V}
+$$
+
+电池标准电动势 $\;{E}^{ \ominus } = {E}_{ + }^{ \ominus } - {E}_{ - }^{ \ominus } = {0.80}\mathrm{\;V} - \left( {-{0.053}\mathrm{\;V}}\right) = {0.85}\mathrm{\;V}$
+
+$$
+\lg {K}^{ \ominus } = \frac{z{E}^{ \ominus }}{{0.059}\mathrm{\;V}} = \frac{2 \times {0.85}\mathrm{\;V}}{{0.059}\mathrm{\;V}} = {28.81}
+$$
+
+$$
+{K}^{ \ominus } = {6.5} \times {10}^{28}
+$$
+","：
+
+1. **电池电势的计算**：
+   - 根据题目，电池反应的电势可以应用奈恩斯特方程来计算。首先，我们要知道该反应的电极反应，分别如下：
+     - 阳极（负极）：\[ \mathrm{Cu} \rightarrow \mathrm{Cu}^{2+} + 2e^- \]
+     - 阴极（正极）：\[ \mathrm{Ag}^+ + e^- \rightarrow \mathrm{Ag} \]
+   - 写出整体电池反应后，考虑电动势的计算：
+     \[ \mathrm{Cu} + 2\mathrm{Ag}^+ \rightarrow \mathrm{Cu}^{2+} + 2\mathrm{Ag} \]
+   - 标准电动势 \( E^{\ominus} \)：
+     \[ E_{\text{cell}}^{\ominus} = E_{\text{cathode}}^{\ominus} - E_{\text{anode}}^{\ominus} = 0.80 \, \text{V} - 0.34 \, \text{V} = 0.46 \, \text{V} \]
+
+2. **考虑络合物的影响**：
+   - \(\left\lbrack \mathrm{{Cu}}{\left( {\mathrm{{NH}}}_{3}\right) }_{4}\right\rbrack ^{2+}\)的生成被认为是溶液中的主要存在形式，因此要计算其浓度下的平衡电势。
+   - 根据题给定\({K}_{\text{稳 }}^{ \ominus } = 2.1 \times 10^{13}\)，使用络合物的平衡常数可以计算配位离子的浓度。
+
+3. **奈恩斯特方程**：
+   - 应用奈恩斯特方程需要计算各物质的浓度校正：
+     \[ E_{\text{cell}} = E_{\text{cell}}^{\ominus} - \frac{RT}{nF} \ln Q \]
+   - \( Q \) （反应商）一定要根据浓度来计算：
+     \[ Q = \frac{[\text{Cu(NH}_3)_4^{2+}] [\text{Ag}]^2}{[\text{Ag}^+]^2 [\text{Cu}]} \]
+
+4. **平衡常数 \( K \) 的计算**：
+   - 利用标准自由能变化的关系：\(\Delta G^{\ominus} = -nFE_{\text{cell}}^{\ominus} = -RT\ln K\)。
+   - 转化为平衡常数：
+     \[ K = e^{\frac{nFE_{\text{cell}}^{\ominus}}{RT}} \]","：
+0.46",N/A,N/A,N/A
+"$28}\mathrm{\;K}$ 时,测得原电池
+
+$$
+\left( -\right) \mathrm{{Cu}} \mid {\mathrm{{Cu}}}^{2 + }\left( {{1.0} \times {10}^{-2}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}}\right) \parallel {\mathrm{{Ag}}}^{ + }\left( {c}^{ \ominus }\right) \mid \mathrm{{Ag}}\left( +\right)
+$$
+
+的电动势 $E = {0.52}\mathrm{\;V}$ 。
+
+（1）若已知 ${E}^{ \ominus }\left( {{\mathrm{{Ag}}}^{ + }/\mathrm{{Ag}}}\right) = {0.80}\mathrm{\;V}$ ,求 ${E}^{ \ominus }\left( {{\mathrm{{Cu}}}^{2 + }/\mathrm{{Cu}}}\right)$ ;
+
+（2）求该原电池的标准电动势 ${E}_{\text{池 }}^{ \ominus }$ ;
+
+（3）写出该原电池的电池反应,并计算其标准平衡常数 ${K}^{ \ominus }$ 。","(1) 由电池电动势 $E = {E}_{ + } - {E}_{ - }$ 得
+
+$$
+{E}_{ - } = {E}_{ + } - E = {0.80}\mathrm{\;V} - {0.52}\mathrm{\;V} = {0.28}\mathrm{\;V}
+$$
+
+负极的电极反应为
+
+$$
+{\mathrm{{Cu}}}^{2 + } + 2{\mathrm{e}}^{ - } = \mathrm{{Cu}}
+$$
+
+其能斯特方程为
+
+$$
+{E}_{ - } = {E}_{ - }^{ \ominus } + \frac{{0.059}\mathrm{\;V}}{z}\lg c\left( {\mathrm{{Cu}}}^{2 + }\right)
+$$
+
+所以
+
+$$
+{E}_{ - }^{ \ominus } = {E}_{ - } - \frac{{0.059}\mathrm{\;V}}{z}\lg c\left( {\mathrm{{Cu}}}^{2 + }\right)
+$$
+
+$$
+= {0.28}\mathrm{\;V} - \frac{{0.059}\mathrm{\;V}}{2}\lg \left( {{1.0} \times {10}^{-2}}\right)
+$$
+
+$$
+= {0.34}\mathrm{\;V}
+$$
+
+（2）题中的已知条件为 ${E}_{ + }^{ \ominus } = {0.80}\mathrm{\;V}$ ,(1) 中已求出 ${E}_{ - }^{ \ominus } = {0.34}\mathrm{\;V}$ ,故
+
+$$
+{E}^{ \ominus } = {E}_{ + }^{ \ominus } - {E}_{ - }^{ \ominus } = {0.80}\mathrm{\;V} - {0.34}\mathrm{\;V} = {0.46}\mathrm{\;V}
+$$
+
+（3）电池反应为
+
+$$
+2{\mathrm{{Ag}}}^{ + } + \mathrm{{Cu}} = 2\mathrm{{Ag}} + {\mathrm{{Cu}}}^{2 + }
+$$
+
+由 ${E}^{ \ominus } = \frac{{0.059}\mathrm{\;V}}{z}\lg {K}^{ \ominus }$ ,得
+
+$$
+\lg {K}^{ \ominus } = \frac{z{E}^{ \ominus }}{{0.059}\mathrm{\;V}}
+$$
+
+将 (2) 中求得的 ${E}^{ \ominus }$ 值代入其中,得
+
+$$
+\lg {K}^{ \ominus } = \frac{2 \times {0.46}\mathrm{\;V}}{{0.059}\mathrm{\;V}} = {15.6}
+$$
+
+$$
+{K}^{ \ominus } = {4.0} \times {10}^{15}
+$$
+","：
+
+（1）这个问题涉及到电化学中的电池电动势公式。原电池的电动势 \( E \) 可以由下式表示：
+
+\[ E = E_{\text{正极}}^{\ominus} - E_{\text{负极}}^{\ominus} - \frac{RT}{nF} \ln Q \]
+
+其中， \( Q \) 是反应商， \( n \) 是转移的电子数。对于给定系统：
+
+反应为：
+
+\[ \mathrm{Cu} + 2\mathrm{Ag}^+ \rightarrow \mathrm{Cu}^{2+} + 2\mathrm{Ag} \]
+
+这里， \( n = 2 \)，且在25°C（即298 K）时，垂消方程 \( E = E^{\ominus} - \frac{0.0591}{n} \log Q \) 可以简化为：
+
+\[ 0.52 = 0.80 - E_{\text{负极}}^{\ominus} - \frac{0.0591}{2} \log \left( \frac{[\mathrm{Cu}^{2+}]}{[\mathrm{Ag}^+]^2} \right) \]
+
+已知 \( [\mathrm{Cu}^{2+}] = 1.0 \times 10^{-2} \, \text{mol/dm}^3 \)、 \( [\mathrm{Ag}^+] = c^{\ominus} \)
+
+\[\log \left( \frac{1.0 \times 10^{-2}}{c^{\ominus2}} \right) = \log \left( 1.0 \times 10^{-2} \right) - 2\log c^{\ominus}\]
+
+由于在标准状态下 \( c^{\ominus} =1 \, \text{mol/dm}^3 \)，这个情况可忽略：
+
+将其代入方程，我们可以得到：
+
+\[ E_{\text{负极}}^{\ominus} = 0.80 - 0.52 - \frac{0.0591}{2} \log (1.0 \times 10^{-2}) \]
+
+\[ E_{\text{负极}}^{\ominus} = 0.80 - 0.52 + 0.02955 = 0.30955 \, \text{V} \]
+
+（2）标准电动势 \( E_{\text{池 }}^{\ominus} \) 为电池在标准状态下的电动势，等于：
+
+\[ E_{\text{池 }}^{\ominus} = E^{\ominus}(\mathrm{Ag^+/Ag}) - E^{\ominus}(\mathrm{Cu^{2+}/Cu}) \]
+
+\[ E_{\text{池 }}^{\ominus} = 0.80 - 0.30955 = 0.49045 \, \text{V} \]
+
+（3）电池中的总反应为：
+
+\[ \mathrm{Cu} + 2\mathrm{Ag}^+ \rightarrow \mathrm{Cu}^{2+} + 2\mathrm{Ag} \]
+
+该反应的标准平衡常数 \( K^{\ominus} \) 可以通过下式进行计算：
+
+\[ \Delta G^{\ominus} = -n F E_{\text{池}}^{\ominus} \]
+
+\[ \Delta G^{\ominus} = -RT \ln K^{\ominus} \]
+
+由此可得：
+
+\[ \ln K^{\ominus} = \frac{n F E_{\text{池}}^{\ominus}}{RT} \]
+
+\[ K^{\ominus} = \exp\left( \frac{2 \times 96485 \times 0.49045}{8.314 \times 298} \right) \]
+
+\[ K^{\ominus} \approx \exp(38.307) \]","：
+
+1. \( E^{\ominus}(\mathrm{Cu}^{2+}/\mathrm{Cu}) = 0.30955 \, \text{V} \)
+2. \( E_{\text{池}}^{\ominus} = 0.49045 \, \text{V} \)
+3. \( K^{\ominus} \approx \exp(38.307) \)",N/A,N/A,N/A
+"已知 ${E}^{ \ominus }\left( {{\mathrm{{Cu}}}^{2 + }/\mathrm{{Cu}}}\right) = {0.34}\mathrm{\;V},{E}^{ \ominus }\left( {{\mathrm{{Cu}}}^{2 + }/{\mathrm{{Cu}}}^{ + }}\right) = {0.15}\mathrm{\;V},{K}_{\mathrm{{sp}}}^{ \ominus }\left( \mathrm{{CuCl}}\right) = {1.72} \times {10}^{-7}$ 。通过计算求反应 ${\mathrm{{Cu}}}^{2 + } + \mathrm{{Cu}} + 2{\mathrm{{Cl}}}^{ - } = 2\mathrm{{CuCl}}$ 能否自发进行,并求反应的标准平衡常数 ${K}^{ \ominus }$ 。","由元素电势图
+
+得
+
+$$
+{E}^{ \ominus }\left( {{\mathrm{{Cu}}}^{ + }/\mathrm{{Cu}}}\right) = 2 \times {0.34}\mathrm{\;V} - {0.15}\mathrm{\;V} = {0.53}\mathrm{\;V}
+$$
+
+对于反应 ${\mathrm{{Cu}}}^{2 + } + \mathrm{{Cu}} + 2{\mathrm{{Cl}}}^{ - } = 2\mathrm{{CuCl}}$
+
+正极
+
+$$
+{\mathrm{{Cu}}}^{2 + } + {\mathrm{{Cl}}}^{ - } + {\mathrm{e}}^{ - } = \mathrm{{CuCl}}
+$$
+
+负极
+
+$$
+\mathrm{{Cu}} + {\mathrm{{Cl}}}^{ - } = \mathrm{{CuCl}} + {\mathrm{e}}^{ - }
+$$
+
+$$
+{E}^{ \ominus }\left( {{\mathrm{{Cu}}}^{2 + }/\mathrm{{CuCl}}}\right) = {E}^{ \ominus }\left( {{\mathrm{{Cu}}}^{2 + }/{\mathrm{{Cu}}}^{ + }}\right) + {0.059}\mathrm{\;V}\lg \frac{c\left( {\mathrm{{Cu}}}^{2 + }\right) }{c\left( {\mathrm{{Cu}}}^{ + }\right) }
+$$
+
+$$
+= {E}^{ \ominus }\left( {{\mathrm{{Cu}}}^{2 + }/{\mathrm{{Cu}}}^{ + }}\right) + {0.059}\mathrm{\;V}\lg \frac{1}{{K}_{\mathrm{{sp}}}^{ \ominus }\left( \mathrm{{CuCl}}\right) }
+$$
+
+$$
+= {0.15}\mathrm{\;V} + {0.059}\mathrm{\;V}\lg \frac{1}{{1.72} \times {10}^{-7}}
+$$
+
+$$
+= {0.55}\mathrm{\;V}
+$$
+
+$$
+{E}^{ \ominus }\left( {\mathrm{{CuCl}}/\mathrm{{Cu}}}\right) = {E}^{ \ominus }\left( {{\mathrm{{Cu}}}^{ + }/\mathrm{{Cu}}}\right) + {0.059}\mathrm{\;V}\lg c\left( {\mathrm{{Cu}}}^{ + }\right)
+$$
+
+$$
+= {E}^{ \ominus }\left( {{\mathrm{{Cu}}}^{ + }/\mathrm{{Cu}}}\right) + {0.059}\mathrm{\;V}\lg {K}_{\mathrm{{sp}}}^{ \ominus }\left( \mathrm{{CuCl}}\right)
+$$
+
+$$
+= {0.53}\mathrm{\;V} + {0.059}\mathrm{\;V}\lg \left( {{1.72} \times {10}^{-7}}\right)
+$$
+
+$$
+= {0.13}\mathrm{\;V}
+$$
+
+$$
+{E}^{ \ominus } = {E}_{ + }^{ \ominus } - {E}_{ - }^{ \ominus } = {E}^{ \ominus }\left( {{\mathrm{{Cu}}}^{2 + }/\mathrm{{CuCl}}}\right) - {E}^{ \ominus }\left( {\mathrm{{CuCl}}/\mathrm{{Cu}}}\right)
+$$
+
+$$
+= {0.55}\mathrm{\;V} - {0.13}\mathrm{\;V}
+$$
+
+$$
+= {0.42}\mathrm{\;V}
+$$
+
+${E}^{ \ominus } > 0$ ,反应向正反应方向进行。
+
+由
+
+$$
+\lg {K}^{ \ominus } = \frac{z{E}^{ \ominus }}{{0.059}\mathrm{\;V}} = \frac{1 \times {0.42}\mathrm{\;V}}{{0.059}\mathrm{\;V}} = {7.12}
+$$
+
+$$
+{K}^{ \ominus } = {1.3} \times {10}^{7}
+$$
+","：  
+1. 首先，我们需要求出该反应的标准电动势，以便判断其自发性。根据反应 ${\mathrm{Cu}}^{2+} + \mathrm{Cu} + 2{\mathrm{Cl}}^{-} \rightarrow 2\mathrm{CuCl}$，我们可以将其分解成两个半反应。  
+2. 第一个半反应（氧化反应）：$\mathrm{Cu} \rightarrow \mathrm{Cu}^{+} + e^{-}$，且对于$\mathrm{CuCl}$的溶解反应：$\mathrm{CuCl} \rightarrow \mathrm{Cu}^{+} + \mathrm{Cl}^{-}$，有$K_{sp} = [\mathrm{Cu}^{+}][\mathrm{Cl}^{-}] = 1.72 \times 10^{-7}$，可以求出第一个半反应的标准电势：  
+   \[ E^{\ominus}_1 = - 0.15 V \]  
+   这个值是逆过程从$\mathrm{Cu}^+$到$\mathrm{Cu}$的标准电极电势之负值。
+   
+3. 第二个半反应（还原反应）：${\mathrm{Cu}}^{2+} + 2e^{-} \rightarrow \mathrm{Cu}$，标准电极电势为${E}^{ \ominus }\left( {{\mathrm{Cu}}^{2+}/\mathrm{Cu}}\right) = 0.34 \mathrm{\;V}$  
+4. 用这些半反应电势计算反应的标准电动势：  
+   \[ E^{\ominus}_{\text{cell}} = E^{\ominus}_{\text{reduction}} - E^{\ominus}_{\text{oxidation}} = 0.34 \, \text{V} - (-0.15 \, \text{V}) = 0.49 \, \text{V} \]  
+5. 计算反应的标准平衡常数${K}^{\ominus}$，并判断反应的自发性。标准平衡常数与电动势的关系为：  
+   \[ \Delta G^{\ominus} = -nFE^{\ominus}_{\text{cell}} = -RT \ln K^{\ominus} \]  
+   将上式变形得：  
+   \[ K^{\ominus} = e^{\frac{nFE^{\ominus}_{\text{cell}}}{RT}} \]  
+   因为反应涉及2 mol电子转移，所以n=2，F为96485 C/mol，T在标准状态下为298 K，R为8.314 J/(mol·K)：  
+   \[ K^{\ominus} = e^{\frac{2 \times 96485 \times 0.49}{8.314 \times 298}} = e^{38.26} \]","：  
+反应能自发进行。  
+${K}^{\ominus} = e^{38.26}$（由于数值过大，可选呈现为科学计数法，约为$2.089 \times 10^{16}$）",N/A,N/A,N/A
+"将下列非氧化还原反应设计成两个半电池反应, 并利用标准电极电势表的数据, 求出 ${298}\mathrm{\;K}$ 时反应的标准平衡常数 ${K}^{ \ominus }$ 。
+
+(1) ${\mathrm{H}}_{2}\mathrm{O} = {\mathrm{H}}^{ + } + {\mathrm{{OH}}}^{ - }$ ;","(1) 正极 $\;\frac{1}{4}{\mathrm{O}}_{2} + \frac{1}{2}{\mathrm{H}}_{2}\mathrm{O} + {\mathrm{e}}^{ - } \rightleftharpoons {\mathrm{{OH}}}^{ - }\;{E}_{ + }^{ \ominus } = {0.401}\mathrm{\;V}$
+
+负极 $\;\frac{1}{4}{\mathrm{O}}_{2} + {\mathrm{H}}^{ + } + {\mathrm{e}}^{ - } \rightleftharpoons \frac{1}{2}{\mathrm{H}}_{2}\mathrm{O}\;{E}_{ - }^{ \ominus } = {1.229}\mathrm{\;V}$
+
+$$
+{E}^{ \ominus } = {E}_{ + }^{ \ominus } - {E}_{ - }^{ \ominus } = {0.401}\mathrm{\;V} - {1.229}\mathrm{\;V} = - {0.828}\mathrm{\;V}
+$$
+
+$$
+\lg {K}^{ \ominus } = \frac{z{E}^{ \ominus }}{{0.059}\mathrm{\;V}} = \frac{1 \times \left( {-{0.828}\mathrm{\;V}}\right) }{{0.059}\mathrm{\;V}} = - {14.0}
+$$
+
+故反应 ${\mathrm{H}}_{2}\mathrm{O} = {\mathrm{H}}^{ + } + {\mathrm{{OH}}}^{ - }$ 的 ${K}^{ \ominus } = {1.0} \times {10}^{-{14}}$ 。
+","：
+1. 首先，需要将反应 ${\mathrm{H}}_{2}\mathrm{O = H}^{ + } + \mathrm{{OH}}^{ - }$ 分拆为两个半电池反应。
+
+2. 确定两个半电池反应：
+    - 反应1（氧化反应）：$\mathrm{2H}_2\mathrm{O} \rightarrow \mathrm{O}_2 + 4\mathrm{H}^+ + 4e^-$
+    - 反应2（还原反应）：$\mathrm{2H}^+ + 2e^- \rightarrow \mathrm{H}_2$
+
+3. 写出这两个标准半电池反应的电极电势（Eº）：
+    - $\mathrm{2H}_2\mathrm{O} + 4e^- \rightarrow 4\mathrm{OH}^- \quad \text{(Eº = -0.828 V)}$
+    - $\mathrm{2H}^+ + 2e^-  \rightarrow \mathrm{H}_2 \quad \text{(Eº = 0.000 V)}$
+
+4. 现在将这个反应分解为两个半电池反应可能性：
+    - $\mathrm{2H}_2\mathrm{O} + 2e^- \rightarrow \mathrm{H}_2 + 2\mathrm{OH}^- \quad \text{(Eº = -0.414 V)}$
+    - $\mathrm{2H}_2\mathrm{O}\rightarrow \mathrm{O}_2 + 4\mathrm{H}^+ + 4e^-  \quad \text{(Eº = -0.828 V)}$
+
+5. 结合标准电极电势公式计算得出：
+    - ${\Delta G^\ominus=\left(-nFE^\ominus\right)}}
+      - ${n = 2 (2 electrons transferred)}$
+      - ${F (Faraday’s constant) \approx 96.485 kJ/(mol·V)}$
+      - ${E^\ominus = E^\ominusRedc - E^\ominusOx}$""
+      - ${E^\ominus = 0.00 - (-0.828) = 0.828 V}$
+      - ${\Delta G^\ominminus = -2 x 96.485 kJ/(mol·V) x 0.828 V = -159.8823 kJ/mol}$""
+
+6. 利用 $\Delta G^\ominus = -RT\ln{K^\ominus}$
+      - ${R \approx 8.314 J/(mol·K)}$
+      - ${T = 298 K}$
+      - ${\Delta G^\ominus = -159882.3 J/mol}$""
+
+7. 求 $K^\ominus$
+      - ${ln(K^\ominus)  = -\Delta G^\ominus /RT (159882.3/(8.314 * 298)) \approx 64.476}$""
+      - ${K^\ominus = e^{64.476}\approx7.5*10^{27}}$","：
+$7.5*10^{27}$",N/A,N/A,N/A
+"将下列非氧化还原反应设计成两个半电池反应, 并利用标准电极电势表的数据, 求出 ${298}\mathrm{\;K}$ 时反应的标准平衡常数 ${K}^{ \ominus }$ 。${\mathrm{{Pt}}}^{2 + } + 4{\mathrm{{Cl}}}^{ - } = {\left\lbrack {\mathrm{{PtCl}}}_{4}\right\rbrack }^{2 - }$ 。","(2) 正极 $\;{\mathrm{{Pt}}}^{2 + } + 2{\mathrm{e}}^{ - } \rightleftharpoons \mathrm{{Pt}}\;{E}_{ + }^{ \ominus } = {1.18}\mathrm{\;V}$
+
+负极 $\;{\left\lbrack {\mathrm{{PtCl}}}_{4}\right\rbrack }^{2 - } + 2{\mathrm{e}}^{ - } \rightleftharpoons \mathrm{{Pt}} + 4{\mathrm{{Cl}}}^{ - }\;{E}_{ - }^{ \ominus } = {0.755}\mathrm{\;V}$
+
+$$
+{E}^{ \ominus } = {E}_{ + }^{ \ominus } - {E}_{ - }^{ \ominus } = {1.18}\mathrm{\;V} - {0.755}\mathrm{\;V} = {0.425}\mathrm{\;V}
+$$
+
+$$
+\lg {K}^{ \ominus } = \frac{z{E}^{ \ominus }}{{0.059}\mathrm{\;V}} = \frac{2 \times {0.425}\mathrm{\;V}}{{0.059}\mathrm{\;V}} = {14.41}
+$$
+
+故反应 ${\mathrm{{Pt}}}^{2 + } + 4{\mathrm{{Cl}}}^{ - } = {\left\lbrack {\mathrm{{PtCl}}}_{4}\right\rbrack }^{2 - }$ 的 ${K}^{ \ominus } = {2.57} \times {10}^{14}$ 。
+","：这道题要求我们把一个复合物生成反应设计为两个半电池反应，并求出反应的标准平衡常数 \( K^\ominus \)。首先，我们需要明确两个关键离子在此反应中的电化学过程。这里所考虑的反应为：
+
+\[
+\mathrm{Pt}^{2+} + 4\mathrm{Cl}^- \rightarrow \left[\mathrm{PtCl}_4\right]^{2-}
+\]
+
+对于这类反应，涉及配合物的生成，我们可以将其分成两个半反应来进行分析。我们假设把该体系分开组成为如下两个电极反应：
+
+1. 将 \(\mathrm{Pt}^{2+}\) 电极反应假想为还原：
+
+\[
+\mathrm{Pt}^{2+} + 2e^- \rightarrow \mathrm{Pt}
+\]
+
+2. 将 \(4 \mathrm{Cl}^-\) 和配合物形成反应类比于氧化反应中的电对关系：
+
+\[
+\mathrm{Cl}_2 + 2e^- \rightarrow 2\mathrm{Cl}^-
+\]
+
+通过电极电势表查找相应的电势值。
+对于 \(\mathrm{Pt}\) 的电对 \(\mathrm{Pt}^{2+}/\mathrm{Pt}\)，假设标准还原电势为 \(E^\ominus_1\)。
+
+在氯发生的反向反应是生成氯分子开始的，所以电势对应为某个氧化电势，该值设为 \(E^\ominus_2\)。
+这两者的组装的标准电池电势为：
+
+\[
+E^\ominus = E^\ominus_1 - E^\ominus_2
+\]
+
+而为了找到配合物形成反应标准自由能变化 \(\Delta G^\ominus = -nFE^\ominus\) ，
+从\(\Delta G^\ominus\)可以导出平衡常数的表达式：
+
+\[
+\Delta G^\ominus = -RT\ln K^\ominus 
+\]
+
+结合公式，可以获得：
+
+\[
+\ln K^\ominus = \frac{nFE^\ominus}{RT}
+\]
+
+用 \( R = 8.314 \, \text{J/mol}\cdot\text{K} \)， \(T = 298 \, \text{K}\)， \(F = 96485 \, \text{C/mol}\)。
+
+把以上信息代入即可求得 \(K^\ominus\)。",：无法计算，因为未提供具体电势值。,N/A,N/A,N/A
+"已知 ${E}^{ \ominus }\left( {{\mathrm{{Tl}}}^{3 + }/{\mathrm{{Tl}}}^{ + }}\right) = {1.25}\mathrm{\;V},{E}^{ \ominus }\left( {{\mathrm{{Tl}}}^{3 + }/\mathrm{{Tl}}}\right) = {0.74}\mathrm{\;V}$ ,设计成下列三个标准电池:
+
+(a) $\cdot \left( -\right) \mathrm{{Tl}}\left| {\mathrm{{Tl}}}^{ + }\right| {\mathrm{{Tl}}}^{3 + }\left| \mathrm{{Tl}}\right| \left( +\right)$
+
+(b) $\left( -\right) \mathrm{{Tl}}\left| {\mathrm{{Tl}}}^{ + }\right| {\mathrm{{Tl}}}^{3 + },{\mathrm{{Tl}}}^{ + } \mid \mathrm{{Pt}}\left( +\right)$
+
+(c) $\left( -\right) \mathrm{{Tl}}\left| {\mathrm{{Tl}}}^{3 + }\right| {\mathrm{{Tl}}}^{3 + },{\mathrm{{Tl}}}^{ + } \mid \mathrm{{Pt}}\left( +\right)$
+
+（1）请写出每一个电池的电池反应式;
+
+（2）计算每一个电池的电动势和 ${\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus }$ 。"," (1) 三个电池的电池反应式完全相同:
+
+${\mathrm{{Tl}}}^{3 + } + 2\mathrm{{Tl}} = 3{\mathrm{{Tl}}}^{ + }$
+
+（2）三个电池的电极反应式不同,则电池的电动势 ${E}^{ \ominus }$ 不同。
+
+${E}^{ \ominus }\left( {{\mathrm{{Tl}}}^{ + }/\mathrm{{Tl}}}\right) = 3 \times {E}^{ \ominus }\left( {{\mathrm{{Tl}}}^{3 + }/\mathrm{{Tl}}}\right) - 2 \times {E}^{ \ominus }\left( {{\mathrm{{Tl}}}^{3 + }/{\mathrm{{Tl}}}^{ + }}\right)$
+
+$$
+= 3 \times {0.74}\mathrm{\;V} - 2 \times {1.25}\mathrm{\;V} = - {0.28}\mathrm{\;V}
+$$
+
+(a) 电子转移数为 3
+
+正极 ${\mathrm{{Tl}}}^{3 + } + 3{\mathrm{e}}^{ - } = \mathrm{{Tl}}$
+
+负极 $\mathrm{{Tl}} = {\mathrm{{Tl}}}^{ + } + {\mathrm{e}}^{ - }$
+
+$$
+{E}^{ \ominus }\left( \mathrm{a}\right) = {E}^{ \ominus }\left( {{\mathrm{{Tl}}}^{3 + }/\mathrm{{Tl}}}\right) - {E}^{ \ominus }\left( {{\mathrm{{Tl}}}^{ + }/\mathrm{{Tl}}}\right)
+$$
+
+$$
+= {0.74}\mathrm{\;V} - \left( {-{0.28}\mathrm{\;V}}\right) = {1.02}\mathrm{\;V}
+$$
+
+${\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus } = - z{E}^{ \ominus }F = \left( {-3 \times {1.02} \times {96.5}}\right) \mathrm{{kJ}} \cdot {\mathrm{{mol}}}^{-1} = - {295.3}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$
+
+(b) 电子转移数为 2
+
+正极 ${\mathrm{{Tl}}}^{3 + } + 2{\mathrm{e}}^{ - } = {\mathrm{{Tl}}}^{ + }$
+
+负极 $\mathrm{{Tl}} = {\mathrm{{Tl}}}^{ + } + {\mathrm{e}}^{ - }$
+
+$$
+{E}^{ \ominus }\left( \mathrm{b}\right) = {E}^{ \ominus }\left( {{\mathrm{{Tl}}}^{3 + }/{\mathrm{{Tl}}}^{ + }}\right) - {E}^{ \ominus }\left( {{\mathrm{{Tl}}}^{ + }/\mathrm{{Tl}}}\right)
+$$
+
+$$
+= {1.25}\mathrm{\;V} - \left( {-{0.28}\mathrm{\;V}}\right) = {1.53}\mathrm{\;V}
+$$
+
+${\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus } = - z{E}^{ \ominus }F = \left( {-2 \times {1.53} \times {96.5}}\right) \mathrm{{kJ}} \cdot {\mathrm{{mol}}}^{-1} = - {295.3}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$
+
+(c) 电子转移数为 6
+
+正极 ${\mathrm{{Tl}}}^{3 + } + 2{\mathrm{e}}^{ - } = {\mathrm{{Tl}}}^{ + }$
+
+负极 $\mathrm{{Tl}} = {\mathrm{{Tl}}}^{3 + } + 3{\mathrm{e}}^{ - }$
+
+${E}^{ \ominus }\left( \mathrm{c}\right) = {E}^{ \ominus }\left( {{\mathrm{{Tl}}}^{3 + }/{\mathrm{{Tl}}}^{ + }}\right) - {E}^{ \ominus }\left( {{\mathrm{{Tl}}}^{3 + }/\mathrm{{Tl}}}\right)$
+
+$$
+= {1.25}\mathrm{\;V} - {0.74}\mathrm{\;V} = {0.51}\mathrm{\;V}
+$$
+
+${\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus } = - z{E}^{ \ominus }F = \left( {-6 \times {0.51} \times {96.5}}\right) \mathrm{{kJ}} \cdot {\mathrm{{mol}}}^{-1} = - {295.3}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$
+
+计算结果表明,三个电池反应的 ${\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus }$ 相同。这是因为三个电池的反应式完全相同, $G$ 是状态函数,所以 ${\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus }$ 相同。
+","：
+
+为了解决这道题，我们需要分析每个电池的电化学反应和计算电动势(E° cell)以及标准吉布斯自由能变化(ΔrG°m)。
+
+首先的是Tl的相关反应和对应的标准电极电势：
+1. \(\text{Tl}^{3+} + 2\text{e}^- \rightarrow \text{Tl}^+\), \(E^\ominus = 1.25\,\text{V}\)
+2. \(\text{Tl}^{3+} + 3\text{e}^- \rightarrow \text{Tl}\), \(E^\ominus = 0.74\,\text{V}\)
+
+从以上两个半反应和对应的E°值，我们推断：
+\[
+\text{Tl}^+ + 2\text{e}^- \rightarrow \text{Tl}, \quad E^\ominus = E_3^\ominus = 0.74\,\text{V} - 1.25\,\text{V} / 3 \times 2
+\]
+
+### (a) 电池：
+涉及反应：
+- 阳极（氧化反应）: \(\text{Tl} \rightarrow \text{Tl}^+ + \text{e}^-\)
+- 阴极（还原反应）: \(\text{Tl}^{3+} + 2\text{e}^- \rightarrow \text{Tl}^+\)
+
+电池反应为：
+\[
+2\text{Tl} + 2\text{Tl}^{3+} \rightarrow 2\text{Tl}^+ + 2\text{Tl}^+
+\]
+标准电动势计算：
+\[
+E^\ominus = 1.25\,\text{V} - (-0.335\,\text{V}) = 0.915\,\text{V}
+\]
+因而标准吉布斯自由能:
+\[
+\Delta_rG_m^\ominus = -nFE^\ominus = -2 \times 96485 \times 0.915
+\]
+
+### (b) 电池：
+涉及反应：
+- 阳极：同(a)氧化 \(\text{Tl}\)至\(\text{Tl}^+\)
+- 阴极：还原\(\text{Tl}^{3+}\)至\(\text{Tl}^+\)
+
+电池反应则相同，电动势则：
+\[
+E^\ominus = 1.25\,\text{V} - 0.525\,\text{V} = 0.725\,\text{V}
+\]
+
+### (c) 电池：
+涉及反应：
+- 阳极：\(\text{Tl}\)至\(\text{Tl}^{3+}\)
+- 阴极：\(\text{Tl}^{3+} + 2\text{e}^- \rightarrow 2\text{Tl}^+\)
+
+电池反应为：
+\[
+2\text{Tl} + 2\text{Tl}^{3+} \rightarrow 2\text{Tl}^{3+} + 2\text{Tl}\]
+
+\[
+E^\ominus = 0.615\,\text{V} - 0.74\,\text{V} = -0.125\,\text{V}
+\]
+已使用不可能，因此反应无电动势。","：
+（1）
+a) \(2\text{Tl} + 2\text{Tl}^{3+} \rightarrow 2\text{Tl}^+ + 2\text{Tl}^+\)
+
+b) \(2\text{Tl} + 2\text{Tl}^{3+} \rightarrow 2\text{Tl}^+ + 2\text{Tl}^+\)
+
+c) \(2\text{Tl} + 2\text{Tl}^{3+} \rightarrow 2\text{Tl}^{3+} + 2\text{Tl}\)
+
+（2）
+a) \(E^\ominus = 0.915\,\text{V}\), 
+\(\Delta_rG_m^\ominus = -2 \times 96485 \times 0.915 = -176448.15\,\text{J/mol}\)
+
+b) \(E^\ominus = 0.725\,\text{V}\), 
+\(\Delta_rG_m^\ominus = -2 \times 96485 \times 0.725 = -140146.25\,\text{J/mol}\)
+
+c) \(E^\ominus = -0.125\,\text{V}\), 
+电池无电动势变化。",N/A,N/A,N/A
+"在酸性条件下,将 ${\mathrm{{KMnO}}}_{4}$ 滴加到过量 $\mathrm{{KI}}$ 溶液中,产物是什么? 已知元素电势图如下:
+
+${E}_{\mathrm{A}}^{ \ominus }/\mathrm{V}\;{\mathrm{H}}_{5}{\mathrm{{IO}}}_{6}\xrightarrow[]{1.70}{\mathrm{{IO}}}_{3}^{ - }\xrightarrow[]{1.14}\mathrm{{HOI}}\xrightarrow[]{1.45}{\mathrm{I}}_{3}^{ - }\xrightarrow[]{0.54}{\mathrm{I}}^{ - }$
+
+$$
+{\mathrm{{MnO}}}_{4}^{ - }\xrightarrow[]{0.56}{\mathrm{{MnO}}}_{4}^{2 - }\xrightarrow[]{2.26}{\mathrm{{MnO}}}_{2}\xrightarrow[]{0.95}{\mathrm{{Mn}}}^{3 + }\xrightarrow[]{1.51}{\mathrm{{Mn}}}^{2 + }\xrightarrow[]{-{1.18}}\mathrm{{Mn}}
+$$","从元素电势图可知, $\mathrm{{HIO}},{\mathrm{{MnO}}}_{4}^{2 - },{\mathrm{{Mn}}}^{3 + }$ 能发生歧化反应,在酸性介质中不能稳定存在, 这些物质不可能是反应产物。
+
+在酸性介质中,单质 $\mathrm{{Mn}}$ 能与 ${\mathrm{H}}^{ + }$ 反应,因而 $\mathrm{{Mn}}$ 不是反应产物。
+
+题中给出的 $\mathrm{{KI}}$ 溶液过量,因此,凡能与 ${\mathrm{I}}^{ - }$ 发生反应的物质也不能是反应产物,应予以排除,则反应产物不能是 ${\mathrm{{IO}}}_{3}^{ - },{\mathrm{H}}_{5}{\mathrm{{IO}}}_{6}$ 和 ${\mathrm{{MnO}}}_{2}$ :
+
+$$
+3{\mathrm{H}}_{5}{\mathrm{{IO}}}_{6} + {\mathrm{I}}^{ - } = 4{\mathrm{{IO}}}_{3}^{ - } + 3{\mathrm{H}}^{ + } + 6{\mathrm{H}}_{2}\mathrm{O}
+$$
+
+$$
+3{\mathrm{{MnO}}}_{2} + {\mathrm{I}}^{ - } + 6{\mathrm{H}}^{ + } = {\mathrm{{IO}}}_{3}^{ - } + 3{\mathrm{{Mn}}}^{2 + } + 3{\mathrm{H}}_{2}\mathrm{O}
+$$
+
+$$
+{\mathrm{{IO}}}_{3}^{ - } + 5{\mathrm{I}}^{ - } + 6{\mathrm{H}}^{ + } = 3{\mathrm{I}}_{2} + 3{\mathrm{H}}_{2}\mathrm{O}
+$$
+
+从以上分析结果看,反应产物只能是 ${\mathrm{I}}_{3}^{ - }$ 和 ${\mathrm{{Mn}}}^{2 + }$ :
+
+$$
+2{\mathrm{{MnO}}}_{4}^{ - } + {15}{\mathrm{I}}^{ - } + {16}{\mathrm{H}}^{ + } = 5{\mathrm{I}}_{3}^{ - } + 2{\mathrm{{Mn}}}^{2 + } + 8{\mathrm{H}}_{2}\mathrm{O}
+$$
+","：在酸性条件下，${\mathrm{KMnO}}_{4}$ 和过量 $\mathrm{KI}$ 反应，首先要确定两者之间的氧化还原反应可能性。${\mathrm{KMnO}}_{4}$ 是强氧化剂，而 $\mathrm{KI}$ 可以生成 ${\mathrm{I}}^{-}$，也是一个典型的还原剂。
+
+根据题目给出的电势图，可以辨别出两者的相关电极电势：
+1. ${\mathrm{I}}^{-}$ 到 $\mathrm{{I}}_{3}^{-}$ $\quad (E_1^{\ominus} = 0.54 \ \text{V})$
+2. ${\mathrm{MnO}}_{4}^{-}$ 到 ${\mathrm{Mn}}^{2+}$ $\quad (E_2^{\ominus} = 1.51 \ \text{V})$
+
+此时，反应的总电势 $\Delta E^{\ominus}$ 为：
+\[
+\Delta E^{\ominus} = E_2^{\ominus} - E_1^{\ominus} = 1.51 \ \text{V} - 0.54 \ \text{V} = 0.97 \ \text{V}
+\]
+该电势为正，反应自发。因此，${\mathrm{KMnO}}_{4}$ 可以将 ${\mathrm{I}}^{-}$ 氧化。
+
+考虑氧化还原级数和过酸性条件，${\mathrm{KMnO}}_{4}$ 能够将 $\mathrm{I}^{-}$ 氧化至高氧化态的产物。主要反应是：
+\[
+2 \mathrm{I}^{-} + 2 \mathrm{MnO}_{4}^{-} + 16 \mathrm{H}^{+} \rightarrow \mathrm{I}_2 + 2 \mathrm{Mn}^{2+} + 8 \mathrm{H}_{2}\mathrm{O}
+\]
+但是，因为题中提到的电势图更涉及高氧化态的 $\mathrm{I}$ 化合物生成，并且因为酸性条件以及 $\mathrm{KI}$ 的过量性，我们需要继续氧化 $\mathrm{I}_2$ 为 $\mathrm{I}_3^{-}$。
+
+查阅氧化还原电势，根据高酸性环境和充足氧化剂的条件下，最终的产物应为 $\mathrm{I}_3^{-}$。",：${\mathrm{I}}_{3}^{-}$,N/A,N/A,N/A
+"向酸性的 ${1.0} \times {10}^{-3}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}{\mathrm{{Fe}}}^{3 + }$ 溶液中加入过量液态汞,发生反应: $2{\mathrm{{Fe}}}^{3 + } + 2\mathrm{{Hg}} =$ $2{\mathrm{{Fe}}}^{2 + } + {\mathrm{{Hg}}}_{2}^{2 + }$ ,达平衡时溶液中还有 ${4.6}\% {\mathrm{{Fe}}}^{3 + }$ 。已知 ${E}^{ \ominus }\left( {{\mathrm{{Fe}}}^{3 + }/{\mathrm{{Fe}}}^{2 + }}\right) = {0.771}\mathrm{\;V}$ ,求 ${E}^{ \ominus }\left( {{\mathrm{{Hg}}}_{2}^{2 + }/\mathrm{{Hg}}}\right)$ 。","达平衡时, 各离子的浓度为
+
+$$
+c\left( {\mathrm{{Fe}}}^{3 + }\right) = {1.0} \times {10}^{-3}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3} \times {4.6}\% = {4.60} \times {10}^{-5}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+$$
+c\left( {\mathrm{{Fe}}}^{2 + }\right) = {1.0} \times {10}^{-3}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3} - {4.6} \times {10}^{-5}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3} = {9.54} \times {10}^{-4}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+$$
+c\left( {\mathrm{{Hg}}}_{2}^{2 + }\right) = \frac{1}{2}c\left( {\mathrm{{Fe}}}^{2 + }\right) = {4.77} \times {10}^{-4}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+平衡常数为
+
+$$
+{K}^{ \ominus } = \frac{c\left( {\mathrm{{Hg}}}_{2}^{2 + }\right) {\left\lbrack c\left( {\mathrm{{Fe}}}^{2 + }\right) \right\rbrack }^{2}}{{\left\lbrack c\left( {\mathrm{{Fe}}}^{3 + }\right) \right\rbrack }^{2}} = \frac{{4.77} \times {10}^{-4} \times {\left( {9.54} \times {10}^{-4}\right) }^{2}}{{\left( {4.6} \times {10}^{-5}\right) }^{2}} = {0.205}
+$$
+
+电池的电动势为
+
+$$
+{E}^{ \ominus } = \frac{{0.059}\mathrm{\;V}}{2}\lg {K}^{ \ominus } = \frac{{0.059}\mathrm{\;V}}{2}\lg {0.205} = - {0.020}\mathrm{\;V}
+$$
+
+由 ${E}^{ \ominus } = {E}^{ \ominus }\left( {{\mathrm{{Fe}}}^{3 + }/{\mathrm{{Fe}}}^{2 + }}\right) - {E}^{ \ominus }\left( {{\mathrm{{Hg}}}_{2}^{2 + }/\mathrm{{Hg}}}\right)$ 得
+
+$$
+{E}^{ \ominus }\left( {{\mathrm{{Hg}}}_{2}^{2 + }/\mathrm{{Hg}}}\right) = {E}^{ \ominus }\left( {{\mathrm{{Fe}}}^{3 + }/{\mathrm{{Fe}}}^{2 + }}\right) - {E}^{ \ominus }
+$$
+
+$$
+= {0.771}\mathrm{\;V} - \left( {-{0.02}\mathrm{\;V}}\right)
+$$
+
+$$
+= {0.79}\mathrm{\;V}
+$$
+","：  
+首先，根据题目提供的数据和反应方程：$2\mathrm{Fe}^{3+} + 2\mathrm{Hg} \rightarrow 2\mathrm{Fe}^{2+} + \mathrm{Hg}_2^{2+}$，该反应达平衡时溶液中有$4.6\% \, \mathrm{Fe}^{3+}$剩余。  
+原始的$\mathrm{Fe}^{3+}$浓度为$1.0 \times 10^{-3} \, \mathrm{mol/dm^3}$，因此平衡时$\mathrm{Fe}^{3+}$的浓度为$1.0 \times 10^{-3} \, \mathrm{mol/dm^3} \times 0.046 = 4.6 \times 10^{-5} \, \mathrm{mol/dm^3}$。  
+减少的$\mathrm{Fe}^{3+}$浓度为$1.0 \times 10^{-3} \, \mathrm{mol/dm^3} - 4.6 \times 10^{-5} \, \mathrm{mol/dm^3} = 9.54 \times 10^{-4} \, \mathrm{mol/dm^3}$，所以$\mathrm{Fe}^{2+}$的平衡浓度为$9.54 \times 10^{-4} \, \mathrm{mol/dm^3}$。  
+根据${E}^{\ominus}$值，可以利用能斯特方程，对于反应：  
+$$ E = E^\ominus(\text{Fe}^{3+}/\text{Fe}^{2+}) - \frac{RT}{nF} \ln \frac{[\text{Fe}^{2+}]^2}{[\text{Fe}^{3+}]^2} $$  
+$$ E = 0.771 \, \mathrm{V} - \frac{8.314 \times 298}{2 \times 96500} \ln \left(\frac{(9.54 \times 10^{-4})^2}{(4.6 \times 10^{-5})^2}\right) $$  
+先计算电动势转换部分（已知温度通常取$298 \, \mathrm{K}$），$\frac{8834.52 \, \mathrm{J/mol}}{193000 \, \mathrm{C}} \approx 0.0458 \, \mathrm{V}$，所以  
+$$ E = 0.771 \, \mathrm{V} - 0.0458 \, \mathrm{V} \cdot \ln \frac{9.54 \times 10^{-4}}{4.6 \times 10^{-5}} $$  
+进行对数计算，  
+$$ \ln \frac{9.54 \times 10^{-4}}{4.6 \times 10^{-5}} \approx \ln 20.7391 \approx 2.982 $$  
+所以最终$E$计算如下，  
+$$ E = 0.771 \, \mathrm{V} - 0.0458 \cdot 2 \cdot 2.982 \approx 0.4974 \, \mathrm{V} $$  
+反应总$E$平衡即为$\Delta E = E^{\ominus}_{\mathrm{Hg_2^{2+}/Hg}} - E^{\ominus}_{\mathrm{Fe^{3+}/Fe^{2+}}}$，根据反应式得出：  
+$$ \Delta E = 0 $$  
+结合可得，  
+$$ E^{\ominus}_{\mathrm{Hg_2^{2+}/Hg}} = 0.4974 \, \mathrm{V} $$",：0.4974,N/A,N/A,N/A
+"已知 ${E}^{ \ominus }\left( {{\mathrm{{Ag}}}^{ + }/\mathrm{{Ag}}}\right) = {0.80}\mathrm{\;V},{E}^{ \ominus }\left( {{\mathrm{O}}_{2}/{\mathrm{{OH}}}^{ - }}\right) = {0.401}\mathrm{\;V},{E}^{ \ominus }\left( {{\mathrm{H}}^{ + }/{\mathrm{H}}_{2}}\right) = 0;\left\lbrack {\mathrm{{Ag}}{\left( \mathrm{{CN}}\right) }_{2}}\right\rbrack -$ 的 ${K}_{\text{稳 }}^{ \ominus } = 1 \times {10}^{21},{K}_{\mathrm{a}}^{ \ominus }\left( \mathrm{{HCN}}\right) = {1.0} \times {10}^{-{10}}$ 。通过计算回答:
+
+（1）在碱性条件下通入空气时, $\mathrm{{Ag}}$ 能否溶于 $\mathrm{{KCN}}$ 溶液?
+
+(2) $\mathrm{{Ag}}$ 能否从 $\mathrm{{KCN}}$ 溶液中置换出 ${\mathrm{H}}_{2}$ ?","(1) ${E}^{ \ominus }\left( {{\left\lbrack \mathrm{{Ag}}{\left( \mathrm{{CN}}\right) }_{2}\right\rbrack }^{ - }/\mathrm{{Ag}}}\right) = {E}^{ \ominus }\left( {{\mathrm{{Ag}}}^{ + }/\mathrm{{Ag}}}\right) + {0.059}\lg c\left( {\mathrm{{Ag}}}^{ + }\right)$
+
+${\mathrm{{Ag}}}^{ + } + 2{\mathrm{{CN}}}^{ - } = {\left\lbrack \mathrm{{Ag}}{\left( \mathrm{{CN}}\right) }_{2}\right\rbrack }^{ - }$
+
+当 $c\left( {\mathrm{{CN}}}^{ - }\right) = c\left( {\left\lbrack \mathrm{{Ag}}{\left( \mathrm{{CN}}\right) }_{2}\right\rbrack }^{ - }\right) = 1\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 时
+
+${K}_{\text{稳 }}^{ \ominus } = \frac{c\left( {\left\lbrack \mathrm{{Ag}}{\left( \mathrm{{CN}}\right) }_{2}\right\rbrack }^{ - }\right) }{c\left( {\mathrm{{Ag}}}^{ + }\right) {\left\lbrack c\left( {\mathrm{{CN}}}^{ - }\right) \right\rbrack }^{2}} = \frac{1}{c\left( {\mathrm{{Ag}}}^{ + }\right) }$
+
+即 $c\left( {\mathrm{{Ag}}}^{ + }\right) = \frac{1}{{K}_{\text{稳 }}^{ \ominus }}$
+
+${E}^{ \ominus }\left( {{\left\lbrack \mathrm{{Ag}}{\left( \mathrm{{CN}}\right) }_{2}\right\rbrack }^{ - }/\mathrm{{Ag}}}\right) = {0.80}\mathrm{\;V} + {0.059}\mathrm{\;V}\lg \frac{1}{1 \times {10}^{21}} = - {0.44}\mathrm{\;V}$
+
+对反应 $4\mathrm{{Ag}} + {\mathrm{O}}_{2} + 8\mathrm{{KCN}} + 2{\mathrm{H}}_{2}\mathrm{O} = 4\mathrm{\;K}\left\lbrack {\mathrm{{Ag}}{\left( \mathrm{{CN}}\right) }_{2}}\right\rbrack + 4\mathrm{{KOH}}$
+
+$$
+{E}^{ \ominus } = {E}^{ \ominus }\left( {{\mathrm{O}}_{2}/{\mathrm{{OH}}}^{ - }}\right) - {E}^{ \ominus }\left( {{\left\lbrack \mathrm{{Ag}}{\left( \mathrm{{CN}}\right) }_{2}\right\rbrack }^{ - }/\mathrm{{Ag}}}\right)
+$$
+
+$$
+= {0.401}\mathrm{\;V} - \left( {-{0.44}\mathrm{\;V}}\right) = {0.84}\mathrm{\;V}
+$$
+
+说明在碱性条件下通入空气时, $\mathrm{{Ag}}$ 能溶于 $\mathrm{{KCN}}$ 溶液。
+
+（2）在 $\mathrm{{KCN}}$ 溶液中,由于 ${\mathrm{{CN}}}^{ - }$ 的水解,溶液呈弱碱性, $c\left( {\mathrm{H}}^{ + }\right) \approx {10}^{-{12}}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$
+
+对反应 $2{\mathrm{H}}_{2}\mathrm{O} + 2{\mathrm{e}}^{ - } = {\mathrm{H}}_{2} + 2{\mathrm{{OH}}}^{ - }$
+
+$$
+E\left( {{\mathrm{H}}_{2}\mathrm{O}/{\mathrm{H}}_{2}}\right) = {E}^{ \ominus }\left( {{\mathrm{H}}^{ + }/{\mathrm{H}}_{2}}\right) + \frac{{0.059}\mathrm{\;V}}{2}\lg {\left\lbrack c\left( {\mathrm{H}}^{ + }\right) \right\rbrack }^{2}
+$$
+
+$$
+= 0\mathrm{\;V} + {0.059}\mathrm{\;V}\lg {10}^{-{12}}
+$$
+
+$$
+= - {0.71}\mathrm{\;V}
+$$
+
+对反应 $2\mathrm{{Ag}} + 2{\mathrm{H}}_{2}\mathrm{O} + 4{\mathrm{{CN}}}^{ - } = 2{\left\lbrack \mathrm{{Ag}}{\left( \mathrm{{CN}}\right) }_{2}\right\rbrack }^{ - } + {\mathrm{H}}_{2} + 2{\mathrm{{OH}}}^{ - }$
+
+$$
+E = E\left( {{\mathrm{H}}_{2}\mathrm{O}/{\mathrm{H}}_{2}}\right) - {E}^{ \ominus }\left( {{\left\lbrack \mathrm{{Ag}}{\left( \mathrm{{CN}}\right) }_{2}\right\rbrack }^{ - }/\mathrm{{Ag}}}\right)
+$$
+
+$$
+= - {0.71}\mathrm{\;V} - \left( {-{0.44}\mathrm{\;V}}\right)
+$$
+
+$$
+= - {0.27}\mathrm{\;V}
+$$
+
+$E < 0$ ,故 $\mathrm{{Ag}}$ 不能从 $\mathrm{{KCN}}$ 溶液中置换出 ${\mathrm{H}}_{2}$ 。
+","：
+
+（1）在碱性条件下通入空气时，需判断在$\mathrm{KCN}$溶液中$\mathrm{Ag}$能否被氧气氧化溶解。具体看反应：
+\[ 4\mathrm{Ag} + \mathrm{O}_{2} + 2\mathrm{H}_2\mathrm{O} + 4\mathrm{CN}^- \rightarrow 4\mathrm{Ag(CN)}_2^- + 4\mathrm{OH}^- \]
+
+要计算该反应的电动势$E_{\text{cell}}^{\ominus}$：
+- 银氧化过程：$\mathrm{Ag} + 2\mathrm{CN}^- \rightarrow \mathrm{Ag(CN)}_2^- + \mathrm{e}^-$，根据稳定常数得到：$E_{\mathrm{Ag}} = E^{\ominus}(\mathrm{Ag}^+/\mathrm{Ag}) - \frac{RT}{nF}\ln K_{\text{稳}}^{\ominus}$
+- 氧气还原过程：$\mathrm{O}_2 + 2\mathrm{H}_2\mathrm{O} + 4\mathrm{e}^- \rightarrow 4\mathrm{OH}^-$，$E^{\ominus}(\mathrm{O}_2/\mathrm{OH}^-) = 0.401\mathrm{\;V}$
+
+已知$\ln 1 \times 10^{21} = 48.34$，$E_{\mathrm{Ag}} = 0.80 \, \mathrm{V} - \frac{0.0591}{1} \cdot 48.34 = -2.06 \,\mathrm{V}$。
+
+所以，$E_{\text{cell}}^{\ominus} = E^{\ominus}(\mathrm{O}_2/\mathrm{OH}^-) - E_{\mathrm{Ag}} = 0.401\, \mathrm{V} - (-2.06\, \mathrm{V}) = 2.46 \, \mathrm{V}$。
+
+由于$E_{\text{cell}}^{\ominus}$为正，反应能自发进行，因此，在碱性条件下通入空气时，$\mathrm{Ag}$可以溶于$\mathrm{KCN}$溶液。
+
+（2）检验$\mathrm{Ag}$能否从碱性$\mathrm{KCN}$溶液中置换出${\mathrm{H}}_2$，即：
+\[ 2\mathrm{Ag} + 2\mathrm{H}^+ + 4\mathrm{CN}^- \rightarrow 2\mathrm{Ag(CN)}_2^- + \mathrm{H}_2 \]
+
+电位计算：
+- 银过程同上，$E_{\mathrm{Ag}} = -2.06\, \mathrm{V}$。
+- 氢还原过程：$2\mathrm{H}^+ + 2\mathrm{e}^- \rightarrow \mathrm{H}_2$，$E^{\ominus}(\mathrm{H}^+/\mathrm{H}_2) = 0\, \mathrm{V}$
+
+$E_{\text{cell}}^{\ominus} = E^{\ominus}(\mathrm{H}^+/\mathrm{H}_2) - E_{\mathrm{Ag}} = 0\, \mathrm{V} - (-2.06\, \mathrm{V}) = 2.06 \, \mathrm{V}$。
+
+$E_{\text{cell}}^{\ominus}$仍然为正，说明反应也可自发进行。因此，$\mathrm{Ag}$能置换出${\mathrm{H}}_2$。","：
+(1) 能。  
+(2) 能。",N/A,N/A,N/A
+"根据下面 $\mathrm{{pH}} = 1$ 介质中 $\mathrm{{Bi}}$ 的元素电势图:
+
+$$
+{\mathrm{{Bi}}}_{2}{\mathrm{O}}_{4}\xrightarrow[]{{1.59}\mathrm{\;V}}{\mathrm{{BiO}}}^{ + }\xrightarrow[]{{0.32}\mathrm{\;V}}\mathrm{{Bi}}\xrightarrow[]{-{0.97}\mathrm{\;V}}{\mathrm{{BiH}}}_{3}
+$$
+
+求电对 ${\mathrm{{Bi}}}_{2}{\mathrm{O}}_{4}/\mathrm{{Bi}},{\mathrm{{BiO}}}^{ + }/{\mathrm{{BiH}}}_{3},{\mathrm{{Bi}}}_{2}{\mathrm{O}}_{4}/{\mathrm{{BiH}}}_{3}$ 的电极电势;","(1) ${E}^{ \ominus }\left( {{\mathrm{{Bi}}}_{2}{\mathrm{O}}_{4}/\mathrm{{Bi}}}\right) = \frac{{E}^{ \ominus }\left( {{\mathrm{{Bi}}}_{2}{\mathrm{O}}_{4}/{\mathrm{{BiO}}}^{ + }}\right) \times 1 + {E}^{ \ominus }\left( {{\mathrm{{BiO}}}^{ + }/\mathrm{{Bi}}}\right) \times 3}{1 + 3}$
+
+$$
+= \frac{{1.59}\mathrm{\;V} \times 1 + {0.32}\mathrm{\;V} \times 3}{4}
+$$
+
+$$
+= {0.64}\mathrm{\;V}
+$$
+
+$$
+{E}^{ \ominus }\left( {{\mathrm{{BiO}}}^{ + }/{\mathrm{{BiH}}}_{3}}\right) = \frac{{E}^{ \ominus }\left( {{\mathrm{{BiO}}}^{ + }/\mathrm{{Bi}}}\right) \times 3 + {E}^{ \ominus }\left( {\mathrm{{Bi}}/{\mathrm{{BiH}}}_{3}}\right) \times 3}{3 + 3}
+$$
+
+$$
+= \frac{{0.32}\mathrm{\;V} \times 3 + \left( {-{0.97}\mathrm{\;V}}\right) \times 3}{6}
+$$
+
+$$
+= - {0.33}\mathrm{\;V}
+$$
+
+$$
+{E}^{ \ominus }\left( {{\mathrm{{Bi}}}_{2}{\mathrm{O}}_{4}/{\mathrm{{BiH}}}_{3}}\right) = \frac{{E}^{ \ominus }\left( {{\mathrm{{Bi}}}_{2}{\mathrm{O}}_{4}/{\mathrm{{BiO}}}^{ + }}\right) \times 1 + {E}^{ \ominus }\left( {{\mathrm{{BiO}}}^{ + }/\mathrm{{Bi}}}\right) \times 3 + {E}^{ \ominus }\left( {\mathrm{{Bi}}/{\mathrm{{BiH}}}_{3}}\right) \times 3}{1 + 3 + 3}
+$$
+
+$$
+= \frac{{1.59}\mathrm{\;V} \times 1 + {0.32}\mathrm{\;V} \times 3 + \left( {-{0.97}\mathrm{\;V}}\right) \times 3}{7}
+$$
+
+$$
+= - {0.051}\mathrm{\;V}
+$$
+","：要计算三种电对的电极电势，我们需要确定它们的标准电极电势。给出的元素电势图中已经指定了个别电对的还原电势。我们采用它们之间的电势变化来推理组合电对的电极电势。通过元素电势图，我们有：
+
+1. 从 \({\mathrm{Bi}}_{2}{\mathrm{O}}_{4}\) 到 \({\mathrm{BiO}}^{+}\) 的电势为 \(1.59\) V。
+2. 从 \({\mathrm{BiO}}^{+}\) 到 \({\mathrm{Bi}}\) 的电势为 \(0.32\) V。
+3. 从 \({\mathrm{Bi}}\) 到 \({\mathrm{BiH}}_{3}\) 的电势为 \(-0.97\) V。
+
+- 对于电对 \({\mathrm{Bi}}_{2}{\mathrm{O}}_{4}/\mathrm{Bi}\)，我们将\({\mathrm{Bi}}_{2}{\mathrm{O}}_{4}\rightarrow{\mathrm{BiO}}^{+}\)和\({\mathrm{BiO}}^{+}\rightarrow\mathrm{Bi}\)的电势结合起来：
+
+  \[
+  E°_{\text{{Bi}}_{2}{\text{O}}_{4}/\text{Bi}} = 1.59\,\text{V} + 0.32\,\text{V} = 1.91\,\text{V}
+  \]
+
+- 对于电对 \({\mathrm{BiO}}^{+}/{\mathrm{BiH}}_{3}\)，我们将在\({\mathrm{BiO}}^{+}\rightarrow\mathrm{Bi}\)中使用反向电势：
+
+  \[
+  E°_{{\mathrm{BiO}}^{+}/{\mathrm{BiH}}_{3}} = 0.32\,\text{V} - 0.97\,\text{V} = -0.65\,\text{V}
+  \]
+
+- 对于电对 \({\mathrm{Bi}}_{2}{\mathrm{O}}_{4}/{\mathrm{BiH}}_{3}\)，我们将从\({\mathrm{Bi}}_{2}{\mathrm{O}}_{4}\)直接转化为\({\mathrm{BiH}}_{3}\)：
+
+  \[
+  E°_{\text{{Bi}}_{2}{\text{O}}_{4}/{\mathrm{BiH}}_{3}} = 1.59\,\text{V} + 0.32\,\text{V} - 0.97\,\text{V} = 0.94\,\text{V}
+  \]","：1.91 V, -0.65 V, 0.94 V",N/A,N/A,N/A

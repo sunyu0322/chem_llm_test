@@ -1,0 +1,256 @@
+query,true_answer,reasoning,model_answer,knowledge_accuracy,reasoning_accuracy,final_answer_accuracy
+完成并配平化学反应方程式:高温下单质硼与氮气反应。, $2\mathrm{\;B} + {\mathrm{N}}_{2}\xrightarrow[]{\text{ 高温 }}2\mathrm{{BN}}$,"：  
+硼（B）是一种非金属元素，化学性质较为活泼，但在常温下其反应通常较慢。氮气（N₂）是双原子分子，性质非常稳定，因此通常需在高温条件下与其他物质发生化学反应。硼与氮气在高温下会发生反应生成六方氮化硼（BN），这是因其两种元素间的化学反应倾向能够形成稳定的化合物。  
+
+为了配平反应方程式：  
+1. 反应物是B和N₂，生成物是BN。  
+2. BN中硼和氮的数量为1:1，因此需确保反应中硼和氮原子的数量相等。  
+3. 确认配平：2个B原子和1个N₂分子在高温下反应生成2个BN分子。
+
+最终的化学反应方程式为：  
+\[ 2B + N_2 \xrightarrow{\text{高温}} 2BN \]。",：\[ 2B + N_2 \xrightarrow{\text{高温}} 2BN \],N/A,N/A,N/A
+完成并配平化学反应方程式:无定形硼与热的浓硫酸反应。,$2\mathrm{B} + 3{\mathrm{H}}_{2}{\mathrm{{SO}}}_{4}$ (浓) $\overset{\bigtriangleup }{ = }2\mathrm{\;B}{\left( \mathrm{{OH}}\right) }_{3} + 3{\mathrm{{SO}}}_{2} \uparrow$,"：无定形硼（B）属于化学性质活泼的元素，能够与许多强氧化剂发生反应。浓硫酸是一个强氧化剂，在高温条件下可以将硼氧化，硫酸本身被还原。这个反应的核心是硼被氧化为硼酸（发生氧化反应），硫酸中的硫被还原为二氧化硫（SO₂）。以下是反应的具体分析步骤：
+
+1. **反应物和生成物**：硼与高温浓硫酸反应，硼的氧化产物是硼酸 \( \mathrm{H_3BO_3} \)，硫酸被还原产生二氧化硫 \( \mathrm{SO_2} \)，还有水生成。
+2. **不平衡反应式**：
+   \[
+   B + H_2SO_4 \rightarrow H_3BO_3 + SO_2 + H_2O
+   \]
+3. **配平氧原子、氢原子和硫原子**：
+   - 每个硫酸分子（\( H_2SO_4 \)）有 4 个氧原子，硼酸有 3 个氧原子，而二氧化硫有 2 个氧原子。
+   - 总结氢平衡和氧平衡以确保反应方程平衡。
+4. **最终配平后反应方程**：
+   \[
+   2B + 6H_2SO_4 \rightarrow 2H_3BO_3 + 6SO_2 + 3H_2O
+   \]","：
+\( 2B + 6H_2SO_4 \rightarrow 2H_3BO_3 + 6SO_2 + 3H_2O \)",N/A,N/A,N/A
+完成并配平化学反应方程式:三碘化硼在灼热的金属钽丝上分解。, $2{\mathrm{{BI}}}_{3}\xrightarrow[\mathrm{{Ta}}]{{1000}\mathrm{\;K}}2\mathrm{\;B} + 3{\mathrm{I}}_{2}$,"：三碘化硼（BI\(_3\)）是一种共价化合物，其中硼与碘形成的共价键较弱。高温条件下，BI\(_3\)容易发生分解反应，分解产物通常为元素态的硼和碘单质。
+
+灼热的金属钽丝可以提供高温环境，这会使BI\(_3\)分解为硼（B）和碘气（I\(_2\)）。一方面，硼是固体，另一方面，碘以双原子分子（I\(_2\)）的形式存在。接下来，将反应方程式配平：
+
+初始物质为：BI\(_3\)  
+生成物为：B 和 I\(_2\)  
+分解时，一个BI\(_3\)分子中包含一个B原子和三个I原子，为了满足原子守恒，需要生成一个B原子和1.5个I\(_2\)分子。然而，化学方程式中的系数必须是整数，因此需要将所有物质的系数乘以2，使得最终反应为：
+\[ 2BI_3 \rightarrow 2B + 3I_2 \]",：2BI\(_3\) → 2B + 3I\(_2\),N/A,N/A,N/A
+完成并配平化学反应方程式:乙硼烷在空气中自燃。,"${\mathrm{\;B}}_{2}{\mathrm{H}}_{6} + 3{\mathrm{O}}_{2}\xrightarrow[]{\text{ 自燃 }}{\mathrm{B}}_{2}{\mathrm{O}}_{3} + 3{\mathrm{H}}_{2}\mathrm{O}$
+","：乙硼烷（B2H6）是一种硼氢化物，可以与氧气（O2）发生反应，生成三氧化二硼（B2O3）和水（H2O）。为了配平这个化学方程式，需要确保反应物和生成物中各元素的原子个数相等。
+
+首先写出未配平的化学反应方程式：
+\[ \text{B}_2\text{H}_6 + \text{O}_2 \rightarrow \text{B}_2\text{O}_3 + \text{H}_2\text{O} \]
+
+接着，配平各个原子的数量：
+
+1. 先看硼（B）原子：反应物和生成物各有2个B原子，因此B已经配平。
+2. 然后看氢（H）原子：乙硼烷（B2H6）中有6个H原子，在生成物H2O中，2个氢产生1个水，因此需要3个H2O分子来配平氢。这意味着在生成物那边需要有3个H2O，加上之前的B2O3：
+   \[ \text{B}_2\text{H}_6 + \text{O}_2 \rightarrow \text{B}_2\text{O}_3 + 3\text{H}_2\text{O} \]
+
+3. 最后看氧（O）原子：生成3个H2O贡献了3个O原子，1个B2O3贡献了3个O原子，总共有6个O原子需要氧气来提供。因此需要\[\frac{6}{2} = 3\]个O2分子：
+\[ \text{B}_2\text{H}_6 + 3\text{O}_2 \rightarrow \text{B}_2\text{O}_3 + 3\text{H}_2\text{O} \]
+
+通过以上步骤，确保反应物和生成物各元素得到配平，因此最终的配平结果如下：",：\( \text{B}_2\text{H}_6 + 3\text{O}_2 \rightarrow \text{B}_2\text{O}_3 + 3\text{H}_2\text{O} \),N/A,N/A,N/A
+完成并配平化学反应方程式:硼氢化锂与水作用。, ${\mathrm{{LiBH}}}_{4} + 2{\mathrm{H}}_{2}\mathrm{O} = {\mathrm{{LiBO}}}_{2} + 4{\mathrm{H}}_{2} \uparrow$,"：硼氢化锂 (LiBH₄) 是一种典型的氢化物，与水发生反应时会释放氢气并形成相应的氢氧化物。该反应通常涉及氢化物与水的双置换反应。硼氢化锂与水反应的主要产物是氢气 (H₂) 和氢氧化锂 (LiOH) 以及硼氢化物转化为硼酸 (H₃BO₃) 或硼酸盐。这种反应的标准形式为：
+
+\[ \text{LiBH}_4 + 4\text{H}_2\text{O} \rightarrow \text{LiOH} + \text{H}_3\text{BO}_3 + 4\text{H}_2 \]
+
+在这一步中，考虑到氢原子的守恒有以下变动：
+1. 每一个 LiBH₄ 会提供一个 B 和四个 H，需要识别水解生成氢气。
+2. B 在反应中形成 H₃BO₃，表明 B 必须结合 3 个额外的 OH 来形成稳定的硼酸。
+3. Li 会与一个 OH 格形式为 LiOH。
+
+配平整个方程式需要保证反应物和产物中，原子的种类和数目是相同的。最终配平方程式为：
+
+\[ \text{LiBH}_4 + 4\text{H}_2\text{O} \rightarrow \text{LiOH} + \text{H}_3\text{BO}_3 + 4\text{H}_2 \]",：\(\text{LiBH}_4 + 4\text{H}_2\text{O} \rightarrow \text{LiOH} + \text{H}_3\text{BO}_3 + 4\text{H}_2\),N/A,N/A,N/A
+完成并配平化学反应方程式:三氧化二硼遇到热的水蒸气。,${\mathrm{{3B}}}_{2}{\mathrm{O}}_{3} + 3{\mathrm{H}}_{2}\mathrm{O}\left( \mathrm{g}\right) = 2{\mathrm{\;B}}_{3}{\mathrm{O}}_{3}{\left( \mathrm{{OH}}\right) }_{3}\left( \mathrm{\;g}\right)$,"：  
+1. 题目要求的是三氧化二硼与热水蒸气的反应。三氧化二硼（\( \text{B}_2\text{O}_3 \)）是一种酸性氧化物，它通常能够与水发生反应生成硼酸。  
+2. 反应物三氧化二硼（\( \text{B}_2\text{O}_3 \)）和水（\( \text{H}_2\text{O} \)）在高温条件下反应生成硼酸（\( \text{H}_3\text{BO}_3 \)）。  
+3. 写出反应的化学方程式：  
+   \[ \text{B}_2\text{O}_3 + \text{H}_2\text{O} \rightarrow \text{H}_3\text{BO}_3 \]  
+4. 为了使得方程式配平，我们需要确保反应前后原子的数量相等。此处涉及硼、氧和氢三种元素：  
+   - 硼原子：左边为2个（\( \text{B}_2\text{O}_3 \)），右边为2个在2个\( \text{H}_3\text{BO}_3 \)中，这样需要在硼酸前面加2，从而反应后有2个硼原子。  
+   - 氧原子：左边为3个（\( \text{B}_2\text{O}_3 \)+1个\( \text{H}_2\text{O} \)），右边为6个（2×3=6个在2个\( \text{H}_3\text{BO}_3 \)中），反应后需要3个水分子来供给氧原子。  
+   - 氢原子：按前一种情况，现在每侧氢原子数量为6，即左侧的3H2O和右侧的2个\( \text{H}_3\text{BO}_3 \)。  
+5. 配平后的化学方程式为：  
+   \[ \text{B}_2\text{O}_3 + 3\text{H}_2\text{O} \rightarrow 2\text{H}_3\text{BO}_3 \]",：\( \text{B}_2\text{O}_3 + 3\text{H}_2\text{O} \rightarrow 2\text{H}_3\text{BO}_3 \),N/A,N/A,N/A
+完成并配平化学反应方程式: 三氟化硼水解。,"${\mathrm{{BF}}}_{3} + 3{\mathrm{H}}_{2}\mathrm{O} = \mathrm{B}{\left( \mathrm{{OH}}\right) }_{3} + 3\mathrm{{HF}}$
+
+${\mathrm{{BF}}}_{3} + \mathrm{{HF}} = \mathrm{H}\left\lbrack {\mathrm{{BF}}}_{4}\right\rbrack$","：三氟化硼（BF₃）是一种路易斯酸，能与水发生水解反应。在水解反应中，BF₃与水（H₂O）结合，生成硼酸（H₃BO₃）和氢氟酸（HF）。反应方程式可初步写为：
+
+\[ \text{BF}_3 + \text{H}_2\text{O} \rightarrow \text{H}_3\text{BO}_3 + \text{HF} \]
+
+但是由于氢氟酸产物中氟的数目要与反应物中氟的数目相等，因此需仔细平衡反应中各个元素的原子数。
+
+我们需要配平氟（F）、氢（H）和氧（O）的原子数。考虑到初始反应方程式：
+
+1. BF₃中有3个氟原子，所以生成的HF必须有3个氟原子，因此会生成3个HF分子。
+
+2. H₂O的消耗为3个HF分子，所以应该添加1.5个水分子，但为了分数的化学计量系数不合理，我们调整配平，整体倍乘以2来避免分数。
+
+调整后，新的方程式如下：
+
+\[ 2\text{BF}_3 + 6\text{H}_2\text{O} \rightarrow 2\text{H}_3\text{BO}_3 + 6\text{HF} \]
+
+最后检查平衡性：
+
+- 硼：2个BF₃在左侧，有2个硼原子；右侧2个H₃BO₃也有2个硼原子。
+- 氧和氢：6个H₂O分子有12个氢原子和6个氧原子；6个HF有6个氢原子，2个H₃BO₃有6个氢和6个氧。
+
+所有元素在左右两边的原子数均相等，方程式配平正确。",：\(2\text{BF}_3 + 6\text{H}_2\text{O} \rightarrow 2\text{H}_3\text{BO}_3 + 6\text{HF} \),N/A,N/A,N/A
+完成并配平化学反应方程式:赤热下无定形硼与水蒸气作用。,$\mathrm{{2B}} + 6{\mathrm{H}}_{2}\mathrm{O}\left( \mathrm{g}\right) = 2\mathrm{\;B}{\left( \mathrm{{OH}}\right) }_{3} + 3{\mathrm{H}}_{2}\left( \mathrm{\;g}\right)$,"：  
+无定形硼（B）是一种非常活泼的单质，在高温（赤热）条件下，它可以与水蒸气（H₂O）发生化学反应。反应的核心是硼与水蒸气发生氧化还原反应，其中硼被氧化为三氧化二硼（B₂O₃），而水被还原生成氢气（H₂）。根据反应物和产物确定如下非配平的反应方程式：  
+
+\[ B + H_2O \rightarrow B_2O_3 + H_2 \]  
+
+接下来需要配平反应方程式。首先注意：  
+1. 硼的原子数在反应前后应相等，因此在生成物中的B₂O₃，需要有2个B原子，与反应物中的硼原子数量一致，因此在硼前添加系数“2”。  
+2. 氧原子的配平：产物B₂O₃中有3个氧原子，因此需要3个H₂O分子来保证反应物与生成物中的氧原子数量相等。  
+3. 氢原子的配平：反应物中有6个氢原子（3个H₂O分子），而生成物中为H₂分子，因此生成3个H₂分子即可保证氢原子守恒。  
+
+最终得到配平的反应方程式：  
+
+\[ 2B + 3H_2O \rightarrow B_2O_3 + 3H_2 \]","：  
+\[ 2B + 3H_2O \rightarrow B_2O_3 + 3H_2 \]",N/A,N/A,N/A
+"完成并配平化学反应方程式:三氧化二硼和氟化钙的混合物中加入浓硫酸。
+",$3{\mathrm{{CaF}}}_{2} + {\mathrm{B}}_{2}{\mathrm{O}}_{3} + 3{\mathrm{H}}_{2}{\mathrm{{SO}}}_{4}$ (浓) $\xrightarrow[]{\Delta }2{\mathrm{{BF}}}_{3} \uparrow + 3{\mathrm{{CaSO}}}_{4} + 3{\mathrm{H}}_{2}\mathrm{O}$,"：三氧化二硼（B₂O₃）、氟化钙（CaF₂）和浓硫酸（H₂SO₄）反应的本质是酸与碱性氧化物发生反应，同时产生含有氟元素的挥发性化合物。具体推理如下：
+
+1. **B₂O₃与H₂SO₄的反应**：硼酸酐（B₂O₃）是一种酸性氧化物，但它可以与浓硫酸反应生成正硼酸（H₃BO₃）或硼酸盐。
+   
+2. **CaF₂的作用**：氟化钙（CaF₂）本身是一种不溶于水的盐，但在浓硫酸的作用下发生酸盐交换反应，生成氢氟酸（HF）。
+   \[
+   CaF_2 + H_2SO_4 → 2HF + CaSO_4
+   \]
+
+3. **产物HF的进一步反应**：生成的HF是一种活泼的氟化氢酸性气体，它与B₂O₃进行反应生成六氟化硼（BF₃），这是一个重要的挥发性物质。
+   \[
+   B_2O_3 + 6HF → 2BF_3 + 3H_2O
+   \]
+
+4. **综合配平**：将上述反应综合考虑，三氧化二硼和氟化钙在存在浓硫酸的情况下，通过多个反应步骤，最终生成挥发性气体六氟化硼（BF₃）、水（H₂O）、和硫酸钙（CaSO₄）。配平总的化学方程式为：
+   \[
+   B_2O_3 + 3CaF_2 + 3H_2SO_4 → 2BF_3 + 3CaSO_4 + 3H_2O
+   \]","：
+\[
+B_2O_3 + 3CaF_2 + 3H_2SO_4 → 2BF_3 + 3CaSO_4 + 3H_2O
+\]",N/A,N/A,N/A
+完成并配平化学反应方程式:向硼砂溶液中加稀硫酸。,${\mathrm{{Na}}}_{2}{\mathrm{\;B}}_{4}{\mathrm{O}}_{7} + {\mathrm{H}}_{2}{\mathrm{{SO}}}_{4} + 5{\mathrm{H}}_{2}\mathrm{O} = 4\mathrm{\;B}{\left( \mathrm{{OH}}\right) }_{3} + {\mathrm{{Na}}}_{2}{\mathrm{{SO}}}_{4}$,"：向硼砂（硼酸钠，化学式为Na2B4O7·10H2O）的水溶液中加入稀硫酸，会发生双分解反应生成硼酸（H3BO3）和硫酸钠（Na2SO4）。其中硼酸是一种弱酸，会从硼砂溶液中分离出来。因此化学反应方程式的书写需严格遵循物质的化学性质以及质量守恒和电荷守恒的规律，通过逐步分析反应物和生成物，配平化学式。
+
+首先写出反应的基本框架：
+\[ \text{Na}_2\text{B}_4\text{O}_7 + \text{H}_2\text{SO}_4 + \text{H}_2\text{O} \rightarrow \text{H}_3\text{BO}_3 + \text{Na}_2\text{SO}_4 \]
+
+接下来配平化学方程式：
+1. 硼砂的化学式为Na2B4O7（不包括结晶水），它含有4个硼原子和7个氧原子。
+2. 反应生成硼酸（H3BO3），每个硼酸分子中含1个硼原子，因此4个硼原子需要生成4个H3BO3。
+3. 硫酸（H2SO4）生成硫酸钠（Na2SO4），一个硫酸分子对应一个硫酸钠分子。
+4. 为了维持氧原子平衡，需要补充水分子（H2O）。
+
+因此完整配平后的反应方程式为：
+\[ \text{Na}_2\text{B}_4\text{O}_7 + \text{H}_2\text{SO}_4 + 5\text{H}_2\text{O} \rightarrow 4\text{H}_3\text{BO}_3 + \text{Na}_2\text{SO}_4 \]",：Na2B4O7 + H2SO4 + 5H2O → 4H3BO3 + Na2SO4,N/A,N/A,N/A
+"完成并配平化学反应方程式:将 ${\mathrm{{Na}}}_{2}{\mathrm{{CO}}}_{3}$ 和 ${\mathrm{{Al}}}_{2}{\mathrm{O}}_{3}$ 一起熔烧,然后将熔块打碎并投入水中。","${\mathrm{{Na}}}_{2}{\mathrm{{CO}}}_{3} + {\mathrm{{Al}}}_{2}{\mathrm{O}}_{3}\xrightarrow[]{\bigtriangleup }2{\mathrm{{NaAlO}}}_{2} + {\mathrm{{CO}}}_{2} \uparrow$
+
+${\mathrm{{NaAlO}}}_{2} + 2{\mathrm{H}}_{2}\mathrm{O} = \mathrm{{Al}}{\left( \mathrm{{OH}}\right) }_{3} \downarrow + \mathrm{{NaOH}}$","：  
+1. 分析反应物：${\mathrm{Na}}_{2}{\mathrm{CO}}_{3}$ 是碳酸钠，${\mathrm{Al}}_{2}{\mathrm{O}}_{3}$ 是氧化铝。  
+2. 氧化铝是一种两性氧化物，可以与碱反应生成偏铝酸盐。这是关键反应步骤。  
+3. 当熔融的碳酸钠和氧化铝一起加热时，氧化铝会和碳酸钠反应生成偏铝酸钠（$\mathrm{NaAlO}_{2}$），释放出二氧化碳气体。反应如下：  
+   \[ {\mathrm{Na}}_{2}{\mathrm{CO}}_{3} + {\mathrm{Al}}_{2}{\mathrm{O}}_{3} \rightarrow 2\mathrm{NaAlO}_{2} + \mathrm{CO}_{2} \]  
+4. 需要配平方程式。根据反应物和生成物的数量关系和种类，我们可以配平如下：  
+   - 注意钠的原子数量平衡，铝的原子，要生成两个$\mathrm{NaAlO}_{2}$需要两个铝原子数；其次配平钠需要两个$\mathrm{Na}_{2}\mathrm{CO}_{3}$。  
+   - 最终配平后，方程式为：  
+   \[ 3{\mathrm{Na}}_{2}{\mathrm{CO}}_{3} + {\mathrm{Al}}_{2}{\mathrm{O}}_{3} \rightarrow 2\mathrm{NaAlO}_{2} + 3\mathrm{CO}_{2} \]  
+5. 方程配平后，表明过程中氧化铝和碳酸钠按比例发生反应并生成相应的产物。",：3${\mathrm{Na}}_{2}{\mathrm{CO}}_{3}$ + ${\mathrm{Al}}_{2}{\mathrm{O}}_{3}$ → 2$\mathrm{NaAlO}_{2}$ + 3$\mathrm{CO}_{2}$,N/A,N/A,N/A
+完成并配平化学反应方程式:铝溶于热的 $\mathrm{{NaOH}}$ 溶液中。,$2\mathrm{{Al}} + 2\mathrm{{NaOH}} + 2{\mathrm{H}}_{2}\mathrm{O}\xrightarrow[]{\bigtriangleup }2{\mathrm{{NaAlO}}}_{2} + 3{\mathrm{H}}_{2} \uparrow$,"：  
+当铝在热的氢氧化钠溶液中反应时，铝会与氢氧化钠和水发生反应生成偏铝酸钠 $\mathrm{NaAlO_2}$ 和氢气 $\mathrm{H_2}$。首先列出化学反应方程式的反应物和生成物：  
+\[
+\text{未配平的方程式：} \quad \mathrm{Al} + \mathrm{NaOH} + \mathrm{H_2O} \rightarrow \mathrm{NaAlO_2} + \mathrm{H_2}
+\]
+
+接着，根据反应方程式配平原则进行配平：  
+- 铝元素：反应物侧1个 $\mathrm{Al}$，生成物侧1个 $\mathrm{Al}$，已经平衡。
+- 钠元素：反应物侧1个 $\mathrm{Na}$，生成物侧1个 $\mathrm{Na}$，已经平衡。
+- 氢元素：反应物侧有水和氢氧根中共4个氢原子，生成物侧有 $\mathrm{H}_2$ 中2个氢原子，所以需要再产生1个 $\mathrm{H}_2$ 分子，将系数调整为3个 $\mathrm{H}_2$ 来配平氢（$4$ 个氢），因此总共产生3个氢分子，需要在反应物侧补充其他化学物料。
+- 氧元素：反应物侧有两个 $\mathrm{O}$（来自 $\mathrm{NaOH}$ 和 $\mathrm{H_2O}$），生成物侧有两个 $\mathrm{O}$，已经平衡。
+
+将每种元素的系数做调整：
+- \(\mathrm{Al} + 3\mathrm{NaOH} + 3\mathrm{H_2O} \rightarrow \mathrm{NaAlO_2} + \frac{3}{2}\mathrm{H}_2 \)已经正确，但标准的化学方程式需要整数系数。
+- 用2倍放大整数到需要水平所有整数最小值。整体通过2倍放大：  
+\[
+\mathrm{2Al} + 6\mathrm{NaOH} + 6\mathrm{H_2O} \rightarrow 2\mathrm{NaAlO_2} + 3\mathrm{H_2}
+\]","：  
+\[
+\mathrm{2Al} + 2 \mathrm{NaOH} + 2\mathrm{H_2O} \rightarrow 2\mathrm{NaAlO_2} + 3\mathrm{H_2}
+\]",N/A,N/A,N/A
+完成并配平化学反应方程式: 向 ${\mathrm{{NaAlO}}}_{2}$ 溶液中加 ${\mathrm{{NH}}}_{4}\mathrm{{Cl}}$ 。,${\mathrm{{NaAlO}}}_{2} + {\mathrm{{NH}}}_{4}\mathrm{{Cl}} + 2{\mathrm{H}}_{2}\mathrm{O} = \mathrm{{Al}}{\left( \mathrm{{OH}}\right) }_{3} \downarrow + {\mathrm{{NH}}}_{3} \cdot {\mathrm{H}}_{2}\mathrm{O} + \mathrm{{NaCl}}$,"：  
+当向 ${\mathrm{NaAlO}}_2$ 溶液中加入 ${\mathrm{NH}}_4\mathrm{Cl}$ 时，会发生两个主要的反应：  
+1. ${\mathrm{NH}}_4\mathrm{Cl}$ 在水中会电离，生成 ${\mathrm{NH}}_4^+$ 和 ${\mathrm{Cl}}^-$。  
+2. ${\mathrm{NaAlO}}_2$ 是一种碱性物质，在水中通常电离为 ${\mathrm{Na}^+}$ 和 ${\mathrm{AlO}_2^-}$。${\mathrm{AlO}_2^-}$ 是偏铝酸根，在一定酸性条件下容易生成氢氧化铝沉淀。  
+
+此反应的核心是 ${\mathrm{NH}}_4^+$ 的弱酸性会导致溶液酸化，从而使 ${\mathrm{AlO}_2^-}$ 与水发生反应生成氢氧化铝 ${\mathrm{Al(OH)_3}}$ 沉淀，其反应式如下：  
+\[
+{\mathrm{AlO}_2^-} + {\mathrm{2H_2O}} \rightarrow {\mathrm{Al(OH)_3}} + {\mathrm{OH}^-}
+\]  
+
+同时，${\mathrm{NH}}_4^+$ 和 ${\mathrm{OH}^-}$ 会反应生成 ${\mathrm{NH_3}}$ 和 ${\mathrm{H_2O}}$，平衡反应继续向生成 ${\mathrm{Al(OH)_3}}$ 的方向推进。综合反应为：  
+\[
+{\mathrm{NaAlO}_2} + {\mathrm{NH_4Cl}} + {\mathrm{2H_2O}} \rightarrow {\mathrm{Al(OH)_3\downarrow}} + {\mathrm{NaCl}} + {\mathrm{NH_3}}
+\]  
+
+反应中的氢氧化铝（${\mathrm{Al(OH)_3}}$）是沉淀，其生成驱动了整个反应完成。","：  
+${\mathrm{NaAlO}_2} + {\mathrm{NH_4Cl}} + {\mathrm{2H_2O}} \rightarrow {\mathrm{Al(OH)_3\downarrow}} + {\mathrm{NaCl}} + {\mathrm{NH_3}}$",N/A,N/A,N/A
+完成并配平化学反应方程式:金属镓与稀硫酸反应。,$2\mathrm{{Ga}} + 3{\mathrm{H}}_{2}{\mathrm{{SO}}}_{4}$ (稀) $= {\mathrm{{Ga}}}_{2}{\left( {\mathrm{{SO}}}_{4}\right) }_{3} + 3{\mathrm{H}}_{2} \uparrow$,"：镓是一种金属，它与稀硫酸反应生成硫酸镓和氢气。把这个反应表示成化学方程式：Ga + H2SO4 → Ga2(SO4)3 + H2。首先，确定反应的生成物。根据镓的化合价，该反应生成硫酸镓 [Ga2(SO4)3] 和氢气 [H2]。为了平衡化学方程，首先把镓的数量平衡，即镓在反应物和生成物中应有相同的数量。接着平衡硫酸的数量，最后平衡氢气的数量。配平步骤如下：
+
+1. 起始未配平的方程式为：Ga + H2SO4 → Ga2(SO4)3 + H2。
+2. 镓（Ga）的配平：反应物为 1 个镓原子，但生成物中有 2 个镓原子，所以在反应物一侧需要 2 个镓原子。调整为 2Ga + H2SO4 → Ga2(SO4)3 + H2。
+3. 硫酸根（SO4）的配平：生成物中有 3 个 SO4，即需要在反应物中有 3 个 H2SO4，因此反应物调为 2Ga + 3H2SO4 → Ga2(SO4)3 + H2。
+4. 氢（H）原子的配平：反应物有 3×2=6 个氢原子，生成物中现有氢气 H2，应为 3H2。
+
+最后，配平方程式为：2Ga + 3H2SO4 → Ga2(SO4)3 + 3H2。",：2Ga + 3H2SO4 → Ga2(SO4)3 + 3H2,N/A,N/A,N/A
+完成并配平化学反应方程式:金属镓与浓硝酸反应。,$\mathrm{{Ga}} + 6{\mathrm{{HNO}}}_{3}$ (浓) $= \mathrm{{Ga}}{\left( {\mathrm{{NO}}}_{3}\right) }_{3} + 3{\mathrm{{NO}}}_{2} \uparrow + 3{\mathrm{H}}_{2}\mathrm{O}$,"：金属镓（Ga）与浓硝酸（HNO₃）发生反应属于一种氧化还原反应。浓硝酸通常作为氧化剂。金属镓会被氧化，从而生成镓离子（Ga³⁺），而硝酸中的氮元素通过还原反应，一般生成二氧化氮（NO₂）。假设反应中还生成水（H₂O）来进行平衡。在这类反应中，氢离子来自硝酸，而最终的产物水也是由氢离子和氧形成的。显然，要平衡整个化学方程需要确保电荷守恒和原子守恒。
+
+1. 镓被氧化：
+   - Ga → Ga³⁺ + 3e⁻
+2. 硝酸中氮被还原：
+   - HNO₃ → NO₂ + H₂O，氧化数的变化：+5（在HNO₃中）到+4（在NO₂中），每个氮的还原需要1个电子。
+3. 硝酸对电子的总需求，考虑为两个氮原子的还原：
+   - 2HNO₃ + 2e⁻ → 2NO₂ + 2H₂O
+4. 平衡方程：
+   - 镓失去3个电子，而2个硝酸分子需要2个电子，因此，需要最小公倍数来平衡电子交换。需要用3个Ga和2倍的硝酸反应方程。
+   - 3Ga + 6HNO₃ → 3Ga³⁺ + 6NO₂ + 3H₂O
+
+考虑到所有原子的平衡，电子数量也一致。反应中的每个元素的数量，以及电荷均达成平衡，从而完成反应方程。",：3Ga + 6HNO₃ → 3Ga(NO₃)₃ + 3NO₂ + 3H₂O,N/A,N/A,N/A
+完成并配平化学反应方程式:向 $\mathrm{{TlOH}}$ 溶液中加 $\mathrm{{NaCl}}$ 溶液。,$\mathrm{{TlOH}}+ \mathrm{{NaCl}} = \mathrm{{TlCl}} + \mathrm{{NaOH}}$,"：向 \(\mathrm{TlOH}\) 溶液中加入 \(\mathrm{NaCl}\) 溶液，首先考虑可能发生的反应。在常温下，钠离子 (\(\mathrm{Na}^+\))\) 和氯离子 (\(\mathrm{Cl}^-\)) 通常不会与氢氧化物发生直接反应。因而主要考虑铊离子 \(\mathrm{Tl}^+\) 和氯离子 \(\mathrm{Cl}^-\) 可能形成沉淀的反应。
+
+在溶液中：
+1. \(\mathrm{TlOH}\) 会电离为 \(\mathrm{Tl}^+\) 和 \(\mathrm{OH}^-\)。
+2. \(\mathrm{NaCl}\) 会电离为 \(\mathrm{Na}^+\) 和 \(\mathrm{Cl}^-\)。
+
+根据溶解度表，氯化铊 \(\mathrm{TlCl}\) 是一种不溶于水的白色沉淀。因此，发生的反应是：
+\[
+\mathrm{Tl^+ + Cl^- \rightarrow TlCl \downarrow}
+\]
+
+这说明向 \(\mathrm{TlOH}\) 溶液中加入 \(\mathrm{NaCl}\) 溶液时，会有 \(\mathrm{TlCl}\) 的沉淀生成，而钠离子和氢氧根离子仍然在溶液中。
+
+化学方程式应该加入状态符号：
+\[
+\mathrm{TlOH (aq) + NaCl (aq) \rightarrow TlCl (s) + NaOH (aq)}
+\]
+
+反应方程式已经平衡，因为每种元素在反应中都守恒。",：\(\mathrm{TlOH (aq) + NaCl (aq) \rightarrow TlCl (s) + NaOH (aq)}\),N/A,N/A,N/A
+完成并配平化学反应方程式:向 $\mathrm{{KI}}$ 溶液中加入 ${\mathrm{{TlCl}}}_{3}$ 。, ${\mathrm{{TlCl}}}_{3} + 3\mathrm{{KI}} = \mathrm{{TlI}} + {\mathrm{I}}_{2} + 3\mathrm{{KCl}}$,"：该反应涉及的是碘化钾 (\(\mathrm{KI}\)) 和三氯化铊 (\(\mathrm{TlCl}_3\)) 的反应。由于\(\mathrm{TlCl}_3\) 中钛为 +3 价，而容易被还原，更稳定的价态是 +1 价。因此，\(\mathrm{TlCl}_3\) 会与 \(\mathrm{KI}\) 反应，生成单质 \(\mathrm{I}_2\) 和氯化铊 (\(\mathrm{TlCl}\))，同时留下部分的 \(\mathrm{KCl}\)。 
+
+反应方程式可以写为：
+
+\[ 
+3 \mathrm{KI} + \mathrm{TlCl}_3 \rightarrow \mathrm{TlI}_3 + 3 \mathrm{KCl}
+\]
+
+然而，\(\mathrm{TlI}_3\) 是不稳定并会发生分解，实际上两步反应为：
+
+1. \(\mathrm{TlCl}_3\) 还原形成 \(\mathrm{TlCl}\) 和 \(\mathrm{I}_2\)
+2. \(\mathrm{TlI}\) 与 \(\mathrm{I}_2\) 反应离子化
+
+由于钙是不会直接形成 \(\mathrm{TlI}_3\)，正确反应式应该是：
+
+\[
+\mathrm{TlCl}_3 + 3 \mathrm{KI} \rightarrow \mathrm{TlI} + 3 \mathrm{KCl} + \mathrm{I}_2
+\]
+
+反应条件正常下会有 \(\mathrm{I}_2\) 沉淀出来。",：3 \mathrm{KI} + \mathrm{TlCl}_3 \rightarrow \mathrm{TlI} + 3 \mathrm{KCl} + \mathrm{I}_2,N/A,N/A,N/A
