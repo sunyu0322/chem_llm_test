@@ -125,13 +125,14 @@ def load_processed_files(file_path):
 
 def save_processed_files(processed_file_path: str, processed_files: set):
     """
-    将处理过的文件名保存到文件中（追加写入模式）。
+    将处理过的文件名保存到文件中（每次处理完一个文件后写入）。
     """
     try:
-        with open(processed_file_path, 'a', encoding='utf-8') as f:  # 使用追加模式
+        # 仅保存已处理的文件，避免重复写入
+        with open(processed_file_path, 'w', encoding='utf-8') as f:
             for file in processed_files:
                 f.write(file + "\n")
-        print(f"已将处理过的文件列表追加写入到: {processed_file_path}")
+        print(f"已将处理过的文件列表写入到: {processed_file_path}")
     except Exception as e:
         print(f"保存已处理文件时发生错误: {e}")
 

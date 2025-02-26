@@ -15,7 +15,7 @@
 │   ├── evaluate_response.py # 评估模型回答的脚本
 │   ├── load_csv_data.py   # 读取CSV数据的脚本
 │   └── file_operations.py # csv文件读写操作
-├── Q&A/                   # 存放输入问题和答案的CSV文件
+├── /n                   # 存放输入问题和答案的CSV文件
 │   └── 原子结构和元素周期律_选择题.csv # 示例输入文件
 └── QA_output/             # 存放输出评估结果的CSV文件
     └── output_原子结构和元素周期律_选择题.csv # 示例输出文件

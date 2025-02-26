@@ -1,58 +1,285 @@
 query,true_answer,reasoning,model_answer,knowledge_accuracy,reasoning_accuracy,final_answer_accuracy
+"对于恒温恒压有非体积功的反应, 下列等式正确的是
+
+(A) $Q = {\Delta H}$ ; (B) $Q = {\Delta H} + {W}_{\text{非 }}$ ; (C) ${\Delta H} = Q + {W}_{\text{非 }}$ ; (D) $Q = {\Delta U}$ 。",C,"：在处理恒温恒压条件下的热力学问题，涉及焓变（ΔH）、内能变化（ΔU）、功（W）、以及热量（Q）的关系时，需要梳理基本热力学方程和条件约束：
+
+1. 恒温恒压系统的焓（ΔH）定义为：  
+   \[
+   \Delta H = \Delta U + P\Delta V
+   \]
+   且在恒压条件下，系统通过热量交换而发生焓的变化，可以写为：
+   \[
+   Q = \Delta H
+   \]
+   但这前提是没有非体积功存在。
+
+2. 若系统具有非体积功 \({W}_{\text{非 }}\)，根据能量守恒第一定律，  
+   \[
+   \Delta U = Q - W
+   \]
+   其中，\(W = P\Delta V + {W}_{\text{非 }}\)。将其代入，可得：
+   \[
+   Q = \Delta U + P\Delta V + {W}_{\text{非 }}
+   \]
+   根据焓的定义 (\(\Delta H = \Delta U + P\Delta V\))，可将上式改写为：
+   \[
+   Q = \Delta H + {W}_{\text{非 }}
+   \]
+
+3. 分析选项：
+   - 选项 (A): \(Q = \Delta H\)。这仅在没有非体积功的情况下成立，题目明确说明有非体积功，故错。
+   - 选项 (B): \(Q = \Delta H + {W}_{\text{非 }}\)。结合推导过程，这是具非体积功情况下的正确关系，成立。
+   - 选项 (C): \(\Delta H = Q + {W}_{\text{非 }}\)。此选项显然与推导的正确关系矛盾，错。
+   - 选项 (D): \(Q = \Delta U\)。根据第一定律，若有功 (包括体积功和非体积功)，\(\Delta U \neq Q\)，故此项错误。",：B,N/A,N/A,N/A
+"已知 ${\Delta }_{\mathrm{c}}{H}_{\mathrm{m}}^{ \ominus }\left( {\mathrm{C}\text{,石墨}}\right) = - {393.5}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1},{\Delta }_{\mathrm{c}}{H}_{\mathrm{m}}^{ \ominus }\left( {\mathrm{C}\text{,金刚石}}\right) = - {395.6}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ ,则 ${\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }\left( {\mathrm{C}\text{,金刚石}}\right)$ 为
+
+(A) $- {789.3}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ ; (B) ${2.1}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ ;
+
+(C) $- {2.1}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ ; (D) ${789.3}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ 。",B,"：  
+1. 标准生成焓（ΔfHm°）是指在标准状态下，由单质生成1摩尔化合物时的焓变。单质的标准状态生成焓定义为零。例如，对碳的两种同素异形体（石墨和金刚石）来说，碳的标准状态为石墨，因此 ${\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }\left( {\text{C,石墨}}\right) = 0$。  
+   
+2. 题目已知碳的两种同素异形体的标准燃烧焓：  
+   - ${\Delta }_{\mathrm{c}}{H}_{\mathrm{m}}^{ \ominus }\left( {\mathrm{C,石墨}}\right) = -393.5\;\mathrm{kJ \cdot mol^{-1}}$：  
+     $\mathrm{C}(\text{石墨}) + \mathrm{O}_2(\text{气}) \rightarrow \mathrm{CO}_2(\text{气})$  
+   - ${\Delta }_{\mathrm{c}}{H}_{\mathrm{m}}^{ \ominus }\left( {\mathrm{C,金刚石}}\right) = -395.6\;\mathrm{kJ \cdot mol^{-1}}$：  
+     $\mathrm{C}(\text{金刚石}) + \mathrm{O}_2(\text{气}) \rightarrow \mathrm{CO}_2(\text{气})$  
+
+3. 根据热化学的Hess定律，金刚石和石墨之间可以通过以下状态函数表达变化：  
+   $\mathrm{C}(\text{石墨}) \xrightarrow{\Delta H} \mathrm{C}(\text{金刚石})$，其焓变与已知燃烧焓的焓变差值相关。利用燃烧焓的数值：  
+   ${\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }\left( {\text{C,金刚石}}\right) - {\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }\left( {\text{C,石墨}}\right) = {\Delta }_{\mathrm{c}}{H}_{\mathrm{m}}^{ \ominus }\left( {\text{C,石墨}}\right) - {\Delta }_{\mathrm{c}}{H}_{\mathrm{m}}^{ \ominus }\left( {\text{C,金刚石}}\right)$  
+
+4. 石墨的标准生成焓为0，则有：  
+   ${\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }\left( {\text{C,金刚石}}\right) = {\Delta }_{\mathrm{c}}{H}_{\mathrm{m}}^{ \ominus }\left( {\text{C,石墨}}\right) - {\Delta }_{\mathrm{c}}{H}_{\mathrm{m}}^{ \ominus }\left( {\text{C,金刚石}}\right)$  
+
+5. 代入数据进行计算：  
+   ${\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }\left( {\text{C,金刚石}}\right) = (-393.5\;\mathrm{kJ \cdot mol^{-1}}) - (-395.6\;\mathrm{kJ \cdot mol^{-1}})$  
+   ${\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }\left( {\text{C,金刚石}}\right) = 2.1\;\mathrm{kJ \cdot mol^{-1}}$",：B,N/A,N/A,N/A
+"已知反应 $2\mathrm{{PbS}}\left( \mathrm{s}\right) + 3{\mathrm{O}}_{2}\left( \mathrm{\;g}\right) = 2\mathrm{{PbO}}\left( \mathrm{s}\right) + 2{\mathrm{{SO}}}_{2}\left( \mathrm{\;g}\right)$ 的 ${\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus } = - {843.4}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ ,则 ${298}\mathrm{\;K}$ 时, $1\mathrm{\;{mol}}$ 该反应的恒容反应热 ${Q}_{\mathrm{v}}$ 的值为
+
+(A) ${840.9}\mathrm{\;{kJ}}$ ; (B) ${845.9}\mathrm{\;{kJ}}$ ; (C) $- {845.9}\mathrm{\;{kJ}}$ ; (D) $- {840.9}\mathrm{\;{kJ}}$ 。",D,"：
+1. 要解答此题，需要区分反应焓与恒容反应热的关系。在恒容条件下，反应体系的热效应等于恒容反应热 \(Q_v\)，而恒容条件下的热效应与焓变 \(\Delta_rH_m^{\ominus}\) 之间的关系是：
+   \[
+   Q_v = \Delta_rH_m - \Delta n_gRT
+   \]
+   这里，\(\Delta n_g\) 是反应过程中气体物质的量的变化，\(R\) 是气体常数，\(T\) 是温度。
+
+2. 已知反应为：
+   \[
+   2\mathrm{{PbS}}\left( \mathrm{s}\right) + 3{\mathrm{O}}_{2}\left( \mathrm{\;g}\right) = 2\mathrm{{PbO}}\left( \mathrm{s}\right) + 2{\mathrm{{SO}}}_{2}\left( \mathrm{\;g}\right)
+   \]
+   当前反应中，初始态和终态的气体物质的量分别为：
+   - 初始时气体为 \(3\ \mathrm{mol}\) 的 \(O_2\)，
+   - 最终时气体为 \(2\ \mathrm{mol}\) 的 \(SO_2\)，
+   因此，气体物质的量的变化为：
+   \[
+   \Delta n_g = \text{最终气体物质的量} - \text{初始气体物质的量} = 2 - 3 = -1
+   \]
+
+3. 根据题目已知的标准生成焓变为：
+   \[
+   \Delta_rH_m^{\ominus} = -843.4\ \mathrm{kJ\cdot mol^{-1}}
+   \]
+   取 \(R = 8.314\ \mathrm{J\cdot mol^{-1}\cdot K^{-1}} = 0.008314\ \mathrm{kJ\cdot mol^{-1}\cdot K^{-1}}\)，
+   且温度 \(T = 298\ \mathrm{K}\)。
+
+4. 将数值代入公式：
+   \[
+   Q_v = \Delta_rH_m - \Delta n_gRT
+   \]
+   其中 \(\Delta n_g = -1\)，因此：
+   \[
+   Q_v = -843.4 - (-1)(0.008314)(298)
+   \]
+   \[
+   Q_v = -843.4 + 0.008314 \times 298 = -843.4 + 2.48 = -840.92\ \mathrm{kJ\cdot mol^{-1}}
+   \]
+
+5. 根据计算结果，恒容反应热 \(Q_v \approx -840.9\ \mathrm{kJ\cdot mol^{-1}}\)。",：D,N/A,N/A,N/A
+"将固体 ${\mathrm{{NH}}}_{4}{\mathrm{{NO}}}_{3}$ 溶于水中,溶液变冷,则该过程的 ${\Delta G},{\Delta H},{\Delta S}$ 的符号依次是
+
+(A) $+ , - , -$ ; (B) $+ , + , -$ ; (C) $- , + , -$ ; (D) $- , + , +$ 。",D,"：  
+在溶解过程中，固体 $\mathrm{NH}_4\mathrm{NO}_3$ 溶于水时，溶液温度降低，意味着该过程是吸热过程，因此 $\Delta H$（焓变）为正。
+
+对于自发过程，吉布斯自由能变（$\Delta G$）应该小于0，即 $\Delta G < 0$。固体 $\mathrm{NH}_4\mathrm{NO}_3$ 溶于水是一个自发过程，因为即使是吸热的，它仍然自发进行，因此 $\Delta G$ 为负。
+
+该过程还涉及到固体物质变成水溶液，体系的无序度增加，所以熵变（$\Delta S$）是正的。
+
+综上所述，吸热过程中 $\Delta H > 0$，自发溶解 $\Delta G < 0$，并伴随熵增 $\Delta S > 0$。结合以上分析，符合 $\Delta G$, $\Delta H$, $\Delta S$ 符号分别为 $-, +, +$ 的选项是 (D)。",：D,N/A,N/A,N/A
+"冰的熔化热为 ${330.5}\mathrm{\;J} \cdot {\mathrm{g}}^{-1},{0}^{ \circ }\mathrm{C}$ 时将 ${1.0}\mathrm{\;g}$ 水凝结为冰时的 ${\Delta S}$ 为
+
+(A) $- {330.5}\mathrm{\;J} \cdot {\mathrm{K}}^{-1}$ ; (B) -1.21 J. ${\mathrm{K}}^{-1}$ ;
+
+(C) 0 ; (D) ${1.21}\mathrm{\;J} \cdot {\mathrm{K}}^{-1}$ 。",B,"：  
+熵变 (\(\Delta S\)) 的计算公式为：  
+\[
+\Delta S = \frac{q_{\text{rev}}}{T}
+\]  
+其中：
+- \(q_{\text{rev}}\) 表示系统可逆过程中吸收或释放的热量；
+- \(T\) 是过程进行时的绝对温度（单位为开尔文）。
+
+在本题中，水在 \({0}^{\circ}\mathrm{C}\) (\(273.15\;\mathrm{K}\)) 冷凝为冰。冷凝过程为放热过程，释放的热量正好等于冰的熔化热。对于 \({1.0}\;\mathrm{g}\) 的水，释放的热量 \(q_{\text{rev}}\) 为：  
+\[
+q_{\text{rev}} = -\Delta H_{\text{熔化}} \times \text{质量} = -330.5 \;\mathrm{J/g} \times 1.0 \;\mathrm{g} = -330.5 \;\mathrm{J}
+\]  
+
+将 \(q_{\text{rev}}\) 和 \(T\) 代入熵变公式进行计算：  
+\[
+\Delta S = \frac{q_{\text{rev}}}{T} = \frac{-330.5 \;\mathrm{J}}{273.15 \;\mathrm{K}} \approx -1.21 \;\mathrm{J} \cdot \mathrm{K}^{-1}
+\]  
+
+由此可以看出，熵变化为负值且接近 \(-1.21 \;\mathrm{J} \cdot \mathrm{K}^{-1}\)，因为冷凝过程使系统的无序度降低（熵减小）。",：B,N/A,N/A,N/A
+"下列反应中, ${\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus }$ 与产物的 ${\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }$ 相同的是
+
+(A) $2{\mathrm{H}}_{2}\left( \mathrm{\;g}\right) + {\mathrm{O}}_{2}\left( \mathrm{\;g}\right) = 2{\mathrm{H}}_{2}\mathrm{O}\left( \mathrm{l}\right)$ ; (B) $\mathrm{{NO}}\left( \mathrm{g}\right) + \frac{1}{2}{\mathrm{O}}_{2}\left( \mathrm{\;g}\right) = {\mathrm{{NO}}}_{2}\left( \mathrm{\;g}\right)$ ;
+
+(C) $\mathrm{C}$ (金刚石) $= \mathrm{C}$ (石墨); (D) ${\mathrm{H}}_{2}\left( \mathrm{\;g}\right) + \frac{1}{2}{\mathrm{O}}_{2}\left( \mathrm{\;g}\right) = {\mathrm{H}}_{2}\mathrm{O}\left( \mathrm{g}\right)$ 。
+",D,"：对于反应的标准摩尔反应焓变 $\Delta_{\mathrm{r}} H_{\mathrm{m}}^{\ominus}$ 和产物的标准摩尔生成焓 $\Delta_{\mathrm{f}} H_{\mathrm{m}}^{\ominus}$，一个反应的 $\Delta_{\mathrm{r}} H_{\mathrm{m}}^{\ominus}$ 等于反应产物的 $\Delta_{\mathrm{f}} H_{\mathrm{m}}^{\ominus}$ 当且仅当反应中所有反应物的标准摩尔生成焓为零。在化学标准态下，单质在其最稳定形式的生成焓为零，因此我们需要检查每个选项中反应物是否为单质且处于其最稳定状态。
+
+(A) $2{\mathrm{H}}_{2}\left( \mathrm{g}\right) + {\mathrm{O}}_{2}\left( \mathrm{g}\right) = 2{\mathrm{H}}_{2}\mathrm{O}\left( \mathrm{l}\right)$：反应物 ${\mathrm{H}}_{2}$ 和 ${\mathrm{O}}_{2}$ 均为气态单质，生成物为液态水，该反应为液态水的标准生成焓反应，产生的焓变就是液态水的标准摩尔生成焓。
+
+(B) $\mathrm{{NO}}\left( \mathrm{g}\right) + \frac{1}{2}{\mathrm{O}}_{2}\left( \mathrm{g}\right) = {\mathrm{{NO}}}_{2}\left( \mathrm{g}\right)$：反应物 ${\mathrm{{NO}}}$ 的生成焓不为零。
+
+(C) $\mathrm{C}$ (金刚石) $= \mathrm{C}$ (石墨)：反应物和产物均为碳的同素异形体，但石墨是碳的最稳定形式，只有石墨的标准生成焓为零，金刚石不是，这个反应的焓变不是生成焓。
+
+(D) ${\mathrm{H}}_{2}\left( \mathrm{g}\right) + \frac{1}{2}{\mathrm{O}}_{2}\left( \mathrm{g}\right) = {\mathrm{H}}_{2}\mathrm{O}\left( \mathrm{g}\right)$：和选项A类似，只是生成物为气态水，该反应为气态水的标准生成焓反应。
+
+通过以上分析，我们知道(A)和(D)是关于H2O的标准生成反应，但(A)是液态水而(D)是气态水。在(A)中所有反应物为最稳定的单质，因此反应焓等于产物的生成焓。",：A,N/A,N/A,N/A
+"下列物质中, 标准摩尔熵最大的是
+
+(A) ${\mathrm{{MgF}}}_{2}$ ; (B) $\mathrm{{MgO}}$ ; (C) ${\mathrm{{MgSO}}}_{4}$ ; (D) ${\mathrm{{MgCO}}}_{3}$ 。",C,"：  
+根据热力学的相关知识，标准摩尔熵是用来衡量物质分子在标准状况下的无序程度的。无序程度越大，标准摩尔熵（通常用符号 \( S^0 \) 表示）越高。而影响物质无序程度（即熵值）的因素包括：  
+
+1. **物质的状态**：气体的熵值一般最高，其次是液体，固体的熵值最低。题目中所有物质均为固体，在同一物态下比其他因素。  
+2. **粒子构造的复杂程度**：通常一个分子的结构越复杂、所含原子的种类和数目越多，熵值越高。  
+3. **晶体结构对无序性的影响**：复杂的晶体结构可能导致熵值有所增加。  
+
+对选项进行分析：  
+- (A) \(\mathrm{MgF_2}\)：由 \( \mathrm{Mg^{2+}} \) 和两个 \( \mathrm{F^-} \) 构成，总体结构较简单，熵值较低。  
+- (B) \(\mathrm{MgO}\)：由 \( \mathrm{Mg^{2+}} \) 和 \( \mathrm{O^{2-}} \) 构成，离子晶格较简单，熵值较低。  
+- (C) \(\mathrm{MgSO_4}\)：由 \( \mathrm{Mg^{2+}} \) 和复杂的多原子离子 \(\mathrm{SO_4^{2-}}\) 构成，离子晶格较复杂，但复杂程度次于 \(\mathrm{MgCO_3}\)。  
+- (D) \(\mathrm{MgCO_3}\)：含有 \( \mathrm{Mg^{2+}} \) 和多原子离子 \(\mathrm{CO_3^{2-}}\)，复杂程度较高，且 \(\mathrm{CO_3^{2-}}\) 本身的原子数多，相较于其他选项无序程度更高，因此熵值最大。  
+
+综上所述，\( \mathrm{MgCO_3} \) 的标准摩尔熵最大。",：D,N/A,N/A,N/A
+"下列反应中, ${\Delta }_{\mathrm{r}}{S}_{\mathrm{m}}^{ \ominus }$ 最大的是
+
+(A) $\mathrm{C}\left( \mathrm{s}\right) + {\mathrm{O}}_{2}\left( \mathrm{\;g}\right) = {\mathrm{{CO}}}_{2}\left( \mathrm{\;g}\right)$ ;
+
+(B) $2{\mathrm{{SO}}}_{2}\left( \mathrm{\;g}\right) + {\mathrm{O}}_{2}\left( \mathrm{\;g}\right) = 2{\mathrm{{SO}}}_{3}\left( \mathrm{\;g}\right)$ ;
+
+(C) $3{\mathrm{H}}_{2}\left( \mathrm{\;g}\right) + {\mathrm{N}}_{2}\left( \mathrm{\;g}\right) = 2{\mathrm{{NH}}}_{3}\left( \mathrm{\;g}\right)$ ;
+
+(D) ${\mathrm{{CuSO}}}_{4}\left( \mathrm{\;s}\right) + 5{\mathrm{H}}_{2}\mathrm{O}\left( \mathrm{l}\right) = {\mathrm{{CuSO}}}_{4} \cdot 5{\mathrm{H}}_{2}\mathrm{O}\left( \mathrm{s}\right)$ 。",A,"：  
+反应熵变$\Delta_{\mathrm{r}}{S}_{\mathrm{m}}^{\ominus}$通常取决于反应物和生成物的分子数量和相态变化。一般而言，熵的变化可以考虑以下几点：
+
+1. 气体比液体有更高的熵，液体比固体有更高的熵。因此，气体生成固体通常会导致熵的降低。
+
+2. 分子数减少的反应通常导致熵的减少。
+
+我们分析各选项：
+
+- (A) $\mathrm{C}\left( \mathrm{s}\right) + {\mathrm{O}}_{2}\left( \mathrm{\;g}\right) = {\mathrm{CO}}_{2}\left( \mathrm{\;g}\right)$：一份气体变成一份气体，但生成物的分子数不变，且反应物中有固体。
+
+- (B) $2{\mathrm{SO}}_{2}\left( \mathrm{\;g}\right) + {\mathrm{O}}_{2}\left( \mathrm{\;g}\right) = 2{\mathrm{SO}}_{3}\left( \mathrm{\;g}\right)$：三份气体变成两份气体，分子数量减少，熵降低。
+
+- (C) $3{\mathrm{H}}_{2}\left( \mathrm{\;g}\right) + {\mathrm{N}}_{2}\left( \mathrm{\;g}\right) = 2{\mathrm{NH}}_{3}\left( \mathrm{\;g}\right)$：四份气体变成两份气体，分子数量减少，熵降低。
+
+- (D) ${\mathrm{CuSO}}_{4}\left( \mathrm{\;s}\right) + 5{\mathrm{H}}_{2}\mathrm{O}\left( \mathrm{l}\right) = {\mathrm{{CuSO}}}_{4} \cdot 5{\mathrm{H}}_{2}\mathrm{O}\left( \mathrm{s}\right)$：液体变为固体，熵显著降低。
+
+综上所述，选项 (A) 中，由于反应物含有固体且生成2份气体并没有减少气体分子数，因此，虽然熵变化小，但比其他状态从多气体变少的情况相对要小，所以A的熵变化较大。",：A,N/A,N/A,N/A
+"下列反应在常温下均为非自发反应, 在高温下仍为非自发的是
+
+(A) $2{\mathrm{{Ag}}}_{2}\mathrm{O}\left( \mathrm{s}\right) = 4\mathrm{{Ag}}\left( \mathrm{s}\right) + {\mathrm{O}}_{2}\left( \mathrm{\;g}\right)$ ;
+
+(B) $2{\mathrm{{Fe}}}_{2}{\mathrm{O}}_{3}\left( \mathrm{\;s}\right) + 3\mathrm{C}\left( \mathrm{s}\right) = 4\mathrm{{Fe}}\left( \mathrm{s}\right) + 3{\mathrm{{CO}}}_{2}\left( \mathrm{\;g}\right)$ ;
+
+(C) ${\mathrm{N}}_{2}{\mathrm{O}}_{4}\left( \mathrm{\;g}\right) = 2{\mathrm{{NO}}}_{2}\left( \mathrm{\;g}\right)$ ;
+
+(D) $6\mathrm{C}\left( \mathrm{s}\right) + 6{\mathrm{H}}_{2}\mathrm{O}\left( \mathrm{g}\right) = {\mathrm{C}}_{6}{\mathrm{H}}_{12}{\mathrm{O}}_{6}\left( \mathrm{\;s}\right)$ 。",D,"：
+
+1. **判断反应的自发性**：
+   化学反应的自发性由吉布斯自由能变化$\Delta G$决定，公式为：  
+   \[
+   \Delta G = \Delta H - T\Delta S
+   \]
+   其中，$\Delta H$是反应的焓变，$\Delta S$是系统的熵变，$T$是绝对温度。如果$\Delta G < 0$，反应是自发的；如果$\Delta G > 0$，反应是非自发的。
+
+2. **逐一分析选项：（常温与高温）**
+   - **(A)** $2\mathrm{Ag}_2\mathrm{O}(s) \to 4\mathrm{Ag}(s) + \mathrm{O}_2(g)$  
+     - 该反应为氧化银分解生成银和氧气。焓变$\Delta H>0$（吸热反应），熵变$\Delta S>0$（体系从固体增加为气体，熵增加）。因此，在常温下${\Delta G}$为正，反应非自发。但随着温度升高，$T\Delta S$项变大，$\Delta G$会趋于负值，该反应可能在高温下变为自发。
+   - **(B)** $2\mathrm{Fe}_2\mathrm{O}_3(s) + 3\mathrm{C}(s) \to 4\mathrm{Fe}(s) + 3\mathrm{CO}_2(g)$  
+     - 该反应为还原氧化铁生成铁和二氧化碳。焓变$\Delta H > 0$（吸热），但熵变$\Delta S > 0$（固体减少，气体生成，体系熵增加）。因此，随着温度升高，$T\Delta S$项增大，$\Delta G$可能变小并趋于负值，该反应可能在高温下成为自发。
+   - **(C)** $\mathrm{N}_2\mathrm{O}_4(g) \to 2\mathrm{NO}_2(g)$  
+     - 该反应涉及气体分解为更多的气体分子，焓变$\Delta H>0$（吸热），熵变$\Delta S>0$（气体分子数增加，熵增加）。因此，在高温下，$T\Delta S$项增大，$\Delta G$可能为负，该反应可能在高温下成为自发。
+   - **(D)** $6\mathrm{C}(s) + 6\mathrm{H}_2\mathrm{O}(g) \to \mathrm{C}_6\mathrm{H}_{12}\mathrm{O}_6(s)$  
+     - 该反应涉及从碳和水生成葡萄糖（光合作用的化学反应）。焓变$\Delta H>0$（高度吸热），熵变$\Delta S<0$（固体生成，气体减少，熵减小）。由于$\Delta S<0$，即使温度升高，$T\Delta S$项对$\Delta G$的影响仍为正，$\Delta G$始终为正。因此反应在常温和高温下均非自发。
+
+3. **总结判断**： 根据以上分析，只有**(D)**选项在高温下仍是非自发的，其它选项(A)、(B)、(C)均可能因$T\Delta S$项在高温下变为自发。",：D,N/A,N/A,N/A
 "液体沸腾过程中,下列几种物理量中数值增加的是
 
 (A) 蒸气压; (B) 标准摩尔自由能; (C) 标准摩尔熵; (D) 液体质量。",C,"：  
-液体沸腾是一个液体与气体相平衡的过程。在沸腾过程中，液体转变为蒸气，而蒸气压是在液体温度足够高时蒸气与液体达到动态平衡的压力，此时，蒸气压等于外界压力，保持不变。  
-标准摩尔自由能是一个状态函数，与物质在标准状态下（如1 atm压力下）的热力学性质有关。在沸腾过程中，体系从液态转变为气态，反应方向是自由能减小的过程，故不能增加。  
-标准摩尔熵在某一测压下是反应的一个衡量，会因为气态的无序程度增加而增加，因为气态时，分子间距大，自由度增加，体系无序度增加。  
-液体质量在沸腾过程中会随着液体转变为蒸气而减少。",：C,N/A,N/A,N/A
+1. **定义分析**：液体沸腾是指当液体的蒸气压与外界压力（通常是大气压）平衡时，液体内部发生剧烈汽化的过程。在恒压下（如大气压），沸腾对应的是液体和气体处于动态平衡的状态。  
+ 
+2. **各选项分析**：  
+    - **(A) 蒸气压**：沸腾是液体的蒸气压达到外界气压的过程。当液体刚开始沸腾时，蒸气压已等于外界气压，此后，蒸气压不再变化，因此蒸气压不会增加。  
+    - **(B) 标准摩尔自由能**：化学标准摩尔自由能(\( G^ο \))是用来描述一个物质的热力学稳定性，在体系达到平衡时，液体和气体的摩尔自由能趋于相等，因此标准摩尔自由能不会增加。  
+    - **(C) 标准摩尔熵**：标准摩尔熵(\( S^ο \))是反映物质在某一标准状态下的无序程度。在液体沸腾时，部分液体转变为气体，气体的分子间距离增大，分子运动所造成的无序性增加，因此标准摩尔熵增加。  
+    - **(D) 液体质量**：液体沸腾时部分液体转化为气体，液体的质量会随之减少，因此液体质量不会增加。  
+
+3. **结论**：通过分析，只有选项(C)标准摩尔熵在液体沸腾过程中会增加，其余选项的数值均不会增加。",：C,N/A,N/A,N/A
 "下列过程中, ${\Delta G} = 0$ 的是
 
 (A) 氨在水中解离达平衡; (B) 理想气体向真空膨胀;
 
 (C) 乙醇溶于水; (D) 炸药爆炸。",A,"：  
-在热力学中，自由能变（ΔG）是一个过程是否自发进行的判据。当ΔG = 0时，系统处于平衡状态，既没有净反应发生。我们逐一分析选项：
+$\Delta G = 0$ 的条件是过程处于平衡状态。  
+(A) 氨在水中解离达平衡：对于任何化学反应，当达到平衡时，系统的自由能变化为零，因此氨在水中解离达到平衡时，$\Delta G = 0$。  
+(B) 理想气体向真空膨胀：这个过程是不可逆的，虽然它没有做功且$\Delta U = 0$（因为没有外压），但因为系统未达到平衡$\Delta G \neq 0$。  
+(C) 乙醇溶于水：乙醇溶于水的过程会释放能量，它是一个自发过程。从状态变化过程来看，溶解过程一般不是平衡态过程，因此$\Delta G \neq 0$。  
+(D) 炸药爆炸：这是一个剧烈的放热反应，而且是一个不可逆过程，反应过程中$\Delta G \neq 0$。
 
-(A) 氨在水中解离达平衡：氨在水中解离是一个可逆反应，当达到平衡时，正反应速率等于逆反应速率，系统的自由能变为零，即ΔG = 0。
-
-(B) 理想气体向真空膨胀：理想气体向真空膨胀是一个不可逆过程，虽然没有外界做功，但由于是自发过程，ΔG < 0。
-
-(C) 乙醇溶于水：乙醇溶于水是一个自发过程，通常ΔG < 0，因为混合过程增加了系统的熵。
-
-(D) 炸药爆炸：炸药爆炸是一个剧烈的自发过程，ΔG < 0，因为反应释放大量能量。
-
-综上所述，只有选项(A)氨在水中解离达平衡时，ΔG = 0。",：A,N/A,N/A,N/A
+因此，只有选项 (A) 是处于平衡状态的过程。",：A,N/A,N/A,N/A
 "已知反应 ${\mathrm{A}}_{2}\left( \mathrm{\;g}\right) + 2{\mathrm{\;B}}_{2}\left( \mathrm{\;g}\right) = 3{\mathrm{C}}_{2}\left( \mathrm{\;g}\right)$ 在恒压和温度 ${1000}\mathrm{\;K}$ 时的 ${\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}$ 为 ${40}\mathrm{\;{kJ}}$ . ${\mathrm{{mol}}}^{-1},{\Delta }_{\mathrm{r}}{S}_{\mathrm{m}}$ 为 ${40}\mathrm{\;J} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1}$ ,则下列关系中正确的是
 
 (A) ${\Delta }_{\mathrm{r}}{U}_{\mathrm{m}} = {\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}$ ; (B) ${\Delta }_{\mathrm{r}}{G}_{\mathrm{m}} = 0$ ;
 
-(C) ${\Delta }_{\mathrm{r}}{U}_{\mathrm{m}} = T{\Delta }_{\mathrm{r}}{S}_{\mathrm{m}}$ ; (D) 所有关系都正确。",D,"：  
-首先，我们分析每个关系。给定的是一个理想气体反应，且发生在恒压过程。因此：
+(C) ${\Delta }_{\mathrm{r}}{U}_{\mathrm{m}} = T{\Delta }_{\mathrm{r}}{S}_{\mathrm{m}}$ ; (D) 所有关系都正确。",D,"：
+1. **分析问题已知条件**：
+   - 反应：\({A}_2(g) + 2{B}_2(g) \to 3{C}_2(g)\)。
+   - 给出的反应焓变：\({\Delta}_{\mathrm{r}}H_{\mathrm{m}} = 40 \mathrm{\;kJ/mol}\)。
+   - 给出的反应熵变：\({\Delta}_{\mathrm{r}}S_{\mathrm{m}} = 40 \mathrm{J \cdot mol^{-1} \cdot K^{-1}} = 0.040 \mathrm{\;kJ \cdot mol^{-1} \cdot K^{-1}}\)。
+   - 温度：\(T = 1000 \mathrm{\;K}\)。
 
-1. ${\Delta}_{\mathrm{r}}{H}_{\mathrm{m}}$ 和  ${\Delta}_{\mathrm{r}}{U}_{\mathrm{m}}$ 的关系为
-   \[
-   {\Delta}_{\mathrm{r}}{H}_{\mathrm{m}} = {\Delta}_{\mathrm{r}}{U}_{\mathrm{m}} + \Delta n \cdot R \cdot T
-   \]
-   其中 $\Delta n$ 是生成物和反应物气体摩尔数的变化，$\Delta n = 3 - (1+2) = 0$ 。因而，
-   \[
-   {\Delta}_{\mathrm{r}}{U}_{\mathrm{m}} = {\Delta}_{\mathrm{r}}{H}_{\mathrm{m}} = 40 \mathrm{kJ/mol}
-   \]
-   因此选项 (A) 是正确的。
+2. **气体摩尔数的改变**：
+   - 从反应方程式可以观察到，反应物总气体摩尔数为：\((1 + 2 = 3)\)，生成物总气体摩尔数为：\(3\)。
+   - Δn（气体摩尔数的变化）为：\(\Delta n = 3 - 3 = 0\)。
 
-2. 计算 ${\Delta}_{\mathrm{r}}{G}_{\mathrm{m}}$：
-   \[
-   {\Delta}_{\mathrm{r}}{G}_{\mathrm{m}} = {\Delta}_{\mathrm{r}}{H}_{\mathrm{m}} - T{\Delta}_{\mathrm{r}}{S}_{\mathrm{m}}
-   \]
-   代入已知值：
-   \[
-   {\Delta}_{\mathrm{r}}{G}_{\mathrm{m}} = 40\mathrm{kJ} - 1000\mathrm{K} \times 40\mathrm{J/mol \cdot K} = 40\mathrm{kJ} - 40\mathrm{kJ} = 0
-   \]
-   因此选项 (B) 是正确的。
+3. **判断三种可能的选项的正确性**：
+   - (A): \({\Delta}_{\mathrm{r}}U_{\mathrm{m}} = {\Delta}_{\mathrm{r}}H_{\mathrm{m}}\)？
+     根据热力学变化的关系：
+     \[
+     {\Delta}_{\mathrm{r}}H_{\mathrm{m}} = {\Delta}_{\mathrm{r}}U_{\mathrm{m}} + \Delta n R T
+     \]
+     由于\(\Delta n = 0\)，因此\({\Delta}_{\mathrm{r}}H_{\mathrm{m}} = {\Delta}_{\mathrm{r}}U_{\mathrm{m}}\)。选项(A)正确。
 
-3. 检查选项 (C)：
-   \[
-   {\Delta}_{\mathrm{r}}{U}_{\mathrm{m}} \neq T{\Delta}_{\mathrm{r}}{S}_{\mathrm{m}}
-   \]
-   因为我们计算出了 ${\Delta}_{\mathrm{r}}{U}_{\mathrm{m}} = 40\mathrm{kJ}$，而 $T{\Delta}_{\mathrm{r}}{S}_{\mathrm{m}} = 40\mathrm{kJ}$，所以这不是通常的关系。
+   - (B): \({\Delta}_{\mathrm{r}}G_{\mathrm{m}} = 0\)？
+     标准的\({\Delta}_{\mathrm{r}}G_{\mathrm{m}}\)计算公式为：
+     \[
+     \Delta_{\mathrm{r}}G_{\mathrm{m}} = \Delta_{\mathrm{r}}H_{\mathrm{m}} - T \Delta_{\mathrm{r}}S_{\mathrm{m}}
+     \]
+     将已知值代入：
+     \[
+     \Delta_{\mathrm{r}}G_{\mathrm{m}} = 40 - 1000 \times 0.040 = 40 - 40 = 0 \mathrm{\;kJ/mol}
+     \]
+     因此，选项(B)正确。
 
-4. 总结：选项 (A) 和 (B) 是正确的，但选项 (C) 是错误的，因而选项 (D) 也是错误的。",：D,0.6,0.6,1.0
+   - (C): \({\Delta}_{\mathrm{r}}U_{\mathrm{m}} = T{\Delta}_{\mathrm{r}}S_{\mathrm{m}}\)？
+     根据上述计算，\({\Delta}_{\mathrm{r}}U_{\mathrm{m}} = {\Delta}_{\mathrm{r}}H_{\mathrm{m}} = 40 \mathrm{\;kJ/mol}\)，
+     而：
+     \[
+     T {\Delta}_{\mathrm{r}}S_{\mathrm{m}} = 1000 \times 0.040 = 40 \mathrm{\;kJ/mol}
+     \]
+     因此，\({\Delta}_{\mathrm{r}}U_{\mathrm{m}} = T{\Delta}_{\mathrm{r}}S_{\mathrm{m}}\)。选项(C)正确。
+
+   - (D): 所有关系都正确？
+     选项(A)、(B)、(C)均已验证为正确，因此选项(D)也正确。",：D,N/A,N/A,N/A

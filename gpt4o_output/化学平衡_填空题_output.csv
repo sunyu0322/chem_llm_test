@@ -1,4 +1,164 @@
 query,true_answer,reasoning,model_answer,knowledge_accuracy,reasoning_accuracy,final_answer_accuracy
+"在 ${25}^{ \circ }\mathrm{C}$ 时,若两个反应的平衡常数之比为 10,则两个反应的 ${\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus }$ 相差___ $\mathrm{{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ 。",5.7,"：在化学热力学中，反应的标准摩尔吉布斯自由能变（\(\Delta_{\mathrm{r}}G_{\mathrm{m}}^{\ominus}\)）与平衡常数（\(K\)）之间的关系由以下公式给出：
+
+\[
+\Delta_{\mathrm{r}}G_{\mathrm{m}}^{\ominus} = -RT \ln K
+\]
+
+其中，\(R\) 是气体常数，约为 \(8.314 \, \mathrm{J} \cdot \mathrm{mol}^{-1} \cdot \mathrm{K}^{-1}\)，\(T\) 是温度，以开尔文为单位。在题目中，温度为 \(25^{\circ}\mathrm{C}\)，即 \(298 \, \mathrm{K}\)。
+
+假设两个反应的平衡常数分别为 \(K_1\) 和 \(K_2\)，且 \(K_1/K_2 = 10\)。根据公式，我们有：
+
+\[
+\Delta_{\mathrm{r}}G_{\mathrm{m},1}^{\ominus} = -RT \ln K_1
+\]
+\[
+\Delta_{\mathrm{r}}G_{\mathrm{m},2}^{\ominus} = -RT \ln K_2
+\]
+
+因此，两个反应的标准摩尔吉布斯自由能变的差为：
+
+\[
+\Delta_{\mathrm{r}}G_{\mathrm{m},1}^{\ominus} - \Delta_{\mathrm{r}}G_{\mathrm{m},2}^{\ominus} = -RT (\ln K_1 - \ln K_2)
+\]
+
+利用对数的性质，\(\ln K_1 - \ln K_2 = \ln \left(\frac{K_1}{K_2}\right)\)，所以：
+
+\[
+\Delta_{\mathrm{r}}G_{\mathrm{m},1}^{\ominus} - \Delta_{\mathrm{r}}G_{\mathrm{m},2}^{\ominus} = -RT \ln 10
+\]
+
+代入已知数值：
+
+\[
+\Delta_{\mathrm{r}}G_{\mathrm{m},1}^{\ominus} - \Delta_{\mathrm{r}}G_{\mathrm{m},2}^{\ominus} = -8.314 \times 298 \times \ln 10
+\]
+
+\(\ln 10 \approx 2.302\)，因此：
+
+\[
+\Delta_{\mathrm{r}}G_{\mathrm{m},1}^{\ominus} - \Delta_{\mathrm{r}}G_{\mathrm{m},2}^{\ominus} = -8.314 \times 298 \times 2.302
+\]
+
+计算得：
+
+\[
+\Delta_{\mathrm{r}}G_{\mathrm{m},1}^{\ominus} - \Delta_{\mathrm{r}}G_{\mathrm{m},2}^{\ominus} \approx -5705 \, \mathrm{J} \cdot \mathrm{mol}^{-1} = -5.705 \, \mathrm{kJ} \cdot \mathrm{mol}^{-1}
+\]",：-5.705,N/A,N/A,N/A
+"某温度下,反应 ${\mathrm{H}}_{2}\left( \mathrm{\;g}\right) + {\mathrm{{Br}}}_{2}\left( \mathrm{\;g}\right) \rightleftharpoons 2\mathrm{{HBr}}\left( \mathrm{g}\right)$ 的 ${K}_{c} = {8.10} \times {10}^{3}$ 。当 ${\mathrm{H}}_{2}\left( \mathrm{\;g}\right)$ 和 ${\mathrm{{Br}}}_{2}\left( \mathrm{\;g}\right)$ 的起始浓度都为 ${1.00}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 时, ${\mathrm{{Br}}}_{2}$ 的平衡转化率为 $\;$ ; 当 ${\mathrm{H}}_{2}\left( \mathrm{\;g}\right)$ 和 ${\mathrm{{Br}}}_{2}\left( \mathrm{\;g}\right)$ 的起始浓度分别为 ${10.00}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 和 ${1.00}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 时, ${\mathrm{{Br}}}_{2}$ 的平衡转化率又为___。","97.8% ,99.99%","：  
+首先，我们需要理解反应的平衡常数 \( K_c \) 的定义：对于反应 \({\mathrm{H}}_{2}\left( \mathrm{\;g}\right) + {\mathrm{{Br}}}_{2}\left( \mathrm{\;g}\right) \rightleftharpoons 2\mathrm{{HBr}}\left( \mathrm{g}\right)\)，平衡常数 \( K_c \) 表示为：
+
+\[
+K_c = \frac{[\mathrm{HBr}]^2}{[\mathrm{H}_2][\mathrm{Br}_2]}
+\]
+
+1. **第一种情况**：起始浓度 \([\mathrm{H}_2] = [\mathrm{Br}_2] = 1.00 \, \mathrm{mol \, dm^{-3}}\)。  
+   设平衡时 \(\mathrm{Br}_2\) 的转化率为 \(\alpha\)，则反应消耗的 \(\mathrm{Br}_2\) 和 \(\mathrm{H}_2\) 的量为 \(\alpha \times 1.00 \, \mathrm{mol \, dm^{-3}}\)，生成的 \(\mathrm{HBr}\) 的量为 \(2\alpha \times 1.00 \, \mathrm{mol \, dm^{-3}}\)。  
+   平衡时各物质的浓度为：
+   \[
+   [\mathrm{H}_2] = 1.00 - \alpha, \quad [\mathrm{Br}_2] = 1.00 - \alpha, \quad [\mathrm{HBr}] = 2\alpha
+   \]
+   代入平衡常数表达式：
+   \[
+   K_c = \frac{(2\alpha)^2}{(1.00 - \alpha)(1.00 - \alpha)} = 8.10 \times 10^3
+   \]
+   解此方程可得 \(\alpha\)。
+
+2. **第二种情况**：起始浓度 \([\mathrm{H}_2] = 10.00 \, \mathrm{mol \, dm^{-3}}, [\mathrm{Br}_2] = 1.00 \, \mathrm{mol \, dm^{-3}}\)。  
+   设平衡时 \(\mathrm{Br}_2\) 的转化率为 \(\beta\)，则反应消耗的 \(\mathrm{Br}_2\) 的量为 \(\beta \times 1.00 \, \mathrm{mol \, dm^{-3}}\)，生成的 \(\mathrm{HBr}\) 的量为 \(2\beta \times 1.00 \, \mathrm{mol \, dm^{-3}}\)。  
+   平衡时各物质的浓度为：
+   \[
+   [\mathrm{H}_2] = 10.00 - \beta, \quad [\mathrm{Br}_2] = 1.00 - \beta, \quad [\mathrm{HBr}] = 2\beta
+   \]
+   代入平衡常数表达式：
+   \[
+   K_c = \frac{(2\beta)^2}{(10.00 - \beta)(1.00 - \beta)} = 8.10 \times 10^3
+   \]
+   解此方程可得 \(\beta\)。","：  
+第一种情况：0.990  
+第二种情况：0.990",N/A,N/A,N/A
+"在 ${100}^{ \circ }\mathrm{C}$ 时,反应 $\mathrm{{AB}}\left( \mathrm{g}\right) \rightleftharpoons \mathrm{A}\left( \mathrm{g}\right) + \mathrm{B}\left( \mathrm{g}\right)$ 的平衡常数 ${K}_{\mathrm{c}} = {0.21}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ ,则标准平衡常数 ${K}^{ \ominus }$ 的值为___。",6.43,"：  
+1. 题目中提到的平衡常数 $K_c$ 是用浓度（$\mathrm{{mol \; dm}}^{-3}$）表示的平衡常数。而标准平衡常数 $K^{\ominus}$ 是用分压（单位为 atm）表达的平衡常数，需要将二者关系联系起来。它们的转换公式如下：  
+   \[
+   K^{\ominus} = K_c \cdot \left( RT \right)^{\Delta n}
+   \]
+   其中：
+   - $K_c = 0.21$ （反应式的平衡常数，单位为 $\mathrm{mol \; dm^{-3}}$）；
+   - $R = 0.0821 \; \mathrm{L \; atm \; mol^{-1} \; K^{-1}}$，为理想气体常数；
+   - $T = 100^\circ\mathrm{C} + 273 = 373 \; \mathrm{K}$，为温度；
+   - $\Delta n$ 为气体反应中生成的气体分子数与反应物气体分子数的差。
+
+2. 计算 $\Delta n$：对于反应 $\mathrm{AB} \rightleftharpoons \mathrm{A} + \mathrm{B}$，右侧生成 2 mol 气体分子，左侧为 1 mol 气体分子，因此：
+   \[
+   \Delta n = 2 - 1 = 1
+   \]
+
+3. 将 $K_c$ 转换为 $K^{\ominus}$：代入公式计算：
+   \[
+   K^{\ominus} = K_c \cdot (RT)^{\Delta n}
+   \]
+   首先计算 $RT$：
+   \[
+   RT = 0.0821 \cdot 373 = 30.6 \; \mathrm{L \; atm \; mol^{-1}}
+   \]
+   因为 $\Delta n = 1$，所以：
+   \[
+   K^{\ominus} = 0.21 \cdot 30.6 = 6.426
+   \]",：6.426,N/A,N/A,N/A
+"已知环戊烷汽化过程的 ${\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus } = {28.7}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1},{\Delta }_{\mathrm{r}}{S}_{\mathrm{m}}^{ \ominus } = {88}\mathrm{\;J} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1}$ 。环戊烷的正常沸点为 ${}^{ \circ }\mathrm{C}$ ,在 ${25}^{ \circ }\mathrm{C}$ 时的饱和蒸气压为 $\mathrm{{kPa}}$ 。","53.1,37.3","：
+1. 环戊烷的标准反应焓变（ΔrHm⊖）表示从液态变为气态所需的热量，是 28.7 kJ/mol。
+2. 反应熵变（ΔrSm⊖）为 88 J/(mol·K)，这表示相变涉及的混乱程度变化。
+3. 正常沸点是指环戊烷在标准大气压下沸腾时的温度。我们可以利用克劳修斯-克拉佩龙方程计算这个温度：
+\[ \Delta G = \Delta H - T\Delta S \]
+在沸点条件下，ΔG = 0：
+\[ 0 = \Delta H - T_{\text{bp}} \Delta S \]
+因此，\[ T_{\text{bp}} = \frac{\Delta H}{\Delta S} \]
+代入数值：
+\[ T_{\text{bp}} = \frac{28.7 \times 10^3 \ \text{J/mol}}{88 \ \text{J/(mol·K)}} = 326.136 \ \text{K} \]
+
+4. 将开尔文温度换算成摄氏度：
+\[ T_{\text{bp}} = 326.136 \ \text{K} - 273.15 = 52.986 \ ^\circ\text{C} \]
+
+环戊烷在 25 °C 时的饱和蒸气压可以通过安托万方程或克劳修斯-克拉佩龙方程对其进行估算，但提供的信息并不完整，无法精确计算。",：$\boxed{52.986}$,N/A,N/A,N/A
+"已知反应 ${\mathrm{{NiSO}}}_{4} \cdot 6{\mathrm{H}}_{2}\mathrm{O}\left( \mathrm{s}\right) \rightleftharpoons {\mathrm{{NiSO}}}_{4}\left( \mathrm{\;s}\right) + 6{\mathrm{H}}_{2}\mathrm{O}\left( \mathrm{g}\right)$ 的 ${\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus } = {77.7}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ ,则平衡时 ${\mathrm{{NiSO}}}_{4} \cdot 6{\mathrm{H}}_{2}\mathrm{O}$ 固体表面上水的蒸气压 $p\left( {{\mathrm{H}}_{2}\mathrm{O}}\right)$ 为___ $\mathrm{{Pa}}$ 。",537,"：  
+1. 该反应是一个多水合物的脱水反应，其中六水硫酸镍（\({\mathrm{NiSO_4 \cdot 6H_2O(s)}}\)）在平衡态下脱水形成无水硫酸镍（\({\mathrm{NiSO_4(s)}}\)），并释放出水蒸气（\({\mathrm{H_2O(g)}}\)）。反应的平衡条件与水蒸气的平衡分压（\({p(\mathrm{H_2O})}\)）相关。
+
+2. 根据热力学公式，Δ\(G_m^\ominus\)与气体分压的关系可以写为：
+   \[
+   \Delta_r G_m^\ominus = RT \ln(p(\mathrm{H_2O}))
+   \]
+   其中：
+   - \(\Delta_r G_m^\ominus = 77.7 \, \mathrm{kJ \cdot mol^{-1}}\)
+   - \(R = 8.314 \, \mathrm{J \cdot mol^{-1} \cdot K^{-1}}\) 是气体常数
+   - \(T\) 是温度（单位为开尔文，K）
+   - \(p(\mathrm{H_2O})\) 是水蒸气的分压
+
+3. 假设反应发生在标准条件下（298.15 K）。将已知数据代入公式：
+   \[
+   77.7 \times 10^3 = 8.314 \times 298.15 \times \ln(p(\mathrm{H_2O}))
+   \]
+
+4. 解上述方程以求\(\ln(p(\mathrm{H_2O}))\)：
+   \[
+   \ln(p(\mathrm{H_2O})) = \frac{77.7 \times 10^3}{8.314 \times 298.15}
+   \]
+   首先计算分母：
+   \[
+   8.314 \times 298.15 \approx 2480.5 \, \mathrm{J \cdot mol^{-1}}
+   \]
+   然后计算：
+   \[
+   \ln(p(\mathrm{H_2O})) = \frac{77.7 \times 10^3}{2480.5} \approx 31.33
+   \]
+
+5. 求解\({p(\mathrm{H_2O})}\)，利用指数函数：
+   \[
+   p(\mathrm{H_2O}) = e^{31.33}
+   \]
+   通过计算：
+   \[
+   p(\mathrm{H_2O}) \approx 3.76 \times 10^{13} \, \mathrm{Pa}
+   \]",：\(3.76 \times 10^{13}\),N/A,N/A,N/A
 "反应 ${\mathrm{I}}_{2}\left( \mathrm{\;g}\right) \rightleftharpoons 2\mathrm{I}\left( \mathrm{g}\right)$ 达平衡时:
 
 （1）升高温度, 平衡常数
@@ -18,76 +178,48 @@ ___。","(1) 增大, ${\mathrm{I}}_{2}$ 解离是吸热反应 $\left( {\Delta {}
 （3）不变, ${\mathrm{I}}_{2}\left( \mathrm{\;g}\right)$ 和 $\mathrm{I}\left( \mathrm{g}\right)$ 的分压都不变;
 
 （4）增大,体积变大时则 ${\mathrm{I}}_{2}\left( \mathrm{\;g}\right)$ 和 $\mathrm{I}\left( \mathrm{g}\right)$ 的分压同时减小,平衡向粒子数增多的方向移动。","：
-(1) 对于反应 \( \mathrm{I}_{2}(g) \rightleftharpoons 2\mathrm{I}(g) \)，该反应是吸热反应（因为键断裂需要吸收能量）。根据勒夏特列原理，升高温度会使平衡向吸热方向移动，因此增大反应的平衡常数 \( K \)。
 
-(2) 压缩气体等效于增加整个系统的压力。该反应的摩尔气体数从1变成2，即增加气体总压有利于平衡向少气体摩尔数方向移动，所以 \(\mathrm{I}_{2}(g)\) 的解离度减小。
+### 第（1）问：
+- 反应 \({\mathrm{I}}_{2}\left( \mathrm{\;g}\right) \rightleftharpoons 2\mathrm{I}\left( \mathrm{g}\right)\) 为一个平衡反应，从反应方程中可知：反应物 \({\mathrm{I}}_2\) 分解为两个产物 \(\mathrm{I}\)，反应为正反应方向的分解反应。
+- 根据化学平衡原理，当升高温度时，外界条件对平衡的影响遵循勒夏特列原理。如果该反应是吸热反应，升高温度会导致平衡向正反应方向移动；如果是放热反应，升高温度会导致平衡向逆反应方向移动。
+- 因 \({\mathrm{I}}_{2}\) 分解为两个 \(\mathrm{I}\)，需要打破 \({\mathrm{I}}_{2}\) 分子的共价键，因此是吸热反应。故升高温度时，平衡常数将增大。
 
-(3) 在恒容条件下，充入惰性气体（如 \(\mathrm{N}_{2}\)）并不会改变气体分子的总数，因此不会影响平衡，\(\mathrm{I}_{2}(g)\) 的解离度不变。
+### 第（2）问：
+- 压缩气体相当于增大体系中的总压强。
+- 根据反应 \({\mathrm{I}}_{2}\left( \mathrm{\;g}\right) \rightleftharpoons 2\mathrm{I}\left( \mathrm{g}\right)\)，气体物质的量在正反应方向上从 1mol 增加到 2mol，因此总压强增大（体系体积减小）时，平衡会向气体分子数较少的一侧（即逆反应方向）移动。
+- \({\mathrm{I}}_{2}\left( \mathrm{\;g}\right)\) 的解离度（指 \({\mathrm{I}}_{2}\) 被解离为 \(\mathrm{I}\) 的程度）会因此降低。
 
-(4) 在恒压条件下，充入惰性气体意味着总容积会增加，而根据反应前后的气体体积变化，反应会向着气体分子数增多的方向移动。因此，恒压充入 \(\mathrm{N}_{2}\) 后，\(\mathrm{I}_{2}(g)\) 的解离度增大。","：
-(1) 增大
-(2) 减小 原因是 容积减小，平衡向减少气体分子数方向移动。
-(3) 不变 原因是 恒容充惰性气体不影响平衡体系。
-(4) 增大 原因是 恒压下充入惰性气体增加体系体积，平衡向增多气体分子方向移动。",N/A,N/A,N/A
-"合成氨反应 ${\mathrm{N}}_{2}\left( \mathrm{\;g}\right) + 3{\mathrm{H}}_{2}\left( \mathrm{\;g}\right) = 2{\mathrm{{NH}}}_{3}\left( \mathrm{\;g}\right)$ 在 ${673}\mathrm{\;K}$ 时 ${K}^{ \ominus } = {5.7} \times {10}^{-4}$ ; 在 ${473}\mathrm{\;K}$ 时 ${K}^{ \ominus } = {0.61}$ ,则在 ${873}\mathrm{\;K}$ 时 ${K}^{ \ominus } =$",${1.3} \times {10}^{-5}$,"：根据题目给出的平衡常数随温度变化的信息，我们可以推测反应是放热的。因为随着温度的升高，平衡常数的数值减小，这通常意味着放热反应，因为升高温度会使放热反应的平衡常数变小。
+### 第（3）问：
+- 在恒容条件下，充入不参与反应的惰性气体（如 \({\mathrm{N}}_2\)），并不会改变反应组分的平衡浓度。因为体系总的气体压力虽然增加，但由于惰性气体不影响有效浓度，平衡常数及反应程度都会保持不变。
+- 因此，在恒容条件下，\({\mathrm{I}}_{2}\left( \mathrm{\;g}\right)\) 的解离度**不变**。
 
-为了计算不同温度下的平衡常数，可以使用范特霍夫方程：
+### 第（4）问：
+- 在恒压条件下，充入 \({\mathrm{N}}_2\) 气体会导致体系总体积增大，从而稀释了反应体系中各气体组分的有效浓度。
+- 根据勒夏特列原理，平衡将向气体分子数较多的一侧（正反应方向）移动，以增大气体物质的量来适应稀释作用。因此，\({\mathrm{I}}_{2}\left( \mathrm{\;g}\right)\) 的解离度将**增大**。","：
+（1）增大  
+（2）降低；原因是压强增大，平衡向气体分子数较少的一侧移动  
+（3）不变；原因是充入惰性气体不改变平衡体系的有效浓度  
+（4）增大；原因是充入惰性气体导致系统体积增大，平衡向气体分子数较多的一侧移动",N/A,N/A,N/A
+"合成氨反应 ${\mathrm{N}}_{2}\left( \mathrm{\;g}\right) + 3{\mathrm{H}}_{2}\left( \mathrm{\;g}\right) = 2{\mathrm{{NH}}}_{3}\left( \mathrm{\;g}\right)$ 在 ${673}\mathrm{\;K}$ 时 ${K}^{ \ominus } = {5.7} \times {10}^{-4}$ ; 在 ${473}\mathrm{\;K}$ 时 ${K}^{ \ominus } = {0.61}$ ,则在 ${873}\mathrm{\;K}$ 时 ${K}^{ \ominus } =$",${1.3} \times {10}^{-5}$,"：我们可以通过范特霍夫方程（Van't Hoff Equation）来推断合成氨反应平衡常数随温度变化的关系。范特霍夫方程如下：
+
 \[
-\ln \left( \frac{K_2}{K_1} \right) = - \frac{\Delta H^{\ominus}}{R} \left( \frac{1}{T_2} - \frac{1}{T_1} \right)
-\]
-其中，\( \Delta H^{\ominus} \) 是标准反应焓变，\( R \) 是气体常数（8.314 J/(mol·K)），\( T_1 \) 和 \( T_2 \) 是不同温度下的绝对温度（以开尔文计），\( K_1 \) 和 \( K_2 \) 是对应温度下的平衡常数。
-
-我们有三个温度和对应的平衡常数：
-- \( T_1 = 473 \) K，\( K_1 = 0.61 \)
-- \( T_2 = 673 \) K，\( K_2 = 5.7 \times 10^{-4} \)
-
-从这两个温度的平衡常数来计算反应的 \( \Delta H^{\ominus} \)：
-
-\[
-\ln \left( \frac{5.7 \times 10^{-4}}{0.61} \right) = -\frac{\Delta H^{\ominus}}{8.314} \left( \frac{1}{673} - \frac{1}{473} \right)
-\]
-
-首先，计算：
-\[
-\ln \left( \frac{5.7 \times 10^{-4}}{0.61} \right) = \ln (9.344 \times 10^{-4}) = -6.971
+\ln \frac{K_2}{K_1} = -\frac{\Delta H^\ominus}{R} \left( \frac{1}{T_2} - \frac{1}{T_1} \right)
 \]
 
-然后：
-\[
-\frac{1}{673} - \frac{1}{473} = -0.0004785
-\]
+其中，\(K_1\) 和 \(K_2\) 分别是两个不同温度下的平衡常数，\(\Delta H^\ominus\) 是标准反应焓变，\(R\) 是气体常数（8.314 J/(mol·K)），而 \(T_1\) 和 \(T_2\) 是对应的绝对温度。
 
-接下来，解方程求 \( \Delta H^{\ominus} \)：
-\[
--6.971 = -\frac{\Delta H^{\ominus}}{8.314} \times (-0.0004785)
-\]
-\[
-6.971 \times 8.314 \times 0.0004785 = \Delta H^{\ominus}
-\]
-\[
-\Delta H^{\ominus} \approx -95,055 \, \text{J/mol} = -95.055 \, \text{kJ/mol}
-\]
+合成氨反应是一个放热反应，因此 \(\Delta H^\ominus < 0\)。
 
-现在我们知道 \( \Delta H^{\ominus} \)，可以用同样的范特霍夫方程估算 \( K \) 在 873 K 时的数值：
+首先，我们利用已知的两个温度下的平衡常数 (\(K_{473}\) 和 \(K_{673}\)) 来求 \(\Delta H^\ominus\):
 
 \[
-\ln \left( \frac{K_{873}}{5.7 \times 10^{-4}} \right) = -\frac{-95,055}{8.314} \left( \frac{1}{873} - \frac{1}{673} \right)
+\ln \frac{0.61}{5.7 \times 10^{-4}} = -\frac{\Delta H^\ominus}{8.314} \left( \frac{1}{473} - \frac{1}{673} \right)
 \]
 
-计算：
-\[
-\frac{1}{873} - \frac{1}{673} = -0.000272
-\]
+解出 \(\Delta H^\ominus\)，然后用这个值去预测 \(K^{\ominus}\) 在 873 K 时的值:
 
 \[
-x = \frac{95,055}{8.314} \times 0.000272 = 3.105
+\ln \frac{K_{873}}{5.7 \times 10^{-4}} = -\frac{\Delta H^\ominus}{8.314} \left( \frac{1}{873} - \frac{1}{673} \right)
 \]
 
-因此：
-\[
-\ln K_{873} = \ln (5.7 \times 10^{-4}) + 3.105 = -7.467 + 3.105 = -4.362
-\]
-
-\[
-K_{873} = e^{-4.362} \approx 0.013
-\]",：0.013,0.8,0.6,0.2
+用前一步解出的 \(\Delta H^\ominus\) 代入上式，即可求得 \(K_{873}\)。",：\[9.5 \times 10^{-6}\],N/A,N/A,N/A

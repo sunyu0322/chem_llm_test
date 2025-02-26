@@ -1,53 +1,276 @@
 query,true_answer,reasoning,model_answer,knowledge_accuracy,reasoning_accuracy,final_answer_accuracy
+"${298}\mathrm{\;K}$ 时, ${\mathrm{H}}_{2}\mathrm{O}\left( \mathrm{l}\right) \rightleftharpoons {\mathrm{H}}_{2}\mathrm{O}\left( \mathrm{g}\right)$ 达平衡时,体系的水蒸气压为 ${3.13}\mathrm{{kPa}}$ ,则标准平衡常数 ${K}^{ \ominus }$ 为
+
+(A) 100 ; (B) ${3.13} \times {10}^{-2}$ ; (C) 3.13 ; (D) 1 。",B,"：首先需要明确平衡常数 \( K \) 使用的是标准状态条件，水的液态和水的气态之间的平衡可以用平衡常数来描述：
+
+\[ \text{H}_2\text{O(l)} \rightleftharpoons \text{H}_2\text{O(g)} \]
+
+在标准状态下，液态水的活度 \( a(\text{H}_2\text{O(l)}) \) 被约定为1，因此平衡常数 \( K^\ominus \) 可以用气相水的分压 \( P_{\text{H}_2\text{O(g)}} \) 表示：
+
+\[ K^\ominus = \frac{a(\text{H}_2\text{O(g)})}{a(\text{H}_2\text{O(l)})} = P_{\text{H}_2\text{O(g)}}  \]
+
+这里\( P_{\text{H}_2\text{O(g)}} \) 就等于给定的水蒸气压 3.13 kPa。
+
+我们将 kPa 换成标准状态下公认的压力单位，标准状态下压力一般取 \( 1\; \text{atm} = 101.3 \; \text{kPa} \)，这里没有必要转换单位，因为所给出的选项单位与题目的单位一致。由此可知：
+
+\[ K^\ominus = 3.13 \; \text{kPa}  \]
+
+这是一个标准平衡常数的值，直接对应于气相的分压值。结合选项，直接选择对应的数值。",：C,N/A,N/A,N/A
+"下列反应中, ${K}^{ \ominus }$ 值小于 ${K}_{p}$ 值的是
+
+(A) ${\mathrm{H}}_{2}\left( \mathrm{\;g}\right) + {\mathrm{{Cl}}}_{2}\left( \mathrm{\;g}\right) = 2\mathrm{{HCl}}\left( \mathrm{g}\right)$ ; (B) ${\mathrm{H}}_{2}\left( \mathrm{\;g}\right) + \mathrm{S}\left( \mathrm{g}\right) = {\mathrm{H}}_{2}\mathrm{\;S}\left( \mathrm{\;g}\right)$ ;
+
+(C) ${\mathrm{{CaCO}}}_{3}\left( \mathrm{\;s}\right) = \mathrm{{CaO}}\left( \mathrm{s}\right) + {\mathrm{{CO}}}_{2}\left( \mathrm{\;g}\right)$ ; (D) $\mathrm{C}\left( \mathrm{s}\right) + {\mathrm{O}}_{2}\left( \mathrm{\;g}\right) = {\mathrm{{CO}}}_{2}\left( \mathrm{\;g}\right)$ 。",C,"：
+1. 题目要求理解标准平衡常数（$K^\ominus$）和分压平衡常数（$K_p$）的关系。一般情况下，二者的关系会通过气体反应的摩尔数变化（$\Delta n_{\text{gas}}$）进行关联。
+
+2. 相关公式是：
+   \[
+   K_p = K^\ominus (RT)^{\Delta n_{\text{gas}}}
+   \]
+   其中，$\Delta n_{\text{gas}}$ 表示反应中气体的物质的量变化，$R$ 是气体常数，$T$ 是平衡温度。
+
+   - 当 $\Delta n_{\text{gas}} = 0$，即气体反应前后摩尔数不变，$K_p = K^\ominus$。
+   - 当 $\Delta n_{\text{gas}} > 0$，基于 $(RT)^{\Delta n_{\text{gas}}}$ 的幂指数，$K_p > K^\ominus$。
+   - 当 $\Delta n_{\text{gas}} < 0$，则 $(RT)^{\Delta n_{\text{gas}}}$ 小于 1，$K_p < K^\ominus$。
+
+3. 接下来，逐项分析题中选项的气体摩尔数变化 $\Delta n_{\text{gas}}$：
+   - **(A)** $\mathrm{H}_2 (\mathrm{g}) + \mathrm{Cl}_2 (\mathrm{g}) = 2 \mathrm{HCl} (\mathrm{g})$  
+     反应前气体总摩尔数为 1 + 1 = 2，反应后为 2。  
+     $\Delta n_{\text{gas}} = 2 - 2 = 0$，因此 $K_p = K^\ominus$。
+
+   - **(B)** $\mathrm{H}_2 (\mathrm{g}) + \mathrm{S} (\mathrm{g}) = \mathrm{H}_2S (\mathrm{g})$  
+     反应前气体总摩尔数为 1 + 0 = 1，反应后为 1。  
+     $\Delta n_{\text{gas}} = 1 - 1 = 0$，因此 $K_p = K^\ominus$。
+
+   - **(C)** $\mathrm{CaCO}_3 (\mathrm{s}) = \mathrm{CaO} (\mathrm{s}) + \mathrm{CO}_2 (\mathrm{g})$  
+     反应前仅有固体（不参与气体反应摩尔数计算），反应后生成一种气体。  
+     $\Delta n_{\text{gas}} = 1 - 0 = 1$，因此 $K_p > K^\ominus$。
+
+   - **(D)** $\mathrm{C} (\mathrm{s}) + \mathrm{O}_2 (\mathrm{g}) = \mathrm{CO}_2 (\mathrm{g})$  
+     反应前气体总摩尔数为 1，反应后气体为 1。  
+     $\Delta n_{\text{gas}} = 1 - 1 = 0$，因此 $K_p = K^\ominus$。
+
+4. 综上，只有选项 **C** 的 $\Delta n_{\text{gas}} > 0$，满足 $K^\ominus < K_p$ 的条件。",：C,N/A,N/A,N/A
+"反应 ${\mathrm{{PCl}}}_{5}\left( \mathrm{\;g}\right) \rightleftharpoons {\mathrm{{PCl}}}_{3}\left( \mathrm{\;g}\right) + {\mathrm{{Cl}}}_{2}\left( \mathrm{\;g}\right)$ 在密闭容器中进行,其焓变小于零。当分解反应达平衡时,下列判断中正确的是
+
+(A) 加入催化剂, 平衡将向右移动;
+
+(B) 保持压强不变, 通入氯气使体积增加一倍, 平衡将向左移动;
+
+(C) 保持体积不变, 加入氮气使压强增加一倍, 平衡将向右移动;
+
+(D) 向容器中通入惰性气体或降低温度, 平衡将向左移动。",B,"：  
+(1) 平衡反应为 $\mathrm{PCl}_{5(g)} \rightleftharpoons \mathrm{PCl}_{3(g)} + \mathrm{Cl}_{2(g)}$，其焓变小于零，说明反应是放热反应。根据勒夏特列原理，降低温度将使平衡向放热方向移动，也就是向右移动。  
+
+(2) 选项 (A) 加入催化剂会影响达到平衡的速度，但不会改变平衡位置，因此平衡不移动。
+
+(3) 选项 (B) 保持压强不变且通入氯气使体积增加一倍，表示系统中物质的量增加，使反应物增加，这将使平衡向左移动。
+
+(4) 选项 (C) 如果保持体积不变, 加入氮气使压强增加一倍，因为反应中气体总的物质的量改变不动，因此惰性气体的加入不改变平衡的位置。
+
+(5) 选项 (D) 向容器中通入惰性气体（不变体积），压强增加，不影响平衡位置。而降低温度，平衡会向放热方向（右）移动。这意味着这些操作不会使平衡向左移动。",：B,N/A,N/A,N/A
+"在容器中加入相同物质的量的 $\mathrm{{NO}}$ 和 ${\mathrm{{Cl}}}_{2}$ ,在一定温度下发生反应 $\mathrm{{NO}}\left( \mathrm{g}\right) + \frac{1}{2}{\mathrm{{Cl}}}_{2}\left( \mathrm{\;g}\right) =$ $\mathrm{{NOCl}}\left( \mathrm{g}\right)$ ,达平衡时对有关各物质的分压判断正确的是
+
+(A) $p\left( \mathrm{{NO}}\right) = p\left( {\mathrm{{Cl}}}_{2}\right)$ ; (B) $p\left( \mathrm{{NO}}\right) = p\left( \mathrm{{NOCl}}\right)$ ;
+
+(C) $p\left( \mathrm{{NO}}\right) < p\left( {\mathrm{{Cl}}}_{2}\right)$ ; (D) $p\left( \mathrm{{NO}}\right) > p\left( {\mathrm{{Cl}}}_{2}\right)$ 。",C,"：  
+首先分析化学反应 $\mathrm{NO(g)} + \frac{1}{2}\mathrm{Cl}_2(g) \rightarrow \mathrm{NOCl(g)}$。  
+
+给出的条件是容器中初始加入相等量的 $\mathrm{NO}$ 和 $\mathrm{Cl}_2$，设初始分压均为 $p_0$。  
+设平衡时反应的转化程度为 $x$，则消耗了 $x$ 的 $\mathrm{NO}$ 和 $\frac{x}{2}$ 的 $\mathrm{Cl}_2$，同时生成 $x$ 的 $\mathrm{NOCl}$。  
+
+根据化学计量关系，平衡时各物质的分压为：
+- $\mathrm{NO}$ 的分压：$p(\mathrm{NO}) = p_0 - x$。
+- $\mathrm{Cl}_2$ 的分压：$p(\mathrm{Cl}_2) = p_0 - \frac{x}{2}$。
+- $\mathrm{NOCl}$ 的分压：$p(\mathrm{NOCl}) = x$。  
+
+由于 $x > 0$（反应发生），可以比较剩余的 $\mathrm{NO}$ 和 $\mathrm{Cl}_2$ 的分压：
+\[
+p(\mathrm{NO}) = p_0 - x,\quad p(\mathrm{Cl}_2) = p_0 - \frac{x}{2}.
+\]
+显然，$p_0 - x < p_0 - \frac{x}{2}$，即 $p(\mathrm{NO}) < p(\mathrm{Cl}_2)$。  
+
+接下来分情况分析选项：  
+(A) $p(\mathrm{NO}) = p(\mathrm{Cl}_2)$：错误，因为从上面的推导可以看出 $\mathrm{NO}$ 的分压低于 $\mathrm{Cl}_2$。  
+(B) $p(\mathrm{NO}) = p(\mathrm{NOCl})$：错误，因为 $\mathrm{NO}$ 是反应物而 $\mathrm{NOCl}$ 是生成物，其分压通常不会相等且随反应比例变化。  
+(C) $p(\mathrm{NO}) < p(\mathrm{Cl}_2)$：正确，从推导结果可以看出。  
+(D) $p(\mathrm{NO}) > p(\mathrm{Cl}_2)$：错误，与推导结果矛盾。",：C,N/A,N/A,N/A
+"基元反应 $\mathrm{A} + 2\mathrm{\;B} \rightleftharpoons 2\mathrm{C}$ ,已知某温度下正反应速率常数 ${k}_{\text{正 }} = 1$ ,逆反应速率常数 ${k}_{\text{逆 }} =$ 0.5 , 则处于平衡状态的体系是
+
+(A) $c\left( \mathrm{\;A}\right) = 1\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}, c\left( \mathrm{\;B}\right) = c\left( \mathrm{C}\right) = 2\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ ;
+
+(B) $c\left( \mathrm{\;A}\right) = 2\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}, c\left( \mathrm{\;B}\right) = c\left( \mathrm{C}\right) = 1\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ ;
+
+(C) $c\left( \mathrm{\;A}\right) = c\left( \mathrm{C}\right) = 2\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}, c\left( \mathrm{\;B}\right) = 1\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ ;
+
+(D) $c\left( \mathrm{\;A}\right) = c\left( \mathrm{C}\right) = 1\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}, c\left( \mathrm{\;B}\right) = 2\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 。",C,"：  
+基元反应 $\mathrm{A} + 2\mathrm{B} \rightleftharpoons 2\mathrm{C}$ 的正反应速率常数为 $k_{\text{正}} = 1$，逆反应速率常数为 $k_{\text{逆}} = 0.5$。平衡态下，正逆反应速率相等，因此有：
+\[
+v_{\text{正}} = v_{\text{逆}}
+\]
+
+正反应速率为：
+\[
+v_{\text{正}} = k_{\text{正}} \cdot c(\mathrm{A}) \cdot c^2(\mathrm{B})
+\]
+
+逆反应速率为：
+\[
+v_{\text{逆}} = k_{\text{逆}} \cdot c^2(\mathrm{C})
+\]
+
+平衡态条件下：
+\[
+k_{\text{正}} \cdot c(\mathrm{A}) \cdot c^2(\mathrm{B}) = k_{\text{逆}} \cdot c^2(\mathrm{C})
+\]
+
+将 $k_{\text{正}} = 1$ 和 $k_{\text{逆}} = 0.5$ 代入，得到：
+\[
+c(\mathrm{A}) \cdot c^2(\mathrm{B}) = 0.5 \cdot c^2(\mathrm{C})
+\]
+
+进一步得出：
+\[
+\frac{c^2(\mathrm{C})}{c(\mathrm{A}) \cdot c^2(\mathrm{B})} = 2
+\]
+
+我们将这一比值记为平衡常数 $K$，即：
+\[
+K = \frac{c^2(\mathrm{C})}{c(\mathrm{A}) \cdot c^2(\mathrm{B})} = 2
+\]
+
+接下来分别代入四个选项的浓度，验证哪个选项能使上述平衡条件成立：
+
+- **选项 (A)**: $c(\mathrm{A}) = 1, c(\mathrm{B}) = 2, c(\mathrm{C}) = 2$ 时：
+  \[
+  \frac{c^2(\mathrm{C})}{c(\mathrm{A}) \cdot c^2(\mathrm{B})} = \frac{2^2}{1 \cdot 2^2} = \frac{4}{4} = 1 \neq 2
+  \]
+  不符。
+
+- **选项 (B)**: $c(\mathrm{A}) = 2, c(\mathrm{B}) = 1, c(\mathrm{C}) = 1$ 时：
+  \[
+  \frac{c^2(\mathrm{C})}{c(\mathrm{A}) \cdot c^2(\mathrm{B})} = \frac{1^2}{2 \cdot 1^2} = \frac{1}{2} \neq 2
+  \]
+  不符。
+
+- **选项 (C)**: $c(\mathrm{A}) = 2, c(\mathrm{B}) = 1, c(\mathrm{C}) = 2$ 时：
+  \[
+  \frac{c^2(\mathrm{C})}{c(\mathrm{A}) \cdot c^2(\mathrm{B})} = \frac{2^2}{2 \cdot 1^2} = \frac{4}{2} = 2
+  \]
+  符合。
+
+- **选项 (D)**: $c(\mathrm{A}) = 1, c(\mathrm{B}) = 2, c(\mathrm{C}) = 1$ 时：
+  \[
+  \frac{c^2(\mathrm{C})}{c(\mathrm{A}) \cdot c^2(\mathrm{B})} = \frac{1^2}{1 \cdot 2^2} = \frac{1}{4} \neq 2
+  \]
+  不符。
+
+综上，只有选项 **(C)** 满足平衡常数条件。",：C,N/A,N/A,N/A
 "反应 $2{\mathrm{{SO}}}_{2}\left( \mathrm{\;g}\right) + {\mathrm{O}}_{2}\left( \mathrm{\;g}\right) \rightleftharpoons 2{\mathrm{{SO}}}_{3}\left( \mathrm{\;g}\right)$ 达平衡时,保持体积不变,加入惰性气体 $\mathrm{{He}}$ ,使总压增加一倍, 则
 
 (A) 平衡向右移动; (B) 平衡向左移动;
 
-(C) 平衡不发生移动; (D) 无法判断。",C,"：在化学平衡中，我们可以使用勒夏特列原理来判断平衡移动的方向。对于给定的反应：
+(C) 平衡不发生移动; (D) 无法判断。",C,"：  
+根据问题分析，需要判断平衡是否发生移动以及移动的方向。该反应是一个气体平衡体系，还涉及到了惰性气体的引入，因此需要结合化学平衡原理（勒夏特列原理）进行分析。
 
-\[ 2\mathrm{{SO}}_2(g) + \mathrm{O}_2(g) \rightleftharpoons 2\mathrm{{SO}}_3(g) \]
+1. **化学平衡的基础**：
+   化学平衡状态的改变通常是由于温度、压强、浓度等条件变化引起的。根据勒夏特列原理，当外界条件发生变化时，平衡会向“抵消该变化”的方向移动。在本题中，反应式为：  
+   \[
+   2\mathrm{SO}_2\left( \mathrm{g} \right) + \mathrm{O}_2\left( \mathrm{g} \right) \rightleftharpoons 2\mathrm{SO}_3\left( \mathrm{g} \right)
+   \]  
+   由方程式可知，反应涉及3摩尔反应物（气体）和2摩尔生成物（气体），气体总摩尔数减少，产物一侧体积减小。
 
-在保持体积不变的情况下加入惰性气体（如氦气，He），总压增加了一倍。这种情况下，由于惰性气体不会参与反应，其增加并不会影响到反应物和产物的分压，因此不改变反应的平衡常数 \( K_p \) 亦不影响 \( K_c \)，这意味着反应在原平衡位置保持不变。因此，加入惰性气体后，平衡反应的状态并不改变。",：C,0.9,0.9,1.0
+2. **惰性气体的影响分析**：
+   - 惰性气体（氦气，\(\mathrm{He}\)）不参与反应，所以它不会改变反应物和生成物的化学势或浓度。
+   - 在体积保持不变的条件下，引入惰性气体会引起**总压的增加**，但由于反应物和生成物的分压保持不变，因此对化学平衡没有直接影响。
+   - 平衡常数 \(K_p\) 仅与温度有关，因此在该情况下不变。
+
+3. **判断平衡是否移动**：
+   根据惰性气体的加入分析，分压没变，因而体系暂时没有外力促进平衡向任何方向移动。由勒夏特列原理可知，此时平衡**不会发生移动**。",：C,N/A,N/A,N/A
 "${40}^{ \circ }\mathrm{C}$ 时,反应 ${\mathrm{N}}_{2}{\mathrm{O}}_{4}\left( \mathrm{\;g}\right) \rightleftharpoons 2{\mathrm{{NO}}}_{2}\left( \mathrm{\;g}\right)$ 的 ${K}^{ \ominus } = {0.90}$ ,若平衡时总压为 ${5.07} \times {10}^{5}\mathrm{\;{Pa}}$ ,则 ${\mathrm{N}}_{2}{\mathrm{O}}_{4}\left( \mathrm{\;g}\right)$ 的解离度为
 
 (A) ${4.3}\%$ ; (B) ${20.6}\%$ ; (C) ${34.2}\%$ ; (D) ${42.8}\%$ 。",D,"：  
-首先，考虑反应\( \text{N}_2\text{O}_4(g) \rightleftharpoons 2\text{NO}_2(g) \)，设\(\text{N}_2\text{O}_4\)的初始浓度为\(c_0\)，解离度为\(\alpha\)。  
-在平衡时，\(\text{N}_2\text{O}_4\)的浓度为\(c_0(1-\alpha)\)，而\(\text{NO}_2\)的浓度为\(2c_0\alpha\)。
+1. 首先，根据化学平衡关系式  
+   \[ \mathrm{N}_2\mathrm{O}_4(g) \rightleftharpoons 2\mathrm{NO}_2(g) \]  
+   假设 $\mathrm{N}_2\mathrm{O}_4$ 的初始浓度为 $c_0$，其解离度为 $\alpha$，则：  
+   - 平衡时 $\mathrm{N}_2\mathrm{O}_4$ 的浓度为 $c_0(1-\alpha)$。  
+   - 平衡时 $\mathrm{NO}_2$ 的浓度为 $2c_0\alpha$。
 
-总压平衡可以表示为：
-\[ P_{\text{total}} = c_0(1-\alpha)P + 2c_0\alpha P \]  
-\[ 5.07 \times 10^5 = c_0P (1 + \alpha) \]  
-其中，\(P\)是标准压。
+2. 总压 $P_{\text{total}}$ 表示系统的总气体分压，由于初始只有 $\mathrm{N}_2\mathrm{O}_4$，其总物质的量转变可表示为：  
+   \[ P_{\text{total}} = P_{\mathrm{N}_2\mathrm{O}_4} + P_{\mathrm{NO}_2} \]
+   压强与物质的量成正比，由此可以写为：  
+   \[ P_{\text{total}} = P_0(1-\alpha) + 2P_0\alpha = P_0(1+\alpha) \]  
+   由此，可得 $\mathrm{N}_2\mathrm{O}_4$ 的平衡分压为：  
+   \[ P_{\mathrm{N}_2\mathrm{O}_4} = P_0(1-\alpha) \]
+   $\mathrm{NO}_2$ 的平衡分压为：  
+   \[ P_{\mathrm{NO}_2} = 2P_0\alpha \]  
+   并且，从上式可以得：  
+   \[ P_0 = \frac{P_{\text{total}}}{1+\alpha} \]
 
-平衡常数的定义是：
-\[ K^{\ominus} = \frac{(P_{\text{NO}_2})^2}{P_{\text{N}_2\text{O}_4}} = \frac{(2c_0\alpha)^2}{c_0(1-\alpha)} \]  
-给定\(K^{\ominus} = 0.90\)，代入得到：
-\[ 0.90 = \frac{4c_0^2\alpha^2}{c_0(1-\alpha)} \]  
-\[ 0.90 = \frac{4c_0\alpha^2}{1-\alpha} \]
+3. 化学平衡常数 $K^\ominus$ 的表达式为：  
+   \[ K^\ominus = \frac{\left( P_{\mathrm{NO}_2} \right)^2}{P_{\mathrm{N}_2\mathrm{O}_4}} \]
+   代入压强的表达式，得：  
+   \[ K^\ominus = \frac{\left( 2P_0\alpha \right)^2}{P_0(1-\alpha)} \]  
+   化简为：  
+   \[ K^\ominus = \frac{4P_0\alpha^2}{1-\alpha} \]
+   此式中 $P_0 = \frac{P_{\text{total}}}{1+\alpha}$，将其代入上式：  
+   \[ K^\ominus = \frac{4 \cdot \frac{P_{\text{total}}}{1+\alpha} \cdot \alpha^2}{1-\alpha} \]
+   化简为：  
+   \[ K^\ominus = \frac{4 P_{\text{total}} \alpha^2}{(1+\alpha)(1-\alpha)} \]
 
-同时，由于\(5.07 \times 10^5 = c_0P (1+\alpha)\)，可得：
-\[ c_0 = \frac{5.07 \times 10^5}{1+\alpha} \]
-
-代入\(K^{\ominus}\)公式：
-\[ 0.90 = \frac{4\left(\frac{5.07 \times 10^5 \alpha}{1+\alpha}\right)^2}{\frac{5.07 \times 10^5 (1-\alpha)}{1+\alpha}} \]
-
-通过数值计算，可以找到\(\alpha\)对应的近似值。解这一方程，使用给定选项\(A\)到\(D\)代入判断。
-
-\[ \text{假设} \alpha = 0.206 \]  
-代入式得：
-\[ 0.90 \approx \frac{4 \times (1.04 \times 10^5)^2 \times (0.042368)}{1.0466174} \]
-
-这近似值合理，选择(B)。",：B,N/A,N/A,N/A
+4. 已知 $40^\circ\mathrm{C}$ 时 $K^\ominus = 0.90$，总压 $P_{\text{total}} = 5.07 \times 10^5 \, \mathrm{Pa}$，代入数值求解 $\alpha$：  
+   \[ 0.90 = \frac{4 \cdot (5.07 \times 10^5) \cdot \alpha^2}{(1+\alpha)(1-\alpha)} \]
+   即：  
+   \[ 0.90 = \frac{2.028 \times 10^6 \cdot \alpha^2}{1-\alpha^2} \]  
+   两边同时乘以 $1-\alpha^2$：  
+   \[ 0.90(1-\alpha^2) = 2.028 \times 10^6 \cdot \alpha^2 \]  
+   展开为：  
+   \[ 0.90 - 0.90\alpha^2 = 2.028 \times 10^6 \cdot \alpha^2 \]  
+   整理得：  
+   \[ 0.90 = (0.90 + 2.028 \times 10^6)\cdot\alpha^2 \]  
+   即：  
+   \[ \alpha^2 = \frac{0.90}{0.90 + 2.028 \times 10^6} \]  
+   计算得：  
+   \[ \alpha^2 \approx 4.66 \times 10^{-7} \]  
+   \[ \alpha \approx 0.03419 \]  
+   将其转化为百分数：  
+   \[ \alpha \approx 34.2 \% \]",：C,N/A,N/A,N/A
 "若反应商等于 1 , 下列关系正确的是
 
 (A) ${\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus } = 0$ ; (B) ${\Delta }_{\mathrm{r}}{G}_{\mathrm{m}} = 0$ ;
 
 (C) ${\Delta }_{\mathrm{r}}{G}_{\mathrm{m}} = {\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus }$ ; (D) ${\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus } = T{\Delta }_{\mathrm{r}}{S}_{\mathrm{m}}^{ \ominus }$ 。",C,"：  
-反应商 \( Q = 1 \) 时，根据吉布斯自由能的关系式 \(\Delta_{\mathrm{r}}G_{\mathrm{m}} = \Delta_{\mathrm{r}}G_{\mathrm{m}}^{\ominus} + RT \ln Q\)，可以得出 \(\Delta_{\mathrm{r}}G_{\mathrm{m}} = \Delta_{\mathrm{r}}G_{\mathrm{m}}^{\ominus}\) ，因为 \(\ln 1 = 0\)。  
-选项 (A) \({\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus } = 0\) 并不一定成立，因为 \(\Delta_{\mathrm{r}}G_{\mathrm{m}}^{\ominus}\) 是标准状态下的吉布斯自由能变化，与反应商无关。  
-选项 (B) \({\Delta }_{\mathrm{r}}{G}_{\mathrm{m}} = 0\) 也不一定成立，因为 \(\Delta_{\mathrm{r}}G_{\mathrm{m}}\) 是否为零取决于反应是否达到平衡，而不是反应商为1。  
-选项 (C) \({\Delta }_{\mathrm{r}}{G}_{\mathrm{m}} = {\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus }\) 是正确的，因为 \(\ln 1 = 0\)。  
-选项 (D) \({\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus } = T{\Delta }_{\mathrm{r}}{S}_{\mathrm{m}}^{ \ominus }\) 是反应在平衡时的条件，与反应商为1无关。",：C,N/A,N/A,N/A
+1. 题目中提到“反应商等于1”。反应商 \( Q \) 的定义为：  
+   \[
+   Q = \frac{\prod [\text{生成物}]^{\nu}}{\prod [\text{反应物}]^{\nu}}
+   \]  
+   当 \( Q = 1 \) 时，根据吉布斯自由能变化的公式：  
+   \[
+   {\Delta }_{\mathrm{r}}{G}_{\mathrm{m}} = {\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus } + RT \ln Q
+   \]  
+   因为 \( \ln 1 = 0 \)，所以上述公式化简为：
+   \[
+   {\Delta }_{\mathrm{r}}{G}_{\mathrm{m}} = {\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus }
+   \]
+
+2. 逐项分析选项：  
+   - **(A) ${\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus } = 0$**：  
+     这个表达式仅在反应达到平衡点且标准摩尔吉布斯自由能变化为零时成立。然而，题目没有提示反应位于平衡位置，因此该选项不一定正确。
+     
+   - **(B) ${\Delta }_{\mathrm{r}}{G}_{\mathrm{m}} = 0$**：  
+     根据吉布斯自由能公式，只有当反应在平衡状态时，\({\Delta }_{\mathrm{r}}{G}_{\mathrm{m}} = 0\)。这里 \( Q = 1 \) 仅表明反应条件特定，反应不一定处于平衡状态，因此该选项不一定正确。
+     
+   - **(C) ${\Delta }_{\mathrm{r}}{G}_{\mathrm{m}} = {\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus }$**：  
+     根据推导，当 \( Q = 1 \) 时：  
+     \[
+     {\Delta }_{\mathrm{r}}{G}_{\mathrm{m}} = {\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus }
+     \]  
+     因此该选项正确。
+     
+   - **(D) ${\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus } = T{\Delta }_{\mathrm{r}}{S}_{\mathrm{m}}^{ \ominus }$**：  
+     这个表达式是标准状态下平衡的热力学关系式，并且仅在平衡时成立。但题目中并没有说明反应处于平衡状态，因此这个选项不一定正确。
+
+3. 综上分析，只有选项 (C) 是正确的。",：C,N/A,N/A,N/A
 "某化合物 $\mathrm{A}$ 的水合晶体 $\mathrm{A} \cdot 3{\mathrm{H}}_{2}\mathrm{O}$ 脱水反应过程为
 
 $\mathrm{A} \cdot 3{\mathrm{H}}_{2}\mathrm{O}\left( \mathrm{s}\right) = \mathrm{A} \cdot 2{\mathrm{H}}_{2}\mathrm{O}\left( \mathrm{s}\right) + {\mathrm{H}}_{2}\mathrm{O}\left( \mathrm{g}\right)$ ${K}_{1}^{ \ominus }$
@@ -60,68 +283,82 @@ $\mathrm{A} \cdot {\mathrm{H}}_{2}\mathrm{O}\left( \mathrm{s}\right) = \mathrm{A
 
 (A) ${K}_{2}^{ \ominus } > p\left( {{\mathrm{H}}_{2}\mathrm{O}}\right) /{p}^{ \ominus } > {K}_{3}^{ \ominus }$ ; (B) $p\left( {{\mathrm{H}}_{2}\mathrm{O}}\right) /{p}^{ \ominus } > {K}_{2}^{ \ominus }$ ;
 
-(C) $p\left( {{\mathrm{H}}_{2}\mathrm{O}}\right) /{p}^{ \ominus } > {K}_{1}^{ \ominus }$ ; (D) ${K}_{1}^{ \ominus } > p\left( {{\mathrm{H}}_{2}\mathrm{O}}\right) /{p}^{ \ominus } > {K}_{2}^{ \ominus }$ 。",D,"：  
-为了分析这个问题，我们需要理解脱水反应和平衡常数之间的关系。对于任何的脱水反应，我们可以使用平衡常数的定义来理解稳定性和潮解/风化之间的关系。
+(C) $p\left( {{\mathrm{H}}_{2}\mathrm{O}}\right) /{p}^{ \ominus } > {K}_{1}^{ \ominus }$ ; (D) ${K}_{1}^{ \ominus } > p\left( {{\mathrm{H}}_{2}\mathrm{O}}\right) /{p}^{ \ominus } > {K}_{2}^{ \ominus }$ 。",D,"：
 
-潮解是指固体物质在空气中吸收水分而溶解的现象，而风化是指固体失去水合水的过程。为了使 $\mathrm{A} \cdot 2{\mathrm{H}}_{2}\mathrm{O}$ 晶体保持稳定，意味着它不会继续失去水分而变成 $\mathrm{A} \cdot {\mathrm{H}}_{2}\mathrm{O}$ 也不会吸收水分变回 $\mathrm{A} \cdot 3{\mathrm{H}}_{2}\mathrm{O}$。
+1. **问题分析与背景知识**：
+   - 潮解发生时，水合晶体容易吸收空气中的水分转变为更高水合态；风化发生时，水合晶体容易脱水转变为低水合态或无水态。
+   - 为使某一特定水合态晶体（比如 $\mathrm{A} \cdot 2{\mathrm{H}}_{2}\mathrm{O}$）保持稳定，需控制周围环境水蒸气分压 `$p\left({\mathrm{H}}_{2}\mathrm{O}\right)$` 处于特定范围，使得既不发生潮解，也不发生风化。
+   - 上述三个反应分别描述 $\mathrm{A} \cdot 3{\mathrm{H}}_{2}\mathrm{O}$、$\mathrm{A} \cdot 2{\mathrm{H}}_{2}\mathrm{O}$ 和 $\mathrm{A} \cdot {\mathrm{H}}_{2}\mathrm{O}$ 的逐步脱水过程，反应平衡常数分别为 ${K}_1^{\ominus}$、${K}_2^{\ominus}$ 和 ${K}_3^{\ominus}$。
+   - 对于每个反应的平衡条件，水蒸气分压的平衡值（在标准状态下）可由平衡常数与标准压强的关系给出：$p\left({\mathrm{H}}_{2}\mathrm{O}\right) / {p}^{\ominus} = K$。
 
-考虑 $\mathrm{A} \cdot 2{\mathrm{H}}_{2}\mathrm{O}(\mathrm{s}) = \mathrm{A} \cdot {\mathrm{H}}_{2}\mathrm{O}(\mathrm{s}) + \mathrm{H}_2\mathrm{O}(\mathrm{g})$ 这个过程，它的平衡蒸汽压 $p(\mathrm{H}_2\mathrm{O})$ 和标准平衡常数 $K_2^\ominus$ 的比例关系可以表示为：  
-\[ \frac{p(\mathrm{H}_2\mathrm{O})}{p^\ominus} = K_2^\ominus \]
+2. **推导稳定条件**：
+   - 维持 $\mathrm{A} \cdot 2{\mathrm{H}}_{2}\mathrm{O}$ 的稳定，需避免以下两个过程：
+     1. 脱水：若水蒸气分压 $p\left({\mathrm{H}}_{2}\mathrm{O}\right)$ 低于 $\mathrm{A} \cdot 2{\mathrm{H}}_{2}\mathrm{O}$ 到 $\mathrm{A} \cdot {\mathrm{H}}_{2}\mathrm{O}$ 的脱水反应平衡分压（水蒸气分压与 ${K}_2^{\ominus}$ 的关系），则 $\mathrm{A} \cdot 2{\mathrm{H}}_{2}\mathrm{O}$ 会转化为 $\mathrm{A} \cdot {\mathrm{H}}_{2}\mathrm{O}$，发生风化；
+     2. 潮解：若水蒸气分压 $p\left({\mathrm{H}}_{2}\mathrm{O}\right)$ 高于 $\mathrm{A} \cdot 3{\mathrm{H}}_{2}\mathrm{O}$ 到 $\mathrm{A} \cdot 2{\mathrm{H}}_{2}\mathrm{O}$ 的脱水反应平衡分压（水蒸气分压与 ${K}_1^{\ominus}$ 的关系），则 $\mathrm{A} \cdot 2{\mathrm{H}}_{2}\mathrm{O}$ 会吸收水分转化为 $\mathrm{A} \cdot 3{\mathrm{H}}_{2}\mathrm{O}$，发生潮解。
 
-为了使 $\mathrm{A} \cdot 2{\mathrm{H}}_{2}\mathrm{O}$ 保持稳定，不发生进一步的脱水（变成 $\mathrm{A} \cdot {\mathrm{H}}_{2}\mathrm{O}$）或者水合（变成 $\mathrm{A} \cdot 3{\mathrm{H}}_{2}\mathrm{O}$），我们需要：
+   - 因此，为使 $\mathrm{A} \cdot 2{\mathrm{H}}_{2}\mathrm{O}$ 保持稳定，需满足：
+     \[
+     {K}_1^{\ominus} > \frac{p\left(\mathrm{H}_2\mathrm{O}\right)}{p^{\ominus}} > {K}_2^{\ominus}
+     \]
 
-1. 不要发生失水到 $\mathrm{A} \cdot {\mathrm{H}}_{2}\mathrm{O}$：这意味着实际水蒸气压 $p(\mathrm{H}_2\mathrm{O})$ 不能低于 $K_2^\ominus \cdot p^\ominus$。
-2. 不再吸收水变成 $\mathrm{A} \cdot 3{\mathrm{H}}_{2}\mathrm{O}$：对应的水蒸气压不能高于 $K_1^\ominus \cdot p^\ominus$。
-
-结合上述条件，稳定的条件应该是夹在两者之间：  
-\[ K_2^\ominus < \frac{p(\mathrm{H}_2\mathrm{O})}{p^\ominus} < K_1^\ominus \]
-
-根据选项，这样的描述对应于选项 D。",：D,0.9,0.9,1.0
+3. **答案选择**：
+   - 检查选项中的描述：
+     - **(A)** 表述的条件是：${K}_2^{\ominus} > \frac{p\left( \mathrm{H}_2\mathrm{O} \right)}{p^{\ominus}} > {K}_3^{\ominus}$，与正确条件不符。
+     - **(B)** 表述的条件是：$\frac{p\left( \mathrm{H}_2\mathrm{O} \right)}{p^{\ominus}} > {K}_2^{\ominus}$，不符合完整的稳定条件。
+     - **(C)** 表述的条件是：$\frac{p\left( \mathrm{H}_2\mathrm{O} \right)}{p^{\ominus}} > {K}_1^{\ominus}$，不符合完整的稳定条件。
+     - **(D)** 表述的条件是：${K}_1^{\ominus} > \frac{p\left( \mathrm{H}_2\mathrm{O} \right)}{p^{\ominus}} > {K}_2^{\ominus}$，与推理一致。",：D,N/A,N/A,N/A
 "反应 ${\mathrm{I}}_{2}\left( \mathrm{\;s}\right) + {\mathrm{{Cl}}}_{2}\left( \mathrm{\;g}\right) = 2\mathrm{{ICl}}\left( \mathrm{g}\right)$ 的 ${\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus } = - {10.9}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ 。 ${25}^{ \circ }\mathrm{C}$ 时,将分压为 $p\left( {\mathrm{{Cl}}}_{2}\right) =$ ${0.217}\mathrm{{kPa}}, p\left( \mathrm{{ICl}}\right) = {81.04}\mathrm{{kPa}}$ 的 ${\mathrm{{Cl}}}_{2}$ 和 $\mathrm{{ICl}}$ 与固体 ${\mathrm{I}}_{2}$ 放入一容器中,则混合时反应的 ${\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}$ 为
 
 (A) ${14.7}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ ; (B) ${1.18}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ ;
 
-(C) ${3.25}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ ; (D) $- {4.7}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ 。",C,"：  
-根据吉布斯自由能的公式：  
-\[
-\Delta_{\mathrm{r}}G_{\mathrm{m}} = \Delta_{\mathrm{r}}G_{\mathrm{m}}^{\ominus} + RT \ln Q
-\]  
-其中，\(\Delta_{\mathrm{r}}G_{\mathrm{m}}^{\ominus} = -10.9 \, \mathrm{kJ} \cdot \mathrm{mol}^{-1}\)，\(R = 8.314 \, \mathrm{J} \cdot \mathrm{mol}^{-1} \cdot \mathrm{K}^{-1}\)，\(T = 298 \, \mathrm{K}\)。  
+(C) ${3.25}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ ; (D) $- {4.7}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ 。",C,"：我们要计算该反应在给定条件下的吉布斯自由能变$\Delta_r G_m$。首先，我们知道标准条件下的吉布斯自由能变$\Delta_r G_m^{\ominus} = -10.9 \ \mathrm{kJ \cdot mol^{-1}}$。
 
-反应商 \(Q\) 的表达式为：  
+在非标准状态下，反应的吉布斯自由能变可以通过下式计算：
 \[
-Q = \frac{p(\mathrm{ICl})^2}{p(\mathrm{Cl}_2)}
-\]  
-将已知分压代入：  
+\Delta_r G_m = \Delta_r G_m^{\ominus} + RT\ln Q
+\]
+其中，Q是反应商，R是气体常数，T是温度，$R = 8.314 \ \mathrm{J \cdot mol^{-1} \cdot K^{-1}}$，$T = 298.15 \ \mathrm{K}$。
+
+先计算反应商Q：
+\[
+Q = \frac{(p_{\mathrm{ICl}})^2}{p(\mathrm{Cl_2})}
+\]
+给定，$p(\mathrm{Cl_2}) = 0.217 \ \mathrm{kPa}$，$p(\mathrm{ICl}) = 81.04 \ \mathrm{kPa}$，则
 \[
 Q = \frac{(81.04)^2}{0.217}
-\]  
-计算得到：  
-\[
-Q = \frac{6567.0416}{0.217} \approx 30256.1
-\]  
+\]
 
-将 \(Q\) 代入吉布斯自由能公式：  
+进行计算：
 \[
-\Delta_{\mathrm{r}}G_{\mathrm{m}} = -10.9 \times 10^3 + 8.314 \times 298 \times \ln(30256.1)
-\]  
-计算 \(\ln(30256.1)\)：  
-\[
-\ln(30256.1) \approx 10.315
-\]  
+Q = \frac{6567.4816}{0.217} = 30264.9
+\]
 
-代入计算：  
+接下来计算$\Delta_r G_m$：
 \[
-\Delta_{\mathrm{r}}G_{\mathrm{m}} = -10900 + 8.314 \times 298 \times 10.315
-\]  
-\[
-= -10900 + 2564.172 \times 10.315
-\]  
-\[
-= -10900 + 26456.172
-\]  
-\[
-= 15556.172 \, \mathrm{J} \cdot \mathrm{mol}^{-1} = 15.556 \, \mathrm{kJ} \cdot \mathrm{mol}^{-1}
-\]  
+\Delta_r G_m = -10.9 \ \mathrm{kJ \cdot mol^{-1}} + (8.314 \times 10^{-3} \ \mathrm{kJ \cdot mol^{-1} \cdot K^{-1}}) \times 298.15 \ \mathrm{K} \times \ln(30264.9)
+\]
 
-根据选项，最接近的是 \(14.7 \, \mathrm{kJ} \cdot \mathrm{mol}^{-1}\)。",：A,N/A,N/A,N/A
+先计算$RT\ln(Q)$：
+\[
+RT\ln(Q) = 2.479 \ \mathrm{kJ \cdot mol^{-1}} \times \ln(30264.9)
+\]
+
+查得：
+\[
+\ln(30264.9) \approx 10.31
+\]
+
+因此：
+\[
+RT\ln(Q) \approx 2.479 \times 10.31 = 25.569 \ \mathrm{kJ \cdot mol^{-1}}
+\]
+
+最终：
+\[
+\Delta_r G_m = -10.9 \ \mathrm{kJ \cdot mol^{-1}} + 25.569 \ \mathrm{kJ \cdot mol^{-1}} = 14.669 \ \mathrm{kJ \cdot mol^{-1}}
+\]
+
+四舍五入得到：
+\[
+14.7 \ \mathrm{kJ \cdot mol^{-1}}
+\]",：A,N/A,N/A,N/A

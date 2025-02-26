@@ -1,4 +1,1157 @@
 query,true_answer,reasoning,model_answer,knowledge_accuracy,reasoning_accuracy,final_answer_accuracy
+"在 ${300}\mathrm{\;K}$ 时, ${1.0}\mathrm{\;{mol}}$ 的理想气体反抗 ${100.0}\mathrm{{kPa}}$ 恒外压,从 ${1.0}{\mathrm{{dm}}}^{3}$ 膨胀到 ${10.0}{\mathrm{{dm}}}^{3}$ , 试计算此过程体系吸收的热量。","$W = - {p}_{\text{外 }}{\Delta V}$
+
+$$
+= - {100.0}\mathrm{{kPa}} \times \left( {{10.0} - {1.0}}\right) \times {10}^{-3}{\mathrm{\;m}}^{3}
+$$
+
+$$
+= - {900}\mathrm{\;J}
+$$
+
+题设过程为理想气体的恒温膨胀,故 ${\Delta U} = 0$ ,由热力学第一定律的表达式:
+
+$$
+{\Delta U} = Q + W
+$$
+
+故
+
+$$
+Q = {\Delta U} - W = 0\mathrm{\;J} - \left( {-{900}\mathrm{\;J}}\right) = {900}\mathrm{\;J}
+$$
+
+即此过程中体系吸热 ${900}\mathrm{\;J}$ 。
+","：  
+本题要求计算体系吸收的热量，即求$q$。根据热力学第一定律：  
+\[
+\Delta U = q + w
+\]  
+其中$\Delta U$为体系内能的变化，$q$为热量，$w$为功。对于理想气体，内能仅与温度有关，而题目中提到的过程发生在恒温（$T=300 \;\mathrm{K}$）下，因此$\Delta U = 0$。故有：  
+\[
+q = -w
+\]  
+现在我们需要计算功（$w$）。恒外压条件下，功的表达式为：  
+\[
+w = -P_{\text{ext}} \Delta V
+\]  
+其中$P_{\text{ext}}$是恒定的外压，$\Delta V$是体积的变化（$\Delta V = V_{\text{final}} - V_{\text{initial}}$）。
+
+将外压$P_{\text{ext}} = 100.0 \;\mathrm{kPa}$，初始体积$V_{\text{initial}} = 1.0 \;\mathrm{dm}^3$，最终体积$V_{\text{final}} = 10.0 \;\mathrm{dm}^3$代入，体积变化为：  
+\[
+\Delta V = 10.0 - 1.0 = 9.0 \;\mathrm{dm}^3 = 9.0 \times 10^{-3} \;\mathrm{m}^3
+\]  
+外压和体积单位统一，功可以计算为：  
+\[
+w = -P_{\text{ext}} \Delta V = -(100.0 \times 10^3) \cdot (9.0 \times 10^{-3}) \;\mathrm{J}
+\]  
+\[
+w = -900 \;\mathrm{J}
+\]  
+因此，吸收的热量为：  
+\[
+q = -w = 900 \;\mathrm{J}
+\]",：$900 \;\mathrm{J}$,N/A,N/A,N/A
+"反应 ${\mathrm{N}}_{2}\left( \mathrm{\;g}\right) + 3{\mathrm{H}}_{2}\left( \mathrm{\;g}\right) = 2{\mathrm{{NH}}}_{3}\left( \mathrm{\;g}\right)$ 在恒容热量器内进行,生成 $2\mathrm{\;{mol}}{\mathrm{{NH}}}_{3}$ 时放热 82. $7\mathrm{\;{kJ}}$ ,求反应的 ${\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus }$ 。","反应在恒容条件下进行, 则有
+
+$$
+{\Delta }_{\mathrm{r}}{U}_{\mathrm{m}}^{ \ominus } = {\Delta }_{\mathrm{r}}U/\xi = {Q}_{V}/\xi
+$$
+
+反应进度为
+
+$$
+\xi = \frac{{\Delta n}\left( {\mathrm{{NH}}}_{3}\right) }{\nu \left( {\mathrm{{NH}}}_{3}\right) } = \frac{2\mathrm{\;{mol}} - 0}{2} = 1\mathrm{\;{mol}}
+$$
+
+$$
+{Q}_{V} = - {82.7}\mathrm{\;{kJ}}
+$$
+
+$$
+{\Delta }_{\mathrm{r}}{U}_{\mathrm{m}}^{ \ominus } = {Q}_{V}/\xi = \frac{-{82.7}\mathrm{\;{kJ}}}{1\mathrm{\;{mol}}} = - {82.7}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}
+$$
+
+$$
+{\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus } = {\Delta }_{\mathrm{r}}{U}_{\mathrm{m}}^{ \ominus } + {\Delta \nu RT}
+$$
+
+$$
+= - {82.7}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1} + \left( {-2}\right) \times {8.314} \times {10}^{-3}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1} \times {298}\mathrm{\;K}
+$$
+
+$$
+= - {87.7}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}
+$$
+","：在反应方程式中，氮气与氢气反应生成氨气，生成物的物质的量是2 mol NH₃。已知反应生成2 mol NH₃时放热82.7 kJ，根据放热和反应的关系，反应的焓变（反应热）可以写为负值，因为系统对外界放出热量。 
+
+反应的标准摩尔反应焓变 (\(\Delta_{\mathrm{r}}H_{\mathrm{m}}^{ \ominus }\)) 是指在标准状态下反应每生成1 mol物质的焓变值。因此，我们需要计算生成1 mol NH₃时的焓变。由于反应生成2 mol NH₃放热82.7 kJ，生成1 mol NH₃时的焓变是：
+
+\[
+\Delta H = \frac{-82.7 \, \mathrm{kJ}}{2} = -41.35 \, \mathrm{kJ/mol}
+\]
+
+因此，反应的标准摩尔反应焓变 \(\Delta_{\mathrm{r}}H_{\mathrm{m}}^{ \ominus }\) 为 \(-41.35 \, \mathrm{kJ/mol}\)。",：-41.35,N/A,N/A,N/A
+"制水煤气是将水蒸气从红热的煤中通过, 有下列反应发生:
+
+$$
+\mathrm{C}\left( \mathrm{s}\right) + {\mathrm{H}}_{2}\mathrm{O}\left( \mathrm{g}\right) = \mathrm{{CO}}\left( \mathrm{g}\right) + {\mathrm{H}}_{2}\left( \mathrm{\;g}\right)
+$$
+
+$$
+\mathrm{{CO}}\left( \mathrm{g}\right) + {\mathrm{H}}_{2}\mathrm{O}\left( \mathrm{g}\right) = {\mathrm{{CO}}}_{2}\left( \mathrm{\;g}\right) + {\mathrm{H}}_{2}\left( \mathrm{\;g}\right)
+$$
+
+将此混合气体冷却至室温即得水煤气,其中含有 $\mathrm{{CO}},{\mathrm{H}}_{2}$ 及少量 ${\mathrm{{CO}}}_{2}$ (水蒸气可忽略不计)。若 $\mathrm{C}$ 有 ${95}\%$ 转化为 $\mathrm{{CO}},5\%$ 转化为 ${\mathrm{{CO}}}_{2}$ ,则 $1{\mathrm{{dm}}}^{3}$ 此种水煤气燃烧产生的热量是多少(燃烧产物都是气体)? 已知
+
+|                                                                                                                | $\mathrm{{CO}}\left( \mathrm{g}\right)$ | ${\mathrm{{CO}}}_{2}\left( \mathrm{\;g}\right)$ | ${\mathrm{H}}_{2}\mathrm{O}\left( \mathrm{g}\right)$ |
+| -------------------------------------------------------------------------------------------------------------- | --------------------------------------- | ----------------------------------------------- | ---------------------------------------------------- |
+| ${\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }/\left( {\mathrm{{kJ}} \cdot {\mathrm{{mol}}}^{-1}}\right)$ | - 110.5                                 | - 393.5                                         | - 241.8                                              |
+","设产生 $1{\mathrm{{dm}}}^{3}$ 水煤气时消耗的碳的物质的量为 $n\left( \mathrm{C}\right)$ 。
+
+根据题意, $\mathrm{{CO}}$ 和 ${\mathrm{{CO}}}_{2}$ 总量为 $n\left( \mathrm{C}\right)$ ,其中 $\mathrm{{CO}}$ 为 ${0.95n}\left( \mathrm{C}\right) ,{\mathrm{{CO}}}_{2}$ 为 ${0.05n}\left( \mathrm{C}\right)$ ,而 ${\mathrm{H}}_{2}$ 为 ${1.05n}\left( \mathrm{C}\right)$ 。由 ${pV} = {nRT}$ 得
+
+$$
+{n}_{\text{总 }} = \frac{pV}{RT} = \frac{{1.0} \times {10}^{5}\mathrm{\;{Pa}} \times 1{\mathrm{{dm}}}^{3}}{{8.314} \times {10}^{3}\mathrm{\;{Pa}} \cdot {\mathrm{{dm}}}^{3} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1} \times {298}\mathrm{\;K}} = {0.040}\mathrm{\;{mol}}
+$$
+
+$$
+{n}_{\text{总 }} = n\left( \mathrm{{CO}}\right) + n\left( {\mathrm{{CO}}}_{2}\right) + n\left( {\mathrm{H}}_{2}\right)
+$$
+
+$$
+= {0.95n}\left( \mathrm{C}\right) + {0.05n}\left( \mathrm{C}\right) + {1.05n}\left( \mathrm{C}\right)
+$$
+
+解得 $n\left( \mathrm{C}\right) = {0.0195}\mathrm{\;{mol}}$ 。
+
+$n\left( \mathrm{{CO}}\right) = {0.0195}\mathrm{\;{mol}} \times {0.95} = {0.019}\mathrm{\;{mol}}$
+
+$n\left( {\mathrm{H}}_{2}\right) = {0.0195}\mathrm{\;{mol}} \times {1.05} = {0.020}\mathrm{\;{mol}}$
+
+水煤气的燃烧反应
+
+$$
+\mathrm{{CO}}\left( \mathrm{g}\right) + \frac{1}{2}{\mathrm{O}}_{2}\left( \mathrm{\;g}\right) = {\mathrm{{CO}}}_{2}\left( \mathrm{\;g}\right) \tag{1}
+$$
+
+$$
+{\mathrm{H}}_{2}\left( \mathrm{\;g}\right) + \frac{1}{2}{\mathrm{O}}_{2}\left( \mathrm{\;g}\right) = {\mathrm{H}}_{2}\mathrm{O}\left( \mathrm{g}\right) \tag{2}
+$$
+
+$$
+{\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus }\left( 1\right) = - {393.5}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1} - \left( {-{110.5}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}}\right) = - {283.0}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}
+$$
+
+$$
+{\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus }\left( 2\right) = - {241.8}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}
+$$
+
+$1{\mathrm{{dm}}}^{3}$ 水煤气燃烧产生的热量为
+
+$$
+{\Delta }_{\mathrm{r}}H = n\left( \mathrm{{CO}}\right) \cdot {\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus }\left( 1\right) + n\left( {\mathrm{H}}_{2}\right) \cdot {\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus }\left( 2\right)
+$$
+
+$$
+= {0.019}\mathrm{\;{mol}} \times \left( {-{283.0}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}}\right) + {0.020}\mathrm{\;{mol}} \times \left( {-{241.8}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}}\right)
+$$
+
+$$
+= - {10.21}\mathrm{\;{kJ}}
+$$
+","：这道题需要计算水煤气燃烧产生的热量。根据反应方程式以及题目提供的信息，我们可以推断以下内容：
+
+1. **反应式及产物**：
+   - 反应1: 
+     \[
+     \mathrm{C(s)} + \mathrm{H}_2\mathrm{O(g)} \rightarrow \mathrm{CO(g)} + \mathrm{H}_2\mathrm{(g)}
+     \]
+   - 反应2:
+     \[
+     \mathrm{CO(g)} + \mathrm{H}_2\mathrm{O(g)} \rightarrow \mathrm{CO}_2(g) + \mathrm{H}_2\mathrm{(g)}
+     \]
+
+2. **元素分析**：
+   - 由题目可知，95% 的碳转化为 CO，5% 的碳转化为 CO2。因此，生成气体混合物的成分可以通过比例计算得到。
+
+3. **气体的物质的量及体积关系**：
+   - 由于生成的 $CO$ 和 $CO_2$ 均为气体，且摩尔体积相同，因此可以直接按体积分数来表示它们在混合气体中的含量。
+
+4. **计算气体的燃烧热**：
+   - 完全燃烧 CO：
+     \[
+     \mathrm{2CO(g)} + \mathrm{O}_2\mathrm{(g)} \rightarrow \mathrm{2CO}_2\mathrm{(g)} \quad \Delta H=−(393.5{-}110.5)\,\mathrm{kJ/mol}
+     \]
+     \[
+     \Delta H_{\mathrm{comb}}(\mathrm{CO}) = -283\,\mathrm{kJ/mol}
+     \]
+   - 完全燃烧 H2：
+     \[
+     \mathrm{2H}_2\mathrm{(g)} + \mathrm{O}_2\mathrm{(g)} \rightarrow \mathrm{2H}_2\mathrm{O}\mathrm{(g)} \quad \Delta H=−241.8\,\mathrm{kJ/mol}
+     \]
+     \[
+     \Delta H_{\mathrm{comb}}(\mathrm{H}_2) = -241.8\,\mathrm{kJ/mol}
+     \]
+
+5. **具体计算过程**：
+   - 碳 95% 转化为 CO, 所以 CO 的摩尔数为 \[\frac{95}{100}=0.95\]
+   - 碳 5% 转化为 CO2, 所以 CO2 的摩尔数为 \[\frac{5}{100}=0.05\]
+   - H2 和 CO 的比例按1:1来构造，因此 H2 的摩尔数与 CO 一样为 0.95。
+   - 这时1dm³的混合气体中，CO 含量为 95%，CO2 含量为 5%，H2 含量为 95%.
+
+ 所以 1 dm³ 煤气的燃烧热 = (0.95 * -283) + (0.95 * -241.8) + (0.05 * -393.5) 
+        \[
+        Q=0.95(-283) +0.95(-241.8) +0.05(-393.5)\\
+         = -268.85 + -229.71 -19.675 \\
+         = -518.235 \, \mathrm{kJ}
+        \]","：\[-518.235\,\mathrm{kJ}\]",N/A,N/A,N/A
+"已知
+
+$$
+2{\mathrm{{MnO}}}_{4}^{ - } + {10}{\mathrm{{Cl}}}^{ - } + {16}{\mathrm{H}}^{ + } = 2{\mathrm{{Mn}}}^{2 + } + 5{\mathrm{{Cl}}}_{2} + 8{\mathrm{H}}_{2}\mathrm{O}
+$$
+
+$$
+{\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus }\left( 1\right) = - {142.0}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}
+$$
+
+$$
+{\mathrm{{Cl}}}_{2} + 2{\mathrm{{Fe}}}^{2 + } = 2{\mathrm{{Cl}}}^{ - } + 2{\mathrm{{Fe}}}^{3 + }\;{\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus }\left( 2\right) = - {113.6}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}
+$$
+
+求反应 ${\mathrm{{MnO}}}_{4}^{ - } + 5{\mathrm{{Fe}}}^{2 + } + 8{\mathrm{H}}^{ + } = {\mathrm{{Mn}}}^{2 + } + 5{\mathrm{{Fe}}}^{3 + } + 4{\mathrm{H}}_{2}\mathrm{O}$ 的 ${\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus }$ 。","根据状态函数和状态函数的改变量的性质, 由题设
+
+$$
+2{\mathrm{{MnO}}}_{4}^{ - } + {10}{\mathrm{{Cl}}}^{ - } + {16}{\mathrm{H}}^{ + } = 2{\mathrm{{Mn}}}^{2 + } + 5{\mathrm{{Cl}}}_{2} \uparrow + 8{\mathrm{H}}_{2}\mathrm{O}
+$$
+
+$$
+{\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus }\left( 1\right) = - {142.0}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}
+$$
+
+所以
+
+$$
+{\mathrm{{MnO}}}_{4}^{ - } + 5{\mathrm{{Cl}}}^{ - } + 8{\mathrm{H}}^{ + } = {\mathrm{{Mn}}}^{2 + } + \frac{5}{2}{\mathrm{{Cl}}}_{2} \uparrow + 4{\mathrm{H}}_{2}\mathrm{O}
+$$
+
+$$
+{\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus }\left( 3\right) = - {71.0}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}
+$$
+
+由题设
+
+$$
+{\mathrm{{Cl}}}_{2} + 2{\mathrm{{Fe}}}^{2 + } = 2{\mathrm{{Cl}}}^{ - } + 2{\mathrm{{Fe}}}^{3 + }
+$$
+
+$$
+{\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus }\left( 2\right) = - {113.6}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}
+$$
+
+所以
+
+$$
+\frac{5}{2}{\mathrm{{Cl}}}_{2} + 5{\mathrm{{Fe}}}^{2 + } = 5{\mathrm{{Cl}}}^{ - } + 5{\mathrm{{Fe}}}^{3 + }
+$$
+
+$$
+{\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus }\left( 4\right) = - {284.0}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}
+$$
+
+因为
+
+$$
+{\mathrm{{MnO}}}_{4}^{ - } + 5{\mathrm{{Cl}}}^{ - } + 8{\mathrm{H}}^{ + } = {\mathrm{{Mn}}}^{2 + } + \frac{5}{2}{\mathrm{{Cl}}}_{2} + 4{\mathrm{H}}_{2}\mathrm{O}
+$$
+
+$$
+\text{+)}\;\frac{5}{2}{\mathrm{{Cl}}}_{2} + 5{\mathrm{{Fe}}}^{2 + } = 5{\mathrm{{Cl}}}^{ - } + 5{\mathrm{{Fe}}}^{3 + }
+$$
+
+$$
+{\mathrm{{MnO}}}_{4}^{ - } + 5{\mathrm{{Fe}}}^{2 + } + 8{\mathrm{H}}^{ + } = {\mathrm{{Mn}}}^{2 + } + 5{\mathrm{{Fe}}}^{3 + } + 4{\mathrm{H}}_{2}\mathrm{O}
+$$
+
+所得化学反应的标准摩尔吉布斯自由能变为
+
+$$
+{\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus } = {\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus }\left( 3\right) + {\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus }\left( 4\right)
+$$
+
+$$
+= \left\lbrack {\left( {-{71.0}}\right) + \left( {-{284.0}}\right) }\right\rbrack \mathrm{{kJ}} \cdot {\mathrm{{mol}}}^{-1}
+$$
+
+$$
+= - {355.0}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}
+$$
+","：
+
+我们需要通过两步反应的组合，求出目标反应的标准吉布斯自由能变（\(\Delta_{\mathrm{r}}G_{\mathrm{m}}^{\ominus}\)）。已知以下两个反应的吉布斯能变化：
+
+1. \(
+2\mathrm{MnO}_4^- + 10\mathrm{Cl}^- + 16\mathrm{H}^+ \rightarrow 2\mathrm{Mn}^{2+} + 5\mathrm{Cl}_2 + 8\mathrm{H}_2O
+\),
+\(\Delta_{\mathrm{r}}G_{\mathrm{m}}^{\ominus} = -142.0\;\mathrm{kJ\cdot mol^{-1}}\).
+
+2. \(
+\mathrm{Cl}_2 + 2\mathrm{Fe}^{2+} \rightarrow 2\mathrm{Cl}^- + 2\mathrm{Fe}^{3+}
+\),
+\(\Delta_{\mathrm{r}}G_{\mathrm{m}}^{\ominus} = -113.6\;\mathrm{kJ\cdot mol^{-1}}\).
+
+目标反应为：
+\(
+\mathrm{MnO}_4^- + 5\mathrm{Fe}^{2+} + 8\mathrm{H}^+ \rightarrow \mathrm{Mn}^{2+} + 5\mathrm{Fe}^{3+} + 4\mathrm{H}_2O
+\).
+
+### 1. 归一化反应式：
+从已知两个反应开始，首先调整其系数，使其与目标反应协调。  
+目标反应涉及 \(1\mathrm{MnO}_4^-\) 和 \(5\mathrm{Fe}^{2+}\)，而不是 \(2\mathrm{MnO}_4^-\)。\) 因此将反应 (1) 的系数除以 2：
+\[
+\mathrm{MnO}_4^- + 5\mathrm{Cl}^- + 8\mathrm{H}^+ \rightarrow \mathrm{Mn}^{2+} + \frac{5}{2}\mathrm{Cl}_2 + 4\mathrm{H}_2O,
+\]
+对应的自由能变：
+\[
+\Delta_{\mathrm{r}}G_{\mathrm{m}}^{\ominus} = \frac{-142.0}{2}\;\mathrm{kJ\cdot mol^{-1}} = -71.0\;\mathrm{kJ\cdot mol^{-1}}.
+\]
+
+同时，目标反应涉及 \(5\mathrm{Fe}^{2+}\)，因此从反应 (2) 中引入 \(\frac{5}{2}\mathrm{Cl}_2\)：
+\[
+\frac{5}{2}\mathrm{Cl}_2 + 5\mathrm{Fe}^{2+} \rightarrow 5\mathrm{Cl}^- + 5\mathrm{Fe}^{3+},
+\]
+对应的自由能变：
+\[
+\Delta_{\mathrm{r}}G_{\mathrm{m}}^{\ominus} = \frac{5}{2} \times (-113.6)\;\mathrm{kJ\cdot mol^{-1}} = -284.0\;\mathrm{kJ\cdot mol^{-1}}.
+\]
+
+### 2. 合并反应：
+将归一化的两个反应相加，可以消去中间产物 \(\mathrm{Cl}^-\) 和 \(\mathrm{Cl}_2\)，得到目标反应：
+\[
+\mathrm{MnO}_4^- + 5\mathrm{Fe}^{2+} + 8\mathrm{H}^+ \rightarrow \mathrm{Mn}^{2+} + 5\mathrm{Fe}^{3+} + 4\mathrm{H}_2O.
+\]
+
+此时吉布斯能变化为两者之和：
+\[
+\Delta_{\mathrm{r}}G_{\mathrm{m}}^{\ominus} = (-71.0) + (-284.0) = -355.0\;\mathrm{kJ\cdot mol^{-1}}.
+\]",：\(-355.0\;\mathrm{kJ\cdot mol^{-1}}\),N/A,N/A,N/A
+"在一只弹式热量计中燃烧 ${0.20}\mathrm{\;{mol}}{\mathrm{H}}_{2}\left( \mathrm{\;g}\right)$ 生成 ${\mathrm{H}}_{2}\mathrm{O}\left( \mathrm{l}\right)$ ,使热量计温度升高 ${0.88}\mathrm{\;K}$ ,当 0.010 mol 甲苯在此热量计中燃烧时,热量计温度升高 ${0.615}\mathrm{\;K}$ ,甲苯的燃烧反应为
+
+$$
+{\mathrm{C}}_{7}{\mathrm{H}}_{8}\left( \mathrm{l}\right) + 9{\mathrm{O}}_{2}\left( \mathrm{\;g}\right) \rightarrow 7{\mathrm{{CO}}}_{2}\left( \mathrm{\;g}\right) + 4{\mathrm{H}}_{2}\mathrm{O}\left( \mathrm{l}\right)
+$$
+
+求该反应的 ${\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus }$ 。已知 ${\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }\left( {{\mathrm{H}}_{2}\mathrm{O},\mathrm{l}}\right) = - {285.8}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ 。","由 ${\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }\left( {{\mathrm{H}}_{2}\mathrm{O},\mathrm{l}}\right) = - {285.8}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ 得
+
+$$
+{\mathrm{H}}_{2}\left( \mathrm{\;g}\right) + \frac{1}{2}{\mathrm{O}}_{2}\left( \mathrm{\;g}\right) = {\mathrm{H}}_{2}\mathrm{O}\left( \mathrm{l}\right) \;{\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus } = - {285.8}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}
+$$
+
+即
+
+$$
+{\Delta }_{\mathrm{r}}{U}_{\mathrm{m}}^{ \ominus } = {\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus } - {\Delta }_{\nu }{RT}
+$$
+
+$$
+= - {285.8}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1} - \left( {-{1.5}}\right) \times {8.314} \times {10}^{-3}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1} \times {298}\mathrm{\;K}
+$$
+
+$$
+= - {282.1}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}
+$$
+
+生成水的恒容反应热为
+
+$$
+{Q}_{V} = n{\Delta }_{\mathrm{r}}{U}_{\mathrm{m}}^{ \ominus } = {0.2}\mathrm{\;{mol}} \times \left( {-{282.1}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}}\right) = - {56.42}\mathrm{\;{kJ}}
+$$
+
+由题意, ${0.2}\mathrm{\;{mol}}{\mathrm{H}}_{2}\left( \mathrm{\;g}\right)$ 燃烧生成 ${\mathrm{H}}_{2}\mathrm{O}\left( \mathrm{l}\right)$ 时所放出的热量等于热量计所吸收的热量,则热
+
+量计的热容为
+
+$$
+C = \frac{-{Q}_{V}}{T} = \frac{{56.42}\mathrm{\;{kJ}}}{{0.88}\mathrm{\;K}} = {64.11}\mathrm{\;{kJ}} \cdot {\mathrm{K}}^{-1}
+$$
+
+同理, ${0.01}\mathrm{\;{mol}}$ 甲苯燃烧放出的热量等于热量计吸收的热量:
+
+$$
+{Q}_{V} = - {64.11}\mathrm{\;{kJ}} \cdot {\mathrm{K}}^{-1} \times {0.615}\mathrm{\;K} = - {39.43}\mathrm{\;{kJ}}
+$$
+
+甲苯燃烧反应的 ${\Delta }_{\mathrm{r}}{U}_{\mathrm{m}}^{ \ominus }$ 为
+
+$$
+{\Delta }_{\mathrm{r}}{U}_{\mathrm{m}}^{ \ominus } = \frac{{Q}_{V}}{\xi } = \frac{-{39.43}\mathrm{\;{kJ}}}{{0.01}\mathrm{\;{mol}}} = - {3943}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}
+$$
+
+甲苯燃烧反应的 ${\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus }$ 为
+
+$$
+{\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus } = {\Delta }_{\mathrm{r}}{U}_{\mathrm{m}}^{ \ominus } + {\Delta }_{\nu }{RT}
+$$
+
+$$
+= - {3943}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1} + \left( {-2}\right) \times {8.314} \times {10}^{-3}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1} \times {298}\mathrm{\;K}
+$$
+
+$$
+= - {3948}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}
+$$
+","：首先我们知道，弹式热量计测量的是系统的总热量变化。题目中先给出了氢气燃烧的热量变化和温度变化，然后再给出了甲苯燃烧的温度变化，让我们求其反应热。
+
+1. 我们可以先从已知的氢气燃烧反应着手。氢气燃烧的反应热很容易通过标准摩尔生成焓得出：
+   \[
+   \mathrm{H}_2(g) + \frac{1}{2} \mathrm{O}_2(g) \rightarrow \mathrm{H}_2\mathrm{O}(l) \,,\; \Delta H = \Delta_f H_{m}^{\ominus}(\mathrm{H}_2\mathrm{O},l)
+   \]
+
+   用已知的数据，我们知道燃烧生成1 mol 水的焓变是：
+   \[
+   \Delta H(\mathrm{H}_2 \text{燃烧}) = -285.8 \; \mathrm{kJ/mol}
+   \]
+
+   我们有0.20 mol氢气的燃烧生成氢气的热量：
+   \[
+   q_{\mathrm{H}_2} = 0.20 \; \mathrm{mol} \times (-285.8 \; \mathrm{kJ/mol}) = -57.16 \; \mathrm{kJ}
+   \]
+
+   这个热量导致热量计温度上升0.88 K，因此热量计的热容 \(C\) 可以这样计算：
+   \[
+   C = \frac{q_{\mathrm{H}_2}}{\Delta T} = \frac{-57.16 \; \mathrm{kJ}}{0.88 \; \mathrm{K}} = -64.9545 \; \mathrm{kJ/K}
+   \]
+
+2. 然后我们用这个热容来计算甲苯燃烧产生的热量。题目给出燃烧0.010 mol 甲苯的温度变化是0.615 K，所以算出热量：
+   \[
+   q_{\mathrm{甲苯}} = -64.9545 \; \mathrm{kJ/K} \times 0.615 \; \mathrm{K} = -39.9745 \; \mathrm{kJ}
+   \]
+
+3. 这是0.010 mol的热量，因此1 mol 甲苯燃烧的焓变是：
+   \[
+   \Delta_rH_{m}^{\ominus} = \frac{q_{\mathrm{甲苯}}}{0.010 \; \mathrm{mol}} = \frac{-39.9745 \; \mathrm{kJ}}{0.010 \; \mathrm{mol}} = -3997.45 \; \mathrm{kJ/mol}
+   \]",：-3997.45,N/A,N/A,N/A
+"已知丙烯 ${\mathrm{C}}_{3}{\mathrm{H}}_{6}\left( \mathrm{\;g}\right)$ 的标准摩尔燃烧热 ${\Delta }_{\mathrm{e}}{H}_{\mathrm{m}}^{ \ominus } = - {2058.0}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ ,求恒容反应
+
+$$
+{\mathrm{C}}_{3}{\mathrm{H}}_{6}\left( \mathrm{\;g}\right) + \frac{9}{2}{\mathrm{O}}_{2}\left( \mathrm{\;g}\right) = 3{\mathrm{{CO}}}_{2}\left( \mathrm{\;g}\right) + 3{\mathrm{H}}_{2}\mathrm{O}\left( \mathrm{l}\right)
+$$
+
+的热效应。","${\mathrm{C}}_{3}{\mathrm{H}}_{6}\left( \mathrm{\;g}\right)$ 的标准摩尔燃烧热 ${\Delta }_{\mathrm{c}}{H}_{\mathrm{m}}^{ \ominus }$ 即为反应
+
+$$
+{\mathrm{C}}_{3}{\mathrm{H}}_{6}\left( \mathrm{\;g}\right) + \frac{9}{2}{\mathrm{O}}_{2}\left( \mathrm{\;g}\right) = 3{\mathrm{{CO}}}_{2}\left( \mathrm{\;g}\right) + 3{\mathrm{H}}_{2}\mathrm{O}\left( \mathrm{l}\right)
+$$
+
+的恒压反应热 ${\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus }$ 。其恒容反应热用 ${\Delta }_{\mathrm{r}}{U}_{\mathrm{m}}^{ \ominus }$ 表示。
+
+该反应气相物质的化学计量数改变量 ${\Delta \nu }$ 为
+
+$$
+{\Delta \nu } = 3 - \left( {1 + \frac{9}{2}}\right) = - \frac{5}{2}
+$$
+
+由公式 ${\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus } = {\Delta }_{\mathrm{r}}{U}_{\mathrm{m}}^{ \ominus } + {\Delta }_{\nu }{RT}$ ,得
+
+$$
+{\Delta }_{\mathrm{r}}{U}_{\mathrm{m}}^{ \ominus } = {\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus } - {\Delta \nu RT}
+$$
+
+将 ${\Delta \nu }$ 代入,得
+
+$$
+{\Delta }_{\mathrm{r}}{U}_{\mathrm{m}}^{ \ominus } = - {2058.0}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1} - \left( {-\frac{5}{2}}\right) \times {8.314} \times {10}^{-3}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1} \times {298}\mathrm{\;K}
+$$
+
+$$
+= - {2051.8}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}
+$$
+","：  
+在化学中，恒容反应的热效应与恒压反应的热效应之间有一个关系，这与理想气体恒容过程的热变涉及到的压力-体积做功有关。对于一定量的气体其焓 \(H\) 和内能 \(U\) 的关系是 \( H = U + pV \)。在标准条件下，标准摩尔燃烧热 \({\Delta }_{\mathrm{e}}{H}_{\mathrm{m}}^{ \ominus }\) 是恒压条件下的焓变，即：
+
+\[
+q_p = \Delta H = \Delta U + \Delta (pV)
+\]
+
+其中，\(\Delta(pV) = \Delta nRT\)，\(\Delta n\) 是反应中气体摩尔数的变化。
+
+对于这反应的化学方程式：
+
+\[
+{\mathrm{C}}_{3}{\mathrm{H}}_{6}\left( \mathrm{\;g}\right) + \frac{9}{2}{\mathrm{O}}_{2}\left( \mathrm{\;g}\right) = 3{\mathrm{CO}}_{2}\left( \mathrm{\;g}\right) + 3{\mathrm{H}}_{2}\mathrm{O}\left( \mathrm{l}\right)
+\]
+
+反应前后对应的气体摩尔数分别为：
+
+- 反应物中的气体总摩尔数：\(1 + \frac{9}{2} = \frac{11}{2} \)
+- 生成物中的气体总摩尔数：\(3\)
+
+所以，气体摩尔变化量\(\Delta n\)为：
+
+\[
+\Delta n = 3 - \frac{11}{2} = \frac{-5}{2}
+\]
+
+因此，\(\Delta(pV) = \Delta nRT = \frac{-5}{2}RT\)。
+
+同时，标准条件下的压强 \(p\) 是 \(1 \, \text{atm}\)，我们常用的 \(R\) 单位为 \(\mathrm{8.314 \, J \,mol}^{-1} \mathrm{K}^{-1}\)，温度 \(T\) 为 \(298 \, \text{K} \)。
+
+那么：
+
+\[
+\Delta U = \Delta H - \Delta (pV) = \Delta H - \frac{-5}{2}RT
+\]
+
+\[
+= -2058.0\, \mathrm{kJ/mol} + \left(\frac{5}{2} \times 8.314 \mathrm{\,J/mol \cdot K} \times 298 \mathrm{\,K} \right) \times \frac{1}{1000} \, \text{kJ}
+\]
+
+\[
+= -2058.0\, \mathrm{kJ/mol} + \left(5 \times 8.314 \times 149\right) \times \frac{1}{1000} \, \text{kJ}
+\]
+
+\[
+= -2058.0\, \mathrm{kJ/mol} + 6.197 \, \text{kJ}
+\]
+
+\[
+= -2051.803\, \mathrm{kJ/mol} 
+\]",：-2051.80,N/A,N/A,N/A
+" 阿波罗登月火箭用联氨 $\left( {{\mathrm{N}}_{2}{\mathrm{H}}_{4},1}\right)$ 作燃料,用 ${\mathrm{N}}_{2}{\mathrm{O}}_{4}\left( \mathrm{\;g}\right)$ 作氧化剂,燃烧产物为 ${\mathrm{N}}_{2}\left( \mathrm{\;g}\right)$ 和
+
+${\mathrm{H}}_{2}\mathrm{O}\left( \mathrm{l}\right)$ 。计算燃烧 ${1.0}\mathrm{\;{kg}}$ 联氨所放出的热量。反应在 ${300}\mathrm{\;K},{101.3}\mathrm{{kPa}}$ 条件下进行,需要多少升 ${\mathrm{N}}_{2}{\mathrm{O}}_{4}\left( \mathrm{\;g}\right)$ ? 已知
+
+|                                                                                                                | ${\mathrm{N}}_{2}{\mathrm{H}}_{4}\left( 1\right)$ | ${\mathrm{N}}_{2}{\mathrm{O}}_{4}\left( \mathrm{\;g}\right)$ | ${\mathrm{H}}_{2}\mathrm{O}\left( 1\right)$ |
+| -------------------------------------------------------------------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------------------ | ------------------------------------------- |
+| ${\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }/\left( {\mathrm{{kJ}} \cdot {\mathrm{{mol}}}^{-1}}\right)$ | 50.6                                              | 1.16                                                         | - 285.8                                     |
+","$2{\mathrm{\;N}}_{2}{\mathrm{H}}_{4}\left( \mathrm{l}\right) + {\mathrm{N}}_{2}{\mathrm{O}}_{4}\left( \mathrm{\;g}\right) = 3{\mathrm{\;N}}_{2}\left( \mathrm{\;g}\right) + 4{\mathrm{H}}_{2}\mathrm{O}\left( \mathrm{l}\right)$
+
+$$
+{\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus } = 4 \times \left( {-{285.8}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}}\right) - 2 \times {50.6}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1} - {9.16}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}
+$$
+
+$$
+= - {1253.56}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}
+$$
+
+燃烧 $1\mathrm{\;{kg}}{\mathrm{\;N}}_{2}{\mathrm{H}}_{4}\left( 1\right)$ 所放出的热量为
+
+$$
+Q = \frac{{1000}\mathrm{\;g}}{{32}\mathrm{\;g} \cdot {\mathrm{{mol}}}^{-1}} \times \frac{-{1253.56}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}}{2} = - {19587}\mathrm{\;{kJ}} \approx - {1.96} \times {10}^{4}\mathrm{\;{kJ}}
+$$
+
+燃烧 $1\mathrm{\;{kg}}{\mathrm{N}}_{2}{\mathrm{H}}_{4}$ 需 ${\mathrm{N}}_{2}{\mathrm{O}}_{4}\left( \mathrm{\;g}\right)$ 的体积为
+
+$$
+V = \frac{nRT}{p}
+$$
+
+$$
+= \frac{\frac{{1000}\mathrm{\;g}}{{32}\mathrm{\;g} \cdot {\mathrm{{mol}}}^{-1}} \times \frac{1}{2} \times {8.314} \times {10}^{3}\mathrm{\;{Pa}} \cdot {\mathrm{{dm}}}^{3} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1} \times {300}\mathrm{\;K}}{{1.013} \times {10}^{5}\mathrm{\;{Pa}}}
+$$
+
+$$
+= {384.7}{\mathrm{{dm}}}^{3}
+$$
+","：
+
+1. **题目分析与反应方程式**：  
+   - 给出的反应是联氨（\({\mathrm{N}}_{2}{\mathrm{H}}_{4}\)）与四氧化二氮（\({\mathrm{N}}_{2}{\mathrm{O}}_{4}\)）反应生成氮气（\({\mathrm{N}}_{2}\)）与液态水（\({\mathrm{H}}_{2}\mathrm{O}\)）。
+   - 首先写出反应的化学方程式：
+     \[
+     \mathrm{N}_2\mathrm{H}_4 + \mathrm{N}_2\mathrm{O}_4 \to 3\mathrm{N}_2 + 2\mathrm{H}_2\mathrm{O}.
+     \]
+
+2. **热化学计算——燃烧释放热量**：
+   - 反应放热量可以通过反应的焓变来计算，公式为：
+     \[
+     \Delta_r H^\ominus = \sum \Delta_f H_\text{m(products)}^\ominus - \sum \Delta_f H_\text{m(reactants)}^\ominus.
+     \]
+   - 查表代入生成物和反应物的标准生成焓：
+     - \(\mathrm{N}_2\)（单质气体）：\(\Delta_f H_{\mathrm{m}}^\ominus = 0\);
+     - \(\mathrm{H}_2\mathrm{O}(l)\)：\(\Delta_f H_{\mathrm{m}}^\ominus = -285.8 \, \mathrm{kJ \cdot mol}^{-1}\);
+     - \(\mathrm{N}_2\mathrm{H}_4(l)\)：\(\Delta_f H_{\mathrm{m}}^\ominus = 50.6 \, \mathrm{kJ \cdot mol}^{-1}\);
+     - \(\mathrm{N}_2\mathrm{O}_4(g)\)：\(\Delta_f H_{\mathrm{m}}^\ominus = 1.16 \, \mathrm{kJ \cdot mol}^{-1}\).
+   - 每 1 mol 反应的焓变为：
+     \[
+     \Delta_r H^\ominus = [3 \times 0 + 2 \times (-285.8)] - [50.6 + 1.16] = -573.2 - 51.76 = -624.96 \, \mathrm{kJ}.
+     \]
+     即， 1 mol \(\mathrm{N}_2\mathrm{H}_4\)反应释放 624.96 kJ 的热量。
+
+3. **联氨的燃烧放热**：
+   - 题目给出 1.0 kg 的 \(\mathrm{N}_2\mathrm{H}_4\)，计算其物质的量：
+     \[
+     n(\mathrm{N}_2\mathrm{H}_4) = \frac{\text{质量}}{\text{摩尔质量}} = \frac{1000 \, \mathrm{g}}{32 \, \mathrm{g/mol}} = 31.25 \, \mathrm{mol}.
+     \]
+   - 所以，放出的总热量为：
+     \[
+     Q = n \cdot \Delta_r H^\ominus = 31.25 \times 624.96 = 19530 \, \mathrm{kJ}.
+     \]
+
+4. **四氧化二氮的消耗量**：
+   - 根据反应方程式的化学计量关系，每 1 mol \(\mathrm{N}_2\mathrm{H}_4\) 消耗 1 mol \(\mathrm{N}_2\mathrm{O}_4\)。所以，消耗的 \(\mathrm{N}_2\mathrm{O}_4\)的物质的量为：
+     \[
+     n(\mathrm{N}_2\mathrm{O}_4) = n(\mathrm{N}_2\mathrm{H}_4) = 31.25 \, \mathrm{mol}.
+     \]
+   - 标准状态下（101.3 kPa，300 K），气体摩尔体积可以用理想气体状态方程计算：
+     \[
+     V_\text{m} = \frac{RT}{p} = \frac{8.314 \times 300}{101300} = 24.6 \, \mathrm{L/mol}.
+     \]
+   - 所以四氧化二氮的体积为：
+     \[
+     V(\mathrm{N}_2\mathrm{O}_4) = n \cdot V_\text{m} = 31.25 \times 24.6 = 768.75 \, \mathrm{L}.
+     \]","：
+- 燃烧放热量：19530；
+- 四氧化二氮体积：768.75",N/A,N/A,N/A
+"已知斜方硫和单斜硫的 ${S}_{\mathrm{m}}^{\Theta }$ 分别为 ${31.9}\mathrm{\;J} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1}$ 和 ${32.6}\mathrm{\;J} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1}$ ,它们的标准摩尔燃烧热分别为 $- {296.81}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ 和 $- {297.14}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ 。试计算 ${298}\mathrm{\;K}$ 时反应 $\mathrm{S}$ (斜方) $\rightarrow \mathrm{S}$ (单斜) 的 ${\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus }$ 。","由题意可知, $\mathrm{S}$ (斜方) $\rightarrow \mathrm{S}$ (单斜)
+
+该转化反应的 ${\Delta }_{\mathrm{r}}{S}_{\mathrm{m}}^{\Theta } = {S}_{\mathrm{m}}^{\Theta }$ (S,单斜) $- {S}_{\mathrm{m}}^{\Theta }$ (S,斜方)
+
+$$
+= \left( {{32.6} - {31.9}}\right) \mathrm{J} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1}
+$$
+
+$$
+= {0.7}\mathrm{\;J} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1}
+$$
+
+单质硫的燃烧反应为
+
+$$
+\mathrm{S}\text{ (斜方) } + {\mathrm{O}}_{2}\left( \mathrm{\;g}\right) = {\mathrm{{SO}}}_{2}\left( \mathrm{\;g}\right) \tag{1}
+$$
+
+$$
+{\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus } = {\Delta }_{\mathrm{c}}{H}_{\mathrm{m}}^{ \ominus } = - {296.81}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}
+$$
+
+$$
+\mathrm{S}\text{(单斜)} + {\mathrm{O}}_{2}\left( \mathrm{\;g}\right) = {\mathrm{{SO}}}_{2}\left( \mathrm{\;g}\right) \tag{2}
+$$
+
+$$
+{\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus }\left( 2\right) = {\Delta }_{\mathrm{c}}{H}_{\mathrm{m}}^{ \ominus } = - {297.14}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}
+$$
+
+反应式(1)一反应式(2)得
+
+$$
+\mathrm{S}\text{(斜方)} = \mathrm{S}\text{(单斜)}
+$$
+
+故转化反应的热效应为
+
+$$
+{\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus } = - {296.81}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1} - \left( {-{297.14}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}}\right)
+$$
+
+$$
+= {0.33}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}
+$$
+
+${298}\mathrm{\;K}$ 时,转化反应的吉布斯自由能变为
+
+$$
+{\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus } = {\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus } - T{\Delta }_{\mathrm{r}}{S}_{\mathrm{m}}^{ \ominus }
+$$
+
+$$
+= {0.33} \times {10}^{3}\mathrm{\;J} \cdot {\mathrm{{mol}}}^{-1} - {298}\mathrm{\;K} \times {0.7}\mathrm{\;J} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1}
+$$
+
+$$
+= {0.12}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}
+$$
+","：为了计算反应 \(\mathrm{S}(\text{斜方}) \rightarrow \mathrm{S}(\text{单斜})\) 的标准摩尔吉布斯自由能变（\({\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus }\)），我们需要使用吉布斯自由能公式：
+
+\[
+{\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus } = {\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus } - T{\Delta }_{\mathrm{r}}{S}_{\mathrm{m}}^{ \ominus }
+\]
+
+其中：
+1. \({\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus }\) 是反应的标准摩尔焓变；
+2. \({\Delta }_{\mathrm{r}}{S}_{\mathrm{m}}^{ \ominus }\) 是反应的标准摩尔熵变；
+3. \(T\) 是温度（题目中给定为 \({298}\mathrm{\;K}\)）。
+
+根据题目数据：
+- \({\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus } = \Delta c H(\text{单斜}) - \Delta c H(\text{斜方})\)，由燃烧热数据计算：
+\[
+{\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus } = (-297.14 \, \mathrm{kJ/mol}) - (-296.81 \, \mathrm{kJ/mol}) = -0.33 \, \mathrm{kJ/mol} = -330 \, \mathrm{J/mol}
+\]
+
+- \({\Delta }_{\mathrm{r}}{S}_{\mathrm{m}}^{ \ominus } = S_m^\ominus(\text{单斜}) - S_m^\ominus(\text{斜方})\)，由标准摩尔熵数据计算：
+\[
+{\Delta }_{\mathrm{r}}{S}_{\mathrm{m}}^{ \ominus } = 32.6 \, \mathrm{J/(mol \cdot K)} - 31.9 \, \mathrm{J/(mol \cdot K)} = 0.7 \, \mathrm{J/(mol \cdot K)}
+\]
+
+接下来计算吉布斯自由能变：
+\[
+{\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus } = {\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus } - T{\Delta }_{\mathrm{r}}{S}_{\mathrm{m}}^{ \ominus }
+\]
+将已知量代入：
+\[
+{\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus } = -330 \, \mathrm{J/mol} - (298 \, \mathrm{K})(0.7 \, \mathrm{J/(mol \cdot K)})
+\]
+\[
+{\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus } = -330 \, \mathrm{J/mol} - 208.6 \, \mathrm{J/mol} = -538.6 \, \mathrm{J/mol}
+\]
+
+最终结果为反应的标准摩尔吉布斯自由能变：
+\[
+{\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus } = -538.6 \, \mathrm{J/mol}
+\]","：\(-538.6 \, \mathrm{J/mol}\)",N/A,N/A,N/A
+"试举例说明在什么情况下 ${\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus },{\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }$ 和 ${\Delta }_{\mathrm{c}}{H}_{\mathrm{m}}^{ \ominus }$ 的数值相等。","${\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus }$ 表示处于标准态的反应物生成标准态的产物的焓变,即反应热。
+
+${\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }$ 表示由处于标准态的各种元素的指定单质生成标准态的 $1\mathrm{\;{mol}}$ 某纯物质时的热效应。 ${\Delta }_{\mathrm{e}}{H}_{\mathrm{m}}^{ \ominus }$ 表示在标准大气压下 $1\mathrm{\;{mol}}$ 物质完全燃烧时的热效应。完全燃烧在热力学上有严格的规定: 碳、氮、硫燃烧产物分别为气体 ${\mathrm{{CO}}}_{2},{\mathrm{\;N}}_{2},{\mathrm{{SO}}}_{2}$ ,氢、氯的燃烧产物分别为液态 ${\mathrm{H}}_{2}\mathrm{O}$ 和 $\mathrm{{HCl}}$ 水溶液。
+
+一个反应同时满足以上三个热力学函数的条件时,则 ${\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus } = {\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus } = {\Delta }_{\mathrm{c}}{H}_{\mathrm{m}}^{ \ominus },$ 如 $1\mathrm{\;{mol}}{\mathrm{H}}_{2}$ 完全燃烧反应:
+
+$$
+{\mathrm{H}}_{2}\left( \mathrm{\;g}\right) + \frac{1}{2}{\mathrm{O}}_{2}\left( \mathrm{\;g}\right) = {\mathrm{H}}_{2}\mathrm{O}\left( \mathrm{l}\right)
+$$
+
+该反应的反应热等于 ${\mathrm{H}}_{2}\left( \mathrm{\;g}\right)$ 的标准摩尔燃烧热,也等于 ${\mathrm{H}}_{2}\mathrm{O}\left( \mathrm{l}\right)$ 的标准摩尔生成热,即
+
+$$
+{\Delta }_{\mathrm{c}}{H}_{\mathrm{m}}^{ \ominus }\left( {{\mathrm{H}}_{2},\mathrm{\;g}}\right) = {\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }\left( {{\mathrm{H}}_{2}\mathrm{O},\mathrm{l}}\right) = {\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus }
+$$
+
+注意: 如果上述反应的产物是 ${\mathrm{H}}_{2}\mathrm{O}\left( \mathrm{g}\right)$ ,则 ${\Delta }_{\mathrm{e}}{H}_{\mathrm{m}}^{ \ominus }\left( {{\mathrm{H}}_{2},\mathrm{\;g}}\right) \neq {\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }\left( {{\mathrm{H}}_{2}\mathrm{O},\mathrm{g}}\right)$ ,因为 ${\mathrm{H}}_{2}\left( \mathrm{\;g}\right)$ 完全燃烧的产物应是液态 ${\mathrm{H}}_{2}\mathrm{O}$ ,而不是气态 ${\mathrm{H}}_{2}\mathrm{O}$ 。
+
+再如, $1\mathrm{\;{mol}}$ 石墨完全燃烧反应的 ${\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus }\text{、}{\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }$ 和 ${\Delta }_{\mathrm{c}}{H}_{\mathrm{m}}^{ \ominus }$ 在数值上相等:
+
+$$
+\mathrm{C}\left( \text{ 石墨 }\right) + {\mathrm{O}}_{2}\left( \mathrm{\;g}\right) = {\mathrm{{CO}}}_{2}\left( \mathrm{\;g}\right)
+$$
+
+即该反应的反应热 ${\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus }$ 等于 $\mathrm{C}$ (石墨)的标准摩尔燃烧热 ${\Delta }_{\mathrm{c}}{H}_{\mathrm{m}}^{ \ominus }$ ,也等于气态 ${\mathrm{{CO}}}_{2}$ 的标准摩尔生成热, 所以有
+
+$$
+{\Delta }_{\mathrm{c}}{H}_{\mathrm{m}}^{ \ominus }\left( {石墨}\right) = {\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }\left( {{\mathrm{{CO}}}_{2},\mathrm{g}}\right) = {\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus }
+$$
+","：  
+1. **定义分析**：  
+   - ${\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus }$是反应焓变的标准摩尔焓，表示在特定反应中，每摩尔物质的标准焓变。  
+   - ${\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }$是生成焓变的标准摩尔焓，指生成1摩尔化合物所需反应的焓变，从元素的标准状态生成该物质的焓变。  
+   - ${\Delta }_{\mathrm{c}}{H}_{\mathrm{m}}^{ \ominus }$是燃烧焓变的标准摩尔焓，即1摩尔化学物质在 excess 氧气中完全燃烧生成稳定氧化物时的焓变。
+
+2. **条件分析**：  
+   - ${\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus }$等于${\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }$和/或${\Delta }_{\mathrm{c}}{H}_{\mathrm{m}}^{ \ominus }$时，必须满足反应的物质和路径相同。  
+   - ${\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }$和${\Delta }_{\mathrm{c}}{H}_{\mathrm{m}}^{ \ominus }$的关系取决于具体反应——若化学反应方程既是化合物的生成反应，又是其燃烧反应，此关系可能会成立。  
+
+3. **具体情况检验**：  
+   - 对于完全燃烧生成简单氧化物（如CO₂、H₂O）的有机分子，其${\Delta }_{\mathrm{c}}{H}_{\mathrm{m}}^{ \ominus }$通常更大，不可能等于生成焓。  
+   - 如果一个物质直接从其元素生成，且生成反应同时对应该物质与其标准氧化态元素间的反应热，以上三个焓变可能等值。这可能发生在“简单物质”和“单步反应”中。  
+
+4. **总结**：  
+   当一个反应同时满足以下条件时，${\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus }$、${\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }$和${\Delta }_{\mathrm{c}}{H}_{\mathrm{m}}^{ \ominus }$的数值可能相等：  
+   - 化学反应是从物质的基本元素生成化合物的过程（即生成反应）；  
+   - 生成反应与燃烧反应的路径一致；  
+   - 反应中没有副产物或其他复杂化学变化。","：${\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus },{\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }$ 和 ${\Delta }_{\mathrm{c}}{H}_{\mathrm{m}}^{ \ominus }$ 的数值相等的情况是：该体系发生的是简单生成反应且路径单一，例如：元素在氧气中燃烧直接生成化合物的过程。",N/A,N/A,N/A
+"已知 ${\mathrm{{CS}}}_{2}\left( 1\right)$ 在 ${101.3}\mathrm{{kPa}}$ 和沸点温度 $\left( {{319.3}\mathrm{\;K}}\right)$ 汽化时吸热 ${352}\mathrm{\;J} \cdot {\mathrm{g}}^{-1}$ ,求 $1\mathrm{\;{mol}}{\mathrm{{CS}}}_{2}\left( 1\right)$ 在沸点温度汽化过程的 ${\Delta H},{\Delta U}$ 和 ${\Delta S}$ 。","$\Delta H} = {352}\mathrm{\;J} \cdot {\mathrm{g}}^{-1} \times {76.15}\mathrm{\;g} \cdot {\mathrm{{mol}}}^{-1} \times 1\mathrm{\;{mol}} = {26805}\mathrm{\;J} \approx {26.8}\mathrm{\;{kJ}}$
+
+$$
+{\Delta U} = {\Delta H} - {\Delta nRT}
+$$
+
+$$
+= {26.8}\mathrm{\;{kJ}} - 1\mathrm{\;{mol}} \times {8.314} \times {10}^{-3}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1} \times {319.3}\mathrm{\;K}
+$$
+
+$$
+= {24.1}\mathrm{\;{kJ}}
+$$
+
+$$
+{\Delta S} = \frac{\Delta H}{T} = \frac{{26805}\mathrm{\;J}}{{319.3}\mathrm{\;K}} = {83.95}\mathrm{\;J} \cdot {\mathrm{K}}^{-1}
+$$
+","：  
+我们要计算 $\Delta H$（焓变）、$\Delta U$（内能变化）和 $\Delta S$（熵变）三个热力学函数。以下是详细推导步骤：  
+
+1. **计算$\Delta H$（焓变）**  
+   给出的条件中，碳二硫（$\mathrm{CS_2}$）的汽化热为 $352\ \mathrm{J \cdot g^{-1}}$。先将其换算为以摩尔为单位的热量，通过分子量计算实现：
+   \[
+   M_{\mathrm{CS_2}} = 12.01 + 2 \times 32.07 = 76.15\ \mathrm{g \cdot mol^{-1}}
+   \]
+   单位摩尔的焓变可以计算为：
+   \[
+   \Delta H = 352\ \mathrm{J \cdot g^{-1}} \times 76.15\ \mathrm{g \cdot mol^{-1}} = 26724.8\ \mathrm{J \cdot mol^{-1}}
+   \]
+
+2. **计算气体的$\Delta U$（内能变化）**  
+   根据热力学关系式：
+   \[
+   \Delta H = \Delta U + p\Delta V
+   \]
+   其中，$p\Delta V$ 是在相变过程中气体体积变化引起的膨胀功。液体体积相比气体体积可忽略，因此气体体积变化近似为气体体积 $V_g$。对于理想气体，$V_g$ 可通过状态方程 $pV = nRT$ 计算：
+   \[
+   \Delta V \approx V_g = \frac{RT}{p}
+   \]
+   此处，单位制需要一致，结合给出的标准压强 $p = 101.3\ \mathrm{kPa} = 101300\ \mathrm{Pa}$ 和常数 $R = 8.314\ \mathrm{J \cdot mol^{-1} \cdot K^{-1}}$ 代入：
+   \[
+   V_g = \frac{8.314\ \mathrm{J \cdot mol^{-1} \cdot K^{-1}} \times 319.3\ \mathrm{K}}{101300\ \mathrm{Pa}} = 0.02619\ \mathrm{m^3 \cdot mol^{-1}}
+   \]
+   进一步计算膨胀功项 $p\Delta V$：
+   \[
+   p\Delta V = 101300\ \mathrm{Pa} \times 0.02619\ \mathrm{m^3 \cdot mol^{-1}} = 2654.2\ \mathrm{J \cdot mol^{-1}}
+   \]
+   结合焓变关系式，计算内能变化：
+   \[
+   \Delta U = \Delta H - p\Delta V = 26724.8\ \mathrm{J \cdot mol^{-1}} - 2654.2\ \mathrm{J \cdot mol^{-1}} = 24070.6\ \mathrm{J \cdot mol^{-1}}
+   \]
+
+3. **计算$\Delta S$（熵变）**  
+   熵变 $\Delta S$ 对于等压相变过程可通过公式计算：
+   \[
+   \Delta S = \frac{\Delta H}{T}
+   \]
+   将 $\Delta H = 26724.8\ \mathrm{J \cdot mol^{-1}}$ 和 $T = 319.3\ \mathrm{K}$ 代入：
+   \[
+   \Delta S = \frac{26724.8\ \mathrm{J \cdot mol^{-1}}}{319.3\ \mathrm{K}} = 83.73\ \mathrm{J \cdot mol^{-1} \cdot K^{-1}}
+   \]","：  
+$\Delta H = 26724.8\ \mathrm{J \cdot mol^{-1}}$  
+$\Delta U = 24070.6\ \mathrm{J \cdot mol^{-1}}$  
+$\Delta S = 83.73\ \mathrm{J \cdot mol^{-1} \cdot K^{-1}}$",N/A,N/A,N/A
+"已知液态甲醇氧化生成气态甲醛的反应焓变是 $- {155.4}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ ,气态甲醛恒容燃烧热为 568. $2\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1},{\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }\left( {{\mathrm{{CO}}}_{2},\mathrm{\;g}}\right) = - {393.5}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1},{\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }\left( {{\mathrm{H}}_{2}\mathrm{O},\mathrm{l}}\right) = - {285.8}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ , 试求:
+
+（1）甲醇的燃烧热;
+
+（2）甲醇的生成热。","(1) $\mathrm{{HCHO}}\left( \mathrm{g}\right) + {\mathrm{O}}_{2}\left( \mathrm{\;g}\right) = {\mathrm{{CO}}}_{2}\left( \mathrm{\;g}\right) + {\mathrm{H}}_{2}\mathrm{O}\left( \mathrm{l}\right)$
+
+$$
+{\Delta }_{\mathrm{c}}{H}_{\mathrm{m}}^{ \ominus }\left( {{\mathrm{{CH}}}_{2}\mathrm{O},\mathrm{g}}\right) = {\Delta }_{\mathrm{r}}{U}_{\mathrm{m}}^{ \ominus } + {\Delta \nu RT}
+$$
+
+$$
+= - {568.2}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1} + \left( {1 - 2}\right) \times {8.314} \times {10}^{-3}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1} \times {298}\mathrm{\;K}
+$$
+
+$$
+= - {570.7}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}
+$$
+
+${\mathrm{{CH}}}_{3}\mathrm{{OH}}\left( \mathrm{l}\right) + \frac{1}{2}{\mathrm{O}}_{2}\left( \mathrm{\;g}\right) = \mathrm{{HCHO}}\left( \mathrm{g}\right) + {\mathrm{H}}_{2}\mathrm{O}\left( \mathrm{l}\right)$
+
+$$
+{\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus } = \mathop{\sum }\limits_{i}{\nu }_{i}{\Delta }_{\mathrm{c}}{H}_{\mathrm{m}}^{ \ominus }\text{(反应物)} - \mathop{\sum }\limits_{i}{\nu }_{i}{\Delta }_{\mathrm{c}}{H}_{\mathrm{m}}^{ \ominus }\text{(生成物)}
+$$
+
+$$
+{\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus } = {\Delta }_{\mathrm{c}}{H}_{\mathrm{m}}^{ \ominus }\left( {{\mathrm{{CH}}}_{3}\mathrm{{OH}},\mathrm{l}}\right) - {\Delta }_{\mathrm{c}}{H}_{\mathrm{m}}^{ \ominus }\left( {{\mathrm{{CH}}}_{2}\mathrm{O},\mathrm{g}}\right)
+$$
+
+$$
+- {155.4}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1} = {\Delta }_{\mathrm{c}}{H}_{\mathrm{m}}^{ \ominus }\left( {{\mathrm{{CH}}}_{3}\mathrm{{OH}},\mathrm{l}}\right) - \left( {-{570.7}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}}\right)
+$$
+
+$$
+{\Delta }_{\mathrm{c}}{H}_{\mathrm{m}}^{ \ominus }\left( {{\mathrm{{CH}}}_{3}\mathrm{{OH}},\mathrm{l}}\right) = - {726.1}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}
+$$
+
+(2) ${\mathrm{{CH}}}_{3}\mathrm{{OH}}\left( \mathrm{l}\right) + \frac{3}{2}{\mathrm{O}}_{2}\left( \mathrm{\;g}\right) = {\mathrm{{CO}}}_{2}\left( \mathrm{\;g}\right) + 2{\mathrm{H}}_{2}\mathrm{O}\left( \mathrm{l}\right)$
+
+$$
+{\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus } = \mathop{\sum }\limits_{i}{\nu }_{i}{\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }\text{(生成物)} - \mathop{\sum }\limits_{i}{\nu }_{i}{\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }\text{(反应物)}
+$$
+
+$$
+{\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus } = {\Delta }_{\mathrm{c}}{H}_{\mathrm{m}}^{ \ominus }\left( {{\mathrm{{CH}}}_{3}\mathrm{{OH}},\mathrm{l}}\right)
+$$
+
+$$
+= - {393.5}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1} + 2 \times \left( {-{285.8}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}}\right) - {\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }\left( {{\mathrm{{CH}}}_{3}\mathrm{{OH}},\mathrm{l}}\right)
+$$
+
+$$
+= - {726.1}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}
+$$
+
+$$
+{\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }\left( {{\mathrm{{CH}}}_{3}\mathrm{{OH}},\mathrm{l}}\right) = - {239.0}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}
+$$
+","：
+
+（1）首先，确定甲醇的燃烧反应：  
+反应：\[ \text{CH}_3\text{OH(l)} + \frac{3}{2}\text{O}_2\text{(g)} \rightarrow \text{CO}_2\text{(g)} + 2\text{H}_2\text{O(l)} \]  
+甲醇氧化生成甲醛的反应是：  
+\[ \text{CH}_3\text{OH(l)} \rightarrow \text{H}_2\text{CO(g)} + \text{H}_2\text{O(l)} \]  
+反应焓变为 -155.4 kJ/mol。  
+
+甲醛燃烧反应为：  
+\[ \text{H}_2\text{CO(g)} + \text{O}_2\text{(g)} \rightarrow \text{CO}_2\text{(g)} + \text{H}_2\text{O(l)} \]  
+其燃烧热为 -568.2 kJ/mol。  
+
+甲醇的燃烧可通过这两个反应的组合进行。将甲醛燃烧反应与甲醇氧化生成甲醛的反应组合，得到甲醇的燃烧反应。  
+
+甲醇燃烧热等于甲醛氧化放热加上甲醛燃烧热：  
+\[ \Delta H_{\text{comb, CH}_3\text{OH}} = \Delta H_{\text{CHOH} \rightarrow \text{H}_2\text{CO}} + \Delta H_{\text{comb, H}_2\text{CO}} = -155.4 + (-568.2) = -723.6 \text{ kJ/mol} \]
+
+（2）甲醇的生成热可根据标准生成反应：  
+\[ \text{C(graphite)} + 2\text{H}_2\text{(g)} + \frac{1}{2}\text{O}_2\text{(g)} \rightarrow \text{CH}_3\text{OH(l)} \]  
+
+用标准生成焓计算方法：  
+甲醇燃烧生成二氧化碳和水：  
+\[ \text{C}^{\ominus}\text{龱} + 2\text{H}_2\text{(g)} + \frac{3}{2}\text{O}_2\text{(g)} \rightarrow \text{CO}_2\text{(g)} + 2\text{H}_2\text{O(l)} \]  
+
+燃烧热为 -723.6 kJ/mol。  
+生成二氧化碳和水的生成焓分别为 -393.5 kJ/mol 和 -285.8 kJ/mol。  
+
+\[ \Delta H_f = \Delta H_{\text{comb}} + \Sum \Delta H_f(\text{products}) \]  
+\[ = -723.6 + 393.5 + 2 \times 285.8 = -238.6 \text{ kJ/mol} \]","：  
+（1）-723.6 kJ/mol  
+（2）-238.6 kJ/mol",N/A,N/A,N/A
+"产生水煤气的反应为 $\mathrm{C}\left( \mathrm{s}\right) + {\mathrm{H}}_{2}\mathrm{O}\left( \mathrm{g}\right) = \mathrm{{CO}}\left( \mathrm{g}\right) + {\mathrm{H}}_{2}\left( \mathrm{\;g}\right)$ ,各气体分压均处在 ${1.013} \times$ ${10}^{5}\mathrm{\;{Pa}}$ 下,体系达到平衡,求体系的温度。已知 ${\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }\left( {{\mathrm{H}}_{2}\mathrm{O},\mathrm{g}}\right) = - {241.82}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ , ${\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }\left( {\mathrm{{CO}},\mathrm{g}}\right) = - {110.52}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1},{\Delta }_{\mathrm{f}}{G}_{\mathrm{m}}^{ \ominus }\left( {{\mathrm{H}}_{2}\mathrm{O},\mathrm{g}}\right) = - {228.59}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1},{\Delta }_{\mathrm{f}}{G}_{\mathrm{m}}^{ \ominus }\left( {\mathrm{{CO}},\mathrm{g}}\right)$ $= - {137.15}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ 。","${\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus } = \mathop{\sum }\limits_{i}{\nu }_{i}{\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }$ (生成物) $- \mathop{\sum }\limits_{i}{\nu }_{i}{\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }$ (反应物)
+
+$$
+= - {110.52}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1} - \left( {-{241.82}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}}\right)
+$$
+
+$$
+= {131.30}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}
+$$
+
+同理, ${\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{\Theta } = - {137.15}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1} - \left( {-{228.59}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}}\right) = {91.44}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$
+
+$$
+{\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus } = {\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus } - T{\Delta }_{\mathrm{r}}{S}_{\mathrm{m}}^{ \ominus }
+$$
+
+$$
+{\Delta }_{\mathrm{r}}{S}_{\mathrm{m}}^{\Theta } = \frac{{\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{\Theta } - {\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{\Theta }}{T} = \frac{\left( {{131.30} - {91.44}}\right) \times {10}^{3}\mathrm{\;J} \cdot {\mathrm{{mol}}}^{-1}}{{298}\mathrm{\;K}} = {133.76}\mathrm{\;J} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1}
+$$
+
+${\Delta }_{\mathrm{r}}H$ 和 ${\Delta }_{\mathrm{r}}S$ 随温度变化较小,可近似认为 ${\Delta }_{\mathrm{r}}H$ 和 ${\Delta }_{\mathrm{r}}S$ 不随温度变化而变化。反应达平衡时 ${\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus } = 0 = {\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus } - T{\Delta }_{\mathrm{r}}{S}_{\mathrm{m}}^{ \ominus }$ ,故
+
+$$
+T = \frac{{\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus }}{{\Delta }_{\mathrm{r}}{S}_{\mathrm{m}}^{ \ominus }} = \frac{{131.30}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}}{{133.76} \times {10}^{-3}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1}} = {981.6}\mathrm{\;K}
+$$
+","：
+
+1. 题目要求确定体系的温度，可以通过化学平衡常数 \(K\) 的表达式与吉布斯自由能变化 \(\Delta_r G_m^{\ominus}\) 进行关系的推导，从而求解温度。
+
+   在化学平衡状态下，反应的平衡常数由以下关系式给出：
+   \[
+   \Delta_r G_m^{\ominus} = -RT \ln K
+   \]
+   其中 \(R\) 为气体常数 (\( R = 8.314\ \mathrm{J \cdot mol^{-1} \cdot K^{-1}} \))，\(T\) 为温度，\(K\) 为平衡常数。
+
+2. 气相反应的平衡常数 \(K_p\) 定义为产物和反应物分压的比值，且各分压均处于 \(1.013 \times 10^5\ \mathrm{Pa}\)下，因此化学计量数的指数可以直接计入计算：
+   \[
+   K_p = \frac{p_{\mathrm{CO}} \cdot p_{\mathrm{H}_2}}{p_{\mathrm{H}_2\mathrm{O}}}
+   \]
+   根据题意，各气体的分压相同，系统达到平衡时，\(K_p = 1\)。
+
+3. 用热力学关系计算反应的标准反应吉布斯自由能变化（\(\Delta_r G_m^{\ominus}\)）和标准反应焓变（\(\Delta_r H_m^{\ominus}\)）。具体公式为：
+
+   标准反应焓变：
+   \[
+   \Delta_r H_m^{\ominus} = \sum \Delta_f H_m^{\ominus} (\text{生成物}) - \sum \Delta_f H_m^{\ominus} (\text{反应物})
+   \]
+   代入焓变数据：
+   \[
+   \Delta_r H_m^{\ominus} = [-110.52 + 0] - [-241.82 + 0] = 131.30\ \mathrm{kJ \cdot mol^{-1}}
+   \]
+
+   标准反应吉布斯自由能变：
+   \[
+   \Delta_r G_m^{\ominus} = \sum \Delta_f G_m^{\ominus} (\text{生成物}) - \sum \Delta_f G_m^{\ominus} (\text{反应物})
+   \]
+   代入吉布斯自由能变数据：
+   \[
+   \Delta_r G_m^{\ominus} = [-137.15 + 0] - [-228.59 + 0] = 91.44\ \mathrm{kJ \cdot mol^{-1}}
+   \]
+
+4. 联立平衡常数和吉布斯自由能变化的公式：
+   \[
+   \Delta_r G_m^{\ominus} = \Delta_r H_m^{\ominus} - T \Delta_r S_m^{\ominus}
+   \]
+   其中，标准反应熵变 \(\Delta_r S_m^{\ominus}\) 可通过以上式的逆向推导得出：
+   \[
+   \Delta_r S_m^{\ominus} = \frac{\Delta_r H_m^{\ominus} - \Delta_r G_m^{\ominus}}{T}
+   \]
+   由以上焓变与自由能变数据：
+   \[
+   \Delta_r S_m^{\ominus} = \frac{131.30\ \mathrm{kJ \cdot mol^{-1}} - 91.44\ \mathrm{kJ \cdot mol^{-1}}}{T}
+   \]
+
+5. 特别根据题意，平衡常数 \(K_p = 1\)，此时自由能变化为零：
+   \[
+   \Delta_r G_m^{\ominus} = -RT \ln K_p = 0
+   \]
+   联立：
+   \[
+   \Delta_r H_m^{\ominus} = T \Delta_r S_m^{\ominus}
+   \]
+   解得温度 \(T\)：
+   \[
+   T = \frac{\Delta_r H_m^{\ominus}}{\Delta_r S_m^{\ominus}}
+   \]
+   故，首先需计算 \(\Delta_r S_m^{\ominus}\)：
+   \[
+   \Delta_r S_m^{\ominus} = \frac{131.30 - 91.44}{T} = 39.86\ \mathrm{J \cdot mol^{-1} \cdot K^{-1}}
+   \]
+
+   最终代入温度公式：
+   \[
+   T = \frac{131.30 \times 10^3\ \mathrm{J \cdot mol^{-1}}}{39.86\ \mathrm{J \cdot mol^{-1} \cdot K^{-1}}} = 3296\ \mathrm{K}
+   \]","：
+3296\ \mathrm{K}",N/A,N/A,N/A
+"在 ${298}\mathrm{\;K}$ 时, ${\mathrm{{CS}}}_{2}$ 的摩尔蒸发热 ${\Delta }_{\text{vap }}{H}_{\mathrm{m}}^{ \ominus }$ 为 ${27.7}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1},{\mathrm{{CS}}}_{2}\left( 1\right)$ 的标准熵 ${S}_{\mathrm{m}}^{ \ominus }$ 为 ${151.3}\mathrm{\;J} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1}$ ,试求该温度条件下平衡时气态 ${\mathrm{{CS}}}_{2}$ 的标准熵 ${S}_{\mathrm{m}}^{ \ominus }\left( {{\mathrm{{CS}}}_{2},\mathrm{\;g}}\right)$ 。","${\mathrm{{CS}}}_{2}\left( 1\right) = {\mathrm{{CS}}}_{2}\left( \mathrm{\;g}\right)$
+
+在 ${298}\mathrm{\;K}$ 达平衡时,液态的 ${\mathrm{{CS}}}_{2}$ 与气态的 ${\mathrm{{CS}}}_{2}$ 的相变可以视为可逆过程。恒温可逆过程中的熵变为
+
+$$
+{\Delta S} = \frac{{Q}_{\mathrm{r}}}{T}
+$$
+
+故 ${\mathrm{{CS}}}_{2}\left( 1\right)$ 变为 ${\mathrm{{CS}}}_{2}\left( \mathrm{\;g}\right)$ 的熵变为
+
+$$
+{\Delta S} = \frac{{Q}_{\mathrm{r}}}{T} = \frac{{\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus }}{T} = \frac{{27.7} \times {10}^{3}\mathrm{\;J} \cdot {\mathrm{{mol}}}^{-1}}{{298}\mathrm{\;K}} = {93.0}\mathrm{\;J} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1}
+$$
+
+由 $\Delta {S}^{ \ominus } = {S}_{\mathrm{m}}^{ \ominus }\left( {{\mathrm{{CS}}}_{2},\mathrm{g}}\right) - {S}_{\mathrm{m}}^{ \ominus }\left( {{\mathrm{{CS}}}_{2},\mathrm{l}}\right)$
+
+得 ${S}_{\mathrm{m}}^{ \ominus }\left( {{\mathrm{{CS}}}_{2},\mathrm{g}}\right) = {S}_{\mathrm{m}}^{ \ominus }\left( {{\mathrm{{CS}}}_{2},\mathrm{l}}\right) + \Delta {S}_{\mathrm{m}}^{ \ominus }$
+
+$$
+= {151.3}\mathrm{\;J} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1} + {93.0}\mathrm{\;J} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1}
+$$
+
+$$
+= {244.3}\mathrm{\;J} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1}
+$$
+","：根据热力学中的吉布斯自由能关系式，对于蒸发过程，可以写为：
+
+\[
+\Delta_{\mathrm{vap}} G = \Delta_{\mathrm{vap}} H - T \Delta_{\mathrm{vap}} S = 0
+\]
+
+因为在相变的平衡条件下，自由能变为零。这里，\(\Delta_{\mathrm{vap}} S\) 是蒸发过程的熵变，可以表达为：
+
+\[
+\Delta_{\mathrm{vap}} S = S_{\mathrm{m}}^{\ominus}(\mathrm{CS}_2, \mathrm{g}) - S_{\mathrm{m}}^{\ominus}(\mathrm{CS}_2, \mathrm{l})
+\]
+
+现在，已知 \(\Delta_{\mathrm{vap}} H = 27.7 \mathrm{kJ \, mol^{-1}}\) 和 \(\mathrm{CS}_2(\mathrm{l})\) 的标准熵 \(S_{\mathrm{m}}^{\ominus}(\mathrm{CS}_2, \mathrm{l}) = 151.3 \mathrm{J \, mol^{-1} \, K^{-1}}\)，我们可以将 \(\Delta_{\mathrm{vap}} H\) 转化为相同单位，\( \Delta_{\mathrm{vap}} H = 27700 \mathrm{J \, mol^{-1}} \).
+
+将这些值代入吉布斯自由能的方程：
+
+\[
+0 = 27700 - 298 \times \Delta_{\mathrm{vap}} S
+\]
+
+可以解出 \(\Delta_{\mathrm{vap}} S\)：
+
+\[
+\Delta_{\mathrm{vap}} S = \frac{27700}{298} \approx 92.95 \, \mathrm{J \, mol^{-1} \, K^{-1}}
+\]
+
+最后，求得气态 \(\mathrm{CS}_2\) 的标准熵：
+
+\[
+S_{\mathrm{m}}^{\ominus}(\mathrm{CS}_2, \mathrm{g}) = S_{\mathrm{m}}^{\ominus}(\mathrm{CS}_2, \mathrm{l}) + \Delta_{\mathrm{vap}} S = 151.3 + 92.95 \approx 244.25 \, \mathrm{J \, mol^{-1} \, K^{-1}}
+\]",：244.25,N/A,N/A,N/A
+"已知反应 ${\mathrm{{CaCO}}}_{3}\left( \mathrm{\;s}\right) = \mathrm{{CaO}}\left( \mathrm{s}\right) + {\mathrm{{CO}}}_{2}\left( \mathrm{\;g}\right)$ 在 ${298}\mathrm{\;K}$ 时 ${\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus } = {130}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1},{1200}\mathrm{\;K}$ 时 ${\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus } = - {15.3}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ ,试求该反应的 ${\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus }$ 和 ${\Delta }_{\mathrm{r}}{S}_{\mathrm{m}}^{ \ominus }$ ,以及分解反应可以发生的最低温度。
+","由 ${\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus } = {\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus } - T{\Delta }_{\mathrm{r}}{S}_{\mathrm{m}}^{ \ominus }$ ,得
+
+${298}\mathrm{\;K}$ 时,
+
+$$
+{130}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1} = {\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus } - {298}\mathrm{\;K} \times {\Delta }_{\mathrm{r}}{S}_{\mathrm{m}}^{ \ominus }
+$$
+
+${1200}\mathrm{\;K}$ 时, $\; - {15.3}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1} = {\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus } - {1200}\mathrm{\;K} \times {\Delta }_{\mathrm{r}}{S}_{\mathrm{m}}^{ \ominus }$
+
+联立两式可得 ${\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus } = {178.0}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1},{\Delta }_{\mathrm{r}}{S}_{\mathrm{m}}^{ \ominus } = {161.1}\mathrm{\;J} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1}$ 。
+
+同样,根据 ${\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus } = {\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus } - T{\Delta }_{\mathrm{r}}{S}_{\mathrm{m}}^{ \ominus }$ ,当 ${\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus } = 0$ 时,反应将以可逆方式进行,此时
+
+$$
+{\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus } = T{\Delta }_{\mathrm{r}}{S}_{\mathrm{m}}^{ \ominus }
+$$
+
+$$
+T = \frac{{\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus }}{{\Delta }_{\mathrm{r}}{S}_{\mathrm{m}}^{ \ominus }} = \frac{{178.0} \times {1000}\mathrm{\;J} \cdot {\mathrm{{mol}}}^{-1}}{{161.1}\mathrm{\;J} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1}} = {1105}\mathrm{\;K}
+$$
+
+所以,当温度高于 ${1105}\mathrm{\;K}$ 时, ${\mathrm{{CaCO}}}_{3}$ 能够分解。
+","：
+1. 根据题给数据，可以使用ΔG−ΔH和ΔS的关系来进行推导：  
+   热力学基本关系式为：
+   \[
+   \Delta G^\ominus = \Delta H^\ominus - T\Delta S^\ominus
+   \]
+   其中ΔG、ΔH和ΔS分别是自由能变、焓变和熵变。
+
+2. 针对两个不同温度的ΔG数据（298 K和1200 K），可将两式联立：
+   \[
+   \Delta G_{1}^\ominus = \Delta H^\ominus - T_{1} \Delta S^\ominus
+   \]
+   \[
+   \Delta G_{2}^\ominus = \Delta H^\ominus - T_{2} \Delta S^\ominus
+   \]
+   代入已知数据：
+   \[
+   130 = \Delta H^\ominus - 298 \Delta S^\ominus
+   \]
+   \[
+   -15.3 = \Delta H^\ominus - 1200 \Delta S^\ominus
+   \]
+   联立两式，用代数消元法求ΔH和ΔS。
+
+3. 消元ΔH，先将两式相减：
+   \[
+   (130 - (-15.3)) = (\Delta H^\ominus - \Delta H^\ominus) - (298 \Delta S^\ominus - 1200 \Delta S^\ominus)
+   \]
+   \[
+   130 + 15.3 = (1200 - 298) \Delta S^\ominus
+   \]
+   \[
+   145.3 = 902 \Delta S^\ominus
+   \]
+   解得：
+   \[
+   \Delta S^\ominus = \frac{145.3}{902} = 0.161 \ \mathrm{kJ} \cdot \mathrm{mol}^{-1} \cdot \mathrm{K}^{-1}
+   \]
+   转化为单位：
+   \[
+   \Delta S^\ominus = 161 \ \mathrm{J} \cdot \mathrm{mol}^{-1} \cdot \mathrm{K}^{-1}
+   \]
+
+4. 将ΔS值代入任一方程求ΔH：
+   将ΔS代入第一式：
+   \[
+   130 = \Delta H^\ominus - 298 \times 0.161
+   \]
+   \[
+   130 = \Delta H^\ominus - 47.98
+   \]
+   \[
+   \Delta H^\ominus = 130 + 47.98 = 177.98 \ \mathrm{kJ} \cdot \mathrm{mol}^{-1}
+   \]
+
+   所以：
+   \[
+   \Delta H^\ominus = 178.0 \ \mathrm{kJ} \cdot \mathrm{mol}^{-1} 
+   \]
+
+5. 分解反应发生的最低温度计算：
+   该反应达到分解平衡时，\(\Delta G^\ominus = 0\)。根据热力学公式：
+   \[
+   0 = \Delta H^\ominus - T_{0} \Delta S^\ominus
+   \]
+   \[
+   T_{0} = \frac{\Delta H^\ominus}{\Delta S^\ominus}
+   \]
+   代入ΔH和ΔS的值：
+   \[
+   T_{0} = \frac{178.0}{0.161} = 1106.2 \ \mathrm{K}
+   \]","：
+1. \(\Delta H^\ominus = 178.0 \ \mathrm{kJ} \cdot \mathrm{mol}^{-1}\)  
+2. \(\Delta S^\ominus = 161 \ \mathrm{J} \cdot \mathrm{mol}^{-1} \cdot \mathrm{K}^{-1}\)  
+3. 最低分解温度：\(T_{0} = 1106.2 \ \mathrm{K}\)",N/A,N/A,N/A
 "已知 ${\mathrm{C}}_{2}{\mathrm{H}}_{4}\left( \mathrm{\;g}\right) ,\mathrm{C}\left( \mathrm{s}\right) ,{\mathrm{H}}_{2}\left( \mathrm{\;g}\right)$ 的燃烧热分别为 $- {1411.2}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}, - {393.5}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ 和 $- {285.8}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ ,试求:
 
 (1) ${\mathrm{C}}_{2}{\mathrm{H}}_{4}\left( \mathrm{\;g}\right) ,{\mathrm{H}}_{2}\left( \mathrm{\;g}\right) ,\mathrm{C}\left( \mathrm{s}\right)$ 的燃烧反应的热化学反应方程式;
@@ -74,60 +1227,81 @@ $$
 $$
 ","：
 
-(1) 燃烧反应的热化学反应方程式是指物质与氧气反应生成二氧化碳和水的反应方程式，并标明反应的焓变。已知燃烧热为负值，表示反应是放热的。
+(1) 书写燃烧反应的热化学反应方程式。
 
-- 对于 ${\mathrm{C}}_{2}{\mathrm{H}}_{4}\left( \mathrm{\;g}\right)$ 的燃烧反应：
+- 对于乙烯 \({\mathrm{C}}_{2}{\mathrm{H}}_{4}\)，完全燃烧生成二氧化碳和水的反应方程式为：
   \[
-  \mathrm{C}_2\mathrm{H}_4(g) + 3\mathrm{O}_2(g) \rightarrow 2\mathrm{CO}_2(g) + 2\mathrm{H}_2\mathrm{O}(l)
+  {\mathrm{C}}_{2}{\mathrm{H}}_{4}(\mathrm{g}) + 3{\mathrm{O}}_{2}(\mathrm{g}) \rightarrow 2{\mathrm{CO}}_{2}(\mathrm{g}) + 2{\mathrm{H}}_{2}\mathrm{O}(\mathrm{l})
   \]
-  燃烧热为 $-1411.2 \mathrm{\;kJ} \cdot \mathrm{mol}^{-1}$。
+  其燃烧热为 \(-1411.2\,\mathrm{kJ} \cdot \mathrm{mol}^{-1}\)。
 
-- 对于 $\mathrm{C(s)}$ 的燃烧反应：
+- 对于氢气 \({\mathrm{H}}_{2}\)，完全燃烧生成水的反应方程式为：
   \[
-  \mathrm{C(s)} + \mathrm{O}_2(g) \rightarrow \mathrm{CO}_2(g)
+  {\mathrm{H}}_{2}(\mathrm{g}) + \frac{1}{2}{\mathrm{O}}_{2}(\mathrm{g}) \rightarrow {\mathrm{H}}_{2}\mathrm{O}(\mathrm{l})
   \]
-  燃烧热为 $-393.5 \mathrm{\;kJ} \cdot \mathrm{mol}^{-1}$。
+  其燃烧热为 \(-285.8\,\mathrm{kJ} \cdot \mathrm{mol}^{-1}\)。
 
-- 对于 ${\mathrm{H}}_{2}\left( \mathrm{\;g}\right)$ 的燃烧反应：
+- 对于碳 \({\mathrm{C}}\)，完全燃烧生成二氧化碳的反应方程式为：
   \[
-  \mathrm{H}_2(g) + \frac{1}{2}\mathrm{O}_2(g) \rightarrow \mathrm{H}_2\mathrm{O}(l)
+  {\mathrm{C}}(\mathrm{s}) + {\mathrm{O}}_{2}(\mathrm{g}) \rightarrow {\mathrm{CO}}_{2}(\mathrm{g})
   \]
-  燃烧热为 $-285.8 \mathrm{\;kJ} \cdot \mathrm{mol}^{-1}$。
+  其燃烧热为 \(-393.5\,\mathrm{kJ} \cdot \mathrm{mol}^{-1}\)。
 
-(2) ${\mathrm{C}}_{2}{\mathrm{H}}_{4}\left( \mathrm{\;g}\right)$ 的标准摩尔生成热是指从元素在标准状态下生成1摩尔该物质的反应焓变。可以通过燃烧热和生成热之间的关系来计算。
+(2) 计算乙烯 \({\mathrm{C}}_{2}{\mathrm{H}}_{4}\) 的标准摩尔生成热。
 
-根据燃烧反应的热化学方程式：
+乙烯 \({\mathrm{C}}_{2}{\mathrm{H}}_{4}\) 的生成反应可以表示为：
 \[
-\mathrm{C}_2\mathrm{H}_4(g) + 3\mathrm{O}_2(g) \rightarrow 2\mathrm{CO}_2(g) + 2\mathrm{H}_2\mathrm{O}(l)
+2{\mathrm{C}}(\mathrm{s}) + 2{\mathrm{H}}_{2}(\mathrm{g}) \rightarrow {\mathrm{C}}_{2}{\mathrm{H}}_{4}(\mathrm{g})
+\]
+根据燃烧热的定义，写出从元素生成物质的总方程并运用亨利定律，可以求得其生成热。通过将以上每个化学方程对应的热效应结合，使用赫斯定律：
+
+乙烯燃烧：
+\[
+{\mathrm{C}}_{2}{\mathrm{H}}_{4} + 3{\mathrm{O}}_{2} \rightarrow 2{\mathrm{CO}}_{2} + 2{\mathrm{H}}_{2}\mathrm{O} \quad \Delta H = -1411.2\,\mathrm{kJ/mol}
 \]
 
-生成热的计算公式为：
+对乙烯分解为元素：
 \[
-\Delta H_f^\circ (\mathrm{C}_2\mathrm{H}_4) = \Delta H_c^\circ (\mathrm{C}_2\mathrm{H}_4) - 2\Delta H_f^\circ (\mathrm{CO}_2) - 2\Delta H_f^\circ (\mathrm{H}_2\mathrm{O})
+{\mathrm{C}}_{2}{\mathrm{H}}_{4}\rightarrow 2{\mathrm{C}}(\mathrm{s}) + 2{\mathrm{H}}_{2}(\mathrm{g}) \quad \Delta H = x
 \]
 
-已知：
-- $\Delta H_c^\circ (\mathrm{C}_2\mathrm{H}_4) = -1411.2 \mathrm{\;kJ} \cdot \mathrm{mol}^{-1}$
-- $\Delta H_f^\circ (\mathrm{CO}_2) = -393.5 \mathrm{\;kJ} \cdot \mathrm{mol}^{-1}$
-- $\Delta H_f^\circ (\mathrm{H}_2\mathrm{O}) = -285.8 \mathrm{\;kJ} \cdot \mathrm{mol}^{-1}$
+炭生成二氧化碳：
+\[
+2{\mathrm{C}}(\mathrm{s}) + 2{\mathrm{O}}_{2} \rightarrow 2{\mathrm{CO}}_{2} \quad \Delta H = 2 \times (-393.5)\,\mathrm{kJ/mol}
+\]
 
-代入计算：
+氢气生成水：
 \[
-\Delta H_f^\circ (\mathrm{C}_2\mathrm{H}_4) = -1411.2 - 2(-393.5) - 2(-285.8)
+2{\mathrm{H}}_{2} + {\mathrm{O}}_{2} \rightarrow 2{\mathrm{H}}_{2}\mathrm{O} \quad \Delta H = 2 \times (-285.8)\,\mathrm{kJ/mol}
 \]
+
+根据赫斯定律，有：
 \[
-= -1411.2 + 787 + 571.6
+x + 2 \times (-393.5) + 2 \times (-285.8) = -1411.2 
 \]
+
+解得：
 \[
-=  -52.6 \mathrm{\;kJ} \cdot \mathrm{mol}^{-1}
+x = -1411.2 + 2 \times (393.5) + 2 \times (285.8)
+\]
+
+\[
+x = -1411.2 + 787 + 571.6 =  -1411.2 + 1358.6 = -52.6\,\mathrm{kJ/mol}
 \]","：
+(1)
+\[
+{\mathrm{C}}_{2}{\mathrm{H}}_{4}(\mathrm{g}) + 3{\mathrm{O}}_{2}(\mathrm{g}) \rightarrow 2{\mathrm{CO}}_{2}(\mathrm{g}) + 2{\mathrm{H}}_{2}\mathrm{O}(\mathrm{l}) \quad \Delta H = -1411.2\,\mathrm{kJ/mol}
+\]
 
-(1) 
-- ${\mathrm{C}}_{2}{\mathrm{H}}_{4}\left( \mathrm{\;g}\right)$: $\mathrm{C}_2\mathrm{H}_4(g) + 3\mathrm{O}_2(g) \rightarrow 2\mathrm{CO}_2(g) + 2\mathrm{H}_2\mathrm{O}(l), \Delta H = -1411.2 \mathrm{\;kJ} \cdot \mathrm{mol}^{-1}$
-- $\mathrm{C(s)}$: $\mathrm{C(s)} + \mathrm{O}_2(g) \rightarrow \mathrm{CO}_2(g), \Delta H = -393.5 \mathrm{\;kJ} \cdot \mathrm{mol}^{-1}$
-- ${\mathrm{H}}_{2}\left( \mathrm{\;g}\right)$: $\mathrm{H}_2(g) + \frac{1}{2}\mathrm{O}_2(g) \rightarrow \mathrm{H}_2\mathrm{O}(l), \Delta H = -285.8 \mathrm{\;kJ} \cdot \mathrm{mol}^{-1}$
+\[
+{\mathrm{H}}_{2}(\mathrm{g}) + \frac{1}{2}{\mathrm{O}}_{2}(\mathrm{g}) \rightarrow {\mathrm{H}}_{2}\mathrm{O}(\mathrm{l}) \quad \Delta H = -285.8\,\mathrm{kJ/mol}
+\]
 
-(2) $-52.6 \mathrm{\;kJ} \cdot \mathrm{mol}^{-1}$",N/A,N/A,N/A
+\[
+{\mathrm{C}}(\mathrm{s}) + {\mathrm{O}}_{2}(\mathrm{g}) \rightarrow {\mathrm{CO}}_{2}(\mathrm{g}) \quad \Delta H = -393.5\,\mathrm{kJ/mol}
+\]
+
+(2) \(-52.6\,\mathrm{kJ/mol}\)",N/A,N/A,N/A
 "已知下列数据:
 
 ${\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }\left( {\mathrm{{Sn}},\text{ 白 }}\right) = 0,{\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }\left( {\mathrm{{Sn}},\text{ 灰 }}\right) = - {2.1}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$
@@ -155,18 +1329,50 @@ $$
 $$
 T = \frac{{\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus }}{{\Delta }_{\mathrm{r}}{S}_{\mathrm{m}}^{ \ominus }} = \frac{-{2.1}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}}{-{7.2} \times {10}^{-3}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1}} = {291.7}\mathrm{\;K}
 $$
-","：根据题意，我们需要找到锡（白）和锡（灰）之间的相变温度。相变温度可以通过吉布斯自由能变为零的条件来确定：$\Delta G^\Theta = \Delta H^\Theta - T \Delta S^\Theta = 0$。
+","：
+对于相变过程 $\mathrm{Sn}$ (白) $\rightleftharpoons \mathrm{Sn}$ (灰)，这是一个固-固相的转变，系统的平衡条件为 $\Delta G = 0$，即 Gibbs 自由能的变动为零。由 Gibbs 自由能的表达式：
+\[
+\Delta G = \Delta H - T \Delta S
+\]
+令 $\Delta G=0$，可以得到相变温度 $T$ 的平衡条件为：
+\[
+T = \frac{\Delta H}{\Delta S}
+\]
 
-1. 首先，我们计算白锡和灰锡的焓变（$\Delta H^\Theta$）：
-   - $\Delta H^\Theta = \Delta_{\mathrm{f}}H_{\mathrm{m}}^{\ominus}(\mathrm{Sn}, \text{ 灰}) - \Delta_{\mathrm{f}}H_{\mathrm{m}}^{\ominus}(\mathrm{Sn}, \text{ 白}) = -2.1 \ \mathrm{kJ} \cdot \mathrm{mol}^{-1} - 0 = -2.1 \ \mathrm{kJ} \cdot \mathrm{mol}^{-1}$
+具体数据提供了：
+- $\Delta_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }(\mathrm{Sn}, \text{ 白}) = 0$
+- $\Delta_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }(\mathrm{Sn}, \text{ 灰}) = -2.1\;\mathrm{kJ} \cdot \mathrm{mol}^{-1}$
 
-2. 然后，计算白锡和灰锡的熵变（$\Delta S^\Theta$）：
-   - $\Delta S^\Theta = S_{\mathrm{m}}^{\Theta}(\mathrm{Sn}, \text{ 灰}) - S_{\mathrm{m}}^{\Theta}(\mathrm{Sn}, \text{ 白}) = 44.3 \ \mathrm{J} \cdot \mathrm{mol}^{-1} \cdot \mathrm{K}^{-1} - 51.5 \ \mathrm{J} \cdot \mathrm{mol}^{-1} \cdot \mathrm{K}^{-1} = -7.2 \ \mathrm{J} \cdot \mathrm{mol}^{-1} \cdot \mathrm{K}^{-1}$
+相变热 $\Delta H$：
+转变反应的焓变 $\Delta H$ 可由目标初态和终态的生成焓之差给出，即
+\[
+\Delta H = \Delta_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }(\mathrm{Sn}, \text{ 灰}) - \Delta_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }(\mathrm{Sn}, \text{ 白})
+\]
+代入数据：
+\[
+\Delta H = (-2.1 \;\mathrm{kJ} \cdot \mathrm{mol}^{-1}) - (0) = -2.1 \;\mathrm{kJ} \cdot \mathrm{mol}^{-1}
+\]
 
-3. 将焓变和熵变代入吉布斯自由能零点方程式求温度$T$：
-   - 根据 $\Delta G^\Theta = 0$，有 $\Delta H^\Theta = T \Delta S^\Theta$
-   - $-2.1 \times 1000 \ \mathrm{J} \cdot \mathrm{mol}^{-1} = T \times (-7.2 \ \mathrm{J} \cdot \mathrm{mol}^{-1} \cdot \mathrm{K}^{-1})$
-   - 解除方程：$T = \frac{-2.1 \times 1000}{-7.2} = 291.67 \ \mathrm{K}$",：291.67 \ \mathrm{K},N/A,N/A,N/A
+相变熵变 $\Delta S$：
+转变反应的熵变 $\Delta S$ 可由目标初态和终态的标准熵之差给出，即
+\[
+\Delta S = S_{\mathrm{m}}^{\Theta }(\mathrm{Sn}, \text{ 灰}) - S_{\mathrm{m}}^{\Theta }(\mathrm{Sn}, \text{ 白})
+\]
+代入数据：
+\[
+\Delta S = (44.3 \;\mathrm{J} \cdot \mathrm{mol}^{-1} \cdot \mathrm{K}^{-1}) - (51.5 \;\mathrm{J} \cdot \mathrm{mol}^{-1} \cdot \mathrm{K}^{-1}) = -7.2 \;\mathrm{J} \cdot \mathrm{mol}^{-1} \cdot \mathrm{K}^{-1}
+\]
+
+计算相变温度 $T$：
+由于$\Delta H$ 和 $\Delta S$ 已知，使用平衡条件 $T = \frac{\Delta H}{\Delta S}$，需注意单位一致性。将 $\Delta H$ 转化为 $\mathrm{J} \cdot \mathrm{mol}^{-1}$：
+\[
+\Delta H = -2.1 \;\mathrm{kJ} \cdot \mathrm{mol}^{-1} = -2100 \;\mathrm{J} \cdot \mathrm{mol}^{-1}
+\]
+然后代入公式：
+\[
+T = \frac{\Delta H}{\Delta S} = \frac{-2100}{-7.2} = 291.67\; \mathrm{K}
+\]","：
+291.67 K",N/A,N/A,N/A
 "已知下列键能数据:
 
 $$
@@ -224,32 +1430,64 @@ $$
 
 计算结果表明, ${\mathrm{{NH}}}_{3}$ 稳定而 ${\mathrm{{NCl}}}_{3}$ 不稳定。
 ","：
+1. 反应的标准反应焓变 (${\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus }$) 可通过键能计算公式：
+   \[
+   \Delta H_{\mathrm{reaction}} = \Sigma \text{键断裂的总能量} - \Sigma \text{键生成的总能量},
+   \]
+   其中“断裂”和“生成”分别表示反应物中键的断裂与生成。
 
-1. **计算ΔrHm°**：
-    - 反应为：\[2\mathrm{NH}_3(\mathrm{g}) + 3\mathrm{Cl}_2(\mathrm{g}) \rightarrow \mathrm{N}_2(\mathrm{g}) + 6\mathrm{HCl}(\mathrm{g})\]
-    - 需要打断的键：\
-      - 6个N-H键（在2个NH₃分子中）
-      - 3个Cl-Cl键（3个Cl₂分子）
-    - 要形成的键：\
-      - 1个N≡N键（在N₂分子中）
-      - 6个H-Cl键（在6个HCl分子中）
-    - 利用键能计算反应焓变（ΔrHm°）：\
-      ΔrH° = Σ(E破) - Σ(E成) = [6E(N-H) + 3E(Cl-Cl)] - [E(N≡N) + 6E(H-Cl)]
-    - 将键能代入计算：\
-      ΔrH° = [6(389) + 3(243)] - [945 + 6(431)] = 2370 + 729 - 2581 = 519 - 2581 = -2062 kJ/mol
+2. **键的断裂：**
+   - $2{\mathrm{{NH}}}_{3}$：每个 $\mathrm{NH}_3$ 共有 3 个 $\mathrm{N-H}$ 键，因此总共断裂 $2 \times 3 = 6$ 个 $\mathrm{N-H}$ 键；每个键的键能是 $389 \, \mathrm{kJ/mol}$；
+   - $3{\mathrm{{Cl}}}_{2}$：每个分子有一个 $\mathrm{Cl-Cl}$ 键，共断裂 3 个 $\mathrm{Cl-Cl}$ 键，每个键的键能是 $243 \, \mathrm{kJ/mol}$；
+   - 所以断裂键所需总能量为：
+     \[
+     6 \times 389 + 3 \times 243 = 2334 + 729 = 3063 \, \mathrm{kJ/mol}.
+     \]
 
-2. **判断NCl₃和NH₃的相对稳定性**：
-    - 稳定性可用生成热（ΔfH°）比较，稳定的化合物一般拥有较低的生成热。
-    - NCl₃常常用于氯化氨过程，但是较不稳定，NH₃广泛存在且较稳定。
-    - 标准生成热数据较缺乏，但已知NCl₃为爆炸性物质，综合已知信息可推测NH₃相对较稳定。
+3. **键的生成：**
+   - ${\mathrm{N}_2}$：一个分子中有一对三键 ($\mathrm{N \equiv N}$)，键能为 $945 \, \mathrm{kJ/mol}$；
+   - $6 \mathrm{HCl}$：每个分子有一个 $\mathrm{H-Cl}$ 键，共生成 6 个 $\mathrm{H-Cl}$ 键，每个键的键能是 $431 \, \mathrm{kJ/mol}$；
+   - 所以生成键释放的总能量为：
+     \[
+     945 + 6 \times 431 = 945 + 2586 = 3531 \, \mathrm{kJ/mol}.
+     \]
 
-3. **碳的有序程度比较**：
-    - 熵（S）值的大小可用于比较两种材料中碳原子的有序程度。
-    - 石墨的标准摩尔熵S°值为5.740 J/mol·K，这较金刚石更高，因为他的层状结构提供更高的无序性。
-    - 金刚石的ΔfG°较石墨更低表明在常温常压下石墨较为稳定且无序性较高。","：
-1. $\Delta_{\mathrm{r}} H_{\mathrm{m}}^{\ominus} = -2062 \;\mathrm{kJ/mol}$
-2. NH₃相对NCl₃更稳定。
-3. 石墨排列的无序程度高于金刚石。",0.4,0.4,0.4
+4. 标准反应焓变为：
+   \[
+   \Delta H_{\mathrm{reaction}} = 3063 - 3531 = -468 \, \mathrm{kJ/mol}.
+   \]","：$-468 \, \mathrm{kJ/mol}$
+
+---
+
+#### **(2) 比较 ${\mathrm{{NCl}}}_{3}$ 和 ${\mathrm{{NH}}}_{3}$ 的相对稳定性**
+
+**推理过程**：
+1. 稳定性的判断标准可以依据键能以及对生成热的信息比较。键能较小，键断裂更容易，物质稳定性就较差。
+   
+2. 根据题目提供的键能数据：
+   - $\mathrm{N-H}$ 键能为 $389 \, \mathrm{kJ/mol}$，而 $\mathrm{N-Cl}$ 键能为 $201 \, \mathrm{kJ/mol}$；
+   - $\mathrm{N-Cl}$ 键能远低于 $\mathrm{N-H}$ 键，因此 $\mathrm{NCl}_3$ 的键断裂比 $\mathrm{NH}_3$ 容易，其稳定性更差。
+   
+3. 标准生成热（$\Delta_f H^\ominus$）的大小通常与稳定性相关，生成热越低，化合物越稳定。已知：
+   - $\mathrm{NH}_3$ 通常生成热较低（数值为负），这是其高稳定性的特点；
+   - $\mathrm{NCl}_3$ 生成热则较高且数字为正，这进一步表明 $\mathrm{NCl}_3$ 更不稳定。
+
+**答案**：${\mathrm{{NH}}}_{3}$ 更加稳定。
+
+---
+
+### **第二部分：石墨与金刚石的相对有序程度**
+
+**推理过程**：
+1. 判断材料的有序程度可以结合标准状态下熵 ($S_m^\ominus$) 的大小来分析，熵较大说明粒子排列越无序。
+   - 已知：$S_m^\ominus$ (石墨) = $5.740 \, \mathrm{J/(mol \cdot K)}$；
+   - 金刚石的熵小于石墨（往往是因为金刚石的三维晶体结构具有更高的有序性），因此石墨的熵较大表明其粒子排列更为无序。
+
+2. 根据生成焓（$\Delta_f H^\ominus$）和生成自由能（$\Delta_f G^\ominus$）：
+   - $\Delta_f H^\ominus$ 和 $\Delta_f G^\ominus$ 的值表明金刚石虽然是亚稳态，但其稳定性比直观理解的石墨要高（热力学上石墨更稳定）。
+   - 但有序程度仍由熵主导，石墨的有序性低于金刚石。
+
+**答案**：石墨的排列较无序，金刚石的排列较有序。",N/A,N/A,N/A
 "已知 ${S}_{\mathrm{m}}^{ \ominus }$ (石墨) $= {5.740}\mathrm{\;J} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1},{\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }$ (金刚石) $= {1.897}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1},{\Delta }_{\mathrm{f}}{G}_{\mathrm{m}}^{ \ominus }$ (金刚石) $= {2.900}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ 。根据计算结果说明石墨和金刚石中碳原子排列的相对有序程度。"," 对于反应 $\mathrm{C}$ (石墨) $\rightarrow \mathrm{C}$ (金刚石)
 
 ${\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus } = {\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }$ (金刚石), ${\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus } = {\Delta }_{\mathrm{f}}{G}_{\mathrm{m}}^{ \ominus }$ (金刚石)
@@ -284,36 +1522,63 @@ $$
 
 由于 ${S}_{\mathrm{m}}^{ \ominus }$ (石墨) $> {S}_{\mathrm{m}}^{ \ominus }$ (金刚石),说明金刚石中碳原子排列更有序。
 ","：  
-要比较石墨和金刚石中碳原子的相对有序程度，我们可以通过熵的概念来进行分析。熵是衡量系统混乱程度的一个指标，熵值越大，系统越无序。
+1. **理解变量**：  
+   - ${S}_{\mathrm{m}}^{ \ominus }$ 是指定压1 bar下，该物质的标准摩尔熵，反映单质或化合物的微观状态无序程度。
+   - ${\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }$ 是物质从其标准状态（以石墨为基准）形成相应物质的标准摩尔生成焓。
+   - ${\Delta }_{\mathrm{f}}{G}_{\mathrm{m}}^{ \ominus }$ 是物质形成相应状态的标准摩尔生成吉布斯自由能。
 
-已知石墨的标准摩尔熵 ${S}_{\mathrm{m}}^{ \ominus }$ 为 $5.740 \mathrm{\;J} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1}$。我们需要计算金刚石的标准摩尔熵来进行比较。
+2. **确定需要分析的对比标准**：  
+   熵是衡量系统无序程度的物理量，熵值越大，体系的无序程度越高。因此，通过对比石墨和金刚石的摩尔熵，可以推断它们中哪种排列更有序。
 
-根据热力学关系式：
-\[
-\Delta_{\mathrm{f}}G_{\mathrm{m}}^{\ominus} = \Delta_{\mathrm{f}}H_{\mathrm{m}}^{\ominus} - T\Delta_{\mathrm{f}}S_{\mathrm{m}}^{\ominus}
-\]
-其中，$\Delta_{\mathrm{f}}S_{\mathrm{m}}^{\ominus}$ 是金刚石的生成熵变。我们可以通过已知的生成焓变和生成自由能变来计算生成熵变：
-\[
-\Delta_{\mathrm{f}}S_{\mathrm{m}}^{\ominus} = \frac{\Delta_{\mathrm{f}}H_{\mathrm{m}}^{\ominus} - \Delta_{\mathrm{f}}G_{\mathrm{m}}^{\ominus}}{T}
-\]
-假设温度 $T = 298 \mathrm{\;K}$，代入已知值：
-\[
-\Delta_{\mathrm{f}}S_{\mathrm{m}}^{\ominus} = \frac{1.897 \times 10^3 \mathrm{\;J/mol} - 2.900 \times 10^3 \mathrm{\;J/mol}}{298 \mathrm{\;K}}
-\]
-\[
-\Delta_{\mathrm{f}}S_{\mathrm{m}}^{\ominus} = \frac{-1.003 \times 10^3 \mathrm{\;J/mol}}{298 \mathrm{\;K}} \approx -3.367 \mathrm{\;J} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1}
-\]
+3. **数据分析**：  
+   题目给出 ${S}_{\mathrm{m}}^{ \ominus }$ (石墨) = \( 5.740\; \mathrm{J\;mol^{-1}\;K^{-1}} \)，未直接给出 ${S}_{\mathrm{m}}^{ \ominus }$ (金刚石)。为了进一步计算金刚石的摩尔熵，使用以下关系：   
+   \[
+   \Delta G = \Delta H - T \Delta S
+   \]  
+   其中：
+   - \( \Delta G \) 是生成吉布斯自由能；
+   - \( \Delta H \) 是生成焓；
+   - \( \Delta S \) 是熵变；
+   - \( T \) 是标准状态温度（通常为 \( 298.15\; \mathrm{K} \)）。
 
-金刚石的标准摩尔熵可以通过石墨的标准摩尔熵和生成熵变来计算：
-\[
-S_{\mathrm{m}}^{\ominus}(\text{金刚石}) = S_{\mathrm{m}}^{\ominus}(\text{石墨}) + \Delta_{\mathrm{f}}S_{\mathrm{m}}^{\ominus}
-\]
-\[
-S_{\mathrm{m}}^{\ominus}(\text{金刚石}) = 5.740 \mathrm{\;J} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1} - 3.367 \mathrm{\;J} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1} = 2.373 \mathrm{\;J} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1}
-\]
+   根据对石墨到金刚石转化过程的定义，熵变可表示为：  
+   \[
+   \Delta S = S_{\mathrm{m}}^{\ominus}(\text{金刚石}) - S_{\mathrm{m}}^{\ominus}(\text{石墨})
+   \]  
 
-比较石墨和金刚石的标准摩尔熵：
-- 石墨的熵为 $5.740 \mathrm{\;J} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1}$
-- 金刚石的熵为 $2.373 \mathrm{\;J} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1}$
+   对金刚石生成过程：  
+   \[
+   \Delta G = \Delta H - T \Delta S
+   \]  
+   整理得到：  
+   \[
+   \Delta S = \frac{\Delta H - \Delta G}{T}
+   \]  
 
-由于金刚石的熵值较低，说明金刚石中碳原子的排列比石墨更有序。",：金刚石中碳原子的排列比石墨更有序。,N/A,N/A,N/A
+   带入已知数据：  
+   \[
+   \Delta H = 1.897 \;\mathrm{kJ\;mol^{-1}} = 1897 \;\mathrm{J\;mol^{-1}}
+   \]  
+   \[
+   \Delta G = 2.900 \;\mathrm{kJ\;mol^{-1}} = 2900 \;\mathrm{J\;mol^{-1}}
+   \]  
+   \[
+   T = 298.15 \;\mathrm{K}
+   \]  
+   计算得到：  
+   \[
+   \Delta S = \frac{1897 - 2900}{298.15} = \frac{-1003}{298.15} \approx -3.37 \;\mathrm{J\;mol^{-1}\;K^{-1}}
+   \]  
+
+   再根据：
+   \[
+   S_{\mathrm{m}}^{\ominus}(\text{金刚石}) = S_{\mathrm{m}}^{\ominus}(\text{石墨}) + \Delta S
+   \]  
+   带入数据：
+   \[
+   S_{\mathrm{m}}^{\ominus}(\text{金刚石}) = 5.740 + (-3.37) \approx 2.37 \;\mathrm{J\;mol^{-1}\;K^{-1}}
+   \]  
+
+4. **对熵值解释的推导**：  
+   石墨的摩尔熵显著高于金刚石 (\( 5.740 > 2.37 \))，这表明石墨的微观结构相比于金刚石更加无序。而金刚石各碳原子间通过三维空间中均匀分布的立体共价网络排列，其结构高度对称且有序，因此熵值较低。","：  
+金刚石中碳原子的排列相对更有序。",N/A,N/A,N/A
