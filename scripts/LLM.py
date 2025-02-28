@@ -12,7 +12,7 @@ def generate_answer_from_gpt_4o(query: str) -> str:
     try:
         # 初始化 ChatOpenAI 模型
         model = ChatOpenAI(
-            model="gpt-4o",
+            model="qwen-max",
             temperature=0,
             base_url=BASE_URL,
             api_key=API_KEY
@@ -43,7 +43,7 @@ def generate_answer_from_gpt_o1(query: str) -> str:
     try:
         # 初始化 ChatOpenAI 模型
         model = ChatOpenAI(
-            model="o1-preview",
+            model="qwen-max",
             temperature=0,
             base_url=BASE_URL,
             api_key=API_KEY
@@ -65,3 +65,6 @@ def generate_answer_from_gpt_o1(query: str) -> str:
     except Exception as e:
         print(f"调用大模型时发生错误: {e}")
         return {"error": f"调用失败: {str(e)}"}
+
+
+# model_answer = generate_answer_from_gpt_4o('氢是什么')
