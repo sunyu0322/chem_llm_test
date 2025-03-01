@@ -2,7 +2,7 @@ from langchain_openai import ChatOpenAI
 
 # 大模型配置，如果使用openai的api如下，如果用deeepseek的另外修改
 BASE_URL = "https://api.fe8.cn/v1"
-API_KEY = "sk-qt8fnOxedYmhiI6vrcSMMYm4DPcGJTTMNekfXg2IOZzLCGCl"
+API_KEY = "sk-bsFsOAvTdyNI2MD25vcLXID1vJaYM1hEsN1HMZSuygvXjgiZ"
 
 # 使用openai的gpt4o模型
 def generate_answer_from_gpt_4o(query: str) -> str:
