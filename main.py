@@ -1,6 +1,10 @@
 import os
+from scripts.LLM import generate_answer_from_qwen_max
 from scripts.LLM import generate_answer_from_gpt_4o
 from scripts.LLM import generate_answer_from_gpt_o1
+from scripts.LLM import generate_answer_from_qwq
+from scripts.LLM import generate_answer_from_deepseek_r1
+from scripts.LLM import generate_answer_from_deepseek_v3
 from scripts.evaluate_response import evaluate_answer_accuracy
 from scripts.evaluate_response import evaluate_none
 from scripts.load_csv_data import load_csv_data
@@ -27,9 +31,10 @@ def generate_and_evaluate(input_csv_path: str, output_csv_path: str, processed_f
         if not query or not true_answer:
             continue  # 跳过缺失问题或答案的记录
 
+# 可在此处选用需要的模型
         try:
             # 生成模型回答
-            model_answer = generate_answer_from_gpt_4o(query)
+            model_answer = generate_answer_from_qwen_max(query)
         except Exception as e:
             print(f"生成模型回答时发生错误: {e}")
             continue  # 发生错误时跳过当前记录，继续下一个
