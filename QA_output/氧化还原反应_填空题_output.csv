@@ -1,0 +1,148 @@
+query,true_answer,reasoning,model_answer,knowledge_accuracy,reasoning_accuracy,final_answer_accuracy
+"电池 $\left( -\right) \mathrm{{Pt}}\left| {{\mathrm{H}}_{2}\left( {{1.013} \times {10}^{5}\mathrm{{Pa}}}\right) \mid {\mathrm{H}}^{ + }\left( {1 \times {10}^{-3}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}}\right) \parallel {\mathrm{H}}^{ + }\left( {1\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}}\right) }\right| {\mathrm{H}}_{2}$ $\left( {{1.013} \times {10}^{5}\mathrm{\;{Pa}}}\right) \mid \mathrm{{Pt}}\left( +\right)$ 属于___电池,该电池的电动势为___ $\mathrm{V}$ ,电池反应为___
+",浓差; ${0.177};{\mathrm{H}}^{ + }\left( {1\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}}\right) \rightarrow {\mathrm{H}}^{ + }\left( {1 \times {10}^{-3}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}}\right)$,"：题目描述的电池是一个典型的氢电极组成的浓差电池。在该电池中，左边是标准氢电极（SHE），即压力为1.013×10^5 Pa (1 atm) 的H2气体与浓度为1 mol·dm^-3的H+溶液接触；而右边则是在相同压力下但H+浓度只有1×10^-3 mol·dm^-3的情况。由于两边H+离子浓度不同，导致了电化学势的差异，从而能够产生电动势。
+
+根据Nernst方程，我们可以计算出此电池的电动势E：
+\[ E = E^\circ - \frac{RT}{nF}\ln\left(\frac{[H^+]_{左}}{[H^+]_{右}}\right) \]
+
+其中，\(E^\circ\)对于标准氢电极来说是0V（因为它被定义为参考点），R是理想气体常数(8.314 J/(mol·K))，T是温度（假设为298 K），n是电子转移数（本例中n=2，因为每个氢分子分解成两个质子和两个电子），F是法拉第常量(96485 C/mol)。
+
+代入已知值：
+- \( [H^+]_{左} = 1 \, \text{mol/dm}^3 \)
+- \( [H^+]_{右} = 1 \times 10^{-3} \, \text{mol/dm}^3 \)
+
+得到:
+\[ E = 0 - \frac{(8.314 \, \text{J/(mol·K)})(298 \, \text{K})}{2(96485 \, \text{C/mol})}\ln\left(\frac{1}{1\times10^{-3}}\right) \]
+\[ E = -\frac{2477.572 \, \text{J/mol}}{192970 \, \text{C/mol}}\ln(1000) \]
+\[ E = -0.0128 \, \text{V} \cdot (-6.907) \approx 0.088 \, \text{V} \]
+
+至于电池反应，实际上没有净化学变化发生，只是H+从低浓度区向高浓度区移动的趋势与电子流动相结合，形成了电流。具体可以表示为左边的H2氧化成H+同时释放电子，右侧的H+获得电子还原为H2，但这仅是为了形成电流，并不代表有新的物质生成或消耗。",：浓差电池; 0.088 V; H+(1 mol·dm^-3) + e- → H+(1×10^-3 mol·dm^-3) （这里表达的是电荷传递的方向而非实际发生的化学反应）,N/A,N/A,N/A
+"标准状态下, 下列反应均自发进行:
+
+$$
+2{\mathrm{{MnO}}}_{4}^{ - } + 5{\mathrm{H}}_{2}{\mathrm{O}}_{2} + 6{\mathrm{H}}^{ + } = 2{\mathrm{{Mn}}}^{2 + } + 5{\mathrm{O}}_{2} + 8{\mathrm{H}}_{2}\mathrm{O}
+$$
+
+$$
+{\mathrm{H}}_{2}{\mathrm{O}}_{2} + 2{\mathrm{I}}^{ - } + 2{\mathrm{H}}^{ + } = 2{\mathrm{H}}_{2}\mathrm{O} + {\mathrm{I}}_{2}
+$$
+
+$$
+{\mathrm{I}}_{2} + 2{\mathrm{\;S}}_{2}{\mathrm{O}}_{3}^{2 - } = 2{\mathrm{I}}^{ - } + {\mathrm{S}}_{4}{\mathrm{O}}_{6}^{2 - }
+$$
+
+由此判断反应所涉及的物质中还原性最强的是___, 氧化性最强的是___。",${\mathrm{\;S}}_{2}{\mathrm{O}}_{3}^{2 - };{\mathrm{{MnO}}}_{4}^{ - }$,"：首先，我们需要理解题目中提供的三个化学反应，并根据氧化还原反应的知识来判断物质的氧化性和还原性强弱。在氧化还原反应中，失去电子的物质为还原剂，具有还原性；获得电子的物质为氧化剂，具有氧化性。通过比较不同物质之间的电子转移情况，我们可以得出它们之间相对的氧化性和还原性强弱。
+
+1. 在第一个反应\[2{\mathrm{{MnO}}}_{4}^{ - } + 5{\mathrm{H}}_{2}{\mathrm{O}}_{2} + 6{\mathrm{H}}^{ + } = 2{\mathrm{{Mn}}}^{2 + } + 5{\mathrm{O}}_{2} + 8{\mathrm{H}}_{2}\mathrm{O}\]中，\({\mathrm{{MnO}}}_{4}^{-}\)被还原成\({\mathrm{Mn}}^{2+}\)，而\({\mathrm{H}}_{2}{\mathrm{O}}_{2}\)被氧化生成\({\mathrm{O}}_{2}\)。因此，\({\mathrm{{MnO}}}_{4}^{-}\)在此反应中作为氧化剂，显示出较强的氧化性；而\({\mathrm{H}}_{2}{\mathrm{O}}_{2}\)作为还原剂，显示了一定程度上的还原性。
+   
+2. 第二个反应\[{\mathrm{H}}_{2}{\mathrm{O}}_{2} + 2{\mathrm{I}}^{ - } + 2{\mathrm{H}}^{ + } = 2{\mathrm{H}}_{2}\mathrm{O} + {\mathrm{I}}_{2}\]表明\({\mathrm{H}}_{2}{\mathrm{O}}_{2}\)将\({\mathrm{I}}^{-}\)氧化成了\({\mathrm{I}}_{2}\)，这意味着\({\mathrm{H}}_{2}{\mathrm{O}}_{2}\)相对于\({\mathrm{I}}^{-}\)来说是更强的氧化剂，同时\({\mathrm{I}}^{-}\)相比\({\mathrm{H}}_{2}{\mathrm{O}}_{2}\)而言具有更强的还原性。
+   
+3. 最后一个反应\[{\mathrm{I}}_{2} + 2{\mathrm{\;S}}_{2}{\mathrm{O}}_{3}^{2 - } = 2{\mathrm{I}}^{ - } + {\mathrm{S}}_{4}{\mathrm{O}}_{6}^{2 - }\]说明\({\mathrm{S}}_{2}{\mathrm{O}}_{3}^{2-}\)能够还原\({\mathrm{I}}_{2}\)生成\({\mathrm{I}}^{-}\)，这表示\({\mathrm{S}}_{2}{\mathrm{O}}_{3}^{2-}\)比\({\mathrm{I}}^{-}\)有更强的还原能力。
+
+综合以上分析，可以得出：
+- 还原性从强到弱排序为 \({\mathrm{S}}_{2}{\mathrm{O}}_{3}^{2-} > {\mathrm{I}}^{-} > {\mathrm{H}}_{2}{\mathrm{O}}_{2}\)
+- 氧化性从强到弱排序为 \({\mathrm{{MnO}}}_{4}^{-} > {\mathrm{H}}_{2}{\mathrm{O}}_{2} > {\mathrm{I}}_{2}\)","：还原性最强的是\({\mathrm{S}}_{2}{\mathrm{O}}_{3}^{2-}\), 氧化性最强的是\({\mathrm{{MnO}}}_{4}^{-}\)。",N/A,N/A,N/A
+"电池 $\left( -\right) \mathrm{{Cu}}\left| {\mathrm{{Cu}}}^{ + }\right| {\mathrm{{Cu}}}^{ + },{\mathrm{{Cu}}}^{2 + } \mid \mathrm{{Pt}}\left( +\right)$ 和 $\left( -\right) \mathrm{{Cu}}\left| {\mathrm{{Cu}}}^{2 + }\right| {\mathrm{{Cu}}}^{ + },{\mathrm{{Cu}}}^{2 + } \mid \mathrm{{Pt}}\left( +\right)$ 的反应均可写成 $\mathrm{{Cu}} + {\mathrm{{Cu}}}^{2 + } = 2{\mathrm{{Cu}}}^{ + }$ ,则两电池的 ${\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus }$ ___ ${E}^{ \ominus }$___ ${K}^{ \ominus }$___ (填 “相同”或“不同”）。",相同; 不同; 相同,"：首先，我们需要理解题目中给出的两个电池反应。第一个电池是 $\mathrm{Cu}|\mathrm{Cu}^+||\mathrm{Cu}^+,\mathrm{Cu}^{2+}|\mathrm{Pt}$，第二个电池是 $\mathrm{Cu}|\mathrm{Cu}^{2+}||\mathrm{Cu}^+,\mathrm{Cu}^{2+}|\mathrm{Pt}$。题目指出这两个电池的化学反应都可以写作 $\mathrm{Cu} + \mathrm{Cu}^{2+} = 2\mathrm{Cu}^+$。这意味着尽管电池的设计不同（即参与电极反应的具体物质形式可能有所不同），但最终发生的净化学反应是一样的。
+
+对于任何给定的化学反应，在标准条件下（温度为298K，所有溶液浓度为1M，气体压力为1atm等），其吉布斯自由能变化${\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus }$、标准电动势${E}^{ \ominus }$以及平衡常数${K}^{ \ominus }$都是由该反应本身决定的，而不受具体实现方式的影响。因此，只要化学反应相同，则这些物理量也应该是相同的。
+
+- ${\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus }$ 描述了在标准状态下反应进行的趋势或自发性程度。
+- ${E}^{ \ominus }$ 表示在标准条件下电池能够产生的最大电压。
+- ${K}^{ \ominus }$ 则反映了在特定条件下反应物与生成物之间的浓度比达到平衡时的关系。
+
+综上所述，既然两电池所描述的化学反应相同，那么它们的${\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus }$、${E}^{ \ominus }$和${K}^{ \ominus }$也应该相同。",：相同 相同 相同,N/A,N/A,N/A
+"已知 ${E}^{ \ominus }\left( {{\mathrm{{Cu}}}^{2 + }/\mathrm{{Cu}}}\right) = {0.34}\mathrm{\;V},{K}_{\mathrm{{sp}}}^{ \ominus }\left\lbrack {\mathrm{{Cu}}{\left( \mathrm{{OH}}\right) }_{2}}\right\rbrack = {2.2} \times {10}^{-{20}}$ ,则 ${E}^{ \ominus }\left\lbrack {\mathrm{{Cu}}{\left( \mathrm{{OH}}\right) }_{2}/\mathrm{{Cu}}}\right\rbrack =$ ___V。",-0.24V,"：为了求解${E}^{ \ominus }\left\lbrack {\mathrm{{Cu}}{\left( \mathrm{{OH}}\right) }_{2}/\mathrm{{Cu}}}\right\rbrack$，我们需要理解给定条件下电极反应的变化。已知的是铜离子/铜的标准还原电位${E}^{ \ominus }\left( {{\mathrm{{Cu}}}^{2 + }/\mathrm{{Cu}}}\right) = 0.34\,V$ 和氢氧化铜的溶度积${K}_{\mathrm{{sp}}}^{ \ominus }\left\lbrack {\mathrm{{Cu}}{\left( \mathrm{{OH}}\right) }_{2}}\right\rbrack = 2.2 \times {10}^{-{20}}$。
+
+首先，考虑铜离子与铜之间的标准还原电位方程：
+\[{\mathrm{Cu}}^{2+} + 2e^- \rightarrow \mathrm{Cu}\]
+
+对于$\mathrm{Cu(OH)_2}$而言，其溶解可以表示为：
+\[\mathrm{Cu(OH)_2} \leftrightarrow \mathrm{Cu}^{2+} + 2\mathrm{OH}^-\]
+由此可知，如果我们要从$\mathrm{Cu(OH)_2}$直接得到金属铜，实际上需要经过两步：首先是$\mathrm{Cu(OH)_2}$分解成$\mathrm{Cu}^{2+}$和$\mathrm{OH}^-$，然后是$\mathrm{Cu}^{2+}$被还原为$\mathrm{Cu}$。但是，由于$\mathrm{Cu(OH)_2}$的溶解性极低（由${K}_{\mathrm{{sp}}}$值可以看出），直接从$\mathrm{Cu(OH)_2}$到$\mathrm{Cu}$的过程主要受$\mathrm{Cu(OH)_2}$溶解平衡的影响。
+
+考虑到$\mathrm{Cu(OH)_2}$在水中几乎不溶解，这意味着$\mathrm{Cu(OH)_2}$向$\mathrm{Cu}^{2+}$的转化受到限制，这将影响整个体系的电势。具体来说，由于$\mathrm{Cu(OH)_2}$的存在降低了有效$\mathrm{Cu}^{2+}$浓度，根据Nernst方程，这会导致电极电势降低。但在这里，我们不需要直接应用Nernst方程来计算，而是利用溶度积和原电池理论间接推导。
+
+\[K_{\mathrm{sp}} = [\mathrm{Cu}^{2+}][\mathrm{OH}^-]^2 = 2.2 \times 10^{-20}\]
+
+假设溶液中$\mathrm{OH}^-$的浓度远大于$\mathrm{Cu}^{2+}$的浓度（实际情况也是这样，因为$\mathrm{Cu(OH)_2}$的溶解度很小），则可以近似认为$[\mathrm{Cu}^{2+}] = K_{\mathrm{sp}} / [\mathrm{OH}^-]^2$。然而，为了计算$\mathrm{Cu(OH)_2/Cu}$的标准电极电位，重要的是认识到这一转换并不改变电子转移的本质，仅改变了反应物的有效浓度。因此，尽管实际电极电位会有所下降，但题目要求的是标准条件下的电极电位，即假设所有物质都处于单位活度下，此时$\mathrm{Cu(OH)_2/Cu}$的标准电极电位等于$\mathrm{Cu^{2+}/Cu}$的标准电极电位。",：0.34,N/A,N/A,N/A
+"在 ${\mathrm{{Fe}}}^{3 + } + {\mathrm{e}}^{ - } = {\mathrm{{Fe}}}^{2 + }$ 电极反应中,加入 ${\mathrm{{Fe}}}^{3 + }$ 的配位剂 ${\mathrm{F}}^{ - }$ 可使电极电势的数值___; 在 ${\mathrm{{Cu}}}^{2 + } + {\mathrm{e}}^{ - } = {\mathrm{{Cu}}}^{ + }$ 电极反应中,加入 ${\mathrm{{Cu}}}^{ + }$ 的沉淀剂 ${\mathrm{I}}^{ - }$ 可使其电极电势的数值___。","减小, 增大","：首先，我们要理解加入配位剂或沉淀剂对电极电势的影响。对于${\mathrm{Fe}}^{3+} + \mathrm{e}^- = {\mathrm{Fe}}^{2+}$这个反应来说，当向溶液中加入${\mathrm{F}}^-$作为${\mathrm{Fe}}^{3+}$的配位剂时，${\mathrm{Fe}}^{3+}$会与${\mathrm{F}}^-$形成更稳定的配合物，这实际上降低了自由态${\mathrm{Fe}}^{3+}$的有效浓度。根据Nernst方程\[E = E^\circ - \frac{RT}{nF}\ln Q\]（其中$Q$是反应商），降低${\mathrm{Fe}}^{3+}$浓度会导致反应商$Q$减小，从而使得$\ln Q$变小，进而使整个表达式的值增加（因为是在做减法）。因此，${\mathrm{Fe}}^{3+}/{\mathrm{Fe}}^{2+}$电对的电极电势数值将增大。
+
+对于${\mathrm{Cu}}^{2+} + \mathrm{e}^- = {\mathrm{Cu}}^+$这个反应而言，加入${\mathrm{I}}^-$作为${\mathrm{Cu}}^+$的沉淀剂后，${\mathrm{Cu}}^+$会与${\mathrm{I}}^-$结合形成难溶于水的${\mathrm{CuI}}$沉淀，这样就减少了溶液中游离的${\mathrm{Cu}}^+$离子数量。同样地，依据Nernst方程，随着${\mathrm{Cu}}^+$浓度下降，反应商$Q$减少，$\ln Q$变得更负，导致电极电势的计算结果变得更大。也就是说，${\mathrm{Cu}}^{2+}/{\mathrm{Cu}}^+$电对的电极电势也会随之升高。
+
+综上所述，在这两个特定条件下，无论是通过形成配合物还是生成沉淀的方式，都导致了相应氧化态物质有效浓度的降低，最终结果都是使得对应的电极电势数值上升。",：增大; 增大,N/A,N/A,N/A
+"对某一自发的氧化还原反应, 若将反应方程式中各物质的化学计量数扩大到原来的 2 倍,则此反应的 $\left| {{\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}}\right|$ 将",变大; 不变,：这个问题涉及到了化学反应的吉布斯自由能变化（${\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}$）与反应方程式中物质化学计量数之间的关系。首先，根据热力学原理，一个自发反应的吉布斯自由能变化(${\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}$)是负值。其次，吉布斯自由能的变化量直接与参与反应的物质的数量成正比。当我们将反应方程式的化学计量数扩大到原来的2倍时，实际上相当于将原本的反应重复进行了两次。因此，新的反应体系中每种物质的摩尔数变为原来的2倍，但每摩尔物质发生反应时其吉布斯自由能变化保持不变。基于此，整个反应体系的总吉布斯自由能变化量也会相应地扩大2倍。这意味着$\left| {{\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}}\right|$将会变成原来的2倍。,：扩大2倍,N/A,N/A,N/A
+"已知 ${\mathrm{{MnO}}}_{4}^{ - } + 8{\mathrm{H}}^{ + } + 5{\mathrm{e}}^{ - } = {\mathrm{{Mn}}}^{2 + } + 4{\mathrm{H}}_{2}\mathrm{O}\;{E}^{ \ominus } = {1.51}\mathrm{\;V}$ ,当 ${\mathrm{{MnO}}}_{4}^{ - }$ 和 ${\mathrm{{Mn}}}^{2 + }$ 处于标准状态时,电极电势与 $\mathrm{{pH}}$ 的关系是: $E/\mathrm{V} =$",${1.51} - {0.094}\mathrm{{pH}}$,"：题目要求我们找到${\mathrm{{MnO}}}_{4}^{ - }/{\mathrm{{Mn}}}^{2 + }$电对的电极电势与pH之间的关系。首先，我们知道给定反应的标准电极电势${E}^{ \ominus } = 1.51\,\text{V}$是在标准条件下测得的，即所有物质都处于其标准状态（浓度为1 mol/L或压力为1 atm），并且$\text{pH}=0$（意味着${[\mathrm{H}^+]}=1\, \text{mol/L}$）。该反应涉及8个氢离子($\mathrm{H}^+$)，因此溶液的酸度会直接影响到电极电势。
+
+根据Nernst方程，对于一般形式的氧化还原半反应\[aA + bB \rightarrow cC + dD\]，其电极电位\(E\)可以表示为
+\[E = E^\ominus - \frac{RT}{nF}\ln Q\]
+其中\(Q\)是反应商，\(R\)是理想气体常数，\(T\)是温度（以开尔文计），\(n\)是电子转移数目，而\(F\)是法拉第常数。对于本题中的反应，
+\[{\mathrm{{MnO}}}_{4}^{ - } + 8{\mathrm{H}}^{ + } + 5{\mathrm{e}}^{ - } \rightarrow {\mathrm{{Mn}}}^{2 + } + 4{\mathrm{H}}_{2}\mathrm{O}\]
+反应商\(Q\)可写为
+\[Q = \frac{[{\mathrm{{Mn}}}^{2 + }]}{[{\mathrm{{MnO}}}_{4}^{-}][\mathrm{H}^{+}]^8}\]
+在标准状态下，除了\([\mathrm{H}^+]\)以外的所有物质浓度均为1 mol/L，因此上述表达式简化为
+\[E = E^\ominus - \frac{RT}{5F}\ln(\frac{1}{[\mathrm{H}^+]^8})\]
+进一步简化得到
+\[E = E^\ominus + \frac{8RT}{5F}\ln[\mathrm{H}^+]\]
+由于\(\text{pH} = -\log[\mathrm{H}^+]\)，我们可以将\(\ln[\mathrm{H}^+]\)替换为\(-\ln(10)\cdot \text{pH}\)，从而得到
+\[E = E^\ominus - \frac{8RT\ln(10)}{5F}\text{pH}\]
+考虑到\(RT/F\)大约等于0.0592 V (当温度为25°C时)，则有
+\[E = 1.51 - \frac{8 \times 0.0592 \times \text{pH}}{5}\]
+最终简化为
+\[E = 1.51 - 0.09472\text{pH}\]",：\(E/\mathrm{V} = 1.51 - 0.09472\text{pH}\),N/A,N/A,N/A
+"保持标准氢电极中 ${\mathrm{H}}_{2}$ 的压强不变,而将标准浓度的盐酸换成 ${0.10}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 的醋酸,则此时氢电极的电极电势为 $\;\mathrm{V}$ (已知醋酸的 ${K}_{\mathrm{a}}^{ \ominus } = {1.8} \times {10}^{-5}$ )。",-0.17,"：首先，我们知道标准氢电极（SHE）在25°C时的电极电势被定义为0 V，这是基于使用1 M (即1 mol·dm^-3) HCl溶液作为电解质的情况。当我们将电解质从1 M HCl改为0.10 M CH3COOH（醋酸），我们需要考虑的是由于H+浓度的变化对电极电势的影响。
+
+根据Nernst方程，对于反应 \(\frac{1}{2}H_2(g) + e^- \rightarrow H^+\)，其电极电势\(E\)可以表示为
+\[E = E^\ominus - \frac{RT}{nF}\ln\left(\frac{1}{[H^+]}\right)\]
+其中，\(E^\ominus=0V\)（因为是相对于标准氢电极而言），\(R\)是理想气体常数，\(T\)是温度（以K为单位），\(n\)是电子转移数，在这里\(n=1\)，\(F\)是法拉第常数。简化后得到：
+\[E = -\frac{RT}{F}\ln\left([H^+]\right)\]
+
+对于醋酸溶液，由于它是弱酸，我们不能直接用它的浓度来代替[H+]。需要通过计算醋酸的解离度来确定实际的[H+]值。已知醋酸的\(K_a^\ominus = 1.8 \times 10^{-5}\)，设醋酸的初始浓度为\(c = 0.10 \, \mathrm{mol \cdot dm^{-3}}\)，设解离产生的[H+]浓度为\(x\)，则有
+\[K_a^\ominus = \frac{x^2}{c-x} \approx \frac{x^2}{c}\] （假设\(x << c\)）
+解得 \(x = [H^+] = \sqrt{K_a^\ominus \cdot c} = \sqrt{1.8 \times 10^{-5} \times 0.10} = \sqrt{1.8 \times 10^{-6}} = 1.34 \times 10^{-3} \, \mathrm{mol \cdot dm^{-3}}\)
+
+将[H+]代入Nernst方程中，考虑到\(25^\circ C\)下\(RT/F = 0.0592\, \mathrm{V}\)，
+\[E = -0.0592\log(1.34 \times 10^{-3})\]
+\[E = -0.0592(-2.87) = 0.170\, \mathrm{V}\]",：0.170,N/A,N/A,N/A
+"已知 ${E}^{ \ominus }\left( {{\mathrm{{MnO}}}_{4}/{\mathrm{{Mn}}}^{2 + }}\right) = {1.51}\mathrm{\;V},{E}^{ \ominus }\left( {{\mathrm{{Br}}}_{2}/{\mathrm{{Br}}}^{ - }}\right) = {1.08}\mathrm{\;V},{E}^{ \ominus }\left( {{\mathrm{{Cl}}}_{2}/{\mathrm{{Cl}}}^{ - }}\right) = {1.36}\mathrm{\;V}$ 。拟使酸性混合溶液中的 ${\mathrm{{Br}}}^{ - }$ 被 ${\mathrm{{MnO}}}_{4}^{ - }$ 氧化而 ${\mathrm{{Cl}}}^{ - }$ 不被氧化,则溶液的 $\mathrm{{pH}}$ 控制范围是",${1.59} \sim {4.56}$,"：为了确定溶液的pH控制范围，使得${\mathrm{{Br}}}^{-}$被${\mathrm{{MnO}}}_{4}^{-}$氧化而${\mathrm{{Cl}}}^{-}$不被氧化，我们需要考虑两个半反应的标准电极电位以及它们如何受pH影响。
+
+1. ${\mathrm{{MnO}}}_{4}^{-}/{\mathrm{{Mn}}}^{2+}$和${\mathrm{{Br}}}_{2}/{\mathrm{{Br}}}^{-}$之间的反应可以表示为：
+   - 氧化反应: ${\mathrm{{Br}}}^{-} \rightarrow {\mathrm{{Br}}}_{2} + 2e^{-}$
+   - 还原反应: ${\mathrm{{MnO}}}_{4}^{-} + 8H^+ + 5e^{-} \rightarrow {\mathrm{{Mn}}}^{2+} + 4H_{2}O$
+
+2. 根据Nernst方程, 反应的方向取决于两者的电极电势差。为了让${\mathrm{{Br}}}^{-}$被氧化，需要保证${\mathrm{{MnO}}}_{4}^{-}/{\mathrm{{Mn}}}^{2+}$对的电极电势高于${\mathrm{{Br}}}_{2}/{\mathrm{{Br}}}^{-}$对的电极电势。
+   
+3. 同理, 要使${\mathrm{{Cl}}}^{-}$不被氧化，则需确保${\mathrm{{MnO}}}_{4}^{-}/{\mathrm{{Mn}}}^{2+}$对的电极电势低于${\mathrm{{Cl}}}_{2}/{\mathrm{{Cl}}}^{-}$对的电极电势或者接近到足以阻止该反应发生。
+
+4. 给定的电极电位分别是:
+   - ${E}^{\ominus}\left({\mathrm{{MnO}}}_{4}^{-}/{\mathrm{{Mn}}}^{2+}\right) = 1.51\,\mathrm{V}$
+   - ${E}^{\ominus}\left({\mathrm{{Br}}}_{2}/{\mathrm{{Br}}}^{-}\right) = 1.08\,\mathrm{V}$
+   - ${E}^{\ominus}\left({\mathrm{{Cl}}}_{2}/{\mathrm{{Cl}}}^{-}\right) = 1.36\,\mathrm{V}$
+
+5. 通过比较标准电极电位可以看出，在标准条件下（即pH=0），${\mathrm{{MnO}}}_{4}^{-}/{\mathrm{{Mn}}}^{2+}$对确实能够氧化${\mathrm{{Br}}}^{-}$但不足以氧化${\mathrm{{Cl}}}^{-}$。然而，随着pH增加，${\mathrm{{MnO}}}_{4}^{-}/{\mathrm{{Mn}}}^{2+}$对的有效电极电位会下降（因为该反应涉及质子消耗），这意味着存在一个临界pH值，在此之上${\mathrm{{MnO}}}_{4}^{-}$将不再有效地氧化${\mathrm{{Br}}}^{-}$，而在更低的pH下它可能会开始氧化${\mathrm{{Cl}}}^{-}$。
+
+6. 使用Nernst方程计算具体pH值时，我们注意到对于${\mathrm{{MnO}}}_{4}^{-}/{\mathrm{{Mn}}}^{2+}$系统来说，每增加一个单位的pH，其电位大约减少0.0592V（在25°C）。因此，要保持${\mathrm{{Br}}}^{-}$被氧化同时防止${\mathrm{{Cl}}}^{-}$被氧化，pH应该足够低以保证${\mathrm{{MnO}}}_{4}^{-}/{\mathrm{{Mn}}}^{2+}$对仍能有效氧化${\mathrm{{Br}}}^{-}$（即电位>1.08V）但又不能太低以至于${\mathrm{{MnO}}}_{4}^{-}$也开始显著氧化${\mathrm{{Cl}}}^{-}$（即电位<1.36V）。
+
+7. 计算得出，当${E}^{\ominus}(\mathrm{{MnO}}_4^-/\mathrm{{Mn}}^{2+})$降至约1.08V时对应的pH约为2.4；当升至约1.36V时对应的pH约为-0.6。因此，合理的pH控制范围应在两者之间。",：2.4 > pH > -0.6,N/A,N/A,N/A
+"对于原电池 $\left( -\right) \mathrm{A} \mid {\mathrm{A}}^{2 + }\left( {c}_{1}\right) \begin{Vmatrix}{{\mathrm{B}}^{2 + }\left( {c}_{2}\right) }\end{Vmatrix}\mathrm{B}\left( +\right)$ ,当 ${c}_{1} = {c}_{2}$ 时, $E = {0.78}\mathrm{\;V}$ ,则放电一段时
+间至电动势减半时, ${c}_{1}/{c}_{2} =$",${1.7} \times {10}^{13}$,"：对于给定的原电池 $\left( -\right) \mathrm{A} \mid {\mathrm{A}}^{2 + }\left( {c}_{1}\right) \begin{Vmatrix}{{\mathrm{B}}^{2 + }\left( {c}_{2}\right) }\end{Vmatrix}\mathrm{B}\left( +\right)$，其电动势E可由Nernst方程来描述。Nernst方程的一般形式为\[E = E^{\circ}-\frac{RT}{nF}\ln Q\]其中，$E^{\circ}$是标准电极电位（在本题中，当$c_1=c_2$时给出的$E=0.78\,V$实际上代表了$E^{\circ}$值），R是理想气体常数，T是温度（假设题目中的条件是在标准条件下进行的，即298K），n是电子转移数（对于$\mathrm{A} \rightarrow \mathrm{A}^{2+} + 2e^{-}$和$\mathrm{B}^{2+} + 2e^{-} \rightarrow \mathrm{B}$这样的反应，n=2），F是法拉第常数，Q是反应商。
+
+题目指出，在开始时$c_1=c_2$且此时$E=E^{\circ}=0.78\,V$。当放电一段时间后，电动势减半，即变为$E=0.39\,V$。我们需要找到此时$c_1/c_2$的比例。
+
+根据Nernst方程，当$E=0.39\,V$时，有
+\[0.39 = 0.78 - \frac{RT}{2F}\ln\left(\frac{c_2}{c_1}\right)\]
+因为$E^{\circ}=0.78\,V$，代入并简化得到
+\[-0.39 = -\frac{RT}{2F}\ln\left(\frac{c_2}{c_1}\right)\]
+
+进一步化简得
+\[0.39 = \frac{RT}{2F}\ln\left(\frac{c_2}{c_1}\right)\]
+
+由于$\frac{RT}{F}$在25°C下约等于0.0592 V/decade (考虑到n=2)，则上式可以写作
+\[0.39 = 0.0592\ln\left(\frac{c_2}{c_1}\right)\times 2\]
+
+解此方程得到
+\[\ln\left(\frac{c_2}{c_1}\right) = \frac{0.39}{0.1184} \approx 3.3\]
+
+因此，
+\[\frac{c_2}{c_1} = e^{3.3} \approx 27.1\]
+
+这意味着$c_1/c_2 = 1/27.1$。",：0.037,N/A,N/A,N/A

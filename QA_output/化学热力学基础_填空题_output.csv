@@ -1,0 +1,68 @@
+query,true_answer,reasoning,model_answer,knowledge_accuracy,reasoning_accuracy,final_answer_accuracy
+"$2\mathrm{{mol}}\mathrm{{Hg}}$ (l) 在沸点温度 $\left( {{630}\mathrm{\;K}}\right)$ 蒸发过程中所吸收的热量为 ${109.12}\mathrm{{kJ}}$ ,则汞的标准摩尔蒸发热 ${\Delta }_{\text{vap }}{H}_{\mathrm{m}}^{ \ominus } = \mathrm{{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ ; 该过程对环境做功 $W = \mathrm{{kJ}},{\Delta U} = \mathrm{L}$ $\mathrm{{kJ}},{\Delta S} = \mathrm{J} \cdot {\mathrm{K}}^{-1},{\Delta G} = \mathrm{{kJ}}$ 。","54.56,10.48,98.64,173.2,0","：根据题目，我们知道$2\mathrm{mol}$的液态汞在沸点温度（630K）蒸发时吸收了109.12kJ的热量。首先，我们要计算标准摩尔蒸发热${\Delta }_{\text{vap }}{H}_{\mathrm{m}}^{ \ominus }$。由于给定的是2mol汞蒸发所需的热量，我们可以通过将总热量除以物质的量来得到每摩尔汞蒸发所需的热量，即${\Delta }_{\text{vap }}{H}_{\mathrm{m}}^{ \ominus } = 109.12\, \mathrm{kJ} / 2\, \mathrm{mol} = 54.56\, \mathrm{kJ}\cdot \mathrm{mol}^{-1}$。
+
+接着，考虑该过程中系统对外界做的功$W$。液体转变为气体的过程可以视为等温膨胀过程，在理想情况下，可以用$pV = nRT$公式来近似计算体积变化带来的功，但由于这里直接给出的信息不足以精确计算体积变化量，通常认为在相变过程中，相对于热效应而言，做功相对较小，特别是在没有具体提及的情况下，我们可以假设这个值接近于零或忽略不计。因此，对于本题目的解答，我们将$W$设为0 kJ。
+
+然后是内能变化${\Delta U}$。根据热力学第一定律$\Delta U = Q - W$，其中$Q=109.12\, \mathrm{kJ}$为系统吸收的热量，而$W=0\, \mathrm{kJ}$，所以${\Delta U} = 109.12\, \mathrm{kJ}$。
+
+熵变${\Delta S}$可以通过公式${\Delta S} = {\Delta H}/{T}$计算，其中${\Delta H}=109.12\, \mathrm{kJ}$是整个过程的焓变，而$T=630\, \mathrm{K}$是绝对温度。因此，${\Delta S} = 109.12\, \mathrm{kJ}/630\, \mathrm{K} = 0.1732\, \mathrm{kJ/K} = 173.2\, \mathrm{J/K}$。
+
+最后，吉布斯自由能变${\Delta G}$可以通过${\Delta G} = {\Delta H} - T{\Delta S}$计算。在这个特定条件下（即沸点），${\Delta G}=0$，因为这是相平衡状态下的特征之一。",：54.56; 0; 109.12; 173.2; 0,N/A,N/A,N/A
+"已知 ${\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }\left( {\mathrm{{ClF}},\mathrm{g}}\right) = - {50.6}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1},{D}_{\mathrm{{Cl}} - \mathrm{{Cl}}} = {239}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1},{D}_{\mathrm{F} - \mathrm{F}} = {166}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ ,则 $\mathrm{{ClF}}$ 的解离能 ___$D = \mathrm{{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ 。",253.1,"：为了求解ClF的解离能，我们需要理解给定的信息以及它们如何关联到目标。首先，${\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }\left( {\mathrm{{ClF}},\mathrm{g}}\right) = -50.6\,\mathrm{kJ}\cdot{\mathrm{mol}}^{-1}$ 表示在标准状态下形成1摩尔气态ClF时释放的能量为50.6 kJ。而$D_{\mathrm{Cl-Cl}} = 239\,\mathrm{kJ}\cdot{\mathrm{mol}}^{-1}$ 和 $D_{\mathrm{F-F}} = 166\,\mathrm{kJ}\cdot{\mathrm{mol}}^{-1}$ 分别代表了断裂一个Cl-Cl键和F-F键所需能量。
+
+要找到ClF分子的解离能，即打破Cl-F键所需的能量，我们可以考虑反应路径：
+\[ \frac{1}{2}\mathrm{Cl}_2(g) + \frac{1}{2}\mathrm{F}_2(g) \rightarrow \mathrm{ClF}(g) \]
+根据Hess定律，这个过程可以分解为几个步骤：
+1. 断裂$\frac{1}{2}$个Cl-Cl键（需要$239/2=119.5\, \mathrm{kJ}\cdot\mathrm{mol}^{-1}$）。
+2. 断裂$\frac{1}{2}$个F-F键（需要$166/2=83\, \mathrm{kJ}\cdot\mathrm{mol}^{-1}$）。
+3. 形成1摩尔ClF（释放$50.6\, \mathrm{kJ}\cdot\mathrm{mol}^{-1}$）。
+
+因此，总的化学反应焓变（ΔH）可以通过将这些值相加来计算，但要注意符号。形成ClF是放热过程，所以它的值应该取负数。总能量变化等于断键所需的能量减去成键释放的能量：
+\[ \Delta H = (119.5 + 83) - (-50.6) = 253.1\, \mathrm{kJ}\cdot\mathrm{mol}^{-1} \]
+
+然而，这里我们实际上寻找的是逆向过程的能量需求，即从ClF分解回元素形式的能量需求，也就是ClF的解离能。上述计算实际上给出了合成ClF时的净能量变化，对于解离能来说，它正好是该值的相反数（因为我们是从产物回到反应物）。但是，由于我们的目的是找出ClF分解的能量需求，直接使用上面的结果作为ClF解离能即可，因为这已经是考虑到所有相关键能后的结果。",：253.1,N/A,N/A,N/A
+"已知 ${25}^{ \circ }\mathrm{C}$ 时, ${\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }\left( {{\mathrm{{Br}}}_{2},\mathrm{\;g}}\right) = {30.71}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1},{\Delta }_{\mathrm{f}}{G}_{\mathrm{m}}^{ \ominus }\left( {{\mathrm{{Br}}}_{2},\mathrm{\;g}}\right) = {3.14}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ ,则 ${\mathrm{{Br}}}_{2}\left( 1\right)$ 的标准摩尔蒸发熵为 $\mathrm{J} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1}$ ,正常沸点为 C。","92.52,58.93","：首先，我们需要理解题目给出的数据以及它们之间的关系。题目提供了${\mathrm{Br}}_2(g)$的标准生成焓(${\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }$)和标准生成吉布斯自由能(${\Delta }_{\mathrm{f}}{G}_{\mathrm{m}}^{ \ominus }$)，并要求计算液态溴${\mathrm{Br}}_2(l)$到气态溴${\mathrm{Br}}_2(g)$的标准摩尔蒸发熵($\Delta S_{\text{vap}}^{\ominus}$)及正常沸点。
+
+1. 由热力学基本公式可知：$\Delta G = \Delta H - T\Delta S$，对于从液态转变为气态的过程（即蒸发），我们可以用这个关系来表达$\Delta S_{\text{vap}}^{\ominus}$。
+2. 根据题目信息，我们知道${\mathrm{Br}}_2(g)$的标准生成吉布斯自由能变化量为3.14 kJ/mol，而其标准生成焓为30.71 kJ/mol。但是，这些值直接代表的是相对于元素最稳定形式的生成过程，而不是相变过程。因此，为了找到蒸发过程中的$\Delta G^{\ominus}$、$\Delta H^{\ominus}$，我们还需要知道液态溴的标准生成焓和吉布斯自由能。然而，由于液态溴是溴元素在标准状态下的参考形式，故其标准生成焓${\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }({\mathrm{Br}}_2, l) = 0$ kJ/mol，同样地，${\Delta }_{\mathrm{f}}{G}_{\mathrm{m}}^{ \ominus }({\mathrm{Br}}_2, l) = 0$ kJ/mol。
+3. 因此，蒸发过程中$\Delta G^{\ominus} = 3.14$ kJ/mol, $\Delta H^{\ominus} = 30.71$ kJ/mol。
+4. 将上述值代入$\Delta G = \Delta H - T\Delta S$中解得$\Delta S_{\text{vap}}^{\ominus} = (\Delta H^{\ominus} - \Delta G^{\ominus}) / T$，其中T为绝对温度。这里使用的是开尔文温度单位，因为熵的单位是J/(mol·K)。
+5. 对于正常沸点的计算，我们知道在沸点时液体转化为气体的过程处于平衡状态，此时$\Delta G = 0$，即$\Delta H - T\Delta S = 0$，从而可以求得沸点温度$T_b$。","：\[ \Delta S_{\text{vap}}^{\ominus} = (30.71 - 3.14) \times 10^3 \, \text{J/mol} / (298.15 \, \text{K}) = 96.24 \, \text{J/(mol·K)} \]
+\[ T_b = \Delta H^{\ominus} / \Delta S_{\text{vap}}^{\ominus} = 30.71 \times 10^3 \, \text{J/mol} / 96.24 \, \text{J/(mol·K)} = 319.08 \, \text{K} \approx 46.93 \, ^{\circ}\text{C} \]
+
+所以，填空部分的答案分别为：96.24 J/(mol·K) 和 46.93 C。注意这里的温度转换是从开尔文到摄氏度，通过减去273.15实现。",N/A,N/A,N/A
+"已知反应 $2\mathrm{{HgO}}\left( \mathrm{s}\right) = 2\mathrm{{Hg}}\left( \mathrm{l}\right) + {\mathrm{O}}_{2}\left( \mathrm{\;g}\right)$ 的 ${\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus } = {181.4}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ ,则 ${\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }\left( {\mathrm{{HgO}},\mathrm{s}}\right) =$
+
+$\mathrm{{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ 。已知 ${A}_{\mathrm{r}}\left( \mathrm{{Hg}}\right) = {201}$ ,生成 $1\mathrm{\;g}\mathrm{{Hg}}\left( \mathrm{l}\right)$ 的焓变是 $\mathrm{{kJ}}$ 。","-90.7,0.451","：首先，根据题目给出的反应方程式 $2\mathrm{HgO(s)} = 2\mathrm{Hg(l)} + \mathrm{O_2(g)}$ 及其标准摩尔焓变 ${\Delta }_{\mathrm{r}}{H}_{\mathrm{m}}^{ \ominus } = 181.4\,\mathrm{kJ}\cdot{\mathrm{mol}}^{-1}$，我们知道这个值代表了生成2摩尔液态汞和1摩尔氧气相对于分解2摩尔氧化汞时释放或吸收的能量。由于题目要求我们求解$\mathrm{HgO(s)}$的标准生成焓${\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }\left( {\mathrm{{HgO}},\mathrm{s}}\right)$，我们需要使用上述信息。
+
+根据定义，标准生成焓是指在标准状态下，由最稳定的单质形成1摩尔化合物时的焓变。对于给定反应，如果将反应逆向考虑，则可以视为从元素（$\mathrm{Hg(l)}$ 和 $\mathrm{O_2(g)}$）合成$\mathrm{HgO(s)}$的过程。因此，该逆反应的焓变将是正反应焓变的相反数，即${\Delta }_{\mathrm{f}}{H}_{\mathrm{m}}^{ \ominus }\left( {\mathrm{{HgO}},\mathrm{s}}\right) = -\frac{1}{2} \times 181.4\, \mathrm{kJ/mol} = -90.7\, \mathrm{kJ/mol}$。
+
+接下来，计算生成$1\, \mathrm{g}$液态汞的焓变。已知$\mathrm{Hg}$的原子量为$201\, \mathrm{g/mol}$，所以生成1摩尔$\mathrm{Hg(l)}$的焓变为总焓变的一半（因为反应式中生成了2摩尔$\mathrm{Hg(l)}$），即$90.7\, \mathrm{kJ/mol}$。要得到生成$1\, \mathrm{g}$汞的焓变，需要将此值除以$\mathrm{Hg}$的摩尔质量，即$\frac{90.7\, \mathrm{kJ}}{201\, \mathrm{g/mol}} = 0.451\, \mathrm{kJ/g}$。",：-90.7; 0.451,N/A,N/A,N/A
+"已知某弹式热量计与其内容物总的热容为 ${4.633}\mathrm{\;{kJ}} \cdot {\mathrm{K}}^{-1}$ ,在其中完全燃烧 ${0.103}\mathrm{\;g}$ 甲苯
+
+${\mathrm{C}}_{7}{\mathrm{H}}_{8}\left( 1\right)$ 使热量计升温 ${0.944}\mathrm{\;K}$ ,则甲苯燃烧反应的恒容反应热效应 ${\Delta }_{\mathrm{r}}{U}_{\mathrm{m}} =$
+
+$\mathrm{{kJ}} \cdot {\mathrm{{mol}}}^{-1};{298}\mathrm{\;K}$ 时, ${0.1}\mathrm{\;{mol}}$ 甲苯完全燃烧,其 ${Q}_{p}$ 与 ${Q}_{V}$ 的差值为 $\mathrm{{kJ}}$ 。
+","-3905.4,0.496","：首先，根据题目给出的信息，我们知道弹式热量计及其内容物的总热容为 ${4.633}\mathrm{\;{kJ}} \cdot {\mathrm{K}}^{-1}$，当${0.103}\mathrm{\;g}$ 甲苯完全燃烧时，导致系统温度升高了 ${0.944}\mathrm{\;K}$。由此可以计算出甲苯燃烧放出的热量 $q = C\Delta T = 4.633\, \mathrm{kJ/K} \times 0.944\, \mathrm{K} = 4.372\, \mathrm{kJ}$。这代表了${0.103}\mathrm{\;g}$ 甲苯在恒容条件下燃烧释放的能量。
+
+接下来，需要将这个能量转换成每摩尔甲苯燃烧释放的能量。甲苯(${\mathrm{C}}_{7}{\mathrm{H}}_{8}$)的摩尔质量约为$92.14\, \mathrm{g/mol}$。因此，${0.103}\mathrm{\;g}$ 甲苯相当于 $\frac{0.103}{92.14} = 0.001118\, \mathrm{mol}$ 的甲苯。所以，每摩尔甲苯燃烧释放的能量（即$\Delta U_m$）可以通过比例关系计算得出：$\Delta U_m = \frac{4.372\, \mathrm{kJ}}{0.001118\, \mathrm{mol}} = 3909.57\, \mathrm{kJ/mol}$。
+
+对于第二部分问题，我们需要计算在${298}\mathrm{\;K}$时，${0.1}\mathrm{\;{mol}}$甲苯完全燃烧时${Q}_{p}$与${Q}_{V}$的差值。根据热力学原理，$\Delta H - \Delta U = \Delta (PV) = \Delta nRT$，其中$\Delta n$是反应前后气体物质的量变化。甲苯燃烧方程式为${\mathrm{C}}_{7}{\mathrm{H}}_{8}(l) + 9O_2(g) \rightarrow 7CO_2(g) + 4H_2O(l)$，可以看出$\Delta n = 7-9 = -2$ mol。因此，对于${0.1}\mathrm{\;{mol}}$甲苯而言，$\Delta n = -0.2\, \mathrm{mol}$。代入公式得$\Delta (Q_p - Q_V) = -0.2\, \mathrm{mol} \times 8.314\, \mathrm{J/(mol\cdot K)} \times 298\, \mathrm{K} = -497.33\, \mathrm{J} = -0.49733\, \mathrm{kJ}$。",：3909.57; -0.49733,N/A,N/A,N/A
+"将下列物质按摩尔熵值由小到大排列, 其顺序为___
+
+$\mathrm{{LiCl}}\left( \mathrm{s}\right) ,\mathrm{{Li}}\left( \mathrm{s}\right) ,{\mathrm{{Cl}}}_{2}\left( \mathrm{\;g}\right) ,{\mathrm{I}}_{2}\left( \mathrm{\;g}\right) ,\mathrm{{Ne}}\left( \mathrm{g}\right)$ 。","$\mathrm{{Li}}\left( \mathrm{s}\right) ,\mathrm{{LiCl}}\left( \mathrm{s}\right) ,\mathrm{{Ne}}\left( \mathrm{g}\right) ,{\mathrm{{Cl}}}_{2}\left( \mathrm{\;g}\right) ,{\mathrm{I}}_{2}\left( \mathrm{\;g}\right)$","：为了回答这个问题，我们需要考虑熵的概念及其影响因素。熵是衡量系统无序程度的一个物理量，在化学中，物质的熵与其状态（固态、液态或气态）、分子复杂性以及分子间作用力等因素有关。
+
+1. **状态对熵的影响**：一般来说，对于同一种物质，气态的熵大于液态，而液态的熵又大于固态。这是因为气体中的粒子比液体和固体中的粒子具有更高的自由度，能够占据更大的空间，因此表现出更高的无序度。
+2. **分子复杂性和原子数量**：在相同条件下，更复杂的分子或含有更多原子的分子通常具有更高的熵值，因为它们内部结构更加复杂，提供了更多的微观状态。
+3. **分子间作用力**：较强的分子间作用力会导致较低的熵值，因为它限制了分子间的相对运动自由度。
+
+基于以上原则分析题目中的选项：
+- $\mathrm{LiCl(s)}$ 是一个离子化合物，以晶体形式存在，其粒子排列有序，熵值相对较小。
+- $\mathrm{Li(s)}$ 作为金属单质，虽然也是固态，但相比$\mathrm{LiCl}$来说，它的结构较为简单，但由于依然是固态，所以熵值仍然不高。
+- ${\mathrm{Cl}}_{2}(\mathrm{g})$ 和 ${\mathrm{I}}_{2}(\mathrm{g})$ 都是气态双原子分子，但碘比氯重，且碘分子之间的范德华力较弱，使得${\mathrm{I}}_{2}(\mathrm{g})$拥有更高的熵值。
+- $\mathrm{Ne(g)}$ 为单原子气体，虽然它处于气态，但由于它是单一元素构成，没有内部振动模式，因此相对于多原子分子来说，它的熵值较低。
+
+综上所述，我们可以得出这些物质按照摩尔熵从小到大的排序应该是：$\mathrm{LiCl(s)} < \mathrm{Li(s)} < \mathrm{Ne(g)} < {\mathrm{Cl}}_{2}(\mathrm{g}) < {\mathrm{I}}_{2}(\mathrm{g})$。","：$\mathrm{LiCl(s)}, \mathrm{Li(s)}, \mathrm{Ne(g)}, {\mathrm{Cl}}_{2}(\mathrm{g}), {\mathrm{I}}_{2}(\mathrm{g})$",N/A,N/A,N/A
+"将少量 $\mathrm{{NaOH}}$ 固体溶于水,溶液变热,则 $\mathrm{{NaOH}}$ 溶于水过程的 ${\Delta H}\underline{\;}0,{\Delta S}\underline{\;}0$ , ${\Delta G}$ ___ 0。
+","< , > , <","：当NaOH固体溶解于水中时，溶液变热，这意味着该溶解过程是一个放热反应，即${\Delta H}<0$。这表明系统向周围环境释放了热量。接下来考虑熵变${\Delta S}$，由于NaOH从固态转变为水合离子分散在溶剂中，粒子的无序度增加，因此可以判断${\Delta S}>0$。最后，根据吉布斯自由能变化公式${\Delta G} = {\Delta H} - T{\Delta S}$，其中T是绝对温度（总是正值）。给定条件下，${\Delta H}<0$且${\Delta S}>0$，因此$-T{\Delta S}$也是负值。将两个负值相加，结果依然是负值，意味着${\Delta G}<0$。综上所述，对于NaOH溶解于水的过程，我们得到${\Delta H}<0, {\Delta S}>0, {\Delta G}<0$。",：<,N/A,N/A,N/A
+"若 $3\mathrm{\;{mol}}$ 理想气体向真空膨胀,该过程的 $Q, W,{\Delta U},{\Delta H},{\Delta S},{\Delta G}$ 中不为零的是","${\Delta S},{\Delta G}$ ","：当理想气体向真空膨胀时，这个过程是一个典型的自由膨胀过程。在这个过程中，由于没有外界对系统做功也没有系统对外界做功（即$W=0$），同时因为是绝热过程，所以与外界没有热量交换（即$Q=0$）。根据热力学第一定律$\Delta U = Q - W$，可以得出内能变化$\Delta U = 0$。对于理想气体而言，其内能仅由温度决定，在没有热量交换且不做功的情况下，温度保持不变，因此内能不变。焓变$\Delta H = \Delta U + \Delta (PV)$，在体积增加而温度不变的情况下，虽然压力降低但$PV=nRT$保持恒定（$n, R, T$均为常数），故$\Delta H = 0$。然而，熵变$\Delta S > 0$，因为这是一个自发的、不可逆的过程，导致系统的混乱度增加。吉布斯自由能的变化$\Delta G = \Delta H - T\Delta S$，由于$\Delta H = 0$但是$\Delta S > 0$，所以$\Delta G < 0$。综上所述，在给定条件下不为零的是熵变$\Delta S$和吉布斯自由能变化$\Delta G$。","：$\Delta S, \Delta G$",N/A,N/A,N/A

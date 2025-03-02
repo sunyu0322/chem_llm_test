@@ -1,0 +1,95 @@
+query,true_answer,reasoning,model_answer,knowledge_accuracy,reasoning_accuracy,final_answer_accuracy
+写出从钛铁矿 $\left( {\mathrm{{FeTiO}}}_{3}\right)$ 提取钛白粉的化学反应方程式。,"先用浓硫酸处理钛铁矿粉:
+
+$$
+{\mathrm{{FeTiO}}}_{3} + 3{\mathrm{H}}_{2}{\mathrm{{SO}}}_{4}\overset{\bigtriangleup }{ \rightleftharpoons }\mathrm{{Ti}}{\left( {\mathrm{{SO}}}_{4}\right) }_{2} + {\mathrm{{FeSO}}}_{4} + 3{\mathrm{H}}_{2}\mathrm{O}
+$$
+
+加入铁粉防止 ${\mathrm{{Fe}}}^{2 + }$ 被氧化。低温下结晶析出 ${\mathrm{{FeSO}}}_{4} \cdot 7{\mathrm{H}}_{2}\mathrm{O}$ ,过滤后稀释、加热使 $\mathrm{{Ti}}{\left( {\mathrm{{SO}}}_{4}\right) }_{2}$ 水解转化为 ${\mathrm{{TiOSO}}}_{4}$ ,进一步沉淀出偏钛酸 ${\mathrm{H}}_{2}{\mathrm{{TiO}}}_{3}$ ,然后煅烧 ${\mathrm{H}}_{2}{\mathrm{{TiO}}}_{3}$ ,脱水得 ${\mathrm{{TiO}}}_{2}$ :
+
+$$
+{\mathrm{H}}_{2}{\mathrm{{TiO}}}_{3}\xrightarrow[]{\text{ 煅烧 }}{\mathrm{{TiO}}}_{2} + {\mathrm{H}}_{2}\mathrm{O}
+$$
+",：要从钛铁矿（${\mathrm{{FeTiO}}}_{3}$）中提取钛白粉，通常采用的是硫酸法或氯化法。这里以较为常见的硫酸法为例进行说明。首先，将钛铁矿与浓硫酸反应生成可溶性的硫酸氧钛和不溶的硫酸亚铁。反应方程式如下：\[{\mathrm{{FeTiO}}}_{3} + 2H_2SO_4 \rightarrow TiOSO_4 + FeSO_4 + 2H_2O\]。接着，通过一系列处理步骤去除杂质后，再用热水水解硫酸氧钛得到偏钛酸沉淀：\[TiOSO_4 + H_2O \rightarrow H_2TiO_3↓ + H_2SO_4\]。最后一步是煅烧偏钛酸，使其脱水并转化为二氧化钛（即钛白粉）：\[H_2TiO_3 \xrightarrow{加热} TiO_2 + H_2O\]。因此，整个过程中关键的化学转化是从钛铁矿到最终产物二氧化钛的变化。,"：\[{\mathrm{{FeTiO}}}_{3} + 2H_2SO_4 \rightarrow TiOSO_4 + FeSO_4 + 2H_2O\]
+\[TiOSO_4 + H_2O \rightarrow H_2TiO_3↓ + H_2SO_4\]
+\[H_2TiO_3 \xrightarrow{加热} TiO_2 + H_2O\]",N/A,N/A,N/A
+由 ${\mathrm{{TiO}}}_{2}$ 制备 ${\mathrm{{TiCl}}}_{4}$ 。,"高温下 ${\mathrm{{TiO}}}_{2}$ 和炭粉的混合物与 ${\mathrm{{Cl}}}_{2}$ 反应得到 ${\mathrm{{TiCl}}}_{4}$ :
+
+$$
+{\mathrm{{TiO}}}_{2} + 2\mathrm{C} + 2{\mathrm{{Cl}}}_{2}\xrightarrow[]{\bigtriangleup }{\mathrm{{TiCl}}}_{4} + 2\mathrm{{CO}}
+$$
+
+${\mathrm{{TiO}}}_{2}$ 和 ${\mathrm{{CCl}}}_{4}$ 共热也能生成 ${\mathrm{{TiCl}}}_{4}$ :
+
+$$
+{\mathrm{{TiO}}}_{2} + {\mathrm{{CCl}}}_{4} = {\mathrm{{TiCl}}}_{4} + {\mathrm{{CO}}}_{2} \uparrow
+$$
+",：题目要求由 ${\mathrm{{TiO}}}_{2}$ 制备 ${\mathrm{{TiCl}}}_{4}$。首先，我们需要了解这两种物质的基本性质。${\mathrm{{TiO}}}_{2}$ 是二氧化钛，是一种稳定的白色固体，在自然界中以金红石、锐钛矿等形式存在。而 ${\mathrm{{TiCl}}}_{4}$ 为四氯化钛，是一种无色至淡黄色的液体，容易与水反应生成氢氧化钛沉淀及盐酸。从化学成分上看，要实现从 ${\mathrm{{TiO}}}_{2}$ 到 ${\mathrm{{TiCl}}}_{4}$ 的转化，需要将氧元素替换为氯元素。这可以通过使用氯气（$\mathrm{Cl}_2$）作为氯源来完成。在高温条件下，$\mathrm{Cl}_2$ 可以与 ${\mathrm{{TiO}}}_{2}$ 发生置换反应，生成 ${\mathrm{{TiCl}}}_{4}$ 和氧气。此过程可以表示为化学方程式：\[{\mathrm{{TiO}}}_{2} + 2\mathrm{Cl}_2 \rightarrow {\mathrm{{TiCl}}}_{4} + \frac{1}{2}\mathrm{O}_2\]。需要注意的是，这个反应通常需要在较高的温度下进行，因为直接用 $\mathrm{Cl}_2$ 与 ${\mathrm{{TiO}}}_{2}$ 在室温下的反应速率非常慢。,：通过使 ${\mathrm{{TiO}}}_{2}$ 与 $\mathrm{Cl}_2$ 在加热条件下反应制得 ${\mathrm{{TiCl}}}_{4}$。具体的化学反应方程式为：\[{\mathrm{{TiO}}}_{2} + 2\mathrm{Cl}_2 \rightarrow {\mathrm{{TiCl}}}_{4} + \frac{1}{2}\mathrm{O}_2\]。,N/A,N/A,N/A
+如何由金属钛制取三氯化钛和钛酸钡?,"三氯化钛一般由金属钛在高温下还原四氯化钛制得:
+
+$$
+\mathrm{{Ti}} + 2{\mathrm{{Cl}}}_{2}\xrightarrow[]{\text{ 高温 }}{\mathrm{{TiCl}}}_{4}
+$$
+
+$$
+3{\mathrm{{TiCl}}}_{4} + \mathrm{{Ti}}\xrightarrow[]{{600}{}^{ \circ }\mathrm{C}}4{\mathrm{{TiCl}}}_{3}
+$$
+
+金属钛在加热条件下与盐酸反应也可制得紫色的 ${\mathrm{{TiCl}}}_{3}$ 溶液。
+
+钛酸钡可通过以下反应制备:
+
+$$
+\mathrm{{Ti}} + {\mathrm{O}}_{2}\xrightarrow[]{\text{ 高温 }}{\mathrm{{TiO}}}_{2}
+$$
+
+$$
+{\mathrm{{TiO}}}_{2} + {\mathrm{{BaCO}}}_{3}\xrightarrow[]{\text{ 熔融 }}{\mathrm{{BaTiO}}}_{3} + {\mathrm{{CO}}}_{2} \uparrow
+$$
+",：题目要求从金属钛出发制备三氯化钛(TiCl₃)和钛酸钡(BaTiO₃)。首先，我们需要考虑如何将金属钛转化为三氯化钛。根据化学原理，金属与卤素反应可以生成相应的金属卤化物。因此，金属钛可以在适当的条件下（如加热）与氯气(Cl₂)反应生成四氯化钛(TiCl₄)，而非直接得到三氯化钛。但是，通过控制反应条件或采用还原剂（比如氢气H₂），可以从TiCl₄进一步处理得到TiCl₃。接下来，为了制备钛酸钡，我们可以利用已有的TiCl₃作为原料之一。一种方法是先将TiCl₃转换为二氧化钛(TiO₂)，这可以通过水解等方法实现；然后，在碱性条件下使Ba²⁺离子与TiO₂反应，形成BaTiO₃沉淀。另一种可能的途径是从TiCl₃开始，直接在含有钡离子的溶液中进行反应，但这种方法较为复杂且不易控制产物纯度。综上所述，合理的制备路线应该是：金属钛 → 四氯化钛 → 三氯化钛 → 二氧化钛 → 钛酸钡。,"：
+1. 金属钛与氯气反应生成四氯化钛: Ti + 2Cl₂ → TiCl₄
+2. 在一定条件下，使用还原剂（例如H₂）作用于TiCl₄以制得三氯化钛: TiCl₄ + H₂ → TiCl₃ + HCl
+3. 将三氯化钛水解生成二氧化钛: TiCl₃ + 3H₂O → TiO₂ + 3HCl
+4. 最后，在碱性环境中，让Ba²⁺与TiO₂反应生成钛酸钡: Ba²⁺ + TiO₂ → BaTiO₃ (实际操作时需要控制pH值以及温度等因素来促进沉淀形成)",N/A,N/A,N/A
+写出以金属钒为原料制取五氧化二钒和偏钒酸铵的化学反应方程式。,"金属钒与氧气在 ${660}^{ \circ }\mathrm{C}$ 共热可得到五氧化二钒:
+
+$$
+4\mathrm{\;V} + 5{\mathrm{O}}_{2}\xrightarrow[]{{660}{}^{ \circ }\mathrm{C}}2{\mathrm{\;V}}_{2}{\mathrm{O}}_{5}
+$$
+
+${\mathrm{V}}_{2}{\mathrm{O}}_{5}$ 在热的 $\mathrm{{NaOH}}$ 溶液中生成浅黄色的偏钒酸根 ${\mathrm{{VO}}}_{3}^{ - }$ :
+
+$$
+{\mathrm{V}}_{2}{\mathrm{O}}_{5} + 2{\mathrm{{OH}}}^{ - }\xrightarrow[]{\bigtriangleup }2{\mathrm{{VO}}}_{3}^{ - } + {\mathrm{H}}_{2}\mathrm{O}
+$$
+
+用盐酸中和至 $\mathrm{{pH}} = {7.5} \sim 8$ ,过滤,滤液加热到 ${70} \sim {80}{}^{ \circ }\mathrm{C}$ ,搅拌下加入氯化铵溶液,析出偏钒酸铵:
+
+$$
+{\mathrm{{VO}}}_{3}^{ - } + {\mathrm{{NH}}}_{4}^{ + } = {\mathrm{{NH}}}_{4}{\mathrm{{VO}}}_{3}
+$$
+","：首先，我们要理解题目要求的是从金属钒出发制备五氧化二钒(V₂O₅)和偏钒酸铵(NH₄VO₃)的化学反应路径。这个过程中可能涉及多个步骤，并且需要考虑到每一步骤中钒元素的氧化态变化。
+
+1. 从金属钒到五氧化二钒: 金属钒处于0价状态，在空气中加热可以直接氧化成V₂O₅，但通常情况下为了提高效率会先将其转化为较低价态的氧化物如V₂O₃或VO₂，然后再进一步氧化为V₂O₅。然而，最直接的方法是让金属钒在氧气存在下燃烧，这样可以一步完成转化。
+   - 反应方程式为: 2V + 5O₂ → V₂O₅
+
+2. 从五氧化二钒到偏钒酸铵: 五氧化二钒与水作用生成偏钒酸(HVO₃)，然后偏钒酸与氨水反应生成偏钒酸铵。值得注意的是，HVO₃在水中实际上是不稳定的，容易分解形成VO₂⁺离子和H⁺，因此实际操作中可能是通过控制pH值使得VO₂⁺与NH₄⁺结合形成沉淀。
+   - 首先，V₂O₅溶于热水中（或稀酸溶液中）生成VO₂⁺离子: V₂O₅ + H₂O → 2HVO₂
+   - 然后，向溶液中加入过量的氨水，使VO₂⁺转变为NH₄VO₃沉淀: HVO₂ + NH₃·H₂O → NH₄VO₃ + H₂O
+
+综上所述，整个过程可以通过上述两步化学反应来实现。","：
+- 2V + 5O₂ → V₂O₅
+- V₂O₅ + H₂O → 2HVO₂
+- HVO₂ + NH₃·H₂O → NH₄VO₃ + H₂O",N/A,N/A,N/A
+"紫色溶液可能是 ${\mathrm{{TiCl}}}_{3}$ 溶液和 ${\mathrm{{KMnO}}}_{4}$ 溶液中的一种,试加以鉴别。","向紫色溶液中滴加 ${\mathrm{{FeCl}}}_{3}$ 溶液,若紫色褪去,则原溶液为 ${\mathrm{{TiCl}}}_{3}$ 溶液,发生的反应为
+
+$$
+{\mathrm{{Ti}}}^{3 + } + {\mathrm{{Fe}}}^{3 + } + {\mathrm{H}}_{2}\mathrm{O} = {\mathrm{{TiO}}}^{2 + } + {\mathrm{{Fe}}}^{2 + } + 2{\mathrm{H}}^{ + }
+$$
+","：要鉴别紫色溶液是${\mathrm{TiCl}}_{3}$还是${\mathrm{KMnO}}_{4}$，我们可以依据这两种化合物在不同条件下的化学性质来进行区分。首先，从颜色上来说，虽然两者都是紫色，但${\mathrm{KMnO}}_{4}$的紫红色更加鲜艳且稳定，而${\mathrm{TiCl}}_{3}$溶液的颜色可能会因为水解等因素显得较为暗淡。其次，可以通过加入不同的试剂来观察反应现象以进一步确认。
+
+1. **酸性条件下加入还原剂**：向待测溶液中滴加少量稀硫酸（提供酸性环境）后再加入亚硫酸钠或草酸等强还原剂。如果溶液褪色，则原溶液为${\mathrm{KMnO}}_{4}$，因为${\mathrm{KMnO}}_{4}$在酸性条件下可以被还原成无色的$\mathrm{Mn}^{2+}$；若无明显变化，则可能是${\mathrm{TiCl}}_{3}$。
+   
+2. **碱性条件下观察**：向溶液中加入少量氢氧化钠溶液。对于${\mathrm{TiCl}}_{3}$而言，在碱性环境中会生成不溶于水的氢氧化钛沉淀，表现为浑浊或者形成沉淀物；而对于${\mathrm{KMnO}}_{4}$来说，在碱性条件下不会发生显著的变化。
+
+通过上述实验方法之一即可有效地区分两种溶液。",：使用酸性条件下加入还原剂的方法，如果溶液褪色则为${\mathrm{KMnO}}_{4}$；或者利用碱性条件下观察是否有沉淀生成的方法，若有沉淀生成则为${\mathrm{TiCl}}_{3}$。,N/A,N/A,N/A
