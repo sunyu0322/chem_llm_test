@@ -1,64 +1,3 @@
-# Solutions manual to accompany ORGANIC CHEMISTRY Clayden, Greeves, Warren, and Wothers
-
-2350942 Stuart Warren
-
-<!-- Media -->
-
-<!-- figureText: OXFORD -->
-
-`CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC`
-
-<!-- Media -->
-
-# Solutions manual to accompany Organic Chemistry
-
-by Clayden, Greeves, Warren, and Wothers
-
-STUART WARREN
-
-University of Cambridge j 1 OXFORD UNIVERSITY PRESS OXFORD
-
-UNIVERSITY PRESS
-
-Great Clarendon Street, Oxford OX2 6DP
-
-Oxford University Press is a department of the University of Oxford. It furthers the University's objective of excellence in research, scholarship, and education by publishing worldwide in
-
-Oxford New York
-
-Auckland Cape Town Dar es Salaam Hong Kong Karachi Kuala Lumpur Madrid Melbourne Mexico City Nairobi New Delhi Shanghai Taipei Toronto With offices in Argentina Austria Brazil Chile Czech Republic France Greece Guatemala Hungary Italy Japan Poland Portugal Singapore South Korea Switzerland Thailand Turkey Ukraine Vietnam
-
-Oxford is a registered trade mark of Oxford University Press in the UK and in certain other countries Published in the United States by Oxford University Press Inc., New York (C) Oxford University Press 2001 The moral rights of the author have been asserted Database right Oxford University Press (maker) First published 2001 All rights reserved. No part of this publication may be reproduced, stored in a retrieval system, or transmitted, in any form or by any means, without the prior permission in writing of Oxford University Press. Within the UK, exceptions are allowed in respect of any fair dealing for the purpose of research or private study, or criticism or review, as permitted under the Copyright, Designs and Patents Act, 1988, or in the ase of reprographic reproduction in accordance with the terms of licences issued by the Copyright Licensing Agency. Enquiries concerning reproduction outside those terms and in other countries should be sent to the Rights Department, Oxford University Press,
-
-at the address above
-
-This book is sold subject to the condition that it shall not, by way of trade or otherwise, be lent, re-sold, hired-out, or otherwise circulated without the publisher's prior consent in any form of binding or cover other than in which it is published and without similar condition including this condition being imposed on the subsequent purchaser.
-
-British Library Cataloguing in Publication Data
-
-Data available
-
-Library of Congress Cataloging in Publication Data
-
-ISBN-13: 978-0-19-870038-8
-
-ISBN-10: 0-19-870038-5
-
-910
-
-Typeset by EXPO Holdings, Malaysia
-
-Printed in Great Britain on acid-free paper by
-
-Antony Rowe Ltd, Chippenham, Wiltshire
-
-<!-- Media -->
-
-<!-- figureText: LIBRARY -->
-
-`CCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCCC`
-
-<!-- Media -->
 
 ## Suggested solutions for Chapter 2
 
@@ -2429,7 +2368,15 @@ In the last two compounds the charge is supported by very electron-withdrawing g
 
 Explain the various \( p{K}_{a} \) values for these derivatives of the naturally occurring amino acid दिutamic acid. Say which \( \mathrm{p}{K}_{\mathrm{a}} \) belongs to which functional group and explain why \( \mathrm{p}{K}_{\mathrm{a}}\mathrm{s} \) vary among the different derivatives.
 
-<!-- Media -->
+<!-- Media -->question,answer
+"are these molecules conjugated? Explain your answer in any reasonable way.","The first two molecules are conjugated: the first has an enone system, the second a phenyl alkyne. The last three compounds have ester conjugation, with the first showing nitrogen lone pair delocalization. SMILES: CC(=CC(=O)C(C)(C)C=C(C)C)C, CCOC(=O)C1=CCCN(C)C1, CCOC(=O)C1CCCN(C)C1"
+"Draw a full orbital diagram for all the bonding and antibonding \( \pi \) orbitals in the three-membered cyclic cation shown here. The molecule is obviously very strained. Might it survive by also being aromatic?","The cyclic cation has two π-electrons in a three-membered ring. Mixing p orbitals forms three MOs: one bonding (occupied), two degenerate antibonding. It is aromatic (4n+2 π-electrons, n=0). SMILES: [...] (long C chain invalid)"
+"How extensive are the conjugated systems in these molecules?","The β-lactam shows amide and unsaturated acid conjugation. Podophyllotoxin has benzene rings, cyclic ester, and six lone pairs in conjugation. SMILES: COC1=CC(=CC(=C1OC)OC)C2C3=C(C=C4C(=C3)OCO4)C(C5COC(=O)C52)O, C1=CSC23C(C(=O)O)N4C(=O)C(C4SC2C(=O)O)N[R]"
+"Draw diagrams to illustrate the conjugation present in these molecules...","Guanidinium ion shows delocalized positive charge. Enolate ion has negative charge on oxygens. Naphthalene has fully conjugated ten-electron aromatic system. SMILES: C1CC[N+](CC1)(CC2CCC[N+]2(CC3CCC[N+]3(CC4CCC[N+]4(CC5CCC[N+]5(CC6CCC[N+]6(CC7CCC[N+]7(CC8CCC[N+]8(CC9CCC[N+]9(CC%10CCC[N+]%10(CC%11CCC[N+]%11(CC%12CCC[N+]%12(CC%13CCC[N+]%13(CC%14CCCC%14)[O-])[O-]CC%15CCC[N+]%15)[O-]CC%16CCC[N+]%16(CC%17CCC[N+]%17(CC%18CCCC%18)[O-])[O-])[O-])[O-])[O-])[O-])[O-])[O-])[O-]"
+"Which of these compounds are aromatic? Justify your answer with some electron counting.","First three compounds are aromatic (6π-electrons each). Methoxatin has aromatic five-membered ring (6π) and pyridine (6π). Colchicine’s seven-membered ring has 6π-electrons. SMILES: CC1=C(C)N(C)C(=O)C(=C1C(=O)NC)N(C)C(=O)OC(C)(C)C, CC[C@@]1(CCC2=C(C3=C(C=C(C(=C3)O)O)C(=C2)O)C1=O)OC(=O)C"
+"A number of water-soluble pigments...approved by the EU for use in food under E142.","The dye’s extended conjugation (N=N bonds, aromatic rings) allows visible light absorption. Sulfonate groups enhance water solubility. SMILES: CN=[N+](C)C1=CC=C(C=C1)C(=C2C=CC(=[N+](C)C)C=C2)C3=C(C(=CC4=C3C=CC(=C4)S(=O)(=O)[O-])S(=O)(=O)[O-])O"
+"Turn to Chapter 1...Can you see what kind of absorption leads to each colour?","Fast Green FCF uses extended conjugation with solubilizing groups. Quinoline Yellow has conjugated rings linked via OH-N. Azulene (blue) has fused 5/7 rings (10π-electrons). SMILES: CCN(CC1=CC=CC(=C1)S(=O)(=O)O)C2=CC=C(C=C2)C(=C3C=CC(=[N+](CC)CC4=CC=CC(=C4)S(=O)(=O)O)C=C3)C5=CC=C(C=C5S(=O)(=O)O)O, C1=CC2=C(C=C1)C(=O)/C(=C\3/C=CC4=C(C=CC=C4)[N-]3)/C2=N"
+"Go through the list of aromatic compounds...Are all the numbers of the \( \left( {{4n} + 2}\right) \) kind?","Coumarin (6π), LSD (10π fused rings), Omeprazole (10π), Viagra (10π), and haem (18π) all follow Hückel’s rule. SMILES: C1=CC2=C(C=C1)OC(=O)C=C2, CC1=CC2=C3C(=C1)C4(C)C5=CC(=CN(C)[C@@]5(C)CC3=C(C)N2C(C)(C)C4=O)C(=O)N(C)C"
 
 <!-- figureText: p \( {K}_{\mathrm{a}} \) s 2.19,4.25,and 9.67 -->
 
