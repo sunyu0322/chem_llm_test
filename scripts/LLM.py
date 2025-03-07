@@ -195,4 +195,5 @@ def generate_answer_from_deepseek_r1(query: str) -> str:
     except Exception as e:
         print(f"调用大模型时发生错误: {e}")
         return {"error": f"调用失败: {str(e)}"}
-# model_answer = generate_answer_from_gpt_4o('氢是什么')
+    
+model_answer = generate_answer_from_gpt_4o('氢是什么')

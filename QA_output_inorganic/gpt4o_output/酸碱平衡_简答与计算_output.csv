@@ -1,0 +1,984 @@
+query,true_answer,reasoning,model_answer,knowledge_accuracy,reasoning_accuracy,final_answer_accuracy
+"计算下列溶液的 $\mathrm{{pH}}$ 。
+ ${0.01}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3} \cdot \mathrm{{HCN}}$ 溶液 $\left( {{K}_{\mathrm{a}}^{ \ominus } = {6.2} \times {10}^{-{10}}}\right)$ ;","${c}_{0}/{K}_{\mathrm{a}}^{ \ominus } = {0.01}/{6.2} \times {10}^{-{10}} = {1.6} \times {10}^{7} > > {400}$ ,可用最简式进行计算。
+
+$$
+c\left( {\mathrm{H}}^{ + }\right) = \sqrt{{K}_{\mathrm{a}}^{ \ominus }{c}_{0}} = \sqrt{{6.2} \times {10}^{-{10}} \times {0.01}}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3} = {2.49} \times {10}^{-6}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+$$
+\mathrm{{pH}} = - \lg c\left( {\mathrm{H}}^{ + }\right) = - \lg \left( {{2.49} \times {10}^{-6}}\right) = {5.60}
+$$
+","：
+1. HCN 是一种弱酸，其在水溶液中的解离平衡可以表示为：\[ \mathrm{HCN} \rightleftharpoons \mathrm{H^+} + \mathrm{CN^-} \] 。在这个反应中，初始浓度为 0.01 mol/dm³ 的 HCN 只有一部分解离生成 H⁺ 和 CN⁻。
+   
+2. 用 \(x\) 表示解离出的 \(\mathrm{H^+}\) 平衡浓度。因此，\(\mathrm{CN^-}\) 的浓度与 \(\mathrm{H^+}\) 相同，也为 \(x\)，均为解离出的量。
+   
+3. 解离后，\(\mathrm{HCN}\) 的平衡浓度为 \(0.01 - x\) mol/dm³，因为解离的平衡浓度通常很小且 x << 0.01，我们可以近似认为 \((0.01 - x) \approx 0.01\)。
+   
+4. 根据弱酸离解常数 \(Ka\) 的定义： \[ K_a = \frac{[\mathrm{H^+}][\mathrm{CN^-}]}{[\mathrm{HCN}]} = \frac{x \cdot x}{0.01} \]
+
+5. 已知：\( K_a^{\ominus} = 6.2 \times 10^{-10} \)。代入数值： \[ 6.2 \times 10^{-10} = \frac{x^2}{0.01} \]
+
+6. 解这个方程：\[ x^2 = 6.2 \times 10^{-12} \]
+
+7. 解得：\[ x = \sqrt{6.2 \times 10^{-12}} \]
+   
+8. 计算：\[ x \approx 2.49 \times 10^{-6} \]
+
+9. \(\mathrm{pH}\) 定义为：\[ \mathrm{pH} = -\log_{10} x \]
+
+10. 代入计算结果：\[ \mathrm{pH} = -\log_{10} (2.49 \times 10^{-6}) \]
+
+11. 计算 \(\mathrm{pH}\)：约等于 5.60。",：5.60,N/A,N/A,N/A
+计算下列溶液的 $\mathrm{{pH}}$ 。${0.01}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}{\mathrm{{HNO}}}_{2}$ 溶液 $\left( {{K}_{\mathrm{a}}^{ \ominus } = {5.1} \times {10}^{-4}}\right)$ ;," ${c}_{0}/{K}_{\mathrm{a}}^{ \ominus } = {0.01}/\left( {{5.1} \times {10}^{-4}}\right) = {19.61} < {400}$ ,不能用最简式进行计算。
+
+$$
+{\mathrm{{HNO}}}_{2} \rightleftharpoons {\mathrm{H}}^{ + } + {\mathrm{{NO}}}_{2}^{ - }
+$$
+
+平衡浓度 $/\left( {\mathrm{{mol}} \cdot {\mathrm{{dm}}}^{-3}}\right) \;{0.01} - x\;x\;x$
+
+由 ${K}_{\mathrm{a}}^{ \ominus } = \frac{c\left( {\mathrm{H}}^{ + }\right) c\left( {\mathrm{{NO}}}_{2}^{ - }\right) }{c\left( {\mathrm{{HNO}}}_{2}\right) }$ 得 $\frac{{x}^{2}}{{0.01} - x} = {5.1} \times {10}^{-4}\;x = {2.0} \times {10}^{-3}$
+
+$$
+c\left( {\mathrm{H}}^{ + }\right) = {2.0} \times {10}^{-3}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}\;\mathrm{{pH}} = - \lg c\left( {\mathrm{H}}^{ + }\right) = {2.70}
+$$
+","：  
+首先，需要理解 $\mathrm{HNO}_2$ 是一个弱酸。计算 $\mathrm{pH}$ 时，可以使用如下平衡反应：  
+\[ \mathrm{HNO}_2 \rightleftharpoons \mathrm{H}^+ + \mathrm{NO}_2^- \]  
+假设 $\mathrm{HNO}_2$ 的初始浓度为 $c = 0.01 \ \mathrm{mol} \cdot \mathrm{dm}^{-3}$，解离度为 $x$。平衡时，$\mathrm{H}^+$ 和 $\mathrm{NO}_2^-$ 的浓度均为 $cx$，$\mathrm{HNO}_2$ 的浓度为 $c(1-x)$。  
+
+根据酸电离常数的定义：  
+\[ K_a = \frac{[\mathrm{H}^+][\mathrm{NO}_2^-]}{[\mathrm{HNO}_2]} = \frac{(cx)(cx)}{c(1-x)} \]  
+因为 $K_a$ 值很小，可以假设 $x$ 也很小，$1-x \approx 1$，则化简为：  
+\[ K_a = cx^2 \]  
+
+将已知的 $K_a = 5.1 \times 10^{-4}$ 和 $c = 0.01$ 代入：  
+\[ 5.1 \times 10^{-4} = 0.01x^2 \]  
+\[ x^2 = \frac{5.1 \times 10^{-4}}{0.01} = 5.1 \times 10^{-2} \]  
+\[ x = \sqrt{5.1 \times 10^{-2}} \approx 0.2258 \]  
+
+因此，$\mathrm{H}^+$ 的浓度为 $0.01 \times 0.2258 = 0.002258 \ \mathrm{mol} \cdot \mathrm{dm}^{-3}$。
+
+通过 $\mathrm{pH}$ 的定义：  
+\[ \mathrm{pH} = -\log_{10}[\mathrm{H}^+] \approx -\log_{10}(0.002258) \approx 2.65 \]","：  
+2.65",N/A,N/A,N/A
+"计算下列溶液的 $\mathrm{{pH}}$ 。 ${0.20}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}{\mathrm{{KHC}}}_{2}{\mathrm{O}}_{4}$ 溶液 $\left( {{\mathrm{H}}_{2}{\mathrm{C}}_{2}{\mathrm{O}}_{4} : {K}_{{\mathrm{a}}_{1}}^{ \ominus } = {5.4} \times {10}^{-2},{K}_{{\mathrm{a}}_{2}}^{ \ominus } = {5.4} \times {10}^{-5}}\right.$ );","${\mathrm{{KHC}}}_{2}{\mathrm{O}}_{4}$ 溶液既有酸式草酸盐的解离又有酸式草酸盐的水解,故
+
+$$
+c\left( {\mathrm{H}}^{ + }\right) = \sqrt{{K}_{{\mathrm{a}}_{1}}^{ \ominus }{K}_{{\mathrm{a}}_{2}}^{ \ominus }} = \sqrt{{5.4} \times {10}^{-2} \times {5.4} \times {10}^{-5}}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3} = {1.71} \times {10}^{-3}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+$$
+\mathrm{{pH}} = {2.77}
+$$
+","：  
+1. 题目涉及的是一元弱酸盐氢草酸钾（KHC₂O₄）的溶液，其来源于草酸的第一步电离。因此，此溶液中含有的阴离子 HC₂O₄⁻ 可以进一步电离形成 H⁺ 和 C₂O₄²⁻。
+   
+2. 溶液中将进行以下平衡反应：
+   \[
+   \text{HC}_2\text{O}_4^- \rightleftharpoons \text{H}^+ + \text{C}_2\text{O}_4^{2-}
+   \]
+   平衡常数为 \( K_{a2} = 5.4 \times 10^{-5} \)。
+
+3. 初始浓度：根据题意，KHC₂O₄ 溶液为 0.20 mol/dm³，因此 HC₂O₄⁻ 的初始浓度为 0.20 mol/dm³。
+   
+4. 设电离产生 x mol/dm³ 的 H⁺，则平衡浓度为：
+   \[
+   [\text{H}^+] = x,\quad [\text{C}_2\text{O}_4^{2-}] = x,\quad [\text{HC}_2\text{O}_4^-] = 0.20 - x
+   \]
+
+5. 由于 Kₐ₂ 较小，可以假设 \( x \ll 0.20 \)，从而 \( [\text{HC}_2\text{O}_4^-] \approx 0.20 \)。
+
+6. 代入解离平衡常数表达式：
+   \[
+   K_{a2} = \frac{[\text{H}^+][\text{C}_2\text{O}_4^{2-}]}{[\text{HC}_2\text{O}_4^-]} = \frac{x \cdot x}{0.20}
+   \]
+   \[
+   5.4 \times 10^{-5} = \frac{x^2}{0.20}
+   \]
+   \[
+   x^2 = (5.4 \times 10^{-5}) \times 0.20
+   \]
+   \[
+   x^2 = 1.08 \times 10^{-5}
+   \]
+   \[
+   x = \sqrt{1.08 \times 10^{-5}} \approx 3.29 \times 10^{-3}
+   \]
+
+7. 因为 \( x = [\text{H}^+] \)，pH 可以计算为：
+   \[
+   \text{pH} = -\log_{10}(3.29 \times 10^{-3})
+   \]
+   计算可得 pH ≈ 2.48。",：2.48,N/A,N/A,N/A
+"计算下列溶液的 $\mathrm{{pH}}$ 。 ${0.10}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}{\mathrm{{Na}}}_{2}{\mathrm{{CO}}}_{3}$ 溶液 $\left( {{\mathrm{H}}_{2}{\mathrm{{CO}}}_{3} : {K}_{{\mathrm{a}}_{1}}^{ \ominus } = {4.5} \times {10}^{-7},{K}_{{\mathrm{a}}_{2}}^{ \ominus } = {4.7} \times {10}^{-{11}}}\right)$ ;","${\mathrm{{Na}}}_{2}{\mathrm{{CO}}}_{3}$ 完全解离,故溶液中 ${\mathrm{{CO}}}_{3}^{2 - }$ 的起始浓度为 ${0.20}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3},{\mathrm{{CO}}}_{3}^{2 - }$ 的两步水解常数为
+
+$$
+{K}_{{\mathrm{h}}_{1}}^{ \ominus } = \frac{{K}_{\mathrm{w}}^{ \ominus }}{{K}_{{\mathrm{a}}_{2}}^{ \ominus }} = \frac{{1.0} \times {10}^{-{14}}}{{4.7} \times {10}^{-{11}}} = {2.1} \times {10}^{-4}
+$$
+
+$$
+{K}_{{\mathrm{h}}_{2}}^{ \ominus } = \frac{{K}_{\mathrm{w}}^{ \ominus }}{{K}_{{\mathrm{a}}_{1}}^{ \ominus }} = \frac{{1.0} \times {10}^{-{14}}}{{4.5} \times {10}^{-7}} = {2.2} \times {10}^{-8}
+$$
+
+由于 ${K}_{{\mathrm{h}}_{1}}^{ \ominus } > > {K}_{{\mathrm{h}}_{2}}^{ \ominus }$ ,故水解产生的 $c\left( {\mathrm{{OH}}}^{ - }\right)$ 由第一步水解决定。
+
+$$
+{\mathrm{{CO}}}_{3}^{2 - } + {\mathrm{H}}_{2}\mathrm{O} \rightleftharpoons {\mathrm{{HCO}}}_{3}^{ - } + {\mathrm{{OH}}}^{ - }
+$$
+
+${c}_{\text{平 }}/\left( {\mathrm{{mol}} \cdot {\mathrm{{dm}}}^{-3}}\right)$
+
+$$
+{0.10} - x
+$$
+
+$$
+{K}_{\mathrm{{hl}}}^{ \ominus } = \frac{c\left( {\mathrm{{HCO}}}_{3}^{ - }\right) c\left( {\mathrm{{OH}}}^{ - }\right) }{c\left( {\mathrm{{CO}}}_{3}^{2 - }\right) } = \frac{{x}^{2}}{{0.10} - x} = {2.1} \times {10}^{-4}
+$$
+
+$$
+x = {4.6} \times {10}^{-3}
+$$
+
+即
+
+$$
+c\left( {\mathrm{{OH}}}^{ - }\right) = {4.6} \times {10}^{-3}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+所以
+
+$$
+\mathrm{{pOH}} = {2.34},\mathrm{{pH}} = {11.66}
+$$
+","：我们求一个碳酸钠 (\(\mathrm{Na}_2\mathrm{CO}_3\)) 溶液的 \(\mathrm{pH}\)。碳酸钠是一种盐，水溶液中会进行水解，形成 \(\mathrm{CO}_3^{2-}\) 和 \(\mathrm{HCO}_3^-\)。\(\mathrm{CO}_3^{2-}\) 是一个二元酸\(\mathrm{H_2CO_3}\)的共轭碱，会水解生成\(\mathrm{OH}^-\)，主要水解反应是：
+
+\[
+\mathrm{CO}_3^{2-} + \mathrm{H}_2\mathrm{O} \rightleftharpoons \mathrm{HCO}_3^- + \mathrm{OH}^-
+\]
+
+对于此反应，可以写出平衡常数 \(\mathrm{K}_b\) 表示其强度。由于\(\mathrm{K}_{a1}\)和\(\mathrm{K}_{a2}\)已知，我们通过以下关系找到\(\mathrm{K_b}\):
+
+\[
+\mathrm{K}_b = \frac{\mathrm{K}_w}{\mathrm{K}_{a1}}
+\]
+
+\[
+\mathrm{K}_w = 1.0 \times 10^{-14}
+\]
+
+因此：
+
+\[
+\mathrm{K}_b = \frac{1.0 \times 10^{-14}}{4.5 \times 10^{-7}} \approx 2.22 \times 10^{-8}
+\]
+
+现在我们按照 \(\mathrm{K}_b\) 来求 \(\mathrm{pH}\)。假设碳酸钠完全解离，因此初始 \([\mathrm{CO}_3^{2-}] = 0.10 \mathrm{mol/dm}^3\)，水解反应后，生成的 \(\mathrm{OH}^-\) 离子浓度记作 \(x\)，则有：
+
+\[
+\mathrm{K}_b = \frac{x^2}{0.10 - x} \approx \frac{x^2}{0.10}
+\]
+
+解这个方程，得到：
+
+\[
+x^2 = 2.22 \times 10^{-9}
+\]
+
+\[
+x \approx \sqrt{2.22 \times 10^{-9}} \approx 1.49 \times 10^{-5}
+\]
+
+因此，\([\mathrm{OH}^-] = 1.49 \times 10^{-5}\)。
+
+利用\(\mathrm{pOH}\)和\(\mathrm{pH}\)的关系：
+
+\[
+\mathrm{pOH} = -\log(1.49 \times 10^{-5}) \approx 4.83
+\]
+
+\[
+\mathrm{pH} = 14 - \mathrm{pOH} = 14 - 4.83 = 9.17
+\]",：9.17,N/A,N/A,N/A
+"计算下列溶液的 $\mathrm{{pH}}$ 。 ${0.10}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}{\mathrm{{Na}}}_{2}\mathrm{\;S}$ 溶液 $\left( {{\mathrm{H}}_{2}\mathrm{\;S} : {K}_{{\mathrm{a}}_{1}}^{ \ominus } = {1.1} \times {10}^{-7},{K}_{{\mathrm{a}}_{2}}^{ \ominus } = {1.3} \times {10}^{-{13}}}\right)$ ;"," ${\mathrm{S}}^{2 - }$ 在水溶液中分两步水解,但 ${K}_{{\mathrm{h}}_{1}}^{ \ominus } > > {K}_{{\mathrm{h}}_{2}}^{ \ominus }$ ,计算时只需考虑第一步水解。
+
+$$
+{\mathrm{S}}^{2 - } + {\mathrm{H}}_{2}\mathrm{O} \rightleftharpoons {\mathrm{{HS}}}^{ - } + {\mathrm{{OH}}}^{ - }
+$$
+
+$$
+{c}_{\text{平 }}/\left( {\mathrm{{mol}} \cdot {\mathrm{{dm}}}^{-3}}\right)
+$$
+
+${0.1} - x$
+
+$$
+\frac{{x}^{2}}{{0.1} - x} = {K}_{{\mathrm{h}}_{1}}^{ \ominus }\;{K}_{{\mathrm{h}}_{1}}^{ \ominus } = \frac{{K}_{\mathrm{w}}^{ \ominus }}{{K}_{{\mathrm{a}}_{2}}^{ \ominus }} = \frac{{1.0} \times {10}^{-{14}}}{{1.3} \times {10}^{-{13}}} = {7.7} \times {10}^{-2}
+$$
+
+$x = {0.057c}\left( {\mathrm{{OH}}}^{ - }\right) = {0.057}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}\;\mathrm{{pOH}} = {1.24}$
+
+$$
+\mathrm{{pH}} = {12.76}
+$$
+","：
+
+1. **理解溶液的性质**：
+   - 提供的溶液是 \( \mathrm{Na_2S} \)，它是硫化氢 (\( \mathrm{H_2S} \)) 的完全电离的盐。
+   - 在水中溶解时，\( \mathrm{Na_2S} \) 完全解离为 \( \mathrm{2Na^+} \) 和 \( \mathrm{S^{2-}} \) 离子。
+   - \( \mathrm{S^{2-}} \) 是 \( \mathrm{H_2S} \) 的共轭碱，且为强碱性离子。它与水反应后显著影响溶液的 \( \mathrm{pH} \)。
+
+2. **分析化学平衡**：
+   - \( \mathrm{S^{2-}} \) 是 \( \mathrm{H_2S} \) 的二次电离产物：
+     \[
+     \mathrm{H_2S \rightleftharpoons H^+ + HS^- \quad (K_{a1} = 1.1 \times 10^{-7})}
+     \]
+     \[
+     \mathrm{HS^- \rightleftharpoons H^+ + S^{2-} \quad (K_{a2} = 1.3 \times 10^{-13})}
+     \]
+   - 因此，\( \mathrm{S^{2-}} \) 可以进行与水的水解反应（逆二次电离）：
+     \[
+     \mathrm{S^{2-} + H_2O \rightleftharpoons HS^- + OH^-}
+     \]
+   - 水解常数 \( K_h \) 可通过 \( K_w \) 和 \( K_{a2} \) 的关系计算：
+     \[
+     K_h = \frac{K_w}{K_{a2}}
+     \]
+     其中 \( K_w = 1.0 \times 10^{-14} \)（在 25 ℃下为水离子积常数）。
+
+3. **计算水解常数 \( K_h \)**：
+   \[
+   K_h = \frac{1.0 \times 10^{-14}}{1.3 \times 10^{-13}} = 7.692 \times 10^{-2}
+   \]
+
+4. **设 \( \mathrm{[S^{2-}] = 0.10 \, mol \cdot dm^{-3}} \)** 计算水解平衡：
+   - 初始浓度 \( \mathrm{[S^{2-}]_{initial} = 0.10 \, mol \cdot dm^{-3}} \)。
+   - 假设水解产生的 \( \mathrm{OH^-} \) 浓度为 \( x \):
+     \[
+     \mathrm{S^{2-} + H_2O \rightleftharpoons HS^- + OH^-}
+     \]
+     初始：\( [\mathrm{S^{2-}}]_0 = 0.10 \), \( [\mathrm{HS^-}]_0 = 0 \), \( [\mathrm{OH^-}]_0 = 0 \)；
+     变化：\( [\mathrm{S^{2-}}] = 0.10 - x \), \( [\mathrm{HS^-}] = x \), \( [\mathrm{OH^-}] = x \)。
+   - 根据水解常数 \( K_h \) 表达平衡条件：
+     \[
+     K_h = \frac{[\mathrm{HS^-}][\mathrm{OH^-}]}{[\mathrm{S^{2-}}]} = \frac{x^2}{0.10 - x}
+     \]
+     由于 \( K_h \) 较大，\( x \) 相对于 0.10 较小，可以近似为 \( 0.10 - x \approx 0.10 \)。
+   - 简化为：
+     \[
+     7.692 \times 10^{-2} = \frac{x^2}{0.10}
+     \]
+     \[
+     x^2 = (7.692 \times 10^{-2}) \times 0.10 = 7.692 \times 10^{-3}
+     \]
+     \[
+     x = \sqrt{7.692 \times 10^{-3}} \approx 0.0877 \, \mathrm{mol \cdot dm^{-3}}
+     \]
+
+5. **计算溶液的 \( \mathrm{pOH} \)**：
+   - \( [\mathrm{OH^-}] = x = 0.0877 \, \mathrm{mol \cdot dm^{-3}} \)。
+   - \( \mathrm{pOH} = -\log_{10}[\mathrm{OH^-}] = -\log_{10}(0.0877) \approx 1.058 \)。
+
+6. **计算溶液的 \( \mathrm{pH} \)**：
+   - \( \mathrm{pH} = 14 - \mathrm{pOH} = 14 - 1.058 = 12.94 \)。",：12.94,N/A,N/A,N/A
+计算下列溶液的 $\mathrm{{pH}}$ 。${0.10}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}{\mathrm{{NH}}}_{4}\mathrm{{Cl}}$ 溶液 $\left( {{\mathrm{{NH}}}_{3} \cdot {\mathrm{H}}_{2}\mathrm{O} : {K}_{\mathrm{b}}^{ \ominus } = {1.8} \times {10}^{-5}}\right)$ 。,"${\mathrm{{NH}}}_{4}^{ + } + {\mathrm{H}}_{2}\mathrm{O} \rightleftharpoons {\mathrm{{NH}}}_{3} \cdot {\mathrm{H}}_{2}\mathrm{O} + {\mathrm{H}}^{ + }$
+
+$$
+{K}_{\mathrm{h}}^{ \ominus } = \frac{{K}_{\mathrm{w}}^{ \ominus }}{{K}_{\mathrm{b}}^{ \ominus }} = \frac{{1.0} \times {10}^{-{14}}}{{1.8} \times {10}^{-5}} = {5.56} \times {10}^{-{10}}
+$$
+
+${c}_{0}/{K}_{\mathrm{h}}^{ \ominus } = {0.10}/{5.6} \times {10}^{-{10}} > {400}$ ,可用最简式计算。
+
+$$
+c\left( {\mathrm{H}}^{ + }\right) = \sqrt{{K}_{\mathrm{h}}^{\Theta }{c}_{0}} = \sqrt{{5.56} \times {10}^{-{10}} \times {0.10}}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3} = {7.46} \times {10}^{-6}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+$$
+\mathrm{{pH}} = {5.13}
+$$
+","：
+该问题涉及弱碱的共轭酸（$\mathrm{NH}_4^+$）在水溶液中的解离计算。$\mathrm{NH}_4^+$来源于$\mathrm{NH_4Cl}$，其水解反应形成氢离子（$\mathrm{H^+}$）从而影响溶液的$\mathrm{pH}$。以下是计算步骤的推理过程：
+
+1. **分析溶液性质**：
+   $\mathrm{NH_4Cl}$是可完全解离的强电解质，因此其溶液中实际存在的是$\mathrm{NH_4^+}$和$\mathrm{Cl^-}$离子。其中，$\mathrm{NH_4^+}$为弱碱$\mathrm{NH_3}$的共轭酸，会发生水解反应：
+   \[
+   \mathrm{NH_4^+ + H_2O \leftrightarrow NH_3 + H_3O^+}
+   \]
+   该反应导致溶液的$\mathrm{H_3O^+}$浓度变化。
+
+2. **关联酸碱离解常数**：
+   根据酸碱共轭关系，$\mathrm{NH_4^+}$的酸离解常数$K_a^{\ominus}$可通过$\mathrm{NH_3}$的碱离解常数$K_b^{\ominus}$计算。利用水的离子积常数：
+   \[
+   K_a^{\ominus} \cdot K_b^{\ominus} = K_w = 1.0 \times 10^{-14}
+   \]
+   所以：
+   \[
+   K_a^{\ominus} = \frac{K_w}{K_b^{\ominus}} = \frac{1.0 \times 10^{-14}}{1.8 \times 10^{-5}}
+   = 5.56 \times 10^{-10}
+   \]
+
+3. **水解反应的计算**：
+   设$\mathrm{H_3O^+}$的平衡浓度为$x$。初始时$\mathrm{NH_4^+}$的浓度为$0.10 \ \mathrm{mol \cdot dm^{-3}}$，它的水解平衡如下：
+   \[
+   \mathrm{NH_4^+} \leftrightarrow \mathrm{NH_3} + \mathrm{H_3O^+}
+   \]
+   使用平衡常数表达式：
+   \[
+   K_a^{\ominus} = \frac{[\mathrm{H_3O^+}][\mathrm{NH_3}]}{[\mathrm{NH_4^+}]}
+   \]
+   代入初始浓度$0.10$和水解产生的$\mathrm{H_3O^+}$浓度变化$x$，得：
+   \[
+   K_a^{\ominus} = \frac{x \cdot x}{0.10 - x} \approx \frac{x^2}{0.10}
+   \]
+   （因为$K_a^{\ominus}$的数值很小，可以忽略$x$与$0.10$的差值）。
+   \[
+   x^2 = K_a^{\ominus} \cdot 0.10 = (5.56 \times 10^{-10}) \cdot 0.10 = 5.56 \times 10^{-11}
+   \]
+   \[
+   x = \sqrt{5.56 \times 10^{-11}} \approx 7.45 \times 10^{-6} \ \mathrm{mol \cdot dm^{-3}}
+   \]
+
+4. **计算$\mathrm{pH}$**：
+   $\mathrm{H_3O^+}$的浓度$x$即为$\mathrm{[H^+]}$，因此：
+   \[
+   \mathrm{pH} = -\log_{10}(x) = -\log_{10}(7.45 \times 10^{-6})
+   \]
+   使用对数计算：
+   \[
+   \mathrm{pH} \approx 5.13
+   \]","：
+5.13",N/A,N/A,N/A
+"通过计算说明: 中和 ${50.0}{\mathrm{\;{cm}}}^{3},\mathrm{{pH}} = {3.80}$ 的盐酸与中和 ${50.0}{\mathrm{\;{cm}}}^{3},\mathrm{{pH}} = {3.80}$ 的醋酸溶液所需 $\mathrm{{NaOH}}$ 的物质的量是否相同。已知 ${K}_{\mathrm{a}}^{ \ominus }\left( \mathrm{{HAc}}\right) = {1.8} \times {10}^{-5}$ 。","盐酸为强酸, 在水中全部解离:
+
+$$
+c\left( {\mathrm{H}}^{ + }\right) = c\left( \mathrm{{HCl}}\right) = {10}^{-{3.8}}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3} = {1.6} \times {10}^{-4}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+中和 ${50}{\mathrm{\;{cm}}}^{3}$ 盐酸需 $\mathrm{{NaOH}}$ 的物质的量:
+
+$$
+{50} \times {10}^{-3}{\mathrm{{dm}}}^{3} \times {1.6} \times {10}^{-4}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3} = {8.0} \times {10}^{-6}\mathrm{\;{mol}}
+$$
+
+醋酸为弱酸,在水中部分解离,则 $\mathrm{{pH}} = {3.80}$ 的醋酸溶液的浓度为
+
+$$
+c\left( \mathrm{{HAc}}\right) = \frac{{\left\lbrack c\left( {\mathrm{H}}^{ + }\right) \right\rbrack }^{2}}{{K}_{\mathrm{a}}^{ \ominus }} = \frac{{\left( {1.6} \times {10}^{-4}\right) }^{2}}{{1.8} \times {10}^{-5}}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3} = {1.4} \times {10}^{-3}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+中和 ${50}{\mathrm{\;{cm}}}^{3}$ 醋酸时需 $\mathrm{{NaOH}}$ 的物质的量为
+
+$$
+{50} \times {10}^{-3}{\mathrm{{dm}}}^{3} \times {1.4} \times {10}^{-3}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3} = {7.0} \times {10}^{-5}\mathrm{\;{mol}}
+$$
+
+计算结果表明,中和体积相同, $\mathrm{{pH}}$ 相同的盐酸和醋酸时,由于 $c\left( \mathrm{{HAc}}\right) > c\left( \mathrm{{HCl}}\right)$ ,所需
+
+$\mathrm{{NaOH}}$ 的物质的量不同,中和弱酸所需的 $\mathrm{{NaOH}}$ 的物质的量要大于中和强酸所需的 $\mathrm{{NaOH}}$ 的物质的量。
+","：  
+要判断中和 ${50.0}{\mathrm{\;{cm}}}^{3}, \mathrm{pH} = {3.80}$ 的盐酸和同体积醋酸所需的氢氧化钠的物质的量是否相同，我们需要分析以下内容：  
+   
+1. **盐酸的情况**：  
+盐酸是强酸，能够完全电离，且 $\mathrm{pH}$ 反映了 $\mathrm{H}^+$ 的浓度，计算公式为：  
+\[
+\mathrm{pH} = -\log [\mathrm{H}^+]
+\]  
+已知 $\mathrm{pH} = 3.80$，因此氢离子浓度 $[\mathrm{H}^+]$ 为：  
+\[
+[\mathrm{H}^+] = 10^{-\mathrm{pH}} = 10^{-3.80} = 1.58 \times 10^{-4} \, \mathrm{mol/L}
+\]  
+盐酸完全电离，因此 $\mathrm{HCl}$ 的浓度等于 $[\mathrm{H}^+]$，即：  
+\[
+[\mathrm{HCl}] = 1.58 \times 10^{-4} \, \mathrm{mol/L}
+\]  
+
+盐酸溶液的体积为 $50.0 \, \mathrm{cm}^3 = 0.0500 \, \mathrm{L}$，其中 $\mathrm{HCl}$ 的物质的量为：  
+\[
+n(\mathrm{HCl}) = [\mathrm{HCl}] \times V = (1.58 \times 10^{-4} \, \mathrm{mol/L}) \times 0.0500 \, \mathrm{L} = 7.90 \times 10^{-6} \, \mathrm{mol}
+\]  
+
+对于中和反应：$\mathrm{HCl} + \mathrm{NaOH} \rightarrow \mathrm{NaCl} + \mathrm{H_2O}$  
+1 摩尔 $\mathrm{HCl}$ 与 1 摩尔 $\mathrm{NaOH}$ 完全中和，因此所需 $\mathrm{NaOH}$ 的物质的量为 $7.90 \times 10^{-6} \, \mathrm{mol}$。  
+
+2. **醋酸的情况**：  
+醋酸是弱酸，不能完全电离。对于 $\mathrm{HAc}$ 溶液，$\mathrm{pH}$ 反映溶液中实际的 $[\mathrm{H}^+]$ 浓度，而此浓度与 $\mathrm{HAc}$ 的电离平衡有关，计算包含以下步骤：  
+
+   a. 已知 $\mathrm{pH} = 3.80$，因此 $[\mathrm{H}^+] = 10^{-3.80} = 1.58 \times 10^{-4} \, \mathrm{mol/L}$。  
+   b. 醋酸电离平衡的表达式为：  
+   \[
+   K_\mathrm{a} = \frac{[\mathrm{H}^+]^2}{c_\mathrm{HAc} - [\mathrm{H}^+]}
+   \]  
+   其中 $K_\mathrm{a} = 1.8 \times 10^{-5}$，$[\mathrm{H}^+] = 1.58 \times 10^{-4} \, \mathrm{mol/L}$。已知 $[\mathrm{HAc}] \gg [\mathrm{H}^+]$，可以近似 $c_\mathrm{HAc} - [\mathrm{H}^+] \approx c_\mathrm{HAc}$。化简后：  
+   \[
+   c_\mathrm{HAc} \approx \frac{[\mathrm{H}^+]^2}{K_\mathrm{a}} = \frac{(1.58 \times 10^{-4})^2}{1.8 \times 10^{-5}} = 1.39 \times 10^{-3} \, \mathrm{mol/L}
+   \]  
+
+   c. 醋酸溶液的体积同样为 $50.0 \, \mathrm{cm}^3 = 0.0500 \, \mathrm{L}$，因此 $\mathrm{HAc}$ 的物质的量为：  
+   \[
+   n(\mathrm{HAc}) = c_\mathrm{HAc} \times V = (1.39 \times 10^{-3} \, \mathrm{mol/L}) \times 0.0500 \, \mathrm{L} = 6.95 \times 10^{-5} \, \mathrm{mol}
+   \]  
+
+   d. 对于中和反应：$\mathrm{HAc} + \mathrm{NaOH} \rightarrow \mathrm{NaAc} + \mathrm{H_2O}$  
+   1 摩尔 $\mathrm{HAc}$ 与 1 摩尔 $\mathrm{NaOH}$ 完全中和，因此所需 $\mathrm{NaOH}$ 的物质的量为 $6.95 \times 10^{-5} \, \mathrm{mol}$。  
+
+3. **比较盐酸和醋酸所需 $\mathrm{NaOH}$ 的物质的量**：  
+盐酸所需 $\mathrm{NaOH}$ 的物质的量为 $7.90 \times 10^{-6} \, \mathrm{mol}$，醋酸所需 $\mathrm{NaOH}$ 的物质的量为 $6.95 \times 10^{-5} \, \mathrm{mol}$。将两者进行比较可以发现：  
+\[
+7.90 \times 10^{-6} \, \mathrm{mol} \neq 6.95 \times 10^{-5} \, \mathrm{mol}
+\]  
+两者所需的氢氧化钠物质的量并不相等。",：不相同,N/A,N/A,N/A
+"$\mathrm{{298}}\mathrm{\;K}$ 时,测得 ${0.100}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}\mathrm{{HF}}$ 溶液中 $c\left( {\mathrm{H}}^{ + }\right)$ 为 ${7.63} \times {10}^{-3}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 。求反应
+
+$$
+\mathrm{{HF}}\left( \mathrm{{aq}}\right) \rightleftharpoons {\mathrm{H}}^{ + }\left( \mathrm{{aq}}\right) + {\mathrm{F}}^{ - }\left( \mathrm{{aq}}\right)
+$$
+
+的 ${\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus }$ 。","
+$$
+\mathrm{{HF}}\left( \mathrm{{aq}}\right) \; \rightleftharpoons \;{\mathrm{H}}^{ + }\left( \mathrm{{aq}}\right) + {\mathrm{F}}^{ - }\left( \mathrm{{aq}}\right)
+$$
+
+${c}_{0}/\left( {\mathrm{{mol}} \cdot {\mathrm{{dm}}}^{-3}}\right)$ 0.100
+
+${c}_{\text{平 }}/\left( {\mathrm{{mol}} \cdot {\mathrm{{dm}}}^{-3}}\right)$
+
+$$
+{0.100} - {7.63} \times {10}^{-3}\;{7.63} \times {10}^{-3}\;{7.63} \times {10}^{-3}
+$$
+
+$$
+{K}_{\mathrm{a}}^{ \ominus } = \frac{c\left( {\mathrm{H}}^{ + }\right) c\left( {\mathrm{\;F}}^{ - }\right) }{c\left( \mathrm{{HF}}\right) }
+$$
+
+$$
+= \frac{{\left( {7.63} \times {10}^{-3}\right) }^{2}}{{0.100} - {7.63} \times {10}^{-3}}
+$$
+
+$$
+= {6.30} \times {10}^{-4}
+$$
+
+$$
+{\Delta }_{\mathrm{r}}{G}_{\mathrm{m}}^{ \ominus } = - {RT}\ln {K}_{\mathrm{a}}^{ \ominus }
+$$
+
+$$
+= - {8.314}\mathrm{\;J} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1} \times {298}\mathrm{\;K} \times \ln \left( {{6.30} \times {10}^{-4}}\right)
+$$
+
+$$
+= {18.3}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}
+$$
+","：
+1. **化学过程及热力学背景分析**：
+   - 已知 $\Delta_{\mathrm{r}} G_{\mathrm{m}}^{\ominus}$ 是由反应的标准平衡常数 $K$ 计算得到的。对应公式为：
+     $$
+     \Delta_{\mathrm{r}} G_{\mathrm{m}}^{\ominus} = -RT \ln K
+     $$
+     其中，$R$ 为气体常数（$R = 8.314\;\mathrm{J}\;\mathrm{mol}^{-1}\;\mathrm{K}^{-1}$），$T$ 为温度，$K$ 是反应的平衡常数。本题中 $T = 298\;\mathrm{K}$。
+
+2. **平衡常数 $K$ 的计算**：
+   - 根据题意，HF 电离反应的公式为：
+     $$
+     \mathrm{{HF}}\left( \mathrm{{aq}}\right) \rightleftharpoons {\mathrm{H}}^{+}\left( \mathrm{{aq}}\right) + {\mathrm{F}}^{-}\left( \mathrm{{aq}}\right)
+     $$
+     平衡常数 $K$ 的表达式为：
+     $$
+     K = \frac{c(\mathrm{H}^{+}) \cdot c(\mathrm{F}^{-})}{c(\mathrm{HF})}
+     $$
+   - 在电解质溶液中，$c(\mathrm{H}^{+}) = c(\mathrm{F}^{-})$，同时题目中已经给出 $c(\mathrm{H}^{+}) = 7.63 \times 10^{-3}\;\mathrm{mol}\cdot\mathrm{dm}^{-3}$。
+   - 电离后的 $\mathrm{HF}$ 浓度可以通过初始浓度减去电离消耗的部分计算：
+     $$
+     c(\mathrm{HF})_{\text{平衡}} = c(\mathrm{HF})_{\text{初始}} - c(\mathrm{H}^{+}) = 0.100 - 7.63 \times 10^{-3} = 0.09237\;\mathrm{mol}\cdot\mathrm{dm}^{-3}
+     $$
+   - 将上述值代入 $K$ 的表达式：
+     $$
+     K = \frac{(7.63 \times 10^{-3})^2}{0.09237}
+     $$
+   - 计算得：
+     $$
+     K \approx \frac{5.823 \times 10^{-5}}{0.09237} \approx 6.31 \times 10^{-4}
+     $$
+
+3. **计算 $\Delta_{\mathrm{r}} G_{\mathrm{m}}^{\ominus}$**:
+   - 将 $K$ 代入公式 $\Delta_{\mathrm{r}} G_{\mathrm{m}}^{\ominus} = -RT \ln K$：
+     $$
+     \Delta_{\mathrm{r}} G_{\mathrm{m}}^{\ominus} = -(8.314)(298)\ln(6.31 \times 10^{-4})
+     $$
+   - 计算 $\ln(6.31 \times 10^{-4})$：
+     $$
+     \ln(6.31 \times 10^{-4}) = \ln(6.31) + \ln(10^{-4}) \approx 1.843 - 9.210 = -7.367
+     $$
+   - 代入计算：
+     $$
+     \Delta_{\mathrm{r}} G_{\mathrm{m}}^{\ominus} = -(8.314)(298)(-7.367) \approx 18277\;\mathrm{J}\;\mathrm{mol}^{-1}
+     $$
+   - 将单位转换为 $\mathrm{kJ}\;\mathrm{mol}^{-1}$：
+     $$
+     \Delta_{\mathrm{r}} G_{\mathrm{m}}^{\ominus} \approx 18.3\;\mathrm{kJ}\;\mathrm{mol}^{-1}
+     $$","：
+$18.3\;\mathrm{kJ}\;\mathrm{mol}^{-1}$",N/A,N/A,N/A
+"$150{\mathrm{\;{cm}}}^{3}{0.10}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}\mathrm{{HAc}}$ 溶液和 ${50}{\mathrm{\;{cm}}}^{3}{0.10}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}\mathrm{{NaOH}}$ 溶液混合,若已知 $\mathrm{{HAc}}$ 的 ${K}_{\mathrm{a}}^{ \ominus } = {1.8} \times {10}^{-5}$ ,求混合溶液的 $c\left( {\mathrm{H}}^{ + }\right)$ 。","依题意 $V\left( \mathrm{{HAc}}\right) = {0.15}{\mathrm{{dm}}}^{3}, V\left( \mathrm{{NaOH}}\right) = {0.050}{\mathrm{{dm}}}^{3}$ ,则混合溶液
+
+$$
+V = {0.15}{\mathrm{{dm}}}^{3} + {0.050}{\mathrm{{dm}}}^{3} = {0.20}{\mathrm{{dm}}}^{3}
+$$
+
+$$
+n\left( \mathrm{{HAc}}\right) = {0.10}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3} \times {0.15}{\mathrm{{dm}}}^{3} = {0.015}\mathrm{\;{mol}}
+$$
+
+$$
+n\left( \mathrm{{NaOH}}\right) = {0.10}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3} \times {0.050}{\mathrm{{dm}}}^{3} = {0.0050}\mathrm{\;{mol}}
+$$
+
+$$
+\mathrm{{HAc}} + {\mathrm{{OH}}}^{ - } \rightleftharpoons {\mathrm{{Ac}}}^{ - } + {\mathrm{H}}_{2}\mathrm{O}
+$$
+
+反应后剩余
+
+$$
+n\left( \mathrm{{HAc}}\right) = {0.015}\mathrm{\;{mol}} - {0.0050}\mathrm{\;{mol}} = {0.010}\mathrm{\;{mol}}
+$$
+
+生成
+
+$$
+n\left( {\mathrm{{Ac}}}^{ - }\right) = {0.0050}\mathrm{\;{mol}}
+$$
+
+故在混合溶液中
+
+$$
+c\left( \mathrm{{HAc}}\right) = \frac{{0.010}\mathrm{\;{mol}}}{{0.20}{\mathrm{{dm}}}^{3}} = {0.050}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+$$
+c\left( {\mathrm{{Ac}}}^{ - }\right) = \frac{{0.0050}\mathrm{\;{mol}}}{{0.20}{\mathrm{{dm}}}^{3}} = {0.025}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+因为
+
+$$
+\mathrm{{HAc}} \rightleftharpoons {\mathrm{H}}^{ + } + {\mathrm{{Ac}}}^{ - }
+$$
+
+$$
+{K}_{\mathrm{a}}^{ \ominus } = \frac{c\left( {\mathrm{H}}^{ + }\right) c\left( {\mathrm{{Ac}}}^{ - }\right) }{c\left( \mathrm{{HAc}}\right) }
+$$
+
+所以
+
+$$
+c\left( {\mathrm{H}}^{ + }\right) = {K}_{\mathrm{a}}^{ \ominus }\frac{c\left( \mathrm{{HAc}}\right) }{c\left( {\mathrm{{Ac}}}^{ - }\right) }
+$$
+
+$$
+= {1.8} \times {10}^{-5} \times \frac{0.050}{0.025}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+$$
+= {3.6} \times {10}^{-5}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+或用公式直接求出该缓冲溶液的 $\mathrm{{pH}}$ 。
+
+$$
+\mathrm{{pH}} = \mathrm{p}{K}_{\mathrm{a}}^{ \ominus } - \lg \frac{{c}_{\text{酸 }}}{{c}_{\text{盐 }}}
+$$
+
+$$
+= {4.74} - \lg \frac{0.050}{0.025} = {4.44}
+$$
+
+故
+
+$$
+c\left( {\mathrm{H}}^{ + }\right) = {3.6} \times {10}^{-5}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+","：混合溶液中包含有醋酸（HAc）和氢氧化钠（NaOH）。醋酸是弱酸，而氢氧化钠是强碱。由于HAc和NaOH发生反应生成乙酸钠（CH3COONa）和水，可以用这两个溶液的体积和浓度来决定反应后的混合物。 
+
+1. 计算HAc和NaOH的物质的量：
+   - HAc的物质的量：\( n(\text{HAc}) = C \times V = 0.10 \ \text{mol/dm}^3 \times 150 \ \text{cm}^3 \times 10^{-3} = 0.015 \ \text{mol} \)
+   - NaOH的物质的量：\( n(\text{NaOH}) = C \times V = 0.10 \ \text{mol/dm}^3 \times 50 \ \text{cm}^3 \times 10^{-3} = 0.005 \ \text{mol} \)
+
+2. 计算反应后溶液中物质的量：
+   - 反应式：HAc + NaOH → CH3COONa + H2O
+   - NaOH是限制试剂，所以其完全反应消耗掉0.005 mol HAc，生成0.005 mol乙酸钠。
+   - 反应后，剩余HAc的量为：\( 0.015 \ \text{mol} - 0.005 \ \text{mol} = 0.010 \ \text{mol} \)
+   - 乙酸钠的量为0.005 mol。
+
+3. 计算溶液的总体积：
+   - 总体积：\( 150 \ \text{cm}^3 + 50 \ \text{cm}^3 = 200 \ \text{cm}^3 = 0.200 \ \text{dm}^3 \)
+
+4. 计算醋酸的剩余浓度和乙酸根离子的浓度：
+   - HAc的浓度：\( C(\text{HAc}) = \frac{0.010 \ \text{mol}}{0.200 \ \text{dm}^3} = 0.050 \ \text{mol/dm}^3 \)
+   - \( \text{CH}_3\text{COO}^- \)的浓度：\( C(\text{CH}_3\text{COO}^-) = \frac{0.005 \ \text{mol}}{0.200 \ \text{dm}^3} = 0.025 \ \text{mol/dm}^3 \)
+
+5. 因为醋酸盐和醋酸形成缓冲溶液，用Henderson-Hasselbalch方程来估算溶液的pH值：
+   \[
+   \text{pH} = \text{pK}_a + \log\frac{[\text{CH}_3\text{COO}^-]}{[\text{HAc}]} 
+   \]
+   \[
+   \text{pK}_a = -\log (1.8 \times 10^{-5}) \approx 4.74
+   \]
+   \[
+   \text{pH} = 4.74 + \log\frac{0.025}{0.050} = 4.74 - 0.30 = 4.44
+   \]
+
+6. 根据pH值求H+离子浓度：
+   \[
+   [\text{H}^+] = 10^{-\text{pH}} = 10^{-4.44} \approx 3.63 \times 10^{-5} \ \text{mol/dm}^3
+   \]",：\( 3.63 \times 10^{-5} \ \text{mol/dm}^3 \),N/A,N/A,N/A
+"将 ${0.20}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 盐酸和 ${0.20}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}{\mathrm{H}}_{2}{\mathrm{C}}_{2}{\mathrm{O}}_{4}$ 溶液等体积混合后,求溶液中 ${\mathrm{C}}_{2}{\mathrm{O}}_{4}^{2 - }$ 和 ${\mathrm{{HC}}}_{2}{\mathrm{O}}_{4}^{ - }$ 的浓度。已知 ${\mathrm{H}}_{2}{\mathrm{C}}_{2}{\mathrm{O}}_{4}$ 的 ${K}_{{\mathrm{a}}_{1}}^{ \ominus } = {5.4} \times {10}^{-2},{K}_{{\mathrm{a}}_{2}}^{ \ominus } = {5.4} \times {10}^{-5}$ 。","由于 ${K}_{{\mathrm{a}}_{2}}^{ \ominus }\left( {{\mathrm{H}}_{2}{\mathrm{C}}_{2}{\mathrm{O}}_{4}}\right)$ 较小,加之 $\mathrm{{HCl}}$ 中 ${\mathrm{H}}^{ + }$ 的同离子效应,在求溶液中 ${\mathrm{{HC}}}_{2}{\mathrm{O}}_{4}^{ - }$ 浓度时,只考虑第一步解离即可:
+
+$$
+{\mathrm{H}}_{2}{\mathrm{C}}_{2}{\mathrm{O}}_{4} \rightleftharpoons {\mathrm{H}}^{ + } + {\mathrm{{HC}}}_{2}{\mathrm{O}}_{4}^{ - }
+$$
+
+$$
+{c}_{\text{平 }}/\left( {\mathrm{{mol}} \cdot {\mathrm{{dm}}}^{-3}}\right)
+$$
+
+$$
+{0.1} - x\;{0.1} + x\;x
+$$
+
+$$
+\frac{\left( {{0.1} + x}\right) x}{{0.1} - x} = {K}_{{\mathrm{a}}_{1}}^{ \ominus } = {5.4} \times {10}^{-2}
+$$
+
+$$
+x = {2.9} \times {10}^{-2}
+$$
+
+${\mathrm{C}}_{2}{\mathrm{O}}_{4}^{2 - }$ 由 ${\mathrm{H}}_{2}{\mathrm{C}}_{2}{\mathrm{O}}_{4}$ 的第二步解离求得
+
+$$
+{\mathrm{{HC}}}_{2}{\mathrm{O}}_{4}^{ - } \rightleftharpoons {\mathrm{H}}^{ + } + {\mathrm{C}}_{2}{\mathrm{O}}_{4}^{2 - }
+$$
+
+$$
+{c}_{\text{平 }}/\left( {\mathrm{{mol}} \cdot {\mathrm{{dm}}}^{-3}}\right)
+$$
+
+$$
+{0.029} - y\;{0.129} + y\; :
+$$
+
+$$
+\frac{\left( {{0.129} + y}\right) y}{{0.029} - y} = {K}_{{\mathrm{a}}_{2}}^{ \ominus } = {5.4} \times {10}^{-5}
+$$
+
+$$
+y = {1.2} \times {10}^{-5}
+$$
+
+则混合溶液中 $c\left( {{\mathrm{C}}_{2}{\mathrm{O}}_{4}^{2 - }}\right) = {1.2} \times {10}^{-5}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$
+
+$$
+c\left( {{\mathrm{{HC}}}_{2}{\mathrm{O}}_{4}^{ - }}\right) = {2.9} \times {10}^{-2}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+","：
+1. 首先，分析混合溶液的组成。0.20 mol/L 的盐酸和 0.20 mol/L 的草酸溶液等体积混合，盐酸提供的氢离子浓度为 0.10 mol/L，草酸的浓度同样变为 0.10 mol/L。
+2. 草酸 (H2C2O4) 是一个二元弱酸，其两步电离分别由如下反应表示：
+   - 第一步：H2C2O4 ⇌ H^+ + HC2O4^−, 平衡常数 Ka1 = 5.4 × 10^-2
+   - 第二步：HC2O4^− ⇌ H^+ + C2O4^2−, 平衡常数 Ka2 = 5.4 × 10^-5
+
+3. 混合后，考虑草酸的第一步电离：H2C2O4 ⇌ H^+ + HC2O4^−，初始草酸浓度为 0.10 mol/L，由于混合过程中的 H^+ 来自盐酸，初始 H^+ = 0.10 mol/L，也可忽略草酸第一步电离产生的影响。
+4. 由于 Ka1 的值与 HCl 初始提供的最大浓度相近，可假设第一步电离达到平衡后：
+   - [H2C2O4] = 0.10 - x
+   - [HC2O4^-] ≈ x
+   - [H^+] ≈ 0.10 + x
+   
+   由于平衡常数较大（与初始 H^+ 相近），可取 x ≈ 0，即草酸基本不电离，[HC2O4^-]≈0。
+
+5. 考虑第二步的电离：HC2O4^- ⇌ H^+ + C2O4^2-
+   - [HC2O4^-] 初始浓度趋近于 0
+   - 使用电离后的可忽略较小变化设定，假设 [C2O4^2-] = y
+   
+   然后，通过第二步电离常数设证，得到：Ka2 = ([H+][C2O4^2-])/[HC2O4^-]，即：
+   - Ka2 ≈ (0.10 * [C2O4^2-]) y
+
+6. 代入 Ka2 的数值，简化得：
+   5.4 × 10^-5 = 0.10y
+7. 计算得到 y 即是 C2O4^2- 的浓度：
+   [C2O4^2-] = 5.4 × 10^-4 mol/L
+   然而，[HC2O4^-] 余量极少近似为初始情况，仍为 0","：
+C2O4^2-：5.4 × 10^-4 mol/L
+HC2O4^-：0",N/A,N/A,N/A
+"在血液中 ${\mathrm{H}}_{2}{\mathrm{{CO}}}_{3} - {\mathrm{{NaHCO}}}_{3}$ 缓冲对的作用之一是从细胞组织中迅速除去由运动产生的乳酸 (简记为 $\mathrm{{HL}},{K}_{\mathrm{a}}^{ \ominus } = {1.4} \times {10}^{-4}$ )。已知 ${\mathrm{H}}_{2}{\mathrm{{CO}}}_{3}$ 的 ${K}_{{\mathrm{a}}_{1}}^{ \ominus } = {4.5} \times {10}^{-7}$ 。
+
+(1) 求 $\mathrm{{HL}} + {\mathrm{{HCO}}}_{3}^{ - } \rightleftharpoons {\mathrm{H}}_{2}{\mathrm{{CO}}}_{3} + {\mathrm{L}}^{ - }$ 的平衡常数 ${K}^{ \ominus }$ ;
+
+（2）若血液中 $c\left( {{\mathrm{H}}_{2}{\mathrm{{CO}}}_{3}}\right) = {1.4} \times {10}^{-3}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}, c\left( {\mathrm{{HCO}}}_{3}^{ - }\right) = {2.7} \times {10}^{-2}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ ,求血液的 $\mathrm{{pH}}$ ;
+
+（3）向 ${1.0}{\mathrm{{dm}}}^{3}$ 血液中加入 ${5.0} \times {10}^{-3}\mathrm{\;{mol}}\mathrm{{HL}}$ 后, $\mathrm{{pH}}$ 为多大?"," (1) $\mathrm{{HL}} + {\mathrm{{HCO}}}_{3}^{ - } \rightleftharpoons {\mathrm{H}}_{2}{\mathrm{{CO}}}_{3} + {\mathrm{L}}^{ - }$
+
+$$
+{K}^{ \ominus } = \frac{c\left( {{\mathrm{H}}_{2}{\mathrm{{CO}}}_{3}}\right) c\left( {\mathrm{\;L}}^{ - }\right) }{c\left( \mathrm{{HL}}\right) c\left( {\mathrm{{HCO}}}_{3}^{ - }\right) } \cdot \frac{c\left( {\mathrm{H}}^{ + }\right) }{c\left( {\mathrm{H}}^{ + }\right) } = \frac{{K}_{\mathrm{a}}^{ \ominus }\left( \mathrm{{HL}}\right) }{{K}_{{\mathrm{a}}_{1}}^{ \ominus }\left( {{\mathrm{H}}_{2}{\mathrm{{CO}}}_{3}}\right) } = \frac{{1.4} \times {10}^{-4}}{{4.5} \times {10}^{-7}} = {3.1} \times {10}^{2}
+$$
+
+(2) $\mathrm{{pH}} = \mathrm{p}{K}_{{\mathrm{a}}_{1}}^{ \ominus } - \lg \frac{c\left( {{\mathrm{H}}_{2}{\mathrm{{CO}}}_{3}}\right) }{c\left( {\mathrm{{HCO}}}_{3}^{ - }\right) } = {6.35} - \lg \frac{{1.4} \times {10}^{-3}}{{2.7} \times {10}^{-2}} = {7.64}$
+
+（3）由于 $\mathrm{{HL}}$ 酸性比 ${\mathrm{H}}_{2}{\mathrm{{CO}}}_{3}$ 强得多,可近似处理成 $\mathrm{{HL}}$ 与 ${\mathrm{{HCO}}}_{3}^{ - }$ 全部反应生成 ${\mathrm{H}}_{2}{\mathrm{{CO}}}_{3}$ ,则
+
+$$
+c\left( {{\mathrm{H}}_{2}{\mathrm{{CO}}}_{3}}\right) = {1.4} \times {10}^{-3}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3} + {5.0} \times {10}^{-3}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+$$
+= {6.4} \times {10}^{-3}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+$$
+c\left( {\mathrm{{HCO}}}_{3}^{ - }\right) = {2.7} \times {10}^{-2}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3} - {5.0} \times {10}^{-3}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+$$
+= {2.2} \times {10}^{-2}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+$$
+\mathrm{{pH}} = \mathrm{p}{K}_{{\mathrm{a}}_{1}}^{ \ominus } - \lg \frac{c\left( {{\mathrm{H}}_{2}{\mathrm{{CO}}}_{3}}\right) }{c\left( {\mathrm{{HCO}}}_{3}^{ - }\right) } = {6.35} - \lg \frac{{6.4} \times {10}^{-3}}{{2.2} \times {10}^{-2}} = {6.89}
+$$
+","：
+
+(1) 我们需要求反应 $\mathrm{{HL}} + \mathrm{{HCO}}_{3}^{-} \rightleftharpoons \mathrm{{H}}_{2}\mathrm{{CO}}_{3} + \mathrm{L}^{-}$ 的平衡常数 $K^\ominus$。假设反应为：
+
+\[
+\mathrm{{HL}} + \mathrm{{HCO}}_{3}^{-} \rightleftharpoons \mathrm{{H}}_{2}\mathrm{{CO}}_{3} + \mathrm{{L}}^{-}
+\]
+
+其平衡常数的计算公式为：
+
+\[
+K^\ominus = \frac{K_{\mathrm{a}, \mathrm{HL}}^\ominus}{K_{\mathrm{a}, \mathrm{{H}}_{2}{\mathrm{{CO}}}_{3}}^\ominus}
+\]
+
+其中：
+- $K_{\mathrm{a}, \mathrm{HL}}^\ominus$ 是乳酸 $\mathrm{HL}$ 的电离常数；
+- $K_{\mathrm{a}, \mathrm{{H}}_{2}{\mathrm{CO}}_{3}}^\ominus$ 是 $\mathrm{{H}_2{\mathrm{CO}}_3}$ 第一电离常数。
+
+代入题目中提供的数据 $K_{\mathrm{a}, \mathrm{HL}}^\ominus = 1.4 \times 10^{-4}$ 和 $K_{\mathrm{a}, \mathrm{{H}}_{2}{\mathrm{CO}}_{3}}^\ominus = 4.5 \times 10^{-7}$，得到：
+
+\[
+K^\ominus = \frac{1.4 \times 10^{-4}}{4.5 \times 10^{-7}} = 311.1
+\]
+
+(2) 血液的 $\mathrm{pH}$ 由缓冲溶液的 $\mathrm{{H}_2{\mathrm{CO}}_3}/{\mathrm{{HCO}}_3^-}$ 缓冲对的关系计算。缓冲溶液的 $\mathrm{pH}$ 通过亨德森-哈塞尔巴赫公式计算：
+
+\[
+\mathrm{pH} = \mathrm{p}K_{\mathrm{a}, \mathrm{{H}_2{\mathrm{CO}}_3}} + \log_{10}\left(\frac{c({\mathrm{{HCO}}_{3}^-})}{c({\mathrm{{H}_2{\mathrm{CO}}_3}})}\right)
+\]
+
+其中：
+- $\mathrm{p}K_{\mathrm{a}, \mathrm{{H}_2{\mathrm{CO}}_3}} = -\log_{10}(K_{\mathrm{a}, \mathrm{{H}_2{\mathrm{CO}}_3}}^\ominus) = -\log_{10}(4.5 \times 10^{-7}) \approx 6.35$；
+- $c({\mathrm{{H}_2{\mathrm{CO}}_3}}) = 1.4 \times 10^{-3} \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$；
+- $c({\mathrm{{HCO}}_3^-}) = 2.7 \times 10^{-2} \, \mathrm{mol} \cdot \mathrm{dm}^{-3}$。
+
+代入公式：
+
+\[
+\mathrm{pH} = 6.35 + \log_{10}\left(\frac{2.7 \times 10^{-2}}{1.4 \times 10^{-3}}\right) = 6.35 + \log_{10}(19.29)
+\]
+
+\[
+\log_{10}(19.29) \approx 1.29
+\]
+
+所以：
+
+\[
+\mathrm{pH} = 6.35 + 1.29 = 7.64
+\]
+
+(3) 向 $1.0 \, \mathrm{dm}^{3}$ 血液中加入 $5.0 \times 10^{-3} \, \mathrm{mol}$ 乳酸，考虑新增的乳酸会消耗部分 $\mathrm{{HCO}}_3^-$ 并生成更多 $\mathrm{{H}_2{\mathrm{CO}}_3}$。新的 $\mathrm{pH}$ 可通过以下步骤计算：
+
+1. **物质的量变化**：乳酸 $\mathrm{HL}$ 与 $\mathrm{{HCO}}_{3}^{-}$ 按摩尔比 $1:1$ 反应。加入的乳酸为 $5.0 \times 10^{-3} \, \mathrm{mol}$，因此：
+   - 被消耗的 $\mathrm{{HCO}}_3^-$ 的物质的量为 $5.0 \times 10^{-3} \, \mathrm{mol}$；
+   - 生成的 $\mathrm{{H}_2{\mathrm{CO}}_3}$ 的物质的量为 $5.0 \times 10^{-3} \, \mathrm{mol}$。
+
+2. **新的浓度**：
+   - 新的 $\mathrm{{HCO}}_3^-$ 浓度：
+     \[
+     c'({\mathrm{{HCO}}_3^-}) = c({\mathrm{{HCO}}_3^-}) - \frac{5.0 \times 10^{-3}}{1.0} = 2.7 \times 10^{-2} - 5.0 \times 10^{-3} = 2.2 \times 10^{-2} \, \mathrm{mol} \cdot \mathrm{dm}^{-3}
+     \]
+   - 新的 $\mathrm{{H}_2{\mathrm{CO}}_3}$ 浓度：
+     \[
+     c'({\mathrm{{H}_2{\mathrm{CO}}_3}}) = c({\mathrm{{H}_2{\mathrm{CO}}_3}}) + \frac{5.0 \times 10^{-3}}{1.0} = 1.4 \times 10^{-3} + 5.0 \times 10^{-3} = 6.4 \times 10^{-3} \, \mathrm{mol} \cdot \mathrm{dm}^{-3}
+     \]
+
+3. **新的 $\mathrm{pH}$ 计算**：代入亨德森-哈塞尔巴赫公式：
+
+\[
+\mathrm{pH} = \mathrm{p}K_{\mathrm{a}, \mathrm{{H}_2{\mathrm{CO}}_3}} + \log_{10}\left(\frac{c'({\mathrm{{HCO}}_3^-})}{c'({\mathrm{{H}_2{\mathrm{CO}}_3}})}\right)
+\]
+
+\[
+\mathrm{pH} = 6.35 + \log_{10}\left(\frac{2.2 \times 10^{-2}}{6.4 \times 10^{-3}}\right) = 6.35 + \log_{10}(3.44)
+\]
+
+\[
+\log_{10}(3.44) \approx 0.537
+\]
+
+\[
+\mathrm{pH} = 6.35 + 0.537 = 6.89
+\]","：
+
+(1) 311.1  
+(2) 7.64  
+(3) 6.89",N/A,N/A,N/A
+"通过计算判断在水溶液中, ${\mathrm{{NH}}}_{3}$ 与 ${\mathrm{{HPO}}}_{4}^{2 - }$ 哪一个碱性较强? 已知 ${\mathrm{{NH}}}_{3} \cdot {\mathrm{H}}_{2}\mathrm{O}$ 的 ${K}_{\mathrm{b}}^{ \ominus } =$ 1. $8 \times {10}^{-5};{\mathrm{H}}_{3}{\mathrm{{PO}}}_{4}$ 的 ${K}_{{\mathrm{a}}_{1}}^{ \ominus } = {6.9} \times {10}^{-3},{K}_{{\mathrm{a}}_{2}}^{ \ominus } = {6.1} \times {10}^{-3},{K}_{{\mathrm{a}}_{3}}^{ \ominus } = {4.8} \times {10}^{-{13}}$ 。","根据酸碱质子理论:
+
+$$
+{\mathrm{H}}_{2}{\mathrm{{PO}}}_{4}^{ - } \rightleftharpoons {\mathrm{H}}^{ + } + {\mathrm{{HPO}}}_{4}^{2 - }
+$$
+
+${\mathrm{H}}_{2}{\mathrm{{PO}}}_{4}^{ - }$ 与 ${\mathrm{{HPO}}}_{4}^{2 - }$ 是共轭酸碱对。
+
+$$
+{\mathrm{{HPO}}}_{4}^{2 - } + {\mathrm{H}}_{2}\mathrm{O} \rightleftharpoons {\mathrm{H}}_{2}{\mathrm{{PO}}}_{4}^{ - } + {\mathrm{{OH}}}^{ - }
+$$
+
+$$
+{K}_{\mathrm{b}}^{ \ominus }\left( {\mathrm{{HPO}}}_{4}^{2 - }\right) = \frac{c\left( {{\mathrm{H}}_{2}{\mathrm{{PO}}}_{4}^{ - }}\right) c\left( {\mathrm{{OH}}}^{ - }\right) }{c\left( {\mathrm{{HPO}}}_{4}^{2 - }\right) } = \frac{c\left( {{\mathrm{H}}_{2}{\mathrm{{PO}}}_{4}^{ - }}\right) c\left( {\mathrm{{OH}}}^{ - }\right) c\left( {\mathrm{H}}^{ + }\right) }{c\left( {\mathrm{{HPO}}}_{4}^{2 - }\right) c\left( {\mathrm{H}}^{ + }\right) } = \frac{{K}_{\mathrm{w}}^{ \ominus }}{{K}_{{\mathrm{a}}_{2}}^{ \ominus }}
+$$
+
+$$
+= \frac{{1.0} \times {10}^{-{14}}}{{6.1} \times {10}^{-8}} = {1.6} \times {10}^{-7}
+$$
+
+${K}_{\mathrm{b}}^{ \ominus }\left( {\mathrm{{HPO}}}_{4}^{2 - }\right) < {K}_{\mathrm{b}}^{ \ominus }\left( {{\mathrm{{NH}}}_{3} \cdot {\mathrm{H}}_{2}\mathrm{O}}\right)$ ,所以 ${\mathrm{{NH}}}_{3}$ 的碱性比 ${\mathrm{{HPO}}}_{4}^{2 - }$ 强。
+","：若要比较两种物质碱性强弱，我们需要比较它们在水溶液中的碱解离平衡常数（K_b）。${\mathrm{NH}}_{3}$ 直接提供了其碱性常数：
+
+1. ${\mathrm{NH}}_{3} \cdot {\mathrm{H}}_{2}\mathrm{O}$ 的 $\mathrm{K}_\mathrm{b}^\ominus = 1.8 \times 10^{-5}$。
+
+对于 ${\mathrm{HPO}}_{4}^{2-}$，我们需要通过其相应的酸离解常数计算其碱性常数。因${\mathrm{HPO}}_{4}^{2-}$是 ${\mathrm{H}}_{3}{\mathrm{PO}}_{4}$电离的第二、第三阶段相关阴离子，可以使用水的电离平衡常数和其多级酸的酸常数的关系来计算。
+
+${\mathrm{HPO}}_{4}^{2-}$ 的作为碱的平衡式为：
+\[ \mathrm{HPO}_4^{2-} + \mathrm{H}_2O \rightleftharpoons \mathrm{PO}_4^{3-} + \mathrm{OH}^- \]
+
+这个平衡的反应对应的酸是 $\mathrm{H}_2\mathrm{PO}_4^- \rightleftharpoons \mathrm{HPO}_4^{2-} + \mathrm{H}^+$的逆过程，${K}_{{\mathrm{a}}_{2}}^{\ominus}$ 和 ${K}_{{\mathrm{a}}_{3}}^{\ominus}$ 的乘积关系公式可以确定 $\mathrm{K}_\mathrm{b}$：
+
+\[
+K_{\mathrm{b}}(\mathrm{HPO}_4^{2-}) = \frac{K_w}{K_{a3}}
+\]
+
+其中 \( K_w = 1.0 \times 10^{-14} \) at 25°C。
+
+因此，
+\[ K_{\mathrm{b}}(\mathrm{HPO}_4^{2-}) = \frac{1.0 \times 10^{-14}}{4.8 \times 10^{-13}} \approx 2.1 \times 10^{-2} \]
+
+现在，比较两个K_b的值：
+
+- ${\mathrm{NH}}_{3}$ 的 $K_\mathrm{b} = 1.8 \times 10^{-5}$
+- ${\mathrm{HPO}}_{4}^{2-}$ 的 $K_\mathrm{b} \approx 2.1 \times 10^{-2}$
+
+显然，$2.1 \times 10^{-2} > 1.8 \times 10^{-5}$，因此 ${\mathrm{HPO}}_{4}^{2-}$ 具有更强的碱性。",：${\mathrm{HPO}}_{4}^{2-}$,N/A,N/A,N/A
+"根据酸碱质子理论, 下列分子或离子中哪些是酸? 哪些是碱? 哪些既是酸又是碱?
+
+${\mathrm{{HS}}}^{ - },{\mathrm{{CO}}}_{3}^{2 - },{\mathrm{H}}_{2}{\mathrm{{PO}}}_{4}^{ - },{\mathrm{{NH}}}_{3},{\mathrm{H}}_{2}\mathrm{\;S},\mathrm{{HAc}},{\mathrm{{OH}}}^{ - },{\mathrm{H}}_{2}\mathrm{O},{\mathrm{{NO}}}_{2}^{ - }$ 。"," 酸: ${\mathrm{H}}_{2}\mathrm{\;S},\mathrm{{HAc}}$ ;
+
+碱: ${\mathrm{{CO}}}_{3}^{2 - },{\mathrm{{NO}}}_{2}^{ - }$ ;
+
+既是酸又是碱: ${\mathrm{{HS}}}^{ - },{\mathrm{H}}_{2}{\mathrm{{PO}}}_{4}^{ - },{\mathrm{H}}_{2}\mathrm{O},{\mathrm{{OH}}}^{ - },{\mathrm{{NH}}}_{3}$ 。
+","：  
+根据酸碱质子理论（布朗斯特-劳里酸碱理论），酸是能够释放质子（H⁺）的物质，而碱是能够接受质子的物质。此外，有些分子或离子既能够作为酸释放质子，又能够作为碱接受质子，这样的物质称为两性物质。
+
+接下来逐一分析：
+
+1. \( \mathrm{HS}^- \)：  
+   - 其可以释放质子生成 \( \mathrm{S}^{2-} \)，表现为酸。  
+   - 其可以接受质子生成 \( \mathrm{H_2S} \)，表现为碱。  
+   - 因此，\( \mathrm{HS}^- \) 既是酸又是碱。
+
+2. \( \mathrm{CO_3^{2-}} \)：  
+   - 其可以接受质子生成 \( \mathrm{HCO_3^-} \)，表现为碱。  
+   - 无法释放质子，因此它不是酸。  
+   - 因此，\( \mathrm{CO_3^{2-}} \) 是碱。
+
+3. \( \mathrm{H_2PO_4^-} \)：  
+   - 其可以释放质子生成 \( \mathrm{HPO_4^{2-}} \)，表现为酸。  
+   - 其可以接受质子生成 \( \mathrm{H_3PO_4} \)，表现为碱。  
+   - 因此，\( \mathrm{H_2PO_4^-} \) 既是酸又是碱。
+
+4. \( \mathrm{NH_3} \)：  
+   - 能接受质子生成 \( \mathrm{NH_4^+} \)，表现为碱。  
+   - 无法释放质子，因此它不是酸。  
+   - 因此，\( \mathrm{NH_3} \) 是碱。
+
+5. \( \mathrm{H_2S} \)：  
+   - 能释放质子生成 \( \mathrm{HS^-} \)，表现为酸。  
+   - 无法接受质子，因此它不是碱。  
+   - 因此，\( \mathrm{H_2S} \) 是酸。
+
+6. \( \mathrm{HAc} \)（乙酸）：  
+   - 能释放质子生成 \( \mathrm{Ac^-} \)，表现为酸。  
+   - 无法接受质子，因此它不是碱。  
+   - 因此，\( \mathrm{HAc} \) 是酸。
+
+7. \( \mathrm{OH^-} \)：  
+   - 能接受质子生成 \( \mathrm{H_2O} \)，表现为碱。  
+   - 无法释放质子，因此它不是酸。  
+   - 因此，\( \mathrm{OH^-} \) 是碱。
+
+8. \( \mathrm{H_2O} \)：  
+   - 能释放质子生成 \( \mathrm{OH^-} \)，表现为酸。  
+   - 能接受质子生成 \( \mathrm{H_3O^+} \)，表现为碱。  
+   - 因此，\( \mathrm{H_2O} \) 既是酸又是碱。
+
+9. \( \mathrm{NO_2^-} \)：  
+   - 能接受质子生成 \( \mathrm{HNO_2} \)，表现为碱。  
+   - 无法释放质子，因此它不是酸。  
+   - 因此，\( \mathrm{NO_2^-} \) 是碱。","：  
+- 酸：\( \mathrm{H_2S} \), \( \mathrm{HAc} \)  
+- 碱：\( \mathrm{CO_3^{2-}} \), \( \mathrm{NH_3} \), \( \mathrm{OH^-} \), \( \mathrm{NO_2^-} \)  
+- 既是酸又是碱：\( \mathrm{HS^-} \), \( \mathrm{H_2PO_4^-} \), \( \mathrm{H_2O} \)",N/A,N/A,N/A
+"根据酸碱质子理论, 写出下列分子或离子的共轭酸 (或碱) 的化学式。
+
+(1) ${\mathrm{{SO}}}_{4}^{2 - }$ ; (2) ${\mathrm{H}}_{2}{\mathrm{{SO}}}_{4}$ ; (3) ${\mathrm{{HSO}}}_{4}^{ - }$ ; (4) ${\mathrm{S}}^{2 - }$ ;
+
+(5) ${\mathrm{{NH}}}_{3}$ ; (6) ${\mathrm{H}}_{2}\mathrm{\;S}$ ; (7) ${\mathrm{H}}_{2}{\mathrm{{PO}}}_{4}^{ - }$ 。","(1) ${\mathrm{{SO}}}_{4}^{2 - }$ 的共轭酸为 ${\mathrm{{HSO}}}_{4}^{ - }$ ;
+
+(2) ${\mathrm{H}}_{2}{\mathrm{{SO}}}_{4}$ 的共轭碱为 ${\mathrm{{HSO}}}_{4}^{ - }$ ;
+
+（3） ${\mathrm{{HSO}}}_{4}^{ - }$ 的共轭酸为 ${\mathrm{H}}_{2}{\mathrm{{SO}}}_{4}$ ,共轭碱为 ${\mathrm{{SO}}}_{4}^{2 - }$ ;
+
+（4） ${\mathrm{S}}^{2 - }$ 的共轭酸为 ${\mathrm{{HS}}}^{ - }$ ;
+
+(5) ${\mathrm{{NH}}}_{3}$ 的共轭酸为 ${\mathrm{{NH}}}_{4}^{ + }$ ,共轭碱为 ${\mathrm{{NH}}}_{2}^{ - }$ ;
+
+(6) ${\mathrm{H}}_{2}\mathrm{\;S}$ 的共轭碱为 ${\mathrm{{HS}}}^{ - }$ ;
+
+(7) ${\mathrm{H}}_{2}{\mathrm{{PO}}}_{4}^{ - }$ 的共轭酸为 ${\mathrm{H}}_{3}{\mathrm{{PO}}}_{4}$ ,共轭碱为 ${\mathrm{{HPO}}}_{4}^{2 - }$ 。","：酸碱质子理论（Brønsted-Lowry 定义）指出：
+- 酸是质子（H⁺）的供体。
+- 碱是质子（H⁺）的受体。
+根据共轭酸碱对的定义：
+- 某物质失去一个质子（H⁺）生成的物质就是它的共轭碱。
+- 某物质接受一个质子（H⁺）生成的物质就是它的共轭酸。
+
+因此，题目给出的化学物质中：
+1. 若物质是碱，其共轭酸通过增加一个H⁺得到。
+2. 若物质是酸，其共轭碱通过失去一个H⁺得到。
+
+根据每个物质的化学性质以及共轭酸碱推导规则：
+1. ${\mathrm{SO}}_4^{2-}$：该离子具有两个负电荷，可以接受一个 H⁺，反应为 ${\mathrm{HSO}}_4^{-}$，得到它的共轭酸。
+2. ${\mathrm{H}}_2{\mathrm{SO}}_4$：这是硫酸，具有较强的酸性，失去一个 H⁺ 后生成 ${\mathrm{HSO}}_4^{-}$，它的共轭碱。
+3. ${\mathrm{HSO}}_4^{-}$：作为一元酸，失去一个 H⁺ 后生成 ${\mathrm{SO}}_4^{2-}$，是它的共轭碱；作为一元碱，可以增加一个 H⁺ 生成 ${\mathrm{H}}_2{\mathrm{SO}}_4$，是它的共轭酸。
+4. ${\mathrm{S}}^{2-}$：该离子具有两个负电荷，可以接受一个 H⁺，生成 ${\mathrm{HS}}^{-}$，是它的共轭酸。
+5. ${\mathrm{NH}}_3$：氨分子可以接受一个 H⁺，生成 ${\mathrm{NH}}_4^{+}$，是它的共轭酸。
+6. ${\mathrm{H}}_2\mathrm{S}$：作为酸，失去一个 H⁺ 生成 ${\mathrm{HS}}^{-}$，是它的共轭碱。
+7. ${\mathrm{H}}_2{\mathrm{PO}}_4^{-}$：作为氧酸根的一部分，失去一个 H⁺ 生成 ${\mathrm{HPO}}_4^{2-}$，是它的共轭碱；作为一元碱，可以接受一个 H⁺ 生成 ${\mathrm{H}}_3{\mathrm{PO}}_4$，是它的共轭酸。","：
+(1) ${\mathrm{HSO}}_4^{-}$  
+(2) ${\mathrm{HSO}}_4^{-}$  
+(3) ${\mathrm{H}}_2{\mathrm{SO}}_4$  
+(4) ${\mathrm{HS}}^{-}$  
+(5) ${\mathrm{NH}}_4^{+}$  
+(6) ${\mathrm{HS}}^{-}$  
+(7) ${\mathrm{H}}_3{\mathrm{PO}}_4$",N/A,N/A,N/A

@@ -1,0 +1,134 @@
+query,true_answer,reasoning,model_answer,knowledge_accuracy,reasoning_accuracy,final_answer_accuracy
+"下列过渡金属中, 密度最大的是
+
+(A) $\mathrm{W}$ ; (B) Os; (C) $\operatorname{Ir}$ ; (D) $\mathrm{{Au}}$ 。",B,：密度是物质的质量与体积之比，对于化学元素来说，其密度与原子质量和原子结构密切相关。过渡金属具有高密度通常与其高原子质量和较小的原子体积有关。所给选项中的元素分别是钨（W）、锇（Os）、铱（Ir）和金（Au）。根据已知的参考，锇（Os）的密度为22.59 g/cm³，是自然界中密度最大的元素。虽然钨、铱和金也具有较大的密度（分别约为19.25 g/cm³、22.56 g/cm³和19.32 g/cm³），但都比锇低。因此，锇是这几种元素中密度最大的。,：B,N/A,N/A,N/A
+"下列金属中, 最活泼的是
+
+(A) $\mathrm{{Fe}}$ ; (B) $\mathrm{{Co}}$ ; (C) $\mathrm{{Ni}}$ ; (D) $\mathrm{{Pd}}$ 。",A,"：  
+金属活泼性通常通过其在金属活动性顺序中的位置来判定。金属活动性顺序反映了金属的还原能力大小，越活泼的金属越容易失去电子形成阳离子。问题中的金属分别是铁（Fe）、钴（Co）、镍（Ni）、钯（Pd）。根据金属活动性顺序：  
+- 铁（Fe）处于较靠前的位置（较活泼）。  
+- 钴（Co）和镍（Ni）的活动性低于铁，次之。  
+- 钯（Pd）属于过渡金属，是贵金属之一，活泼性最弱。  
+
+因此，这四者中铁是最活泼的金属。",：A,N/A,N/A,N/A
+"下列配离子中, 能将 KI 氧化的是
+
+(A) ${\left\lbrack \mathrm{{Fe}}{\left( \mathrm{{CN}}\right) }_{6}\right\rbrack }^{3 - }$ ; (B) ${\left\lbrack \mathrm{{Fe}}{\left( \mathrm{{SCN}}\right) }_{6}\right\rbrack }^{3 - }$ ;
+
+(C) ${\left\lbrack \mathrm{{Co}}{\left( {\mathrm{{NH}}}_{3}\right) }_{6}\right\rbrack }^{3 + }$ ; (D) ${\left\lbrack \mathrm{{Ni}}{\left( \mathrm{{CN}}\right) }_{6}\right\rbrack }^{3 - }$ 。",B,"：  
+我们需要确定哪个选项中的配离子可以氧化 KI。氧化反应中，氧化剂得电子，还原为低价态。要做出判断，我们可以分析所给配离子的氧化态性质及其氧化还原电位。
+
+1. \({\left\lbrack \mathrm{{Fe}}{\left( \mathrm{{CN}}\right) }_{6}\right\rbrack }^{3-}\)：\(Fe^{3+}\)的氧化态较高，\(\mathrm{CN}^{-}\)是强场配体，使得铁稳定于\(+3\)氧化态，相对于还原能力来说较弱，因此不容易氧化\(\mathrm{I}^{-}\)。
+
+2. \({\left\lbrack \mathrm{{Fe}}{\left( \mathrm{{SCN}}\right) }_{6}\right\rbrack }^{3-}\)：在这种情况下，\(\mathrm{SCN}^{-}\)也是配体，可能允许铁保持在更低电子密度的状态，理论上\(\mathrm{Fe}\)能接受电子，\(\mathrm{Fe}^{3+}\)可以被还原为\(\mathrm{Fe}^{2+}\)，具有一定的氧化能力。
+
+3. \({\left\lbrack \mathrm{{Co}}{\left( \mathrm{{NH}}}_{3}\right) }_{6}\right\rbrack }^{3+}\)：\(Co^{3+}\)在配合物中是非常稳定的，尤其在氨配体的作用下，但\(\mathrm{Co}^{3+}\)可以被还原为\(\mathrm{Co}^{2+}\)，显示了一定的氧化能力。
+
+4. \({\left\lbrack \mathrm{{Ni}}{\left( \mathrm{{CN}}\right) }_{6}\right\rbrack }^{3-}\)：\(\mathrm{Ni}^{3+}\)的电位非常高，然而在\(\mathrm{CN}^{-}\)的强配体场中，\(\mathrm{Ni}\)在+3价态极不稳定，通常\(\mathrm{Ni}\)不会以这种状态存在，因此不是一个有效的氧化剂。
+
+综上分析，\({\left\lbrack \mathrm{{Co}}{\left( {\mathrm{{NH}}}_{3}\right) }_{6}\right\rbrack }^{3+}\)是最有可能氧化KI的，因为它具有可被还原的高价态金属离子。",：C,N/A,N/A,N/A
+"能用 $\mathrm{{NaOH}}$ 溶液分离的离子对是
+
+(A) ${\mathrm{{Cr}}}^{3 + }$ 和 ${\mathrm{{Al}}}^{3 + }$ ; (B) ${\mathrm{{Cu}}}^{2 + }$ 和 ${\mathrm{{Zn}}}^{2 + }$ ;
+
+(C) ${\mathrm{{Cr}}}^{3 + }$ 和 ${\mathrm{{Fe}}}^{3 + }$ ; (D) ${\mathrm{{Cu}}}^{2 + }$ 和 ${\mathrm{{Fe}}}^{3 + }$ 。",C,"：要从这些离子中找到能被 $\mathrm{NaOH}$ 溶液分离的离子组合，关键在于这些离子形成沉淀物的溶解差异。
+
+- 选择(A) ${\mathrm{{Cr}}}^{3 + }$ 和 ${\mathrm{{Al}}}^{3 + }$：${\mathrm{{Cr}}}^{3+}$ 和 ${\mathrm{{Al}}}^{3+}$ 都可以形成氢氧化物沉淀（$\mathrm{Cr(OH)}_3$ 和 $\mathrm{Al(OH)}_3$），但在过量的氢氧化钠中，${\mathrm{{Al(OH)}}_3}$ 可以溶解形成 Aluminate 复合物（$\mathrm{[Al(OH)}_4]^−$），而 ${\mathrm{{Cr(OH)}}_3}$ 在一般条件下不会进一步溶解。因此它们是可以用 $\mathrm{NaOH}$ 溶液分离的。
+
+- 选择(B) ${\mathrm{{Cu}}}^{2 + }$ 和 ${\mathrm{{Zn}}}^{2 + }$：这些离子在氢氧化钠中分别形成 $\mathrm{Cu(OH)}_2$ 和 $\mathrm{Zn(OH)}_2$，然而过量 $\mathrm{NaOH}$ 会令 $\mathrm{Zn(OH)}_2$ 溶解形成 $\mathrm{[Zn(OH)}_4]^{2−}$，$\mathrm{Cu(OH)}_2$ 则不溶解。因此，这对离子可以被 $\mathrm{NaOH}$ 分离。
+
+- 选择(C) ${\mathrm{{Cr}}}^{3 + }$ 和 ${\mathrm{{Fe}}}^{3 + }$：两者形成的氢氧化物（$\mathrm{Cr(OH)}_3$ 和 $\mathrm{Fe(OH)}_3$）在氢氧化钠中均为不溶，也不会参与更多的溶解反应，无法分离。
+
+- 选择(D) ${\mathrm{{Cu}}}^{2 + }$ 和 ${\mathrm{{Fe}}}^{3 + }$：类似于(C)，两者的氢氧化物也是不溶的，也不能被分离。",：B,N/A,N/A,N/A
+"下列化合物中, 与浓盐酸作用没有氯气放出的是
+
+(A) ${\mathrm{{Pb}}}_{2}{\mathrm{O}}_{3}$ ; (B) ${\mathrm{{Fe}}}_{2}{\mathrm{O}}_{3}$ ; (C) ${\mathrm{{Co}}}_{2}{\mathrm{O}}_{3}$ ; (D) ${\mathrm{{Ni}}}_{2}{\mathrm{O}}_{3}$ 。",B,"：  
+要判断化合物与浓盐酸反应是否放出氯气，需要知道反应的氧化还原性质。反应中浓盐酸可以产生氯气的情形通常如下：  
+1. 盐酸提供$$\text{Cl}^-$$，可能被氧化为氯气$$\text{Cl}_2$$。  
+2. 对应的氧化剂（如高价金属氧化物）必须具有较强的氧化性，能够使$$\text{Cl}^-$$氧化。
+
+对于题目中选项所列的氧化物：
+- **${\mathrm{{Pb}}}_{2}{\mathrm{O}}_{3}$**：氧化态为$$\text{Pb}^{2+}$$和$$\text{Pb}^{4+}$$混合，$$\text{Pb}^{4+}$$是较强的氧化剂，能够氧化浓盐酸中的$$\text{Cl}^-$$生成氯气。
+- **${\mathrm{{Fe}}}_{2}{\mathrm{O}}_{3}$**：铁的氧化态为$$+3$$，$$\text{Fe}^{3+}$$的氧化性较弱，不能氧化$$\text{Cl}^-$$，无法生成氯气。
+- **${\mathrm{{Co}}}_{2}{\mathrm{O}}_{3}$**：钴的氧化态为$$+3$$，$$\text{Co}^{3+}$$是较强的氧化剂，能够使$$\text{Cl}^-$$氧化生成氯气。
+- **${\mathrm{{Ni}}}_{2}{\mathrm{O}}_{3}$**：镍的氧化态为$$+3$$，$$\text{Ni}^{3+}$$也是较强的氧化剂，能够氧化$$\text{Cl}^-$$生成氯气。
+
+因此，在这几个化合物中，只有${\mathrm{{Fe}}}_{2}{\mathrm{O}}_{3}$中的$$\text{Fe}^{3+}$$没有足够的氧化性，不能与浓盐酸作用生成氯气。",：B,N/A,N/A,N/A
+"下列化合物中, 受热脱水不生成 $\mathrm{{HCl}}$ 气体的是
+
+(A) ${\mathrm{{MgCl}}}_{2} \cdot 6{\mathrm{H}}_{2}\mathrm{O}$ ; (B) ${\mathrm{{NiCl}}}_{2} \cdot 6{\mathrm{H}}_{2}\mathrm{O}$ ; (C) ${\mathrm{{CoCl}}}_{2} \cdot 6{\mathrm{H}}_{2}\mathrm{O}$ ; (D) ${\mathrm{{CuCl}}}_{2} \cdot 2{\mathrm{H}}_{2}\mathrm{O}$ 。",C,"：在这道题目中，我们需要判断哪些含氯化合物在受热脱水时不会释放出氯化氢气体（$\mathrm{HCl}$）。这些化合物都是金属氯化物的水合物。在加热过程中，这些化合物可能会脱去水分子，同时有可能发生水解反应。
+
+1. **水合氯化镁（$\mathrm{MgCl}_2 \cdot 6\mathrm{H}_2\mathrm{O}$）**：在加热过程中，$\mathrm{MgCl}_2$ 水合物倾向于直接失去水分子并形成无水氯化镁，而不产生 $\mathrm{HCl}$ 气体，因为镁离子较弱的酸性和较低的水解倾向。
+
+2. **水合氯化镍（$\mathrm{NiCl}_2 \cdot 6\mathrm{H}_2\mathrm{O}$）**：氯化镍具有相对较强的水解倾向，在加热过程中有可能产生 $\mathrm{HCl}$ 气体。
+
+3. **水合氯化钴（$\mathrm{CoCl}_2 \cdot 6\mathrm{H}_2\mathrm{O}$）**：类似于氯化镍，氯化钴也具有一定的水解倾向，可能会在加热时产生 $\mathrm{HCl}$ 气体。
+
+4. **水合氯化铜（$\mathrm{CuCl}_2 \cdot 2\mathrm{H}_2\mathrm{O}$）**：在加热过程中，$\mathrm{CuCl}_2$ 易于水解，释放 $\mathrm{HCl}$ 气体。
+
+因此，只有 $\mathrm{MgCl}_2 \cdot 6\mathrm{H}_2\mathrm{O}$ 直接脱去水分子而不生成 $\mathrm{HCl}$ 气体。",：A,N/A,N/A,N/A
+"下列新制出的沉淀在空气中放置, 颜色不发生变化的是
+
+(A) $\mathrm{{Mn}}{\left( \mathrm{{OH}}\right) }_{2}$ ; (B) $\mathrm{{Fe}}{\left( \mathrm{{OH}}\right) }_{2}$ ; (C) $\mathrm{{Co}}{\left( \mathrm{{OH}}\right) }_{2}$ ; (D) $\mathrm{{Ni}}{\left( \mathrm{{OH}}\right) }_{2}$ 。",D,"：  
+首先分析题目及选项，题目考查新制出的氢氧化物沉淀在空气中的稳定性，以及其颜色是否改变。这涉及金属氢氧化物的易氧化性和化学性质。分析每种氢氧化物在空气中的表现：  
+ 
+1. **$\mathrm{Mn(OH)_2}$**：新制的 $\mathrm{Mn(OH)_2}$ 是白色，在空气中很易被氧气氧化成棕色的氧化锰（$\mathrm{MnO(OH)}$ 或 $\mathrm{Mn_2O_3}$），颜色发生明显变化。  
+2. **$\mathrm{Fe(OH)_2}$**：新制的 $\mathrm{Fe(OH)_2}$ 为浅绿色，但在空气中容易氧化成红褐色的 $\mathrm{Fe(OH)_3}$ 或类似物，颜色发生明显变化。  
+3. **$\mathrm{Co(OH)_2}$**：新制的 $\mathrm{Co(OH)_2}$ 为粉红色，在空气中逐步氧化为$\mathrm{Co(OH)_3}$ 或氧化钴，这会导致颜色变化（通常变为褐色或绿色）。  
+4. **$\mathrm{Ni(OH)_2}$**：新制的 $\mathrm{Ni(OH)_2}$ 为浅绿色，在空气中较为稳定，不易氧化，因此颜色不会发生显著变化。  
+
+综合分析可知，能在空气中放置而颜色不发生变化的沉淀是 $\mathrm{Ni(OH)_2}$。",：D,N/A,N/A,N/A
+"与 ${\mathrm{{Na}}}_{2}\mathrm{\;S}$ 溶液作用均生成黑色沉淀的一对离子是
+
+(A) ${\mathrm{{Fe}}}^{2 + },{\mathrm{{Co}}}^{2 + }$ ; (B) ${\mathrm{{Fe}}}^{2 + },{\mathrm{{Mn}}}^{2 + }$ ; (C) ${\mathrm{{Ni}}}^{2 + },{\mathrm{{Zn}}}^{2 + }$ ; (D) ${\mathrm{{Cu}}}^{2 + },{\mathrm{{Zn}}}^{2 + }$ 。",A,"：能够与硫化钠溶液反应生成黑色沉淀的离子通常是金属阳离子，其与硫离子形成黑色硫化物沉淀。根据化学知识，常见的形成黑色硫化物沉淀的金属有：铁(II)形成FeS，铜(II)形成CuS，铅(II)形成PbS等。
+
+- 选项(A): Fe²⁺ 可以与 S²⁻ 反应生成黑色的FeS沉淀，Co²⁺ 与 S²⁻ 反应生成的CoS也是黑色沉淀。
+- 选项(B): Fe²⁺ 生成黑色的FeS沉淀，Mn²⁺则生成的是淡粉色的MnS沉淀。
+- 选项(C): Ni²⁺ 与 S²⁻ 生成的是黑色的NiS沉淀，Zn²⁺ 则生成白色的ZnS。
+- 选项(D): Cu²⁺ 生成黑色CuS沉淀，Zn²⁺ 生成白色ZnS沉淀。
+
+综合以上分析，只有选项(A)中两个离子Co²⁺和Fe²⁺都能与硫离子反应生成黑色沉淀。",：A,N/A,N/A,N/A
+"可以形成记忆合金的一对金属单质是
+
+(A) $\mathrm{{Ni}}$ 与 $\mathrm{{Fe}}$ ; (B) $\mathrm{{Ni}}$ 与 $\mathrm{{Ti}}$ ; (C) $\mathrm{{Cu}}$ 与 $\mathrm{{Ni}}$ ; (D) $\mathrm{{Ti}}$ 与 ${\mathrm{{Co}}}$",B,：记忆合金，是指一种可以记住其原始形状的合金，在一定条件下可以恢复到其原始形状。最具代表性和广泛应用的记忆合金是镍钛合金（NiTi合金），主要由镍（Ni）和钛（Ti）元素组成。镍钛合金是一种二元合金，因为其在加热后能够恢复至原来的形状，因此被广泛用于医疗设备、航空航天和其他需要这种特性的应用中。从选项中来看：选项(B)包括镍（Ni）与钛（Ti），而这是最典型的记忆合金组合。,：B,N/A,N/A,N/A
+"下列金属单质中, 耐碱能力最强的是
+
+(A) $\mathrm{{Cu}}$ ; (B) $\mathrm{{Cr}}$ ; (C) $\mathrm{{Ni}}$ ; (D) $\mathrm{{Pt}}$ 。",C,"：金属的耐碱能力主要取决于其在碱性条件下的化学稳定性，即在碱溶液中是否容易发生氧化或腐蚀反应。已经氧化形成稳定氧化层的金属或者本身的氧化趋势较低的金属，其耐碱性一般较强。逐一分析选项：
+
+- **(A) Cu（铜）**：铜在强碱溶液中较易反应生成铜酸盐（如\(\mathrm{CuO_2^{2-}}\)），因此耐碱性较弱。
+  
+- **(B) Cr（铬）**：铬在碱性条件下较容易与氢氧化物发生反应，比如与热浓碱反应生成铬酸盐（\(\mathrm{CrO_4^{2-}}\)），表现出较低的耐碱性。
+  
+- **(C) Ni（镍）**：镍在碱性环境下化学稳定性较高，且可能生成一层氧化镍保护膜，能防止进一步腐蚀，耐碱能力较强。
+  
+- **(D) Pt（铂）**：铂是贵金属，化学惰性非常强，耐碱性极高。
+
+从以上分析来看，铂（Pt）在强碱溶液中的化学稳定性是最好的，耐碱性最强。",：D,N/A,N/A,N/A
+"下列气体中,可由 ${\mathrm{{PdCl}}}_{2}$ 溶液检出的是
+
+(A) ${\mathrm{{CO}}}_{2}$ ; (B) $\mathrm{{CO}}$ ; (C) ${\mathrm{O}}_{3}$ ; (D) ${\mathrm{{NO}}}_{2}$",B,"：  
+${\mathrm{{PdCl}}}_{2}$ 溶液的常见用途包括检验一氧化碳（$\mathrm{{CO}}$）气体。这是基于一氧化碳和 ${\mathrm{{PdCl}}}_{2}$ 溶液之间的化学反应，当 $\mathrm{{CO}}$ 和 ${\mathrm{{PdCl}}}_{2}$ 溶液接触时，会发生还原反应，生成金属钯（$\mathrm{{Pd}}$），通常伴随着溶液颜色的变化。反应方程式为：  
+\[
+\mathrm{{CO}} + {\mathrm{{PdCl}}}_{2} + \mathrm{{H}}_{2}\mathrm{O} \rightarrow \mathrm{{Pd}} + \mathrm{{CO}}_{2} + 2\mathrm{{HCl}}
+\]  
+而对于其他气体：  
+- 二氧化碳（$\mathrm{{CO}}_{2}$）是一个相对稳定的分子，并不会与 ${\mathrm{{PdCl}}}_{2}$ 溶液发生类似反应。  
+- 臭氧（$\mathrm{O}_{3}$）是一种强氧化剂，但通常不会直接引发与 ${\mathrm{{PdCl}}}_{2}$ 的反应，也不会被用于臭氧的检测。  
+- 二氧化氮（$\mathrm{{NO}}_{2}$）在常规条件下不会和 ${\mathrm{{PdCl}}}_{2}$ 溶液发生反应。  
+
+因此，${\mathrm{{PdCl}}}_{2}$ 溶液可以检出的是一氧化碳（$\mathrm{CO}$）气体。",：B,N/A,N/A,N/A
+"下列配位化合物中, 可以由简单盐溶液与 KCN 溶液直接得到的是
+
+(A) ${\mathrm{K}}_{3}\left\lbrack {\mathrm{{Fe}}{\left( \mathrm{{CN}}\right) }_{6}}\right\rbrack$ ; (B) ${\mathrm{K}}_{4}\left\lbrack {\mathrm{{Co}}{\left( \mathrm{{CN}}\right) }_{6}}\right\rbrack$ ;
+
+(C) ${\mathrm{K}}_{2}\left\lbrack {\mathrm{{Ni}}{\left( \mathrm{{CN}}\right) }_{4}}\right\rbrack$ ; (D) ${\mathrm{K}}_{2}\left\lbrack {\mathrm{{Cu}}{\left( \mathrm{{CN}}\right) }_{4}}\right\rbrack$",C,"：
+
+1. 为了判断哪些配位化合物可以通过简单盐溶液（比如金属离子的盐溶液）与氰化钾溶液直接制备，需要考虑金属离子与氰化物离子之间形成配位化合物的稳定性。因此，一个重要的知识点是，这种反应是否自发取决于热力学和金属离子对氰化物的配位亲和力。
+
+2. 分析各配离子：
+   - (A) ${\mathrm{K}}_{3}\left\lbrack {\mathrm{{Fe}}{\left( \mathrm{{CN}}\right) }_{6}}\right\rbrack$：由 ${\mathrm{Fe}}^{3+}$ 与 ${\mathrm{CN}}^{-}$ 配位形成，该配位化合物极其稳定，因此可以由 ${\mathrm{FeCl}}_{3}$ 溶液和氰化钾溶液反应直接生成。
+   - (B) ${\mathrm{K}}_{4}\left\lbrack {\mathrm{{Co}}{\left( \mathrm{{CN}}\right) }_{6}}\right\rbrack$：由 ${\mathrm{Co}}^{2+}$ 与 ${\mathrm{CN}}^{-}$ 配位形成，但该反应倾向于氧化成 ${\mathrm{Co}}^{3+}$，而 ${\mathrm{Co}}^{2+}$ 并不能直接在水溶液中和氰化钾形成配合物。因此它不能直接制备。
+   - (C) ${\mathrm{K}}_{2}\left\lbrack {\mathrm{{Ni}}{\left( \mathrm{{CN}}\right) }_{4}}\right\rbrack$：由 ${\mathrm{Ni}}^{2+}$ 与 ${\mathrm{CN}}^{-}$ 配位形成，这种配合物稳定性高，因此可以通过 ${\mathrm{NiCl}}_{2}$ 溶液和氰化钾溶液直接生成。
+   - (D) ${\mathrm{K}}_{2}\left\lbrack {\mathrm{{Cu}}{\left( \mathrm{{CN}}\right) }_{4}}\right\rbrack$：由 ${\mathrm{Cu}}^{2+}$ 和氰化钾反应生成，然而溶液中 ${\mathrm{Cu}}^{2+}$ 更倾向于与 ${\mathrm{CN}}^{-}$ 发生氧化还原反应，导致配合物无法直接制备。
+
+3. 综合以上分析，(A) 和 (C) 的金属离子与氰化物形成的配合物稳定，因此可以直接由金属盐溶液与氰化钾溶液得到，而 (B) 和 (D) 中的情况表明其生成条件有所限制，不能直接制得。","：A, C",N/A,N/A,N/A

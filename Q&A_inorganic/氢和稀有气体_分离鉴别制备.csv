@@ -1,0 +1,105 @@
+question,answer
+叙述氢气的实验室制法。," 实验室里, 常利用稀盐酸或稀硫酸与锌等活泼金属作用制取氢气。因为金属锌中常含有 ${\mathrm{{Zn}}}_{3}{\mathrm{P}}_{2},{\mathrm{{Zn}}}_{3}{\mathrm{{As}}}_{2},\mathrm{{ZnS}}$ 等杂质,它们与酸反应生成 ${\mathrm{{PH}}}_{3},{\mathrm{{AsH}}}_{3},{\mathrm{H}}_{2}\mathrm{\;S}$ 等气体混杂在氢气中, 需要经过纯化后才能得到纯净的氢气。
+
+而用电解水的方法制备氢气,所得的氢气纯度高。常采用质量分数为 ${25}\%$ 的 $\mathrm{{NaOH}}$ 或 $\mathrm{{KOH}}$ 溶液为电解液。电极反应如下:
+
+阴极
+
+$$
+2{\mathrm{H}}_{2}\mathrm{O} + 2{\mathrm{e}}^{ - } = {\mathrm{H}}_{2} \uparrow + 2{\mathrm{{OH}}}^{ - }
+$$
+
+阳极
+
+$$
+4{\mathrm{{OH}}}^{ - } = {\mathrm{O}}_{2} \uparrow + 2{\mathrm{H}}_{2}\mathrm{O} + 4{\mathrm{e}}^{ - }
+$$
+"
+叙述氢气的几种工业生产过程。,"氢气是氯碱工业中的副产物。电解食盐水的过程中,在阳极上生成 ${\mathrm{{Cl}}}_{2}$ ,电解池中得到 $\mathrm{{NaOH}}$ 的同时,阴极上放出 ${\mathrm{H}}_{2}$ 。
+
+工业生产上需要的大量氢气是靠催化裂解天然气得到的:
+
+$$
+{\mathrm{{CH}}}_{4} + {\mathrm{H}}_{2}\mathrm{O} = \mathrm{{CO}} + 3{\mathrm{H}}_{2}
+$$
+
+$$
+{\mathrm{C}}_{3}{\mathrm{H}}_{8} + 3{\mathrm{H}}_{2}\mathrm{O} = 3\mathrm{{CO}} + 7{\mathrm{H}}_{2}
+$$
+
+工业生产上也利用水蒸气通过红热的炭层来获得氢气, 反应如下:
+
+$$
+\mathrm{C} + {\mathrm{H}}_{2}\mathrm{O}\left( \mathrm{g}\right) \mathop{=}\limits^{{{1273}\mathrm{\;K}}}\mathrm{{CO}}\left( \mathrm{g}\right) + {\mathrm{H}}_{2}\left( \mathrm{\;g}\right)
+$$
+
+为了制备氢气, 则必须分离出 $\mathrm{{CO}}$ 。具体方法是将水煤气连同水蒸气一起通过红热的氧化铁, $\mathrm{{CO}}$ 转变成 ${\mathrm{{CO}}}_{2}$ :
+
+$$
+\mathrm{{CO}} + {\mathrm{H}}_{2}\mathrm{O}\left( \mathrm{g}\right) \xrightarrow[{{\mathrm{{Fe}}}_{2}{\mathrm{O}}_{3}}]{{723}\mathrm{\;K}}{\mathrm{{CO}}}_{2} + {\mathrm{H}}_{2}
+$$
+
+然后将高压下的 ${\mathrm{{CO}}}_{2}$ 和 ${\mathrm{H}}_{2}$ 的混合气体用水洗涤,吸收掉 ${\mathrm{{CO}}}_{2}$ 而分离出 ${\mathrm{H}}_{2}$ 。
+"
+"以单质为原料制备下列物质, 并说明应采取哪些措施以保证目标产物的纯净。
+
+(1) ${\mathrm{{XeF}}}_{2}$ ; (2) ${\mathrm{{XeF}}}_{4}$ ; (3) ${\mathrm{{XeF}}}_{6}$ 。","氙的氟化物可以由两种单质直接化合生成。
+
+（1）合成 ${\mathrm{{XeF}}}_{2}$ 的反应为
+
+$$
+\mathrm{{Xe}}\left( \mathrm{g}\right) + {\mathrm{F}}_{2}\left( \mathrm{\;g}\right) = {\mathrm{{XeF}}}_{2}\left( \mathrm{\;g}\right)
+$$
+
+要保证 $\mathrm{{Xe}}$ 大过量,避免 ${\mathrm{{XeF}}}_{4}$ 的生成,以确保 ${\mathrm{{XeF}}}_{2}$ 占主要地位。
+
+（2）合成 ${\mathrm{{XeF}}}_{4}$ 的反应为
+
+$$
+\mathrm{{Xe}}\left( \mathrm{g}\right) + 2{\mathrm{\;F}}_{2}\left( \mathrm{\;g}\right) = {\mathrm{{XeF}}}_{4}\left( \mathrm{\;g}\right)
+$$
+
+要保证 ${\mathrm{F}}_{2}$ 过量,注意反应时间不要太长,避免 ${\mathrm{{XeF}}}_{6}$ 的生成,以确保 ${\mathrm{{XeF}}}_{4}$ 占主要地位。 （3）合成 ${\mathrm{{XeF}}}_{6}$ 的反应为
+
+$$
+\mathrm{{Xe}}\left( \mathrm{g}\right) + 3{\mathrm{\;F}}_{2}\left( \mathrm{\;g}\right) = {\mathrm{{XeF}}}_{6}\left( \mathrm{\;g}\right)
+$$
+
+要保证 ${\mathrm{F}}_{2}$ 大过量,且要保证反应时间足够长,这样可以保证 ${\mathrm{{XeF}}}_{6}$ 的大量生成。
+"
+"用 $\mathrm{{Xe}}$ 为主要原料,设计高氙酸盐的制备步骤。","在 ${573}\mathrm{\;K}$ 和 ${6.18} \times {10}^{6}\mathrm{\;{Pa}}$ 条件下,使 $\mathrm{{Xe}}$ 与大过量的 ${\mathrm{F}}_{2}$ 于镍制容器中进行反应制得 ${\mathrm{{XeF}}}_{6}$ :
+
+$$
+\mathrm{{Xe}}\left( \mathrm{g}\right) + 3{\mathrm{\;F}}_{2}\left( \mathrm{\;g}\right) = {\mathrm{{XeF}}}_{6}\left( \mathrm{\;g}\right)
+$$
+
+${\mathrm{{XeF}}}_{6}$ 完全水解产生 ${\mathrm{{XeO}}}_{3}$ :
+
+$$
+{\mathrm{{XeF}}}_{6} + 3{\mathrm{H}}_{2}\mathrm{O} = {\mathrm{{XeO}}}_{3} + 6\mathrm{{HF}}
+$$
+
+向 ${\mathrm{{XeO}}}_{3}$ 的碱性溶液中通入 ${\mathrm{O}}_{3}$ ,即可得到相应的高氙酸盐的结晶水合物盐:
+
+$$
+{\mathrm{{XeO}}}_{3} + 4\mathrm{{NaOH}} + {\mathrm{O}}_{3} + 6{\mathrm{H}}_{2}\mathrm{O} = {\mathrm{{Na}}}_{4}{\mathrm{{XeO}}}_{6} \cdot 8{\mathrm{H}}_{2}\mathrm{O} + {\mathrm{O}}_{2}
+$$
+"
+"一无色气体,可能是 ${\mathrm{H}}_{2},\mathrm{{He}},\mathrm{{CO}}$ 或 ${\mathrm{{CH}}}_{4}$ ,试加以鉴别。","将气体通过灼热的氧化铜层, 若使黑色氧化铜变红且尾气能使澄清的石灰水变浑浊, 则气体为 $\mathrm{{CO}}$ ; 若仅使黑色氧化铜变红,则为 ${\mathrm{H}}_{2}$ 。若无明显变化,则气体为 $\mathrm{{He}}$ 或 ${\mathrm{{CH}}}_{4}$ ; 将此气体通过细玻璃管口在空气中点燃,若能够燃烧则为 ${\mathrm{{CH}}}_{4}$ ; 不能发生燃烧反应的为 $\mathrm{{He}}$ "
+,
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",

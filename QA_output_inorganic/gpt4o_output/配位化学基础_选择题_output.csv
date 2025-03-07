@@ -1,0 +1,370 @@
+query,true_answer,reasoning,model_answer,knowledge_accuracy,reasoning_accuracy,final_answer_accuracy
+"已知 ${E}^{ \ominus }\left( {{\mathrm{{Hg}}}^{2 + }/\mathrm{{Hg}}}\right) = {0.854}\mathrm{\;V},{K}_{\mathrm{B}}^{ \ominus }\left( {\left\lbrack {\mathrm{{HgI}}}_{4}\right\rbrack }^{2 - }\right) = {6.8} \times {10}^{29}$ ,则 ${E}^{ \ominus }\left( {{\left\lbrack {\mathrm{{HgI}}}_{4}\right\rbrack }^{2 - }/\mathrm{{Hg}}}\right)$ 值为
+
+(A) $- {0.026}\mathrm{\;V}$ ; (B) ${0.026}\mathrm{\;V}$ ; (C) $- {0.906}\mathrm{\;V}$ ; (D) $- {0.052}\mathrm{\;V}$ 。",A,"：  
+1. 题目中给出的信息是：  
+   \[ {E}^{\ominus}\left(\mathrm{Hg}^{2+}/\mathrm{Hg}\right) = 0.854\ \mathrm{V} \]  
+   \[ {K}_{\mathrm{B}}^{\ominus}\left(\left[\mathrm{HgI}_{4}\right]^{2-}\right) = 6.8 \times 10^{29} \]  
+   我们要求的是：  
+   \[ {E}^{\ominus}\left(\left[\mathrm{HgI}_{4}\right]^{2-}/\mathrm{Hg}\right) \]  
+
+2. 电极电势与相关反应的吉布斯自由能变化（\(\Delta G^\ominus\)）之间的关系为：  
+   \[ \Delta G^\ominus = -nF{E}^{\ominus} \]  
+   其中，\(n\)表示反应中转移的电子数，\(F\)是法拉第常数。  
+
+3. 根据题目中已知的配合物稳定常数（\({K}_{\mathrm{B}}^\ominus\)），可以计算配合平衡的吉布斯自由能变化：  
+   \[ \Delta G^\ominus_{\text{配合}} = -RT\ln {K}_{\mathrm{B}}^\ominus \]  
+   其中，\(R = 8.314\ \mathrm{J/(mol\cdot K)}\)，\(T = 298\ \mathrm{K}\)为标准温度。代入计算：  
+   \[
+   \Delta G^\ominus_{\text{配合}} = - (8.314)(298) \ln(6.8 \times 10^{29})
+   \]  
+   \[
+   \ln(6.8 \times 10^{29}) = \ln(6.8) + \ln(10^{29}) = 1.918 + 29\ln(10) = 1.918 + 29 \times 2.303 = 68.689
+   \]  
+   \[
+   \Delta G^\ominus_{\text{配合}} = - (8.314)(298)(68.689) \approx -170.5 \times 10^3\ \mathrm{J/mol}
+   \]  
+   即：  
+   \[
+   \Delta G^\ominus_{\text{配合}} \approx -170.5\ \mathrm{kJ/mol}
+   \]  
+
+4. 电极反应为：  
+   \[
+   \left[\mathrm{HgI}_4\right]^{2-} + 2e^- \leftrightarrow \mathrm{Hg} + 4\mathrm{I}^-
+   \]  
+   根据反应路径，可以分解为两个步骤：  
+   （1）\(\mathrm{Hg}^{2+} + 2e^- \leftrightarrow \mathrm{Hg}\)，其标准电极电势为已知的\(E^\ominus(\mathrm{Hg}^{2+}/\mathrm{Hg}) = 0.854\ \mathrm{V}\)。  
+   （2）\(\mathrm{Hg}^{2+} + 4\mathrm{I}^- \leftrightarrow \left[\mathrm{HgI}_4\right]^{2-}\)，此过程对应的\(\Delta G^\ominus_{\text{配合}} = -170.5\ \mathrm{kJ/mol}\)。  
+
+5. 根据吉布斯自由能变化的叠加性质，总反应的\(\Delta G^\ominus_{\text{总}}\)可表示为：  
+   \[
+   \Delta G^\ominus_{\text{总}} = \Delta G^\ominus_{\text{放电}} + \Delta G^\ominus_{\text{配合}}
+   \]  
+   \[
+   \Delta G^\ominus_{\text{放电}} = -nF{E}^\ominus(\mathrm{Hg}^{2+}/\mathrm{Hg}) = -(2)(96485)(0.854) \approx -164.6\ \mathrm{kJ/mol}
+   \]  
+   所以：  
+   \[
+   \Delta G^\ominus_{\text{总}} = -164.6\ \mathrm{kJ/mol} + (-170.5\ \mathrm{kJ/mol}) = -335.1\ \mathrm{kJ/mol}
+   \]  
+
+6. 根据\(\Delta G^\ominus = -nF{E}^{\ominus}\)计算总反应的电极电势：  
+   \[
+   {E}^{\ominus} = -\frac{\Delta G^\ominus_{\text{总}}}{nF} = -\frac{-335.1 \times 10^3}{2 \times 96485} \approx -0.026\ \mathrm{V}
+   \]",：A,N/A,N/A,N/A
+"已知 ${\left\lbrack \mathrm{{Ni}}{\left( \mathrm{{en}}\right) }_{3}\right\rbrack }^{2 + }$ 的 ${K}_{\text{稳 }}^{ \ominus } = {2.14} \times {10}^{18}$ ,将 ${2.00}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ en 溶液与 ${0.200}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ ${\mathrm{{NiSO}}}_{4}$ 溶液等体积混合,则平衡时 $c\left( {\mathrm{{Ni}}}^{2 + }\right)$ 为
+
+(A) ${1.36} \times {10}^{-{18}}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ ; (B) ${2.91} \times {10}^{-{18}}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ ;
+
+(C) ${1.36} \times {10}^{-{19}}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ ; (D) ${4.36} \times {10}^{-{20}}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 。",C,"：  
+混合过程中，$n(\text{Ni}^{2+}) = 0.200 \cdot V = 0.1V \text{mol}$，而$[en] = 2.00 \; \text{mol/dm}^3$。 在等体积混合后的溶液中，体积变为$2V$，因此$[\text{en}]$变为$1.00 \; \text{mol/dm}^3$，$[\text{Ni}^{2+}]$变为$0.100 \; \text{mol/dm}^3$。
+
+反应为：
+\[
+\text{Ni}^{2+} + 3\text{en} \rightleftharpoons [\text{Ni(en)}_3]^{2+}
+\]
+
+写出稳态常数表达式：
+\[
+K^\ominus_\text{稳} = \frac{[[\text{Ni(en)}_3]^{2+}]}{[\text{Ni}^{2+}][\text{en}]^3}
+\]
+
+设平衡时有$\text{x} \; \text{mol/dm}^3$ 的Ni$^{2+}$未反应，则：
+\[
+[[\text{Ni(en)}_3]^{2+}] = 0.100 - x
+\]
+\[
+[\text{Ni}^{2+}] = x
+\]
+\[
+[\text{en}] =  1.00 - 3(0.100 - x) = 1.00 - 0.30 + 3x = 0.70 + 3x
+\]
+
+代入平衡常数表达式:
+\[
+2.14 \times 10^{18} = \frac{0.100-x}{x(0.70+3x)^3}
+\]
+
+由于$K^\ominus_\text{稳}$值很大，说明大部分Ni$^{2+}$转化为$\text{Ni(en)}_3^{2+}$，因此可以近似$x \ll 0.100$，并忽略$x$对常数影响：
+\[
+2.14 \times 10^{18} \approx \frac{0.100}{x \cdot 0.70^3}
+\]
+
+解此方程：
+\[
+x \approx \frac{0.100}{2.14 \times 10^{18} \cdot 0.343}
+\]
+\[
+x \approx \frac{0.100}{7.3422 \times 10^{17}}
+\]
+\[
+x \approx 1.36 \times 10^{-19} \; \text{mol/dm}^3
+\]",：C,N/A,N/A,N/A
+"中心的 $3\mathrm{\;d}$ 电子排布为 ${\mathrm{t}}_{2\mathrm{\;g}}^{3}{\mathrm{e}}_{\mathrm{g}}^{0}$ 的八面体配位化合物是
+
+(A) ${\left\lbrack \mathrm{{Mn}}{\left( {\mathrm{H}}_{2}\mathrm{O}\right) }_{6}\right\rbrack }^{2 + }$ ; (B) ${\left\lbrack {\mathrm{{FeF}}}_{6}\right\rbrack }^{3 - }$ ;
+
+(C) ${\left\lbrack \mathrm{{Co}}{\left( \mathrm{{CN}}\right) }_{6}\right\rbrack }^{3 - }$ ; (D) ${\left\lbrack \mathrm{{Cr}}{\left( {\mathrm{H}}_{2}\mathrm{O}\right) }_{6}\right\rbrack }^{3 + }$ 。",D,"：
+
+1. 配位化合物的 $d$ 电子排布在中心金属离子的基础上，通过判断中心原子价态与其在配合物中的电子构型结合具体的八面体场进行分析。
+   
+2. **配位八面体场理论**：在八面体场中， $d$ 轨道分裂为 ${t}_{2g}$ 和 ${e}_{g}$，其中 ${t}_{2g}$ 能量较低，${e}_{g}$ 能量较高。对于不同配体场强，中心金属离子 $d$ 电子将按照场强进行 **高自旋** 或 **低自旋** 排布。
+
+3. 配合物各选项的分析：
+   - (A) ${\left\lbrack \mathrm{Mn}{\left( {\mathrm{H}}_{2}\mathrm{O}\right) }_{6}\right\rbrack }^{2+}$：锰为 $+2$ 价，基态电子构型为 $[Ar] 3d^5$，水是弱场配体，场强不够大，电子以 **高自旋** 排布（无配对）。因此， $3d$ 的排布为 ${t}_{2g}^3 {e}_{g}^2$。
+   - (B) ${\left\lbrack \mathrm{FeF}_{6}\right\rbrack }^{3-}$：铁为 $+3$ 价，基态电子构型为 $[Ar]3d^5$，氟是弱场配体，场强小，电子同样以 **高自旋** 排布，无配对。$3d$ 电子排布为 ${t}_{2g}^3 {e}_{g}^2$。
+   - (C) ${\left\lbrack \mathrm{Co}{\left( \mathrm{CN}\right) }_{6}\right\rbrack }^{3-}$：钴为 $+3$ 价，基态电子构型为 $[Ar]3d^6$，氰基 ($\mathrm{CN}^−$) 是强场配体，配合物处于 **低自旋** 状态，所有电子配对后优先填充到低能量的 ${t}_{2g}$ 轨道。因此，3d 电子排布为 ${t}_{2g}^6 {e}_{g}^0$，与题目不符。
+   - (D) ${\left\lbrack \mathrm{Cr}{\left( {\mathrm{H}}_{2}\mathrm{O}\right) }_{6}\right\rbrack }^{3+}$：铬为 $+3$ 价，基态电子构型为 $[Ar]3d^3$，水是弱场配体，配合物为 **高自旋**。所有电子填充到较低能量的 ${t}_{2g}$ 轨道。因此，3d 电子排布为 ${t}_{2g}^3 {e}_{g}^0$，与题目要求相符。
+
+4. 综合分析，中心的 $3d$ 电子排布为 ${t}_{2g}^3 {e}_{g}^0$ 的八面体配合物是 (D) ${\left\lbrack \mathrm{Cr}{\left( {\mathrm{H}}_{2}\mathrm{O}\right) }_{6}\right\rbrack }^{3+}$。",：D,N/A,N/A,N/A
+"下列配位化合物按稳定性由高到低的顺序排列, 正确的是
+
+(A) ${\left\lbrack {\mathrm{{HgI}}}_{4}\right\rbrack }^{2 - } > {\left\lbrack {\mathrm{{HgCl}}}_{4}\right\rbrack }^{2 - } > {\left\lbrack \mathrm{{Hg}}{\left( \mathrm{{CN}}\right) }_{4}\right\rbrack }^{2 - }$ ;
+
+(B) ${\left\lbrack \mathrm{{Co}}{\left( {\mathrm{{NH}}}_{3}\right) }_{6}\right\rbrack }^{3 + } > {\left\lbrack \mathrm{{Co}}{\left( \mathrm{{SCN}}\right) }_{4}\right\rbrack }^{2 - } > {\left\lbrack \mathrm{{Co}}{\left( \mathrm{{CN}}\right) }_{6}\right\rbrack }^{3 - }$ ;
+
+(C) ${\left\lbrack \mathrm{{Ni}}{\left( \mathrm{{en}}\right) }_{3}\right\rbrack }^{2 + } > {\left\lbrack \mathrm{{Ni}}{\left( {\mathrm{{NH}}}_{3}\right) }_{6}\right\rbrack }^{2 + } > {\left\lbrack \mathrm{{Ni}}{\left( {\mathrm{H}}_{2}\mathrm{O}\right) }_{6}\right\rbrack }^{2 + }$ ;
+
+(D) ${\left\lbrack \mathrm{{Fe}}{\left( \mathrm{{SCN}}\right) }_{6}\right\rbrack }^{3 - } > {\left\lbrack \mathrm{{Fe}}{\left( \mathrm{{CN}}\right) }_{6}\right\rbrack }^{3 - } > {\left\lbrack \mathrm{{Fe}}{\left( \mathrm{{CN}}\right) }_{6}\right\rbrack }^{4 - }$ 。",C,"：
+
+为了判断配位化合物的稳定性顺序，需要综合考虑以下因素：
+1. 配体的性质：配体对中心离子的配位能力（或配体场强度）是判断化合物稳定性的重要因素。一般来说，强场配体（如 CN⁻ 和 en 等）生成的配合物更稳定，而弱场配体（如 I⁻ 和 H₂O 等）生成的配合物稳定性较低。配体的场强与化合物的配位场稳定能（CFSE）密切相关。
+   
+2. 中心金属离子的性质：中心金属离子的氧化态、离子半径和亲配体性质（硬/软酸碱理论）对配位化合物的稳定性有重要影响。比如，软酸性中心离子（如 Hg²⁺）更倾向于与软碱性配体（如 I⁻）结合生成稳定配合物。
+
+3. 几何与螯合效应：有螯合效应的配合物一般较稳定（如使用 en 螯合配体时）。六配位八面体结构由于对称性原因，往往稳定性较高。
+
+接下来我们一一分析题目中的选项：
+
+### (A)
+1. ${\left[{\mathrm{HgI}}_{4}\right]}^{2-}$、${\left[{\mathrm{HgCl}}_{4}\right]}^{2-}$、${\left[\mathrm{Hg}(\mathrm{CN})_{4}\right]}^{2-}$ 中，Hg²⁺ 是软酸，根据软硬酸碱（HSAB）原则，软酸更倾向与软碱形成稳定配合物。
+2. 配体 I⁻ 是软碱，Cl⁻ 是弱软碱，CN⁻ 是较硬的碱。因此 ${\left[{\mathrm{HgI}}_{4}\right]}^{2-}$ 的稳定性最高，而 ${\left[\mathrm{Hg}(\mathrm{CN})_{4}\right]}^{2-}$ 的稳定性最低。
+3. 稳定性顺序：${\left[{\mathrm{HgI}}_{4}\right]}^{2-} > {\left[{\mathrm{HgCl}}_{4}\right]}^{2-} > {\left[\mathrm{Hg}(\mathrm{CN})_{4}\right]}^{2-}$。
+
+### (B)
+1. ${\left[{\mathrm{Co}({\mathrm{NH}}_{3})_{6}}\right]}^{3+}$、${\left[{\mathrm{Co}({\mathrm{SCN}})_{4}}\right]}^{2-}$、${\left[{\mathrm{Co}({\mathrm{CN}})_{6}}\right]}^{3-}$ 中，中心 Co 的氧化态均为高，强场配体比弱场配体生成的配合物更稳定。
+2. 根据配体场强度，顺序为 CN⁻ (强场) > NH₃ (中等强场) > SCN⁻ (弱场)。
+3. 因此，${\left[\mathrm{Co}(\mathrm{CN})_{6}\right]}^{3-}$ 应最稳定，${\left[\mathrm{Co}(\mathrm{SCN})_{4}\right]}^{2-}$ 最不稳定。
+4. 提供的顺序是错误的：${\left[\mathrm{Co}({\mathrm{NH}}_{3})_{6}\right]}^{3+} > {\left[\mathrm{Co}({\mathrm{SCN}})_{4}\right]}^{2-} > {\left[\mathrm{Co}({\mathrm{CN}})_{6}\right]}^{3-}$。
+
+### (C)
+1. ${\left[\mathrm{Ni}(\mathrm{en})_{3}\right]}^{2+}$、${\left[\mathrm{Ni}({\mathrm{NH}}_{3})_{6}\right]}^{2+}$、${\left[\mathrm{Ni}({\mathrm{H}}_{2}\mathrm{O})_{6}\right]}^{2+}$ 中，配体的场强对配合物的稳定性起决定性作用。
+2. 按配体场强度排序，en（乙二胺，强场配体） > NH₃（中等场配体） > H₂O（弱场配体）。此外，en 是螯合配体，螯合效应提高了稳定性。
+3. 因此，${\left[\mathrm{Ni}(\mathrm{en})_{3}\right]}^{2+}$ 最稳定，${\left[\mathrm{Ni}({\mathrm{H}}_{2}\mathrm{O})_{6}\right]}^{2+}$ 最不稳定。
+4. 稳定性顺序正确：${\left[\mathrm{Ni}(\mathrm{en})_{3}\right]}^{2+} > {\left[\mathrm{Ni}({\mathrm{NH}}_{3})_{6}\right]}^{2+} > {\left[\mathrm{Ni}({\mathrm{H}}_{2}\mathrm{O})_{6}\right]}^{2+}$。
+
+### (D)
+1. ${\left[\mathrm{Fe}(\mathrm{SCN})_{6}\right]}^{3-}$、${\left[\mathrm{Fe}(\mathrm{CN})_{6}\right]}^{3-}$、${\left[\mathrm{Fe}(\mathrm{CN})_{6}\right]}^{4-}$ 中，Fe 的氧化态和配体性质会影响稳定性。
+2. 根据配体场强度，CN⁻ > SCN⁻，因此 ${\left[\mathrm{Fe}(\mathrm{CN})_{6}\right]}^{3-}$ 和 ${\left[\mathrm{Fe}(\mathrm{CN})_{6}\right]}^{4-}$ 的稳定性高于 ${\left[\mathrm{Fe}(\mathrm{SCN})_{6}\right]}^{3-}$。
+3. Fe 的氧化态越高，金属离子对配体的吸引越强，因此 ${\left[\mathrm{Fe}(\mathrm{CN})_{6}\right]}^{3-}$ 的稳定性高于 ${\left[\mathrm{Fe}(\mathrm{CN})_{6}\right]}^{4-}$。
+4. 正确顺序为：${\left[\mathrm{Fe}(\mathrm{CN})_{6}\right]}^{3-} > {\left[\mathrm{Fe}(\mathrm{CN})_{6}\right]}^{4-} > {\left[\mathrm{Fe}(\mathrm{SCN})_{6}\right]}^{3-}$。选项顺序错误。",：C,N/A,N/A,N/A
+"下列配离子中, 具有逆磁性的是
+
+(A) ${\left\lbrack \mathrm{{Mn}}{\left( \mathrm{{CN}}\right) }_{6}\right\rbrack }^{4 - }$ ; (B) ${\left\lbrack \mathrm{{Cu}}{\left( \mathrm{{CN}}\right) }_{4}\right\rbrack }^{2 - }$ ;
+
+(C) ${\left\lbrack \mathrm{{Co}}{\left( \mathrm{{CN}}\right) }_{6}\right\rbrack }^{3 - }$ ; (D) ${\left\lbrack \mathrm{{Fe}}{\left( \mathrm{{CN}}\right) }_{6}\right\rbrack }^{3 - }$ 。",C,"：
+1. **判断是否具有逆磁性**：逆磁性（抗磁性）是指物质内部没有未成对电子，因此不被外磁场吸引。要判断一个配离子是否具有逆磁性，首先需要检查中心金属原子或离子的电子排布，以及配体对该排布的影响。
+
+2. **分析简并轨道劈裂（场强效应）**：配体的强弱场性质（按照光谱化学序列）会影响中心金属离子d轨道的电子排布。CN⁻是一个强场配体，会导致中心离子d轨道发生较大的劈裂，并倾向于产生低自旋（如顺从配体场强后自旋对化，尽可能减少未成对电子数）。
+
+3. 逐一分析各选项：
+   - **选项 (A)** ${\left\lbrack \mathrm{{Mn}}{\left( \mathrm{{CN}}\right) }_{6}\right\rbrack }^{4 - }$：  
+     - 中心金属为Mn⁺²（Mn原子为第7族，去除两个电子后为3d⁵）。  
+     - CN⁻是强场配体，会导致d轨道发生较大的劈裂，强场配体下，该电子排布变为低自旋态，所有5个电子会尽可能成对进入 t₂g 轨道（没有未成对电子）。  
+     - 因此，该配离子具有逆磁性。
+
+   - **选项 (B)** ${\left\lbrack \mathrm{{Cu}}{\left( \mathrm{{CN}}\right) }_{4}\right\rbrack }^{2 - }$：  
+     - 中心金属为Cu⁺（Cu原子为4s¹3d¹⁰，失去1个电子后为3d¹⁰）。  
+     - 3d轨道完全填满，没有未成对电子。  
+     - 无论CN⁻配体场强如何，Cu⁺的3d¹⁰排布已完全对称，因此该配离子具有逆磁性。  
+
+   - **选项 (C)** ${\left\lbrack \mathrm{{Co}}{\left( \mathrm{{CN}}\right) }_{6}\right\rbrack }^{3 - }$：  
+     - 中心金属为Co³⁺（Co原子为27号，外层电子为3d⁷，失去3个电子后为3d⁶）。  
+     - CN⁻为强场配体，会导致低自旋态，3d⁶电子排布为 t₂g⁶（完全充满 t₂g 轨道，没有未成对电子）。  
+     - 因此，该配离子具有逆磁性。  
+
+   - **选项 (D)** ${\left\lbrack \mathrm{{Fe}}{\left( \mathrm{{CN}}\right) }_{6}\right\rbrack }^{3 - }$：  
+     - 中心金属为Fe³⁺（Fe原子为26号，电子配置为3d⁶，失去3个电子后为3d⁵）。  
+     - CN⁻为强场配体，会导致低自旋态，但3d⁵电子即便在低自旋状态下也会存在未成对电子。  
+     - 因此，该配离子不具有逆磁性，是顺磁性的。
+
+4. **综合判断**：上述比较中(A)、(B)、(C)具有逆磁性，(D)不具有逆磁性。","：A, B, C",N/A,N/A,N/A
+"下列配位化合物中, 除存在几何异构体外, 还存在旋光异构体的是
+
+(A) $\left\lbrack {\mathrm{{Pt}}{\left( {\mathrm{{NH}}}_{3}\right) }_{2}{\mathrm{{Cl}}}_{2}}\right\rbrack$ ; (B) $\left\lbrack {\mathrm{{Co}}{\left( {\mathrm{{NH}}}_{3}\right) }_{4}{\mathrm{{Cl}}}_{2}}\right\rbrack \mathrm{{Cl}}$ ;
+
+(C) $\left\lbrack {\mathrm{{Co}}{\left( \mathrm{{en}}\right) }_{2}{\mathrm{{Cl}}}_{2}}\right\rbrack \mathrm{{Cl}}$ ; (D) $\left\lbrack {\mathrm{{Pt}}\left( {\mathrm{{NH}}}_{3}\right) \mathrm{{ClBrPy}}}\right\rbrack$ 。",C,"：在分析这一类问题时，我们需要理解几何异构体和旋光异构体的概念，以及识别它们在配位化合物中的存在条件。几何异构体在配位化合物中通常是由于中心金属离子与配体的空间关系不同而导致的。当两个或两个以上原子团在固定的空间关系中拥有不同的位置时，可能存在顺反异构。旋光异构体则通常需要化合物具有手性，即化合物及其镜像不重合，通常在无对称元素的情况下出现。以乙二胺（en）为双齿配体的化合物可能满足手性条件，因为它可以形成螺旋形状。
+
+(A) $\left\lbrack {\mathrm{{Pt}}{\left( {\mathrm{{NH}}}_{3}\right) }_{2}{\mathrm{{Cl}}}_{2}}\right\rbrack$：这是一个四配位的平方平面化合物，Pt(II)配合物不会产生旋光异构体，因为该平面结构可通过镜面对称与其镜像重合。
+
+(B) $\left\lbrack {\mathrm{{Co}}{\left( {\mathrm{{NH}}}_{3}\right) }_{4}{\mathrm{{Cl}}}_{2}}\right\rbrack \mathrm{{Cl}}$：这是一个六配位的钴(III)配合物，具有八面体结构。由于两个氯原子可以在相邻位置或对置位置产生顺反异构，但这种类型没有手性中心，不会有旋光异构。
+
+(C) $\left\lbrack {\mathrm{{Co}}{\left( \mathrm{{en}}\right) }_{2}{\mathrm{{Cl}}}_{2}}\right\rbrack \mathrm{{Cl}}$：Co(III)的八面体配合物中含有乙二胺（en）作为双齿配体，容易产生光活性，因为它没有对称面，可形成Δ和Λ两种对映体，具有旋光活性。此外，两个氯原子可以是顺式或者反式，故也有几何异构。
+
+(D) $\left\lbrack {\mathrm{{Pt}}\left( {\mathrm{{NH}}}_{3}\right) \mathrm{{ClBrPy}}}\right\rbrack$：由于是Pt(II)的四配位化合物，虽然具有几何异构体，但由于空间结构平面化，得不到手性中心。
+
+综上所述，只有选项 (C) 的化合物同时可以存在几何异构体和旋光异构体。",：C,N/A,N/A,N/A
+"在八面体配位化合物中, 可能发生畸变的电子结构为
+
+(A) ${\left( {\mathrm{t}}_{2\mathrm{\;g}}\right) }^{5}{\left( \mathrm{{eg}}\right) }^{2}$ ; (B) ${\left( {\mathrm{t}}_{2\mathrm{\;g}}\right) }^{4}{\left( {\mathrm{e}}_{\mathrm{g}}\right) }^{2}$ ;
+
+(C) ${\left( {\mathrm{t}}_{2\mathrm{\;g}}\right) }^{6}{\left( {\mathrm{e}}_{\mathrm{g}}\right) }^{3}$ ; (D) ${\left( {\mathrm{t}}_{2\mathrm{\;g}}\right) }^{4}{\left( {\mathrm{e}}_{\mathrm{g}}\right) }^{0}$ 。",C,"：在八面体配位化合物中，由于配位场对金属离子产生了分裂能，$d$轨道会分裂成$t_{2g}$和$e_g$两个能级。对于电子的分布，可能导致晶体场八面体几何结构发生畸变的效应主要与杨-泰勒效应（Jahn-Teller效应）相关。
+
+1. 杨-泰勒效应适用于配合物的基态存在电子分布退化时（能级的电子填充导致非对称分布）。
+2. 在$t_{2g}$轨道上，没有明显的定向性质，而$e_g$轨道（如$d_{z^2}$和$d_{x^2-y^2}$）与配体直接重叠，有显著的方向性。
+3. 如果$e_g$轨道的电子出现不均匀填充，会导致畸变。例如，当$e_g$填充两个电子时，如果这两个电子不对称地分布（如一个在$d_{z^2}$，一个在$d_{x^2-y^2}$），则强烈的方向性会通过杨-泰勒效应使八面体结构产生畸变。
+
+分析选项：
+(A) ${\left( t_{2g} \right)}^5{\left( e_g \right)}^2$：此电子配置中，$e_g$轨道有两个电子，当这两个电子填充不均匀时，会造成八面体配位环境发生杨-泰勒畸变（可能的）。
+(B) ${\left( t_{2g} \right)}^4{\left( e_g \right)}^2$：同样，这种电子结构中，$e_g$处于不对称填充状态，满足杨-泰勒效应条件（可能的）。
+(C) ${\left( t_{2g} \right)}^6{\left( e_g \right)}^3$：$e_g$轨道规则填充一个轨道两个电子，另一个一个电子，不对称状态显著，易发生畸变（可能的）。
+(D) ${\left( t_{2g} \right)}^4{\left( e_g \right)}^0$：此电子结构中，$e_g$轨道完全为空，没有方向性电子分布，因此不会引发杨-泰勒畸变（不可能的）。
+
+综上所述，选项(A)、(B)、(C)中的电子配置都可能由于$e_g$填充不均匀而发生畸变。","：A, B, C",N/A,N/A,N/A
+"下列配位化合物中, 不具有平面四边形结构的是
+
+(A) $\left\lbrack {\mathrm{{Ni}}{\left( \mathrm{{CO}}\right) }_{4}}\right\rbrack$ ; (B) ${\left\lbrack \mathrm{{Cu}}{\left( {\mathrm{{NH}}}_{3}\right) }_{4}\right\rbrack }^{2 + }$ ;
+
+(C) ${\left\lbrack {\mathrm{{AuCl}}}_{4}\right\rbrack }^{ - }$ ; (D) ${\left\lbrack {\mathrm{{PtCl}}}_{4}\right\rbrack }^{2 - }$ 。",A,"：  
+要判断配位化合物的几何构型，需分析中心金属离子的电子排布以及配体对电子排布的影响。平面四边形结构通常出现在$d^{8}$电子构型的金属离子与强场配体结合的情况中。
+
+(A) $\left\lbrack {\mathrm{{Ni}}{\left( \mathrm{{CO}}\right) }_{4}}\right\rbrack$: Ni在0氧化态下为$d^{10}$电子构型，形成sp$^3$杂化，采用四面体结构。
+
+(B) ${\left\lbrack \mathrm{{Cu}}{\left( {\mathrm{{NH}}}_{3}\right) }_{4}\right\rbrack }^{2 + }$: Cu$^{2+}$为$d^9$电子构型，通常为四面体或平面四边形，但由于NH$_3$是中等强度的配体，Cu通常不倾向于形成平面四边形。
+
+(C) ${\left\lbrack {\mathrm{{AuCl}}}_{4}\right\rbrack }^{ - }$: Au在-1态下为$d^8$电子构型，Cl$^-$是弱场配体，但Au在-1态下的配合形成平面四边形是常见的。
+
+(D) ${\left\lbrack {\mathrm{{PtCl}}}_{4}\right\rbrack }^{2 - }$: Pt$^{2+}$为$d^8$电子构型，Cl$^-$是常见的弱场配体，这种组配倾向于形成平面四边形。
+
+综上分析，不具有平面四边形结构的配合物是(A)选项。",：A,N/A,N/A,N/A
+"下列配位化合物中, 不存在几何异构体的是
+
+(A) $\left\lbrack {{\mathrm{{CrCl}}}_{2}{\left( \mathrm{{en}}\right) }_{2}}\right\rbrack \mathrm{{Cl}}$ ; (B) $\left\lbrack {\mathrm{{Pt}}\left( \mathrm{{en}}\right) {\mathrm{{Cl}}}_{4}}\right\rbrack$ ;
+
+(C) $\left\lbrack {\mathrm{{Cr}}{\left( {\mathrm{{NH}}}_{3}\right) }_{4}{\left( {\mathrm{H}}_{2}\mathrm{O}\right) }_{2}}\right\rbrack {\mathrm{{SO}}}_{4}$ ; (D) $\left\lbrack {\mathrm{{Ni}}{\left( \mathrm{{CO}}\right) }_{2}{\left( \mathrm{{CN}}\right) }_{2}}\right\rbrack$ 。",D,"：首先，分析几何异构体的可能性，中心金属离子周围的配体排列是关键。对于不同的金属配位化合物，根据其几何构型（如平面、四面体、八面体）和配体的不同位置，可以出现几何异构体。
+
+(A) $\left\lbrack {{\mathrm{{CrCl}}}_{2}{\left( \mathrm{{en}}\right) }_{2}}\right\rbrack \mathrm{{Cl}}$：这是一个镶八面体结构，配位数为六。乙二胺（en）是双齿配体，当两个Cl⁻配体可以在相邻位置（顺式）和对角线位置（反式）形成几何异构体。
+
+(B) $\left\lbrack {\mathrm{{Pt}}\left( \mathrm{{en}}\right) {\mathrm{{Cl}}}_{4}}\right\rbrack$：乙二胺是双齿配体，共占用两个配位位置。Pt的配位数为六，整体为平面八面体，因此不能产生几何异构体。
+
+(C) $\left\lbrack {\mathrm{{Cr}}{\left( {\mathrm{{NH}}}_{3}\right) }_{4}{\left( {\mathrm{H}}_{2}\mathrm{O}\right) }_{2}}\right\rbrack {\mathrm{{SO}}}_{4}$：这个复合物也是八面体结构，其中水和氨氮配位体的位置可以相互交换出现几何异构体。
+
+(D) $\left\lbrack {\mathrm{{Ni}}{\left( \mathrm{{CO}}\right) }_{2}{\left( \mathrm{{CN}}\right) }_{2}}\right\rbrack$：这是一个方形平面的复合物，因为它由两个CO和两个CN⁻组成，在对角线位置上进行替换是可行的，因而存在几何异构体。
+
+所以，只有B选项不可能有几何异构体，因为平面二配体能够产生异构体的条件是已被排除。",：B,N/A,N/A,N/A
+"根据 18 电子规则, 下列配位化合物中应以双聚体形式存在的是
+
+(A) $\mathrm{{Mn}}{\left( \mathrm{{CO}}\right) }_{4}\mathrm{{NO}}$ ; (B) $\mathrm{{Fe}}{\left( \mathrm{{CO}}\right) }_{5}$ ;
+
+(C) $\mathrm{{Cr}}{\left( \mathrm{{CO}}\right) }_{6}$ ; (D) $\mathrm{{Co}}{\left( \mathrm{{CO}}\right) }_{4}$ 。",D,"：  
+根据18电子规则，金属配合物倾向于通过其金属中心的价电子与周围配体提供的电子共同组成18电子结构，这是为了达到较大的稳定性。如果某化合物的电子数不足18电子，可能会通过二聚或与其他物质发生反应来满足18电子规则。
+
+1. 分析各化合物的电子数：
+   - $\mathrm{Mn}(\mathrm{CO})_4\mathrm{NO}$：
+     - 锰（Mn）是第7族元素，其基态原子核外电子数为7。
+     - $\mathrm{NO}$ 配体可作为3电子供体（线性模式下）。  
+     - 每个 $\mathrm{CO}$ 配体是2电子供体，4个$\mathrm{CO}$ 提供 $4 \times 2 = 8$ 个电子。  
+     - 总电子数：$\mathrm{Mn}$ (7) + $\mathrm{NO}$ (3) + 4个$\mathrm{CO}$ (8) = 18电子。  
+     - 这个化合物单体已经满足18电子规则，单体即可稳定存在，不需要二聚。  
+
+   - $\mathrm{Fe}(\mathrm{CO})_5$：
+     - 铁（Fe）是第8族元素，其基态原子核外电子数为8。
+     - 每个 $\mathrm{CO}$ 配体是2电子供体，5个$\mathrm{CO}$ 提供 $5 \times 2 = 10$ 个电子。  
+     - 总电子数：$\mathrm{Fe}$ (8) + 5个$\mathrm{CO}$ (10) = 18电子。
+     - 该化合物单体满足18电子规则，不需要二聚。  
+
+   - $\mathrm{Cr}(\mathrm{CO})_6$：
+     - 铬（Cr）是第6族元素，其基态原子核外电子数为6。
+     - 每个 $\mathrm{CO}$ 配体是2电子供体，6个$\mathrm{CO}$ 提供 $6 \times 2 = 12$ 个电子。  
+     - 总电子数：$\mathrm{Cr}$ (6) + 6个$\mathrm{CO}$ (12) = 18电子。
+     - 该化合物单体满足18电子规则，不需要二聚。  
+
+   - $\mathrm{Co}(\mathrm{CO})_4$：
+     - 钴（Co）是第9族元素，其基态原子核外电子数为9。
+     - 每个 $\mathrm{CO}$ 配体是2电子供体，4个$\mathrm{CO}$ 提供 $4 \times 2 = 8$ 个电子。  
+     - 总电子数：$\mathrm{Co}$ (9) + 4个$\mathrm{CO}$ (8) = 17电子。  
+     - 这里化合物不足18电子，不稳定。为了达到18电子，这种化合物通常发生二聚，形成 $\mathrm{Co}_2(\mathrm{CO})_8$，每个钴原子通过金属-金属键共享电子，从而满足18电子规则。",：D,N/A,N/A,N/A
+"下列配离子具有正方形或八面体结构,其中 ${\mathrm{{CO}}}_{3}^{2 - }$ 作螯合配体的是
+
+(A) ${\left\lbrack \mathrm{{Co}}{\left( {\mathrm{{NH}}}_{3}\right) }_{5}\left( {\mathrm{{CO}}}_{3}\right) \right\rbrack }^{ + }$ ; (B) ${\mathrm{K}}_{2}\left\lbrack {\mathrm{{Pt}}\left( \mathrm{{en}}\right) {\left( {\mathrm{{CO}}}_{3}\right) }_{2}}\right\rbrack$ ;
+
+(C) $\left\lbrack {\mathrm{{Pt}}\left( \mathrm{{en}}\right) \left( {\mathrm{{NH}}}_{3}\right) \left( {\mathrm{{CO}}}_{3}\right) }\right\rbrack$ ; (D) $\left\lbrack {\mathrm{{Co}}{\left( {\mathrm{{NH}}}_{3}\right) }_{4}\left( {\mathrm{{CO}}}_{3}\right) }\right\rbrack$ 。
+",D,"：我们需要确定哪个配合物中碳酸根离子（${\mathrm{{CO}}}_{3}^{2-}$）作为螯合配体。在配位化学中，螯合化合物是指通过多齿配体与中心金属离子配位形成的稳定结构。螯合配体会用多个原子与中心金属配位。碳酸根可以通过氧原子形成双齿配合。其中，Pt(II)通常形成平面正方形结构，而Co(III)通常形成八面体结构。
+
+(A) ${\left\lbrack \mathrm{{Co}}{\left( {\mathrm{{NH}}}_{3}\right) }_{5}\left( {\mathrm{{CO}}}_{3}\right) \right\rbrack }^{ + }$：可能是八面体构型，碳酸根作为单齿配体。
+
+(B) ${\mathrm{K}}_{2}\left\lbrack {\mathrm{{Pt}}\left( \mathrm{{en}}\right) {\left( {\mathrm{{CO}}}_{3}\right) }_{2}}\right\rbrack$：en是乙二胺，二齿配体，${\mathrm{{CO}}}_{3}^{2-}$可能作为二齿配体与Pt(II)形成正方形平面化合物。
+
+(C) $\left\lbrack {\mathrm{{Pt}}\left( \mathrm{{en}}\right) \left( {\mathrm{{NH}}}_{3}\right) \left( {\mathrm{{CO}}}_{3}\right) }\right\rbrack$：${\mathrm{{Pt}}^{2+}}$通常为平面正方形。碳酸可能仅作为单齿配体。
+
+(D) $\left\lbrack {\mathrm{{Co}}{\left( {\mathrm{{NH}}}_{3}\right) }_{4}\left( {\mathrm{{CO}}}_{3}\right) }\right\rbrack$：八面体构型更可能是碳酸根作为单齿配体。
+
+综上，选项（B）中碳酸根离子有可能作为二齿配体与Pt(II)形成螯合配合物。",：B,N/A,N/A,N/A
+"下列化合物中, 肯定为无色的是
+
+(A) ${\mathrm{{ScF}}}_{3}$ ; (B) ${\mathrm{{TiCl}}}_{3}$ ; (C) ${\mathrm{{MnF}}}_{3}$ ; (D) ${\mathrm{{CrF}}}_{3}$ 。",A,"：  
+首先，我们需要分析这些化合物的颜色，通常过渡金属化合物的颜色主要来源于d电子的跃迁。对于d轨道没有未成对电子的化合物往往是无色的。
+
+(A) ${\mathrm{ScF}}_{3}$：钪（Sc）的电子排布是 [Ar] 3d¹ 4s²。Sc³⁺ 的电子排布为 [Ar]，即3d轨道为空，没有未成对的d电子，因此一般无色。
+
+(B) ${\mathrm{TiCl}}_{3}$：钛（Ti）的电子排布是 [Ar] 3d² 4s²。Ti³⁺ 的电子排布为 [Ar] 3d¹，有一个未成对的d电子，通常呈现紫色，故不无色。
+
+(C) ${\mathrm{MnF}}_{3}$：锰（Mn）的电子排布是 [Ar] 3d⁵ 4s²。Mn³⁺ 的电子排布为 [Ar] 3d⁴，有未成对的d电子，通常呈现颜色。
+
+(D) ${\mathrm{CrF}}_{3}$：铬（Cr）的电子排布是 [Ar] 3d⁵ 4s¹。Cr³⁺ 的电子排布为 [Ar] 3d³，有未成对的d电子，通常呈现绿色。
+
+因此，只有 (A) ${\mathrm{ScF}}_{3}$ 的金属离子Sc³⁺没有d电子参与跃迁，肯定为无色。",：A,N/A,N/A,N/A
+"某金属离子生成的两种配位化合物的磁矩分别为 $\mu = {4.90}{\mu }_{\mathrm{B}}$ 和 $\mu = 0$ ,则该金属可能是
+
+(A) ${\mathrm{{Cr}}}^{3 + }$ ; (B) ${\mathrm{{Mn}}}^{2 + }$ ; (C) ${\mathrm{{Mn}}}^{3 + }$ ; (D) ${\mathrm{{Fe}}}^{2 + }$ 。",D,"：  
+磁矩的大小反映了配合物中未成对电子的数量。根据公式 $\mu = \sqrt{n(n+2)} \mu_B$，其中 $n$ 是未成对电子的数量，可以通过磁矩计算未成对电子的数量：
+
+1. **条件 1：磁矩 $\mu = 4.90 \mu_B$**  
+   利用公式 $\mu = \sqrt{n(n+2)} \mu_B$，得出：
+   \[
+   4.90 = \sqrt{n(n+2)}
+   \]
+   两边平方后：
+   \[
+   4.90^2 = n(n+2)
+   \]
+   \[
+   24.01 = n(n+2)
+   \]
+   进行试凑计算，n = 4 满足：
+   \[
+   4(4+2) = 24
+   \]
+   因此，第一个配合物中金属离子有 **4 个未成对电子**。
+
+2. **条件 2：磁矩 $\mu = 0$**  
+   当磁矩为 0 时，说明配合物中 **没有未成对电子**，即所有电子成对存在。
+
+3. **分析金属离子的电子构型及未成对电子数**  
+   根据题目选项中的金属离子：
+   - **${\mathrm{Cr}}^{3+}$**：Cr 的基态电子构型为 $[Ar]3d^5 4s^1$，失去 3 个电子后为 $[Ar]3d^3$，即 $d^3$ 构型，在弱场配体作用下，有 3 个未成对电子，在强场配体作用下可为全成对电子。因此与条件不符。
+   - **${\mathrm{Mn}}^{2+}$**：Mn 的基态电子构型为 $[Ar]3d^5 4s^2$，失去 2 个电子后为 $[Ar]3d^5$，即 $d^5$ 构型，在弱场配体作用下有 5 个未成对电子，在强场配体作用下可为全成对电子。因此与条件不符。
+   - **${\mathrm{Mn}}^{3+}$**：Mn 的基态电子构型为 $[Ar]3d^5 4s^2$，失去 3 个电子后为 $[Ar]3d^4$，即 $d^4$ 构型。在弱场配体作用下，有 4 个未成对电子，与磁矩 $\mu = 4.90 \mu_B$ 相符；在强场配体作用下，$d^4$ 构型可发生电子成对，磁矩 $\mu = 0$，也相符。
+   - **${\mathrm{Fe}}^{2+}$**：Fe 的基态电子构型为 $[Ar]3d^6 4s^2$，失去 2 个电子后为 $[Ar]3d^6$，即 $d^6$ 构型。在弱场配体作用下，有 4 个未成对电子，但在强场配体作用下，电子仍然较难完全配对，因此不完全符合条件。
+
+4. **结论**  
+综合分析，${\mathrm{Mn}}^{3+}$ 是唯一能够满足磁矩 $\mu = 4.90$ 和 $\mu = 0$ 两种情况的金属离子。",：C,N/A,N/A,N/A
+"已知 ${\left\lbrack {\mathrm{{PdCl}}}_{2}{\left( \mathrm{{OH}}\right) }_{2}\right\rbrack }^{2 - }$ 有两种不同的结构,成键电子所占据的杂化轨道是
+
+(A) ${\mathrm{{sp}}}^{3}$ ; (B) ${\mathrm{d}}^{2}{\mathrm{{sp}}}^{3}$ ; (C) ${\mathrm{{dsp}}}^{2}$ ; (D) ${\mathrm{d}}^{2}{\mathrm{{sp}}}^{3}$ 。",C,"：
+
+为了回答这个问题，我们需要分析化合物 \({\left\lbrack {\mathrm{PdCl}}_{2}{\left( \mathrm{OH}\right) }_{2}\right\rbrack }^{2 - }\) 的分子结构和配位环境，进一步推断其中心原子钯（Pd）的成键电子所在杂化轨道类型。
+
+1. **中心原子和氧化态分析**：  
+   中心原子是钯（Pd）。配体中有两个 \(\mathrm{Cl}^-\) 和两个 \(\mathrm{OH}^-\)，整体带 \(2-\) 电荷。根据化合价计算，\(\mathrm{Pd}\) 的氧化态为 +2。
+
+2. **电子排布和几何结构**：  
+   \(\mathrm{Pd}\) 位于过渡金属第 10 族（d^8 电子构型），常见的几何结构主要包括 **平面正方形结构** 和 **四面体结构**。在这一配合物中，由于 \(\mathrm{Pd}^{2+}\) 是低自旋结构，其最可能的几何构型是 **平面正方形结构**，这对于 d^8 配位化合物较为典型。
+
+3. **杂化轨道分析**：  
+   - 对于平面正方形结构，中心原子需要使用 \(\mathrm{dsp}^2\) 杂化轨道。这种杂化涉及一个 s 轨道、两个 p 轨道和一个 d 轨道，形成 4 个杂化轨道，用于接受 4 个配体的电子捐赠（2 个 \(\mathrm{Cl}^-\) 和 2 个 \(\mathrm{OH}^-\)）。
+   - 四面体结构对应的是 \(\mathrm{sp}^3\) 杂化，这是另一种可能。然而，这种结构的出现通常由配体的立体效应决定，而在低自旋 d^8 配位化合物中，平面正方形通常更稳定。
+
+4. **题干提示**：  
+   题目中提到该化合物存在两种不同结构，但未说明主态占优，考虑杂化轨道的几何依赖性，平面正方形结构（\(\mathrm{dsp}^2\) 杂化）更可能是主要形式，因而对应答案是 \(\mathrm{C}\)。",：C,N/A,N/A,N/A

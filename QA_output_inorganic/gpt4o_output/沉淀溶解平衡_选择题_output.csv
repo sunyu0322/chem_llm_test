@@ -1,0 +1,345 @@
+query,true_answer,reasoning,model_answer,knowledge_accuracy,reasoning_accuracy,final_answer_accuracy
+"已知 $\mathrm{{Mg}}{\left( \mathrm{{OH}}\right) }_{2}$ 的 ${K}_{\mathrm{{sp}}}^{ \ominus } = {5.6} \times {10}^{-{12}},{\mathrm{{NH}}}_{3}$ 的 ${K}_{\mathrm{b}}^{ \ominus } = {1.8} \times {10}^{-5}$ 。欲使 ${0.40}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ ${\mathrm{{MgCl}}}_{2}$ 溶液与 ${0.20}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 氨水等体积混合后不产生沉淀,则混合溶液中需含 ${\mathrm{{NH}}}_{4}\mathrm{{Cl}}$ 的最小浓度为
+
+(A) ${3.4}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ ; (B) ${0.17}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ ;
+
+(C) 0.31 $\mathrm{{mol}} \cdot {\mathrm{{dm}}}^{-3}$ ; (D) ${0.34}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 。",D,"：  
+1. 本题中涉及镁的氢氧化物沉淀问题，根据条件${\mathrm{{MgCl}}}_{2}$与${\mathrm{{NH}}}_{3}$混合，可能导致${\mathrm{{Mg}}{\left( \mathrm{{OH}} \right) }_{2}}$沉淀的生成。为了防止沉淀生成，需要控制$\left[ \mathrm{{OH}}^- \right]$的浓度，使得${Q} _{ \mathrm{{sp}}} \leq {K}_{\mathrm{{sp}}}$，即：  
+   \[
+   \mathrm{\left[ \mathrm{{Mg}}^{2+} \right]} \cdot \mathrm{\left[ \mathrm{{OH}}^- \right]}^2 \leq {K} _{ \mathrm{{sp}}}
+   \]
+   从而推导出$\left[ \mathrm{{OH}}^- \right]$的最大浓度为：  
+   \[
+   \left[ \mathrm{{OH}}^- \right] \leq \sqrt{\frac{{K} _{ \mathrm{{sp}}}}{\left[ \mathrm{{Mg}}^{2+} \right]}}
+   \]
+
+2. 混合溶液中两种溶液等体积混合：  
+   - 初始$\mathrm{{MgCl}}_{2}$浓度为${0.40}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$，等体积混合后的最终$\mathrm{{Mg}}^{2+}$浓度减半，变为：  
+     \[
+     \mathrm{\left[ \mathrm{{Mg}}^{2+} \right]} = {0.40} \div {2} = {0.20}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+     \]
+
+3. 已知$\mathrm{{Mg(OH)}}_{2}$的${K_{\mathrm{{sp}}}^{\ominus}} = {5.6} \times {10}^{-12}$，代入计算$\left[ \mathrm{{OH}}^- \right]_{\text{最大}}$：  
+   \[
+   \mathrm{\left[ \mathrm{{OH}}^- \right]} \leq \sqrt{\frac{{5.6} \times {10}^{-12}}{{0.20}}} = \sqrt{{2.8} \times {10}^{-11}} \approx {5.29} \times {10}^{-6} \mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+   \]
+
+4. 氨水提供$\left[ \mathrm{{OH}}^- \right]$的来源。氨与水的平衡为：  
+   \[
+   \mathrm{{NH}}_{3} + \mathrm{{H}}_{2}\mathrm{{O}} \rightleftharpoons \mathrm{{NH}}_{4}^{+} + \mathrm{{OH}}^{-}
+   \]
+   平衡常数为${K}_{\mathrm{b}}^{\ominus} = {1.8} \times {10}^{-5}$，$\left[ \mathrm{{OH}}^- \right]$可由以下公式计算：  
+   \[
+   \mathrm{\left[ \mathrm{{OH}}^- \right]} = \sqrt{{K}_{\mathrm{b}}^{\ominus} \cdot \mathrm{\left[ \mathrm{{NH}}_{3} \right]}}
+   \]
+   混合后$\mathrm{{NH}}_{3}$的浓度减半为：  
+   \[
+   \mathrm{\left[ \mathrm{{NH}}_{3} \right] = {0.20} \div {2}} = {0.10}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+   \]
+   代入得：  
+   \[
+   \mathrm{\left[ \mathrm{{OH}}^- \right]} = \sqrt{{1.8} \times {10}^{-5} \cdot {0.10}} = \sqrt{{1.8} \times {10}^{-6}} \approx {1.34} \times {10}^{-3}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+   \]
+
+5. 需加入${\mathrm{{NH}}_{4}\mathrm{{Cl}}}$，通过缓冲效应降低$\left[ \mathrm{{OH}}^- \right]$到${5.29} \times {10}^{-6} \mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$以下。$\mathrm{{NH}}_{4}\mathrm{{Cl}}$影响氨水体系的平衡，通过加入$\left[ \mathrm{{NH}}_{4}^{+} \right]$，抑制氨的解离，从而减少$\left[ \mathrm{{OH}}^- \right]$。设最终加入的$\left[ \mathrm{{NH}}_{4}^{+} \right] = c$。  
+
+   使用平衡关系：  
+   \[
+   \mathrm{\left[ \mathrm{{OH}}^- \right]} = \frac{{K}_{\mathrm{b}}^{\ominus} \cdot \mathrm{\left[ \mathrm{{NH}}_{3} \right]}}{\mathrm{\left[ \mathrm{{NH}}_{4}^{+} \right]}}
+   \]
+   令$\left[ \mathrm{{OH}}^- \right] = {5.29} \times {10}^{-6}$，$\mathrm{\left[ \mathrm{{NH}}_{3} \right]} = {0.10}$，代入：  
+   \[
+   {5.29} \times {10}^{-6} = \frac{{1.8} \times {10}^{-5} \cdot {0.10}}{c}
+   \]
+   解得：
+   \[
+   c = \frac{{1.8} \times {10}^{-5} \cdot {0.10}}{{5.29} \times {10}^{-6}} = {0.34}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+   \]
+
+6. 因此，混合溶液中需含$\mathrm{{NH}}_{4}\mathrm{{Cl}}$的最小浓度为${0.34}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$。",：D,N/A,N/A,N/A
+"${\mathrm{{CaCO}}}_{3}$ 在相同浓度的下列溶液中溶解度最大的是
+
+(A) ${\mathrm{{NH}}}_{4}\mathrm{{Ac}}$ ; (B) ${\mathrm{{CaCl}}}_{2}$ ; (C) ${\mathrm{{NH}}}_{4}\mathrm{{Cl}}$ ; (D) ${\mathrm{{Na}}}_{2}{\mathrm{{CO}}}_{3}$ 。",C,"：  
+1. 解题的关键是分析溶液中可能影响 ${\mathrm{CaCO}}_3$ 溶解度的因素，包括：公共离子效应、弱酸盐的缓冲作用，以及溶解平衡被外加离子破坏的可能性。  
+   
+2. ${\mathrm{CaCO}}_3$ 的溶解平衡如下：  
+   \[ \mathrm{CaCO}_3(s) \rightleftharpoons \mathrm{Ca}^{2+}(aq) + \mathrm{CO}_3^{2-}(aq) \]  
+   其溶解度受到 $\mathrm{Ca}^{2+}$ 和 $\mathrm{CO}_3^{2-}$ 浓度的影响，通过勒夏特列原理可以分析。  
+
+3. 对各选项进行逐一分析：  
+   - (A) ${\mathrm{NH}}_4\mathrm{Ac}$：${\mathrm{NH}}_4\mathrm{Ac}$ 为弱酸盐，电离出 $\mathrm{NH}_4^+$ 和 $\mathrm{Ac}^-$. 其中 $\mathrm{Ac}^-$ 会导致溶液出现一定的缓冲作用，使溶液偏碱性，这有助于溶解出的 $\mathrm{CO}_3^{2-}$ 与 $\mathrm{H}^+$ 反应生成 $\mathrm{HCO}_3^-$. 这会促进 ${\mathrm{CaCO}}_3$ 的溶解，故 ${\mathrm{NH}}_4\mathrm{Ac}$ 对溶解度有促进作用。  
+     
+   - (B) ${\mathrm{CaCl}}_2$：${\mathrm{CaCl}}_2$ 电离出 $\mathrm{Ca}^{2+}$ 和 $\mathrm{Cl}^-$. $\mathrm{Ca}^{2+}$ 是 ${\mathrm{CaCO}}_3$ 的公共离子，增加 $\mathrm{Ca}^{2+}$ 浓度会通过公共离子效应降低 ${\mathrm{CaCO}}_3$ 的溶解度。  
+
+   - (C) ${\mathrm{NH}}_4\mathrm{Cl}$：${\mathrm{NH}}_4\mathrm{Cl}$ 电离出 $\mathrm{NH}_4^+$ 和 $\mathrm{Cl}^-$. $\mathrm{NH}_4^+$ 能弱酸性水解生成 $\mathrm{H}^+$，使溶液酸性增强。酸性增强会促使 $\mathrm{CO}_3^{2-}$ 向 $\mathrm{HCO}_3^-$ 或 $\mathrm{H}_2\mathrm{CO}_3$ 转化，从而提升 ${\mathrm{CaCO}}_3$ 的溶解度。但其影响程度通常不如 (A) 的缓冲作用明显。  
+
+   - (D) ${\mathrm{Na}}_2{\mathrm{CO}}_3$：${\mathrm{Na}}_2{\mathrm{CO}}_3$ 电离出 $\mathrm{Na}^+$ 和 $\mathrm{CO}_3^{2-}$. $\mathrm{CO}_3^{2-}$ 是 ${\mathrm{CaCO}}_3$ 的公共离子，增大 $\mathrm{CO}_3^{2-}$ 浓度将通过公共离子效应强烈降低 ${\mathrm{CaCO}}_3$ 的溶解度。  
+
+4. 综合比较：  
+   - (B) 和 (D) 都通过公共离子效应降低溶解度，因此它们对溶解度的限制作用较强；  
+   - (C) 虽能降低溶液 pH，但效果不如 (A)；  
+   - (A) 中的弱酸盐形成缓冲体系，显著促进了 ${\mathrm{CaCO}}_3$ 的溶解，因此溶解度最大。",：A,N/A,N/A,N/A
+"难溶盐 ${\mathrm{{Ca}}}_{3}{\left( {\mathrm{{PO}}}_{4}\right) }_{2}$ 在 $a\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}{\mathrm{{Na}}}_{3}{\mathrm{{PO}}}_{4}$ 溶液中的溶解度 $s$ 与溶度积 ${K}_{\mathrm{{sp}}}^{ \ominus }$ 关系式中正确的是
+
+(A) ${K}_{\mathrm{{sp}}}^{ \ominus } = {108}{s}^{5}$ ; (B) ${K}_{\mathrm{{sp}}}^{ \ominus } = {\left( 3s\right) }^{3} \cdot {\left( 2s + a\right) }^{2}$ ;
+
+(C) ${K}_{\mathrm{{sp}}}^{\Theta } = {s}^{5}$ ; (D) ${K}_{\mathrm{{sp}}}^{ \ominus } = {s}^{3} \cdot {\left( s + a\right) }^{2}$ 。",B,"：  
+1. 考虑溶解平衡，$\mathrm{Ca}_3(\mathrm{PO}_4)_2$ 在水中溶解为：$\mathrm{Ca}_3(\mathrm{PO}_4)_2 (s) \rightleftharpoons 3\mathrm{Ca}^{2+} + 2\mathrm{PO}_4^{3-}$。
+2. 溶度积表达式为：${K}_{\mathrm{{sp}}}^{ \ominus } = [\mathrm{Ca}^{2+}]^3 [\mathrm{PO}_4^{3-}]^2$。
+3. 在溶液中加入 $a \mathrm {\;{mol}} \cdot {\mathrm{{dm}}}^{-3}{\mathrm{{Na}}}_{3}{\mathrm{{PO}}}_{4}$，$\mathrm{PO}_4^{3-}$ 盐效应影响溶解平衡，使溶解度降低。
+4. 设 $\mathrm{Ca}_3(\mathrm{PO}_4)_2$ 的溶解度为 $s$，则 $[\mathrm{Ca}^{2+}] = 3s$，$[\mathrm{PO}_4^{3-}] = 2s + a$。
+5. 将这些浓度代入溶度积表达式：${K}_{\mathrm{{sp}}}^{ \ominus } = (3s)^3 \cdot (2s + a)^2$。",：B,N/A,N/A,N/A
+"$\mathrm{{AgCl}}$ 和 ${\mathrm{{Ag}}}_{2}{\mathrm{{CrO}}}_{4}$ 的溶度积分别为 ${1.8} \times {10}^{-{10}}$ 和 ${1.1} \times {10}^{-{12}}$ ,则下面叙述中正确的是
+
+(A) $\mathrm{{AgCl}}$ 与 ${\mathrm{{Ag}}}_{2}{\mathrm{{CrO}}}_{4}$ 的溶解度相等; (B) $\mathrm{{AgCl}}$ 的溶解度大于 ${\mathrm{{Ag}}}_{2}{\mathrm{{CrO}}}_{4}$ ;
+
+(C) $\mathrm{{AgCl}}$ 的溶解度小于 ${\mathrm{{Ag}}}_{2}{\mathrm{{CrO}}}_{4}$ ; (D) 都是难溶盐, 溶解度无意义。",C,"：  
+溶解度和溶度积之间的关系可以通过以下溶解平衡来描述：
+
+1. 对于 $\mathrm{AgCl}$，其在水中的溶解平衡为：  
+\[
+\mathrm{AgCl} \rightleftharpoons \mathrm{Ag}^+ + \mathrm{Cl}^-
+\]  
+溶度积常数（$K_{sp}$）为：  
+\[
+K_{sp} = [\mathrm{Ag}^+][\mathrm{Cl}^-] = 1.8 \times 10^{-10}
+\]  
+如果设溶解度为 $s$，则 $[\mathrm{Ag}^+] = s$ 和 $[\mathrm{Cl}^-] = s$，因此：  
+\[
+s^2 = 1.8 \times 10^{-10} \implies s = \sqrt{1.8 \times 10^{-10}}
+\]
+
+2. 对于 $\mathrm{Ag}_2\mathrm{CrO}_4$，其在水中的溶解平衡为：  
+\[
+\mathrm{Ag}_2\mathrm{CrO}_4 \rightleftharpoons 2\mathrm{Ag}^+ + \mathrm{CrO}_4^{2-}
+\]  
+溶度积常数（$K_{sp}$）为：  
+\[
+K_{sp} = [\mathrm{Ag}^+]^2[\mathrm{CrO}_4^{2-}] = 1.1 \times 10^{-12}
+\]  
+如果设溶解度为 $s$，则 $[\mathrm{Ag}^+] = 2s$ 和 $[\mathrm{CrO}_4^{2-}] = s$，因此：  
+\[
+(2s)^2 \times s = 1.1 \times 10^{-12} \implies 4s^3 = 1.1 \times 10^{-12} \implies s = \sqrt[3]{\frac{1.1 \times 10^{-12}}{4}}
+\]
+
+下一步是计算两种化合物的溶解度，以便比较它们。通过计算可得：
+
+- $\mathrm{AgCl}$ 的溶解度 \( s \approx \sqrt{1.8 \times 10^{-10}} = 1.34 \times 10^{-5} \ \text{mol/L} \)
+- $\mathrm{Ag}_2\mathrm{CrO}_4$ 的溶解度 \( s \approx \sqrt[3]{2.75 \times 10^{-13}} \approx 6.50 \times 10^{-5} \ \text{mol/L} \)
+
+因此，比较溶解度可以得知 $\mathrm{Ag}_2\mathrm{CrO}_4$ 的溶解度大于 $\mathrm{AgCl}$。",：C,N/A,N/A,N/A
+"${\mathrm{{BaSO}}}_{4}$ 的相对分子质量为 ${233},{K}_{\mathrm{{sp}}}^{ \ominus } = {1.1} \times {10}^{-{10}}$ ,把 ${1.0} \times {10}^{-3}\mathrm{\;{mol}}{\mathrm{{BaSO}}}_{4}$ 配成 ${10}{\mathrm{{dm}}}^{3}$ 溶液, ${\mathrm{{BaSO}}}_{4}$ 未溶解的质量是
+
+(A) ${0.0021}\mathrm{\;g}$ ; (B) ${0.021}\mathrm{\;g}$ ; (C) ${0.21}\mathrm{\;g}$ ; (D) ${2.1}\mathrm{\;g}$ 。",C,"：
+1. **理解问题**：题目要求我们计算${\mathrm{BaSO}}_{4}$在溶液中的未溶解质量。溶解过程可表示为：
+
+   \[ \mathrm{BaSO}_{4(s)} \leftrightharpoons \mathrm{Ba}^{2+} + \mathrm{SO}_{4}^{2-} \]
+
+   题目给出了${K}_{\mathrm{sp}} = 1.1 \times 10^{-10}$，这表示${\mathrm{BaSO}}_{4}$的溶度积常数。同时，初始加入了${1.0 \times 10^{-3}}$ mol的${\mathrm{BaSO}}_{4}$，溶液体积为${10 \mathrm{dm}}^3$。
+
+2. **溶解度计算**：溶解度是单独溶于溶液中的${\mathrm{BaSO}}_{4}$的物质的量浓度。
+
+   假设溶液中的${\mathrm{Ba}^{2+}}$和${\mathrm{SO}_{4}^{2-}}$离子浓度均为$s$ mol/${\mathrm{dm}}^3$（因溶解时1:1生成）。则根据溶度积定义有：
+   
+   \[
+   K_{\mathrm{sp}} = [\mathrm{Ba}^{2+}][\mathrm{SO}_{4}^{2-}] = s \times s = s^2
+   \]
+
+   解得：
+   \[
+   s = \sqrt{1.1 \times 10^{-10}} \approx 1.05 \times 10^{-5} \, \mathrm{mol}/{\mathrm{dm}}^3
+   \]
+
+   因此，${\mathrm{BaSO}}_{4}$在该溶液中的溶解度为$1.05 \times 10^{-5} \, \mathrm{mol}/{\mathrm{dm}}^3$。
+
+3. **计算实际溶解的${\mathrm{BaSO}}_{4}$量**：溶液体积为${10 \mathrm{dm}}^3$，那么溶解的${\mathrm{BaSO}}_{4}$物质的量为：
+   \[
+   n_{\text{溶解的}} = s \times 10 = (1.05 \times 10^{-5}) \times 10 = 1.05 \times 10^{-4} \, \mathrm{mol}
+   \]
+
+4. **计算未溶解的${\mathrm{BaSO}}_{4}$量**：加入的${\mathrm{BaSO}}_{4}$的物质的量为$1.0 \times 10^{-3} \, \mathrm{mol}$，未溶解的物质的量为：
+   \[
+   n_{\text{未溶解的}} = n_{\text{加入的}} - n_{\text{溶解的}} = 1.0 \times 10^{-3} - 1.05 \times 10^{-4} = 8.95 \times 10^{-4} \, \mathrm{mol}
+   \]
+
+5. **计算未溶解的质量**：${\mathrm{BaSO}}_{4}$的摩尔质量为233 g/mol，未溶解的质量为：
+   \[
+   m_{\text{未溶解的}} = n_{\text{未溶解的}} \times M = (8.95 \times 10^{-4}) \times 233 \approx 0.2085 \, \mathrm{g}
+   \]
+
+   四舍五入后，得未溶解的${\mathrm{BaSO}}_{4}$质量约为$0.21 \, \mathrm{g}$。",：C,N/A,N/A,N/A
+"已知 $\mathrm{{Mg}}{\left( \mathrm{{OH}}\right) }_{2}$ 的 ${K}_{\mathrm{{sp}}}^{ \ominus } = {5.6} \times {10}^{-{12}}$ ,则向 $\mathrm{{Mg}}{\left( \mathrm{{OH}}\right) }_{2}$ 饱和溶液中加 ${\mathrm{{MgCl}}}_{2}$ ,使 ${\mathrm{{Mg}}}^{2 + }$ 浓度为 ${0.010}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ ,则该溶液的 $\mathrm{{pH}}$ 为
+
+(A) 9.1 ; (B) 9.4 ; (C) 8.4 ; (D) 4.6 。",B,"：  
+1. 由题目可知，$\mathrm{Mg(OH)_2}$ 的溶度积常数为 $K_{sp}^{\ominus}=5.6 \times 10^{-12}$。对于饱和溶液 $\mathrm{Mg(OH)_2} \rightleftharpoons \mathrm{Mg}^{2+} + 2\mathrm{OH}^-$，在平衡时，我们可以设溶液中 $\mathrm{OH}^-$ 的浓度为 $s$，所以 $\mathrm{Mg}^{2+}$ 的浓度也为 $\frac{s}{2}$。
+
+2. 根据溶度积公式：$K_{sp}^{\ominus} = [\mathrm{Mg}^{2+}][\mathrm{OH}^-]^2$，我们可以将其重写为：  
+   $$ K_{sp}^{\ominus} = \left(\frac{s}{2}\right)(s^2) = \frac{s^3}{4} = 5.6 \times 10^{-12}. $$
+
+3. 向该饱和溶液中加入 $\mathrm{MgCl}_2$，使得 $\mathrm{Mg}^{2+}$ 的浓度为 $0.010 \; \mathrm{mol \cdot dm}^{-3}$。设 $\mathrm{OH}^-$ 的浓度变为 $s'$, 根据溶度积常数我们有：  
+   $$ [\mathrm{Mg}^{2+}][\mathrm{OH}^-]^2 = 0.010 \cdot (s')^2 = 5.6 \times 10^{-12}, $$  
+   从而得到  
+   $$ (s')^2 = \frac{5.6 \times 10^{-12}}{0.010} = 5.6 \times 10^{-10}, $$
+   所以  
+   $$ s' = \sqrt{5.6 \times 10^{-10}} \approx 7.48 \times 10^{-6} \; \mathrm{mol \cdot dm}^{-3}. $$
+
+4. $\mathrm{pOH} = -\log_{10} [\mathrm{OH}^-] = -\log_{10} (7.48 \times 10^{-6}) \approx 5.13.$
+
+5. 因为 $\mathrm{pH} + \mathrm{pOH} = 14$，所以我们有 $\mathrm{pH} = 14 - 5.13 = 8.87$。
+
+6. 由于选择项中只有 (C) 为可接近值，所以该选择为最合适的答案。",：C,N/A,N/A,N/A
+"已知 $\mathrm{{FeS}}$ 的 ${K}_{\mathrm{{sp}}}^{ \ominus } = {6.3} \times {10}^{-{18}};{\mathrm{H}}_{2}\mathrm{\;S}$ 的 ${K}_{\mathrm{a}}^{ \ominus } = {1.4} \times {10}^{-{20}}$ ,向 ${0.10}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}{\mathrm{{Fe}}}^{2 + }$ 溶液中通
+
+入 ${\mathrm{H}}_{2}\mathrm{\;S}$ 气体至饱和 $\left( {{0.10}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}}\right)$ ,欲使 ${\mathrm{{Fe}}}^{2 + }$ 不生成 $\mathrm{{FeS}}$ 沉淀,溶液的 $\mathrm{{pH}}$ 应满足
+
+(A) $\mathrm{{pH}} \geq {2.33}$ ; (B) $\mathrm{{pH}} \geq {3.53}$ ; (C) $\mathrm{{pH}} \leq {3.53}$ ; (D) $\mathrm{{pH}} \leq {2.33}$ 。",D,"：
+
+1. **要点分析**：
+   根据题意，$\mathrm{Fe}^{2+}$ 溶液中加入 $\mathrm{H_2S}$ 气体且达到饱和状态，目的是防止 $\mathrm{FeS}$ 沉淀形成。$\mathrm{FeS}$ 的沉淀溶解平衡式为：
+   \[
+   \mathrm{FeS(s)} \rightleftharpoons \mathrm{Fe^{2+}(aq)} + \mathrm{S^{2-}(aq)},
+   \]
+   它的溶度积为：
+   \[
+   K_{\mathrm{sp}} = [\mathrm{Fe^{2+}}][\mathrm{S^{2-}}].
+   \]
+
+   如果溶液中 $\mathrm{Fe^{2+}}$ 和 $\mathrm{S^{2-}}$ 的浓度乘积超过 $K_{\mathrm{sp}}$，会形成沉淀。因此，控制 $\mathrm{[S^{2-}]}$ 是关键。
+
+2. **与 $\mathrm{H_2S}$ 的酸性解离关系**：
+   $\mathrm{H_2S}$ 在水中是弱酸，可以解离为 $\mathrm{HS^-}$ 和 $\mathrm{S^{2-}}$，反应为：
+   \[
+   \mathrm{H_2S} \rightleftharpoons \mathrm{HS^-} + \mathrm{H^+}, \quad K_{\mathrm{a1}},
+   \]
+   \[
+   \mathrm{HS^-} \rightleftharpoons \mathrm{S^{2-}} + \mathrm{H^+}, \quad K_{\mathrm{a2}}.
+   \]
+   总体解离常数为：
+   \[
+   K_{\mathrm{a}} = K_{\mathrm{a1}} \cdot K_{\mathrm{a2}}.
+   \]
+
+   已知 $\mathrm{H_2S}$ 的总酸解离常数 $K_{\mathrm{a}}^\ominus = 1.4 \times 10^{-20}$，从而：
+   \[
+   [\mathrm{S^{2-}}] = \frac{K_{\mathrm{a1}} \cdot K_{\mathrm{a2}} \cdot [\mathrm{H_2S}]}{[\mathrm{H^+}]^2} = \frac{K_{\mathrm{a}} \cdot [\mathrm{H_2S}]}{[\mathrm{H^+}]^2}.
+   \]
+
+3. **饱和条件下的 $\mathrm{H_2S}$**：
+   题目指出 $\mathrm{H_2S}$ 溶液饱和，且 $\mathrm{H_2S}$ 的浓度为 $0.10\ \mathrm{mol} \cdot \mathrm{dm^{-3}}$。
+
+4. **结合 $\mathrm{FeS}$ 的溶度积表达式**：
+   根据 $\mathrm{FeS}$ 不生成沉淀的要求，溶液中 $\mathrm{Fe^{2+}}$ 和 $\mathrm{S^{2-}}$ 浓度必须满足以下关系：
+   \[
+   [\mathrm{Fe^{2+}}] \cdot [\mathrm{S^{2-}}] \leq K_{\mathrm{sp}}.
+   \]
+   已知溶液中 $\mathrm{[Fe^{2+}]} = 0.10\ \mathrm{mol} \cdot \mathrm{dm^{-3}}$，结合 $\mathrm{[S^{2-}]}$ 的表达式：
+   \[
+   \mathrm{[Fe^{2+}]} \cdot \frac{K_{\mathrm{a}} \cdot [\mathrm{H_2S}]}{\mathrm{[H^+]}^2} \leq K_{\mathrm{sp}}.
+   \]
+   代入已知数值：
+   \[
+   (0.10) \cdot \frac{(1.4 \times 10^{-20}) \cdot (0.10)}{\mathrm{[H^+]}^2} \leq 6.3 \times 10^{-18}.
+   \]
+
+5. **化简计算并求解 $\mathrm{[H^+]}$**：
+   化简得到：
+   \[
+   \frac{1.4 \times 10^{-21}}{\mathrm{[H^+]}^2} \leq 6.3 \times 10^{-18}.
+   \]
+
+   解得：
+   \[
+   \mathrm{[H^+]}^2 \geq \frac{1.4 \times 10^{-21}}{6.3 \times 10^{-18}} = 2.22 \times 10^{-4}.
+   \]
+
+   对 $\mathrm{[H^+]}$ 开平方：
+   \[
+   \mathrm{[H^+]} \geq \sqrt{2.22 \times 10^{-4}} \approx 1.49 \times 10^{-2}.
+   \]
+
+   转化为 $\mathrm{pH}$：
+   \[
+   \mathrm{pH} \leq -\log{(1.49 \times 10^{-2})} \approx 2.33.
+   \]
+
+6. **确定结果**：
+   为防止 $\mathrm{FeS}$ 沉淀，$\mathrm{pH}$ 应小于或等于 $2.33$。",：D,N/A,N/A,N/A
+"已知 ${K}_{\mathrm{{sp}}}^{ \ominus } : \mathrm{{AgCl}}{1.8} \times {10}^{-{10}},\mathrm{{AgBr}}{5.4} \times {10}^{-{13}},\mathrm{{AgSCN}}{1.0} \times {10}^{-{12}},{\mathrm{{Ag}}}_{2}{\mathrm{{CrO}}}_{4}{1.1} \times$ ${10}^{-{12}}$ ,混合溶液中 $\mathrm{{KCl}},\mathrm{{KBr}},\mathrm{{KSCN}}$ 和 ${\mathrm{K}}_{2}{\mathrm{{CrO}}}_{4}$ 浓度均为 ${0.010}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ ,向溶液中滴加 ${0.010}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}{\mathrm{{AgNO}}}_{3}$ 溶液时,最先和最后生成的沉淀是
+
+(A) ${\mathrm{{Ag}}}_{2}{\mathrm{{CrO}}}_{4},\mathrm{{AgCl}}$ ; (B) $\mathrm{{AgSCN}},\mathrm{{AgCl}}$ ;
+
+(C) $\mathrm{{AgBr}},{\mathrm{{Ag}}}_{2}{\mathrm{{CrO}}}_{4}$ ; (D) $\mathrm{{AgCl}},{\mathrm{{Ag}}}_{2}{\mathrm{{CrO}}}_{4}$ 。",C,"：
+
+1. **溶解度积的定义及沉淀的形成条件**：
+   根据溶解平衡的定义，当溶液中某种盐的离子积（实际浓度乘积）大于其溶解度积（$K_\mathrm{sp}$）时，盐会以沉淀形式析出。若溶液中多种阴离子和银离子（$\mathrm{Ag}^+$）逐渐混合，$K_\mathrm{sp}$小的盐会优先形成沉淀。
+
+2. **计算起始离子积**：
+   假设加入的$\mathrm{AgNO}_3$溶液中$\mathrm{Ag}^+$的浓度逐渐增加。每种可能生成沉淀的反应如下：
+   - $\mathrm{AgCl}\rightarrow \mathrm{Ag}^+ + \mathrm{Cl}^-$
+   - $\mathrm{AgBr}\rightarrow \mathrm{Ag}^+ + \mathrm{Br}^-$
+   - $\mathrm{AgSCN}\rightarrow \mathrm{Ag}^+ + \mathrm{SCN}^-$
+   - ${\mathrm{Ag}}_2{\mathrm{CrO}}_4\rightarrow 2\mathrm{Ag}^+ + {\mathrm{CrO}}_4^{2-}$
+
+   对这些反应，只需将已知$K_\mathrm{sp}$代入，反推出$\mathrm{Ag}^+$达到沉淀的最低浓度（称为**临界$\mathrm{Ag}^+$浓度**）：
+   - 对于$\mathrm{AgCl}$：$[\mathrm{Ag}^+] = \frac{K_\mathrm{sp}}{[\mathrm{Cl}^-]} = \frac{1.8 \times 10^{-10}}{0.010} = 1.8 \times 10^{-8} \;\mathrm{mol}\cdot\mathrm{dm}^{-3}$
+   - 对于$\mathrm{AgBr}$：$[\mathrm{Ag}^+] = \frac{K_\mathrm{sp}}{[\mathrm{Br}^-]} = \frac{5.4 \times 10^{-13}}{0.010} = 5.4 \times 10^{-11} \;\mathrm{mol}\cdot\mathrm{dm}^{-3}$
+   - 对于$\mathrm{AgSCN}$：$[\mathrm{Ag}^+] = \frac{K_\mathrm{sp}}{[\mathrm{SCN}^-]} = \frac{1.0 \times 10^{-12}}{0.010} = 1.0 \times 10^{-10} \;\mathrm{mol}\cdot\mathrm{dm}^{-3}$
+   - 对于${\mathrm{Ag}}_2{\mathrm{CrO}}_4$：$[\mathrm{Ag}^+] = \sqrt{\frac{K_\mathrm{sp}}{[\mathrm{CrO}_4^{2-}]}} = \sqrt{\frac{1.1 \times 10^{-12}}{0.010}} = 1.05 \times 10^{-5} \;\mathrm{mol}\cdot\mathrm{dm}^{-3}$
+
+3. **判断沉淀形成顺序**：
+   临界$\mathrm{Ag}^+$浓度逐渐增大，按顺序为：
+   - $\mathrm{AgBr}$（$5.4 \times 10^{-11}$）；
+   - $\mathrm{AgSCN}$（$1.0 \times 10^{-10}$）；
+   - $\mathrm{AgCl}$（$1.8 \times 10^{-8}$）；
+   - ${\mathrm{Ag}}_2{\mathrm{CrO}}_4$（$1.05 \times 10^{-5}$）。
+
+   这表明：
+   - 最先生成沉淀的是：$\mathrm{AgBr}$。
+   - 最后生成沉淀的是：${\mathrm{Ag}}_2{\mathrm{CrO}}_4$。
+
+4. **综合判断选项**：
+   根据计算和分析，(A)选项描述为最先生成${\mathrm{Ag}}_2{\mathrm{CrO}}_4$，并不符合计算结果。其余选项逐一验证，只有(C)选项正确描述了最先和最后生成的沉淀顺序：最先是$\mathrm{AgBr}$，最后是${\mathrm{Ag}}_2{\mathrm{CrO}}_4$。",：C,N/A,N/A,N/A
+"已知 ${K}_{\text{sp }}^{ \ominus }$ : NiS ${1.0} \times {10}^{-{24}},{\mathrm{{Bi}}}_{2}{\mathrm{\;S}}_{3}{1.0} \times {10}^{-{97}}$, CuS ${6.3} \times {10}^{-{36}},\mathrm{{MnS}}{2.5} \times {10}^{-{13}}$, CdS ${8.0} \times$ ${10}^{-{27}},\mathrm{{ZnS}}{2.5} \times {10}^{-{22}}$ ,下列各对离子的混合溶液中均含有 ${0.30}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 盐酸,不能用 ${\mathrm{H}}_{2}\mathrm{\;S}$ 进行分离的是
+
+(A) ${\mathrm{{Cu}}}^{2 + },{\mathrm{{Ni}}}^{2 + }$ ; (B) ${\mathrm{{Bi}}}^{3 + },{\mathrm{{Cu}}}^{2 + }$ ; (C) ${\mathrm{{Mn}}}^{2 + },{\mathrm{{Cd}}}^{2 + }$ ; (D) ${\mathrm{{Zn}}}^{2 + },{\mathrm{{Ni}}}^{2 + }$ 。",B,"：我们需要确定在0.30 mol/dm³盐酸溶液中，使用H₂S是否可以有效分离各对金属离子。分离的关键是各自硫化物的溶解度积常数（Ksp）的差异。H₂S在酸性溶液中电离出HS⁻和S²⁻，其中S²⁻微量的存在影响硫化物的沉淀。我们可以通过逐步增加硫化氢的浓度来依次沉淀出具有较低Ksp值的金属硫化物。如若两种金属离子形成的硫化物的Ksp值非常接近，则H₂S很难在相同条件下有效分离它们。
+
+将硫化物的Ksp从小到大排列：Bi₂S₃ (1.0×10⁻⁹⁷), CuS (6.3×10⁻³⁶), NiS (1.0×10⁻²⁴), CdS (8.0×10⁻²⁷), ZnS (2.5×10⁻²²), MnS (2.5×10⁻¹³)。
+
+现在，分析选项：
+
+- **(A) Cu²⁺, Ni²⁺**：CuS (6.3×10⁻³⁶)与NiS (1.0×10⁻²⁴)，差异较大，能分离；
+- **(B) Bi³⁺, Cu²⁺**：Bi₂S₃ (1.0×10⁻⁹⁷)与CuS (6.3×10⁻³⁶)，差异巨大，能分离；
+- **(C) Mn²⁺, Cd²⁺**：MnS (2.5×10⁻¹³)与CdS (8.0×10⁻²⁷)，差异很大，能分离；
+- **(D) Zn²⁺, Ni²⁺**：ZnS (2.5×10⁻²²)与NiS (1.0×10⁻²⁴)，差异较小，不易分离。
+
+因而，在选项中，无法有效分离的是ZnS与NiS。",：D,N/A,N/A,N/A
+"溶液中 ${\mathrm{{FeCl}}}_{2}$ 和 ${\mathrm{{CuCl}}}_{2}$ 的浓度均为 ${0.10}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ ,向其中通入 ${\mathrm{H}}_{2}\mathrm{\;S}$ 气体至饱和,沉淀生成情况为 (已知 $\mathrm{{FeS}}$ 的 ${K}_{\mathrm{{sp}}}^{ \ominus } = {6.3} \times {10}^{-{18}},\mathrm{{CuS}}$ 的 ${K}_{\mathrm{{sp}}}^{ \ominus } = {6.3} \times {10}^{-{36}},{\mathrm{H}}_{2}\mathrm{\;S}$ 的 ${K}_{\mathrm{a}}^{ \ominus } = {1.4} \times$ ${10}^{-{20}}$ )
+
+(A) 先生成 $\mathrm{{CuS}}$ 沉淀,后生成 $\mathrm{{FeS}}$ 沉淀;
+
+(B) 先生成 $\mathrm{{FeS}}$ 沉淀,后生成 $\mathrm{{CuS}}$ 沉淀;
+
+(C) 只生成 $\mathrm{{CuS}}$ 沉淀,不生成 $\mathrm{{FeS}}$ 沉淀;
+
+(D) 只生成 $\mathrm{{FeS}}$ 沉淀,不生成 $\mathrm{{CuS}}$ 沉淀。",C,"：要解决这个问题，我们需要比较铁(II)硫化物($\mathrm{FeS}$)和铜(II)硫化物($\mathrm{CuS}$)在相同条件下的溶解度积（$K_{sp}$）以及硫化物的析出条件。
+
+首先，$\mathrm{H}_2\mathrm{S}$在溶液中的溶解和解离可以表示为两个平衡： 
+\[
+\mathrm{H}_2\mathrm{S} \rightleftharpoons \mathrm{H}^+ + \mathrm{HS}^-
+\]
+\[
+\mathrm{HS}^- \rightleftharpoons \mathrm{H}^+ + \mathrm{S}^{2-}
+\]
+$\mathrm{H}_2\mathrm{S}$的$K_a^\ominus = 1.4 \times 10^{-20}$，表明$\mathrm{S}^{2-}$的浓度非常低。
+
+当$\mathrm{H}_2\mathrm{S}$在溶液中达到饱和时，可以认为$\mathrm{S}^{2-}$接近于能够导致沉淀形成的极限值。为了比较谁先沉淀，我们计算每一个金属阳离子的$\mathrm{S}^{2-}$离子的浓度阈值，即：
+\[ 
+\text{对}\quad \mathrm{FeS}: [\mathrm{S}^{2-}]_{\mathrm{Fe}} = \frac{K_{sp, \mathrm{FeS}}}{[\mathrm{Fe}^{2+}]} = \frac{6.3 \times 10^{-18}}{0.10} = 6.3 \times 10^{-17} 
+\]
+\[
+\text{对}\quad \mathrm{CuS}: [\mathrm{S}^{2-}]_{\mathrm{Cu}} = \frac{K_{sp, \mathrm{CuS}}}{[\mathrm{Cu}^{2+}]} = \frac{6.3 \times 10^{-36}}{0.10} = 6.3 \times 10^{-35}
+\]
+
+$\mathrm{CuS}$的沉淀阈值远小于$\mathrm{FeS}$，因此在$\mathrm{S}^{2-}$浓度逐渐增加时，静至于$\mathrm{S}^{2-}$骤然达到这两个极限浓度之间，$\mathrm{CuS}$比$\mathrm{FeS}$更容易达到饱和，所以$\mathrm{CuS}$首先沉淀。
+
+此外，因为$\mathrm{S}^{2-}$在饱和的$\mathrm{H_2S}$溶液中浓度极低（根据$K_a$值），不过，$[\mathrm{S}^{2-}]_{\mathrm{Fe}}$ > $[\mathrm{S}^{2-}]_{\mathrm{Cu}}$，即在$\mathrm{FeS}$未达到虚拟沉淀浓度时, $\mathrm{CuS}$已经沉淀, 整体上可能$S^{2-}$浓度不足使$\mathrm{FeS}$沉淀。",：C,N/A,N/A,N/A

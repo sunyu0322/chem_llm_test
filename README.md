@@ -9,16 +9,28 @@
 ## 项目结构
 
 ```
+
+
+chem_llm/
+├── data_organic_textbook/                # 原始有机化学教材Markdown文件
+│   ├── clayden_question.md               # 示例文件
+├── data_organic_textbook_smiles/         # 处理后的Markdown文件（图片替换为SMILES）
+│   ├── clayden_question_smiles.md        # 示例输出文件
+├── data_picture/                         # 临时下载的图片
+│   └── 01955a59-12c1-7ea5-a682-05a2b5b6c37d...  # 示例图片
+├── Q&A_inorganic/                        # 无机化学问答对
+├── QA_output/                            # 临时输出文件
+├── QA_output_inorganic/                  # 无机化学相关输出文件
+├── scripts/                              # 脚本目录
+│   ├── evaluate_response.py              # 评估模型回答的脚本
+│   ├── extract_reasoning_and_answer.py   # 提取推理和答案脚本
+│   ├── file_operations.py                # csv文件操作脚本
+│   ├── jpg_to_smiles.py                  # 图片转SMILES脚本
+│   ├── LLM.py                            # 大模型相关脚本
+│   ├── load_csv_data.py                  # 加载CSV数据脚本
+│   ├── picture_md_to_path.py             # Markdown图片转路径脚本
+│   └── process_organic_textbook.py       # 处理有机化学教材脚本
 ├── main.py                # 主程序，负责调用生成与评估函数
-├── scripts/                # 存放各模块的脚本文件
-│   ├── LLM.py             # 生成模型回答的脚本
-│   ├── evaluate_response.py # 评估模型回答的脚本
-│   ├── load_csv_data.py   # 读取CSV数据的脚本
-│   └── file_operations.py # csv文件读写操作
-├── /n                   # 存放输入问题和答案的CSV文件
-│   └── 原子结构和元素周期律_选择题.csv # 示例输入文件
-└── QA_output/             # 存放输出评估结果的CSV文件
-    └── output_原子结构和元素周期律_选择题.csv # 示例输出文件
 ```
 
 ## 安装依赖
@@ -71,3 +83,12 @@ query, true_answer, model_answer, is_correct(后续会改为其他评估指标)
 ```
 
 ---
+### picture_md_to_path.py
+
+该脚本用于从Markdown图片标签中提取图片URL，下载图片到 `data_picture` 文件夹，并调用DECIMER生成SMILES。
+<!-- 
+## 使用方法
+1. 将Markdown图片标签作为输入。
+2. 运行脚本：
+   ```bash
+   python picture_md_to_path.py -->

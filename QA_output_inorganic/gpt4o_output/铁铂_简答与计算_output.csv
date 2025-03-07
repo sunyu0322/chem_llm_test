@@ -1,0 +1,845 @@
+query,true_answer,reasoning,model_answer,knowledge_accuracy,reasoning_accuracy,final_answer_accuracy
+"分别向 ${\mathrm{{FeSO}}}_{4},{\mathrm{{CoSO}}}_{4},{\mathrm{{NiSO}}}_{4}$ 溶液中缓慢滴加氨水,生成的产物和实验现象是什么?
+","向 ${\mathrm{{FeSO}}}_{4}$ 溶液中缓慢滴加氨水,先有白色沉淀生成,后迅速变成灰绿色,最终变成红棕色的沉淀:
+
+$$
+{\mathrm{{Fe}}}^{2 + } + 2{\mathrm{{NH}}}_{3} \cdot {\mathrm{H}}_{2}\mathrm{O} = \mathrm{{Fe}}{\left( \mathrm{{OH}}\right) }_{2} \downarrow \text{(白色)} + 2{\mathrm{{NH}}}_{4}^{ + }
+$$
+
+$$
+4\mathrm{{Fe}}{\left( \mathrm{{OH}}\right) }_{2} + {\mathrm{O}}_{2} + 2{\mathrm{H}}_{2}\mathrm{O} = 4\mathrm{{Fe}}{\left( \mathrm{{OH}}\right) }_{3}\text{(红棕色)}
+$$
+
+在 ${\mathrm{{CoSO}}}_{4}$ 溶液中滴加氨水,先析出蓝绿色沉淀,氨水过量时沉淀溶解,生成棕黄色溶液, 在空气中放置, 溶液逐渐变成棕褐色:
+
+$$
+2{\mathrm{{CoSO}}}_{4} + 2{\mathrm{{NH}}}_{3} \cdot {\mathrm{H}}_{2}\mathrm{O} = \mathrm{{Co}}{\left( \mathrm{{OH}}\right) }_{2} \cdot {\mathrm{{CoSO}}}_{4} \downarrow + {\left( {\mathrm{{NH}}}_{4}\right) }_{2}{\mathrm{{SO}}}_{4}
+$$
+
+$$
+\mathrm{{Co}}{\left( \mathrm{{OH}}\right) }_{2} \cdot {\mathrm{{CoSO}}}_{4} + {12}{\mathrm{{NH}}}_{3} \cdot {\mathrm{H}}_{2}\mathrm{O} = 2{\left\lbrack \mathrm{{Co}}{\left( {\mathrm{{NH}}}_{3}\right) }_{6}\right\rbrack }^{2 + } + 2{\mathrm{{OH}}}^{ - } + {\mathrm{{SO}}}_{4}^{2 - } + {12}{\mathrm{H}}_{2}\mathrm{O}
+$$
+
+$$
+4{\left\lbrack \mathrm{{Co}}{\left( {\mathrm{{NH}}}_{3}\right) }_{6}\right\rbrack }^{2 + } + {\mathrm{O}}_{2} + 2{\mathrm{H}}_{2}\mathrm{O} = 4{\left\lbrack \mathrm{{Co}}{\left( {\mathrm{{NH}}}_{3}\right) }_{6}\right\rbrack }^{3 + } + 4{\mathrm{{OH}}}^{ - }
+$$
+
+向 ${\mathrm{{NiSO}}}_{4}$ 溶液中缓慢滴加氨水,先有绿色沉淀生成:
+
+$$
+{\mathrm{{Ni}}}^{2 + } + 2{\mathrm{{NH}}}_{3} \cdot {\mathrm{H}}_{2}\mathrm{O} = \mathrm{{Ni}}{\left( \mathrm{{OH}}\right) }_{2} \downarrow + 2{\mathrm{{NH}}}_{4}^{ + }
+$$
+
+氨水过量则绿色沉淀溶解,生成蓝色 ${\left\lbrack \mathrm{{Ni}}{\left( {\mathrm{{NH}}}_{3}\right) }_{6}\right\rbrack }^{2 + }$ 溶液:
+
+$$
+\mathrm{{Ni}}{\left( \mathrm{{OH}}\right) }_{2} + 6{\mathrm{{NH}}}_{3} \cdot {\mathrm{H}}_{2}\mathrm{O} = {\left\lbrack \mathrm{{Ni}}{\left( {\mathrm{{NH}}}_{3}\right) }_{6}\right\rbrack }^{2 + } + 2{\mathrm{{OH}}}^{ - } + 6{\mathrm{H}}_{2}\mathrm{O}
+$$
+","：
+1. 分析溶液成分：
+   - $\mathrm{FeSO}_4$ 溶液含 $\mathrm{Fe}^{2+}$ 离子。
+   - $\mathrm{CoSO}_4$ 溶液含 $\mathrm{Co}^{2+}$ 离子。
+   - $\mathrm{NiSO}_4$ 溶液含 $\mathrm{Ni}^{2+}$ 离子。
+
+2. 加入氨水后的反应：
+   - 氨水会提供 $\mathrm{OH^-}$，使得溶液中的金属离子形成氢氧化物沉淀。
+   
+3. 不同金属离子与氢氧根反应的预期：
+   - $\mathrm{Fe}^{2+} + 2\mathrm{OH^-} \rightarrow \mathrm{Fe(OH)}_{2(s)}$：$\mathrm{Fe(OH)_2}$ 为白色，但容易氧化成灰绿色或褐色的 $\mathrm{Fe(OH)_3}$。
+   - $\mathrm{Co}^{2+} + 2\mathrm{OH^-} \rightarrow \mathrm{Co(OH)}_{2(s)}$：$\mathrm{Co(OH)_2}$ 为粉红色，但很容易在空气中氧化成棕色的氧化钴氢氧化物。
+   - $\mathrm{Ni}^{2+} + 2\mathrm{OH^-} \rightarrow \mathrm{Ni(OH)}_{2(s)}$：$\mathrm{Ni(OH)_2}$ 是绿色的固体。
+
+4. 综合判断：
+   - 三种溶液在加氨水后会分别形成不同颜色的氢氧化物沉淀，其中铁和钴的沉淀还可能出现颜色变化。","：  
+$\mathrm{FeSO}_4$溶液：初始产物为白色 $\mathrm{Fe(OH)_2}$，容易转变为灰绿色/褐色。  
+$\mathrm{CoSO}_4$溶液：产物为粉红色 $\mathrm{Co(OH)_2}$，可能变为棕色。  
+$\mathrm{NiSO}_4$溶液：产物为绿色 $\mathrm{Ni(OH)_2}$。",N/A,N/A,N/A
+"为什么铝板氧化层用极稀的 $\mathrm{{Co}}{\left( {\mathrm{{NO}}}_{3}\right) }_{2}$ 溶液处理后灼烧,即显蓝色?","铝板氧化层用极稀的 $\mathrm{{Co}}{\left( {\mathrm{{NO}}}_{3}\right) }_{2}$ 溶液处理后灼烧,加热条件下 $\mathrm{{Co}}{\left( {\mathrm{{NO}}}_{3}\right) }_{2}$ 分解生成 $\mathrm{{CoO}}$ :
+
+$$
+2\mathrm{{Co}}{\left( {\mathrm{{NO}}}_{3}\right) }_{2}\xrightarrow[]{\bigtriangleup }2\mathrm{{CoO}} + 4{\mathrm{{NO}}}_{2} \uparrow + {\mathrm{O}}_{2} \uparrow
+$$
+
+$\mathrm{{CoO}}$ 与铝板氧化层的 ${\mathrm{{Al}}}_{2}{\mathrm{O}}_{3}$ 作用生成蓝色的偏铝酸钴:
+
+$$
+\mathrm{{CoO}} + {\mathrm{{Al}}}_{2}{\mathrm{O}}_{3} = \mathrm{{Co}}{\left( {\mathrm{{AlO}}}_{2}\right) }_{2}
+$$
+
+因而显蓝色。
+",：铝板表面自然形成的氧化层主要为氧化铝（Al₂O₃），这种氧化物本质上是无色的，但可以吸附其他物质。处理铝氧化层时，使用极稀的 $\mathrm{Co(NO}_3)_2$ 溶液，会导致钴离子（Co²⁺）沉积到氧化铝表面。钴元素有许多化合物在加热时呈现不同的颜色。在这一特定情况下，当含有钴化合物的铝氧化层被灼烧时，钴离子可能会形成钴的氧化物，如氧化亚钴 (CoO) 或氧化钴 (Co₃O₄)。其中，氧化亚钴 (CoO) 通常呈现蓝色至绿色，而氧化钴 (Co₃O₄) 则是一种蓝黑色物质。两者的形成导致表面呈现出蓝色，这是因为钴的氧化物具有独特的颜色表现。,：钴离子与氧化铝反应，在灼烧过程中形成呈现蓝色的钴氧化物。,N/A,N/A,N/A
+" 利用 ${\mathrm{{NH}}}_{4}\mathrm{{SCN}}$ 试剂鉴定 ${\mathrm{{Co}}}^{2 + }$ 时,为什么要用浓的 ${\mathrm{{NH}}}_{4}\mathrm{{SCN}}$ 溶液,并加丙酮萃取? 溶液中存在什么常见离子时会发生干扰? 如何消除这些干扰?","${\mathrm{{Co}}}^{2 + }$ 与 ${\mathrm{{SCN}}}^{ - }$ 结合形成蓝色的 ${\left\lbrack \mathrm{{Co}}{\left( \mathrm{{SCN}}\right) }_{4}\right\rbrack }^{2 - }$ ,常用于 ${\mathrm{{Co}}}^{2 + }$ 的鉴定。但该配离子稳定常数较小,在水溶液中有时不易观察到蓝色。用水稀释时也易变成粉红色的 ${\left\lbrack \mathrm{{Co}}{\left( {\mathrm{H}}_{2}\mathrm{O}\right) }_{6}\right\rbrack }^{2 + }$ 。 所以在实际操作时,使用浓的 ${\mathrm{{NH}}}_{4}\mathrm{{SCN}}$ 溶液,并加入丙酮 (或戊醇) 进行萃取,以抑制 ${\left\lbrack \mathrm{{Co}}{\left( \mathrm{{SCN}}\right) }_{4}\right\rbrack }^{2 - }$ 的解离,确保观察到该离子显示的蓝色。
+
+溶液中若有 ${\mathrm{{Fe}}}^{3 + }$ 存在,它将与 ${\mathrm{{SCN}}}^{ - }$ 结合形成血红色配离子,干扰 ${\mathrm{{Co}}}^{2 + }$ 的鉴定。通常加入 ${\mathrm{F}}^{ - }$ 与 ${\mathrm{{Fe}}}^{3 + }$ 形成更稳定的 ${\left\lbrack {\mathrm{{FeF}}}_{6}\right\rbrack }^{3 - }$ 无色配离子以消除干扰。
+","：要识别溶液中的\(\text{Co}^{2+}\)离子，可以使用\(\text{NH}_4\text{SCN}\)试剂，因为\(\text{Co}^{2+}\)可以与\(\text{SCN}^-\)生成蓝色的络合物\([\text{Co}(\text{SCN})_4]^{2-}\)。为了促进络合物的形成并提高灵敏度，常用浓的\(\text{NH}_4\text{SCN}\)溶液，并加入丙酮进行萃取，这样可以使络合物更好地从水相转移到有机相中，增强颜色显现。
+
+在分离过程中，某些常见离子可能会干扰\(\text{Co}^{2+}\)的识别。常见的干扰离子包括\(\text{Fe}^{3+}\)，\(\text{Ni}^{2+}\)和\(\text{Cu}^{2+}\)等。尤其是\(\text{Fe}^{3+}\)可以与\(\text{SCN}^-\)形成血红色的\(\text{Fe}\text{(SCN)}^{2+}\)，会干扰检测。
+
+为了消除这种干扰，可以加入\(\text{NaF}\)或\(\text{KF}\)来掩蔽\(\text{Fe}^{3+}\)，因为氟化物离子\(\text{F}^-\)能够和\(\text{Fe}^{3+}\)形成稳定的络合物\(\text{FeF}_6^{3-}\)，从而降低\(\text{Fe}^{3+}\)与\(\text{SCN}^-\)的反应。此外，还可以调整酸度，因为\(\text{Ni}^{2+}\)和\(\text{Cu}^{2+}\)在酸性条件下不容易与\(\text{SCN}^-\)形成干扰性络合物。",：使用浓的\(\text{NH}_4\text{SCN}\)和丙酮萃取可以有效识别\(\text{Co}^{2+}\)，常见干扰离子包括\(\text{Fe}^{3+}\)，使用\(\text{NaF}\)或\(\text{KF}\)来掩蔽。,N/A,N/A,N/A
+"在用稀硫酸清洗被 $\mathrm{{Co}}{\left( \mathrm{{OH}}\right) }_{3}$ 和 $\mathrm{{MnO}}{\left( \mathrm{{OH}}\right) }_{2}$ 污染的玻璃器皿时,为什么要加入一些过氧化氢溶液?","由于 $\mathrm{{Co}}{\left( \mathrm{{OH}}\right) }_{3}$ 和 $\mathrm{{MnO}}{\left( \mathrm{{OH}}\right) }_{2}$ 都是难溶物,它们附着在被污染的玻璃器皿壁上难以完全去除, 在酸性条件下, 加入一些过氧化氢溶液作为还原剂, 把 $\operatorname{Co}\left( \text{ III }\right)$ 和 $\operatorname{Mn}\left( \mathrm{{IV}}\right)$ 还原为易溶物而除去:
+
+$$
+2\mathrm{{Co}}{\left( \mathrm{{OH}}\right) }_{3} + {\mathrm{H}}_{2}{\mathrm{O}}_{2} + 4{\mathrm{H}}^{ + } = 2{\mathrm{{Co}}}^{2 + } + {\mathrm{O}}_{2} \uparrow + 6{\mathrm{H}}_{2}\mathrm{O}
+$$
+
+$$
+\mathrm{{MnO}}{\left( \mathrm{{OH}}\right) }_{2} + {\mathrm{H}}_{2}{\mathrm{O}}_{2} + 2{\mathrm{H}}^{ + } = {\mathrm{{Mn}}}^{2 + } + {\mathrm{O}}_{2} \uparrow + 3{\mathrm{H}}_{2}\mathrm{O}
+$$
+","：  
+1. $\mathrm{Co}{\left( \mathrm{OH}\right) }_{3}$ 和 $\mathrm{MnO}{\left( \mathrm{OH}\right) }_{2}$ 是难溶于水的化合物，因此直接清洗一般无法将它们从玻璃器皿上去除。  
+2. 稀硫酸是一种酸性清洗剂，可与氢氧化物反应溶解部分污染物，但其清洗能力在某些情况下有限。例如，$\mathrm{MnO}{\left( \mathrm{OH}\right) }_{2}$ 中含有锰的高氧化态化合物，对稀硫酸的溶解反应较弱，可能无法完全清洗干净。  
+3. 为增强酸的清洗能力，加入过氧化氢溶液。过氧化氢（$\mathrm{H_2O_2}$）是一种强氧化剂，在酸性条件下（由稀硫酸提供），可以氧化锰和钴的化合物，尤其是含锰的化合物。具体反应过程如下：  
+   - $\mathrm{MnO}{\left( \mathrm{OH}\right) }_{2}$ 可被氧化为高氧化态的可溶性锰化合物（如 $\mathrm{Mn^{2+}}$）：  
+     \[
+     2 \mathrm{MnO}{\left( \mathrm{OH}\right) }_{2} + \mathrm{H_2O_2} + 2 \mathrm{H_2SO_4} \longrightarrow 2 \mathrm{MnSO_4} + 6 \mathrm{H_2O}
+     \]  
+   - 类似地，$\mathrm{Co}{\left( \mathrm{OH}\right) }_{3}$ 也可能被氧化成可溶性化合物（如 $\mathrm{Co^{2+}}$）。  
+4. 因此，加入过氧化氢后，稀硫酸通过其酸性和氧化剂的协同作用可以更有效地溶解和清洗这些污染物。",：增强稀硫酸的氧化能力，促进污染物的溶解。,N/A,N/A,N/A
+"$\left\lbrack {\mathrm{{Ni}}{\left( \mathrm{{CO}}\right) }_{4}}\right\rbrack$ 和 ${\left\lbrack \mathrm{{Ni}}{\left( \mathrm{{CN}}\right) }_{4}\right\rbrack }^{2 - }$ 都是逆磁性的,两者在结构上是否相同? 试用配位化合物的价键理论给予说明。","$\left\lbrack {\mathrm{{Ni}}{\left( \mathrm{{CO}}\right) }_{4}}\right\rbrack$ 中 $\mathrm{{Ni}}$ 的电子构型为 $3{\mathrm{\;d}}^{10},\mathrm{{Ni}}$ 采取 ${\mathrm{{sp}}}^{3}$ 杂化, $\left\lbrack {\mathrm{{Ni}}{\left( \mathrm{{CO}}\right) }_{4}}\right\rbrack$ 的空间构型为四面体形, $\mathrm{{Ni}}$ 原子中无成单电子,所以配位化合物为逆磁性。
+
+${\left\lbrack \mathrm{{Ni}}{\left( \mathrm{{CN}}\right) }_{4}\right\rbrack }^{2 - }$ 中 ${\mathrm{{Ni}}}^{2 + }$ 的电子构型为 $3{\mathrm{\;d}}^{8},{\mathrm{{Ni}}}^{2 + }$ 采取 ${\mathrm{{dsp}}}^{2}$ 杂化, ${\left\lbrack \mathrm{{Ni}}{\left( \mathrm{{CN}}\right) }_{4}\right\rbrack }^{2 - }$ 的空间构型为平面四边形, ${\mathrm{{Ni}}}^{2 + }$ 中也无成单电子,所以配位化合物也为逆磁性。
+","：  
+首先，我们需要理解逆磁性与配位化合物的电子结构的关系。逆磁性通常与配位化合物中的所有电子成对出现有关，即配位化合物的轨道中没有未成对电子存在。
+
+1. $\left\lbrack \mathrm{{Ni}}{\left( \mathrm{{CO}}\right) }_{4} \right\rbrack$:  
+   - Ni在元素周期表中是过渡金属，其基态电子构型为 [Ar]4s²3d⁸。  
+   - 在$\left\lbrack \mathrm{{Ni}}{\left( \mathrm{{CO}}\right) }_{4} \right\rbrack$中，Ni是零价化合物 (分子态结合)，因此我们考虑Ni(0)的构型参与配位。  
+   - CO为强场配体，能够强烈影响d轨道电子布置。结合CO后，通过sp³杂化，结果所有的d电子成对，加上CO提供的孤电子对作为σ键配位，因此该配合物是逆磁性的。  
+
+2. ${\left\lbrack \mathrm{{Ni}}{\left( \mathrm{{CN}}\right) }_{4}\right\rbrack }^{2 - }$:  
+   - 在配合物${\left\lbrack \mathrm{{Ni}}{\left( \mathrm{{CN}}\right) }_{4} \right\rbrack}^{2-}$中，Ni是+2氧化态，所以电子构型为[Ar]3d⁸。  
+   - CN⁻也是强场配体，导致Ni的3d轨道发生低自旋电子重排。重新排列后，电子成对成为d²sp²杂化，满足逆磁性因为所有电子成对。  
+
+在这两个配位化合物中，Ni的电子重新布置是受到配体性质影响的，导致在不同杂化中所有电子成对且表现逆磁性。考虑到杂化方式，$\left\lbrack \mathrm{{Ni}}{\left( \mathrm{{CO}}\right) }_{4} \right\rbrack$是sp³杂化，形成四面体结构，而${\left\lbrack \mathrm{{Ni}}{\left( \mathrm{{CN}}\right) }_{4} \right\rbrack}^{2-}$是d²sp²杂化，形成平面正方形结构。因此，这两种结构不同。",：结构不同。,N/A,N/A,N/A
+"写出与下述实验现象有关的化学反应方程式。 向含有 ${\mathrm{{Fe}}}^{2 + }$ 的溶液中加入 $\mathrm{{NaOH}}$ 溶液后生成灰绿色沉淀,空气中放置沉淀逐渐变为棕色。过滤后, 用盐酸溶解棕色沉淀得黄色溶液。向黄色溶液中加几滴 KSCN 溶液则溶液立即变红,再通入 ${\mathrm{{SO}}}_{2}$ 气体则红色消失。向溶液中再滴入 ${\mathrm{{KMnO}}}_{4}$ 溶液,则 ${\mathrm{{KMnO}}}_{4}$ 紫色褪去。最后加入黄血盐溶液时, 生成蓝色沉淀。","${\mathrm{{Fe}}}^{2 + } + 2{\mathrm{{OH}}}^{ - } = \mathrm{{Fe}}{\left( \mathrm{{OH}}\right) }_{2} \downarrow$ 白色,遇 ${\mathrm{O}}_{2}$ 迅速变灰绿色
+
+$4\mathrm{{Fe}}{\left( \mathrm{{OH}}\right) }_{2} + {\mathrm{O}}_{2} + 2{\mathrm{H}}_{2}\mathrm{O} = 4\mathrm{{Fe}}{\left( \mathrm{{OH}}\right) }_{3}$ 棕色
+
+$\mathrm{{Fe}}{\left( \mathrm{{OH}}\right) }_{3} + 3\mathrm{{HCl}} = {\mathrm{{FeCl}}}_{3} + 3{\mathrm{H}}_{2}\mathrm{O}$ 黄色
+
+${\mathrm{{FeCl}}}_{3} + {\mathrm{{SCN}}}^{ - } = {\left\lbrack \mathrm{{Fe}}\left( \mathrm{{SCN}}\right) \right\rbrack }^{2 + } + 3{\mathrm{{Cl}}}^{ - }\;$ 血红色
+
+$2{\left\lbrack \mathrm{{Fe}}\left( \mathrm{{SCN}}\right) \right\rbrack }^{2 + } + {\mathrm{{SO}}}_{2} + 2{\mathrm{H}}_{2}\mathrm{O} = 2{\mathrm{{Fe}}}^{2 + } + {\mathrm{{SO}}}_{4}^{2 - } + 4{\mathrm{H}}^{ + } + 2{\mathrm{{SCN}}}^{ - }$
+
+${\mathrm{{MnO}}}_{4}^{ - } + 5{\mathrm{{Fe}}}^{2 + } + 8{\mathrm{H}}^{ + } = {\mathrm{{Mn}}}^{2 + } + 5{\mathrm{{Fe}}}^{3 + } + 4{\mathrm{H}}_{2}\mathrm{O}$
+
+${\mathrm{{Fe}}}^{3 + } + {\left\lbrack \mathrm{{Fe}}{\left( \mathrm{{CN}}\right) }_{6}\right\rbrack }^{4 - } + {\mathrm{K}}^{ + } = \mathrm{K}\left\lbrack {\mathrm{{Fe}}\mathrm{{Fe}}{\left( \mathrm{{CN}}\right) }_{6}}\right\rbrack \downarrow$ 蓝色
+","：
+
+1. **反应1：${\mathrm{Fe}}^{2+}$ 与 $\mathrm{NaOH}$ 的反应**  
+向 ${\mathrm{Fe}}^{2+}$ 的溶液中加入 $\mathrm{NaOH}$ 溶液，生成灰绿色沉淀。这是 ${\mathrm{Fe}}^{2+}$ 与 $\mathrm{OH}^-$ 形成氢氧化亚铁 $\mathrm{Fe(OH)_2}$ 的反应：  
+\[
+\mathrm{Fe^{2+} + 2OH^- \rightarrow Fe(OH)_2 \downarrow}
+\]  
+
+2. **反应2：$\mathrm{Fe(OH)_2}$ 的氧化反应**  
+灰绿色的氢氧化亚铁 $\mathrm{Fe(OH)_2}$ 在空气中被氧气氧化，生成棕色的氢氧化铁 $\mathrm{Fe(OH)_3}$：  
+\[
+4\mathrm{Fe(OH)_2} + O_2 + 2H_2O \rightarrow 4\mathrm{Fe(OH)_3}
+\]  
+
+3. **反应3：盐酸溶解棕色沉淀**  
+用盐酸溶解棕色的 $\mathrm{Fe(OH)_3}$，生成黄色的 $\mathrm{FeCl_3}$ 溶液：  
+\[
+\mathrm{Fe(OH)_3 + 3HCl \rightarrow FeCl_3 + 3H_2O}
+\]  
+
+4. **反应4：$\mathrm{FeCl_3}$ 与 $\mathrm{KSCN}$ 的络合反应**  
+在黄色的 $\mathrm{FeCl_3}$ 溶液中加入 $\mathrm{KSCN}$ 溶液，生成血红色的铁硫氰酸根络合物 $\mathrm{Fe(SCN)_3}$：  
+\[
+\mathrm{Fe^{3+} + 3SCN^- \rightarrow Fe(SCN)_3}
+\]  
+
+5. **反应5：$\mathrm{Fe(SCN)_3}$ 被 ${\mathrm{SO}}_2$ 还原**  
+通入 ${\mathrm{SO}}_2$ 气体，生成亚铁离子 $\mathrm{Fe^{2+}}$，使红色消失，因为 $\mathrm{Fe(SCN)_3}$ 被完全破坏：  
+\[
+\mathrm{2Fe^{3+} + SO_2 + 2H_2O \rightarrow 2Fe^{2+} + SO_4^{2-} + 4H^+}
+\]  
+
+6. **反应6：${\mathrm{Fe^{2+}}}$ 被 ${\mathrm{KMnO_4}}$ 氧化**  
+当向溶液中加入紫色的 $\mathrm{KMnO_4}$ 溶液时，$\mathrm{Fe^{2+}}$ 被氧化为 $\mathrm{Fe^{3+}}$，而 $\mathrm{MnO_4^-}$ 被还原为 $\mathrm{Mn^{2+}}$，紫色褪去：  
+\[
+\mathrm{MnO_4^- + 5Fe^{2+} + 8H^+ \rightarrow Mn^{2+} + 5Fe^{3+} + 4H_2O}
+\]  
+
+7. **反应7：加入黄血盐生成蓝色沉淀**  
+$\mathrm{Fe^{3+}}$ 与黄血盐（红基铁氰化钾，$\mathrm{K_4[Fe(CN)_6]}$）反应生成蓝色的普鲁士蓝沉淀 $\mathrm{Fe_4[Fe(CN)_6]_3}$ (即铁氰化铁)：  
+\[
+\mathrm{4Fe^{3+} + 3[Fe(CN)_6]^{4-} \rightarrow Fe_4[Fe(CN)_6]_3 \downarrow}
+\]","：
+
+1. $\mathrm{Fe^{2+} + 2OH^- \rightarrow Fe(OH)_2 \downarrow}$  
+2. $4\mathrm{Fe(OH)_2} + O_2 + 2H_2O \rightarrow 4\mathrm{Fe(OH)_3}$  
+3. $\mathrm{Fe(OH)_3 + 3HCl \rightarrow FeCl_3 + 3H_2O}$  
+4. $\mathrm{Fe^{3+} + 3SCN^- \rightarrow Fe(SCN)_3}$  
+5. $\mathrm{2Fe^{3+} + SO_2 + 2H_2O \rightarrow 2Fe^{2+} + SO_4^{2-} + 4H^+}$  
+6. $\mathrm{MnO_4^- + 5Fe^{2+} + 8H^+ \rightarrow Mn^{2+} + 5Fe^{3+} + 4H_2O}$  
+7. $\mathrm{4Fe^{3+} + 3[Fe(CN)_6]^{4-} \rightarrow Fe_4[Fe(CN)_6]_3 \downarrow}$",N/A,N/A,N/A
+"给出下列实验的现象和化学反应方程式。向含有 ${\mathrm{{CCl}}}_{4}$ 的黄血盐溶液中滴加碘水;
+","向含有 ${\mathrm{{CCl}}}_{4}$ 的黄血盐溶液中滴加碘水, ${\mathrm{I}}_{2}$ 的颜色消失:
+
+$$
+2{\left\lbrack \mathrm{{Fe}}{\left( \mathrm{{CN}}\right) }_{6}\right\rbrack }^{4 - } + {\mathrm{I}}_{2} = 2{\left\lbrack \mathrm{{Fe}}{\left( \mathrm{{CN}}\right) }_{6}\right\rbrack }^{3 - } + 2{\mathrm{I}}^{ - }
+$$
+","：  
+1. 题目提到的是黄血盐溶液和碘水之间的反应，根据化学常识，我们需要确认黄血盐的具体化学成分。黄血盐通常指的是**三氰合铁(II)酸钾**（化学式为 ${\mathrm{{K}}}_{4}{\mathrm{{[Fe(CN)}}}_{6}}$）或**三氰合铁(III)酸钾**（化学式为 ${\mathrm{{K}}}_{3}{\mathrm{{[Fe(CN)}}}_{6}}$）。  
+   - 从问题表述未明确具体是哪一种，因此可以根据碘水的氧化性分析与相应的离子反应的可能性。  
+   - **碘水**（${\mathrm{I}}_{2}$ 溶液）具有氧化性，可与铁离子（Fe²⁺或Fe³⁺）发生反应以形成不同的产物。  
+   
+2. 向溶液中引入碘水(${I_2}$)时，碘分子可能与溶液的化学物质发生氧化还原反应：  
+   - 若溶液中的物质是 ${\mathrm{{K}}}_{4}{\mathrm{{[Fe(CN)}}}_{6}}$ (低铁黄血盐，Fe²⁺ 状态)，则可能被 ${\mathrm{I}}_{2}$ 氧化为 ${\mathrm{{K}}}_{3}{\mathrm{{[Fe(CN)}}}_{6}}$（高铁黄血盐，Fe³⁺ 状态），同时 ${\mathrm{I}}_{2}$ 被还原为 ${\mathrm{I}}^{-}$。  
+   
+3. 需要注意的是，${\mathrm{CCl}}_{4}$（四氯化碳）是非极性有机溶剂，它与碘水是互不相溶的，且作用主要是促进碘分子的萃取或沉淀析出的观察。因此在实验中，碘通常会向${\mathrm{CCl}}_{4}$中转移，显示其特征紫色，便于观察是否有碘被反应消耗。此外，水相和有机相之间颜色变化（如由黄绿色到浅紫色的变化）也可能被用作定性判断依据。
+
+4. 综上，实验中将观察两个部分：  
+   （1）水相溶液是否发生颜色变化，可能从浅绿色（低铁黄血盐）过渡为棕黄色（高铁黄血盐）。  
+   （2）${\mathrm{CCl}}_{4}$层颜色呈现紫色，这与反应中碘的参与相关。  
+此外，化学反应的方程式表明低铁黄血盐被氧化，高铁黄血盐生成。","：  
+实验现象：  
+水相由浅绿色变为浅棕黄色，有机相（${\mathrm{CCl}}_{4}$）层呈紫色。  
+
+化学反应方程式：  
+${\mathrm{{K}}}_{4}{\mathrm{{[Fe(CN)}}}_{6}} + {\mathrm{I}}_{2} \rightarrow {\mathrm{{K}}}_{3}{\mathrm{{[Fe(CN)}}}_{6}} + 2{\mathrm{I}}^{-}$",N/A,N/A,N/A
+"给出下列实验的现象和化学反应方程式。将 $3\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}{\mathrm{{CoCl}}}_{2}$ 溶液加热,再滴加 ${\mathrm{{AgNO}}}_{3}$ 溶液;","将 $3\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}{\mathrm{{CoCl}}}_{2}$ 溶液加热,溶液由粉红色变蓝色:
+
+$$
+{\left\lbrack \mathrm{{Co}}{\left( {\mathrm{H}}_{2}\mathrm{O}\right) }_{6}\right\rbrack }^{2 + } + 4{\mathrm{{Cl}}}^{ - } = {\left\lbrack {\mathrm{{CoCl}}}_{4}\right\rbrack }^{2 - } + 6{\mathrm{H}}_{2}\mathrm{O}
+$$
+
+再加入 ${\mathrm{{AgNO}}}_{3}$ 溶液,溶液由蓝色变粉红色,并有白色沉淀生成:
+
+$$
+{\left\lbrack {\mathrm{{CoCl}}}_{4}\right\rbrack }^{2 - } + 4{\mathrm{{Ag}}}^{ + } + 6{\mathrm{H}}_{2}\mathrm{O} = {\left\lbrack \mathrm{{Co}}{\left( {\mathrm{H}}_{2}\mathrm{O}\right) }_{6}\right\rbrack }^{2 + } + 4\mathrm{{AgCl}} \downarrow
+$$
+","：  
+1. $\mathrm{CoCl_2}$ 溶液具有水合物形式，通常为粉红色的六水合物 $\mathrm{CoCl_2 \cdot 6H_2O}$。其晶体中含有配位水，在加热时，水合物失去部分（或全部）水分子，颜色会变为蓝色，因为无水氯化钴是蓝色的。
+2. 加热过程中，$\mathrm{CoCl_2}$ 溶液的水合物会部分失去水，导致颜色从粉红色变为浅紫色或蓝色。
+3. 当滴加 $\mathrm{AgNO_3}$ 溶液时，发生的反应是 $\mathrm{CoCl_2}$ 中的氯离子与 $\mathrm{Ag^+}$ 生成沉淀：
+   \[
+   \mathrm{2AgNO_3(aq) + CoCl_2(aq) \rightarrow 2AgCl(s) + Co(NO_3)_2(aq)}
+   \]
+   中间生成白色的氯化银沉淀 $\mathrm{AgCl}$。
+4. 因此，实验现象包括溶液加热变色和白色沉淀生成。","：  
+加热后颜色变为浅紫色或蓝色；生成白色沉淀 $\mathrm{AgCl}$。",N/A,N/A,N/A
+给出下列实验的现象和化学反应方程式。将 $\left\lbrack {\mathrm{{Ni}}{\left( {\mathrm{{NH}}}_{3}\right) }_{6}}\right\rbrack {\mathrm{{SO}}}_{4}$ 溶液水浴加热一段时间再加氨水;,"水浴加热一段时间后, 有绿色沉淀生成:
+
+$$
+{\left\lbrack \mathrm{{Ni}}{\left( {\mathrm{{NH}}}_{3}\right) }_{6}\right\rbrack }^{2 + } + 2{\mathrm{H}}_{2}\mathrm{O}\overset{\bigtriangleup }{ \rightleftharpoons }\mathrm{{Ni}}{\left( \mathrm{{OH}}\right) }_{2} \downarrow + 2{\mathrm{{NH}}}_{4}^{ + } + 4{\mathrm{{NH}}}_{3} \uparrow
+$$
+
+再加入氨水, 沉淀又溶解, 得蓝色溶液:
+
+$$
+\mathrm{{Ni}}{\left( \mathrm{{OH}}\right) }_{2} + 6{\mathrm{{NH}}}_{3} \cdot {\mathrm{H}}_{2}\mathrm{O} = {\left\lbrack \mathrm{{Ni}}{\left( {\mathrm{{NH}}}_{3}\right) }_{6}\right\rbrack }^{2 + } + 2{\mathrm{{OH}}}^{ - } + 6{\mathrm{H}}_{2}\mathrm{O}
+$$
+","： 
+1. $\left\lbrack \mathrm{Ni}(\mathrm{NH}_3)_6\right\rbrack\mathrm{SO}_4$ 是一种配合物，其中心金属是镍，配体是氨。该化合物通常在水中形成淡蓝色溶液。
+2. 加热该配合物溶液时，氨分子可能会与镍离子脱去，因为加热会使一些弱配位的氨分解或者逸出，从而形成氢氧化镍或镍的其他配合物。
+3. 随后在溶液中加入氨水，氨水提供大量的氨分子，与镍离子重新配位，可能形成复合物，也可能沉淀出某种镍的氢氧化物。
+4. 因此，加热和加入氨水可能导致整个体系发生颜色变化、配位形态变化或沉淀生成。
+
+具体反应：
+- 初始状态：$\left\lbrack \mathrm{Ni}(\mathrm{NH}_3)_6\right\rbrack^{2+}$ 配合物在水中呈现淡蓝色。
+- 加热：部分氨释放，可能生成 $\mathrm{Ni(OH)_2}$，会有配位不全或氨少的镍配合物。
+- 加氨水：新氨水提供了更多氨，补充镍配合物中的氨，再形成 $\left\lbrack \mathrm{Ni}(\mathrm{NH}_3)_6\right\rbrack^{2+}$ 并恢复或变为深蓝色。
+
+化学反应方程式示例（可能发生的反应）：
+- 加热可能引起的反应：$\left\lbrack \mathrm{Ni}(\mathrm{NH}_3)_6\right\rbrack^{2+} \rightarrow \mathrm{Ni(OH)_2} \downarrow + \text{NH}_3 + \text{其他产物}$
+- 加氨水后的反应：$\mathrm{Ni(OH)_2} + \text{NH}_3 + \text{其他反应物} \rightarrow \left\lbrack \mathrm{Ni}(\mathrm{NH}_3)_6\right\rbrack^{2+}$",：加热形成沉淀和颜色变化，后续加氨水形成$\left\lbrack \mathrm{Ni}(\mathrm{NH}_3)_6\right\rbrack^{2+}$，恢复蓝色溶液或更深。,N/A,N/A,N/A
+"给出下列实验的现象和化学反应方程式。用浓盐酸处理 $\mathrm{{Fe}}{\left( \mathrm{{OH}}\right) }_{3},\mathrm{{Co}}{\left( \mathrm{{OH}}\right) }_{3},\mathrm{{Ni}}{\left( \mathrm{{OH}}\right) }_{3}$ 。","用浓盐酸处理 $\mathrm{{Fe}}{\left( \mathrm{{OH}}\right) }_{3}$ 时,棕色 $\mathrm{{Fe}}{\left( \mathrm{{OH}}\right) }_{3}$ 溶解,得黄色溶液:
+
+$$
+\mathrm{{Fe}}{\left( \mathrm{{OH}}\right) }_{3} + 3\mathrm{{HCl}} = {\mathrm{{FeCl}}}_{3} + 3{\mathrm{H}}_{2}\mathrm{O}
+$$
+
+用浓盐酸处理 $\mathrm{{Co}}{\left( \mathrm{{OH}}\right) }_{3}$ 时,棕褐色 $\mathrm{{Co}}{\left( \mathrm{{OH}}\right) }_{3}$ 溶解,得粉红色溶液,并有氯气放出:
+
+$$
+2\mathrm{{Co}}{\left( \mathrm{{OH}}\right) }_{3} + 2{\mathrm{{Cl}}}^{ - } + 6{\mathrm{H}}^{ + } + 6{\mathrm{H}}_{2}\mathrm{O} = 2{\left\lbrack \mathrm{{Co}}{\left( {\mathrm{H}}_{2}\mathrm{O}\right) }_{6}\right\rbrack }^{2 + } + {\mathrm{{Cl}}}_{2} \uparrow
+$$
+
+浓盐酸过量时, 溶液变蓝:
+
+$$
+{\left\lbrack \mathrm{{Co}}{\left( {\mathrm{H}}_{2}\mathrm{O}\right) }_{6}\right\rbrack }^{2 + } + 4{\mathrm{{Cl}}}^{ - } = {\left\lbrack {\mathrm{{CoCl}}}_{4}\right\rbrack }^{2 - } + 6{\mathrm{H}}_{2}\mathrm{O}
+$$
+
+用浓盐酸处理 $\mathrm{{Ni}}{\left( \mathrm{{OH}}\right) }_{3}$ 时,黑色 $\mathrm{{Ni}}{\left( \mathrm{{OH}}\right) }_{3}$ 溶解,得绿色溶液并有氯气放出:
+
+$$
+2\mathrm{{Ni}}{\left( \mathrm{{OH}}\right) }_{3} + 2{\mathrm{{Cl}}}^{ - } + 6{\mathrm{H}}^{ + } + 6{\mathrm{H}}_{2}\mathrm{O} = 2{\left\lbrack \mathrm{{Ni}}{\left( {\mathrm{H}}_{2}\mathrm{O}\right) }_{6}\right\rbrack }^{2 + } + {\mathrm{{Cl}}}_{2} \uparrow
+$$
+","：当氢氧化物与强酸（例如浓盐酸）反应时，一般会发生酸碱中和反应，生成相应的氯化物和水。对于题目中给出的氢氧化铁(III)、氢氧化钴(III)及氢氧化镍(III)，它们分别与浓盐酸反应如下：
+
+1. 氢氧化铁(III)与浓盐酸反应：
+   \[
+   \mathrm{Fe(OH)_3} + 3\mathrm{HCl} \rightarrow \mathrm{FeCl_3} + 3\mathrm{H_2O}
+   \]
+   现象：氢氧化铁(III)的红棕色沉淀溶解形成黄色溶液。
+
+2. 氢氧化钴(III)与浓盐酸反应：
+   \[
+   \mathrm{Co(OH)_3} + 3\mathrm{HCl} \rightarrow \mathrm{CoCl_3} + 3\mathrm{H_2O}
+   \]
+   现象：氢氧化钴(III)的暗棕色沉淀溶解形成绿色溶液（可能会得到蓝紫色或红色溶液，取决于溶液浓度与配合物形成）。
+
+3. 氢氧化镍(III)与浓盐酸反应：
+   \[
+   \mathrm{Ni(OH)_3} + 3\mathrm{HCl} \rightarrow \mathrm{NiCl_3} + 3\mathrm{H_2O}
+   \]
+   现象：氢氧化镍(III)的黑色沉淀溶解形成绿色溶液。
+
+这些反应的共性是：氢氧化物沉淀与盐酸反应，沉淀溶解生成相应的氯化物溶液，同时生成水。","：
+氢氧化铁(III)与浓盐酸反应方程式及现象：
+\[
+\mathrm{Fe(OH)_3} + 3\mathrm{HCl} \rightarrow \mathrm{FeCl_3} + 3\mathrm{H_2O}
+\]
+红棕色沉淀溶解形成黄色溶液。
+
+氢氧化钴(III)与浓盐酸反应方程式及现象：
+\[
+\mathrm{Co(OH)_3} + 3\mathrm{HCl} \rightarrow \mathrm{CoCl_3} + 3\mathrm{H_2O}
+\]
+暗棕色沉淀溶解形成绿色溶液。
+
+氢氧化镍(III)与浓盐酸反应方程式及现象：
+\[
+\mathrm{Ni(OH)_3} + 3\mathrm{HCl} \rightarrow \mathrm{NiCl_3} + 3\mathrm{H_2O}
+\]
+黑色沉淀溶解形成绿色溶液。",N/A,N/A,N/A
+"解释实验现象。在 ${\mathrm{{FeCl}}}_{3}$ 溶液中加入 $\mathrm{{KSCN}}$ 溶液时出现血红色,再加入少许铁粉后血红色逐渐消失。"," ${\mathrm{{Fe}}}^{3 + } + n{\mathrm{{SCN}}}^{ - } = {\left\lbrack \mathrm{{Fe}}{\left( \mathrm{{SCN}}\right) }_{n}\right\rbrack }^{3 - n}\;n = 1 \sim 6$ 血红色。
+
+加入铁粉后,铁粉将 ${\left\lbrack \mathrm{{Fe}}{\left( \mathrm{{SCN}}\right) }_{n}\right\rbrack }^{3 - n}$ 还原,生成的 ${\mathrm{{Fe}}}^{2 + }$ 不与 ${\mathrm{{SCN}}}^{ - }$ 生成有色配位化合物, 因而血红色消失:
+
+$$
+2{\left\lbrack \mathrm{{Fe}}{\left( \mathrm{{SCN}}\right) }_{n}\right\rbrack }^{3 - n} + \mathrm{{Fe}} = 3{\mathrm{{Fe}}}^{2 + } + n{\mathrm{{SCN}}}^{ - }
+$$
+","：  
+1. 分析第一步：在 $\mathrm{FeCl_3}$ 溶液中加入 $\mathrm{KSCN}$ 溶液时，出现血红色。  
+   - $\mathrm{FeCl_3}$ 是铁(III)盐，提供 $\mathrm{Fe^{3+}}$ 离子，$\mathrm{KSCN}$ 提供 $\mathrm{SCN^-}$ 离子。两者反应会生成具有特征血红色的配合物 $\mathrm{[Fe(SCN)]^{2+}}$：
+     \[
+     \mathrm{Fe^{3+} + SCN^- \rightleftharpoons [Fe(SCN)]^{2+}}
+     \]
+   - 该反应是可逆的，其中 $\mathrm{[Fe(SCN)]^{2+}}$ 是带血红色的。血红色的出现表明配合物生成。
+
+2. 分析第二步：加入铁粉后血红色逐渐消失。  
+   - 铁粉中的铁是金属铁 ($\mathrm{Fe^0}$)。在溶液中，金属铁可以和 $\mathrm{Fe^{3+}}$ 发生氧化还原反应，将三价铁 $\mathrm{Fe^{3+}}$ 还原为二价铁 $\mathrm{Fe^{2+}}$，该反应如下：
+     \[
+     \mathrm{Fe^0 + 2Fe^{3+} \rightarrow 3Fe^{2+}}
+     \]
+   - 转化为二价铁 $\mathrm{Fe^{2+}}$ 后，溶液中 $\mathrm{Fe^{3+}}$ 的浓度降低，使得 $\mathrm{[Fe(SCN)]^{2+}}$ 的平衡左移（根据勒夏特列原理）。$\mathrm{[Fe(SCN)]^{2+}}$ 的减少导致血红色逐渐消失。
+   - 铁粉的加入起到了还原剂的作用，驱动了这一平衡变化。",：铁粉将溶液中的 $\mathrm{Fe^{3+}}$ 还原为 $\mathrm{Fe^{2+}}$，使得 $\mathrm{[Fe(SCN)]^{2+}}$ 浓度降低，血红色逐渐消失。,N/A,N/A,N/A
+"解释实验现象。向少量 ${\mathrm{{FeCl}}}_{3}$ 溶液中加入过量饱和 ${\left( {\mathrm{{NH}}}_{4}\right) }_{2}{\mathrm{C}}_{2}{\mathrm{O}}_{4}$ 溶液后,滴加少量 $\mathrm{{KSCN}}$ 溶液并不出现红色, 但再滴加盐酸则溶液立即变红。"," ${\mathrm{{FeCl}}}_{3}$ 遇 ${\left( {\mathrm{{NH}}}_{4}\right) }_{2}{\mathrm{C}}_{2}{\mathrm{O}}_{4}$ 生成稳定的 ${\left\lbrack \mathrm{{Fe}}{\left( {\mathrm{C}}_{2}{\mathrm{O}}_{4}\right) }_{3}\right\rbrack }^{3 - }$ ,其稳定性比 ${\left\lbrack \mathrm{{Fe}}\left( \mathrm{{SCN}}\right) \right\rbrack }^{2 + }$ 高,因而加入少量 KSCN 溶液时不变红:
+
+$$
+{\mathrm{{Fe}}}^{3 + } + 3{\mathrm{C}}_{2}{\mathrm{O}}_{4}^{2 - } = {\left\lbrack \mathrm{{Fe}}{\left( {\mathrm{C}}_{2}{\mathrm{O}}_{4}\right) }_{3}\right\rbrack }^{3 - }
+$$
+
+$$
+{\left\lbrack \mathrm{{Fe}}{\left( {\mathrm{C}}_{2}{\mathrm{O}}_{4}\right) }_{3}\right\rbrack }^{3 - } + {\mathrm{{SCN}}}^{ - }\text{不反应}
+$$
+
+再加入盐酸时, ${\mathrm{C}}_{2}{\mathrm{O}}_{4}^{2 - }$ 转化为 ${\mathrm{{HC}}}_{2}{\mathrm{O}}_{4}^{ - }$ 弱酸或 ${\mathrm{H}}_{2}{\mathrm{C}}_{2}{\mathrm{O}}_{4}$ 中强酸,而使 ${\left\lbrack \mathrm{{Fe}}{\left( {\mathrm{C}}_{2}{\mathrm{O}}_{4}\right) }_{3}\right\rbrack }^{3 - }$ 破坏,再由 ${\mathrm{{Fe}}}^{3 + }$ 与 ${\mathrm{{SCN}}}^{ - }$ 结合使溶液变红:
+
+$$
+{\left\lbrack \mathrm{{Fe}}{\left( {\mathrm{C}}_{2}{\mathrm{O}}_{4}\right) }_{3}\right\rbrack }^{3 - } + 3{\mathrm{H}}^{ + } = {\mathrm{{Fe}}}^{3 + } + 3{\mathrm{{HC}}}_{2}{\mathrm{O}}_{4}^{ - }
+$$
+
+$$
+{\mathrm{{Fe}}}^{3 + } + {\mathrm{{SCN}}}^{ - } = {\left\lbrack \mathrm{{Fe}}\left( \mathrm{{SCN}}\right) \right\rbrack }^{2 + }
+$$
+","：  
+1. ${\mathrm{FeCl}}_{3}$ 溶液含有 ${\mathrm{Fe}}^{3+}$ 离子。加入过量的饱和 ${\left( {\mathrm{NH}}_{4}\right) }_{2}{\mathrm{C}}_{2}{\mathrm{O}}_{4}$ 溶液，会与 ${\mathrm{Fe}}^{3+}$ 离子形成难溶的铁草酸盐沉淀 ${\mathrm{Fe}}_{2}\left( {\mathrm{C}}_{2}{\mathrm{O}}_{4}\right)_{3}$，将大部分 ${\mathrm{Fe}}^{3+}$ 离子从溶液中除去。  
+2. $\mathrm{KSCN}$ 溶液通常用于检验存在${\mathrm{Fe}}^{3+}$ 离子，因为${\mathrm{Fe}}^{3+}$ 离子与 $\mathrm{SCN}^{-}$ 反应会生成红色的络合离子 ${\mathrm{Fe(SCN)}}^{2+}$。由于大部分 ${\mathrm{Fe}}^{3+}$ 已经沉淀，因此滴加少量 $\mathrm{KSCN}$ 后溶液不变色，因为游离态的 ${\mathrm{Fe}}^{3+}$ 浓度极低。  
+3. 当滴加盐酸时，盐酸（HCl）中的氢离子可以与沉淀的草酸根离子反应，部分溶解沉淀并释放出 ${{\mathrm{Fe}}}^{3+}$ 离子。酸化条件下，${\mathrm{Fe}}^{3+}$ 浓度增加，重新与 $\mathrm{SCN}^{-}$ 反应生成红色的 ${\mathrm{Fe(SCN)}}^{2+}$ 络合物，因此导致溶液变红。",：溶液加盐酸后，草酸铁沉淀部分溶解，${\mathrm{Fe}}^{3+}$ 离子重新进入溶液，与 $\mathrm{SCN}^{-}$ 反应生成红色的 ${\mathrm{Fe(SCN)}}^{2+}$ 配离子，因而溶液变红。,N/A,N/A,N/A
+解释实验现象。蓝色的变色硅胶吸水后变成粉红色。,"变色硅胶中含有吸湿指示剂 $\left( {\mathrm{{CoCl}}}_{2}\right)$ ,随所含结晶水的数目不同,颜色不同:
+
+$$
+{\mathrm{{CoCl}}}_{2} \cdot 6{\mathrm{H}}_{2}\mathrm{O} \rightleftharpoons {\mathrm{{CoCl}}}_{2} \cdot 2{\mathrm{H}}_{2}\mathrm{O} \rightleftharpoons {\mathrm{{CoCl}}}_{2} \cdot {\mathrm{H}}_{2}\mathrm{O} \rightleftharpoons {\mathrm{{CoCl}}}_{2}
+$$
+
+粉红色 紫红色 蓝紫色
+
+所以,无水 ${\mathrm{{CoCl}}}_{2}$ 显蓝色, ${\mathrm{{CoCl}}}_{2}$ 结晶水较多时显粉红色。
+","：变色硅胶是一种经过化学处理的硅胶，其中添加了指示剂，比如氯化钴（CoCl₂），用于显示其吸湿状态。氯化钴是一种常见的颜色指示剂，其颜色会根据环境中的水分含量发生变化。在无水环境中，氯化钴以无水形式（CoCl₂）存在，为蓝色。当吸水后，氯化钴形成六水合物（CoCl₂·6H₂O），呈现粉红色。
+
+当变色硅胶吸收水分时，会使其中的氯化钴由无水形式转化为水合形式，这种化学变化导致了颜色从蓝色变为粉红色的现象。因此，蓝色变色硅胶变成粉红色表明其已经饱和，吸收了一定的水分。
+
+总结分析，该实验现象是由吸湿过程中氯化钴指示剂的水合反应导致颜色变化引起的。",：氯化钴吸水后由无水变为水合物导致变色。,N/A,N/A,N/A
+"解释实验现象。向 $\left\lbrack {\mathrm{{Co}}{\left( {\mathrm{{NH}}}_{3}\right) }_{6}}\right\rbrack {\mathrm{{SO}}}_{4}$ 溶液中滴加稀盐酸先生成蓝绿色沉淀,后沉淀溶解,生成粉红色溶液。","向 ${\left\lbrack \mathrm{{Co}}{\left( {\mathrm{{NH}}}_{3}\right) }_{6}\right\rbrack }^{2 + }$ 溶液中缓慢滴加稀盐酸,先有蓝绿色沉淀生成:
+
+$$
+{\left\lbrack \mathrm{{Co}}{\left( {\mathrm{{NH}}}_{3}\right) }_{6}\right\rbrack }^{2 + } + \mathrm{{HCl}} + {\mathrm{H}}_{2}\mathrm{O} = \mathrm{{Co}}\left( \mathrm{{OH}}\right) \mathrm{{Cl}} \downarrow + 4{\mathrm{{NH}}}_{3} + 2{\mathrm{{NH}}}_{4}^{ + }
+$$
+
+盐酸过量则蓝绿色沉淀溶解,生成粉红色 ${\left\lbrack \mathrm{{Co}}{\left( {\mathrm{H}}_{2}\mathrm{O}\right) }_{6}\right\rbrack }^{2 + }$ 溶液:
+
+$$
+\mathrm{{Co}}\left( \mathrm{{OH}}\right) \mathrm{{Cl}} + \mathrm{{HCl}} + 5{\mathrm{H}}_{2}\mathrm{O} = {\left\lbrack \mathrm{{Co}}{\left( {\mathrm{H}}_{2}\mathrm{O}\right) }_{6}\right\rbrack }^{2 + } + 2{\mathrm{{Cl}}}^{ - }
+$$
+","：
+1. 分析化学物质和显色情况  
+   $\left\lbrack {\mathrm{{Co}}{\left( {\mathrm{{NH}}}_{3}\right) }_{6}}\right\rbrack {\mathrm{{SO}}}_{4}$ 是一种配合物，含有六个氨分子作为配体。中心金属离子是 $\mathrm{Co^{3+}}$，因其配位环境及氧化态，通常显现特定颜色。在溶液中，其结构稳定，呈现粉红色，这是 $\mathrm{Co^{3+}}$ 的配合物特征。
+
+2. 加稀盐酸后的反应理解  
+   当向溶液中加入稀盐酸（$\mathrm{HCl}$），会导致配体氨（$\mathrm{NH_3}$）的逐步置换。氯化氢提供了大量的氢离子（$\mathrm{H^+}$），氢离子会与氨发生反应生成氯化铵（$\mathrm{NH_4Cl}$）。在此过程中，氨分子被置换，导致配合物结构被破坏，使得 $\mathrm{Co^{3+}}$ 转化为氯离子配合物（如 $\mathrm{[CoCl_4]^{2-}}$），蓝绿色沉淀可能是 $\mathrm{CoCl_2 \cdot 6H_2O}$ 或 $\mathrm{[CoCl_4]^{2-}}$ 的析出。
+
+3. 加更多稀盐酸时的反应  
+   随着稀盐酸量的继续增加，沉淀会溶解。这是因为过量的氯离子（$\mathrm{Cl^-}$）产生作用，使得 $\mathrm{CoCl_2}$ 或 $\mathrm{[CoCl_4]^{2-}}$ 进一步配位，溶于溶液中，再配合水分子，使溶液恢复到粉红色。这表明 $\mathrm{Co^{3+}}$ 返回了一种新的水化状态的配合物。
+
+4. 总结现象变化  
+   - 蓝绿色沉淀：在稀盐酸的加入初期，氯离子浓度不足以完全溶解析出的 $\mathrm{Co^{2+}}$ 或 $\mathrm{[CoCl_4]^{2-}}$，形成蓝绿色沉淀；  
+   - 粉红色溶液：加入足够稀盐酸后，增多的氯离子与 $\mathrm{Co^{3+}}$ 和溶液分子重新形成水合或配位状态，使最终溶液恢复粉红色。",：,N/A,N/A,N/A
+"解释实验现象。向 ${\mathrm{{FeCl}}}_{3}$ 溶液中通入 ${\mathrm{H}}_{2}\mathrm{\;S}$ 气体,并没有硫化物沉淀生成。","酸性条件下, ${\mathrm{{FeCl}}}_{3}$ 可以将 ${\mathrm{H}}_{2}\mathrm{\;S}$ 氧化,生成单质硫:
+
+$$
+2{\mathrm{{FeCl}}}_{3} + {\mathrm{H}}_{2}\mathrm{\;S} = 2{\mathrm{{FeCl}}}_{2} + \mathrm{S} \downarrow + 2\mathrm{{HCl}}
+$$
+
+${\mathrm{{FeCl}}}_{3}$ 溶液的酸性较强,上述反应过程中又生成 $\mathrm{{HCl}}$ ,而 $\mathrm{{FeS}}$ 在酸中的溶解度较大,不能沉淀。所以向 ${\mathrm{{FeCl}}}_{3}$ 溶液中通入 ${\mathrm{H}}_{2}\mathrm{\;S}$ 气体不会有硫化物沉淀生成。
+","：  
+首先，${\mathrm{FeCl}}_{3}$ 溶液中含有 ${\mathrm{Fe}}^{3+}$ 离子，理论上，通入 ${\mathrm{H}}_{2}\mathrm{S}$ 气体，会发生化学反应生成硫化铁（${\mathrm{Fe}}_{2}\mathrm{S}_{3}$），呈现出沉淀现象。然而，这并没有发生。要理解这一点，需要考虑溶液的酸碱性及物质的溶解性。
+
+1. **酸性对反应的影响**：  
+   ${\mathrm{FeCl}}_{3}$ 在水中水解生成了一定的酸性，即溶液中含有较多的 ${\mathrm{H}}^{+}$ 离子。${\mathrm{H}}_{2}\mathrm{S}$ 在酸性溶液中会发生电离，产生较少的 ${\mathrm{S}}^{2-}$ 离子，因为酸性环境会抑制 ${\mathrm{H}}_{2}\mathrm{S}$ 的解离（${\mathrm{H}}_{2}\mathrm{S} \rightleftharpoons 2{\mathrm{H}}^{+} + {\mathrm{S}}^{2-}$）。
+
+2. **氧化还原条件**：  
+   ${\mathrm{Fe}}^{3+}$ 具有较高的氧化性，可以直接氧化较少的 ${\mathrm{S}}^{2-}$ 回 ${\mathrm{S}}$ 或 ${\mathrm{S}}_{2}\mathrm{O}_3^{2-}$ 的形式而不能沉淀。
+
+3. **不发生沉淀的原因**：  
+   由于酸性溶液中缺乏足够的 ${\mathrm{S}}^{2-}$ 离子生成硫化物，再加上 ${\mathrm{Fe}}^{3+}$ 强氧化性，无法反应生成沉淀，从而没有硫化物沉淀生成。",：没有沉淀形成是因为溶液的酸性抑制了 ${\mathrm{H}}_{2}\mathrm{S}$ 的电离，生成的 ${\mathrm{S}}^{2-}$ 离子量很少，而氧化性较强的 ${\mathrm{Fe}}^{3+}$ 能进一步氧化这些离子，使硫化物难以沉淀。,N/A,N/A,N/A
+"混合溶液(A)为紫红色。向(A)中加入浓盐酸并微热得蓝色溶液(B)和气体(C)。(A) 中加入 $\mathrm{{NaOH}}$ 溶液则得棕黑色沉淀 (D) 和绿色溶液 (E)。向 (A) 中通入过量 ${\mathrm{{SO}}}_{2}$ 气体则溶液最后变为粉红色溶液 $\left( \mathrm{F}\right)$ 。向 $\left( \mathrm{F}\right)$ 中加入过量氨水得白色沉淀 $\left( \mathrm{G}\right)$ 和棕黄色溶液 $\left( \mathrm{H}\right)$ 。
+(G) 在空气中缓慢转变为棕黑色。将 (D) 与 (G) 混合后加入硫酸又得溶液 (A)。试给出 (A)、(B)、(C)、(D)、(E)、(F)、(G)和(H)所代表的主要化合物或离子的化学式。","(A) $- {\mathrm{{MnO}}}_{4}^{ - } + {\mathrm{{Co}}}^{2 + }$ ; (B) $- {\left\lbrack {\mathrm{{CoCl}}}_{4}\right\rbrack }^{2 - } + {\mathrm{{Mn}}}^{2 + }$ ; (C) $- {\mathrm{{Cl}}}_{2}$ ; (D) $- \mathrm{{Co}}{\left( \mathrm{{OH}}\right) }_{3}$ ;
+
+(E) $- {\mathrm{{MnO}}}_{4}^{2 - }$ ; (F) $- {\mathrm{{Mn}}}^{2 + } + {\mathrm{{Co}}}^{2 + }$ ; (G) $- \mathrm{{Mn}}{\left( \mathrm{{OH}}\right) }_{2}$ ; (H)- ${\left\lbrack \mathrm{{Co}}{\left( {\mathrm{{NH}}}_{3}\right) }_{6}\right\rbrack }^{2 + }$ 。","：  
+(1) 紫红色溶液 (A) 在加入浓盐酸并加热时，变为蓝色溶液 (B) 和放出气体 (C)。这通常代表 (A) 含有 Co(II)离子，因为 CoCl2 在溶液中是蓝色的，而紫红色溶液可能是 Co(H2O)6^2+。因此：
+
+- (A) 是含有 Co(H2O)6^2+ 的溶液。  
+- (B) 是 CoCl4^2-（蓝色）。  
+- 气体 (C) 很可能是 HCl，因为浓HCl会挥发。
+
+(2) (A) 中加入 NaOH 溶液生成棕黑色沉淀 (D) 和绿色溶液 (E)。这表明：
+
+- 棕黑色沉淀 (D) 是 Co(OH)3，因为 Co(III)的氢氧化物呈棕黑色。  
+- 绿色溶液 (E) 可能是 Ni(OH)2 或 Fe(OH)2。然而后续步骤中没有明显的与 Fe 或 Ni 相关的反应信息，若假设可能性为 Mn，其溶解后为 Mn(H2O)6^2+ 紫罗兰色，所以不符合题意。
+
+(3) 将过量SO2通入 (A)，得到粉红色溶液 (F)，过量 SO2 还原 Co(III) 至 Co(II) 生成 CoSO4，粉红色。
+
+- 所以 (F) 是 CoSO4 溶液。
+
+(4) 向 (F) 中加入过量氨水得白色沉淀 (G) 和棕黄色溶液 (H)：
+
+- 白色沉淀 (G) 是由过量氨水与溶解的金属离子形成，考虑到与空气接触下变为棕黑色，符合Co(OH)2，说明后续氧化。以往白色为 Zn(OH)2 但无与 CO(II)关系，Zn也不与OH^-呈棕黄色溶液。
+- 棕黄色溶液 (H) 可能是由 Cu+NH3 形成的复合离子。
+
+(5) (D) 与 (G) 混合加入硫酸得到 (A)。此步骤表明，最初形成的金属氧化物/氢氧化物在酸中以其对应的金属离子溶解回到（A），即：
+
+- (D) 的 Co(OH)3 + (G) 的 Co(OH)2 在硫酸溶液中完全溶解生成 (A) 中的 Co^2+ 离子。
+
+综合所有推理和猜测（以及题目氧化态平衡与实际符合性），化学式为：
+- (A) 为 CoCl2 溶液 (Co^2+ 紫色)。
+- (B) 是 CoCl4^2- (蓝色)。
+- (C) 是 HCl(g)。
+- (D) 是 Co(OH)3。
+- (E) 是含有 Co^2+ 溶液。
+- (F) 是 CoSO4 溶液。
+- (G) 是 Co(OH)2 (白色)。
+- (H) 是 Co^2+ 溶液与氨生成的络合溶液。","：  
+(A) CoCl2
+(B) CoCl4^2-
+(C) HCl
+(D) Co(OH)3
+(E) 含有 Co^2+ 离子溶液
+(F) CoSO4
+(G) Co(OH)2
+(H) Co^2+ 与 NH3 络合生成的溶液",N/A,N/A,N/A
+"某固体混合物中可能含有 $\mathrm{{KI}},{\mathrm{{SnCl}}}_{2},{\mathrm{{CuSO}}}_{4},{\mathrm{{ZnSO}}}_{4},{\mathrm{{FeCl}}}_{3},{\mathrm{{CoCl}}}_{2}$ 和 ${\mathrm{{NiSO}}}_{4}$ 。通过下列实验判断哪些物质肯定存在, 哪些物质肯定不存在, 并分析原因。
+
+（1）取少许固体溶入稀硫酸中, 没有沉淀生成。
+
+（2）将盐的水溶液与过量氨水作用, 有灰绿色沉淀生成, 溶液为蓝色。
+
+（3）将盐的水溶液与 KSCN 作用, 无明显变化。再加入戊醇, 也无明显变化。
+
+（4）向盐的水溶液中加入过量 $\mathrm{{NaOH}}$ 溶液有沉淀生成,溶液无明显颜色。过滤后,向溶液缓慢滴加盐酸时, 有白色沉淀生成。
+
+（5）向盐的溶液中滴加 ${\mathrm{{AgNO}}}_{3}$ 溶液时,得到不溶于硝酸的白色沉淀。沉淀溶于氨水。","由 (1) 可知, ${\mathrm{{CuSO}}}_{4}$ 和 $\mathrm{{KI}}$ 不可能同时存在。
+
+由 (2) 可知,存在 ${\mathrm{{FeCl}}}_{3},{\mathrm{{SnCl}}}_{2}$ 可能存在。蓝色溶液可能是 ${\left\lbrack \mathrm{{Cu}}{\left( {\mathrm{{NH}}}_{3}\right) }_{4}\right\rbrack }^{2 + }$ ,
+
+${\left\lbrack \mathrm{{Ni}}{\left( {\mathrm{{NH}}}_{3}\right) }_{6}\right\rbrack }^{2 + }$ ,即 ${\mathrm{{CuSO}}}_{4}$ 和 ${\mathrm{{NiSO}}}_{4}$ 存在一种或两种。
+
+由 (3) 可知,加 $\mathrm{{KSCN}}$ 无颜色变化,说明 ${\mathrm{{FeCl}}}_{3}$ 与 ${\mathrm{{SnCl}}}_{2}$ 共存。加入戊醇也无颜色变化, 说明 ${\mathrm{{CoCl}}}_{2}$ 肯定不存在。
+
+由 (4) 可知,加入过量 $\mathrm{{NaOH}}$ 时溶液几乎无色,则肯定不存在 ${\mathrm{{CuSO}}}_{4}\left( {{\mathrm{{Cu}}}^{2 + } + 4{\mathrm{{OH}}}^{ - } = }\right.$
+
+${\left\lbrack \mathrm{{Cu}}{\left( \mathrm{{OH}}\right) }_{4}\right\rbrack }^{2 - }$ 蓝色)。考虑到 (2) 的结果, ${\mathrm{{NiSO}}}_{4}$ 肯定存在。加盐酸酸化时,有白色沉淀生成,说明存在 ${\mathrm{{ZnSO}}}_{4},{\mathrm{{SnCl}}}_{2}$ 中的一种或两种 $\left\lbrack {\mathrm{{Fe}}{\left( \mathrm{{OH}}\right) }_{3}\text{已滤出}}\right\rbrack$ :
+
+$$
+{\left\lbrack \mathrm{{Zn}}{\left( \mathrm{{OH}}\right) }_{4}\right\rbrack }^{2 - } + 2{\mathrm{H}}^{ + } = \mathrm{{Zn}}{\left( \mathrm{{OH}}\right) }_{2} \downarrow + 2{\mathrm{H}}_{2}\mathrm{O}
+$$
+
+$$
+{\left\lbrack \mathrm{{Sn}}{\left( \mathrm{{OH}}\right) }_{4}\right\rbrack }^{2 - } + 2{\mathrm{H}}^{ + } = \mathrm{{Sn}}{\left( \mathrm{{OH}}\right) }_{2} \downarrow + 2{\mathrm{H}}_{2}\mathrm{O}
+$$
+
+由 (5) 可知, 混合物中肯定不存在 $\mathrm{{KI}}$ ,因 $\mathrm{{AgI}}$ 为黄色沉淀。沉淀溶于氨水,说明沉淀为 $\mathrm{{AgCl}}$ 或 ${\mathrm{{Ag}}}_{2}{\mathrm{{SO}}}_{4}$ 。
+
+综合以上分析结果,混合物中肯定存在 ${\mathrm{{FeCl}}}_{3},{\mathrm{{SnCl}}}_{2}$ 和 ${\mathrm{{NiSO}}}_{4}$ ; 肯定不存在 ${\mathrm{{CuSO}}}_{4}$ , ${\mathrm{{CoCl}}}_{2}$ 和 $\mathrm{{KI}}$ ; 而 ${\mathrm{{ZnSO}}}_{4}$ 是否存在还需经进一步实验才能肯定。
+","：
+我们需要逐条分析实验现象，并结合各个化合物的化学性质，逐步锁定混合物中可能存在与不存在的物质。
+
+---
+
+**实验（1）**：
+固体溶于稀硫酸中，没有沉淀生成。
+- $\mathrm{KI}$、$\mathrm{SnCl_2}$、$\mathrm{FeCl_3}$、$\mathrm{CoCl_2}$、$\mathrm{NiSO_4}$ 和 $\mathrm{ZnSO_4}$ 都可以溶解于水，不会生成沉淀。$\mathrm{CuSO_4}$ 也易溶于水，故该实验现象不能明确排除任何物质。
+
+---
+
+**实验（2）**：
+盐的水溶液与过量氨水作用时，有灰绿色沉淀生成，且溶液呈蓝色。
+- 氨水与不同金属离子反应后会生成与其性质相关的沉淀或配合物：
+  - $\mathrm{Fe^{2+}}$：与过量氨水反应生成灰绿色的 $\mathrm{Fe(OH)_2}$ 沉淀，易氧化为棕色的 $\mathrm{Fe(OH)_3}$，符合灰绿色沉淀的描述。
+  - $\mathrm{Ni^{2+}}$：与过量氨水生成蓝色配合物 $\mathrm{[Ni(NH_3)_6]^{2+}}$，蓝色溶液符合描述。
+  - $\mathrm{Co^{2+}}$ 和 $\mathrm{Cu^{2+}}$ 也可能生成蓝色配合物，但未形成灰绿色沉淀，不匹配此现象。
+  - $\mathrm{Zn^{2+}}$ 和 $\mathrm{Sn^{2+}}$ 不会生成明显蓝色溶液，可排除。
+- 可能存在的物质：$\mathrm{FeCl_2}$ 和 $\mathrm{NiSO_4}$。
+
+---
+
+**实验（3）**：
+盐的水溶液与 $\mathrm{KSCN}$ 无明显变化，加入戊醇也无明显变化。
+- $\mathrm{Fe^{3+}}$ 可与 $\mathrm{SCN^-}$ 联合生成血红色配合物，但无明显变化表明 $\mathrm{Fe^{3+}}$ 不存在。
+- $\mathrm{Fe^{2+}}$、$\mathrm{Co^{2+}}$、$\mathrm{Cu^{2+}}$ 和其他检测不到明显颜色反应的物质无法排除。
+
+---
+
+**实验（4）**：
+加入过量 $\mathrm{NaOH}$ 溶液后，有沉淀生成，溶液无明显颜色。过滤后加入盐酸生成白色沉淀。
+- $\mathrm{Ni^{2+}}$ 在 $\mathrm{NaOH}$ 中生成 $\mathrm{Ni(OH)_2}$ 沉淀，而溶液无颜色，符合现象。
+- $\mathrm{Zn^{2+}}$ 和 $\mathrm{Sn^{2+}}$ 也可生成可溶性氢氧化物，与稀酸反应后生成白色沉淀 $\mathrm{ZnCl_2}$ 或 $\mathrm{SnCl_2}$。
+- $\mathrm{Fe^{2+}}$ 的氢氧化物为灰绿色，与盐酸作用不会生成白色沉淀。
+- $\mathrm{Co^{2+}}$ 和 $\mathrm{Cu^{2+}}$ 在稀酸中不会生成白色沉淀。
+- 符合现象的物质：$\mathrm{NiSO_4}$ 和 $\mathrm{ZnSO_4}$。
+
+---
+
+**实验（5）**：
+加入 $\mathrm{AgNO_3}$ 得到不溶于硝酸的白色沉淀，溶于氨水。
+- $\mathrm{KI}$ 与 $\mathrm{AgNO_3}$ 反应生成 $\mathrm{AgI}$，为浅黄色沉淀，不溶于硝酸，不符合白色沉淀现象。
+- $\mathrm{SnCl_2}$、$\mathrm{FeCl_3}$ 和 $\mathrm{CoCl_2}$ 含有 $\mathrm{Cl^-}$，与 $\mathrm{AgNO_3}$ 反应生成 $\mathrm{AgCl}$，为白色沉淀，且符合溶于氨水的描述。
+- 符合现象的物质：$\mathrm{SnCl_2}$、$\mathrm{FeCl_3}$、$\mathrm{CoCl_2}$。
+
+---
+
+**综合判断**：
+通过对各实验现象的逐一分析，得出以下结论：
+- **肯定存在的物质**：$\mathrm{NiSO_4}$、$\mathrm{FeCl_2}$、$\mathrm{ZnSO_4}$。
+- **肯定不存在的物质**：$\mathrm{KI}$、$\mathrm{FeCl_3}$。
+
+---","：
+$\mathrm{NiSO_4}, \mathrm{FeCl_2}, \mathrm{ZnSO_4}$",N/A,N/A,N/A
+"某同学在确定所合成的 ${\mathrm{K}}_{3}\left\lbrack {\mathrm{{Fe}}{\left( {\mathrm{C}}_{2}{\mathrm{O}}_{4}\right) }_{3}}\right\rbrack \cdot 3{\mathrm{H}}_{2}\mathrm{O}$ 晶体中 ${\mathrm{{FeC}}}_{2}{\mathrm{O}}_{4}$ 杂质的含量时,进行了以下实验: 将一定量样品加入稀硫酸中,微热溶解后用 ${0.0500}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 高锰酸钾溶液滴定,用去 ${108.00}{\mathrm{\;{cm}}}^{3}$ ; 再加入适量还原剂将三价铁还原为二价铁后,用 ${\mathrm{{KMnO}}}_{4}$ 溶液滴定,恰好用去 ${20.00}{\mathrm{\;{cm}}}^{3}$ 。
+
+（1）给出滴定反应的离子反应方程式;
+
+（2）计算所合成产品的组成（不考虑结晶水）。"," (1) $2{\mathrm{{MnO}}}_{4}^{ - } + 5{\mathrm{C}}_{2}{\mathrm{O}}_{4}^{2 - } + {16}{\mathrm{H}}^{ + } = 2{\mathrm{{Mn}}}^{2 + } + {10}{\mathrm{{CO}}}_{2} \uparrow + 8{\mathrm{H}}_{2}\mathrm{O}$
+
+${\mathrm{{MnO}}}_{4}^{ - } + 5{\mathrm{{Fe}}}^{2 + } + 8{\mathrm{H}}^{ + } = {\mathrm{{Mn}}}^{2 + } + 5{\mathrm{{Fe}}}^{3 + } + 4{\mathrm{H}}_{2}\mathrm{O}$
+
+（2）设混合物中有 $x\mathrm{\;{mol}}{\mathrm{K}}_{3}\left\lbrack {\mathrm{{Fe}}{\left( {\mathrm{C}}_{2}{\mathrm{O}}_{4}\right) }_{3}}\right\rbrack \cdot 3{\mathrm{H}}_{2}\mathrm{O}, y\mathrm{\;{mol}}{\mathrm{{FeC}}}_{2}{\mathrm{O}}_{4}$ ,则有
+
+$$
+\left( {{3x} + y}\right) \times 2/5 + y \times 1/5 = {0.05} \times {108}/{1000}
+$$
+
+$$
+\left( {x + y}\right) \times 1/5 = {0.05} \times {20}/{1000}
+$$
+
+解得 $x = {0.004}, y = {0.001}$ 。
+
+产物组成为 $4{\mathrm{\;K}}_{3}\left\lbrack {\mathrm{{Fe}}{\left( {\mathrm{C}}_{2}{\mathrm{O}}_{4}\right) }_{3}}\right\rbrack \cdot 1{\mathrm{{FeC}}}_{2}{\mathrm{O}}_{4}$ 。
+","：  
+（1）首先分析反应方程式，确定高锰酸钾氧化草酸根离子（\( \mathrm{C_2O_4^{2-}} \)）和二价铁（\( \mathrm{Fe^{2+}} \)）的离子反应方程式。  
+* 对于草酸根与高锰酸钾的氧化反应，通常发生于酸性介质下：
+  \[
+  2\mathrm{MnO_4^-} + 5\mathrm{C_2O_4^{2-}} + 16\mathrm{H^+} \to 2\mathrm{Mn^{2+}} + 10\mathrm{CO_2} + 8\mathrm{H_2O}
+  \]
+* 对于二价铁与高锰酸钾的氧化反应，同样是在酸性介质下：
+  \[
+  \mathrm{MnO_4^-} + 5\mathrm{Fe^{2+}} + 8\mathrm{H^+} \to \mathrm{Mn^{2+}} + 5\mathrm{Fe^{3+}} + 4\mathrm{H_2O}
+  \]
+
+（2）问题要求计算所合成样品的组成，这包含以下几步：  
+1. 分析实验中两次滴定的情况：  
+  - 第一次高锰酸钾与样品中的\( \mathrm{C_2O_4^{2-}} \)反应。
+  - 第二次高锰酸钾与样品中\( \mathrm{Fe^{2+}} \)反应，该\( \mathrm{Fe^{2+}} \)是由还原剂将\( \mathrm{Fe^{3+}} \)还原而得。  
+
+2. 根据化学计量关系，利用实验中高锰酸钾的消耗量计算样品中\( \mathrm{FeC_2O_4} \)杂质和\( \mathrm{K_3[Fe(C_2O_4)_3]} \)的含量。  
+  - 假设样品质量为\( m \)，进行代数运算。  
+
+进一步计算如下：  
+* 第一次滴定：  
+设样品中\( \mathrm{K_3[Fe(C_2O_4)_3]} \)和\( \mathrm{FeC_2O_4} \)的质量分别为\( m_1 \)和\( m_2 \)。  
+\( 1 \mathrm{\;mol} \:\mathrm{K_3[Fe(C_2O_4)_3]} \)中含\( 3 \mathrm{\;mol} \:\mathrm{C_2O_4^{2-}} \)，反应时高锰酸钾的消耗量与\( \mathrm{C_2O_4^{2-}} \)的物质的量成比例：  
+\[
+n_{\mathrm{MnO_4^-}}^{(1)} = \frac{2}{5} n_{\mathrm{C_2O_4^{2-}}}
+\]  
+由此，样品参与第一次反应的高锰酸钾物质的量为：  
+\[
+n_{\mathrm{MnO_4^-}}^{(1)} = 0.0500 \cdot 0.108 = 5.40 \times 10^{-3} \:\mathrm{mol}
+\]  
+对应草酸根的物质的量为：  
+\[
+n_{\mathrm{C_2O_4^{2-}}} = \frac{5}{2} n_{\mathrm{MnO_4^-}}^{(1)} = \frac{5}{2} \cdot 5.40 \times 10^{-3} = 1.35 \times 10^{-2} \:\mathrm{mol}
+\]
+
+\( \mathrm{K_3[Fe(C_2O_4)_3]} \)和\( \mathrm{FeC_2O_4} \)中草酸根物质的量为：  
+\[
+n_{\mathrm{C_2O_4^{2-}}} = 3 \cdot \frac{m_1}{491} + \frac{m_2}{147}
+\]  
+其中 \( 491 \mathrm{\;g/mol} \)为\( \mathrm{K_3[Fe(C_2O_4)_3]} \)的摩尔质量，\( 147 \mathrm{\;g/mol} \)为\( \mathrm{FeC_2O_4} \)的摩尔质量。
+
+* 第二次滴定：  
+高锰酸钾与样品中的\( \mathrm{Fe^{2+}} \)反应，总物质的量为：  
+\[
+n_{\mathrm{MnO_4^-}}^{(2)} = 0.0500 \times 0.0200 = 1.00 \times 10^{-3} \:\mathrm{mol}
+\]  
+对应的二价铁物质的量为：  
+\[
+n_{\mathrm{Fe^{2+}}} = 5 \cdot n_{\mathrm{MnO_4^-}}^{(2)} = 5 \cdot 1.00 \times 10^{-3} = 5.00 \times 10^{-3} \:\mathrm{mol}
+\]
+
+\( 1 \:\mathrm{mol} \:\mathrm{K_3[Fe(C_2O_4)_3]} \)中含有 \( 1 \:\mathrm{mol} \:\mathrm{Fe^{3+}} \)，而 \( 1 \:\mathrm{mol} \:\mathrm{FeC_2O_4} \)中含有 \( 1 \:\mathrm{mol} \:\mathrm{Fe^{2+}} \)：  
+\[
+n_{\mathrm{Fe^{2+}}} = \frac{m_1}{491} + \frac{m_2}{147}
+\]
+
+联立两次滴定的计算方程：  
+\[
+3\cdot \frac{m_1}{491} +\frac{m_2}{147}=1.35 \cdot 10^{-2}  
+\]
+\[
+\frac{m_1}{491}+\frac{m_2}{147}=5.00 \cdot 10^{-3}
+\]
+
+解方程组，得：  
+\[
+m_1 = 4.26 \:\mathrm{g}, \quad m_2 = 0.44 \:\mathrm{g}
+\]","：  
+（1）滴定反应的离子方程式：  
+\[
+2\mathrm{MnO_4^-} + 5\mathrm{C_2O_4^{2-}} + 16\mathrm{H^+} \to 2\mathrm{Mn^{2+}} + 10\mathrm{CO_2} + 8\mathrm{H_2O}
+\]  
+\[
+\mathrm{MnO_4^-} + 5\mathrm{Fe^{2+}} + 8\mathrm{H^+} \to \mathrm{Mn^{2+}} + 5\mathrm{Fe^{3+}} + 4\mathrm{H_2O}
+\]  
+
+（2）所合成产品的组成为：  
+\( \mathrm{K_3[Fe(C_2O_4)_3]} \)含量为 \( 4.26 \mathrm{\; g} \)，  
+\( \mathrm{FeC_2O_4} \)含量为 \( 0.44 \mathrm{\; g} \)。",N/A,N/A,N/A
+"有一固体混合物可能含有 ${\mathrm{{FeCl}}}_{3},{\mathrm{{NaNO}}}_{2},\mathrm{{Ca}}{\left( \mathrm{{OH}}\right) }_{2},{\mathrm{{AgNO}}}_{3},{\mathrm{{CuCl}}}_{2},\mathrm{{NaF}},{\mathrm{{NH}}}_{4}\mathrm{{Cl}}$ 七种物质中的若干种。若将此混合物加水后, 可得白色沉淀和无色溶液, 在此无色溶液中加入 $\mathrm{{KSCN}}$ 没有变化; 无色溶液可使酸化的 ${\mathrm{{KMnO}}}_{4}$ 溶液紫色褪去; 将无色溶液加热有气体放出。另外,白色沉淀可溶于 ${\mathrm{{NH}}}_{3} \cdot {\mathrm{H}}_{2}\mathrm{O}$ 中。试根据上述现象,判断在混合物中,哪些物质肯定存在, 哪些肯定不存在, 哪些可能存在, 说明理由, 并用化学反应方程式表示。","由题中给出的实验现象可作出如下判断。
+
+肯定存在的是 ${\mathrm{{NaNO}}}_{2},{\mathrm{{AgNO}}}_{3},{\mathrm{{NH}}}_{4}\mathrm{{Cl}}$ 。
+
+肯定不存在的是 ${\mathrm{{CuCl}}}_{2},\mathrm{{Ca}}{\left( \mathrm{{OH}}\right) }_{2}$ 。
+
+可能存在的是 $\mathrm{{NaF}},{\mathrm{{FeCl}}}_{3}$ 。
+
+理由如下:
+
+（1） 混合物加水后,可得白色沉淀和无色溶液,说明混合物中不含带颜色的离子 ${\mathrm{{Cu}}}^{2 + }$ ,即不存在 ${\mathrm{{CuCl}}}_{2}$ 。
+
+（2）无色溶液可使 ${\mathrm{{MnO}}}_{4}^{ - }$ 褪色,说明混合物中有还原剂存在,即 ${\mathrm{{NaNO}}}_{2}$ 存在:
+
+$$
+5{\mathrm{{NaNO}}}_{2} + 2{\mathrm{{MnO}}}_{4}^{ - } + 6{\mathrm{H}}^{ + } = 2{\mathrm{{Mn}}}^{2 + } + 5{\mathrm{{NaNO}}}_{3} + 3{\mathrm{H}}_{2}\mathrm{O}
+$$
+
+（3）加热溶液有气体放出,则混合物中存在 ${\mathrm{{NH}}}_{4}\mathrm{{Cl}},{\mathrm{{NaNO}}}_{2}$ 与 ${\mathrm{{NH}}}_{4}\mathrm{{Cl}}$ 在一起加热有 ${\mathrm{N}}_{2}$ 生成:
+
+$$
+{\mathrm{{NH}}}_{4}\mathrm{{Cl}} + {\mathrm{{NaNO}}}_{2} = \mathrm{{NaCl}} + 2{\mathrm{H}}_{2}\mathrm{O} + {\mathrm{N}}_{2} \uparrow
+$$
+
+（4）加水后有白色沉淀,它又溶于 ${\mathrm{{NH}}}_{3} \cdot {\mathrm{H}}_{2}\mathrm{O}$ ,说明混合物中有 ${\mathrm{{AgNO}}}_{3}$ ,与体系中的 ${\mathrm{{NH}}}_{4}\mathrm{{Cl}}$ 作用生成 $\mathrm{{AgCl}}$ 沉淀,后溶于 ${\mathrm{{NH}}}_{3} \cdot {\mathrm{H}}_{2}\mathrm{O}$ :
+
+$$
+{\mathrm{{Ag}}}^{ + } + {\mathrm{{Cl}}}^{ - } = \mathrm{{AgCl}} \downarrow
+$$
+
+$$
+\mathrm{{AgCl}} + 2{\mathrm{{NH}}}_{3} \cdot {\mathrm{H}}_{2}\mathrm{O} = {\left\lbrack \mathrm{{Ag}}{\left( {\mathrm{{NH}}}_{3}\right) }_{2}\right\rbrack }^{ + } + {\mathrm{{Cl}}}^{ - } + 2{\mathrm{H}}_{2}\mathrm{O}
+$$
+
+(5) 从以上反应中可以看出,溶液中不存在 $\mathrm{{Ca}}{\left( \mathrm{{OH}}\right) }_{2}$ 。因为溶液中含有 ${\mathrm{{NH}}}_{4}^{ + }$ 。若 $\mathrm{{Ca}}{\left( \mathrm{{OH}}\right) }_{2}$ 存在,则应有 ${\mathrm{{NH}}}_{3}$ 生成,实验中无 ${\mathrm{{NH}}}_{3}$ 气体生成。
+
+（6） 混合物中可能含有 ${\mathrm{{FeCl}}}_{3},\mathrm{{NaF}}$ ,但二者必须同时存在。因为若无 $\mathrm{{NaF}}$ 存在,则 ${\mathrm{{FeCl}}}_{3}$
+
+会显颜色,并与 $\mathrm{{KSCN}}$ 作用生成血红色物质。但有 $\mathrm{{NaF}}$ 时 ${\mathrm{{FeCl}}}_{3}$ 可能同时存在,它可形成 ${\left\lbrack {\mathrm{{FeF}}}_{6}\right\rbrack }^{3 - }$ ,无色且不易与 ${\mathrm{{SCN}}}^{ - }$ 作用。
+","：
+
+1. **初步分析固体混合物：**
+    - 混合物可能含有7种物质：${\mathrm{FeCl}}_3$, ${\mathrm{NaNO}}_2$, ${\mathrm{Ca}}{\left(\mathrm{OH}\right)}_2$, ${\mathrm{AgNO}}_3$, ${\mathrm{CuCl}}_2$, $\mathrm{NaF}$, ${\mathrm{NH}}_4\mathrm{Cl}$。  
+    - 加水后产生“白色沉淀”和“无色溶液”，说明混合物中至少含有一些难溶于水的物质（产生沉淀）和易溶于水的物质（溶于水形成无色溶液）。
+
+2. **白色沉淀的组成：**
+    - 白色沉淀可溶于$\mathrm{NH_3 \cdot H_2O}$。结合溶解性知识，可能的候选物是${\mathrm{AgCl}}$。${\mathrm{AgCl}}$是白色不溶于水但可溶于氨水的沉淀。
+
+3. **无色溶液的性质：**
+    - 添加$\mathrm{KSCN}$“无变化”，说明溶液中不含${\mathrm{Fe}}^{3+}$（否则会生成红色复合离子${\mathrm{Fe(SCN)}}^{2+}$，因而${\mathrm{FeCl}}_3$不存在）。
+    - 无色溶液可以“使酸化的${\mathrm{KMnO}}_4$溶液紫色褪去”，表明溶液中含有还原剂，结合可能的物质，${\mathrm{NaNO}}_2$是符合条件的还原剂之一：
+        \[
+        5\mathrm{NO_2^-} + 2\mathrm{MnO_4^-} + 6\mathrm{H^+} \to 5\mathrm{NO_3^-} + 2\mathrm{Mn^{2+}} + 3\mathrm{H_2O}
+        \]
+    - 溶液加热后放出气体。可能性：
+        - 如果溶液中有${\mathrm{NH}}_4^+$离子（可能来自${\mathrm{NH}}_4\mathrm{Cl}$），则加热可能分解产生氨气：
+          \[
+          \mathrm{NH_4^+} + \mathrm{OH^-} \xrightarrow{\text{加热}} \mathrm{NH_3\uparrow} + \mathrm{H_2O}
+          \]
+
+4. **分析其他物质的可能性：**
+    - ${\mathrm{Ca}}{\left(\mathrm{OH}\right)}_2$难溶于水，但其沉淀为白色，无法溶解于氨水，因此不满足白色沉淀的条件，排除。
+    - ${\mathrm{CuCl}}_2$在水中完全溶解形成蓝色溶液，而题干强调溶液是无色，因此排除。
+    - $\mathrm{NaF}$易溶于水，形成无色溶液，但其存在无法解释无色溶液的其他反应特性，也没有特征性表现，因此无法确定是否存在。
+    - ${\mathrm{AgNO}}_3$溶解时提供${\mathrm{Ag^+}}$离子，可能与${\mathrm{Cl^-}}$离子形成${\mathrm{AgCl}}$沉淀，并解释白色沉淀成分，因此其存在是合理的。
+
+5. **归纳总结：**
+    - **肯定存在的物质：**${\mathrm{NaNO}}_2$, ${\mathrm{AgNO}}_3$, ${\mathrm{NH}}_4\mathrm{Cl}$。
+    - **肯定不存在的物质：**${\mathrm{FeCl}}_3$, ${\mathrm{Ca}}{\left(\mathrm{OH}\right)}_2$, ${\mathrm{CuCl}}_2$。
+    - **可能存在的物质：**$\mathrm{NaF}$。
+
+6. **化学反应方程式：**
+    - ${\mathrm{NaNO}}_2$还原${\mathrm{KMnO}}_4$：
+      \[
+      5\mathrm{NO_2^-} + 2\mathrm{MnO_4^-} + 6\mathrm{H^+} \to 5\mathrm{NO_3^-} + 2\mathrm{Mn^{2+}} + 3\mathrm{H_2O}
+      \]
+    - ${\mathrm{AgNO}}_3$与${\mathrm{NH}}_4\mathrm{Cl}$或其他$\mathrm{Cl^-}$离子形成白色沉淀：
+      \[
+      \mathrm{Ag^+} + \mathrm{Cl^-} \to \mathrm{AgCl(s)} \quad (\text{白色沉淀})
+      \]
+      ${\mathrm{AgCl}}$溶于氨水：
+      \[
+      \mathrm{AgCl(s)} + 2\mathrm{NH_3} \to \mathrm{[Ag(NH_3)_2]^+} + \mathrm{Cl^-}
+      \]
+    - ${\mathrm{NH}}_4\mathrm{Cl}$溶于水并与碱反应产生氨气：
+      \[
+      \mathrm{NH_4^+} + \mathrm{OH^-} \xrightarrow{\text{加热}} \mathrm{NH_3\uparrow} + \mathrm{H_2O}
+      \]","：  
+肯定存在的物质：${\mathrm{NaNO}}_2$, ${\mathrm{AgNO}}_3$, ${\mathrm{NH}}_4\mathrm{Cl}$  
+肯定不存在的物质：${\mathrm{FeCl}}_3$, ${\mathrm{Ca}}{\left(\mathrm{OH}\right)}_2$, ${\mathrm{CuCl}}_2$  
+可能存在的物质：$\mathrm{NaF}$",N/A,N/A,N/A
+"金属 (A) 溶于稀盐酸, 生成溶液 (B)。在无氧操作条件下, 将 $\mathrm{{NaOH}}$ 加到 (B) 溶液中, 生成白色沉淀 (C)。(C) 接触空气颜色逐渐变深, 最后成为棕红色沉淀 (D)。灼烧 (D) 可生成棕红色粉末 (E), (E) 经不彻底还原而生成铁磁性黑色物质 (F)。(D) 溶于稀盐酸生成溶液 $\left( \mathrm{G}\right)$ ,该溶液能将 $\mathrm{{KI}}$ 氧化成 ${\mathrm{I}}_{2}$ ,但在加入 $\mathrm{{KI}}$ 之前,先加入 $\mathrm{{NaF}}$ ,则不能氧化 $\mathrm{{KI}}$ 。若向 $\left( \mathrm{D}\right)$ 的浓 $\mathrm{{NaOH}}$ 悬浮液中通入氯气,可得到 $\left( \mathrm{H}\right)$ 的紫红色溶液,向该溶液中加入 ${\mathrm{{BaCl}}}_{2}$ 后有红棕色固体 (I) 析出, (I) 是一种强氧化剂。试给出 (A)、(B)、(C)、(D)、(E)、(F)、 (G)、(H) 和 (I) 所代表的物质的化学式。","(A)-Fe; (B) $- {\mathrm{{FeCl}}}_{2}$ ; (C) $- \mathrm{{Fe}}{\left( \mathrm{{OH}}\right) }_{2}$ ;
+
+(D) $- \mathrm{{Fe}}{\left( \mathrm{{OH}}\right) }_{3}$ ; (E) $- {\mathrm{{Fe}}}_{2}{\mathrm{O}}_{3}$ (F) $- {\mathrm{{Fe}}}_{3}{\mathrm{O}}_{4}$ ;
+
+(G) $- {\mathrm{{FeCl}}}_{3}$ (aq); (H) $- {\mathrm{{FeO}}}_{4}^{2 - }$ ; (I) $- {\mathrm{{BaFeO}}}_{4}$","：
+
+1. 根据题意，“金属 (A) 溶于稀盐酸生成溶液 (B)，无氧条件下加 NaOH 生成白色沉淀 (C)，(C) 接触空气颜色逐渐变深，最终变成棕红色沉淀 (D)”。说明 (A) 属于铁或类似特性金属，而 (C) 是其氢氧化物。根据接触空气（氧化）后变色特征，可以推测 (A) 为铁，(B) 为 Fe\(^{{2+}}\) 溶液。
+   
+   - (C) 为 Fe(OH)\(_2\)，其在空气中被氧化变为棕红色的 Fe(OH)\(_3\)，即 (D)。
+
+2. 把 (D) 灼烧，得到棕红色粉末 (E)。加热 Fe(OH)\(_3\) 会脱水生成 Fe\(_2\)O\(_3\)。因此，(E) 为 Fe\(_2\)O\(_3\)。
+
+3. (E) 不彻底还原生成黑色铁磁性物质 (F)。这是 Fe\(_2\)O\(_3\) 不完全还原得到的 Fe\(_3\)O\(_4\)，具有铁磁性。
+
+4. (D) 溶于稀盐酸，生成具有氧化性的溶液 (G)。棕红色 (D) 是 Fe(OH)\(_3\)，和盐酸反应生成 Fe\(^{{3+}}\) 溶液。
+
+5. 溶液 (G) 能氧化 KI，但若加 NaF 后，则不能氧化 KI：
+   - Fe\(^{{3+}}\) 可氧化 KI 生成 I\(_2\)。但是加入 NaF 后，由于 F\(^-\) 配位，使 Fe\(^{{3+}}\) 的氧化能力降低，所以不能再氧化 KI。
+
+6. 向 (D) 的浓 NaOH 悬浮液中通入氯气，得到紫红色溶液 (H)。氯气通入 Fe(OH)\(_3\) 的碱性溶液，产生 FeO\(_4^{2-}\)（高铁酸盐），紫红色的溶液即为 Na\(_2\)FeO\(_4\)。
+
+7. 向紫红色溶液 (H) 中加入 BaCl\(_2\)，生成红棕色固体 (I)。这是 BaFeO\(_4\)，一种强氧化剂。","：
+
+A: Fe  
+B: FeCl\(_2\)  
+C: Fe(OH)\(_2\)  
+D: Fe(OH)\(_3\)  
+E: Fe\(_2\)O\(_3\)  
+F: Fe\(_3\)O\(_4\)  
+G: FeCl\(_3\)  
+H: Na\(_2\)FeO\(_4\)  
+I: BaFeO\(_4\)",N/A,N/A,N/A
+"绿色晶体 (A) 隔绝空气加热失重近 ${45.3}\%$ 后达到恒重,得到白色固体 (B)。(B) 溶于水后加入 ${\mathrm{H}}_{2}{\mathrm{O}}_{2}$ 和 ${\mathrm{{Na}}}_{2}{\mathrm{{CO}}}_{3}$ 溶液有棕色沉淀 (C) 生成。(C) 溶于稀 ${\mathrm{H}}_{2}{\mathrm{{SO}}}_{4}$ 后将溶液浓缩、结晶得到浅紫色晶体 $\left( \mathrm{D}\right)$ 。将 $\left( \mathrm{D}\right)$ 加热脱水失重约 ${28.8}\%$ 。 $\left( \mathrm{D}\right)$ 的饱和溶液与 ${\mathrm{K}}_{2}{\mathrm{C}}_{2}{\mathrm{O}}_{4}$ 饱和溶液混合后冷却, 析出绿色水合晶体 (E)。(E) 溶于水后加入盐酸酸化, 加入 KSCN 溶液得红色溶液 $\left( \mathrm{F}\right)$ 。向溶液 $\left( \mathrm{F}\right)$ 中通入 ${\mathrm{{SO}}}_{2}$ 气体则红色消失。请给出 $\left( \mathrm{A}\right) \text{、}\left( \mathrm{B}\right) \text{、}\left( \mathrm{C}\right)$ 、 (D)、(E) 和 (F) 所代表的物质的化学式。
+"," (A)- ${\mathrm{{FeSO}}}_{4} \cdot 7{\mathrm{H}}_{2}\mathrm{O}$ ; (B) $- {\mathrm{{FeSO}}}_{4}$ ; (C) $- \mathrm{{Fe}}{\left( \mathrm{{OH}}\right) }_{3}$ ;
+
+(D) $- {\mathrm{{Fe}}}_{2}{\left( {\mathrm{{SO}}}_{4}\right) }_{3} \cdot 9{\mathrm{H}}_{2}\mathrm{O}$ ; (E) $- {\mathrm{K}}_{3}\left\lbrack {\mathrm{{Fe}}{\left( {\mathrm{C}}_{2}{\mathrm{O}}_{4}\right) }_{3}}\right\rbrack \cdot 3{\mathrm{H}}_{2}\mathrm{O}$ ;
+
+(F)- ${\left\lbrack \mathrm{{Fe}}\left( \mathrm{{SCN}}\right) \right\rbrack }^{2 + }$","：
+
+1. 根据题目，绿色晶体 (A) 隔绝空气加热失重约 45.3%，得到白色固体 (B)。这个过程提示我们可能进行了一种水合物的脱水过程。绿色和白色是典型的钴化合物（例如，硫酸钴和碳酸钴）的颜色特征。假设 (A) 是一种钴的水合盐，例如硫酸钴水合物 \(\mathrm{CoSO}_4 \cdot 7\mathrm{H}_2\mathrm{O}\)，通过计算可以验证这一点：\[ \text{失重} = \frac{7 \times 18\,\text{g/mol}}{281\,\text{g/mol}} \approx 44.8\% \]
+
+   由于计算结果和题目相符，确认 (A) 为 \(\mathrm{CoSO}_4 \cdot 7\mathrm{H}_2\mathrm{O}\)， (B) 则为 \(\mathrm{CoSO}_4\)。
+
+2. \(\mathrm{CoSO}_4\)（白色固体 B）溶于水时加 \(\mathrm{H}_2\mathrm{O}_2\) 和 \(\mathrm{Na}_2\mathrm{CO}_3\) 形成的棕色沉淀 (C) 很可能是 \(\mathrm{Co(OH)}_3\) 或 \(\mathrm{CoO(OH)}\)，这是钴化合物常见的氧化产物。考虑到钴的一些典型氧化反应和化合物结构，棕色形成物是 \(\mathrm{CoCO}_3\)。
+
+3. (C) 溶于稀硫酸得到浅紫色晶体 (D)，该物质进一步加热失水28.8%；结合颜色性质，这个紫色晶体可能是含有水合钴的化合物。失水 28.8% 和题干给出的现象符合硫酸亚钴 \(\mathrm{CoSO}_4 \cdot 6\mathrm{H}_2\mathrm{O}\) 的水合物，接下来在加入草酸钾形成\(\mathrm{Co(C}_2\mathrm{O}_4)_3\)。
+
+4. 绿色的 (E) 水合晶体符合的常见物质是 \(\mathrm{K}_3\mathrm{[Co(C}_2\mathrm{O}_4)_3] \cdot 3\mathrm{H}_2\mathrm{O}\)，这种化合物典型与草酸形成双齿络合物，并呈现绿色。
+
+5. (E)的绿色晶体溶液与盐酸形成络合物 (F)，钴与乙硫氰酸结合形成红色 \(\mathrm{K_3[Co(SCN)_6]}\)。不过，一般产品为血红色阴离子络合物：\(\mathrm{Co(SCN)_6}^{3-}\)，而二氧化硫可还原此络合物，因此颜色消失。","：  
+(A) \(\mathrm{CoSO}_4 \cdot 7\mathrm{H}_2\mathrm{O}\)   
+(B) \(\mathrm{CoSO}_4\)  
+(C) \(\mathrm{CoCO}_3\)  
+(D) \(\mathrm{CoSO}_4 \cdot 6\mathrm{H}_2\mathrm{O}\)  
+(E) \(\mathrm{K}_3\mathrm{[Co(C}_2\mathrm{O}_4)_3] \cdot 3\mathrm{H}_2\mathrm{O}\)  
+(F) \(\mathrm{Co(SCN)_6}^{3-}\)",N/A,N/A,N/A
+蓝色化合物 (A) 溶于水得粉红色溶液 (B)。向 (B) 中加入过量氢氧化钠溶液得粉红色沉淀 (C)。用次氯酸钠溶液处理则 (C) 转化为黑色沉淀 (D)。洗涤、过滤后将 (D) 与浓盐酸作用得蓝色溶液 (E)。将 (E) 用水稀释后又得粉红色溶液 (B)。试给出 (A)、(B)、(C)、 (D) 和 (E) 所代表的物质的化学式。,"(A)- ${\mathrm{{CoCl}}}_{2}$ ; (B)- ${\left\lbrack \mathrm{{Co}}{\left( {\mathrm{H}}_{2}\mathrm{O}\right) }_{6}\right\rbrack }^{2 + }$ ; (C)- $\mathrm{{Co}}{\left( \mathrm{{OH}}\right) }_{2}$ ; (D)- $\mathrm{{Co}}{\left( \mathrm{{OH}}\right) }_{3}$ ;
+
+(E) $- {\left\lbrack {\mathrm{{CoCl}}}_{4}\right\rbrack }^{2 - }$","：  
+根据题目描述，我们需要找出一系列化学反应过程中各物质的化学式。这是一个以钴化合物为主要物质的反应系列。
+
+1. 蓝色化合物 (A) 溶于水得到粉红色溶液 (B)，这暗示 (A) 是一种钴化合物，因为钴在溶于水形成其溶液时，通常表现出这种颜色变化。通常，六水合硫酸钴(II)，\[ \text{CoSO}_4·6\text{H}_2\text{O} \]，是蓝色晶体，溶于水会呈现粉红色溶液。
+
+2. 向粉红色溶液 (B) 中加入过量氢氧化钠，得到粉红色沉淀 (C)。钴(II)离子在水中与氢氧化钠反应，会生成氢氧化钴(II)，\[ \text{Co(OH)}_2 \]，通常为蓝色或粉红色的固体沉淀。
+
+3. (C) 与次氯酸钠处理后转化为黑色沉淀 (D)，这指示氢氧化钴被氧化为三氧化二钴，\[ \text{Co}_3\text{O}_4 \]，常为黑色固体。
+
+4. 将 (D) 与浓盐酸作用得到蓝色溶液 (E)。氧化物 (Co_3O_4) 与浓盐酸反应，生成 [ \text{CoCl}_2 \]·6\text{H}_2\text{O}，蓝色溶液。
+
+5. 蓝色溶液 (E) 用水稀释后得到粉红色溶液 (B)。稀释 [ \text{CoCl}_2 \] 溶液后，通常会显现粉红色，这是由于水合配位所导致。
+
+综合以上分析：
+
+- (A) 为 \( \text{CoSO}_4·6\text{H}_2\text{O} \)。
+- (B) 为 [ \text{Co}^{2+} \] 溶液，表现形式是粉红色的 \( \text{Co(H}_2\text{O)}_6^{2+} \)。
+- (C) 为 \( \text{Co(OH)}_2 \)。
+- (D) 为 \( \text{Co}_3\text{O}_4 \)。
+- (E) 为 [ \text{CoCl}_2 \]溶液。","：  
+A: \( \text{CoSO}_4·6\text{H}_2\text{O} \)  
+B: \( \text{Co}^{2+} \) 溶液或 \( \text{Co(H}_2\text{O)}_6^{2+} \)  
+C: \( \text{Co(OH)}_2 \)  
+D: \( \text{Co}_3\text{O}_4 \)  
+E: \( \text{CoCl}_2 \)",N/A,N/A,N/A
+"化合物 (A) 为不溶于水的棕褐色固体, 将 (A) 溶解在浓盐酸中, 得到溶液 (B) 和黄绿色气体 $\left( \mathrm{C}\right) ,\left( \mathrm{C}\right)$ 通过热氢氧化钾溶液,被吸收后生成溶液 $\left( \mathrm{D}\right)$ , $\left( \mathrm{D}\right)$ 用酸中和并以 ${\mathrm{{AgNO}}}_{3}$ 溶液处理, 生成白色沉淀 (E), (E) 不溶于硝酸, 但可溶于氨水。若在 (B) 溶液中加入氢氧化钠溶液,得到粉红色沉淀 $\left( \mathrm{F}\right)$ ,将 $\left( \mathrm{F}\right)$ 用 ${\mathrm{H}}_{2}{\mathrm{O}}_{2}$ 处理,则又得到 $\left( \mathrm{A}\right)$ 。若将 $\left( \mathrm{B}\right)$ 用 ${\mathrm{{KNO}}}_{2}$ 的醋酸溶液处理,则生成黄色沉淀 $\left( \mathrm{G}\right)$ 和气体 $\left( \mathrm{H}\right)$ ,将 $\left( \mathrm{H}\right)$ 通过 ${\mathrm{{FeSO}}}_{4}$ 溶液,则溶液变为暗棕色, 但没有沉淀生成。试给出 (A)、(B)、(C)、(D)、(E)、(F)、(G) 和 (H) 所代表的物质的化学式。","(A)- $\mathrm{{Co}}{\left( \mathrm{{OH}}\right) }_{3}$ ; (B) $- {\mathrm{{CoCl}}}_{2}$ ; (C) $- {\mathrm{{Cl}}}_{2}$ ;
+
+(D) $- \mathrm{{KCl}} + {\mathrm{{KClO}}}_{3}$ ; (E)-AgCl; (F) $- \mathrm{{Co}}{\left( \mathrm{{OH}}\right) }_{2}$ ;
+
+(G) $- {\mathrm{K}}_{3}\left\lbrack {\mathrm{{Co}}{\left( {\mathrm{{NO}}}_{2}\right) }_{6}}\right\rbrack$ ; (H)一NO","：  
+化合物 (A) 为不溶于水的棕褐色固体，可溶于浓盐酸生成黄绿色气体 (C)，结合颜色和反应介质判断 (C) 是氯气 \(\text{Cl}_2\)。因此，(A) 很可能为某种不溶于水且能氧化盐酸生成氯气的过渡金属氧化物，例如氧化铜(II) \(\text{CuO}\)。
+
+溶液 (B) 的推断，\(\text{CuO}\) 溶于浓盐酸，生成\(\text{CuCl}_2\) 溶液，因此 (B) 是 \(\text{CuCl}_2\)。
+
+气体 \(\text{Cl}_2\) 通过氢氧化钾溶液生成的溶液 (D) 想必是次氯酸盐 \(\text{KClO}\) 和氯化物 \(\text{KCl}\)，添加硝酸银\(\text{AgNO}_3\)后生成的白色沉淀 (E) 为氯化银 \(\text{AgCl}\)，根据\(\text{AgCl}\) 的性质，能够验证 (E) 是 \(\text{AgCl}\)。
+
+加入氢氧化钠溶液到 (B) \(\text{CuCl}_2\) 中得到氢氧化铜(II)\(\text{Cu(OH)}_2\)，粉红色沉淀 (F) 是 \(\text{Cu(OH)}_2\)。用 \(\text{H}_2\text{O}_2\) 将 \(\text{Cu(OH)}_2\) 氧化，得到 \(\text{CuO}\) (即 (A))，符合题目条件。
+
+接下来看 \(\text{B}\) 用醋酸中 \(\text{KNO}_2\) 处理生成黄色沉淀 \(\text{G}\) 是窒化铜 \(\text{Cu_2(OH)_3ONO}\)，气体 \(\text{H}\) 是氮氧化物 \(\text{NO}\)。
+
+\(\text{NO}\) 经过铁(II)硫酸溶液（\(\text{FeSO}_4\)）变为深棕色由于\(\text{NO}\)被氧化为\(\text{FeNO}^{2+}\)。","：
+
+\[
+\begin{align*}
+\text{(A)} &: \text{CuO} \\
+\text{(B)} &: \text{CuCl}_2 \\
+\text{(C)} &: \text{Cl}_2 \\
+\text{(D)} &: \text{KCl} + \text{KClO} \\
+\text{(E)} &: \text{AgCl} \\
+\text{(F)} &: \text{Cu(OH)}_2 \\
+\text{(G)} &: \text{Cu_2(OH)_3ONO} \\
+\text{(H)} &: \text{NO} \\
+\end{align*}
+\]",N/A,N/A,N/A

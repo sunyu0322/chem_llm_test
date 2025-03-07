@@ -1,0 +1,92 @@
+question,answer
+试说明如何配制不含或含有极少碳酸钠的氢氧化钠溶液,"可先配制饱和的 $\mathrm{{NaOH}}$ 溶液, ${\mathrm{{Na}}}_{2}{\mathrm{{CO}}}_{3}$ 在饱和的 $\mathrm{{NaOH}}$ 溶液中溶解度极小而析出沉淀。 取上层清液,用煮沸除去 ${\mathrm{{CO}}}_{2}$ 后冷却的水稀释即可。"
+如何制得 ${\mathrm{{Na}}}_{2}\mathrm{O}$ 和 ${\mathrm{K}}_{2}\mathrm{O}$ ?,"除锂外, 其他碱金属在空气中燃烧的主要产物都不是普通氧化物。锂以外的碱金属的普通氧化物可以用碱金属单质或叠氮化物在真空中还原其过氧化物、硝酸盐或亚硝酸盐制备, 例如:
+
+$$
+2\mathrm{{Na}} + {\mathrm{{Na}}}_{2}{\mathrm{O}}_{2}\xrightarrow[]{\text{ 真空 }}2{\mathrm{{Na}}}_{2}\mathrm{O}
+$$
+
+$$
+{10}\mathrm{\;K} + 2{\mathrm{{KNO}}}_{3}\xrightarrow[]{\text{ 真空 }}6{\mathrm{\;K}}_{2}\mathrm{O} + {\mathrm{N}}_{2} \uparrow
+$$
+
+$$
+3{\mathrm{{NaN}}}_{3} + {\mathrm{{NaNO}}}_{2}\xrightarrow[]{\text{ 真空 }}2{\mathrm{{Na}}}_{2}\mathrm{O} + 5{\mathrm{\;N}}_{2} \uparrow
+$$
+"
+"某白色粉末状固体,它可能是 ${\mathrm{{Na}}}_{2}{\mathrm{{CO}}}_{3},{\mathrm{{NaNO}}}_{3},{\mathrm{{Na}}}_{2}{\mathrm{{SO}}}_{4},\mathrm{{NaCl}}$ 或 $\mathrm{{NaBr}}$ 中的任一种,试设计方案加以鉴别。","取该样品少量溶于水, 然后分成三份置于试管中备用。
+
+第一份滴加 ${\mathrm{{BaCl}}}_{2}$ 溶液,若有白色沉淀生成则可能是 ${\mathrm{{Na}}}_{2}{\mathrm{{CO}}}_{3}$ 或 ${\mathrm{{Na}}}_{2}{\mathrm{{SO}}}_{4}$ :
+
+$$
+{\mathrm{{Ba}}}^{2 + } + {\mathrm{{CO}}}_{3}^{2 - } = {\mathrm{{BaCO}}}_{3} \downarrow \text{(白色)}
+$$
+
+$$
+{\mathrm{{Ba}}}^{2 + } + {\mathrm{{SO}}}_{4}^{2 - } = {\mathrm{{BaSO}}}_{4} \downarrow \text{(白色)}
+$$
+
+离心分离,在沉淀中加入稀硝酸,沉淀溶解并放出气体则原样品是 ${\mathrm{{Na}}}_{2}{\mathrm{{CO}}}_{3}$ ,若沉淀不溶解,则原样品是 ${\mathrm{{Na}}}_{2}{\mathrm{{SO}}}_{4}$ :
+
+$$
+{\mathrm{{BaCO}}}_{3} + 2{\mathrm{{HNO}}}_{3} = \mathrm{{Ba}}{\left( {\mathrm{{NO}}}_{3}\right) }_{2} + {\mathrm{H}}_{2}\mathrm{O} + {\mathrm{{CO}}}_{2} \uparrow
+$$
+
+第二份先以硝酸酸化,然后滴加 ${\mathrm{{AgNO}}}_{3}$ 溶液,有沉淀生成则可能是 $\mathrm{{NaCl}}$ 或 $\mathrm{{NaBr}}$ 中的一种 (虽然 $\mathrm{{AgCl}}$ 沉淀为白色, $\mathrm{{AgBr}}$ 沉淀为淡黄色,但当 $\mathrm{{AgBr}}$ 沉淀颗粒很细小时也显示白色则难以区分):
+
+$$
+{\mathrm{{Ag}}}^{ + } + {\mathrm{{Cl}}}^{ - } = \mathrm{{AgCl}} \downarrow
+$$
+
+$$
+{\mathrm{{Ag}}}^{ + } + {\mathrm{{Br}}}^{ - } = \mathrm{{AgBr}} \downarrow
+$$
+
+离心分离, 在沉淀中加入氨水, 沉淀溶解则原样品是 NaCl, 沉淀基本不溶则原样品是 $\mathrm{{NaBr}}$ :
+
+$$
+\mathrm{{AgCl}} + 2{\mathrm{{NH}}}_{3} = {\left\lbrack \mathrm{{Ag}}{\left( {\mathrm{{NH}}}_{3}\right) }_{2}\right\rbrack }^{ + } + {\mathrm{{Cl}}}^{ - }
+$$
+
+第三份先加入少许 ${\mathrm{{FeSO}}}_{4}$ 晶体,然后沿试管壁缓慢加入浓硫酸,在硫酸 (下层) 和溶液 (上层) 之间出现棕色环则原样品是 ${\mathrm{{NaNO}}}_{3}$ :
+
+$$
+3{\mathrm{{Fe}}}^{2 + } + {\mathrm{{NO}}}_{3}^{ - } + 2{\mathrm{H}}_{2}{\mathrm{{SO}}}_{4} = 3{\mathrm{{Fe}}}^{3 + } + \mathrm{{NO}} \uparrow + 2{\mathrm{{SO}}}_{4}^{2 - } + 2{\mathrm{H}}_{2}\mathrm{O}
+$$
+
+$$
+{\mathrm{{Fe}}}^{2 + } + \mathrm{{NO}} = {\left\lbrack \mathrm{{Fe}}\left( \mathrm{{NO}}\right) \right\rbrack }^{2 + }\text{(棕色)}
+$$
+"
+"拟除去 ${\mathrm{{BaCl}}}_{2}$ 溶液中的少量 ${\mathrm{{FeCl}}}_{3}$ 杂质,试分析加入 $\mathrm{{Ba}}{\left( \mathrm{{OH}}\right) }_{2}$ 和 ${\mathrm{{BaCO}}}_{3}$ 哪种试剂更好?","加入 $\mathrm{{Ba}}{\left( \mathrm{{OH}}\right) }_{2}$ 更好。
+
+${\mathrm{{BaCO}}}_{3}$ 和 $\mathrm{{Ba}}{\left( \mathrm{{OH}}\right) }_{2}$ 与 ${\mathrm{{FeCl}}}_{3}$ 发生的反应为
+
+$$
+2{\mathrm{{FeCl}}}_{3} + 3{\mathrm{{BaCO}}}_{3} + 3{\mathrm{H}}_{2}\mathrm{O} = 2\mathrm{{Fe}}{\left( \mathrm{{OH}}\right) }_{3} \downarrow + 3{\mathrm{{BaCl}}}_{2} + 3{\mathrm{{CO}}}_{2} \uparrow
+$$
+
+$$
+2{\mathrm{{FeCl}}}_{3} + 3\mathrm{{Ba}}{\left( \mathrm{{OH}}\right) }_{2} = 2\mathrm{{Fe}}{\left( \mathrm{{OH}}\right) }_{3} \downarrow + 3{\mathrm{{BaCl}}}_{2}
+$$
+
+由反应方程式可知, ${\mathrm{{BaCO}}}_{3}$ 与 ${\mathrm{{FeCl}}}_{3}$ 反应产物中有 ${\mathrm{{CO}}}_{2},{\mathrm{{CO}}}_{2}$ 不能完全脱离体系,有杂质存在。而 $\mathrm{{Ba}}{\left( \mathrm{{OH}}\right) }_{2}$ 与 ${\mathrm{{FeCl}}}_{3}$ 反应没有杂质生成,若 $\mathrm{{Ba}}{\left( \mathrm{{OH}}\right) }_{2}$ 过量可以定量加入盐酸转化为 ${\mathrm{{BaCl}}}_{2}$ 。
+"
+"粗盐提纯时,如何除去粗盐溶液中的 ${\mathrm{{Mg}}}^{2 + },{\mathrm{{Ca}}}^{2 + }$ 和 ${\mathrm{{SO}}}_{4}^{2 - }$ ?","将粗盐溶于水,加 $\mathrm{{NaOH}}$ 溶液到不再生成 $\mathrm{{Mg}}{\left( \mathrm{{OH}}\right) }_{2}$ 沉淀为止; 加 ${\mathrm{{BaCl}}}_{2}$ 溶液到不再生成 ${\mathrm{{BaSO}}}_{4}$ 沉淀为止; 加 ${\mathrm{{Na}}}_{2}{\mathrm{{CO}}}_{3}$ 溶液到不再生成 ${\mathrm{{BaCO}}}_{3}$ 和 ${\mathrm{{CaCO}}}_{3}$ 沉淀为止。然后过滤除去沉淀,即可除去粗盐溶液中的 ${\mathrm{{Mg}}}^{2 + },{\mathrm{{Ca}}}^{2 + }$ 和 ${\mathrm{{SO}}}_{4}^{2 - }$ ,最后用盐酸调节滤液的 $\mathrm{{pH}}$ 达到 7,即可除去过量的 ${\mathrm{{Na}}}_{2}{\mathrm{{CO}}}_{3}$ 。"
+,
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",

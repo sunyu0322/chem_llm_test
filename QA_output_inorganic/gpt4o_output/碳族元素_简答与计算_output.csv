@@ -1,0 +1,323 @@
+query,true_answer,reasoning,model_answer,knowledge_accuracy,reasoning_accuracy,final_answer_accuracy
+"${\mathrm{\;N}}_{2}$ 和 $\mathrm{{CO}}$ 具有相同的分子轨道式和相似的分子结构,但 $\mathrm{{CO}}$ 与过渡金属形成配位化合物的能力比 ${\mathrm{N}}_{2}$ 强得多,请解释原因。","${\mathrm{\;N}}_{2}$ 与 $\mathrm{{CO}}$ 有相同的分子轨道式,原子间都为三重键,互为等电子体。但两者成键情况不完全相同。 ${\mathrm{N}}_{2}$ 分子结构为: $\mathrm{N} \equiv \mathrm{N} : ,\mathrm{{CO}}$ 分子结构为: $\mathrm{C} \leqq \mathrm{O} :$ ,由于 $\mathrm{{CO}}$ 分子中 $\mathrm{O}$ 向 $\mathrm{C}$ 有 $\pi$ 配键,使 $\mathrm{C}$ 原子周围电子密度增大,另外, $\mathrm{C}$ 的电负性比 $\mathrm{N}$ 小得多,束缚电子能力弱, 给电子对能力强, 因此, CO 配位能力强。","：  
+1. $\mathrm{CO}$ 和 $\mathrm{N_2}$ 都是小分子的二元化合物，且都具有三重键，电子数也相等（均为14个价电子）。因此，它们具有相似的分子结构和分子轨道式：$\mathrm{CO}$ 的分子轨道式为 $(\sigma_{2s})^2(\sigma^*_{2s})^2(\pi_{2p})^4(\sigma_{2p})^2(\pi^*_{2p})^0$，$\mathrm{N_2}$ 的分子轨道式相同。  
+
+2. 由于 $\mathrm{CO}$ 和 $\mathrm{N_2}$ 的电子结构相似，分子轨道中的最高占据分子轨道（HOMO）和最低未占分子轨道（LUMO）特性成为进一步分析配位能力的关键：  
+   - 在 $\mathrm{CO}$ 中，HOMO 是氧原子方向的孤对电子（位于杂化轨道 $\sigma$），具有较高的电子密度，容易与金属中心的空轨道形成配位键。  
+   - $\mathrm{N_2}$ 的 HOMO 是 $\pi$ 轨道，其电子云分布在整个分子轴周围，方向性较弱，与金属的相互作用较差。因而 $\mathrm{N_2}$ 以 $\pi$ 键方式参与配位的能力较弱。  
+
+3. 更重要的是，$\mathrm{CO}$ 还具有显著的 $\pi$* 轨道（即 LUMO）。$\mathrm{CO}$ 的 $\pi^*$ 轨道具有相当低的能量，它可以与过渡金属的 filled d 轨道发生强的 $\pi$ 背馈相互作用（回馈键 donation），从而稳定金属-配体键。$\mathrm{CO}$ 的这一双重作用（既能供电子又能接受电子）增强了其与过渡金属配位的能力。相比之下，$\mathrm{N_2}$ 的 $\pi$* 轨道能级更高（不利于电子回馈），其 $\pi$ 背馈能力远弱于 $\mathrm{CO}$，这降低了 $\mathrm{N_2}$ 与过渡金属配位的能力。
+
+4. 从化学性质上看，$\mathrm{CO}$ 中的氧原子带有孤对电子对，使它更容易作为路易斯碱与金属作用，而 $\mathrm{N_2}$ 在化学惰性方面较强，反应能力较低。  
+
+综上所述，$\mathrm{CO}$ 与过渡金属形成配位化合物的能力比 $\mathrm{N_2}$ 更强，归结于其 HOMO 的强供电子能力及 LUMO 的有效接受电子能力（$\pi$ 背馈），而 $\mathrm{N_2}$ 缺乏这些特性。",：$\mathrm{CO}$ 的 HOMO 为方向性强的孤对电子，便于供电子形成配位键，且其 LUMO 为低能量 $\pi^*$ 轨道，能与金属产生强 $\pi$ 背馈作用；而 $\mathrm{N_2}$ 的 $\pi$ 轨道方向性弱、$\pi^*$ 轨道接受电子能力较差，因此 $\mathrm{CO}$ 配位能力更强。,N/A,N/A,N/A
+"硅单质虽可有类似于金刚石的结构, 但其熔点、硬度却比金刚石差得多, 请解释原因。
+","Si 和 C 单质都可采取 ${\mathrm{{sp}}}^{3}$ 杂化形成金刚石型结构,但 $\mathrm{{Si}}$ 的半径比 $\mathrm{C}$ 大得多,因此 $\mathrm{{Si}} - \mathrm{{Si}}$ 键较弱, 键能低, 使单质硅的熔点、硬度比金刚石低得多。","：  
+硅单质的晶体结构与金刚石晶体的结构相似，都是以共价键为主、成四面体的正四面体结构。但硅单质的熔点和硬度比金刚石差得多，这与硅-硅(Si-Si)键和碳-碳(C-C)键的键能以及晶格的稳定性相关。以下具体分析：  
+
+1. **键能比较**：  
+   碳原子较小，与其他碳原子形成的C-C共价键键长较短，且键的重叠状况更好，因此C-C键的键能（约348 kJ/mol）较高。而硅原子较大，形成的Si-Si共价键键长更长，键的重叠程度较差，因此Si-Si键的键能（约226 kJ/mol）远小于C-C键的键能。因此硅-硅键相较于碳-碳键更容易被破坏，导致硅单质的熔点和硬度均比金刚石低。  
+
+2. **晶格稳定性**：  
+   金刚石晶体的晶格中，由于C-C键强度更高，结构更加紧密，因此晶体整体的机械强度、硬度和熔点较高。而硅晶体结构中由于Si-Si键能较低，晶体之间的键合较弱，导致整体晶格的稳定性较差，进而表现出较低的熔点和硬度。  
+
+综上，熔点和硬度差别的主要原因在于硅和碳的原子性质不同，导致键能和晶格稳定性不同。",：硅-硅共价键的键能低于碳-碳共价键，且晶格稳定性较差。,N/A,N/A,N/A
+"常温下 ${\mathrm{{SiF}}}_{4}$ 为气态, ${\mathrm{{SiCl}}}_{4}$ 为液态; 而 ${\mathrm{{SnF}}}_{4}$ 为固态, ${\mathrm{{SnCl}}}_{4}$ 为液态,请解释原因。","硅与氟和氯形成的化合物 ${\mathrm{{SiF}}}_{4},{\mathrm{{SiCl}}}_{4}$ 都是共价化合物,分子半径 ${\mathrm{{SiF}}}_{4} < {\mathrm{{SiCl}}}_{4}$ ,色散力 ${\mathrm{{SiF}}}_{4} < {\mathrm{{SiCl}}}_{4}$ ,因此熔点 ${\mathrm{{SiF}}}_{4} < {\mathrm{{SiCl}}}_{4}$ ,常温下 ${\mathrm{{SiF}}}_{4}$ 为气态, ${\mathrm{{SiCl}}}_{4}$ 为液态。
+
+在锡的四卤化物中,氟的电负性较大,只有 ${\mathrm{{SnF}}}_{4}$ 为离子化合物 (电负性差大)。而氯的电负性较小,与锡形成的 ${\mathrm{{SnCl}}}_{4}$ 为共价化合物 (电负性差 ${\Delta \chi } < {1.7}$ )。因而 ${\mathrm{{SnF}}}_{4}$ 熔点比 ${\mathrm{{SnCl}}}_{4}$ 高,常温下 ${\mathrm{{SnF}}}_{4}$ 为固态, ${\mathrm{{SnCl}}}_{4}$ 为液态。","：在解释 ${\mathrm{{SiF}}}_{4}$ 和 ${\mathrm{{SnF}}}_{4}$ 以及它们的氯化物 ${\mathrm{{SiCl}}}_{4}$ 和 ${\mathrm{{SnCl}}}_{4}$ 的物理状态时，需要考虑到分子间相互作用和分子结构的性质。
+
+1. **分子结构与作用力**：${\mathrm{{SiF}}}_{4}$ 和 ${\mathrm{{SiCl}}}_{4}$ 都是中心原子为硅的四面体结构。${\mathrm{{SnF}}}_{4}$ 和 ${\mathrm{{SnCl}}}_{4}$ 也是中心原子为锡的四面体结构。无论是硅还是锡的卤化物，它们的分子之间通过范德华力相互作用。
+
+2. **极性与偶极矩**：氟和氯的电负性不同，导致它们形成分子的极性不同。${\mathrm{{SiF}}}_{4}$ 是一个非极性分子，尽管个别Si-F键是极性的，但分子结构导致其偶极矩抵消。类似地，${\mathrm{{SiCl}}}_{4}$ 也是非极性分子。然而，锡基卤化物偶极矩的情况有所不同，尤其是 ${\mathrm{{SnF}}}_{4}$ 在固态下可能形成复杂的晶体结构，这与其分子间氢键或其他更强的静电作用力相关。
+
+3. **分子量与沸点**：分子量大的物质通常会具有较高的沸点，因为范德华力的强度与分子量的大小有关。${\mathrm{{SiF}}}_{4}$ 的分子量较小，加上非极性特性，使得它的沸点非常低，因此在常温下为气态。${\mathrm{{SiCl}}}_{4}$ 相对较重，且氯的极化率较大，使其液化较容易。
+
+4. **锡化合物**：然后考虑锡的化合物，${\mathrm{{SnF}}}_{4}$ 为固态，可能与其更复杂的晶体结构相关，其固态形式相比简单分子形式具有更高的稳定性。${\mathrm{{SnCl}}}_{4}$，尽管具有与${\mathrm{{SiCl}}}_{4}$ 类似的范德华力，但稍高的分子量可能使其保持液态。
+
+综上所述，分子间作用力、分子结构、偶极矩属性、以及分子量都是影响这些化合物在常温下物理状态的关键因素。",：通过考虑范德华力、分子量和晶体结构，解释了Si和Sn的氟化物和氯化物在常温下呈现不同的物理状态。,N/A,N/A,N/A
+为什么常温下 ${\mathrm{{SiO}}}_{2}$ 是一种熔点极高的无限聚合物固体而 ${\mathrm{{CO}}}_{2}$ 却是气体分子?,"${\mathrm{{CO}}}_{2}$ 属于分子晶体,晶体中质点之间的结合力属于分子间力。这种力远小于离子键和共价键的结合作用, 所以分子晶体一般来说熔点低, 在室温下多以气体形式存在。
+
+${\mathrm{{SiO}}}_{2}$ 属于原子晶体,原子晶体中原子间都是以共价键相互联结的。由于共价键十分强, 所以这类物质具有很高的熔点, 在室温下多以固体形式存在。
+
+总之,由于晶体类型的不同,所以常温下 ${\mathrm{{CO}}}_{2}$ 是气体,而 ${\mathrm{{SiO}}}_{2}$ 是固体。
+","：  
+SiO₂和CO₂都是由四个原子组成的化合物，但它们的结构和性质非常不同。首先，我们考虑这两个化合物的晶体结构和键合方式。SiO₂在常温下通常以石英的形式存在，具有一个三维的网络结构。每个硅原子通过共价键与四个氧原子相连，而每个氧原子则与两个硅原子相连，这种结构形成了一个扩展的三维网络。这种网络结构导致了SiO₂的高熔点和固体状态，因为要打破这些共价键需要相当多的能量。
+
+另一方面，CO₂分子是线性的，中心碳原子通过双键与两个氧原子相连。CO₂分子之间仅通过分子间作用力（如范德华力）相互吸引，而非共价键。由于这些分子间作用力相对较弱，CO₂在常温下为气态。这种分子结构和弱相互作用导致了CO₂的低熔点和沸点。
+
+综上所述，SiO₂的固体特性是由于其强大的共价键形成的三维网络结构，而CO₂由于其简单的线性分子结构和弱的范德华力导致其在常温下为气体。",：SiO₂是因其强大的共价三维网络结构而成为熔点极高的固体，而CO₂由于其线性分子结构及弱的范德华力导致其为气体。,N/A,N/A,N/A
+"为什么难溶的碳酸盐如 ${\mathrm{{CaCO}}}_{3}$ ,其酸式盐溶解度比正盐溶解度大; 而酸式盐 ${\mathrm{{NaHCO}}}_{3}$ , ${\mathrm{{KHCO}}}_{3}$ 的溶解度却小于相应的 ${\mathrm{{Na}}}_{2}{\mathrm{{CO}}}_{3},{\mathrm{\;K}}_{2}{\mathrm{{CO}}}_{3}$ ?","相对于 ${\mathrm{{CaCO}}}_{3}$ 等难溶的碳酸盐,碳酸氢盐 $\mathrm{{Ca}}{\left( {\mathrm{{HCO}}}_{3}\right) }_{2}$ 等的溶解度较大,原因可以归结为: ${\mathrm{{CaCO}}}_{3}$ 的解离必须克服 +2 价的离子与 -2 价的离子之间的引力:
+
+$$
+{\mathrm{{CaCO}}}_{3} = {\mathrm{{Ca}}}^{2 + } + {\mathrm{{CO}}}_{3}^{2 - }
+$$
+
+而 $\mathrm{{Ca}}{\left( {\mathrm{{HCO}}}_{3}\right) }_{2}$ 的解离只需克服 +2 价的离子与 -1 价的离子之间的引力:
+
+$$
+\mathrm{{Ca}}{\left( {\mathrm{{HCO}}}_{3}\right) }_{2} = {\mathrm{{Ca}}}^{2 + } + 2{\mathrm{{HCO}}}_{3}^{ - }
+$$
+
+所以通入 ${\mathrm{{CO}}}_{2}$ ,可以将 ${\mathrm{{CaCO}}}_{3}$ 转化成 $\mathrm{{Ca}}{\left( {\mathrm{{HCO}}}_{3}\right) }_{2}$ 而发生溶解:
+
+$$
+{\mathrm{{CaCO}}}_{3} + {\mathrm{{CO}}}_{2} + {\mathrm{H}}_{2}\mathrm{O} = \mathrm{{Ca}}{\left( {\mathrm{{HCO}}}_{3}\right) }_{2}
+$$
+
+相对于易溶的 ${\mathrm{{Na}}}_{2}{\mathrm{{CO}}}_{3}$ 和 ${\mathrm{K}}_{2}{\mathrm{{CO}}}_{3}$ 等,其碳酸氢盐 ${\mathrm{{NaHCO}}}_{3}$ 和 ${\mathrm{{KHCO}}}_{3}$ 的溶解度却相对较小, 其原因可以解释为碳酸氢根之间由于存在氢键而缔合成相对分子质量较大的酸根造成的。
+","：
+1. 首先，分析题目中提到的两个类型的化学物质：
+   - 一类是难溶碳酸盐（如 $\mathrm{CaCO}_3$）。
+   - 另一类是溶解性较好的碳酸盐及其相应酸式盐（如 $\mathrm{Na_2CO_3}$ 和 $\mathrm{NaHCO_3}$）。
+
+2. **难溶性碳酸盐及其酸式盐的溶解性**：
+   - $\mathrm{CaCO_3}$ 是一种非常难溶的盐，其溶解度受溶解平衡控制：
+     \[
+     \mathrm{CaCO_3(s) \leftrightarrow Ca^{2+}(aq) + CO_3^{2-}(aq)}
+     \]
+   - 当 $\mathrm{H^+}$ 存在时，由于 $\mathrm{H^+}$ 会与 $\mathrm{CO_3^{2-}}$ 反应生成 $\mathrm{HCO_3^-}$ 和进一步生成 $\mathrm{H_2CO_3}$，使 $\mathrm{CO_3^{2-}}$ 浓度降低，根据溶解平衡（勒夏特列原理），更多的 $\mathrm{CaCO_3}$ 会溶解。这导致酸式盐的溶解度比正盐高。
+
+3. **易溶性碳酸盐及其酸式盐的溶解性**：
+   - $\mathrm{Na_2CO_3}$ 和 $\mathrm{NaHCO_3}$ 都是易溶于水的盐，不存在溶解度的显著限制问题。其溶解性主要由离子间的水化自由能和晶格能决定。
+   - $\mathrm{NaHCO_3}$ 的溶解度偏低，是因为：
+     - 酸式盐形成的 $\mathrm{HCO_3^-}$ 离子在水中与 $\mathrm{CO_3^{2-}}$ 相比具有更大的晶格稳定性。
+     - 酸式盐的溶解生成 $\mathrm{HCO_3^-}$ 离子的电荷密度更低，其水化自由能较小，从而在水中溶解度降低。
+   - 而正盐（$\mathrm{Na_2CO_3}$ 和 $\mathrm{K_2CO_3}$）中，晶格能相对低，且 $\mathrm{CO_3^{2-}}$ 离子具有更大电荷密度，水化自由能较大，溶解性较高。
+
+4. **总结原因**：
+   - 对于难溶性碳酸盐（如 $\mathrm{CaCO_3}$），$\mathrm{H^+}$ 的存在对溶解度的影响占主导地位。
+   - 对于易溶性的碳酸盐，析晶过程中的晶格能与水化自由能差异影响更显著，因此酸式盐的溶解度往往较小。","：
+对于 $\mathrm{CaCO_3}$，酸式盐溶解度较大；对于 $\mathrm{NaHCO_3}$ 或 $\mathrm{KHCO_3}$，溶解度较小于对应的 $\mathrm{Na_2CO_3}$ 或 $\mathrm{K_2CO_3}$。",N/A,N/A,N/A
+"碳和硅都是 IV A 族元素, 为什么碳链构成的化合物有上千万种, 而由硅链构成的化合物却远不及碳的化合物那样多?","碳属于第二周期元素,原子半径很小,所以碳碳之间的 $\sigma$ 键,其原子轨道的 “头碰头”重叠程度很大,键很强,而且 $\pi$ 键的轨道 “肩并肩”重叠程度也很大。所以碳碳之间可以形成形形色色的链, 以构成上千万种的有机化合物。
+
+硅属于第三周期元素,原子半径比碳大,所以硅硅之间的 $\sigma$ 键,其原子轨道的 “头碰头”重叠程度远小于碳碳之间的 $\sigma$ 键,键很弱。其 $\pi$ 轨道 “肩并肩”重叠的可能性十分小,以至于不能形成硅硅双键和三键。故硅链构成的化合物仅有数种。
+","：
+1. **碳和硅的相似性**：碳（C）和硅（Si）同属元素周期表中的 IV A 族（现在称为14族），均具有4个价电子，因此能够通过共价键形成四个键的化合物。理论上，这两个元素都可以进行链状排列并形成多种化合物。
+
+2. **键能的比较**：碳碳单键（C-C）的键能约为 348 kJ/mol，而硅硅单键（Si-Si）的键能约为 226 kJ/mol，远低于 C-C 键。这表明 C-C 键更稳定，不易断裂，而 Si-Si 键较脆弱，在化学反应中更容易破坏。这种键稳定性的差异直接影响了碳和硅的链结构稳定性。
+
+3. **键长的影响**：C-C 键的键长为约 0.154 nm，而 Si-Si 键的键长为约 0.235 nm。较长的键长会导致硅链的键角偏转或空间位阻更大，从而使得硅链结构的整体稳定性下降，不利于形成长链和复杂的化学骨架。
+
+4. **π键的形成能力**：碳不仅能够形成稳定的σ键，还能通过p轨道重叠形成稳定的π键（如双键和三键），这使得碳可以构成多样化的共轭体系和复杂的有机化合物。而硅由于d轨道的参与较强以及p轨道重叠不良，π键极不稳定，硅化合物几乎以σ键主导，这严重限制了硅化学骨架的复杂性。
+
+5. **与氧的反应倾向**：硅对氧有极强的亲和性，易与氧结合形成 Si-O 键，这种键的键能高达约 368 kJ/mol，高于 C-C、Si-Si 甚至 C-H 键。这种强亲氧性导致硅在自然界中往往以二氧化硅、硅酸盐等形式存在，而很难形成硅链化合物。相比之下，碳的化学性质更加多样，不会强烈被氧所限制。
+
+6. **自然界分布及化学背景**：硅化学的复杂性和有机化学的广阔体系也与有机化合物（以碳为主）的存在形式相关。自然界以硅链为成分的化合物数量有限，未能发展成像有机化合物那样复杂的分支。","：碳链化合物种类的多样性远高于硅链化合物的原因在于以下几点：  
+(1) 碳碳键更稳定，硅硅键键能较低且键长更大，导致链结构不稳固；  
+(2) 碳易形成 π 键，硅基本只能形成 σ 键；  
+(3) 硅易与氧结合，限制了其孤立链状结构的形成。",N/A,N/A,N/A
+"$\mathrm{Pb}$ 的标准电极电势小于 $\mathrm{H}$ ,为什么 $\mathrm{Pb}$ 却不溶于稀盐酸和稀硫酸,而溶于热浓硫酸、浓盐酸及稀硝酸?","因为 $\mathrm{{Pb}}$ 与稀硫酸和稀盐酸反应的产物 ${\mathrm{{PbSO}}}_{4}$ 和 ${\mathrm{{PbCl}}}_{2}$ 是难溶或微溶化合物,阻止了反应的进行。在热浓硫酸、浓盐酸及稀硝酸中,由于能生成可溶性的 $\mathrm{{Pb}}{\left( {\mathrm{{HSO}}}_{4}\right) }_{2}$ , $\mathrm{H}\left\lbrack {\mathrm{{PbCl}}}_{3}\right\rbrack$ 和 $\mathrm{{Pb}}{\left( {\mathrm{{NO}}}_{3}\right) }_{2}$ ,故反应可以进行:
+
+$$
+\mathrm{{Pb}} + 3{\mathrm{H}}_{2}{\mathrm{{SO}}}_{4}\text{ (浓) } = \mathrm{{Pb}}{\left( {\mathrm{{HSO}}}_{4}\right) }_{2} + {\mathrm{{SO}}}_{2} \uparrow + 2{\mathrm{H}}_{2}\mathrm{O}
+$$
+
+$$
+\mathrm{{Pb}} + 3\mathrm{{HCl}}\text{ (浓) } = \mathrm{H}\left\lbrack {\mathrm{{PbCl}}}_{3}\right\rbrack + {\mathrm{H}}_{2} \uparrow
+$$
+
+$$
+3\mathrm{\;{Pb}} + 8{\mathrm{{HNO}}}_{3} = 3\mathrm{\;{Pb}}{\left( {\mathrm{{NO}}}_{3}\right) }_{2} + 2\mathrm{{NO}} \uparrow + 4{\mathrm{H}}_{2}\mathrm{O}
+$$
+","：  
+1. 标准电极电势表示的是氧化还原反应的可逆性趋势。$\mathrm{Pb}$ 的标准电极电势为 $-0.13\,\mathrm{V}$，而 $\mathrm{H}^+/\mathrm{H}_2$ 的标准电势为 $0\,\mathrm{V}$，因此从电极电势来看，$\mathrm{Pb}$ 的还原性更强，更容易失去电子被氧化，理论上可以与酸反应。
+
+2. $\mathrm{Pb}$ 不溶于稀盐酸和稀硫酸的原因不是热力学限制，而是因为其表面会生成一层难溶于水的保护性薄膜，阻止其进一步与酸接触。对于稀盐酸，$\mathrm{PbCl_2}$ 的溶解度较小，会在金属表面形成一层保护性氯化铅沉淀。而在稀硫酸中，$\mathrm{PbSO_4}$ 是一种非常难溶的盐，能在 $\mathrm{Pb}$ 表面形成保护膜，从而减缓甚至阻止金属的溶解。
+
+3. 热浓硫酸、浓盐酸和稀硝酸则因为特殊反应条件而能溶解 $\mathrm{Pb}$：
+   - **热浓硫酸**：由于高温和高浓度，热浓硫酸能强烈氧化 $\mathrm{Pb}$（$\mathrm{Pb}$ 被氧化为 $\mathrm{PbSO_4}$ 或 $\mathrm{Pb^{2+}}$），并且浓硫酸脱水性质较强，会破坏部分表面保护膜，使溶解反应得以发生。
+   - **浓盐酸**：高浓度的 $\mathrm{HCl}$ 提供大量 $\mathrm{Cl^-}$ 离子，破坏保护性的 $\mathrm{PbCl_2}$ 薄膜并驱动溶解反应进行。
+   - **稀硝酸**：$\mathrm{HNO_3}$ 是强氧化性酸，其强烈氧化能力可以使 $\mathrm{Pb}$ 与 $\mathrm{NO_3^-}$ 生成可溶性铅盐，例如 $\mathrm{Pb(NO_3)_2}$，不存在表面保护膜的问题，因此 $\mathrm{Pb}$ 可以溶解。",：表面生成保护膜阻止稀酸反应，高浓酸和稀硝酸可通过氧化性和条件破坏反应。,N/A,N/A,N/A
+"解释实验现象:向 ${\mathrm{{SnCl}}}_{4}$ 溶液中滴加 ${\mathrm{{Na}}}_{2}\mathrm{\;S}$ 溶液,有沉淀生成,继续滴加沉淀又溶解,再以稀盐酸处理此溶液, 又析出沉淀。","${\mathrm{{SnCl}}}_{4}$ 与 ${\mathrm{{Na}}}_{2}\mathrm{\;S}$ 反应生成难溶的 ${\mathrm{{SnS}}}_{2}$ 沉淀:
+
+$$
+{\mathrm{{SnCl}}}_{4} + 2{\mathrm{{Na}}}_{2}\mathrm{\;S} = {\mathrm{{SnS}}}_{2} \downarrow + 4\mathrm{{NaCl}}
+$$
+
+酸性硫化物 ${\mathrm{{SnS}}}_{2}$ 可溶于碱性硫化物 ${\mathrm{{Na}}}_{2}\mathrm{\;S}$ 中,故沉淀又溶解:
+
+$$
+{\mathrm{{SnS}}}_{2} + {\mathrm{{Na}}}_{2}\mathrm{\;S} = {\mathrm{{Na}}}_{2}{\mathrm{{SnS}}}_{3}
+$$
+
+硫代酸盐不稳定, 遇到酸发生分解, 重新生成硫化物沉淀:
+
+$$
+{\mathrm{{Na}}}_{2}{\mathrm{{SnS}}}_{3} + 2\mathrm{{HCl}} = {\mathrm{{SnS}}}_{2} \downarrow + {\mathrm{H}}_{2}\mathrm{\;S} \uparrow + 2\mathrm{{NaCl}}
+$$
+","：
+首先，${\mathrm{SnCl}}_{4}$ 溶液中含有 ${\mathrm{Sn}}^{4+}$ 离子。当加入 ${\mathrm{Na}}_2\mathrm{S}$ 溶液时，${\mathrm{S}}^{2-}$ 离子与 ${\mathrm{Sn}}^{4+}$ 离子反应生成硫化锡（IV），即 ${\mathrm{SnS}}_{2}$，产生黄色沉淀：
+\[
+\mathrm{Sn^{4+} + 2S^{2-} \rightarrow SnS_{2}\downarrow}
+\]
+
+继续加入 ${\mathrm{Na}}_2\mathrm{S}$ 溶液时，过量的硫化物离子（${\mathrm{S}}^{2-}$）可以与硫化锡反应形成可溶性的硫代锡酸盐复合离子，导致沉淀溶解：
+\[
+\mathrm{SnS_{2} + S^{2-} \rightarrow [SnS_{3}]^{2-}}
+\]
+
+当再以稀盐酸处理此溶液时，盐酸中的氢离子（${\mathrm{H}}^{+}$）与硫代锡酸根复合离子作用，使硫代锡酸盐复合物失去稳定性，${\mathrm{SnS}}_{2}$ 沉淀重新析出：
+\[
+\mathrm{[SnS_{3}]^{2-} + 2H^+ \rightarrow SnS_{2}\downarrow + H_2S}
+\]",：${\mathrm{SnS}}_{2}$,N/A,N/A,N/A
+"解释实验现象:向盛有 $\mathrm{{Pb}}{\left( {\mathrm{{NO}}}_{3}\right) }_{2}$ 溶液的试管中加入 $\mathrm{{KI}}$ 溶液,生成黄色沉淀; 将试管加热则沉淀溶解; 再将试管缓慢冷却到室温, 有金黄色针状晶体析出。","$\mathrm{{Pb}}{\left( {\mathrm{{NO}}}_{3}\right) }_{2}$ 溶液与 $\mathrm{{KI}}$ 溶液反应,生成黄色沉淀 ${\mathrm{{PbI}}}_{2}$ :
+
+$$
+\mathrm{{Pb}}{\left( {\mathrm{{NO}}}_{3}\right) }_{2} + 2\mathrm{{KI}} = {\mathrm{{PbI}}}_{2} \downarrow + 2{\mathrm{{KNO}}}_{3}
+$$
+
+${\mathrm{{PbI}}}_{2}$ 溶于热水则沉淀消失,同时在过量 $\mathrm{{KI}}$ 溶液中有配离子生成:
+
+$$
+{\mathrm{{PbI}}}_{2} + {\mathrm{I}}^{ - } = {\left\lbrack {\mathrm{{PbI}}}_{3}\right\rbrack }^{ - }
+$$
+
+缓慢冷却至室温,析出金黄色晶体 ${\mathrm{{PbI}}}_{2}$ 。","：  
+1. 分析第一步实验现象：向盛有 $\mathrm{Pb}(\mathrm{NO}_3)_2$ 溶液中加入 $\mathrm{KI}$ 溶液时，生成了黄色沉淀。这表明发生了双重置换反应，产生了不溶于水的碘化铅 ($\mathrm{PbI_2}$)，其化学方程式为：  
+   \[
+   \mathrm{Pb}(\mathrm{NO}_3)_2(aq) + 2\mathrm{KI}(aq) \rightarrow \mathrm{PbI_2}(s) + 2\mathrm{KNO}_3(aq)
+   \]
+   其中 $\mathrm{PbI_2}$ 为黄色沉淀。  
+
+2. 分析第二步现象：试管加热时，黄色沉淀溶解。这是因为 $\mathrm{PbI_2}$ 的溶解度随温度升高而增大，加热使更多的 $\mathrm{PbI_2}$ 溶解在溶液中，形成饱和溶液。  
+
+3. 分析第三步现象：试管冷却到室温时，有金黄色针状晶体析出。随着温度降低，溶解度减小，部分溶解的 $\mathrm{PbI_2}$ 以晶体的形式重新析出。这种晶体为 $\mathrm{PbI_2}$ 的特征性晶体，呈金黄色针状。  
+
+综合分析可知，这一实验现象主要与 $\mathrm{PbI_2}$ 的溶解度随温度变化以及晶体形态特性有关。","：  
+1. 初始生成黄色沉淀是 $\mathrm{PbI_2}$。  
+2. 加热时沉淀溶解是因为 $\mathrm{PbI_2}$ 溶解度随温度升高而增大。  
+3. 冷却后析出的金黄色针状晶体是 $\mathrm{PbI_2}$。",N/A,N/A,N/A
+"灰黑色固体单质 (A) 在常温下不与酸反应, 与浓 NaOH 溶液作用时生成无色溶液 (B) 和气体 $\left( \mathrm{C}\right)$ 。气体 $\left( \mathrm{C}\right)$ 在灼热的条件下可以将一黑色的氧化物还原成红色金属 $\left( \mathrm{D}\right)$ 。 $\left( \mathrm{A}\right)$ 在很高的温度下与氧气作用的产物为白色固体 (E)。(E) 与氢氟酸作用时能产生无色气体 $\left( \mathrm{F}\right)$ 。 $\left( \mathrm{F}\right)$ 通入水中时生成白色沉淀 $\left( \mathrm{G}\right)$ 及溶液 $\left( \mathrm{H}\right)$ 。 $\left( \mathrm{G}\right)$ 用适量的 $\mathrm{{NaOH}}$ 溶液处理得溶液 $\left( \mathrm{B}\right)$ 。试给出 $\left( \mathrm{A}\right) \text{、}\left( \mathrm{B}\right) \text{、}\left( \mathrm{C}\right) \text{、}\left( \mathrm{D}\right) \text{、}\left( \mathrm{E}\right) \text{、}\left( \mathrm{F}\right) \text{、}\left( \mathrm{G}\right)$ 和 $\left( \mathrm{H}\right)$ 所代表的物质的化学式。","(A)-Si; (B) $- {\mathrm{{Na}}}_{2}{\mathrm{{SiO}}}_{3}$ ; (C) $- {\mathrm{H}}_{2}$ ; (D)-Cu; (E) $- {\mathrm{{SiO}}}_{2}$ ; (F) $- {\mathrm{{SiF}}}_{4}$ ;
+
+(G) $- {\mathrm{H}}_{4}{\mathrm{{SiO}}}_{4}$ ; (H) $- \mathrm{{HF}} + {\mathrm{H}}_{2}{\mathrm{{SiF}}}_{6}$ 。","：
+1. 灰黑色固体单质 (A) 在常温下不与酸反应，与浓 NaOH 溶液作用时生成 (B) 和气体 (C)。单质在常温下不与酸反应，可能是碳（C），因为碳的确在常温下不与无机酸如盐酸、硫酸反应。碳与浓 NaOH 溶液在高温下反应生成无色溶液（碳酸钠，Na2CO3）和气体（氢气，H2），所以 (A) 是 C，(B) 是 Na2CO3，(C) 是 H2。
+
+2. 气体 (C) 氢气在灼热条件下可以将一黑色氧化物还原成红色金属 (D)。氢气可以将氧化铜(II)（CuO）还原成铜（Cu），CuO 是黑色固体，而 Cu 是红色金属。因此，(D) 是 Cu。
+
+3. 单质 (A) 在高温下与氧气作用生成白色固体 (E)。碳与氧气反应生成二氧化碳（CO2），尽管 CO2 不是固体，但是因为题目的其他条件，我们可以推断此处反应产物我们仍按 CO2 考虑，(E) 是 CO2。
+
+4. (E) 与氢氟酸作用时能产生无色气体 (F)。二氧化碳（CO2）和氢氟酸（HF）会生成无色气体CO2水解为碳酸（H2CO3），不稳定且大部分CO2会释放回环境中。在这里只能这样理解 (F) 是 CO2。
+
+5. (F) 通入水中时生成白色沉淀 (G) 及溶液 (H)。CO2 通入石灰水(Ca(OH)2)中生成 CaCO3 沉淀和水，因此 (G) 是 CaCO3，(H) 是水。
+
+6. (G) 用适量的 NaOH 溶液处理得溶液 (B)。CaCO3 与 NaOH 反应生成 Na2CO3，在此条件下系统内反应相当于置换反应，因此 (B) 是 Na2CO3。","：
+(A) C  
+(B) Na2CO3  
+(C) H2  
+(D) Cu  
+(E) CO2  
+(F) CO2  
+(G) CaCO3  
+(H) H2O",N/A,N/A,N/A
+"金属 (M) 与过量的干燥氯气共热得无色液体 (A), (A) 与金属 (M) 作用转化为固体 (B)。 将 $\left( \mathrm{A}\right)$ 溶于盐酸后通入 ${\mathrm{H}}_{2}\mathrm{\;S}$ 气体得黄色沉淀 $\left( \mathrm{C}\right) ,\left( \mathrm{C}\right)$ 溶于 ${\mathrm{{Na}}}_{2}\mathrm{\;S}$ 溶液得无色溶液 $\left( \mathrm{D}\right)$ 。 将 $\left( \mathrm{B}\right)$ 溶于稀盐酸后加入适量 ${\mathrm{{HgCl}}}_{2}$ 有白色沉淀 $\left( \mathrm{E}\right)$ 生成。向 $\left( \mathrm{B}\right)$ 的盐酸溶液中加入适量 $\mathrm{{NaOH}}$ 溶液有白色沉淀 $\left( \mathrm{F}\right)$ 生成。 $\left( \mathrm{F}\right)$ 溶于过量 $\mathrm{{NaOH}}$ 溶液得无色溶液 $\left( \mathrm{G}\right)$ 。向 $\left( \mathrm{G}\right)$ 中加入 ${\mathrm{{BiCl}}}_{3}$ 溶液有黑色沉淀 $\left( \mathrm{H}\right)$ 生成。试给出 $\left( \mathrm{M}\right) \text{、}\left( \mathrm{A}\right) \text{、}\left( \mathrm{B}\right) \text{、}\left( \mathrm{C}\right) \text{、}\left( \mathrm{D}\right) \text{、}\left( \mathrm{E}\right) \text{、}\left( \mathrm{F}\right) \text{、}\left( \mathrm{G}\right)$ 和 $\left( \mathrm{H}\right)$ 所代表的物质的化学式。","(M)-Sn; (A)-SnC ${\mathrm{l}}_{4}$ ; (B)-SnC ${\mathrm{l}}_{2}$ ; (C)-SnS ${}_{2}$ ; (D) $- {\mathrm{{Na}}}_{2}{\mathrm{{SnS}}}_{3}$ ; (E) $- {\mathrm{{Hg}}}_{2}{\mathrm{{Cl}}}_{2}$ ;
+
+(F)- $\mathrm{{Sn}}{\left( \mathrm{{OH}}\right) }_{2}$ ; (G)- ${\mathrm{{Na}}}_{2}\left\lbrack {\mathrm{{Sn}}{\left( \mathrm{{OH}}\right) }_{4}}\right\rbrack$ ; (H)- $\mathrm{{Bi}}$ 。","：
+1. 金属 (M) 与过量的干燥氯气反应得无色液体 (A)，这种情况下，可能是生成氯化物。在金属和氯气反应生成液体的情形中，较为典型的是氯化亚锡 (SnCl2)。
+
+2. (A) 与金属 (M) 作用转化为固体 (B)，说明 (A) 是一种可以被还原回金属 (M) 的物质。在此假设 (A) 是 SnCl2，那么 (B) 可为金属锡 (Sn)。
+
+3. 将 (A) 溶于盐酸后通入 H2S 得黄色沉淀 (C)，黄色沉淀是典型的硫化镉 (CdS)、硫化铅 (PbS)、或者硫化锡 (SnS2) 等。考虑到前面的反应是与 SnCl2 相关，(C) 可为 SnS2。
+
+4. (C) 溶于 Na2S 溶液得无色溶液 (D)，SnS2 是属于溶于硫化碱生成无色可溶性多硫化物溶液的，所以 (D) 应为 Na2[SnS3]。
+
+5. (B) 溶于稀盐酸后加入 HgCl2 有白色沉淀 (E)，这个反应典型的实例为锡与氯化汞的反应生成氯化亚汞 (Hg2Cl2)，故 (E) 是 Hg2Cl2。
+
+6. 向 (B) 的盐酸溶液中加入适量 NaOH 溶液有白色沉淀 (F)，进一步推测该反应中白色沉淀是氢氧化亚锡 (Sn(OH)2)。
+
+7. (F) 溶于过量 NaOH 溶液得无色溶液 (G)，意味着形成了偏亚锡酸钠即 Na2[Sn(OH)4]或Na2SnO2。
+
+8. 向 (G) 中加入 BiCl3 感受有黑色沉淀 (H) ，这合金于Bi反应生成Bi2S3，结合前面步骤猜测与Bi有关，可能结合有硫化物部分，所以可考虑Bi (OH)3沉淀之后进一步与其他液体反应呈现出相应的黑色组合沉淀。","：
+- (M) : Sn
+- (A) : SnCl2
+- (B) : Sn
+- (C): SnS2
+- (D): Na2[SnS3]
+- (E): Hg2Cl2
+- (F): Sn(OH)2
+- (G): Na2[Sn(OH)4]
+- (H): Bi(OH)3",N/A,N/A,N/A
+"某白色固体 (A),置于水中生成白色沉淀 (B) 和无色溶液 (C)。将 ${\mathrm{{AgNO}}}_{3}$ 溶液加入溶液 (C), 析出白色沉淀 (D), (D) 溶于氨水得溶液 (E)。向 (E) 中加入 KI, 生成黄色沉淀 (F), 再加入 $\mathrm{{NaCN}}$ 时沉淀 $\left( \mathrm{F}\right)$ 溶解。酸化溶液 $\left( \mathrm{E}\right)$ ,又产生白色沉淀 $\left( \mathrm{D}\right)$ 。将 ${\mathrm{H}}_{2}\mathrm{\;S}$ 气体通入溶液 $\left( \mathrm{C}\right)$ ,产生灰色沉淀 $\left( \mathrm{G}\right)$ 。 $\left( \mathrm{G}\right)$ 溶于 ${\mathrm{{Na}}}_{2}{\mathrm{\;S}}_{2}$ ,形成溶液。酸化该溶液时得黄色沉淀 (H)。少量溶液 $\left( \mathrm{C}\right)$ 加入 ${\mathrm{{HgCl}}}_{2}$ 溶液得白色沉淀 $\left( \mathrm{I}\right)$ ,继续加入溶液 $\left( \mathrm{C}\right)$ ,沉淀 $\left( \mathrm{I}\right)$ 逐渐变灰, 最后变为黑色沉淀 (J)。试给出 (A)、(B)、(C)、(D)、(E)、(F)、(G)、(H)、(I) 和 (J) 所代表的物质的化学式。","(A)$\mathrm{{SnCl}}}_{2}$ ; (B)- $\mathrm{{Sn}}\left( \mathrm{{OH}}\right) \mathrm{{Cl}}$ ; (C) $- {\mathrm{{Sn}}}^{2 + }\text{、}{\mathrm{{Cl}}}^{ - }$ ; (D) $- \mathrm{{AgCl}}$ ; (E) $- {\left\lbrack \mathrm{{Ag}}{\left( {\mathrm{{NH}}}_{3}\right) }_{2}\right\rbrack }^{ + }\text{、}{\mathrm{{Cl}}}^{ - }$ ;
+
+(F)-AgI; (G)-SnS; (H)-SnS ${}_{2}$ ; (I)-Hg ${}_{2}{\mathrm{{Cl}}}_{2}$ ; (J)-Hg。","：
+1. 白色固体 (A) 在水中生成白色沉淀 (B) 和无色溶液 (C)，这是一种常见的硫化物、氢氧化物或卤化物溶解过程。
+2. 溶液 (C) 与 ${\mathrm{AgNO}}_{3}$ 反应，生成的白色沉淀 (D) 是氯化银，因为氯化银是白色且溶于氨水。
+3. （D）溶于氨水得溶液 (E) 是因为氨水可以溶解氯化银，形成Ag(NH3)2+。
+4. 向溶液 (E) 中加入 KI，生成黄色沉淀 (F)，此处 (F) 是碘化银（AgI），其特性是与氰化钠结合形成可溶性配合物溶解。
+5. 酸化溶液 (E)，又产生白色沉淀 (D)，这说明 (D) 不稳定于酸中，又析出氯化银 (AgCl)。
+6. 向溶液 (C) 通入 ${\mathrm{H}}_{2}\mathrm{S}$，生成灰色沉淀 (G)，说明溶液 (C) 中存在镉离子，与 ${\mathrm{H}}_{2}\mathrm{S}$ 反应生成灰色硫化镉 (CdS)。
+7. (G) 溶于 ${\mathrm{Na}}_{2}{\mathrm{S}}_{2}$，形成络合物，酸化后产生黄色沉淀 (H)，说明 (H) 是硫化镉 (CdS)，但由于可逆反应未有变化，仅颜色不同。
+8. 溶液 (C) 与 ${\mathrm{HgCl}}_{2}$ 反应生成初始白色沉淀 (I) 是氯化亚汞 (Hg2Cl2)，继续加入溶液 (C)，（I）逐渐变灰最后变黑形成单质汞 (Hg)，表明 (C) 中的还原性。
+9. 整理下 (A) 是主要提供 (C) 中离子的来源，为CdCl2。","：
+- (A) CdCl2
+- (B) Cd(OH)2
+- (C) Cd^2+
+- (D) AgCl
+- (E) [Ag(NH3)2]+
+- (F) AgI
+- (G) CdS
+- (H) CdS
+- (I) Hg2Cl2
+- (J) Hg",N/A,N/A,N/A
+"金属(A) 难溶于稀盐酸。(A) 溶于稀硝酸得(B) 的无色溶液和无色气体(C)。(C) 在空气中转变为红棕色气体 (D)。在 (B) 的水溶液中加入盐酸, 产生白色沉淀 (E)。(E) 不溶于氨水,但与 ${\mathrm{H}}_{2}\mathrm{\;S}$ 反应生成黑色沉淀 $\left( \mathrm{F}\right)$ 。 $\left( \mathrm{F}\right)$ 溶于硝酸生成无色气体 $\left( \mathrm{C}\right)$ 、浅黄色沉淀 (G) 和 (B) 溶液。向 (B) 溶液中加入 $\mathrm{{NaOH}}$ 溶液生成白色沉淀 (H), $\mathrm{{NaOH}}$ 溶液过量时 (H) 溶解, 得到无色溶液 (I)。向溶液 (I) 中加入氯水有棕黑色沉淀 (J) 生成。向 (J) 中加人热的酸性 ${\mathrm{{MnSO}}}_{4}$ 溶液,溶液变红。试给出 $\left( \mathrm{A}\right) \text{、}\left( \mathrm{B}\right) \text{、}\left( \mathrm{C}\right) \text{、}\left( \mathrm{D}\right) \text{、}\left( \mathrm{E}\right) \text{、}\left( \mathrm{F}\right) \text{、}\left( \mathrm{G}\right) \text{、}\left( \mathrm{H}\right)$ 、 (I) 和 (J) 所代表的物质的化学式。","(A)-Pb; (B)-Pb(NO ${}_{3}{\text{)}}_{2}$ ; (C)-NO; (D)-NO ${}_{2}$ ; (E)-PbCl ${}_{2}$ ; (F)-PbS;
+
+(G)-S; (H)-Pb(OH) ${}_{2}$ ; (I)- ${\mathrm{{Na}}}_{2}\left\lbrack {\mathrm{{Pb}}{\left( \mathrm{{OH}}\right) }_{4}}\right\rbrack$ 或 $\mathrm{{Na}}\left\lbrack {\mathrm{{Pb}}{\left( \mathrm{{OH}}\right) }_{3}}\right\rbrack$ ; (J) $- {\mathrm{{PbO}}}_{2}$ 。","： 
+1. 金属 (A) 难溶于稀盐酸，溶于稀硝酸生成无色溶液 (B) 和无色气体 (C)，气体 (C) 在空气中变为红棕色气体 (D)。常见的金属银 (Ag)，生成的无色气体为NO，接触空气变成红棕色气体NO₂。因此，A是Ag，B是AgNO₃，C是NO，D是NO₂。
+
+2. 在 (B) 的水溶液中加入盐酸产生白色沉淀 (E)，该过程通常为Ag⁺与Cl⁻结合生成AgCl沉淀，因此(E)是AgCl。
+
+3. (E) 不溶于氨水，但与H₂S反应生成黑色沉淀 (F)，根据AgCl与硫化氢生成Ag₂S黑色沉淀，(F)是Ag₂S。
+
+4. (F) 溶于硝酸生成无色气体 (C)、浅黄色沉淀 (G) 和 (B) 溶液。Ag₂S和HNO₃的反应，生成NO气体，S元素形成浅黄色沉淀S，并重现AgNO₃，所以(G)是S。
+
+5. 向 (B) 溶液中加入NaOH生成白色沉淀 (H)，银离子与氢氧根离子结合生成Ag₂O白色沉淀，因此(H)是Ag₂O。
+
+6. NaOH溶液过量时 (H) 溶解为无色溶液 (I)，与银氢氧化物的溶解性分析可知，溶液I可能为[Ag(OH)₂]⁺形式。
+
+7. 向溶液 (I) 中加入氯水生成棕黑色沉淀 (J)，氯水氧化作用生成AgCl，依据为J是AgCl。
+
+8. 向 (J) 中加入热的酸性MnSO₄溶液后溶液变红，说明Mn²⁺转化为MnO₄⁻，银作为催化剂，加速了该转化过程，符合无色变红现象。","：
+(A) Ag 、 (B) AgNO₃ 、 (C) NO 、 (D) NO₂ 、 (E) AgCl 、 (F) Ag₂S 、 (G) S 、 (H) Ag₂O 、 (I) [Ag(OH)₂]⁺ 、 (J) AgCl",N/A,N/A,N/A
+"无色晶体 $\left( \mathrm{A}\right)$ 加热后有红棕色气体 $\left( \mathrm{B}\right)$ 生成。向 $\left( \mathrm{A}\right)$ 的水溶液中加入盐酸有白色沉淀 (C) 生成, 盐酸过量时沉淀 (C) 溶解得到 (D)。若向 (A) 的水溶液中加入 KI 溶液, 则有黄色沉淀 (E) 生成。向 (A) 的水溶液中滴加 $\mathrm{{NaOH}}$ 溶液有白色沉淀 (F) 生成, $\mathrm{{NaOH}}$ 过量则沉淀 $\left( \mathrm{F}\right)$ 溶解。将气体 $\left( \mathrm{B}\right)$ 通入水中生成 $\left( \mathrm{G}\right)$ ,并放出无色气体 $\left( \mathrm{H}\right)$ 。沉淀 $\left( \mathrm{F}\right)$ 溶于适量 $\left( \mathrm{G}\right)$ 中形成的溶液,结晶后可以得到 $\left( \mathrm{A}\right)$ 。试给出 $\left( \mathrm{A}\right) \text{、}\left( \mathrm{B}\right) \text{、}\left( \mathrm{C}\right) \text{、}\left( \mathrm{D}\right) \text{、}\left( \mathrm{E}\right) \text{、}\left( \mathrm{F}\right) \text{、}\left( \mathrm{G}\right)$ 和 $\left( \mathrm{H}\right)$ 所代表的物质的化学式。","(A)- $\mathrm{{Pb}}{\left( {\mathrm{{NO}}}_{3}\right) }_{2}$ ; (B)- ${\mathrm{{NO}}}_{2}$ ; (C)- ${\mathrm{{PbCl}}}_{2}$ ; (D) $- {\left\lbrack {\mathrm{{PbCl}}}_{4}\right\rbrack }^{2 - }$ ; (E) $- {\mathrm{{PbI}}}_{2}$ ;
+
+(F) $- \mathrm{{Pb}}{\left( \mathrm{{OH}}\right) }_{2}$ ; (G) $- {\mathrm{{HNO}}}_{3}$ ; (H) $- \mathrm{{NO}}$ 。","：
+1. 无色晶体 $\left( \mathrm{A}\right)$ 加热生成红棕色气体 $\left( \mathrm{B}\right)$，典型的反应是硝酸盐（如 $\mathrm{Pb(NO_3)_2}$）加热产生红棕色的 $\mathrm{NO_2}$ 气体。$\mathrm{(A)}$ 很可能为 $\mathrm{Pb(NO_3)_2}$。
+   
+2. 向 $\left( \mathrm{A}\right)$ 的水溶液中加入 $\mathrm{HCl}$，形成白色沉淀 $\left( \mathrm{C}\right)$，可以是 $\mathrm{PbCl_2}$，因为 $\mathrm{Pb^{2+}}$ 离子和氯化物形成难溶的白色沉淀。
+
+3. 盐酸过量时，白色沉淀 $\left( \mathrm{C}\right)$ 溶解，形成可溶的氯化铅复合物，$\mathrm{PbCl_4^{2-}}$，称为 $\left( \mathrm{D}\right)$。
+
+4. 向 $\left( \mathrm{A}\right)$ 的水溶液中加入 $\mathrm{KI}$ 形成黄色沉淀 $\left( \mathrm{E}\right)$，即 $\mathrm{PbI_2}$，常见的铅盐与碘化物反应。
+
+5. 向 $\left( \mathrm{A}\right)$ 的水溶液中滴加 $\mathrm{NaOH}$ 溶液有白色沉淀 $\left( \mathrm{F}\right)$，为 $\mathrm{Pb(OH)_2}$，再加过量 $\mathrm{NaOH}$ 溶解生成 $\mathrm{[Pb(OH)_4]^{2-}}$。
+
+6. 红棕色气体 $\left( \mathrm{B}\right)$ 通入水中生成 $\mathrm{HNO_3}$ (溶液$\left( \mathrm{G}\right)$)并放出 $\mathrm{NO}$ （无色气体$\left( \mathrm{H}\right)$）。
+
+7. 白色沉淀 $\left( \mathrm{F}\right)$ 溶于适量 $\left( \mathrm{G}\right)$ 中形成的溶液，结晶后可以得到 $\left( \mathrm{A}\right)$，即继续生成 $\mathrm{Pb(NO_3)_2}$。","：
+(A): $\mathrm{Pb(NO_3)_2}$, (B): $\mathrm{NO_2}$, (C): $\mathrm{PbCl_2}$, (D): $\mathrm{PbCl_4^{2-}}$, (E): $\mathrm{PbI_2}$, (F): $\mathrm{Pb(OH)_2}$, (G): $\mathrm{HNO_3}$, (H): $\mathrm{NO}$",N/A,N/A,N/A
+"将白色粉末 (A) 加热得黄色固体 (B) 和无色气体 (C)。(B) 溶于硝酸得无色溶液 (D), 向 (D) 中加入 ${\mathrm{K}}_{2}{\mathrm{{CrO}}}_{4}$ 溶液得黄色沉淀 (E)。向 (D) 中加入 $\mathrm{{NaOH}}$ 溶液至碱性,有白色沉淀 $\left( \mathrm{F}\right)$ 生成, $\mathrm{{NaOH}}$ 过量时白色沉淀溶解得无色溶液。将气体 $\left( \mathrm{C}\right)$ 通入石灰水中产生白色沉淀 $\left( \mathrm{G}\right)$ ,将 $\left( \mathrm{G}\right)$ 投入酸中,又有气体 $\left( \mathrm{C}\right)$ 放出。试给出 $\left( \mathrm{A}\right) \text{、}\left( \mathrm{B}\right) \text{、}\left( \mathrm{C}\right) \text{、}\left( \mathrm{D}\right) \text{、}\left( \mathrm{E}\right) \text{、}\left( \mathrm{F}\right)$ 和 (G) 所代表的物质的化学式。","$\left( \mathrm{A}\right) - {\mathrm{{PbCO}}}_{3}$ ; (B) $- \mathrm{{PbO}}$ ; (C) $- {\mathrm{{CO}}}_{2}$ ; (D) $- \mathrm{{Pb}}{\left( {\mathrm{{NO}}}_{3}\right) }_{2}$ ; (E) $- {\mathrm{{PbCrO}}}_{4}$ ;
+
+(F) $- \mathrm{{Pb}}{\left( \mathrm{{OH}}\right) }_{2}$ ; (G) $- {\mathrm{{CaCO}}}_{3}$ 。","：
+1. 根据题目信息，(A) 在加热后产生黄色固体 (B) 和无色气体 (C)，且 (B) 是黄色，初步考虑到 (A) 是一种分解能形成带颜色固体和气体的白色粉末化合物。
+
+2. 黄色固体 (B) 溶于硝酸形成 (D)：黄色固体可能是氧化物，例如氧化铅 \(\mathrm{PbO}\)，溶于硝酸形成可溶性铅盐 \(\mathrm{Pb(NO_3)_2}\)。
+
+3. 向 (D)（\(\mathrm{Pb(NO_3)_2}\) 溶液）加入 \(\mathrm{K_2CrO_4}\)，得到黄色沉淀 (E)。黄色沉淀符合化学反应 \(\mathrm{Pb^{2+} + CrO_4^{2-} \rightarrow PbCrO_4}\)，(E) 是铬酸铅 (\(\mathrm{PbCrO_4}\))。
+
+4. 将 (D) 中加入 \(\mathrm{NaOH}\) 至碱性，生成白色沉淀 (F)，进一步说明含有 \(\mathrm{Pb^{2+}}\)，因为反应为 \(\mathrm{Pb^{2+} + 2OH^- \rightarrow Pb(OH)_2}\)。
+
+5. 在 \(\mathrm{NaOH}\) 过量时，白色沉淀溶解，形成无色溶液，说明 \(\mathrm{Pb(OH)_2}\) 是两性氢氧化物，与过量碱作用生成可溶性铅酸盐 \(\mathrm{[Pb(OH)_4]^{2-}}\)。
+
+6. 气体 (C) 无色，并与石灰水反应生成白色沉淀 (G)。结合反应特点，\((\mathrm{C})\) 应为二氧化碳 (\(\mathrm{CO_2}\))，与石灰水反应生成 \(\mathrm{CaCO_3}\) 白色沉淀 (G)。
+
+7. 将 (G) (\(\mathrm{CaCO_3}\)) 投入酸中，发生反应 \(\mathrm{CaCO_3 + 2H^+ \rightarrow Ca^{2+} + CO_2 + H_2O}\)，释放气体 \(\mathrm{CO_2}\)。这一性质进一步验证 \((\mathrm{G})\) 是 \(\mathrm{CaCO_3}\) 白色沉淀。
+
+8. 根据上述推理，(A) 应为 \(\mathrm{PbCO_3}\)。加热时发生反应：\(\mathrm{PbCO_3 \rightarrow PbO + CO_2}\)。","：
+\[
+\text{A: } \mathrm{PbCO_3},\  
+\text{B: } \mathrm{PbO},\  
+\text{C: } \mathrm{CO_2},\  
+\text{D: } \mathrm{Pb(NO_3)_2},\  
+\text{E: } \mathrm{PbCrO_4},\  
+\text{F: } \mathrm{Pb(OH)_2},\  
+\text{G: } \mathrm{CaCO_3}.
+\]",N/A,N/A,N/A

@@ -1,0 +1,1164 @@
+query,true_answer,reasoning,model_answer,knowledge_accuracy,reasoning_accuracy,final_answer_accuracy
+"某化学反应 $2\mathrm{A} + \mathrm{B} = \mathrm{C}$ 是基元反应。 $\mathrm{A}$ 的起始浓度为 $2\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3},\mathrm{\;B}$ 的起始浓度为
+
+$4\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ ,反应的初始速率为 ${1.80} \times {10}^{-2}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3} \cdot {\mathrm{s}}^{-1}$ 。 $t$ 时刻, A 的浓度下降到 $1\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ ,试求此时的反应速率。","
+|              | A                                            | B                                                |
+| ------------ | -------------------------------------------- | ------------------------------------------------ |
+| ${t}_{0}$ 时刻 | $2\mathrm{{mol}} \cdot {\mathrm{{dm}}}^{-3}$ | $4\mathrm{{mol}} \cdot {\mathrm{{dm}}}^{-3}$     |
+| $t$ 时刻       | $1\mathrm{{mol}} \cdot {\mathrm{{dm}}}^{-3}$ | ${3.5}\mathrm{{mol}} \cdot {\mathrm{{dm}}}^{-3}$ |
+
+反应为基元反应, 其速率方程可以写作
+
+$$
+v = k{\left\lbrack c\left( \mathrm{\;A}\right) \right\rbrack }^{2}c\left( \mathrm{\;B}\right)
+$$
+
+$$
+{v}_{0} = k \times {\left( 2\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}\right) }^{2} \times 4\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+$$
+{v}_{t} = k \times {\left( 1\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}\right) }^{2} \times {3.5}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+$$
+\frac{{v}_{t}}{{v}_{0}} = \frac{k \times {\left( 1\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}\right) }^{2} \times {3.5}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}}{k \times {\left( 2\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}\right) }^{2} \times 4\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}}
+$$
+
+所以 ${v}_{t} = {v}_{0} \times {0.219}$ ,将题设中的 ${v}_{0}$ 值代入其中,得
+
+$$
+{v}_{t} = {1.80} \times {10}^{-2}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3} \cdot {\mathrm{s}}^{-1} \times {0.219} = {3.94} \times {10}^{-3}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3} \cdot {\mathrm{s}}^{-1}
+$$
+","：  
+1. 该反应是基元反应，反应速率可以表示为：\[ r = k[\mathrm{A}]^2[\mathrm{B}] \]，其中 \( k \) 是速率常数。
+2. 初始条件下，\([\mathrm{A}]_0 = 2\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}\)，\([\mathrm{B}]_0 = 4\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}\)，初始速率 \( r_0 = 1.80 \times 10^{-2}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3} \cdot {\mathrm{s}}^{-1} \)。
+3. 代入初始条件到速率方程：\[ 1.80 \times 10^{-2} = k \times (2)^2 \times 4 \]，解得速率常数 \( k \)。
+4. 计算 \( k \)：\[ k = \frac{1.80 \times 10^{-2}}{16} = 1.125 \times 10^{-3} \mathrm{\;{mol}}^{-2} \cdot {\mathrm{{dm}}}^{6} \cdot {\mathrm{s}}^{-1} \]。
+5. \( t \) 时刻，\([\mathrm{A}] = 1\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}\)，根据反应方程，\([\mathrm{B}] = 4 - 0.5 \times (2 - 1) = 3.5\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}\)。
+6. 代入 \( t \) 时刻的浓度到速率方程：\[ r_t = k \times (1)^2 \times 3.5 \]。
+7. 计算 \( r_t \)：\[ r_t = 1.125 \times 10^{-3} \times 3.5 = 3.9375 \times 10^{-3} \mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3} \cdot {\mathrm{s}}^{-1} \]。",：\( 3.9375 \times 10^{-3} \mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3} \cdot {\mathrm{s}}^{-1} \),N/A,N/A,N/A
+"臭氧分解反应的机理为
+
+① ${\mathrm{O}}_{3}\xrightarrow[]{{K}_{1}}{\mathrm{O}}_{2} + \mathrm{O}$ (快)
+
+② $\mathrm{O} + {\mathrm{O}}_{3}\xrightarrow[]{{k}_{2}}2{\mathrm{O}}_{2}$ （慢）
+
+根据上述反应机理,试用 ${\mathrm{O}}_{3}$ 和 ${\mathrm{O}}_{2}$ 的浓度表示它的速率方程。","慢反应②为定速步骤, 故有
+
+$$
+v\left( {\mathrm{O}}_{2}\right) = {k}_{2}c\left( \mathrm{O}\right) c\left( {\mathrm{O}}_{3}\right) \tag{1}
+$$
+
+由反应①得
+
+$$
+{K}_{1} = \frac{c\left( {\mathrm{O}}_{2}\right) c\left( \mathrm{O}\right) }{c\left( {\mathrm{O}}_{3}\right) }
+$$
+
+所以有
+
+$$
+c\left( \mathrm{O}\right) = \frac{{K}_{1}c\left( {\mathrm{O}}_{3}\right) }{c\left( {\mathrm{O}}_{2}\right) } \tag{2}
+$$
+
+将式 (2) 代入式 (1), 得
+
+$$
+v\left( {\mathrm{O}}_{2}\right) = {k}_{2}\frac{{K}_{1}c\left( {\mathrm{O}}_{3}\right) }{c\left( {\mathrm{O}}_{2}\right) } \cdot c\left( {\mathrm{O}}_{3}\right)
+$$
+
+令 $k = {k}_{2}{K}_{1}$ ,则有
+
+$$
+v\left( {\mathrm{O}}_{2}\right) = k\frac{{\left\lbrack c\left( {\mathrm{O}}_{3}\right) \right\rbrack }^{2}}{c\left( {\mathrm{O}}_{2}\right) }
+$$
+","：根据给出的反应机理，臭氧分解反应分为两个步骤。第一步是臭氧分解为氧气和氧原子，这一步是快反应，速率常数为 \( K_1 \)。第二步是氧原子与臭氧反应生成氧气，这一步是慢反应，速率常数为 \( k_2 \)。通常，反应的速率由慢步骤决定，因此我们需要考虑第二步的速率。
+
+第二步的速率方程为：
+\[ \text{速率} = k_2 [\mathrm{O}][\mathrm{O}_3] \]
+
+然而，氧原子 \([\mathrm{O}]\) 是一个中间体，我们需要用稳态近似法来消除它。根据稳态近似法，假设中间体 \([\mathrm{O}]\) 的生成速率等于消耗速率：
+
+生成速率（来自步骤①）：
+\[ \text{生成速率} = K_1 [\mathrm{O}_3] \]
+
+消耗速率（来自步骤②）：
+\[ \text{消耗速率} = k_2 [\mathrm{O}][\mathrm{O}_3] \]
+
+在稳态条件下，生成速率等于消耗速率：
+\[ K_1 [\mathrm{O}_3] = k_2 [\mathrm{O}][\mathrm{O}_3] \]
+
+解此方程以得到 \([\mathrm{O}]\) 的表达式：
+\[ [\mathrm{O}] = \frac{K_1}{k_2} \]
+
+将 \([\mathrm{O}]\) 的表达式代入第二步的速率方程：
+\[ \text{速率} = k_2 \left(\frac{K_1}{k_2}\right) [\mathrm{O}_3]^2 = K_1 [\mathrm{O}_3]^2 \]
+
+因此，反应的速率方程为：
+\[ \text{速率} = K_1 [\mathrm{O}_3]^2 \]",：\( K_1 [\mathrm{O}_3]^2 \),N/A,N/A,N/A
+"反应 $2\mathrm{{NO}} + 2{\mathrm{H}}_{2} = {\mathrm{N}}_{2} + 2{\mathrm{H}}_{2}\mathrm{O}$ 的反应机理为
+
+① $\mathrm{{NO}} + \mathrm{{NO}} \rightleftharpoons {\mathrm{N}}_{2}{\mathrm{O}}_{2}$ (快)
+
+② ${\mathrm{N}}_{2}{\mathrm{O}}_{2} + {\mathrm{H}}_{2} = {\mathrm{N}}_{2}\mathrm{O} + {\mathrm{H}}_{2}\mathrm{O}$ (慢)
+
+③ ${\mathrm{N}}_{2}\mathrm{O} + {\mathrm{H}}_{2} \rightleftharpoons {\mathrm{N}}_{2} + {\mathrm{H}}_{2}\mathrm{O}$ (快)
+
+试确定总反应速率方程。","反应机理中各步反应都是基元反应, 总反应的速率由速率最慢的那一步基元反应决定, 所以总反应的速率方程应为
+
+$$
+v = {k}_{2}c\left( {{\mathrm{\;N}}_{2}{\mathrm{O}}_{2}}\right) c\left( {\mathrm{H}}_{2}\right)
+$$
+
+${\mathrm{N}}_{2}{\mathrm{O}}_{2}$ 是反应 $\Phi$ 的产物,该步反应为快反应,立即达平衡,则
+
+$$
+{K}_{1} = \frac{c\left( {{\mathrm{\;N}}_{2}{\mathrm{O}}_{2}}\right) }{{\left\lbrack c\left( \mathrm{{NO}}\right) \right\rbrack }^{2}}
+$$
+
+即
+
+$$
+c\left( {{\mathrm{\;N}}_{2}{\mathrm{O}}_{2}}\right) = {K}_{1}{\left\lbrack c\left( \mathrm{{NO}}\right) \right\rbrack }^{2}
+$$
+
+代入总反应的速率方程得 $v = {k}_{2}{K}_{1}{\left\lbrack c\left( \mathrm{{NO}}\right) \right\rbrack }^{2}c\left( {\mathrm{H}}_{2}\right) = k{\left\lbrack c\left( \mathrm{{NO}}\right) \right\rbrack }^{2}c\left( {\mathrm{H}}_{2}\right)$ 。
+","：  
+根据给定的反应机理，我们需要确定哪个步骤是速控步骤（即最慢的步骤），因为总反应速率通常由最慢的步骤决定。这里，步骤②是慢步骤，因此它是速控步骤。
+
+步骤②的反应为：  
+\[
+{\mathrm{N}}_{2}{\mathrm{O}}_{2} + {\mathrm{H}}_{2} = {\mathrm{N}}_{2}\mathrm{O} + {\mathrm{H}}_{2}\mathrm{O}
+\]
+
+因此，速率方程可以表示为：  
+\[
+\text{速率} = k[{\mathrm{N}}_{2}{\mathrm{O}}_{2}][{\mathrm{H}}_{2}]
+\]
+
+然而，\([{\mathrm{N}}_{2}{\mathrm{O}}_{2}]\)是一个中间体，我们需要用反应物的浓度来表示它。根据步骤①的平衡，可以写出：  
+\[
+K_1 = \frac{[{\mathrm{N}}_{2}{\mathrm{O}}_{2}]}{[\mathrm{NO}]^2}
+\]
+
+因此，\([{\mathrm{N}}_{2}{\mathrm{O}}_{2}] = K_1 [\mathrm{NO}]^2\)。
+
+将\([{\mathrm{N}}_{2}{\mathrm{O}}_{2}]\)代入速率方程：  
+\[
+\text{速率} = k K_1 [\mathrm{NO}]^2 [{\mathrm{H}}_{2}]
+\]
+
+设\(k' = k K_1\)，则速率方程为：  
+\[
+\text{速率} = k' [\mathrm{NO}]^2 [{\mathrm{H}}_{2}]
+\]",：\(\text{速率} = k' [\mathrm{NO}]^2 [{\mathrm{H}}_{2}]\),N/A,N/A,N/A
+"一氧化碳与氯气在高温下作用得到光气: $\mathrm{{CO}}\left( \mathrm{g}\right) + {\mathrm{{Cl}}}_{2}\left( \mathrm{\;g}\right) = {\mathrm{{COCl}}}_{2}\left( \mathrm{\;g}\right)$ ,实验测得反应的速率方程为
+
+$$
+\frac{\mathrm{d}c\left( {\mathrm{{COCl}}}_{2}\right) }{\mathrm{d}t} = {kc}\left( \mathrm{{CO}}\right) {\left\lbrack c\left( {\mathrm{{Cl}}}_{2}\right) \right\rbrack }^{\frac{3}{2}}
+$$
+
+有人提出其反应机理为
+
+① ${\mathrm{{Cl}}}_{2}\xrightarrow[{k}_{-1}]{{k}_{1}}2\mathrm{{Cl}} \cdot$ (快平衡)
+
+② $\mathrm{{Cl}} \cdot + \mathrm{{CO}}\xrightarrow[{k}_{-2}]{{k}_{2}}\mathrm{{COCl}} \cdot$ (快平衡)
+
+③ $\mathrm{{COCl}} \cdot + {\mathrm{{Cl}}}_{2}\xrightarrow[]{{k}_{3}}{\mathrm{{COCl}}}_{2} + \mathrm{{Cl}} \cdot$ (慢反应)
+
+（1）试说明这一机理与速率方程相符合;
+
+（2）指出反应速率方程中的 $k$ 与反应机理中的速率常数 $\left( {{k}_{1},{k}_{-1},{k}_{2},{k}_{-2}}\right)$ 间的关系。","(1) 机理中③ 为慢反应, 因此整个反应的速率取决于反应③, 故有
+
+$$
+\frac{\mathrm{d}c\left( {\mathrm{{COCl}}}_{2}\right) }{\mathrm{d}t} = {k}_{3}c\left( {\mathrm{{COCl}} \cdot }\right) c\left( {\mathrm{{Cl}}}_{2}\right) \tag{a}
+$$
+
+速率方程中出现活性很大的自由基 COCl. 的浓度, 必须设法在速率方程中消去它, 使速率方程中只包含反应物的浓度。为此需找到自由基的浓度和反应物浓度的关系。因反应① 和反应 ② 速率很快, 几乎一直处于平衡态, 因此, 由 ①, ②得
+
+$$
+{v}_{ + } = {v}_{ - }
+$$
+
+即
+
+$$
+{k}_{1}c\left( {\mathrm{{Cl}}}_{2}\right) = {k}_{-1}{\left\lbrack c\left( \mathrm{{Cl}} \cdot \right) \right\rbrack }^{2}
+$$
+
+得
+
+$$
+c\left( {\mathrm{{Cl}} \cdot }\right) = \frac{{k}_{1}^{\frac{1}{2}}}{{k}_{-1}^{\frac{1}{2}}}{\left\lbrack c\left( {\mathrm{{Cl}}}_{2}\right) \right\rbrack }^{\frac{1}{2}} \tag{b}
+$$
+
+由
+
+$$
+{k}_{2}c\left( \mathrm{{CO}}\right) c\left( {\mathrm{{Cl}} \cdot }\right) = {k}_{-2}c\left( {\mathrm{{COCl}} \cdot }\right)
+$$
+
+得
+
+$$
+c\left( {\mathrm{{COCl}} \cdot }\right) = \frac{{k}_{2}}{{k}_{-2}}c\left( \mathrm{{CO}}\right) c\left( {\mathrm{{Cl}} \cdot }\right) \tag{c}
+$$
+
+将式(b)、式(c)代入式(a)得
+
+$$
+\frac{\mathrm{d}c\left( {\mathrm{{COCl}}}_{2}\right) }{\mathrm{d}t} = {k}_{3}\frac{{k}_{2}{k}_{1}^{\frac{1}{2}}}{{k}_{-2}{k}_{-1}^{\frac{1}{2}}}c\left( \mathrm{{CO}}\right) {\left\lbrack c\left( {\mathrm{{Cl}}}_{2}\right) \right\rbrack }^{\frac{3}{2}}
+$$
+
+令
+
+$$
+k = \frac{{k}_{1}^{\frac{1}{2}}{k}_{2}{k}_{3}}{{k}_{-1}^{\frac{1}{2}}{k}_{-2}}
+$$
+
+$$
+\frac{\mathrm{d}c\left( {\mathrm{{COCl}}}_{2}\right) }{\mathrm{d}t} = {kc}\left( \mathrm{{CO}}\right) {\left\lbrack c\left( {\mathrm{{Cl}}}_{2}\right) \right\rbrack }^{\frac{3}{2}}
+$$
+
+可见建议的机理与速率方程相符合。
+
+(2) $k = \frac{{k}_{1}^{\frac{1}{2}}{k}_{2}{k}_{3}}{{k}_{-1}^{\frac{1}{2}}{k}_{-2}}$
+","：
+
+（1）要说明机理与速率方程相符合，需要从机理出发推导出与实验速率方程一致的表达式。
+
+- 第一步反应：${\mathrm{{Cl}}}_{2}\xrightarrow[{k}_{-1}]{{k}_{1}}2\mathrm{{Cl}} \cdot$ 是快平衡，平衡常数为 $K_1 = \frac{[\mathrm{Cl} \cdot]^2}{[{\mathrm{Cl}}_2]}$，即 $[\mathrm{Cl} \cdot] = \sqrt{K_1 [{\mathrm{Cl}}_2]}$。
+
+- 第二步反应：$\mathrm{{Cl}} \cdot + \mathrm{{CO}}\xrightarrow[{k}_{-2}]{{k}_{2}}\mathrm{{COCl}} \cdot$ 也是快平衡，平衡常数为 $K_2 = \frac{[\mathrm{COCl} \cdot]}{[\mathrm{Cl} \cdot][\mathrm{CO}]}$，即 $[\mathrm{COCl} \cdot] = K_2 [\mathrm{Cl} \cdot][\mathrm{CO}]$。
+
+- 第三步反应：$\mathrm{{COCl}} \cdot + {\mathrm{Cl}}_{2}\xrightarrow[]{{k}_{3}}{\mathrm{{COCl}}}_{2} + \mathrm{{Cl}} \cdot$ 是慢反应，决定了反应速率。速率为 $v = k_3 [\mathrm{COCl} \cdot][{\mathrm{Cl}}_2]$。
+
+将 $[\mathrm{COCl} \cdot]$ 和 $[\mathrm{Cl} \cdot]$ 的表达式代入速率方程：
+
+$$
+v = k_3 K_2 [\mathrm{Cl} \cdot][\mathrm{CO}][{\mathrm{Cl}}_2] = k_3 K_2 \sqrt{K_1 [{\mathrm{Cl}}_2]} [\mathrm{CO}][{\mathrm{Cl}}_2]
+$$
+
+化简得：
+
+$$
+v = k_3 K_2 \sqrt{K_1} [\mathrm{CO}] [{\mathrm{Cl}}_2]^{3/2}
+$$
+
+这与实验速率方程 $\frac{\mathrm{d}c\left( {\mathrm{{COCl}}}_{2}\right) }{\mathrm{d}t} = {kc}\left( \mathrm{{CO}}\right) {\left\lbrack c\left( {\mathrm{{Cl}}}_{2}\right) \right\rbrack }^{\frac{3}{2}}$ 一致。
+
+（2）从上面的推导可以看出，速率常数 $k$ 与机理中的速率常数的关系为：
+
+$$
+k = k_3 K_2 \sqrt{K_1}
+$$
+
+其中 $K_1 = \frac{k_1}{k_{-1}}$ 和 $K_2 = \frac{k_2}{k_{-2}}$。","：
+
+（1）机理与速率方程相符合。
+
+（2）$k = k_3 \frac{k_2}{k_{-2}} \sqrt{\frac{k_1}{k_{-1}}}$。",N/A,N/A,N/A
+"在 ${373}\mathrm{K}$ 时,反应 ${\mathrm{H}}_{2}{\mathrm{{PO}}}_{2}^{ - } + {\mathrm{{OH}}}^{ - } = {\mathrm{{HPO}}}_{3}^{2 - } + {\mathrm{H}}_{2}$ 的实验数据如下:
+
+<table><thead><tr><th colspan=""2"">初始浓度</th><th rowspan=""2"">$- \frac{\mathrm{d}c\left( {{\mathrm{H}}_{2}{\mathrm{{PO}}}_{2}^{ - }}\right) }{\mathrm{d}t}/\left( {\mathrm{{mol}} \cdot {\mathrm{{dm}}}^{-3} \cdot {\mathrm{{min}}}^{-1}}\right)$</th></tr><tr><th>$c\left( {{\mathrm{H}}_{2}{\mathrm{{PO}}}_{2}^{ - }}\right) /\left( {\mathrm{{mol}} \cdot {\mathrm{{dm}}}^{-3}}\right)$</th><th>$c\left( {\mathrm{{OH}}}^{ - }\right) /\left( {\mathrm{{mol}} \cdot {\mathrm{{dm}}}^{-3}}\right)$</th></tr></thead><tr><td>0.10</td><td>1.0</td><td>${3.2} \times {10}^{-5}$</td></tr><tr><td>0.50</td><td>1.0</td><td>${1.6} \times {10}^{-4}$</td></tr><tr><td>0.50</td><td>4.0</td><td>${2.56} \times {10}^{-3}$</td></tr></table>
+
+（1）确定反应级数, 写出速率方程;
+
+（2）计算此温度下的速率常数。","(1) 设反应的速率方程为 $v = k{\left\lbrack c\left( {\mathrm{H}}_{2}{\mathrm{{PO}}}_{2}^{ - }\right) \right\rbrack }^{m}{\left\lbrack c\left( {\mathrm{{OH}}}^{ - }\right) \right\rbrack }^{n}$
+
+当 $c\left( {\mathrm{{OH}}}^{ - }\right)$ 不变时,有
+
+$$
+\frac{{3.2} \times {10}^{-5}}{{1.6} \times {10}^{-4}} = \frac{k{\left( {0.10}\right) }^{m}{\left( {1.0}\right) }^{n}}{k{\left( {0.50}\right) }^{m}{\left( {1.0}\right) }^{n}}
+$$
+
+得 $m = 1$ 。
+
+当 $c\left( {{\mathrm{H}}_{2}{\mathrm{{PO}}}_{2}^{ - }}\right)$ 不变时,有
+
+$$
+\frac{{1.6} \times {10}^{-4}}{{2.56} \times {10}^{-3}} = \frac{k{\left( {0.50}\right) }^{m}{\left( {1.0}\right) }^{n}}{k{\left( {0.50}\right) }^{m}{\left( {4.0}\right) }^{n}}
+$$
+
+得 $n = 2$ 。
+
+反应级数为 $m + n = 3$ ,反应速率方程为 $v = {kc}\left( {{\mathrm{H}}_{2}{\mathrm{{PO}}}_{2}^{ - }}\right) {\left\lbrack c\left( {\mathrm{{OH}}}^{ - }\right) \right\rbrack }^{2}$ 。
+
+（2）将任一组数据代入速率方程得
+
+$$
+k = \frac{v}{c\left( {{\mathrm{H}}_{2}{\mathrm{{PO}}}_{2}^{ - }}\right) {\left\lbrack c\left( {\mathrm{{OH}}}^{ - }\right) \right\rbrack }^{2}}
+$$
+
+$$
+= \frac{{3.2} \times {10}^{-5}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3} \cdot {\mathrm{{min}}}^{-1}}{{0.1}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3} \times {\left( {1.0}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}\right) }^{2}}
+$$
+
+$$
+= {3.2} \times {10}^{-4}{\mathrm{\;{mol}}}^{-2} \cdot {\mathrm{{dm}}}^{6} \cdot {\mathrm{{min}}}^{-1}
+$$
+","：
+
+(1) 确定反应级数和速率方程：
+
+- 反应速率方程一般表示为：\[ r = k \cdot [\text{H}_2\text{PO}_2^-]^m \cdot [\text{OH}^-]^n \]
+- 通过实验数据分析，首先比较实验1和实验2，\([ \text{OH}^- ]\)浓度不变，\([ \text{H}_2\text{PO}_2^- ]\)浓度从0.10增加到0.50，速率从\(3.2 \times 10^{-5}\)增加到\(1.6 \times 10^{-4}\)，速率增加了5倍。因此，\([ \text{H}_2\text{PO}_2^- ]\)的反应级数\(m\)为1。
+- 然后比较实验2和实验3，\([ \text{H}_2\text{PO}_2^- ]\)浓度不变，\([ \text{OH}^- ]\)浓度从1.0增加到4.0，速率从\(1.6 \times 10^{-4}\)增加到\(2.56 \times 10^{-3}\)，速率增加了16倍。因此，\([ \text{OH}^- ]\)的反应级数\(n\)为2。
+- 因此，反应级数为\(m = 1\)和\(n = 2\)，速率方程为：\[ r = k \cdot [\text{H}_2\text{PO}_2^-]^1 \cdot [\text{OH}^-]^2 \]
+
+(2) 计算速率常数\(k\)：
+
+- 使用实验1的数据：\[ 3.2 \times 10^{-5} = k \cdot (0.10)^1 \cdot (1.0)^2 \]
+- 解得：\[ k = \frac{3.2 \times 10^{-5}}{0.10} = 3.2 \times 10^{-4} \, \text{mol}^{-2} \cdot \text{dm}^6 \cdot \text{min}^{-1} \]","：
+
+(1) 反应级数为1和2，速率方程为：\[ r = k \cdot [\text{H}_2\text{PO}_2^-] \cdot [\text{OH}^-]^2 \]
+
+(2) 速率常数\(k = 3.2 \times 10^{-4} \, \text{mol}^{-2} \cdot \text{dm}^6 \cdot \text{min}^{-1} \)",N/A,N/A,N/A
+"反应 ${\mathrm{C}}_{2}{\mathrm{H}}_{6} = {\mathrm{C}}_{2}{\mathrm{H}}_{4} + {\mathrm{H}}_{2}$ 开始阶段反应级数近似为 $3/2$ 级, ${910}\mathrm{\;K}$ 时速率常数为 1. ${13}{\mathrm{{dm}}}^{\frac{3}{2}} \cdot {\mathrm{{mol}}}^{-\frac{1}{2}} \cdot {\mathrm{s}}^{-1}$ 。试计算 ${\mathrm{C}}_{2}{\mathrm{H}}_{6}\left( \mathrm{\;g}\right)$ 的压强为 ${1.33} \times {10}^{4}\mathrm{\;{Pa}}$ 时的起始分解速率 ${v}_{0}$ 。","以 $c\left( {{\mathrm{C}}_{2}{\mathrm{H}}_{6}}\right)$ 的变化表示起始分解速率:
+
+$$
+{v}_{0} = - \frac{\mathrm{d}c\left( {{\mathrm{C}}_{2}{\mathrm{H}}_{6}}\right) }{\mathrm{d}t} = k{\left\lbrack c\left( {\mathrm{C}}_{2}{\mathrm{H}}_{6}\right) \right\rbrack }^{\frac{3}{2}}
+$$
+
+由理想气体状态方程 ${pV} = {nRT}$ 得
+
+$$
+c\left( {{\mathrm{C}}_{2}{\mathrm{H}}_{6}}\right) = \frac{n}{V} = \frac{p}{RT}
+$$
+
+$$
+{v}_{0} = k{\left( \frac{p}{RT}\right) }^{\frac{3}{2}} = {1.13}{\mathrm{{dm}}}^{\frac{3}{2}} \cdot {\mathrm{{mol}}}^{-\frac{1}{2}} \cdot {\mathrm{s}}^{-1} \times {\left( \frac{{1.33} \times {10}^{4}\mathrm{\;{Pa}}}{{8.314} \times {10}^{3}\mathrm{\;{Pa}} \cdot {\mathrm{{dm}}}^{3} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1} \times {910}\mathrm{\;K}}\right) }^{\frac{3}{2}}
+$$
+
+$$
+= {8.3} \times {10}^{-5}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3} \cdot {\mathrm{s}}^{-1}
+$$
+","：  
+首先，我们知道反应级数为 \( \frac{3}{2} \) 级，这意味着反应速率 \( v \) 可以表示为：
+
+\[ v = k \cdot [\text{C}_2\text{H}_6]^{\frac{3}{2}} \]
+
+其中，\( k \) 是速率常数，给定为 \( 1.13 \, \text{dm}^{\frac{3}{2}} \cdot \text{mol}^{-\frac{1}{2}} \cdot \text{s}^{-1} \)。
+
+我们需要将压强转换为浓度，因为速率方程中涉及的是浓度。使用理想气体定律 \( PV = nRT \)，可以得到：
+
+\[ C = \frac{P}{RT} \]
+
+其中，\( C \) 是浓度，\( P \) 是压强，\( R \) 是理想气体常数，\( T \) 是温度。
+
+给定压强 \( P = 1.33 \times 10^4 \, \text{Pa} \)，温度 \( T = 910 \, \text{K} \)，理想气体常数 \( R = 8.314 \, \text{J} \cdot \text{mol}^{-1} \cdot \text{K}^{-1} \)，我们可以计算浓度：
+
+\[ C = \frac{1.33 \times 10^4}{8.314 \times 910} \, \text{mol} \cdot \text{dm}^{-3} \]
+
+计算得到：
+
+\[ C \approx 1.76 \, \text{mol} \cdot \text{dm}^{-3} \]
+
+将浓度代入速率方程：
+
+\[ v_0 = 1.13 \cdot (1.76)^{\frac{3}{2}} \]
+
+计算 \( (1.76)^{\frac{3}{2}} \)：
+
+\[ (1.76)^{\frac{3}{2}} = (1.76)^{1} \cdot (1.76)^{\frac{1}{2}} \approx 1.76 \cdot 1.326 = 2.33376 \]
+
+因此，起始分解速率为：
+
+\[ v_0 = 1.13 \cdot 2.33376 \approx 2.638 \, \text{mol} \cdot \text{dm}^{-3} \cdot \text{s}^{-1} \]",：2.638,N/A,N/A,N/A
+"考古学者从古墓中取出的纺织品,经取样分析其 ${}^{14}\mathrm{C}$ 含量为动植物活体的 ${85}\%$ 。若放射性核衰变符合一级反应速率方程,且已知 ${}^{14}\mathrm{C}$ 的半衰期为 520 年,试估算该纺织品的年龄。","由于放射性同位素 ${}^{14}\mathrm{C}$ 的衰变相当于一级反应,因此可根据一级反应的反应物浓度与时间
+
+的关系进行计算。
+
+$$
+{t}_{1/2} = \frac{0.693}{k}
+$$
+
+所以
+
+$$
+k = \frac{0.693}{{t}_{1/2}} = \frac{0.693}{{5720}\mathrm{a}} = {1.21} \times {10}^{-4}{\mathrm{a}}^{-1}
+$$
+
+由
+
+$$
+\lg \frac{c}{{c}_{0}} = - \frac{k}{2.303}t
+$$
+
+得
+
+$$
+t = - \frac{{2.303}\lg \frac{c}{{c}_{0}}}{k}
+$$
+
+$$
+= - \frac{{2.303} \times \lg \frac{85}{100}}{{1.21} \times {10}^{-4}{\mathrm{a}}^{-1}} = {1.3} \times {10}^{3}\mathrm{a}
+$$
+
+故该纺织品的年龄约为 ${1.3} \times {10}^{3}$ 年。
+","：  
+放射性核素的衰变符合一级反应速率方程，其表达式为：  
+\[ N = N_0 \times e^{-kt} \]  
+其中，\( N \) 是当前时刻的核素含量，\( N_0 \) 是初始时刻的核素含量，\( k \) 是衰变常数，\( t \) 是时间。  
+
+半衰期 \( T_{1/2} \) 与衰变常数 \( k \) 的关系为：  
+\[ T_{1/2} = \frac{\ln 2}{k} \]  
+因此，衰变常数 \( k \) 可以表示为：  
+\[ k = \frac{\ln 2}{T_{1/2}} \]  
+
+已知 \( T_{1/2} = 520 \) 年，代入得到：  
+\[ k = \frac{\ln 2}{520} \]  
+
+纺织品中 ${}^{14}\mathrm{C}$ 的含量为动植物活体的 85%，即：  
+\[ \frac{N}{N_0} = 0.85 \]  
+
+代入一级反应速率方程：  
+\[ 0.85 = e^{-kt} \]  
+
+取对数：  
+\[ \ln 0.85 = -kt \]  
+
+代入 \( k = \frac{\ln 2}{520} \)：  
+\[ \ln 0.85 = -\frac{\ln 2}{520} \times t \]  
+
+解出 \( t \)：  
+\[ t = -\frac{520 \times \ln 0.85}{\ln 2} \]  
+
+计算得到：  
+\[ t \approx 120 \]",：120,N/A,N/A,N/A
+"在 ${28}^{ \circ }\mathrm{C}$ 时,鲜牛奶大约 $4\mathrm{\;h}$ 变酸,但在 $5{}^{ \circ }\mathrm{C}$ 的冰箱中可保持 ${48}\mathrm{\;h}$ 。假定反应速率与变酸时间成反比, 求牛奶变酸反应的活化能。","反应速率与变酸时间成反比,即 $\frac{{k}_{2}}{{k}_{1}} = \frac{{t}_{1}}{{t}_{2}} = \frac{48}{4}$ 。
+
+$$
+\lg \frac{{k}_{2}}{{k}_{1}} = \frac{{E}_{\mathrm{a}}}{2.303R}\left( \frac{{T}_{2} - {T}_{1}}{{T}_{1}{T}_{2}}\right)
+$$
+
+$$
+\lg \frac{48}{4} = \frac{{E}_{\mathrm{a}}}{{2.303} \times {8.314} \times {10}^{-3}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1}} \times \left( \frac{{301}\mathrm{\;K} - {278}\mathrm{\;K}}{{301}\mathrm{\;K} \times {278}\mathrm{\;K}}\right)
+$$
+
+$$
+{E}_{\mathrm{a}} = {75}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}
+$$
+","：  
+根据阿伦尼乌斯方程，反应速率常数 \( k \) 与温度 \( T \) 的关系为：  
+\[ k = A e^{-\frac{E_a}{RT}} \]  
+其中 \( E_a \) 是活化能，\( R \) 是气体常数，\( A \) 是指前因子。
+
+题目中给出变酸时间与反应速率成反比，即：  
+\[ k \propto \frac{1}{t} \]  
+因此，我们可以写出：  
+\[ \frac{k_1}{k_2} = \frac{t_2}{t_1} \]  
+其中 \( t_1 = 4 \) 小时，\( t_2 = 48 \) 小时。
+
+将阿伦尼乌斯方程代入比值关系：  
+\[ \frac{A e^{-\frac{E_a}{R \times 301}}}{A e^{-\frac{E_a}{R \times 278}}} = \frac{48}{4} \]  
+\[ e^{-\frac{E_a}{R} \left(\frac{1}{301} - \frac{1}{278}\right)} = 12 \]  
+
+取对数：  
+\[ -\frac{E_a}{R} \left(\frac{1}{301} - \frac{1}{278}\right) = \ln(12) \]  
+\[ E_a = -R \cdot \ln(12) \cdot \left(\frac{1}{301} - \frac{1}{278}\right)^{-1} \]  
+
+计算：  
+气体常数 \( R = 8.314 \, \text{J/mol·K} \)，  
+\[ \frac{1}{301} - \frac{1}{278} = \frac{278 - 301}{301 \times 278} = -\frac{23}{83678} \]  
+\[ E_a = 8.314 \cdot \ln(12) \cdot \frac{83678}{23} \]  
+\[ E_a \approx 8.314 \cdot 2.4849 \cdot 3638.174 \]  
+\[ E_a \approx 75000 \, \text{J/mol} \]  
+\[ E_a \approx 75 \, \text{kJ/mol} \]",：75 kJ/mol,N/A,N/A,N/A
+"已知反应 ${\mathrm{{CH}}}_{3}\mathrm{{CHO}}\left( \mathrm{g}\right) = {\mathrm{{CH}}}_{4}\left( \mathrm{\;g}\right) + \mathrm{{CO}}\left( \mathrm{g}\right)$ 的活化能 ${E}_{\mathrm{a}} = {188.3}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ ; 如果以碘蒸气为催化剂,反应的活化能 ${E}_{\mathrm{a}}^{\prime } = {138.1}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ 。计算温度为 ${800}\mathrm{\;K}$ 时,加碘催化剂, 反应速率增大为原来的多少倍。","反应速率之比等于反应速率常数之比。
+
+加催化剂前
+
+$$
+\lg k = - \frac{{E}_{\mathrm{a}}}{2.303RT} + \lg A
+$$
+
+加催化剂后
+
+$$
+\lg {k}^{\prime } = - \frac{{E}_{\mathrm{a}}^{\prime }}{2.303RT} + \lg {A}^{\prime }
+$$
+
+对于同一反应, $A = {A}^{\prime }$ 。两式相减得
+
+$$
+\lg \frac{{k}^{\prime }}{k} = - \frac{{E}_{\mathrm{a}}^{\prime } - {E}_{\mathrm{a}}}{2.303RT}
+$$
+
+$$
+= \frac{-\left( {{138.1} - {188.3}}\right) \times {10}^{3}\mathrm{\;J} \cdot {\mathrm{{mol}}}^{-1}}{{2.303} \times {8.314}\mathrm{\;J} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1} \times {800}\mathrm{\;K}}
+$$
+
+$$
+= {3.277}
+$$
+
+$$
+\frac{{k}^{\prime }}{k} = {1.89} \times {10}^{3}
+$$
+","：  
+反应速率常数 \( k \) 与活化能 \( E_a \) 的关系可以通过阿伦尼乌斯方程表示为：
+
+\[
+k = A e^{-\frac{E_a}{RT}}
+\]
+
+其中 \( A \) 是指前因子，\( R \) 是气体常数，\( T \) 是绝对温度。对于同一反应，假设 \( A \) 不变，催化剂只影响活化能。设未加催化剂时的速率常数为 \( k \)，加催化剂后的速率常数为 \( k' \)，则：
+
+\[
+k = A e^{-\frac{188.3 \times 10^3}{8.314 \times 800}}
+\]
+
+\[
+k' = A e^{-\frac{138.1 \times 10^3}{8.314 \times 800}}
+\]
+
+反应速率增大倍数为 \( \frac{k'}{k} \)：
+
+\[
+\frac{k'}{k} = \frac{A e^{-\frac{138.1 \times 10^3}{8.314 \times 800}}}{A e^{-\frac{188.3 \times 10^3}{8.314 \times 800}}} = e^{\frac{188.3 \times 10^3 - 138.1 \times 10^3}{8.314 \times 800}}
+\]
+
+计算指数部分：
+
+\[
+\frac{188.3 \times 10^3 - 138.1 \times 10^3}{8.314 \times 800} = \frac{50.2 \times 10^3}{8.314 \times 800} \approx 7.55
+\]
+
+因此：
+
+\[
+\frac{k'}{k} = e^{7.55}
+\]
+
+计算 \( e^{7.55} \)：
+
+\[
+e^{7.55} \approx 1900
+\]",：1900,N/A,N/A,N/A
+"某化合物在 ${100}\mathrm{\;{min}}$ 内被消耗掉 ${25}\%$ ,若分别是零级、一级和二级反应,则 ${200}\mathrm{\;{min}}$ 时,对于各级反应, 该物质分别被消耗了多少?","零级反应
+
+$$
+c = {c}_{0} - {kt}
+$$
+
+即
+
+$$
+{c}_{0} - c = {kt}
+$$
+
+$$
+\frac{{\left( {c}_{0} - c\right) }_{{100}\mathrm{\;{min}}}}{{\left( {c}_{0} - c\right) }_{{200}\mathrm{\;{min}}}} = \frac{{t}_{{100}\mathrm{\;{min}}}}{{t}_{{200}\mathrm{\;{min}}}}
+$$
+
+$$
+\frac{0.25}{{\left( {c}_{0} - c\right) }_{{200}\mathrm{\;{min}}}} = \frac{{100}\mathrm{\;{min}}}{{200}\mathrm{\;{min}}}
+$$
+
+$$
+{c}_{0} - c = {0.5} = {50}\%
+$$
+
+$$
+\text{一级反应}
+$$
+
+$$
+\lg c = \lg {c}_{0} - \frac{k}{2.303}t
+$$
+
+$$
+\lg \frac{{c}_{0}}{c} = \frac{k}{2.303}t
+$$
+
+$$
+\frac{\lg {\left( \frac{{c}_{0}}{c}\right) }_{{100}\mathrm{\;{min}}}}{\lg {\left( \frac{{c}_{0}}{c}\right) }_{{200}\mathrm{\;{min}}}} = \frac{{t}_{{100}\mathrm{\;{min}}}}{{t}_{{200}\mathrm{\;{min}}}}
+$$
+
+$$
+\frac{\lg {\left( \frac{1}{0.75}\right) }_{{100}\mathrm{\;{min}}}}{\lg {\left( \frac{1}{c}\right) }_{{200}\mathrm{\;{min}}}} = \frac{{100}\mathrm{\;{min}}}{{200}\mathrm{\;{min}}}
+$$
+
+$c = {0.56}$ ,即消耗了 ${44}\%$
+
+二级反应
+
+$$
+\frac{1}{c} - \frac{1}{{c}_{0}} = {kt}
+$$
+
+$$
+\frac{{\left( \frac{1}{c} - \frac{1}{{c}_{0}}\right) }_{{100}\mathrm{\;{min}}}}{{\left( \frac{1}{c} - \frac{1}{{c}_{0}}\right) }_{{200}\mathrm{\;{min}}}} = \frac{{t}_{{100}\mathrm{\;{min}}}}{{t}_{{200}\mathrm{\;{min}}}}
+$$
+
+$$
+\frac{{\left( \frac{1}{0.75} - 1\right) }_{{100}\mathrm{\;{min}}}}{{\left( \frac{1}{c} - 1\right) }_{{200}\mathrm{\;{min}}}} = \frac{{100}\mathrm{\;{min}}}{{200}\mathrm{\;{min}}}
+$$
+
+解得 $c = {0.60}$ ,即消耗了 ${40}\%$
+","：  
+对于化学反应的不同级数，反应速率方程和浓度随时间的变化关系不同。我们需要分别考虑零级、一级和二级反应的情况。
+
+1. **零级反应**：  
+   零级反应的速率方程为：\[ [A] = [A]_0 - kt \]  
+   其中，\([A]_0\) 是初始浓度，\(k\) 是反应速率常数，\(t\) 是时间。  
+   已知在100分钟内消耗了25%，即：\[ [A] = 0.75[A]_0 \]  
+   代入零级反应方程：\[ 0.75[A]_0 = [A]_0 - k \times 100 \]  
+   解得：\[ k = \frac{0.25[A]_0}{100} \]  
+   在200分钟时：\[ [A] = [A]_0 - k \times 200 = [A]_0 - \frac{0.25[A]_0}{100} \times 200 = 0.5[A]_0 \]  
+   因此，消耗了50%。
+
+2. **一级反应**：  
+   一级反应的速率方程为：\[ \ln[A] = \ln[A]_0 - kt \]  
+   已知在100分钟内消耗了25%，即：\[ [A] = 0.75[A]_0 \]  
+   代入一级反应方程：\[ \ln(0.75[A]_0) = \ln[A]_0 - k \times 100 \]  
+   解得：\[ k = \frac{\ln(1/0.75)}{100} \]  
+   在200分钟时：\[ \ln[A] = \ln[A]_0 - k \times 200 \]  
+   \[ \ln[A] = \ln[A]_0 - 2 \times \frac{\ln(1/0.75)}{100} \times 100 = \ln[A]_0 - 2\ln(1/0.75) \]  
+   \[ [A] = [A]_0 \times (0.75)^2 = 0.5625[A]_0 \]  
+   因此，消耗了43.75%。
+
+3. **二级反应**：  
+   二级反应的速率方程为：\[ \frac{1}{[A]} = \frac{1}{[A]_0} + kt \]  
+   已知在100分钟内消耗了25%，即：\[ [A] = 0.75[A]_0 \]  
+   代入二级反应方程：\[ \frac{1}{0.75[A]_0} = \frac{1}{[A]_0} + k \times 100 \]  
+   解得：\[ k = \frac{1}{100 \times 0.75[A]_0} \]  
+   在200分钟时：\[ \frac{1}{[A]} = \frac{1}{[A]_0} + k \times 200 \]  
+   \[ \frac{1}{[A]} = \frac{1}{[A]_0} + \frac{2}{100 \times 0.75[A]_0} = \frac{1}{[A]_0} + \frac{2}{75[A]_0} \]  
+   \[ \frac{1}{[A]} = \frac{1}{[A]_0} + \frac{8}{300[A]_0} = \frac{1}{[A]_0} + \frac{8}{300[A]_0} \]  
+   \[ \frac{1}{[A]} = \frac{1}{[A]_0} + \frac{8}{300[A]_0} = \frac{1}{[A]_0} + \frac{8}{300[A]_0} \]  
+   \[ [A] = \frac{300[A]_0}{300 + 8} = \frac{300[A]_0}{308} \approx 0.487[A]_0 \]  
+   因此，消耗了51.3%。","：50%, 43.75%, 51.3%",N/A,N/A,N/A
+"某有机物的热分解是一级反应,活化能为 ${200}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1},{600}\mathrm{\;K}$ 时的半衰期为 ${360}\mathrm{\;{min}}$ 。 问 ${700}\mathrm{\;K}$ 时,多长时间可将该有机物分解 ${70}\%$ ?","一级反应的半衰期为
+
+$$
+{t}_{1/2} = \frac{0.693}{k}
+$$
+
+则速率常数为
+
+$$
+k = \frac{0.693}{{360}\mathrm{\;{min}}} = {1.93} \times {10}^{-3}{\mathrm{\;{min}}}^{-1}
+$$
+
+由阿仑尼乌斯公式得
+
+$$
+\lg \frac{{k}_{{700}\mathrm{\;K}}}{{k}_{{600}\mathrm{\;K}}} = \frac{{E}_{\mathrm{a}}}{2.303R}\left( {\frac{1}{{T}_{{600}\mathrm{\;K}}} - \frac{1}{{T}_{{700}\mathrm{\;K}}}}\right)
+$$
+
+$$
+\lg \frac{{k}_{{700}\mathrm{\;K}}}{{1.93} \times {10}^{-3}{\mathrm{\;{min}}}^{-1}} = \frac{{200}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}}{{2.303} \times {8.314} \times {10}^{-3}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1}}\left( {\frac{1}{{600}\mathrm{\;K}} - \frac{1}{{700}\mathrm{\;K}}}\right)
+$$
+
+解得 ${700}\mathrm{\;K}$ 时的速率常数 ${k}_{{700}\mathrm{\;K}} = {0.59}{\mathrm{\;{min}}}^{-1}$ 。
+
+由
+
+$$
+\lg c = \lg {c}_{0} - \frac{k}{2.303}t
+$$
+
+得
+
+$$
+\lg \frac{{c}_{0}}{c} = \frac{k}{2.303}t
+$$
+
+$$
+\lg \frac{1}{0.3} = \frac{{0.59}{\mathrm{\;{min}}}^{-1}}{2.303}t
+$$
+
+$$
+t = {2.04}\mathrm{\;{min}}
+$$
+","：  
+1. 该反应是一级反应，一级反应的半衰期公式为 \( t_{1/2} = \frac{\ln 2}{k} \)，其中 \( k \) 是反应速率常数。  
+2. 根据阿伦尼乌斯方程，速率常数 \( k \) 与温度 \( T \) 的关系为 \( k = A e^{-\frac{E_a}{RT}} \)，其中 \( E_a \) 是活化能，\( R \) 是气体常数，\( A \) 是指前因子。  
+3. 已知 \( E_a = 200 \mathrm{\;kJ} \cdot \mathrm{mol}^{-1} = 200,000 \mathrm{\;J} \cdot \mathrm{mol}^{-1} \)，\( R = 8.314 \mathrm{\;J} \cdot \mathrm{mol}^{-1} \cdot \mathrm{K}^{-1} \)。  
+4. 在 \( 600 \mathrm{\;K} \) 时，半衰期 \( t_{1/2} = 360 \mathrm{\;min} = 21600 \mathrm{\;s} \)，因此可以求出 \( k_{600} \)：
+   \[
+   k_{600} = \frac{\ln 2}{21600}
+   \]
+5. 使用阿伦尼乌斯方程计算 \( 700 \mathrm{\;K} \) 时的速率常数 \( k_{700} \)：
+   \[
+   \ln \left(\frac{k_{700}}{k_{600}}\right) = -\frac{E_a}{R} \left(\frac{1}{700} - \frac{1}{600}\right)
+   \]
+   计算得：
+   \[
+   \ln \left(\frac{k_{700}}{k_{600}}\right) = -\frac{200000}{8.314} \left(\frac{1}{700} - \frac{1}{600}\right)
+   \]
+   \[
+   \ln \left(\frac{k_{700}}{k_{600}}\right) \approx 2.407
+   \]
+   \[
+   \frac{k_{700}}{k_{600}} = e^{2.407} \approx 11.1
+   \]
+   \[
+   k_{700} = 11.1 \times k_{600} = 11.1 \times \frac{\ln 2}{21600}
+   \]
+6. 计算在 \( 700 \mathrm{\;K} \) 时分解 \( 70\% \) 所需的时间。对于一级反应，分解 \( 70\% \) 意味着剩余 \( 30\% \)，即：
+   \[
+   \ln \left(\frac{1}{0.3}\right) = k_{700} \times t
+   \]
+   \[
+   t = \frac{\ln \left(\frac{1}{0.3}\right)}{k_{700}}
+   \]
+   \[
+   t = \frac{\ln \left(\frac{1}{0.3}\right)}{11.1 \times \frac{\ln 2}{21600}}
+   \]
+   \[
+   t \approx \frac{1.204}{11.1 \times \frac{0.693}{21600}}
+   \]
+   \[
+   t \approx \frac{1.204 \times 21600}{11.1 \times 0.693}
+   \]
+   \[
+   t \approx 3400 \mathrm{\;s}
+   \]",：3400 \mathrm{\;s},N/A,N/A,N/A
+"已知某气相反应的活化能 ${E}_{\mathrm{a}} = {163}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ ,温度 ${390}\mathrm{\;K}$ 时的速率常数 $k = {2.37} \times$ ${10}^{-2}{\mathrm{{dm}}}^{3} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{s}}^{-1}$ 。求温度为 ${420}\mathrm{\;K}$ 时的反应速率常数。","反应活化能 ${E}_{\mathrm{a}}$ ,反应温度 $T$ 和速率常数 $k$ 之间的关系为
+
+$$
+\lg \frac{{k}_{2}}{{k}_{1}} = \frac{{E}_{\mathrm{a}}}{2.303R}\left( {\frac{1}{{T}_{1}} - \frac{1}{{T}_{2}}}\right)
+$$
+
+将题设条件 ${E}_{\mathrm{a}} = {163}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1},{T}_{1} = {390}\mathrm{\;K},{T}_{2} = {420}\mathrm{\;K}$ 和 $R = {8.314}\mathrm{\;J} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1}$ 代入公式得
+
+$$
+\lg \frac{{k}_{2}}{{k}_{1}} = \frac{{163} \times {1000}\mathrm{\;J} \cdot {\mathrm{{mol}}}^{-1}}{{2.303} \times {8.314}\mathrm{\;J} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1}}\left( {\frac{1}{{390}\mathrm{\;K}} - \frac{1}{{420}\mathrm{\;K}}}\right) = {1.559}
+$$
+
+$$
+\frac{{k}_{2}}{{k}_{1}} = {36.22}
+$$
+
+$$
+{k}_{2} = {36.22}{k}_{1}
+$$
+
+$$
+= {36.22} \times {2.37} \times {10}^{-2}{\mathrm{{dm}}}^{3} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{s}}^{-1}
+$$
+
+$$
+= {8.58} \times {10}^{-1}{\mathrm{{dm}}}^{3} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{s}}^{-1}
+$$
+","：  
+根据阿伦尼乌斯方程，化学反应的速率常数 \( k \) 与温度 \( T \) 的关系为：
+
+\[
+k = A e^{-\frac{E_a}{RT}}
+\]
+
+其中，\( A \) 是指前因子，\( E_a \) 是活化能，\( R \) 是气体常数，\( T \) 是绝对温度。
+
+对于两个不同温度 \( T_1 \) 和 \( T_2 \) 下的速率常数 \( k_1 \) 和 \( k_2 \)，可以用以下公式来表示：
+
+\[
+\ln \left(\frac{k_2}{k_1}\right) = -\frac{E_a}{R} \left(\frac{1}{T_2} - \frac{1}{T_1}\right)
+\]
+
+已知：
+- \( E_a = 163 \, \text{kJ/mol} = 163000 \, \text{J/mol} \)
+- \( T_1 = 390 \, \text{K} \)
+- \( k_1 = 2.37 \times 10^{-2} \, \text{dm}^3 \cdot \text{mol}^{-1} \cdot \text{s}^{-1} \)
+- \( T_2 = 420 \, \text{K} \)
+- \( R = 8.314 \, \text{J/(mol} \cdot \text{K)} \)
+
+将这些值代入公式：
+
+\[
+\ln \left(\frac{k_2}{2.37 \times 10^{-2}}\right) = -\frac{163000}{8.314} \left(\frac{1}{420} - \frac{1}{390}\right)
+\]
+
+计算右边的值：
+
+\[
+\frac{1}{420} - \frac{1}{390} = \frac{390 - 420}{420 \times 390} = -\frac{30}{163800} \approx -0.0001832
+\]
+
+\[
+-\frac{163000}{8.314} \times (-0.0001832) \approx 3.594
+\]
+
+因此：
+
+\[
+\ln \left(\frac{k_2}{2.37 \times 10^{-2}}\right) = 3.594
+\]
+
+\[
+\frac{k_2}{2.37 \times 10^{-2}} = e^{3.594}
+\]
+
+\[
+k_2 = 2.37 \times 10^{-2} \times e^{3.594}
+\]
+
+计算 \( e^{3.594} \approx 36.37 \)，因此：
+
+\[
+k_2 \approx 2.37 \times 10^{-2} \times 36.37 \approx 0.863 \, \text{dm}^3 \cdot \text{mol}^{-1} \cdot \text{s}^{-1}
+\]",：0.863,N/A,N/A,N/A
+"某一级反应 ${400}\mathrm{\;K}$ 时的半衰期是 ${500}\mathrm{\;K}$ 时的 100 倍,试估算该反应的活化能。","由一级反应的半衰期公式
+
+$$
+{t}_{1/2} = \frac{0.693}{k}
+$$
+
+得
+
+$$
+k = \frac{0.693}{{t}_{1/2}}
+$$
+
+$$
+\frac{{k}_{2}}{{k}_{1}} = \frac{\frac{0.693}{{t}_{1/2}\left( 2\right) }}{\frac{0.693}{{t}_{1/2}\left( 1\right) }} = \frac{{t}_{1/2}\left( 1\right) }{{t}_{1/2}\left( 2\right) }
+$$
+
+将其代入反应活化能 ${E}_{\mathrm{a}}$ ,反应温度 $T$ 和速率常数 $k$ 的关系式:
+
+$$
+\lg \frac{{k}_{2}}{{k}_{1}} = \frac{{E}_{\mathrm{a}}}{2.303R}\left( {\frac{1}{{T}_{1}} - \frac{1}{{T}_{2}}}\right)
+$$
+
+可得
+
+$$
+\lg \frac{{t}_{1/2}\left( 1\right) }{{t}_{1/2}\left( 2\right) } = \frac{{E}_{\mathrm{a}}}{2.303R}\left( {\frac{1}{{T}_{1}} - \frac{1}{{T}_{2}}}\right)
+$$
+
+将题设数据代入其中, 得
+
+$$
+{E}_{\mathrm{a}} = \frac{{2.303R}\lg \frac{{t}_{1/2}\left( 1\right) }{{t}_{1/2}\left( 2\right) }}{\frac{1}{{T}_{1}} - \frac{1}{{T}_{2}}}
+$$
+
+$$
+= \frac{{2.303} \times {8.314}\mathrm{\;J} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1} \times \lg {100}}{\frac{1}{{400}\mathrm{\;K}} - \frac{1}{{500}\mathrm{\;K}}}
+$$
+
+$$
+= {76.6}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}
+$$
+","：对于一级反应，其半衰期 \( t_{1/2} \) 与速率常数 \( k \) 的关系为：
+
+\[
+t_{1/2} = \frac{\ln 2}{k}
+\]
+
+根据阿伦尼乌斯方程，速率常数 \( k \) 与温度 \( T \) 的关系为：
+
+\[
+k = A e^{-\frac{E_a}{RT}}
+\]
+
+其中 \( E_a \) 是活化能，\( R \) 是气体常数，\( A \) 是指前因子。
+
+题目中给出在 \( 400 \, \text{K} \) 时的半衰期是 \( 500 \, \text{K} \) 时的 100 倍，因此：
+
+\[
+\frac{t_{1/2, 400}}{t_{1/2, 500}} = 100
+\]
+
+代入半衰期公式：
+
+\[
+\frac{\frac{\ln 2}{k_{400}}}{\frac{\ln 2}{k_{500}}} = 100 \implies \frac{k_{500}}{k_{400}} = 100
+\]
+
+根据阿伦尼乌斯方程：
+
+\[
+\frac{k_{500}}{k_{400}} = \frac{A e^{-\frac{E_a}{R \times 500}}}{A e^{-\frac{E_a}{R \times 400}}} = e^{\frac{E_a}{R} \left(\frac{1}{400} - \frac{1}{500}\right)}
+\]
+
+因此：
+
+\[
+100 = e^{\frac{E_a}{R} \left(\frac{1}{400} - \frac{1}{500}\right)}
+\]
+
+取对数：
+
+\[
+\ln 100 = \frac{E_a}{R} \left(\frac{1}{400} - \frac{1}{500}\right)
+\]
+
+计算 \(\frac{1}{400} - \frac{1}{500}\):
+
+\[
+\frac{1}{400} - \frac{1}{500} = \frac{5 - 4}{2000} = \frac{1}{2000}
+\]
+
+代入上式：
+
+\[
+\ln 100 = \frac{E_a}{R} \times \frac{1}{2000}
+\]
+
+\[
+E_a = R \times 2000 \times \ln 100
+\]
+
+已知 \( R = 8.314 \, \text{J/mol·K} \)，且 \(\ln 100 = 4.605\)，代入计算：
+
+\[
+E_a = 8.314 \times 2000 \times 4.605
+\]
+
+\[
+E_a \approx 76540 \, \text{J/mol} = 76.54 \, \text{kJ/mol}
+\]",：76.54 kJ/mol,N/A,N/A,N/A
+"在 ${600}\mathrm{\;K}$ 时,某化合物分解反应的速率常数 $k = {3.3} \times {10}^{-2}{\mathrm{\;s}}^{-1}$ ,反应的活化能 ${E}_{\mathrm{a}} =$ ${18.88} \times {10}^{4}\mathrm{\;J} \cdot {\mathrm{{mol}}}^{-1}$ ,若控制反应在 ${10}\mathrm{\;{min}}$ 内转化率达 ${90}\%$ ,则反应的温度应控制为多少?","根据速率常数单位知该反应为一级反应, 则
+
+$$
+\lg c = \lg {c}_{0} - \frac{k}{2.303}t
+$$
+
+即
+
+$$
+\lg \frac{{c}_{0}}{c} = \frac{k}{2.303}t
+$$
+
+$$
+\lg \frac{1}{0.1} = \frac{k}{2.303} \times {600}\mathrm{\;s}
+$$
+
+$$
+k = {3.8} \times {10}^{-3}{\mathrm{\;s}}^{-1}
+$$
+
+$$
+\lg \frac{{k}_{2}}{{k}_{1}} = \frac{{E}_{\mathrm{a}}}{2.303R}\left( {\frac{1}{{T}_{1}} - \frac{1}{{T}_{2}}}\right)
+$$
+
+$$
+\lg \frac{{3.8} \times {10}^{-3}{\mathrm{\;s}}^{-1}}{{3.3} \times {10}^{-2}{\mathrm{\;s}}^{-1}} = \frac{{18.88} \times {10}^{4}\mathrm{\;J} \cdot {\mathrm{{mol}}}^{-1}}{{2.303} \times {8.314}\mathrm{\;J} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1}}\left( {\frac{1}{{600}\mathrm{\;K}} - \frac{1}{{T}_{2}}}\right)
+$$
+
+$$
+{T}_{2} = {567.6}\mathrm{\;K}
+$$
+","：首先，我们需要确定反应的级数。题目中给出的速率常数单位是 $\mathrm{s}^{-1}$，这表明反应是一级反应。对于一级反应，反应速率常数 $k$ 与时间 $t$ 和转化率 $\alpha$ 的关系可以用公式 $\ln(1-\alpha) = -kt$ 表示。
+
+已知转化率 $\alpha = 90\% = 0.9$，时间 $t = 10 \mathrm{\;min} = 600 \mathrm{\;s}$，我们可以用这个公式计算出在600 K时的速率常数 $k_{600}$。
+
+接下来，我们使用阿伦尼乌斯方程来计算新的温度 $T$。阿伦尼乌斯方程为 $k = A e^{-E_a/(RT)}$，其中 $A$ 是指前因子，$E_a$ 是活化能，$R$ 是气体常数（$8.314 \mathrm{\;J \cdot mol^{-1} \cdot K^{-1}}$），$T$ 是绝对温度。
+
+我们可以通过以下步骤计算出新的温度：
+
+1. 计算在600 K时的速率常数 $k_{600}$。
+2. 使用阿伦尼乌斯方程的对数形式 $\ln(k) = \ln(A) - \frac{E_a}{RT}$，计算出新的温度 $T$，使得在10分钟内达到90%的转化率。
+
+首先，计算在600 K时的速率常数 $k_{600}$：
+\[
+\ln(1-0.9) = -k_{600} \times 600
+\]
+\[
+\ln(0.1) = -k_{600} \times 600
+\]
+\[
+k_{600} = -\frac{\ln(0.1)}{600}
+\]
+
+然后，使用阿伦尼乌斯方程计算新的温度 $T$：
+\[
+\ln(k_{T}) = \ln(k_{600}) + \frac{E_a}{R} \left(\frac{1}{600} - \frac{1}{T}\right)
+\]
+
+我们需要解这个方程来找到 $T$，使得 $k_{T}$ 对应于在10分钟内达到90%转化率的速率常数。",：${\approx 700}\mathrm{\;K}$,N/A,N/A,N/A
+"${203}\mathrm{{Hg}}$ 可用于进行肾扫描。某医院购入 ${0.200}\mathrm{{mg}}{}^{203}\mathrm{{Hg}}{\left( {\mathrm{{NO}}}_{3}\right) }_{2}$ 试样,六个月 $\left( {{182}\mathrm{\;d}}\right)$ 后, 未发生衰变的试样还有多少? 已知 ${}^{203}\mathrm{{Hg}}$ 的半衰期为 ${46.1}\mathrm{\;d}$ 。","由题意 ${t}_{1/2} = {46.1}\mathrm{\;d}$ ,反应为一级, ${m}_{0} = {0.200}\mathrm{{mg}}$ 。
+
+由 ${t}_{1/2} = \frac{0.693}{k}$ 得
+
+$$
+k = \frac{0.693}{{t}_{1/2}}
+$$
+
+$$
+\lg \frac{m}{{m}_{0}} = - \frac{kt}{2.303} = - \frac{0.693t}{{2.303}{t}_{1/2}}
+$$
+
+$$
+= - \frac{{0.693} \times {182}}{{2.303} \times {46.1}} = - {1.19}
+$$
+
+$$
+\frac{m}{{m}_{0}} = {0.0646}
+$$
+
+剩余试样质量 $m = {0.0646} \times {0.200}\mathrm{{mg}} = {0.0129}\mathrm{{mg}}$ 。
+","：  
+1. 首先，我们需要知道放射性同位素的衰变遵循指数衰减规律，其公式为：  
+   \[ N = N_0 \times \left( \frac{1}{2} \right)^{\frac{t}{T_{1/2}}} \]  
+   其中，\( N \) 是剩余的未衰变的物质量，\( N_0 \) 是初始物质量，\( t \) 是经过的时间，\( T_{1/2} \) 是半衰期。
+
+2. 题目中给出的初始质量 \( N_0 \) 是 0.200 mg，半衰期 \( T_{1/2} \) 是 46.1 天，经过的时间 \( t \) 是 182 天。
+
+3. 将这些数值代入公式：  
+   \[ N = 0.200 \times \left( \frac{1}{2} \right)^{\frac{182}{46.1}} \]
+
+4. 计算指数部分：  
+   \[ \frac{182}{46.1} \approx 3.948 \]
+
+5. 计算衰减因子：  
+   \[ \left( \frac{1}{2} \right)^{3.948} \approx 0.0625 \]
+
+6. 计算剩余的未衰变的物质量：  
+   \[ N = 0.200 \times 0.0625 = 0.0125 \]",：0.0125 mg,N/A,N/A,N/A
+"${\mathrm{\;N}}_{2}{\mathrm{O}}_{5}$ 分解为 ${\mathrm{{NO}}}_{2}$ 和 ${\mathrm{O}}_{2}$ 的反应为一级反应,45 ℃时,其速率常数 $k = {4.8} \times {10}^{-4}{\mathrm{\;s}}^{-1}$ 。
+
+(1) 假设 ${\mathrm{N}}_{2}{\mathrm{O}}_{5}$ 的起始浓度为 ${1.65} \times {10}^{-2}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3},{825}\mathrm{\;s}$ 以后其浓度为多少?
+
+（2）多长时间后 ${\mathrm{N}}_{2}{\mathrm{O}}_{5}$ 将由起始浓度减少到 ${1.00} \times {10}^{-2}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ ?","(1) 对于一级反应 $\lg \frac{c}{{c}_{0}} = - \frac{k}{2.303}t$
+
+因此 $\lg \frac{c\left( {{\mathrm{\;N}}_{2}{\mathrm{O}}_{5}}\right) }{{1.65} \times {10}^{-2}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}} = - \frac{{4.80} \times {10}^{-4}{\mathrm{\;s}}^{-1} \times {825}\mathrm{\;s}}{2.303}$
+
+$$
+c\left( {{\mathrm{\;N}}_{2}{\mathrm{O}}_{5}}\right) = {1.11} \times {10}^{-2}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}
+$$
+
+（2）由
+
+$$
+\lg \frac{c}{{c}_{0}} = - \frac{k}{2.303}t
+$$
+
+$$
+\lg \frac{{1.00} \times {10}^{-2}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}}{{1.65} \times {10}^{-2}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}} = - \frac{{4.80} \times {10}^{-4}{\mathrm{\;s}}^{-1} \cdot t}{2.303}
+$$
+
+$$
+t = {1043}\mathrm{\;s}
+$$
+","：
+
+(1) 对于一级反应，反应速率方程可以表示为：
+\[
+\ln \left( \frac{[A]_0}{[A]} \right) = kt
+\]
+其中 \([A]_0\) 是初始浓度，\([A]\) 是时间 \(t\) 时的浓度，\(k\) 是速率常数，\(t\) 是时间。
+
+已知 \([A]_0 = 1.65 \times 10^{-2} \, \text{mol} \cdot \text{dm}^{-3}\)，\(k = 4.8 \times 10^{-4} \, \text{s}^{-1}\)，\(t = 825 \, \text{s}\)。
+
+代入公式：
+\[
+\ln \left( \frac{1.65 \times 10^{-2}}{[A]} \right) = 4.8 \times 10^{-4} \times 825
+\]
+
+计算右边：
+\[
+4.8 \times 10^{-4} \times 825 = 0.396
+\]
+
+因此：
+\[
+\ln \left( \frac{1.65 \times 10^{-2}}{[A]} \right) = 0.396
+\]
+
+解方程：
+\[
+\frac{1.65 \times 10^{-2}}{[A]} = e^{0.396}
+\]
+
+计算 \(e^{0.396}\)：
+\[
+e^{0.396} \approx 1.485
+\]
+
+因此：
+\[
+[A] = \frac{1.65 \times 10^{-2}}{1.485} \approx 1.11 \times 10^{-2} \, \text{mol} \cdot \text{dm}^{-3}
+\]
+
+(2) 仍然使用一级反应速率方程：
+\[
+\ln \left( \frac{[A]_0}{[A]} \right) = kt
+\]
+
+已知 \([A]_0 = 1.65 \times 10^{-2} \, \text{mol} \cdot \text{dm}^{-3}\)，\([A] = 1.00 \times 10^{-2} \, \text{mol} \cdot \text{dm}^{-3}\)，\(k = 4.8 \times 10^{-4} \, \text{s}^{-1}\)。
+
+代入公式：
+\[
+\ln \left( \frac{1.65 \times 10^{-2}}{1.00 \times 10^{-2}} \right) = 4.8 \times 10^{-4} \times t
+\]
+
+计算左边：
+\[
+\ln \left( \frac{1.65}{1.00} \right) = \ln(1.65) \approx 0.500
+\]
+
+因此：
+\[
+0.500 = 4.8 \times 10^{-4} \times t
+\]
+
+解方程：
+\[
+t = \frac{0.500}{4.8 \times 10^{-4}} \approx 1042 \, \text{s}
+\]","：
+1. \(1.11 \times 10^{-2} \, \text{mol} \cdot \text{dm}^{-3}\)
+2. \(1042 \, \text{s}\)",N/A,N/A,N/A
+"合成氨反应一般在 ${773}\mathrm{\;K}$ 下进行,没有催化剂时反应的活化能约为 ${326}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ ,使用还原铁粉作催化剂时,活化能降低至 ${175}\mathrm{\;{kJ}} \cdot {\mathrm{{mol}}}^{-1}$ 。问加入催化剂后,反应速率扩大了多少倍?","速率常数、反应温度和反应活化能的关系满足阿仑尼乌斯公式:
+
+$$
+\lg k = - \frac{{E}_{\mathrm{a}}}{2.303RT} + \lg A
+$$
+
+当温度一定、活化能 ${E}_{\mathrm{a}}$ 不同时,速率常数 $k$ 不同,于是
+
+$$
+\lg {k}_{1} = - \frac{{E}_{\mathrm{a}}\left( 1\right) }{2.303RT} + \lg A
+$$
+
+$$
+\lg {k}_{2} = - \frac{{E}_{\mathrm{a}}\left( 2\right) }{2.303RT} + \lg A
+$$
+
+两式相减得
+
+$$
+\lg \frac{{k}_{2}}{{k}_{1}} = \frac{{E}_{\mathrm{a}}\left( 1\right) - {E}_{\mathrm{a}}\left( 2\right) }{2.303RT}
+$$
+
+因为速率常数 $k$ 与反应速率 $v$ 成正比,故
+
+$$
+\frac{{k}_{2}}{{k}_{1}} = \frac{{v}_{2}}{{v}_{1}}
+$$
+
+公式变成 $\lg \frac{{v}_{2}}{{v}_{1}} = \frac{{E}_{\mathrm{a}}\left( 1\right) - {E}_{\mathrm{a}}\left( 2\right) }{2.303RT}$
+
+$$
+= \frac{\left( {{326} - {175}}\right) \times {10}^{3}\mathrm{\;J} \cdot {\mathrm{{mol}}}^{-1}}{{2.303} \times {8.314}\mathrm{\;J} \cdot {\mathrm{{mol}}}^{-1} \cdot {\mathrm{K}}^{-1} \times {773}\mathrm{\;K}}
+$$
+
+$$
+= {10.2}
+$$
+
+故
+
+$$
+\frac{{v}_{2}}{{v}_{1}} = {1.6} \times {10}^{10}
+$$
+
+即加入催化剂后,反应速率扩大了 ${1.6} \times {10}^{10}$ 倍。
+","：  
+化学反应速率常数 \( k \) 与活化能 \( E_a \) 的关系可以通过阿伦尼乌斯方程表示：  
+\[ k = A \cdot e^{-\frac{E_a}{RT}} \]  
+其中 \( A \) 是指前因子，\( R \) 是气体常数，\( T \) 是绝对温度。对于同一反应，假设 \( A \) 不变，温度 \( T \) 也不变，催化剂的作用是降低活化能 \( E_a \)。  
+设没有催化剂时的速率常数为 \( k_1 \)，有催化剂时的速率常数为 \( k_2 \)，则：  
+\[ k_1 = A \cdot e^{-\frac{326 \times 10^3}{8.314 \times 773}} \]  
+\[ k_2 = A \cdot e^{-\frac{175 \times 10^3}{8.314 \times 773}} \]  
+反应速率的倍数为 \( \frac{k_2}{k_1} \)：  
+\[ \frac{k_2}{k_1} = \frac{A \cdot e^{-\frac{175 \times 10^3}{8.314 \times 773}}}{A \cdot e^{-\frac{326 \times 10^3}{8.314 \times 773}}} = e^{\frac{326 \times 10^3 - 175 \times 10^3}{8.314 \times 773}} \]  
+计算指数部分：  
+\[ \frac{326 \times 10^3 - 175 \times 10^3}{8.314 \times 773} = \frac{151 \times 10^3}{8.314 \times 773} \approx 23.52 \]  
+因此：  
+\[ \frac{k_2}{k_1} = e^{23.52} \]  
+计算 \( e^{23.52} \) 得到反应速率的倍数。",：\( e^{23.52} \approx 1.7 \times 10^{10} \),N/A,N/A,N/A

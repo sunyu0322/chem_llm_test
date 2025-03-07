@@ -1,0 +1,395 @@
+query,true_answer,reasoning,model_answer,knowledge_accuracy,reasoning_accuracy,final_answer_accuracy
+"通过计算说明 ${\mathrm{K}}_{2}{\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}$ 能否氧化浓度分别为 $1\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 和 ${12}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 盐酸中的 ${\mathrm{{Cl}}}^{ - }$ 。已知 ${E}^{ \ominus }\left( {{\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}^{2 - }/{\mathrm{{Cr}}}^{3 + }}\right) = {1.36}\mathrm{\;V},{E}^{ \ominus }\left( {{\mathrm{{Cl}}}_{2}/{\mathrm{{Cl}}}^{ - }}\right) = {1.36}\mathrm{\;V}$ 。
+","盐酸浓度为 $1\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 时 (标准状态下):
+
+$$
+{E}^{ \ominus }\left( {{\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}^{2 - }/{\mathrm{{Cr}}}^{3 + }}\right) = {E}^{ \ominus }\left( {{\mathrm{{Cl}}}_{2}/{\mathrm{{Cl}}}^{ - }}\right)
+$$
+
+考虑由 ${\mathrm{{Cl}}}^{ - }$ 生成 ${\mathrm{{Cl}}}_{2}$ 时存在超电势,所以 ${\mathrm{K}}_{2}{\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}$ 不能氧化 $1\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 盐酸中的 ${\mathrm{{Cl}}}^{ - }$ 。
+
+盐酸浓度为 ${12}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 时, $c\left( {\mathrm{H}}^{ + }\right) = c\left( {\mathrm{{Cl}}}^{ - }\right) \approx {12}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 。由电极反应
+
+$$
+{\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}^{2 - } + {14}{\mathrm{H}}^{ + } + 6{\mathrm{e}}^{ - } = 2{\mathrm{{Cr}}}^{3 + } + 7{\mathrm{H}}_{2}\mathrm{O}
+$$
+
+则 ${\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}^{2 - }/{\mathrm{{Cr}}}^{3 + }$ 电对的电极电势 (设 ${\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}^{2 - }$ 和 ${\mathrm{{Cr}}}^{3 + }$ 的浓度符合标准状态):
+
+$$
+E = {E}^{ \ominus } + \frac{{0.059}\mathrm{\;V}}{6}\lg \frac{c{\left( {\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}^{2 - }\right) }^{14}{\left\lbrack c\left( {\mathrm{H}}^{ + }\right) \right\rbrack }^{14}}{c\left( {\mathrm{{Cr}}}^{3 + }\right) }
+$$
+
+$$
+= {E}^{ \ominus } + \frac{{0.059}\mathrm{\;V}}{6}\lg {\left\lbrack c\left( {\mathrm{H}}^{ + }\right) \right\rbrack }^{14} = {1.36}\mathrm{\;V} + \frac{{0.059}\mathrm{\;V}}{6}\lg {\left( {12}\right) }^{14}
+$$
+
+$$
+= {1.51}\mathrm{\;V}
+$$
+
+由电极反应
+
+$$
+{\mathrm{{Cl}}}_{2} + 2{\mathrm{e}}^{ - } = 2{\mathrm{{Cl}}}^{ - }
+$$
+
+则 ${\mathrm{{Cl}}}_{2}/{\mathrm{{Cl}}}^{ - }$ 电对的电极电势 (设 ${\mathrm{{Cl}}}_{2}$ 的分压符合标准状态):
+
+$$
+E = {E}^{ \ominus } + \frac{{0.059}\mathrm{\;V}}{2}\lg \frac{p\left( {\mathrm{{Cl}}}_{2}\right) /{p}^{ \ominus }}{{\left\lbrack c\left( {\mathrm{{Cl}}}^{ - }\right) /{c}^{ \ominus }\right\rbrack }^{2}}
+$$
+
+$$
+= {E}^{ \ominus } + \frac{{0.059}\mathrm{\;V}}{2}\lg \frac{1}{{\left\lbrack c\left( {\mathrm{{Cl}}}^{ - }\right) \right\rbrack }^{2}} = {1.36}\mathrm{\;V} + \frac{{0.059}\mathrm{\;V}}{2}\lg \frac{1}{{12}^{2}}
+$$
+
+$$
+= {1.30}\mathrm{\;V}
+$$
+
+计算结果表明, ${\mathrm{K}}_{2}{\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}$ 能氧化浓盐酸中的 ${\mathrm{{Cl}}}^{ - }$ :
+
+$$
+{\mathrm{K}}_{2}{\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7} + {14}\mathrm{{HCl}}\text{ (浓) } = 2{\mathrm{{CrCl}}}_{3} + 3{\mathrm{{Cl}}}_{2} \uparrow + 2\mathrm{{KCl}} + 7{\mathrm{H}}_{2}\mathrm{O}
+$$
+","：要判断${\mathrm{K}}_{2}{\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}$能否氧化不同浓度的盐酸中的${\mathrm{{Cl}}}^{-}$，我们需要比较两者的标准电极电势。题目已经给出${E}^{ \ominus }\left( {{\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}^{2 - }/{\mathrm{{Cr}}}^{3 + }}\right) = 1.36\,\mathrm{V}$和${E}^{ \ominus }\left( {{\mathrm{{Cl}}}_{2}/{\mathrm{{Cl}}}^{-}}\right) = 1.36\,\mathrm{V}$。当两个半反应的标准电极电位相等时，理论上这两个物质之间不会自发地发生氧化还原反应。但是，实际情况中由于浓度的变化会影响Nernst方程的结果，进而影响到实际电位值。
+
+对于Nernst方程：
+\[ E = E^{\ominus} - \frac{RT}{nF}\ln Q \]
+
+其中$Q$是反应商，$R$是理想气体常数（8.314 J/(mol·K)），$T$是温度（假设为298 K），$n$是电子转移数，$F$是法拉第常数（96500 C/mol）。对于$\mathrm{{Cr}}_{2}\mathrm{{O}}_{7}^{2-}/\mathrm{{Cr}}^{3+}$系统，电子转移数$n=6$；对于$\mathrm{{Cl}}_2/\mathrm{{Cl}}^{-}$系统，$n=2$。
+
+对于$\mathrm{{Cl}}_2/\mathrm{{Cl}}^{-}$系统的Nernst方程可以写作：
+\[ E(\mathrm{{Cl}}_2/\mathrm{{Cl}}^{-}) = 1.36 - \frac{0.0592}{2}\log[\mathrm{{Cl}}^{-}] \]
+这里使用了298K下的简化形式，即$-\frac{RT}{nF}=\frac{0.0592}{n}$ (V)。
+
+- 当$[\mathrm{{Cl}}^{-}]=1\, \mathrm{mol}\cdot\mathrm{dm}^{-3}$时，
+  \[ E(\mathrm{{Cl}}_2/\mathrm{{Cl}}^{-}) = 1.36 - \frac{0.0592}{2}\log(1) = 1.36\, \mathrm{V} \]
+- 当$[\mathrm{{Cl}}^{-}]=12\, \mathrm{mol}\cdot\mathrm{dm}^{-3}$时，
+  \[ E(\mathrm{{Cl}}_2/\mathrm{{Cl}}^{-}) = 1.36 - \frac{0.0592}{2}\log(12) \approx 1.36 - 0.0592 * 1.079 \approx 1.30\, \mathrm{V} \]
+
+因此，在第一种情况下，${\mathrm{K}}_{2}{\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}$与${\mathrm{{Cl}}}^{-}$之间的电位相同，不会发生明显的氧化还原反应。但在第二种情况下，${\mathrm{{Cl}}}_2/{\mathrm{{Cl}}}^{-}$的实际电位降低到了约1.30 V，低于${\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}^{2-}/{\mathrm{{Cr}}}^{3+}$的标准电位1.36 V，这意味着在这种条件下，${\mathrm{K}}_{2}{\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}$能够氧化高浓度盐酸中的${\mathrm{{Cl}}}^{-}$生成${\mathrm{{Cl}}}_2$。","：在$1\, \mathrm{mol} \cdot \mathrm{dm}^{-3}$的盐酸中不能氧化${\mathrm{{Cl}}}^{-}$；而在$12\, \mathrm{mol} \cdot \mathrm{dm}^{-3}$的盐酸中能氧化${\mathrm{{Cl}}}^{-}$。",N/A,N/A,N/A
+为什么用 $\mathrm{{Cr}}\left( \text{II}\right)$ 可以除去氮气中痕量的氧气?," $\mathrm{{Cr}}\left( \text{II}\right)$ 具有强还原性,据此可以用来从氮气中除去痕量的氧:
+
+$$
+4{\mathrm{{Cr}}}^{2 + } + {\mathrm{O}}_{2} + 4{\mathrm{H}}^{ + } = 4{\mathrm{{Cr}}}^{3 + } + 2{\mathrm{H}}_{2}\mathrm{O}
+$$
+
+将气体通过 $\mathrm{{Cr}}\left( \text{ II }\right)$ 溶液, $\mathrm{{Cr}}\left( \text{ II }\right)$ 迅速被氮气中痕量的氧气所氧化,杂质氧气因而被除去。
+
+一般来说,凡是有强还原性且与 ${\mathrm{O}}_{2}$ 反应较快的还原剂都可用来除去氮气中痕量的氧气, 如保险粉 ${\mathrm{{Na}}}_{2}{\mathrm{\;S}}_{2}{\mathrm{O}}_{4}$ 等。
+","：要解答这个问题，我们需要考虑$\mathrm{Cr(II)}$与氧气之间的化学反应特性。首先明确背景知识，氮气中的氧气作为杂质需要被去除，而$\mathrm{Cr(II)}$即二价铬，在适当的条件下能够与氧气发生氧化还原反应。关键在于理解$\mathrm{Cr(II)}$的氧化性质以及它如何与氧作用。
+
+1. $\mathrm{Cr(II)}$具有较强的还原性，容易失去电子变成更高价态的铬（如$\mathrm{Cr(III)}$）。这种特性使得$\mathrm{Cr(II)}$成为良好的还原剂。
+2. 氧气是一种强氧化剂，在标准状态下为双原子分子形式存在（O₂），能接受来自其他物质的电子。
+3. 当$\mathrm{Cr(II)}$遇到氧气时，会发生如下反应：\[4\mathrm{Cr^{2+}} + \mathrm{O_2} + 4\mathrm{H^+} \rightarrow 4\mathrm{Cr^{3+}} + 2\mathrm{H_2O}\]此反应中，$\mathrm{Cr(II)}$被氧化成$\mathrm{Cr(III)}$，同时氧气被还原生成水。
+4. 由于这个反应是自发进行的，并且在常温下就能快速完成，因此$\mathrm{Cr(II)}$可以有效地除去混合气体中的氧气而不影响主要成分——氮气。
+5. 重要的是，该方法选择性地去除了氧气而保留了氮气，这正是从含微量氧气的氮气流中去除氧气所需要的。
+
+综上所述，$\mathrm{Cr(II)}$通过与氧气直接反应将其转化为无害产物的方式，有效地实现了氮气中痕量氧气的去除。",：$\mathrm{Cr(II)}$可以通过与氧气发生氧化还原反应，将氧气转化成水，从而有效去除氮气中的微量氧气。,N/A,N/A,N/A
+"在三份 ${\mathrm{{Cr}}}_{2}{\left( {\mathrm{{SO}}}_{4}\right) }_{3}$ 溶液中分别加入下列溶液:
+
+(1) ${\mathrm{{Na}}}_{2}\mathrm{\;S}$ ; (2) ${\mathrm{{Na}}}_{2}{\mathrm{{CO}}}_{3}$ ; (3) ${\mathrm{{NH}}}_{3} \cdot {\mathrm{H}}_{2}\mathrm{O}$ 。
+
+得到的沉淀各是什么? 写出化学反应方程式。
+","${\mathrm{{Cr}}}^{3 + }$ 正电荷数高,半径也比较小,极化能力强,在 ${\mathrm{{Na}}}_{2}\mathrm{\;S},{\mathrm{{Na}}}_{2}{\mathrm{{CO}}}_{3}$ 和 ${\mathrm{{NH}}}_{3} \cdot {\mathrm{H}}_{2}\mathrm{O}$ 溶液中均生成氢氧化物沉淀。
+
+(1) ${\mathrm{{Cr}}}^{3 + } + 3{\mathrm{\;S}}^{2 - } + 3{\mathrm{H}}_{2}\mathrm{O} = \mathrm{{Cr}}{\left( \mathrm{{OH}}\right) }_{3} \downarrow + 3{\mathrm{{HS}}}^{ - }$
+
+$2{\mathrm{{Cr}}}^{3 + } + 3{\mathrm{\;S}}^{2 - } + 6{\mathrm{H}}_{2}\mathrm{O} = 2\mathrm{{Cr}}{\left( \mathrm{{OH}}\right) }_{3} \downarrow + 3{\mathrm{H}}_{2}\mathrm{\;S} \uparrow$
+
+${\mathrm{{Na}}}_{2}\mathrm{\;S}$ 溶液过量时生成 ${\mathrm{{HS}}}^{ - },{\mathrm{{Cr}}}_{2}{\left( {\mathrm{{SO}}}_{4}\right) }_{3}$ 溶液过量时生成 ${\mathrm{H}}_{2}\mathrm{\;S}$ 。 ${\mathrm{H}}_{2}\mathrm{\;S}$ 溶解度为 ${0.1}\mathrm{\;{mol}}$ . ${\mathrm{{dm}}}^{-3}$ ,浓度较低时不能从溶液中逸出。
+
+(2) ${\mathrm{{Cr}}}^{3 + } + 3{\mathrm{{CO}}}_{3}^{2 - } + 3{\mathrm{H}}_{2}\mathrm{O} = \mathrm{{Cr}}{\left( \mathrm{{OH}}\right) }_{3} \downarrow + 3{\mathrm{{HCO}}}_{3}^{ - }$
+
+$2{\mathrm{{Cr}}}^{3 + } + 3{\mathrm{{CO}}}_{3}^{2 - } + 3{\mathrm{H}}_{2}\mathrm{O} = 2\mathrm{{Cr}}{\left( \mathrm{{OH}}\right) }_{3} \downarrow + 3{\mathrm{{CO}}}_{2} \uparrow$
+
+${\mathrm{{Na}}}_{2}{\mathrm{{CO}}}_{3}$ 溶液过量时生成 ${\mathrm{{HCO}}}_{3}^{ - },{\mathrm{{Cr}}}_{2}{\left( {\mathrm{{SO}}}_{4}\right) }_{3}$ 溶液过量时生成 ${\mathrm{{CO}}}_{2}$ 。 ${\mathrm{{CO}}}_{2}$ 溶解度为 ${0.04}\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ ,浓度较高时从溶液中逸出。
+
+(3) ${\mathrm{{Cr}}}^{3 + } + 3{\mathrm{{NH}}}_{3} \cdot {\mathrm{H}}_{2}\mathrm{O} = \mathrm{{Cr}}{\left( \mathrm{{OH}}\right) }_{3} \downarrow + 3{\mathrm{{NH}}}_{4}^{ + }$
+
+由于 $\mathrm{{Cr}}{\left( \mathrm{{OH}}\right) }_{3}$ 溶度积常数很小而 ${\left\lbrack \mathrm{{Cr}}{\left( {\mathrm{{NH}}}_{3}\right) }_{6}\right\rbrack }^{3 + }$ 稳定常数不是很大,在过量 ${\mathrm{{NH}}}_{3} \cdot {\mathrm{H}}_{2}\mathrm{O}$ 中 $\mathrm{{Cr}}{\left( \mathrm{{OH}}\right) }_{3}$ 溶解度不大。
+","：要解答这个问题，我们需要考虑${\mathrm{{Cr}}}_{2}{\left( {\mathrm{{SO}}}_{4}\right) }_{3}$与给出的三种溶液反应时可能形成的沉淀。首先明确铬(III)离子在不同条件下的化学行为。
+
+1. 当向${\mathrm{{Cr}}}_{2}{\left( {\mathrm{{SO}}}_{4}\right) }_{3}$溶液中加入${\mathrm{{Na}}}_{2}\mathrm{\;S}$时，由于硫化物具有很强的还原性，并且能够与大多数金属阳离子形成难溶于水的硫化物沉淀，因此这里会生成$\mathrm{Cr}_2\mathrm{S}_3$沉淀。
+   - 反应方程式为: ${\mathrm{{Cr}}}_{2}{\left( {\mathrm{{SO}}}_{4}\right) }_{3} + 3{\mathrm{{Na}}}_{2}\mathrm{\;S} \rightarrow \mathrm{Cr}_2\mathrm{S}_3\downarrow + 3{\mathrm{{Na}}}_{2}{\mathrm{{SO}}}_{4}$
+
+2. 加入${\mathrm{{Na}}}_{2}{\mathrm{{CO}}}_{3}$时，考虑到碳酸根离子与铬(III)离子结合的能力较弱，但根据溶度积规则，还是可以形成少量不溶性的碱式碳酸铬沉淀。
+   - 反应方程式较为复杂，简化表示为: ${\mathrm{{Cr}}}_{2}{\left( {\mathrm{{SO}}}_{4}\right) }_{3} + 3{\mathrm{{Na}}}_{2}{\mathrm{{CO}}}_{3} \rightarrow (\mathrm{Cr(OH)}_2\mathrm{CO}_3)_n\downarrow + 3{\mathrm{{Na}}}_{2}{\mathrm{{SO}}}_{4} + (n-1)\mathrm{H}_2\mathrm{O}$, 其中$n$代表聚合程度。
+
+3. 最后，当加入${\mathrm{{NH}}}_{3} \cdot {\mathrm{H}}_{2}\mathrm{O}$氨水时，铬(III)离子会与氨形成稳定的络合物[Cr(NH3)6]3+，但由于浓度或pH值的变化也可能导致部分形成氢氧化铬沉淀。
+   - 主要反应方程式为: ${\mathrm{{Cr}}}_{2}{\left( {\mathrm{{SO}}}_{4}\right) }_{3} + 6{\mathrm{{NH}}}_{3} \cdot {\mathrm{H}}_{2}\mathrm{O} \rightarrow 2[\mathrm{Cr}(\mathrm{NH}_3)_6]^{3+} + 3{\mathrm{{SO}}}_{4}^{2-} + 6\mathrm{H}_2\mathrm{O}$
+   - 在某些条件下还可能发生: ${\mathrm{{Cr}}}_{2}{\left( {\mathrm{{SO}}}_{4}\right) }_{3} + 6{\mathrm{{NH}}}_{3} \cdot {\mathrm{H}}_{2}\mathrm{O} \rightarrow 2\mathrm{Cr(OH)}_3\downarrow + 3{\mathrm{{SO}}}_{4}^{2-} + 6\mathrm{NH}_4^+$
+
+综上所述，这三份溶液分别与${\mathrm{{Cr}}}_{2}{\left( {\mathrm{{SO}}}_{4}\right) }_{3}$作用时产生的沉淀分别是$\mathrm{Cr}_2\mathrm{S}_3$、碱式碳酸铬$(\mathrm{Cr(OH)}_2\mathrm{CO}_3)_n$以及在特定条件下可能出现的$\mathrm{Cr(OH)}_3$。","：
+1. $\mathrm{Cr}_2\mathrm{S}_3$
+2. $(\mathrm{Cr(OH)}_2\mathrm{CO}_3)_n$
+3. $\mathrm{Cr(OH)}_3$ 或 $[\mathrm{Cr}(\mathrm{NH}_3)_6]^{3+}$（视具体情况而定）",N/A,N/A,N/A
+"测定水中溶氧量的方法是,在隔绝空气的条件下向一定量的水样中加入适量的 ${\mathrm{{MnCl}}}_{2}$ 及过量的 $\mathrm{{NaOH}}$ 溶液。然后以过量的 ${\mathrm{H}}_{2}{\mathrm{{SO}}}_{4}$ 酸化该溶液,再加入过量的 $\mathrm{{KI}}$ 溶液。充分反应后用已知浓度的标准 ${\mathrm{{Na}}}_{2}{\mathrm{\;S}}_{2}{\mathrm{O}}_{3}$ 溶液滴定生成的 ${\mathrm{I}}_{2}$ 。
+
+写出有关化学反应方程式,并给出 ${\mathrm{O}}_{2}$ 和消耗 ${\mathrm{{Na}}}_{2}{\mathrm{\;S}}_{2}{\mathrm{O}}_{3}$ 的物质的量之比。","在碱性溶液中,水中溶解的氧气能将 ${\mathrm{{Mn}}}^{2 + }$ 氧化成 $\mathrm{{MnO}}{\left( \mathrm{{OH}}\right) }_{2}$ 或 ${\mathrm{{MnO}}}_{2}$ :
+
+$$
+{\mathrm{{Mn}}}^{2 + } + 2{\mathrm{{OH}}}^{ - } = \mathrm{{Mn}}{\left( \mathrm{{OH}}\right) }_{2} \downarrow
+$$
+
+$$
+2\mathrm{{Mn}}{\left( \mathrm{{OH}}\right) }_{2} + {\mathrm{O}}_{2} = 2\mathrm{{MnO}}{\left( \mathrm{{OH}}\right) }_{2}
+$$
+
+在酸性溶液中, $\mathrm{{MnO}}{\left( \mathrm{{OH}}\right) }_{2}$ 能将 ${\mathrm{I}}^{ - }$ 氧化成 ${\mathrm{I}}_{2}$ :
+
+$$
+\mathrm{{MnO}}{\left( \mathrm{{OH}}\right) }_{2} + 2{\mathrm{I}}^{ - } + 4{\mathrm{H}}^{ + } = {\mathrm{{Mn}}}^{2 + } + {\mathrm{I}}_{2} + 3{\mathrm{H}}_{2}\mathrm{O}
+$$
+
+通过消耗 ${\mathrm{S}}_{2}{\mathrm{O}}_{3}^{2 - }$ 的量可间接地测定水中溶氧量:
+
+$$
+{\mathrm{I}}_{2} + 2{\mathrm{\;S}}_{2}{\mathrm{O}}_{3}^{2 - } = {\mathrm{S}}_{4}{\mathrm{O}}_{6}^{2 - } + 2{\mathrm{I}}^{ - }
+$$
+
+根据上述反应式得各物质的计量关系:
+
+$$
+{\mathrm{O}}_{2} \sim 2\mathrm{{MnO}}{\left( \mathrm{{OH}}\right) }_{2} \sim 2{\mathrm{I}}_{2} \sim 4{\mathrm{\;S}}_{2}{\mathrm{O}}_{3}^{2 - }
+$$
+
+从而有 ${\mathrm{O}}_{2}$ 和 ${\mathrm{{Na}}}_{2}{\mathrm{\;S}}_{2}{\mathrm{O}}_{3}$ 的定量关系为 ${\mathrm{O}}_{2} : {\mathrm{S}}_{2}{\mathrm{O}}_{3}^{2 - } = 1 : 4$ 。
+","：首先，我们需要理解整个实验过程中涉及的主要化学反应。根据题目描述，测定水中溶解氧含量的过程可以分为几个步骤。
+
+1. **Mn(II)与O₂的反应**：在碱性条件下（加入过量NaOH），水中的氧气会将二价锰离子氧化成四价锰离子，形成不溶于水的$\mathrm{Mn(OH)_2}$沉淀，随后进一步氧化为$\mathrm{MnO(OH)_2}$。
+   \[2\mathrm{Mn^{2+}} + \mathrm{O_2} + 4\mathrm{OH^-} \rightarrow 2\mathrm{MnO(OH)_2}\]
+
+2键入内容: . **酸化处理**：加入硫酸($\mathrm{H_2SO_4}$)，使$\mathrm{MnO(OH)_2}$转化为可溶性的$\mathrm{Mn^{2+}}$和$\mathrm{MnO_4^{2-}}$，但主要产物是$\mathrm{Mn^{2+}}$。
+   \[\mathrm{MnO(OH)_2} + 2\mathrm{H^+} \rightarrow \mathrm{Mn^{2+}} + 2\mathrm{H_2O}\]
+
+3. **碘的生成**：接着加入过量的碘化钾($\mathrm{KI}$)，此时$\mathrm{Mn^{2+}}$被还原为$\mathrm{Mn^{2+}}$，而$\mathrm{I^-}$则被氧化为$\mathrm{I_2}$。
+   \[2\mathrm{Mn^{2+}} + 8\mathrm{I^-} + 6\mathrm{H^+} \rightarrow 2\mathrm{Mn^{2+}} + 4\mathrm{I_2} + 6\mathrm{H_2O}\]
+   注意这里的$\mathrm{Mn^{2+}}$实际上没有发生变化，正确的方程式应该是：
+   \[2\mathrm{MnO_2} + 4\mathrm{I^-} + 4\mathrm{H^+} \rightarrow 2\mathrm{Mn^{2+}} + 2\mathrm{I_2} + 2\mathrm{H_2O}\]
+
+4. **滴定碘**：最后使用硫代硫酸钠($\mathrm{Na_2S_2O_3}$)溶液滴定产生的$\mathrm{I_2}$。
+   \[\mathrm{I_2} + 2\mathrm{S_2O_3^{2-}} \rightarrow 2\mathrm{I^-} + \mathrm{S_4O_6^{2-}}\]
+
+从上述反应可以看出，每摩尔$\mathrm{O_2}$参与反应时，会产生2摩尔$\mathrm{I_2}$，而每摩尔$\mathrm{I_2}$需要消耗2摩尔$\mathrm{S_2O_3^{2-}}$来完全反应。因此，1摩尔$\mathrm{O_2}$总共消耗4摩尔$\mathrm{S_2O_3^{2-}}$或说1摩尔$\mathrm{O_2}$对应消耗4摩尔$\mathrm{Na_2S_2O_3}$。",：1:4,N/A,N/A,N/A
+"根据下列实验现象, 给出化学反应方程式。在酸性介质中,用 $\mathrm{{Zn}}$ 还原 ${\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}^{2 - }$ 时,溶液由橙色经绿色最后变为蓝色,放置一段时间后又变为绿色。"," ${\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}^{2 - } + 3\mathrm{{Zn}} + {14}{\mathrm{H}}^{ + } = 2{\mathrm{{Cr}}}^{3 + } + 3{\mathrm{{Zn}}}^{2 + } + 7{\mathrm{H}}_{2}\mathrm{O}$
+
+$2{\mathrm{{Cr}}}^{3 + } + \mathrm{{Zn}} = 2{\mathrm{{Cr}}}^{2 + } + {\mathrm{{Zn}}}^{2 + }$
+
+$4{\mathrm{{Cr}}}^{2 + } + {\mathrm{O}}_{2} + 4{\mathrm{H}}^{ + } = 4{\mathrm{{Cr}}}^{3 + } + 2{\mathrm{H}}_{2}\mathrm{O}$
+","：首先，题目描述了一个在酸性条件下发生的化学反应，其中涉及到的物质有锌(Zn)、重铬酸根离子(${\mathrm{Cr}}_{2}{\mathrm{O}}_{7}^{2-}$)。根据题目描述的现象，我们可以推断出这个过程中发生了氧化还原反应。锌是一种活性金属，在酸性条件下可以作为还原剂使用，能够将高价态的铬（VI）还原成较低价态的形式。
+
+1. ${\mathrm{Cr}}_{2}{\mathrm{O}}_{7}^{2-}$ 在酸性条件下通常是橙色的，这表明溶液中存在六价铬。
+2. 当加入锌后，${\mathrm{Cr}}_{2}{\mathrm{O}}_{7}^{2-}$ 被还原，颜色变化为绿色然后是蓝色，这可能是因为生成了三价铬($\mathrm{Cr}^{3+}$)和二价铬($\mathrm{Cr}^{2+}$)。三价铬在水溶液中通常呈现绿色，而二价铬则呈现出蓝色或蓝绿色。
+3. 放置一段时间后溶液又变回绿色，说明最终稳定状态下的主要产物是$\mathrm{Cr}^{3+}$。
+
+基于以上分析，我们可以写出反应的主要步骤：
+- 锌先与六价铬反应，生成三价铬，同时锌被氧化成锌离子。
+- 由于某些条件的变化（如pH值调整等），部分三价铬进一步被还原成了二价铬。
+- 最终体系趋于平衡，主要以三价铬形式存在。
+
+具体反应方程式如下：
+
+\[ \mathrm{Zn} + {\mathrm{Cr}}_{2}{\mathrm{O}}_{7}^{2-} + 14\mathrm{H}^+ \rightarrow 2\mathrm{Cr}^{3+} + \mathrm{Zn}^{2+} + 7\mathrm{H}_2\mathrm{O} \]
+
+考虑到题目中提到的颜色变化至蓝色再回到绿色的过程，可能存在副反应生成少量$\mathrm{Cr}^{2+}$, 但主反应还是上面所列。",：\[ \mathrm{Zn} + {\mathrm{Cr}}_{2}{\mathrm{O}}_{7}^{2-} + 14\mathrm{H}^+ \rightarrow 2\mathrm{Cr}^{3+} + \mathrm{Zn}^{2+} + 7\mathrm{H}_2\mathrm{O} \],N/A,N/A,N/A
+"根据下列实验现象, 给出化学反应方程式。向酸性 ${\mathrm{K}}_{2}{\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}$ 溶液中通入 ${\mathrm{{SO}}}_{2}$ 气体时,溶液由橙色变为绿色。", ${\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}^{2 - } + 3{\mathrm{{SO}}}_{2} + 2{\mathrm{H}}^{ + } = 2{\mathrm{{Cr}}}^{3 + } + 3{\mathrm{{SO}}}_{4}^{2 - } + {\mathrm{H}}_{2}\mathrm{O}$,：首先，题目中提到的实验现象是向酸性${\mathrm{K}}_{2}{\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}$溶液中通入${\mathrm{{SO}}}_{2}$气体后，溶液颜色由橙色变为绿色。根据化学知识，${\mathrm{K}}_{2}{\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}$在酸性条件下表现为重铬酸钾，其主要存在形式为$\mathrm{Cr}_2\mathrm{O}_7^{2-}$，呈现橙红色。当加入还原剂时，$\mathrm{Cr}_2\mathrm{O}_7^{2-}$会被还原成较低价态的铬离子，如$\mathrm{Cr}^{3+}$，后者在水溶液中呈绿色。${\mathrm{{SO}}}_{2}$作为一种强还原剂，在此反应中起到了还原作用。因此，可以推断出${\mathrm{{SO}}}_{2}$将$\mathrm{Cr}_2\mathrm{O}_7^{2-}$还原成了$\mathrm{Cr}^{3+}$，同时自身被氧化成硫酸根离子（$\mathrm{SO}_4^{2-}$）。考虑到反应环境为酸性，还需要加入$\mathrm{H}^+$来平衡电荷和质量。综上所述，我们可以得出该反应的化学方程式。,：\[ \mathrm{Cr}_2\mathrm{O}_7^{2-} + 3\mathrm{SO}_2 + 14\mathrm{H}^+ \rightarrow 2\mathrm{Cr}^{3+} + 3\mathrm{SO}_4^{2-} + 7\mathrm{H}_2\mathrm{O} \],N/A,N/A,N/A
+"根据下列实验现象, 给出化学反应方程式。向 ${\mathrm{{MnSO}}}_{4}$ 溶液中滴加 $\mathrm{{NaOH}}$ 溶液有白色沉淀生成,在空气中放置沉淀逐渐变为棕褐色。"," ${\mathrm{{Mn}}}^{2 + } + 2{\mathrm{{OH}}}^{ - } = \mathrm{{Mn}}{\left( \mathrm{{OH}}\right) }_{2} \downarrow$
+
+$2\mathrm{{Mn}}{\left( \mathrm{{OH}}\right) }_{2} + {\mathrm{O}}_{2} = 2\mathrm{{MnO}}{\left( \mathrm{{OH}}\right) }_{2}$","：首先，分析题目中的信息。当向${\mathrm{MnSO}}_4$溶液中滴加$\mathrm{NaOH}$溶液时，生成了白色沉淀。这表明发生了复分解反应，其中$\mathrm{Mn}^{2+}$离子与$\mathrm{OH}^-$离子结合形成了不溶于水的化合物。基于化学常识，可以推断出该白色沉淀为$\mathrm{Mn(OH)}_2$。
+
+接着，题目提到这个白色沉淀在空气中放置后逐渐变为棕褐色。这一变化提示我们，$\mathrm{Mn(OH)}_2$可能被空气中的氧气氧化了。锰的不同氧化态有不同的颜色，其中$\mathrm{Mn(III)}$或$\mathrm{Mn(IV)}$的化合物通常呈现棕色或者棕褐色。但是，考虑到环境条件（即在空气中），最有可能的是$\mathrm{Mn(OH)}_2$被进一步氧化成$\mathrm{MnO(OH)}_2$（也写作$\mathrm{MnO}_2 \cdot \mathrm{H}_2\mathrm{O}$）, 这是一种常见的棕褐色物质，符合观察到的现象。
+
+综上所述，整个过程中涉及两个主要步骤：一是生成$\mathrm{Mn(OH)}_2$沉淀，二是该沉淀被空气中的氧气氧化形成棕褐色的$\mathrm{MnO(OH)}_2$。","：
+1. ${\mathrm{MnSO}}_4 + 2\mathrm{NaOH} \rightarrow \mathrm{Mn(OH)}_2↓ + {\mathrm{Na}}_2{\mathrm{SO}}_4$
+2. $2\mathrm{Mn(OH)}_2 + O_2 \rightarrow 2\mathrm{MnO(OH)}_2$",N/A,N/A,N/A
+"根据下列实验现象, 给出化学反应方程式。向酸性 ${\mathrm{{KMnO}}}_{4}$ 溶液中通入 ${\mathrm{H}}_{2}\mathrm{\;S}$ 气体,溶液由紫色变成近无色,并有乳白色沉淀析出。", $2{\mathrm{{MnO}}}_{4}^{ - } + 5{\mathrm{H}}_{2}\mathrm{\;S} + 6{\mathrm{H}}^{ + } = 2{\mathrm{{Mn}}}^{2 + } + 5\mathrm{\;S} \downarrow + 8{\mathrm{H}}_{2}\mathrm{O}$,"：首先，根据题目描述的现象可以知道这是一个氧化还原反应。${\mathrm{KMnO}}_4$在酸性条件下是一个强氧化剂，而${\mathrm{H}}_2\mathrm{S}$则作为还原剂参与反应。当${\mathrm{H}}_2\mathrm{S}$通入到酸性的${\mathrm{KMnO}}_4$溶液中时，${\mathrm{KMnO}}_4$中的锰元素被还原，同时${\mathrm{H}}_2\mathrm{S}$被氧化成硫单质（乳白色沉淀）。考虑到${\mathrm{KMnO}}_4$在酸性环境下通常被还原为${\mathrm{Mn}}^{2+}$，我们可以开始构建反应方程式。
+
+1. 确定反应物与产物：反应物为${\mathrm{KMnO}}_4$、${\mathrm{H}}_2\mathrm{S}$及$\mathrm{H}^+$；产物包括${\mathrm{Mn}}^{2+}$、${\mathrm{S}}$沉淀以及水。
+2. 写出未平衡的半反应：
+   - 氧化半反应：${\mathrm{H}}_2\mathrm{S} \rightarrow \mathrm{S} + 2\mathrm{H}^+ + 2e^-$
+   - 还原半反应：${\mathrm{MnO}}_4^- + 8\mathrm{H}^+ + 5e^- \rightarrow {\mathrm{Mn}}^{2+} + 4\mathrm{H}_2\mathrm{O}$
+3. 平衡电子数，将两个半反应合并，并确保两边的电荷和原子数量相等。为此，我们需要将氧化半反应乘以5，还原半反应乘以2，使得总的电子转移数目相等。
+4. 最后调整系数使化学方程式左右两边原子守恒。
+
+综合上述分析，我们得到完整的化学反应方程式。",：\[2{\mathrm{KMnO}}_4 + 5{\mathrm{H}}_2\mathrm{S} + 3\mathrm{H}_2\mathrm{SO}_4 \rightarrow 2{\mathrm{MnSO}}_4 + 5\mathrm{S}\downarrow + 8\mathrm{H}_2\mathrm{O} + {\mathrm{K}}_2\mathrm{SO}_4\],N/A,N/A,N/A
+"解释实验现象。
+向 ${\mathrm{{BaCrO}}}_{4}$ 固体加浓盐酸时无明显变化,经加热后溶液变绿。","${\mathrm{{BaCrO}}}_{4}$ 与浓盐酸反应较慢; 加热时反应速率较快,同时 $\mathrm{{Cr}}\left( \mathrm{{VI}}\right)$ 氧化能力增强。反应
+
+产物 ${\mathrm{{CrCl}}}_{3}$ 为绿色:
+
+$$
+2{\mathrm{{BaCrO}}}_{4} + 2{\mathrm{H}}^{ + } = {\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}^{2 - } + 2{\mathrm{{Ba}}}^{2 + } + {\mathrm{H}}_{2}\mathrm{O}
+$$
+
+$$
+{\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}^{2 - } + 6{\mathrm{{Cl}}}^{ - } + {14}{\mathrm{H}}^{ + } = 2{\mathrm{{Cr}}}^{3 + } + 3{\mathrm{{Cl}}}_{2} \uparrow + 7{\mathrm{H}}_{2}\mathrm{O}
+$$
+",：当向${\mathrm{BaCrO}}_4$固体中加入浓盐酸时，起初没有明显变化。这是因为${\mathrm{BaCrO}}_4$是一种难溶于水的铬酸盐，在室温下与浓盐酸反应不显著。然而，随着加热，情况发生变化。加热促进了化学反应的发生，这里涉及到的是重铬酸根离子(${\mathrm{CrO}}_4^{2-}$)在酸性条件下转化为重铬酸根离子(${\mathrm{Cr}}_2{\mathrm{O}}_7^{2-}$)的过程。具体来说，根据反应式 ${\mathrm{2CrO}}_4^{2-} + 2H^+ \rightleftharpoons {\mathrm{Cr}}_2{\mathrm{O}}_7^{2-} + H_2O$，可以看出在酸性环境下（由浓盐酸提供），${\mathrm{CrO}}_4^{2-}$可以转化为${\mathrm{Cr}}_2{\mathrm{O}}_7^{2-}$。而${\mathrm{Cr}}_2{\mathrm{O}}_7^{2-}$在水中呈现橙色至黄色的颜色。但题目描述溶液变绿，这表明可能还发生了其他反应。考虑到铬元素的不同氧化态，从${\mathrm{Cr(VI)}}$到${\mathrm{Cr(III)}}$的还原可能是导致颜色变化的原因之一。在加热条件下，部分${\mathrm{Cr(VI)}}$可能会被还原为${\mathrm{Cr(III)}}$，后者在溶液中形成[Cr(H_2O)_6]^{3+}配合物，该配合物通常显示绿色。,：溶液变绿是因为加热促进了${\mathrm{CrO}}_4^{2-}$向${\mathrm{Cr}}_2{\mathrm{O}}_7^{2-}$转化的同时，也可能促使了${\mathrm{Cr(VI)}}$到${\mathrm{Cr(III)}}$的还原，生成的${\mathrm{Cr(III)}}$水合离子显现出绿色。,N/A,N/A,N/A
+"解释实验现象。
+向 ${\mathrm{K}}_{2}{\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}$ 溶液中滴加 ${\mathrm{{AgNO}}}_{3}$ 溶液,有砖红色沉淀析出,再加入 $\mathrm{{NaCl}}$ 溶液并煮沸, 沉淀变为白色。"," ${\mathrm{K}}_{2}{\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}$ 与 ${\mathrm{{AgNO}}}_{3}$ 生成溶解度较小的 ${\mathrm{{Ag}}}_{2}{\mathrm{{CrO}}}_{4}$ (砖红色),加入 $\mathrm{{NaCl}}$ 后沉淀转化为溶解度更小的 $\mathrm{{AgCl}}$ :
+
+$$
+{\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}^{2 - } + 4{\mathrm{{Ag}}}^{ + } + {\mathrm{H}}_{2}\mathrm{O} = 2{\mathrm{{Ag}}}_{2}{\mathrm{{CrO}}}_{4} \downarrow + 2{\mathrm{H}}^{ + }
+$$
+
+$$
+{\mathrm{{Ag}}}_{2}{\mathrm{{CrO}}}_{4} + 2{\mathrm{{Cl}}}^{ - } = 2\mathrm{{AgCl}} \downarrow + {\mathrm{{CrO}}}_{4}^{2 - }
+$$
+","：首先，考虑${\mathrm{K}}_{2}{\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}$溶液中加入${\mathrm{{AgNO}}}_{3}$后生成砖红色沉淀的现象。这里的关键是识别出反应物之间的相互作用。${\mathrm{K}}_{2}{\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}$在水中解离产生$\mathrm{Cr}_2\mathrm{O}_7^{2-}$离子，而${\mathrm{{AgNO}}}_{3}$则提供$\mathrm{Ag}^+$离子。根据化学原理，$\mathrm{Cr}_2\mathrm{O}_7^{2-}$与$\mathrm{Ag}^+$可以形成不溶性的银铬酸盐（例如$\mathrm{Ag}_2\mathrm{CrO}_4$），该化合物呈砖红色。因此，砖红色沉淀的形成是因为生成了$\mathrm{Ag}_2\mathrm{CrO}_4$。
+
+接着分析加入$\mathrm{NaCl}$并煮沸后沉淀颜色变化的原因。$\mathrm{NaCl}$提供了大量的$\mathrm{Cl}^-$离子，在加热条件下，$\mathrm{Cl}^-$能够与原有的$\mathrm{Ag}^+$结合形成更加稳定的白色沉淀——氯化银($\mathrm{AgCl}$)。由于$\mathrm{AgCl}$比$\mathrm{Ag}_2\mathrm{CrO}_4$更难溶于水，所以原先是砖红色的$\mathrm{Ag}_2\mathrm{CrO}_4$逐渐转化为了白色的$\mathrm{AgCl}$，导致观察到的颜色变化。
+
+综上所述，通过分析不同物质间的化学反应及其产物的性质，我们可以理解实验现象背后的化学原理。",：向${\mathrm{K}}_{2}{\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}$溶液中滴加${\mathrm{{AgNO}}}_{3}$溶液时，产生的砖红色沉淀为$\mathrm{Ag}_2\mathrm{CrO}_4$；再加入$\mathrm{NaCl}$溶液并煮沸后，沉淀变为白色，这是因为形成了$\mathrm{AgCl}$沉淀。,N/A,N/A,N/A
+"解释实验现象。
+金属铬溶于盐酸生成蓝色溶液, 后又转化为绿色溶液。","铬可以缓慢溶于盐酸先生成蓝色的 ${\mathrm{{CrCl}}}_{2}$ :
+
+$$
+\mathrm{{Cr}} + 2\mathrm{{HCl}} = {\mathrm{{CrCl}}}_{2} + {\mathrm{H}}_{2} \uparrow
+$$
+
+$\mathrm{{Cr}}\left( \text{ II }\right)$ 还原性很强,在空气中被氧化成绿色的 $\mathrm{{Cr}}\left( \text{ III }\right)$ :
+
+$$
+4{\mathrm{{CrCl}}}_{2} + {\mathrm{O}}_{2} + 4\mathrm{{HCl}} = 4{\mathrm{{CrCl}}}_{3} + 2{\mathrm{H}}_{2}\mathrm{O}
+$$
+",：首先，金属铬(Cr)与稀盐酸(HCl)反应时，理论上不会直接生成蓝色溶液。通常情况下，金属铬与非氧化性酸如稀盐酸反应较为缓慢，并且主要产物为Cr(II)化合物或Cr(III)化合物，其中Cr(III)更为常见。但这里提到的“蓝色溶液”提示我们可能发生了不同的化学过程。在某些条件下，比如存在较强的氧化剂或者特定催化剂的作用下，铬可以被部分氧化至+2价状态形成亚铬离子\[Cr^{2+}\]，而亚铬离子在水溶液中呈现蓝绿色。然而，题目中描述的是先出现蓝色随后变为绿色的现象，这暗示了进一步的变化。考虑到环境因素及后续颜色变化至绿色，最合理的解释是初始形成的亚铬离子\[Cr^{2+}\]不稳定，在空气中氧气的作用下继续被氧化成三价铬离子\[Cr^{3+}\]，后者在水溶液中的颜色通常是绿色到紫色不等，具体取决于浓度和pH值等因素。因此，整个过程中发生的化学变化可以概括为：首先是金属铬溶解于盐酸中形成亚铬离子（蓝色），然后亚铬离子被空气中的氧气进一步氧化成为三价铬离子（绿色）。,：金属铬溶于盐酸后，初步生成亚铬离子\[Cr^{2+}\]导致溶液呈蓝色；随着亚铬离子被空气中的氧气进一步氧化为三价铬离子\[Cr^{3+}\]，溶液颜色转变为绿色。,N/A,N/A,N/A
+叙述下列反应实验现象并用化学反应方程式加以说明。 向 ${\mathrm{{CrCl}}}_{3}$ 溶液中缓慢滴加 $\mathrm{{NaOH}}$ 溶液;,"向 ${\mathrm{{CrCl}}}_{3}$ 溶液中缓慢滴加 $\mathrm{{NaOH}}$ 溶液,先有灰蓝色沉淀生成:
+
+$$
+{\mathrm{{Cr}}}^{3 + } + 3{\mathrm{{OH}}}^{ - } = \mathrm{{Cr}}{\left( \mathrm{{OH}}\right) }_{3} \downarrow
+$$
+
+$\mathrm{{NaOH}}$ 溶液过量则沉淀逐渐溶解,最后得到绿色溶液:
+
+$$
+\mathrm{{Cr}}{\left( \mathrm{{OH}}\right) }_{3} + {\mathrm{{OH}}}^{ - } = {\left\lbrack \mathrm{{Cr}}{\left( \mathrm{{OH}}\right) }_{4}\right\rbrack }^{ - }
+$$
+",：首先，我们知道${\mathrm{CrCl}}_3$是一种三价铬的盐，在水中可以解离出$\mathrm{Cr}^{3+}$离子。当向这种溶液中加入碱性物质如$\mathrm{NaOH}$时，会发生酸碱反应生成不溶于水的氢氧化铬沉淀。具体来说，$\mathrm{Cr}^{3+}$会与$\mathrm{OH}^{-}$结合形成$\mathrm{Cr(OH)}_3$沉淀。随着$\mathrm{NaOH}$的继续滴加，观察到的现象是从透明的绿色${\mathrm{CrCl}}_3$溶液开始逐渐出现灰绿色至蓝绿色的絮状沉淀。这是因为$\mathrm{Cr(OH)}_3$的颜色特性以及其从溶液中析出所致。值得注意的是，如果$\mathrm{NaOH}$过量，则可能会导致$\mathrm{Cr(OH)}_3$进一步溶解，形成复杂的铬酸根离子或高铬酸根离子，但这通常需要更强烈的碱性条件。,：实验现象为：随着$\mathrm{NaOH}$溶液的加入，原本透明的绿色${\mathrm{CrCl}}_3$溶液中逐渐产生灰绿色至蓝绿色沉淀。化学反应方程式为：${\mathrm{CrCl}}_3 + 3\mathrm{NaOH} \rightarrow \mathrm{Cr(OH)}_3↓ + 3\mathrm{NaCl}$。,N/A,N/A,N/A
+叙述下列反应实验现象并用化学反应方程式加以说明。向 ${\mathrm{K}}_{2}{\mathrm{{CrO}}}_{4}$ 与 ${\mathrm{H}}_{2}{\mathrm{O}}_{2}$ 混合溶液中加入硫酸;,"溶液先变为蓝色,因生成了 ${\mathrm{{CrO}}}_{5}$ :
+
+$$
+{\mathrm{K}}_{2}{\mathrm{{CrO}}}_{4} + 2{\mathrm{H}}_{2}{\mathrm{O}}_{2} + {\mathrm{H}}_{2}{\mathrm{{SO}}}_{4} = {\mathrm{{CrO}}}_{5} \downarrow + 3{\mathrm{H}}_{2}\mathrm{O} + {\mathrm{K}}_{2}{\mathrm{{SO}}}_{4}
+$$
+
+${\mathrm{{CrO}}}_{5}$ 在酸性溶液中不稳定而分解放出 ${\mathrm{O}}_{2}$ ,最后得到绿色溶液:
+
+$$
+4{\mathrm{{CrO}}}_{5} + {12}{\mathrm{H}}^{ + } = 4{\mathrm{{Cr}}}^{3 + } + 7{\mathrm{O}}_{2} \uparrow + 6{\mathrm{H}}_{2}\mathrm{O}
+$$
+","：首先，我们考虑反应物的性质。${\mathrm{K}}_{2}{\mathrm{{CrO}}}_{4}$ 是重铬酸钾，在碱性条件下以黄色的${\mathrm{CrO}}_{4}^{2-}$形式存在。当加入酸（本例中为硫酸）时，${\mathrm{CrO}}_{4}^{2-}$可以转化为橙色或红色的${\mathrm{Cr}}_{2}{\mathrm{O}}_{7}^{2-}$离子，这取决于溶液的具体pH值。但是，这里还加入了过氧化氢(${\mathrm{H}}_{2}{\mathrm{O}}_{2}$)，它是一种强氧化剂。在酸性环境下，过氧化氢能将六价铬还原为三价铬。三价铬离子通常形成绿色的水合离子$[{\mathrm{Cr(H}}_{2}\mathrm{O)}}_{6}]^{3+}$。因此，随着硫酸的加入，溶液颜色可能会从黄色转变为绿色。这一变化可以通过下面的化学方程式来表示：
+
+1. 由${\mathrm{CrO}}_{4}^{2-}$到${\mathrm{Cr}}_{2}{\mathrm{O}}_{7}^{2-}$的变化:
+\[2{\mathrm{CrO}}_{4}^{2-} + 2{\mathrm{H}}^{+} \rightleftharpoons {\mathrm{Cr}}_{2}{\mathrm{O}}_{7}^{2-} + {\mathrm{H}}_{2}\mathrm{O}\]
+
+2. 过氧化氢与重铬酸根/二铬酸根反应生成三价铬的过程较为复杂，但可简化表达如下:
+\[3{\mathrm{H}}_{2}{\mathrm{O}}_{2} + 2{\mathrm{CrO}}_{4}^{2-} + 8{\mathrm{H}}^{+} \rightarrow 2{\mathrm{Cr}}^{3+} + 3{\mathrm{O}}_{2} + 7{\mathrm{H}}_{2}\mathrm{O}\]
+或者
+\[3{\mathrm{H}}_{2}{\mathrm{O}}_{2} + {\mathrm{Cr}}_{2}{\mathrm{O}}_{7}^{2-} + 8{\mathrm{H}}^{+} \rightarrow 2{\mathrm{Cr}}^{3+} + 3{\mathrm{O}}_{2} + 7{\mathrm{H}}_{2}\mathrm{O}\]
+
+综上所述，实验现象是溶液的颜色从黄色变为绿色，并且可能观察到氧气气泡产生。",：溶液颜色由黄色变为绿色；有氧气气泡产生。,N/A,N/A,N/A
+"叙述下列反应实验现象并用化学反应方程式加以说明。向 ${\mathrm{K}}_{2}{\mathrm{{MnO}}}_{4}$ 固体缓慢滴加水并充分摇动。
+","水较少时 ${\mathrm{K}}_{2}{\mathrm{{MnO}}}_{4}$ 固体溶解,溶液为绿色。水较多时, ${\mathrm{K}}_{2}{\mathrm{{MnO}}}_{4}$ 发生歧化反应,溶液变为紫红色并有棕褐色沉淀生成:
+
+$$
+3{\mathrm{{MnO}}}_{4}^{2 - } + 2{\mathrm{H}}_{2}\mathrm{O} = 2{\mathrm{{MnO}}}_{4}^{ - } + {\mathrm{{MnO}}}_{2} \downarrow + 4{\mathrm{{OH}}}^{ - }
+$$
+",：首先，我们需要理解题目中提到的化学物质${\mathrm{K}}_{2}{\mathrm{{MnO}}}_{4}$，这是一种钾盐，称为锰酸钾。当向这种固体慢慢加入水时，我们实际上是在观察其在水中的溶解行为以及可能发生的任何化学变化。根据已知知识，${\mathrm{K}}_{2}{\mathrm{{MnO}}}_{4}$在水中会部分分解生成高锰酸钾（${\mathrm{KMnO}}_{4}$）、二氧化锰（$\mathrm{MnO}_2$）和氧气（${\mathrm{O}}_{2}$）。这是因为${\mathrm{K}}_{2}{\mathrm{{MnO}}}_{4}$具有一定的不稳定性，在水中可以发生歧化反应。具体来说，+6价的锰离子被还原为+4价的二氧化锰，同时部分被氧化为+7价的高锰酸根离子。这一过程中还会释放出氧气。因此，我们可以预期观察到的现象包括溶液颜色的变化（由于形成了紫色的${\mathrm{KMnO}}_{4}$），沉淀物的产生（因为$\mathrm{MnO}_2$是不溶于水的），以及气泡的形成（由产生的${\mathrm{O}}_{2}$造成）。,"：实验现象：溶液变为紫红色，有棕色沉淀生成，并且可以看到气泡冒出。
+化学反应方程式：\[3{\mathrm{K}}_{2}{\mathrm{{MnO}}}_{4} + 2\mathrm{H}_2\mathrm{O} \rightarrow 2{\mathrm{KMnO}}_{4} + {\mathrm{MnO}}_{2}↓ + 4\mathrm{KOH} + {\mathrm{O}}_{2}↑\]",N/A,N/A,N/A
+"(A) 的水合物为紫色晶体。向 $\left( \mathrm{A}\right)$ 的水溶液中加入 ${\mathrm{{Na}}}_{2}{\mathrm{{CO}}}_{3}$ 溶液有灰蓝色沉淀 $\left( \mathrm{B}\right)$ 生成。 (B) 溶于过量 $\mathrm{{NaOH}}$ 溶液得到绿色溶液 $\left( \mathrm{C}\right)$ 。向 $\left( \mathrm{C}\right)$ 中滴加 ${\mathrm{H}}_{2}{\mathrm{O}}_{2}$ 得黄色溶液 $\left( \mathrm{D}\right)$ 。取少量 $\left( \mathrm{D}\right)$ 经醋酸酸化后加入 ${\mathrm{{BaCl}}}_{2}$ 溶液则析出黄色沉淀 $\left( \mathrm{E}\right)$ 。将 $\left( \mathrm{D}\right)$ 用硫酸酸化后通入 ${\mathrm{{SO}}}_{2}$ 气体得到绿色溶液 $\left( \mathrm{F}\right)$ 。将 $\left( \mathrm{A}\right)$ 溶于浓盐酸后加入 $\mathrm{{KI}}$ 溶液经鉴定有 ${\mathrm{I}}_{2}$ 生成,同时放出无色气体 $\left( \mathrm{G}\right)$ 。 $\left( \mathrm{G}\right)$ 在空气中逐渐变为棕色。试给出 $\left( \mathrm{A}\right) \text{、}\left( \mathrm{B}\right) \text{、}\left( \mathrm{C}\right) \text{、}\left( \mathrm{D}\right) \text{、}\left( \mathrm{E}\right) \text{、}\left( \mathrm{F}\right)$ 和 (G) 所代表的物质的化学式。
+","(A)- $\mathrm{{Cr}}{\left( {\mathrm{{NO}}}_{3}\right) }_{3}$ ; (B) $- \mathrm{{Cr}}{\left( \mathrm{{OH}}\right) }_{3}$ ; (D) $- {\mathrm{{CrO}}}_{4}^{2 - }$ ;
+
+(E) $- {\mathrm{{BaCrO}}}_{4}$ ; (F) $- {\mathrm{{Cr}}}_{2}{\left( {\mathrm{{SO}}}_{4}\right) }_{3}$ ; (G) $- \mathrm{{NO}}$ 。","：根据题目描述，我们可以逐步分析每一步反应涉及的物质。
+1. (A) 的水合物为紫色晶体。这一特性指向了过渡金属离子，尤其是铜(II)离子（$\mathrm{Cu}^{2+}$），因为其水合物确实呈现紫蓝色或紫色。
+2. 向 (A) 的水溶液中加入 ${\mathrm{{Na}}}_{2}{\mathrm{{CO}}}_{3}$ 溶液产生灰蓝色沉淀 (B)。这表明 (B) 是碱式碳酸铜 $\mathrm{Cu}_2(\mathrm{OH})_2\mathrm{CO}_3$ 或者是 $\mathrm{Cu(OH)}_2\cdot\mathrm{CuCO}_3$，但更常见的是 $\mathrm{Cu(OH)}_2$（氢氧化铜）直接生成，考虑到颜色和后续实验条件，这里指的应该是 $\mathrm{Cu(OH)}_2$。
+3. (B) 溶于过量 $\mathrm{{NaOH}}$ 得到绿色溶液 (C)，说明生成了四羟基合铜(II)配离子 $[\mathrm{Cu(OH)}_4]^{2-}$，因此 (C) 代表 $[\mathrm{Cu(OH)}_4]^{2-}$。
+4. 向 (C) 中滴加 ${\mathrm{H}}_{2}{\mathrm{O}}_{2}$ 得黄色溶液 (D)，意味着发生了氧化反应，将铜从 +2 价氧化至 +3 价，形成 $\mathrm{Cu(OH)}_3^-$ 或者说 $\mathrm{CuO}_2^{2-}$ 在溶液中存在形式，但由于在酸性条件下会进一步转化，此处(D)更可能是 $\mathrm{CuO}_2^{2-}$ 形式的表示。
+5. 取少量 (D) 经醋酸酸化后加入 ${\mathrm{{BaCl}}}_{2}$ 溶液则析出黄色沉淀 (E)，此步骤表明生成了难溶性的钡盐，结合前面的分析，最合理的解释是生成了 $\mathrm{BaCuO}_2$，即 (E) 为 $\mathrm{BaCuO}_2$。
+6. 将 (D) 用硫酸酸化后通入 ${\mathrm{{SO}}}_{2}$ 气体得到绿色溶液 (F)，这一步骤涉及到还原反应，$\mathrm{Cu}^{3+}$ 被 $\mathrm{SO}_2$ 还原回 $\mathrm{Cu}^{2+}$，同时可能生成 $\mathrm{H}_2\mathrm{SO}_4$ 和 $\mathrm{H}_2\mathrm{O}$，故 (F) 应该是含有 $\mathrm{Cu}^{2+}$ 的溶液。
+7. 将 (A) 溶于浓盐酸后加入 $\mathrm{{KI}}$ 溶液经鉴定有 ${\mathrm{I}}_{2}$ 生成, 同时放出无色气体 (G)。(G) 在空气中逐渐变为棕色。这一系列反应表明发生了氧化还原反应，其中 $\mathrm{Cu}^{2+}$ 将 $\mathrm{I}^{-}$ 氧化成 $\mathrm{I}_2$，而释放出的气体 (G) 则很可能是 $\mathrm{Cl}_2$，因为在酸性环境下 $\mathrm{Cl}^{-}$ 可被氧化为 $\mathrm{Cl}_2$，且 $\mathrm{Cl}_2$ 确实会与空气中的水分作用逐渐变棕。
+
+综上所述，可以得出：
+- (A) 为 $\mathrm{Cu(NO_3)_2}$ 或 $\mathrm{CuSO_4}$（基于水合物颜色）
+- (B) 为 $\mathrm{Cu(OH)_2}$
+- (C) 为 $[\mathrm{Cu(OH)}_4]^{2-}$
+- (D) 为 $\mathrm{CuO}_2^{2-}$
+- (E) 为 $\mathrm{BaCuO}_2$
+- (F) 为含 $\mathrm{Cu}^{2+}$ 的溶液
+- (G) 为 $\mathrm{Cl}_2$",：(A) $\mathrm{Cu(NO_3)_2}$ 或 $\mathrm{CuSO_4}$；(B) $\mathrm{Cu(OH)_2}$；(C) $[\mathrm{Cu(OH)}_4]^{2-}$；(D) $\mathrm{CuO}_2^{2-}$；(E) $\mathrm{BaCuO}_2$；(F) 含 $\mathrm{Cu}^{2+}$ 的溶液；(G) $\mathrm{Cl}_2$,N/A,N/A,N/A
+将黄色晶体 $\left( \mathrm{A}\right)$ 溶于水后通入 ${\mathrm{{SO}}}_{2}$ 气体得绿色溶液 $\left( \mathrm{B}\right)$ 。向 $\left( \mathrm{B}\right)$ 中加入过量的 $\mathrm{{NaOH}}$ 溶液得绿色溶液 $\left( \mathrm{C}\right)$ 。向 $\left( \mathrm{C}\right)$ 中滴加 ${\mathrm{H}}_{2}{\mathrm{O}}_{2}$ 得黄色溶液 $\left( \mathrm{D}\right)$ 。将 $\left( \mathrm{D}\right)$ 酸化至弱酸性后加入 $\mathrm{{Pb}}{\left( {\mathrm{{NO}}}_{3}\right) }_{2}$ 有黄色沉淀 $\left( \mathrm{E}\right)$ 生成。向 $\left( \mathrm{B}\right)$ 中加入氨水至过量有沉淀 $\left( \mathrm{F}\right)$ 生成。过滤后将 (F) 与 ${\mathrm{{KClO}}}_{3}$ 和 $\mathrm{{KOH}}$ 共熔又得到 $\left( \mathrm{A}\right)$ 。试给出 $\left( \mathrm{A}\right) \text{、}\left( \mathrm{B}\right) \text{、}\left( \mathrm{C}\right) \text{、}\left( \mathrm{D}\right) \text{、}\left( \mathrm{E}\right)$ 和 $\left( \mathrm{F}\right)$ 所代表的物质的化学式。," $\left( \mathrm{A}\right) - {\mathrm{K}}_{2}{\mathrm{{CrO}}}_{4}$ ; $\left( \mathrm{B}\right) - {\mathrm{{Cr}}}_{2}{\left( {\mathrm{{SO}}}_{4}\right) }_{3}$ ; $\left( \mathrm{C}\right) - {\left\lbrack \mathrm{{Cr}}{\left( \mathrm{{OH}}\right) }_{4}\right\rbrack }^{ - }$ 或 ${\mathrm{{CrO}}}_{2}^{ - }$ ; $\left( \mathrm{D}\right) - {\mathrm{{CrO}}}_{4}^{2 - }$ ;
+
+(E) $- {\mathrm{{PbCrO}}}_{4}$ ; (F) $- \mathrm{{Cr}}{\left( \mathrm{{OH}}\right) }_{3}$ 。
+","：根据题目描述，首先需要确定黄色晶体A的成分。从实验步骤来看，A在水中溶解后通入SO2气体变为绿色溶液B，这提示我们A可能是一种含有铬元素的化合物，因为Cr(VI)可以被还原为Cr(III)，而Cr(III)水合物通常是绿色的。加入NaOH后仍保持绿色(C)，说明生成了Cr(OH)3或其碱式盐的形式，这些也是绿色的。接着滴加H2O2后变成黄色(D)，表明Cr(III)被氧化回Cr(VI)，最可能是形成了重铬酸根离子\[Cr_2O_7^{2-}\]。将D酸化后再加入Pb(NO3)2得到黄色沉淀E，考虑到铅与六价铬反应可形成难溶的黄色沉淀\[PbCrO_4\]。最后提到B中加入过量氨水产生沉淀F，该沉淀再与KClO3和KOH共熔又重新生成A，结合之前的信息，推测F应该是氢氧化铬[Cr(OH)3]，它在强碱性条件下（KOH）且存在氧化剂（KClO3）时能够转化为六价铬形式，即回到最初的A。
+
+综上所述：
+- A应该是一种含Cr(VI)的化合物，基于后续操作最终能恢复到原始状态，合理猜测是\[K_2CrO_4\]。
+- B是从A转化来的，含有Cr(III)，应为\[Cr_2(SO_4)_3\]。
+- C维持了B的状态，但处于碱性环境，因此C代表的是\[Cr(OH)_3\]或者它的碱式盐。
+- D是通过氧化作用使C中的Cr(III)变为了Cr(VI)，故D为\[K_2Cr_2O_7\]。
+- E是由D产生的，是一个与Pb相关的黄色沉淀，即\[PbCrO_4\]。
+- F是在B基础上通过加入氨水形成的沉淀，即\[Cr(OH)_3\]。",：A: K2CrO4; B: Cr2(SO4)3; C: Cr(OH)3; D: K2Cr2O7; E: PbCrO4; F: Cr(OH)3,N/A,N/A,N/A
+"红色固体 (A) 溶于热浓盐酸放出气体 (B), 溶液经冷却后析出绿色晶体 (C)。少量 (B) 通入 $\mathrm{{KI}}$ 溶液中则溶液变黄。向 $\left( \mathrm{C}\right)$ 的水溶液中加入 ${\mathrm{{Na}}}_{2}{\mathrm{{CO}}}_{3}$ 溶液生成沉淀 $\left( \mathrm{D}\right)$ 。将 $\left( \mathrm{D}\right)$ 溶于 $\mathrm{{KOH}}$ 溶液后加入 ${\mathrm{H}}_{2}{\mathrm{O}}_{2}$ 溶液得到黄色溶液 (E)。用稀硫酸酸化溶液 (E) 后,经蒸发、 浓缩后冷却, 析出橘红色晶体 (F)。(F) 与浓硫酸作用能够得到 (A)。试给出 (A)、(B)、 (C)、(D)、(E) 和 (F) 所代表的物质的化学式。","(A) $- {\mathrm{{CrO}}}_{3}$ ; $\;$ (B) $- {\mathrm{{Cl}}}_{2}$ ; (C) $- {\mathrm{{CrCl}}}_{3} \cdot 6{\mathrm{H}}_{2}\mathrm{O}$ ;
+
+(D) $- \mathrm{{Cr}}{\left( \mathrm{{OH}}\right) }_{3}$ ; (E) $- {\mathrm{K}}_{2}{\mathrm{{CrO}}}_{4}$ ; (F) $- {\mathrm{K}}_{2}{\mathrm{{Cr}}}_{2}{\mathrm{O}}_{7}$ 。","：根据题目描述，我们可以通过一系列化学反应的特征来推断各个未知物(A)至(F)的化学式。
+
+1. **红色固体 (A)** 溮于热浓盐酸放出气体 (B)，这意味着(A)是一种能与浓盐酸反应产生气体的红色化合物。考虑到颜色和性质，(A)可能是$\mathrm{Cu}_2\mathrm{O}$（氧化亚铜），它为红色固体，并且能够与浓盐酸反应生成$\mathrm{CuCl}_2$、水及二氧化碳($\mathrm{CO}_2$)或氢气($\mathrm{H}_2$)等。但基于后续信息，更有可能是$\mathrm{NO}$或$\mathrm{NO}_2$作为(B)。
+   
+2. 由于(B)通入$\mathrm{KI}$溶液中使溶液变黄，表明发生了氧化还原反应，其中碘离子被氧化成碘单质，因此(B)应具有强氧化性。在给定条件下，(B)最有可能是$\mathrm{NO}_2$，因为它不仅可以通过上述反应生成，而且能够将$\mathrm{I}^-$氧化为$\mathrm{I}_2$。
+
+3. **绿色晶体 (C)** 应该是从含有铜离子的溶液中结晶出来的物质，结合前一步骤产生的$\mathrm{CuCl}_2$，可以推测(C)为$\mathrm{CuCl}_2·2\mathrm{H}_2\mathrm{O}$。
+
+4. 当向(C)的水溶液中加入${\mathrm{Na}}_2{\mathrm{CO}}_3$时形成沉淀(D)，这说明生成了不溶性的碳酸铜。因此(D)是$\mathrm{CuCO}_3$。
+
+5. 将(D)溶解于$\mathrm{KOH}$后加${\mathrm{H}}_2{\mathrm{O}}_2$得到黄色溶液(E)，这里发生的反应是过氧化氢将二价铜氧化成了四价铜，形成的应该是$\mathrm{K}_2[\mathrm{Cu(OH)}_4]$或者是$\mathrm{K_2CuO_2}$这样的化合物，但是根据题设描述更符合的是$\mathrm{K_2[Cu(OH)_4]}$形式，因为它是黄色的。
+
+6. 最后，用稀硫酸处理(E)，并经过蒸发浓缩冷却后得到橘红色晶体(F)。(F)与浓硫酸作用可得回(A)，意味着这个过程是一个循环回到起点的过程。考虑铜的不同价态转换，(F)很可能是$\mathrm{CuSO}_4·5\mathrm{H}_2\mathrm{O}$，加热失去结晶水后可以转化为无水硫酸铜，再通过与浓硫酸的作用重新生成$\mathrm{Cu}_2\mathrm{O}$。
+
+综上所述，我们可以得出：
+- A: $\mathrm{Cu}_2\mathrm{O}$
+- B: $\mathrm{NO}_2$
+- C: $\mathrm{CuCl}_2·2\mathrm{H}_2\mathrm{O}$
+- D: $\mathrm{CuCO}_3$
+- E: $\mathrm{K_2[Cu(OH)_4]}$
+- F: $\mathrm{CuSO}_4·5\mathrm{H}_2\mathrm{O}$","：A: $\mathrm{Cu}_2\mathrm{O}$, B: $\mathrm{NO}_2$, C: $\mathrm{CuCl}_2·2\mathrm{H}_2\mathrm{O}$, D: $\mathrm{CuCO}_3$, E: $\mathrm{K_2[Cu(OH)_4]}$, F: $\mathrm{CuSO}_4·5\mathrm{H}_2\mathrm{O}$",N/A,N/A,N/A
+"白色粉末 (A) 溶于水后与 $\mathrm{{NaOH}}$ 溶液作用生成白色沉淀 (B)。(B) 与 ${\mathrm{H}}_{2}{\mathrm{O}}_{2}$ 溶液作用转化为棕黑色沉淀 $\left( \mathrm{C}\right)$ 。 $\left( \mathrm{C}\right)$ 与 $\mathrm{{KOH}}$ 和 ${\mathrm{{KClO}}}_{3}$ 共熔得到绿色化合物 $\left( \mathrm{D}\right)$ 。将 $\left( \mathrm{D}\right)$ 溶于 $\mathrm{{KOH}}$ 溶液后加入氯水生成紫色的 $\left( \mathrm{E}\right)$ 。向 $\left( \mathrm{E}\right)$ 的水溶液中通入过量的 ${\mathrm{{SO}}}_{2}$ 气体得到无色溶液, 再进行蒸发、浓缩后冷却, 析出水合晶体 (F)。将 (F) 小心加热又生成白色粉末 (A)。试给出 (A)、(B)、(C)、(D)、(E) 和 (F) 所代表的物质的化学式。","(A)- ${\mathrm{{MnSO}}}_{4}$ ; (B)- $\mathrm{{Mn}}{\left( \mathrm{{OH}}\right) }_{2}$ ; (C) $- {\mathrm{{MnO}}}_{2}$ ;
+
+(D) $- {\mathrm{K}}_{2}{\mathrm{{MnO}}}_{4}$ ; (E) $- {\mathrm{{KMnO}}}_{4}$ ; (F) $- {\mathrm{{MnSO}}}_{4} \cdot 7{\mathrm{H}}_{2}\mathrm{O}$ 。
+","：首先，从题目的描述中可以逐步推导出各物质的化学式。根据题目所述，(A)为一种白色粉末，溶于水后与NaOH溶液作用生成白色沉淀(B)。这提示我们(A)可能是一种金属盐，且该金属离子能够与氢氧根形成不溶性的氢氧化物。考虑到后续反应，尤其是最终又回到了初始状态(A)，我们可以推测这个循环涉及到的是锰的不同价态变化。
+
+1. 由于(B)能与${\mathrm{H}}_{2}{\mathrm{O}}_{2}$反应生成棕黑色沉淀(C)，这表明(B)很可能是$\mathrm{Mn(OH)}_2$，因为二氧化锰($\mathrm{MnO}_2$)是棕黑色的。
+2. 接下来，(C)即$\mathrm{MnO}_2$与KOH和${\mathrm{KClO}}_3$共熔得到绿色化合物(D)。这里发生的反应应该是$\mathrm{MnO}_2 + \mathrm{KClO}_3 + \mathrm{KOH} \rightarrow \mathrm{K_2MnO_4} + \mathrm{KCl} + \mathrm{H_2O}$，其中$\mathrm{K_2MnO_4}$（钾锰酸钾）是绿色的。
+3. (D)在碱性条件下加入氯水生成紫色(E)，说明发生了氧化还原反应，$\mathrm{K_2MnO_4}$被进一步氧化成$\mathrm{KMnO_4}$（高锰酸钾），这是已知的紫红色化合物。
+4. 向(E)即$\mathrm{KMnO_4}$的水溶液中通入过量${\mathrm{SO}}_2$气体，会发生还原反应，将$\mathrm{KMnO_4}$还原回较低价态的锰化合物，同时产生无色溶液。这里的产物应该是$\mathrm{MnSO_4}$或其水合形式，因为它可溶于水且呈无色。
+5. 最后一步提到蒸发、浓缩并冷却析出水合晶体(F)，然后小心加热又生成白色粉末(A)。结合整个过程来看，(F)应为$\mathrm{MnSO_4}\cdot x\mathrm{H_2O}$的形式，而加热脱水后回到起始的白色粉末(A)，即$\mathrm{MnSO_4}$。
+
+综上所述，通过分析每个步骤中发生的化学反应类型以及最终产物的颜色特征，可以确定这些未知物质的身份。","：A: $\mathrm{MnSO_4}$, B: $\mathrm{Mn(OH)_2}$, C: $\mathrm{MnO_2}$, D: $\mathrm{K_2MnO_4}$, E: $\mathrm{KMnO_4}$, F: $\mathrm{MnSO_4}\cdot x\mathrm{H_2O}$",N/A,N/A,N/A
+"绿色固体 (A) 易溶于水,其水溶液中通入 ${\mathrm{{CO}}}_{2}$ 即得棕黑色固体 (B) 和紫红色溶液 (C)。 (B) 与浓盐酸共热时得黄绿色气体 (D) 和近乎无色溶液 (E)。将溶液 (E) 和溶液 (C) 混合能生成沉淀 (B)。将气体 (D) 通入 (A) 的溶液, 可得 (C)。试给出 (A)、(B)、(C)、(D) 和 (E) 所代表的物质的化学式。","(A) $- {\mathrm{K}}_{2}{\mathrm{{MnO}}}_{4}$ ; (B) $- {\mathrm{{MnO}}}_{2}$ ; (C)- ${\mathrm{{KMnO}}}_{4}$ 或 ${\mathrm{{MnO}}}_{4}^{ - }$ ;
+
+(D) $- {\mathrm{{Cl}}}_{2}$ ; (E)- ${\mathrm{{MnCl}}}_{2}$ 或 ${\mathrm{{Mn}}}^{2 + }$ 。","：首先，根据题干信息分析各物质的性质及它们之间的转化关系。绿色固体(A)易溶于水，且其水溶液中通入二氧化碳后得到棕黑色固体(B)和紫红色溶液(C)，这提示我们(A)很可能是含有铜离子的化合物，因为铜盐在特定条件下可以生成棕色或黑色沉淀（如CuO），而含铜离子的溶液通常是蓝色的，但某些情况下也可以呈现为紫红色（例如[Cu(NH3)4]2+）。考虑到与CO2反应产生棕黑色固体和紫红色溶液，合理的猜测是A为碱式碳酸铜Cu2(OH)2CO3，它与CO2反应生成Cu(OH)2（棕黑色）和CuCO3（可能溶解形成紫红色溶液）。但这里更合理的是假设A直接分解成CuO(棕黑色)和另一种可溶性铜盐。
+
+接着，(B)即CuO与浓盐酸共热时产生的黄绿色气体(D)应该是Cl2，这是由于CuO能与强酸反应释放出氧气，但在存在氯化物的情况下会优先生成Cl2。同时，此过程中还会生成近乎无色的CuCl2溶液(E)。
+
+再者，当将E(CuCl2)溶液与C(假设为某种形式的铜氨络合物)混合时，如果C中含有足够的NH3，则可以促使Cu2+重新沉淀为Cu(OH)2或者形成难溶的Cu(NH3)4Cl2等沉淀，符合题目中的描述。
+
+最后，提到将D(Cl2)通入A的溶液中也能得到C，这意味着Cl2氧化了A中的部分成分，促进了Cu2+向[Cu(NH3)4]2+或其他形式的转变。
+
+综上所述，我们可以推断：
+- A为Cu2(OH)2CO3
+- B为CuO
+- C可能为[Cu(NH3)4]2+
+- D为Cl2
+- E为CuCl2","：A: Cu2(OH)2CO3, B: CuO, C: [Cu(NH3)4]2+, D: Cl2, E: CuCl2",N/A,N/A,N/A
+"棕黑色粉末 (A) 不溶于水。将 (A) 与稀硫酸混合后加入 ${\mathrm{H}}_{2}{\mathrm{O}}_{2}$ 并微热得无色溶液 (B)。 向酸性的 $\left( \mathrm{B}\right)$ 中加入 ${\mathrm{{NaBiO}}}_{3}$ 粉末后得紫红色溶液 $\left( \mathrm{C}\right)$ 。向 $\left( \mathrm{C}\right)$ 中加入 $\mathrm{{NaOH}}$ 溶液至碱性后滴加 ${\mathrm{{Na}}}_{2}{\mathrm{{SO}}}_{3}$ 溶液有绿色溶液 $\left( \mathrm{D}\right)$ 生成。向 $\left( \mathrm{D}\right)$ 中滴加稀硫酸又生成 $\left( \mathrm{A}\right)$ 和 $\left( \mathrm{C}\right)$ 。少量 (A) 与浓盐酸作用在室温下生成暗黄色溶液 (E), 加热 (E) 后有黄绿色气体 (F) 和近无色的溶液 $\left( \mathrm{G}\right)$ 生成。向 $\left( \mathrm{B}\right)$ 中滴加 $\mathrm{{NaOH}}$ 溶液有白色沉淀 $\left( \mathrm{H}\right)$ 生成, $\left( \mathrm{H}\right)$ 不溶于过量的 $\mathrm{{NaOH}}$ 溶液。但在空气中 $\left( \mathrm{H}\right)$ 逐渐变为棕黑色。试给出 $\left( \mathrm{A}\right) \text{、}\left( \mathrm{B}\right) \text{、}\left( \mathrm{C}\right) \text{、}\left( \mathrm{D}\right) \text{、}\left( \mathrm{E}\right) \text{、}\left( \mathrm{F}\right)$ 、 (G) 和 (H) 所代表的物质的化学式。"," (A) $- {\mathrm{{MnO}}}_{2}$ ; (B) $- {\mathrm{{MnSO}}}_{4}$ ; (C) $- {\mathrm{{NaMnO}}}_{4}$ ; (D) $- {\mathrm{{Na}}}_{2}{\mathrm{{MnO}}}_{4}$ ;
+
+(E) $- {\mathrm{{MnCl}}}_{4}$ ; (F) $- {\mathrm{{Cl}}}_{2}$ ; (G) $- {\mathrm{{MnCl}}}_{2}$ ; (H)-Mn(OH) ${}_{2}$ ","：从题目描述中，我们可以逐步推断出每种物质的化学式。首先，(A)是一种棕黑色粉末，不溶于水。当(A)与稀硫酸混合后加入${\mathrm{H}}_{2}{\mathrm{O}}_{2}$并微热得到无色溶液(B)，提示我们(A)可能是一种金属氧化物或氢氧化物，在酸性条件下被过氧化氢氧化为可溶性的盐类。
+
+1. 由于向(B)中加入${\mathrm{{NaBiO}}}_{3}$（一种强氧化剂）后得紫红色溶液(C)，这表明(C)含有锰离子(${\mathrm{Mn}}^{7+}$)，因为高锰酸根离子(${\mathrm{MnO}}_{4}^{-}$)是紫红色的。
+2. (C)加碱生成绿色溶液(D)，暗示了锰离子的存在形态由七价变为二价(${\mathrm{Mn}}^{2+}$)，因为二价锰在碱性条件下的配合物通常是绿色的。
+3. 向(D)中滴加稀硫酸又生成(A)和(C)，说明(D)中的${\mathrm{Mn}}^{2+}$被空气中的氧气重新氧化成${\mathrm{MnO}}_{4}^{-}$，同时产生了原初的固体(A)。
+4. (A)与浓盐酸作用产生暗黄色溶液(E)，加热后有黄绿色气体(F)放出，这是氯气(${\mathrm{Cl}}_2$)的颜色特征；剩余的近无色溶液(G)可能是反应后的残留物。
+5. 结合上述信息，可以推测(A)很可能为二氧化锰(${\mathrm{MnO}}_2$)，因为它能催化分解过氧化氢生成水和氧气，并且能够与浓盐酸反应生成氯气。
+6. 最后，(B)中滴加$\mathrm{{NaOH}}$产生的白色沉淀(H)不溶于过量的$\mathrm{{NaOH}}$但逐渐变为棕黑色，支持了(A)为${\mathrm{MnO}}_2$的观点，因为$\mathrm{Mn(OH)}_2$不稳定，容易被空气中氧气氧化形成${\mathrm{MnO}}_2$。
+
+综上所述，通过分析实验现象及已知化学反应规律，我们可以确定各物质的身份。",：(A) ${\mathrm{MnO}}_2$; (B) ${\mathrm{MnSO}}_4$; (C) ${\mathrm{KMnO}}_4$ 或者 ${\mathrm{K}}_2{\mathrm{MnO}}_4$ （这里使用${\mathrm{KMnO}}_4$作为代表）; (D) ${\mathrm{Mn(OH)}}_2$; (E) ${\mathrm{MnCl}}_2 + {\mathrm{Cl}}_2$ 的混合体系; (F) ${\mathrm{Cl}}_2$; (G) ${\mathrm{MnCl}}_2$; (H) ${\mathrm{Mn(OH)}}_2$,N/A,N/A,N/A

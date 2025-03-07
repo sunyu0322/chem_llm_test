@@ -1,0 +1,147 @@
+question,answer
+"用化学反应方程式表示制备过程: 以方铅矿 (PbS) 为原料, 制备氧化铅、二氧化铅和铅单质。","先在空气中灼烧方铅矿粉:
+
+$$
+2\mathrm{{PbS}} + 3{\mathrm{O}}_{2} = 2\mathrm{{PbO}} + 2{\mathrm{{SO}}}_{2}
+$$
+
+用过量的 $\mathrm{{NaOH}}$ 处理 $\mathrm{{PbO}}$ ,则
+
+$$
+\mathrm{{PbO}} + 2\mathrm{{NaOH}} = {\mathrm{{Na}}}_{2}{\mathrm{{PbO}}}_{2} + {\mathrm{H}}_{2}\mathrm{O}
+$$
+
+用 $\mathrm{{NaClO}}$ 氧化 ${\mathrm{{Na}}}_{2}{\mathrm{{PbO}}}_{2}$ 得到 ${\mathrm{{PbO}}}_{2}$ :
+
+$$
+{\mathrm{{Na}}}_{2}{\mathrm{{PbO}}}_{2} + \mathrm{{NaClO}} + {\mathrm{H}}_{2}\mathrm{O} = {\mathrm{{PbO}}}_{2} \downarrow + \mathrm{{NaCl}} + 2\mathrm{{NaOH}}
+$$
+
+高温下用碳还原 $\mathrm{{PbO}}$ ,可得金属铅:
+
+$$
+\mathrm{{PbO}} + \mathrm{C} = \mathrm{{Pb}} + \mathrm{{CO}} \uparrow
+$$
+
+$$
+\mathrm{{CO}} + \mathrm{{PbO}} = \mathrm{{Pb}} + {\mathrm{{CO}}}_{2} \uparrow
+$$",
+"用四种方法鉴别 ${\mathrm{{SnCl}}}_{4}$ 和 ${\mathrm{{SnCl}}}_{2}$ 溶液。
+","(1) 酸性条件下分别加入少量 ${\mathrm{{FeCl}}}_{3}$ 溶液,充分反应后加入 $\mathrm{{KSCN}}$ 溶液,变红的未知液为 ${\mathrm{{SnCl}}}_{4}$ ,另一种为 ${\mathrm{{SnCl}}}_{2}$ :
+
+$$
+2{\mathrm{{Fe}}}^{3 + } + {\mathrm{{Sn}}}^{2 + } = 2{\mathrm{{Fe}}}^{2 + } + {\mathrm{{Sn}}}^{4 + }
+$$
+
+（2）将少量溶液加入 ${\mathrm{{HgCl}}}_{2}$ 溶液中,产生白色沉淀的未知液为 ${\mathrm{{SnCl}}}_{2}$ ,不产生沉淀的未知液为 ${\mathrm{{SnCl}}}_{4}$ :
+
+$$
+2{\mathrm{{HgCl}}}_{2} + {\mathrm{{SnCl}}}_{2} = {\mathrm{{Hg}}}_{2}{\mathrm{{Cl}}}_{2} \downarrow + {\mathrm{{SnCl}}}_{4}
+$$
+
+(3) 将未知液分别与 ${\mathrm{{Na}}}_{2}\mathrm{\;S}$ 溶液作用,产生黄色沉淀的为 ${\mathrm{{SnCl}}}_{4}$ ,产生棕色沉淀的为 ${\mathrm{{SnCl}}}_{2}$ :
+
+$$
+{\mathrm{{SnCl}}}_{4} + 2{\mathrm{{Na}}}_{2}\mathrm{\;S} = {\mathrm{{SnS}}}_{2} \downarrow + 4\mathrm{{NaCl}}
+$$
+
+$$
+{\mathrm{{SnCl}}}_{2} + {\mathrm{{Na}}}_{2}\mathrm{\;S} = \mathrm{{SnS}} \downarrow + 2\mathrm{{NaCl}}
+$$
+
+（4）向未知液中加入过量 $\mathrm{{NaOH}}$ 溶液至生成的白色沉淀全部溶解,再加入 ${\mathrm{{BiCl}}}_{3}$ 溶液, 有黑色沉淀生成的为 ${\mathrm{{SnCl}}}_{2}$ ,另一种为 ${\mathrm{{SnCl}}}_{4}$ :
+
+$$
+{\mathrm{{SnCl}}}_{2} + 4\mathrm{{NaOH}} = {\mathrm{{Na}}}_{2}\left\lbrack {\mathrm{{Sn}}{\left( \mathrm{{OH}}\right) }_{4}}\right\rbrack + 2\mathrm{{NaCl}}
+$$
+
+$$
+3{\left\lbrack \mathrm{{Sn}}{\left( \mathrm{{OH}}\right) }_{4}\right\rbrack }^{2 - } + 2{\mathrm{{Bi}}}^{3 + } + 6{\mathrm{{OH}}}^{ - } = 2\mathrm{{Bi}} \downarrow + 3{\left\lbrack \mathrm{{Sn}}{\left( \mathrm{{OH}}\right) }_{6}\right\rbrack }^{2 - }
+$$
+"
+设计实验鉴别下列物质。${\mathrm{{Sb}}}_{2}{\mathrm{O}}_{5}$ 与 $\mathrm{{SnO}}$,"将 ${\mathrm{{Sb}}}_{2}{\mathrm{O}}_{5}$ 和 $\mathrm{{SnO}}$ 分别溶于盐酸,滴加淀粉一碘化钾试液,有 ${\mathrm{I}}_{2}$ 生成使体系变蓝的是 ${\mathrm{{Sb}}}_{2}{\mathrm{O}}_{5}$ 。"
+设计实验鉴别下列物质。${\mathrm{{As}}}_{2}{\mathrm{\;S}}_{3}$ 与 ${\mathrm{{SnS}}}_{2}$,"将等质量的 ${\mathrm{{As}}}_{2}{\mathrm{\;S}}_{3}$ 和 ${\mathrm{{SnS}}}_{2}$ 分别置于 $6\mathrm{\;{mol}} \cdot {\mathrm{{dm}}}^{-3}$ 盐酸中,溶解的是 ${\mathrm{{SnS}}}_{2}$ ,基本不溶解的是 ${\mathrm{{As}}}_{2}{\mathrm{\;S}}_{3}$ 。"
+设计实验鉴别下列物质。$\mathrm{{Pb}}{\left( {\mathrm{{NO}}}_{3}\right) }_{2}$ 与 $\mathrm{{Bi}}{\left( {\mathrm{{NO}}}_{3}\right) }_{3}$,"
+ 溶于过量 $\mathrm{{NaOH}}$ 溶液的是 $\mathrm{{Pb}}{\left( {\mathrm{{NO}}}_{3}\right) }_{2}$ ,不溶于过量 $\mathrm{{NaOH}}$ 溶液的是 $\mathrm{{Bi}}{\left( {\mathrm{{NO}}}_{3}\right) }_{3}$ 。"
+设计实验鉴别下列物质。${\mathrm{{PbCl}}}_{2}$ 和 ${\mathrm{{SnCl}}}_{2}$ 。,"分别向其溶液中通入 ${\mathrm{H}}_{2}\mathrm{\;S}$ 气体,生成棕褐色沉淀的是 ${\mathrm{{SnCl}}}_{2}$ ; 生成黑色沉淀的是 ${\mathrm{{PbCl}}}_{2}$ ,且 $\mathrm{{SnS}}$ 可以被 ${\mathrm{{Na}}}_{2}{\mathrm{\;S}}_{2}$ 氧化,因此溶于硫化钠溶液:
+
+$$
+\mathrm{{SnS}} + {\mathrm{{Na}}}_{2}{\mathrm{\;S}}_{2} = {\mathrm{{SnS}}}_{2} + {\mathrm{{Na}}}_{2}\mathrm{\;S}
+$$
+
+而 $\mathrm{{PbS}}$ 不能溶于硫化钠溶液,亦可用 ${\mathrm{{HgCl}}}_{2}$ 进行鉴定。
+"
+提纯除去气体中的少量杂质。除去氢气中少量的一氧化碳;,"将含有少量一氧化碳的氢气, 通入 $\mathrm{{CuCl}}$ 的盐酸溶液。少量 $\mathrm{{CO}}$ 将被定量吸收:
+
+$$
+\mathrm{{CO}} + \mathrm{{CuCl}} + 2{\mathrm{H}}_{2}\mathrm{O} = \mathrm{{Cu}}\left( \mathrm{{CO}}\right) \mathrm{{Cl}} \cdot 2{\mathrm{H}}_{2}\mathrm{O}
+$$
+
+则氢气被提纯。"
+"提纯除去气体中的少量杂质。工业上生产的 ${\mathrm{{CO}}}_{2}$ 气体中常含有 $\mathrm{{CO}},{\mathrm{O}}_{2},{\mathrm{\;N}}_{2}$ ,水蒸气和微量的 ${\mathrm{H}}_{2}\mathrm{\;S},{\mathrm{{SO}}}_{2}$ ,如何纯化二氧化碳?","将气体通过冷的浓碳酸钾溶液吸收 ${\mathrm{{CO}}}_{2},\mathrm{{CO}}\text{、}{\mathrm{O}}_{2}\text{、}{\mathrm{\;N}}_{2}$ 不被吸收而分离; 然后加热放出 ${\mathrm{{CO}}}_{2}$ 千燥后即可应用。微量的 ${\mathrm{H}}_{2}\mathrm{\;S}\text{、}{\mathrm{{SO}}}_{2}$ 被吸收后再加热并不逸出。有关反应方程式如下:
+
+$$
+{\mathrm{{CO}}}_{2} + {\mathrm{K}}_{2}{\mathrm{{CO}}}_{3} + {\mathrm{H}}_{2}\mathrm{O} = 2{\mathrm{{KHCO}}}_{3}
+$$
+
+$$
+2{\mathrm{{KHCO}}}_{3}\xrightarrow[]{\bigtriangleup }{\mathrm{K}}_{2}{\mathrm{{CO}}}_{3} + {\mathrm{H}}_{2}\mathrm{O} + {\mathrm{{CO}}}_{2} \uparrow
+$$
+
+$$
+{\mathrm{{SO}}}_{2} + {\mathrm{K}}_{2}{\mathrm{{CO}}}_{3} = {\mathrm{K}}_{2}{\mathrm{{SO}}}_{3} + {\mathrm{{CO}}}_{2}
+$$
+
+$$
+{\mathrm{H}}_{2}\mathrm{\;S} + {\mathrm{K}}_{2}{\mathrm{{CO}}}_{3} = {\mathrm{K}}_{2}\mathrm{\;S} + {\mathrm{H}}_{2}\mathrm{O} + {\mathrm{{CO}}}_{2}
+$$
+"
+"有一白色粉末是 ${\mathrm{{Na}}}_{2}{\mathrm{{SO}}}_{3},{\mathrm{{Na}}}_{2}{\mathrm{{CO}}}_{3},{\mathrm{{NaClO}}}_{3},{\mathrm{{Na}}}_{2}{\mathrm{{SO}}}_{4}$ 中的一种,设计实验加以鉴别。","向白色粉末中加入稀盐酸,有刺激性气体生成,且气体使品红溶液褪色的为 ${\mathrm{{Na}}}_{2}{\mathrm{{SO}}}_{3}$ :
+
+$$
+{\mathrm{{Na}}}_{2}{\mathrm{{SO}}}_{3} + 2\mathrm{{HCl}} = 2\mathrm{{NaCl}} + {\mathrm{{SO}}}_{2} \uparrow + {\mathrm{H}}_{2}\mathrm{O}
+$$
+
+加入稀盐酸, 有气体生成, 且气体使澄清石灰水出现浑浊, 但不能使品红溶液褪色的为 ${\mathrm{{Na}}}_{2}{\mathrm{{CO}}}_{3}$ :
+
+$$
+{\mathrm{{Na}}}_{2}{\mathrm{{CO}}}_{3} + 2\mathrm{{HCl}} = 2\mathrm{{NaCl}} + {\mathrm{{CO}}}_{2} \uparrow + {\mathrm{H}}_{2}\mathrm{O}
+$$
+
+$$
+\mathrm{{Ca}}{\left( \mathrm{{OH}}\right) }_{2} + {\mathrm{{CO}}}_{2} = {\mathrm{{CaCO}}}_{3} \downarrow + {\mathrm{H}}_{2}\mathrm{O}
+$$
+
+加入稀盐酸,无明显变化的为 ${\mathrm{{NaClO}}}_{3}$ 和 ${\mathrm{{Na}}}_{2}{\mathrm{{SO}}}_{4}$ 。向此白色粉末中加入浓盐酸,溶液变黄的为 ${\mathrm{{NaClO}}}_{3}$ ,无现象的为 ${\mathrm{{Na}}}_{2}{\mathrm{{SO}}}_{4}$ :
+
+$$
+8{\mathrm{{NaClO}}}_{3} + {24}\mathrm{{HCl}}\text{(浓)} = 9{\mathrm{{Cl}}}_{2} \uparrow + 8\mathrm{{NaCl}} + 6{\mathrm{{ClO}}}_{2} \uparrow + {12}{\mathrm{H}}_{2}\mathrm{O}
+$$
+"
+如何配制 ${\mathrm{{SnCl}}}_{2}$ 溶液?,"将 ${\mathrm{{SnCl}}}_{2}$ 加入一定量水中充分搅拌后,再边搅拌边滴加稀盐酸至沉淀消失后并稍过量。 再加少许锡粒。
+
+加入过量的盐酸是为抑制 ${\mathrm{{SnCl}}}_{2}$ 的水解:
+
+$$
+\mathrm{{Sn}}\left( \mathrm{{OH}}\right) \mathrm{{Cl}} + \mathrm{{HCl}} \rightleftharpoons {\mathrm{{SnCl}}}_{2} + {\mathrm{H}}_{2}\mathrm{O}
+$$
+
+向配好的溶液中加少量 $\mathrm{{Sn}}$ 粒,以防止 ${\mathrm{{SnCl}}}_{2}$ 被氧化:
+
+$$
+2{\mathrm{{Sn}}}^{2 + } + {\mathrm{O}}_{2} + 4{\mathrm{H}}^{ + } = 2{\mathrm{{Sn}}}^{4 + } + 2{\mathrm{H}}_{2}\mathrm{O}
+$$
+
+$$
+{\mathrm{{Sn}}}^{4 + } + \mathrm{{Sn}} = 2{\mathrm{{Sn}}}^{2 + }
+$$
+"
+,
+"",
+"",
+"",
+"",
+"",
+"",
+"",
+"",

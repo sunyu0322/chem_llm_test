@@ -1,0 +1,335 @@
+query,true_answer,reasoning,model_answer,knowledge_accuracy,reasoning_accuracy,final_answer_accuracy
+"除去下列物质中的杂质, 给出相关化学反应方程式。${\mathrm{{KNO}}}_{2}$ 晶体中的少量 ${\mathrm{{KNO}}}_{3}$ 晶体;","晶体在煤气灯上加热, ${\mathrm{{KNO}}}_{3}$ 转化为 ${\mathrm{{KNO}}}_{2}$ :
+
+$$
+2{\mathrm{{KNO}}}_{3}\xrightarrow[]{\bigtriangleup }2{\mathrm{{KNO}}}_{2} + {\mathrm{O}}_{2} \uparrow
+$$
+","：为了从${\mathrm{KNO}}_2$晶体中去除少量的${\mathrm{KNO}}_3$杂质，我们需要找到一种方法来选择性地将${\mathrm{KNO}}_3$转化为另一种容易分离的形式。考虑到硝酸钾（${\mathrm{KNO}}_3$）与亚硝酸钾（${\mathrm{KNO}}_2$）之间的化学性质差异，我们可以利用热分解或特定条件下发生的化学反应来进行分离。但是，在温和条件下直接转换${\mathrm{KNO}}_3$为易于分离的形式较为困难。一个有效的方法是通过还原剂的作用使${\mathrm{KNO}}_3$部分还原成${\mathrm{KNO}}_2$，但这种方法可能会导致原物质也发生变化。
+
+更实际的做法是利用它们溶解度随温度变化的不同特性。在低温下，${\mathrm{KNO}}_3$的溶解度比${\mathrm{KNO}}_2$大得多，因此可以通过重结晶法实现分离。然而，题目要求给出化学反应方程式，这意味着我们应当寻找一种能够特异性地影响${\mathrm{KNO}}_3$而不显著干扰${\mathrm{KNO}}_2$的化学途径。考虑到这一点，可以使用酸性环境下加热的方法促使${\mathrm{KNO}}_3$分解生成${\mathrm{NO}}_2$气体等产物，从而达到去除的目的。具体的化学反应如下：
+
+\[{\mathrm{KNO}}_3 + {\mathrm{H}}^+ \xrightarrow{\Delta} {\mathrm{KNO}}_2 + {\mathrm{H}}_2{\mathrm{O}} + {\mathrm{NO}}_2 \uparrow\]
+
+这里，${\mathrm{H}}^+$来源于酸性环境，如稀硫酸或者盐酸。该反应选择性较好，因为${\mathrm{KNO}}_2$在相同条件下相对稳定。",：\[{\mathrm{KNO}}_3 + {\mathrm{H}}^+ \xrightarrow{\Delta} {\mathrm{KNO}}_2 + {\mathrm{H}}_2{\mathrm{O}} + {\mathrm{NO}}_2 \uparrow\],N/A,N/A,N/A
+"除去下列物质中的杂质, 给出相关化学反应方程式。 ${\mathrm{N}}_{2}\mathrm{O}$ 气体中混有的少量 $\mathrm{{NO}}$ ;","使气体通过 ${\mathrm{{FeSO}}}_{4}$ 溶液除去 $\mathrm{{NO}}$ :
+
+$$
+\mathrm{{NO}} + {\mathrm{{FeSO}}}_{4} = \mathrm{{Fe}}\left( \mathrm{{NO}}\right) {\mathrm{{SO}}}_{4}
+$$
+","：为了除去${\mathrm{N}}_{2}\mathrm{O}$气体中混有的少量$\mathrm{NO}$，我们需要找到一种方法或试剂能够与$\mathrm{NO}$反应而不与${\mathrm{N}}_{2}\mathrm{O}$反应，或者至少是使得$\mathrm{NO}$转化为容易从混合物中分离出来的形式。考虑到$\mathrm{NO}$可以被氧化剂进一步氧化成${\mathrm{NO}}_2$，而${\mathrm{NO}}_2$在低温下会形成二聚体（${\mathrm{N}}_2{\mathrm{O}}_4$），这可能便于通过冷凝的方式将其从${\mathrm{N}}_{2}\mathrm{O}$中分离出来。但是，更直接的方法是将$\mathrm{NO}$完全氧化为${\mathrm{NO}}_3^-$离子的形式，这样可以通过水洗等方法去除。常用的氧化剂之一是氧气($\mathrm{O}_2$)。但考虑到效率及操作简便性，这里选择使用过量的氧气，在适当的条件下（如催化剂存在下）让$\mathrm{NO}$充分氧化成为${\mathrm{NO}}_2$，随后${\mathrm{NO}}_2$可溶于水生成硝酸($\mathrm{HNO}_3$)，从而实现分离。
+
+化学反应方程式如下：
+\[2\mathrm{NO} + \mathrm{O}_2 \rightarrow 2\mathrm{NO}_2\]
+\[3\mathrm{NO}_2 + \mathrm{H}_2\mathrm{O} \rightarrow 2\mathrm{HNO}_3 + \mathrm{NO}\]
+
+注意到第二个方程式又产生了$\mathrm{NO}$，因此实际操作中需要控制条件使第一个反应尽可能彻底，并且通常采用过量的氧气来确保所有$\mathrm{NO}$都被氧化。此外，也可以考虑使用其他更强的氧化剂直接将$\mathrm{NO}$氧化至${\mathrm{NO}}_3^-$状态，避免生成中间产物${\mathrm{NO}}_2$。","：\[2\mathrm{NO} + \mathrm{O}_2 \rightarrow 2\mathrm{NO}_2\] 
+\[3\mathrm{NO}_2 + \mathrm{H}_2\mathrm{O} \rightarrow 2\mathrm{HNO}_3 + \mathrm{NO}\] 
+
+注意，实际应用时需采取措施防止副反应发生，确保$\mathrm{NO}$的有效去除。",N/A,N/A,N/A
+"除去下列物质中的杂质, 给出相关化学反应方程式。 ${\mathrm{{Na}}}_{2}{\mathrm{{SO}}}_{4}$ 溶液中的少量 ${\left( {\mathrm{{NH}}}_{4}\right) }_{2}{\mathrm{{SO}}}_{4}$ 。","向溶液中加少量 ${\mathrm{{NaNO}}}_{2}$ 后加热可除去 ${\mathrm{{NH}}}_{4}^{ + }$ :
+
+$$
+{\mathrm{{NH}}}_{4}^{ + } + {\mathrm{{NO}}}_{2}^{ - }\mathop{\rightleftharpoons }\limits^{\bigtriangleup }{\mathrm{N}}_{2} \uparrow + 2{\mathrm{H}}_{2}\mathrm{O}
+$$
+","：为了除去${\mathrm{Na}}_2{\mathrm{SO}}_4$溶液中的少量${(\mathrm{NH}_4)}_2{\mathrm{SO}}_4$，我们需要找到一种方法能够特异性地去除铵离子（$\mathrm{NH}_4^+$），而不影响钠离子（$\mathrm{Na}^+$）。考虑到铵离子在加热条件下可以分解为氨气和水，而钠盐则相对稳定，我们可以利用这一性质来设计实验。但是，直接加热溶液可能不是最有效的方法，因为这可能会导致水分蒸发，改变溶液浓度。一个更有效的策略是向溶液中加入碱性物质，如氢氧化钠（$\mathrm{NaOH}$），它能与铵离子反应生成氨气（$\mathrm{NH}_3$）和水，同时增加溶液中的钠离子浓度，但不会引入新的阴离子。该反应如下：
+\[ (\mathrm{NH}_4)_2\mathrm{SO}_4 + 2\mathrm{NaOH} \rightarrow 2\mathrm{NH}_3\uparrow + 2\mathrm{H}_2\mathrm{O} + \mathrm{Na}_2\mathrm{SO}_4 \]
+通过这个反应，我们可以有效地去除溶液中的$(\mathrm{NH}_4)_2\mathrm{SO}_4$，只留下纯净的$\mathrm{Na}_2\mathrm{SO}_4$溶液。",：\[ (\mathrm{NH}_4)_2\mathrm{SO}_4 + 2\mathrm{NaOH} \rightarrow 2\mathrm{NH}_3\uparrow + 2\mathrm{H}_2\mathrm{O} + \mathrm{Na}_2\mathrm{SO}_4 \],N/A,N/A,N/A
+"${\mathrm{H}}_{4}{\mathrm{P}}_{2}{\mathrm{O}}_{7}$ 的解离平衡常数 ${K}_{{\mathrm{a}}_{1}}^{ \ominus } = {1.2} \times {10}^{-1},{K}_{{\mathrm{a}}_{2}}^{ \ominus } = {7.9} \times {10}^{-3},{K}_{{\mathrm{a}}_{3}}^{ \ominus } = {2.0} \times {10}^{-7},{K}_{{\mathrm{a}}_{4}}^{ \ominus } = {4.5}$ $\times {10}^{-{10}}$ ,为什么 ${K}_{{\mathrm{a}}_{1}}^{ \ominus }$ 与 ${K}_{{\mathrm{a}}_{2}}^{ \ominus }$ 相近, ${K}_{{\mathrm{a}}_{3}}^{ \ominus }$ 与 ${K}_{{\mathrm{a}}_{4}}^{ \ominus }$ 相近,但 ${K}_{{\mathrm{a}}_{2}}^{ \ominus }$ 与 ${K}_{{\mathrm{a}}_{3}}^{ \ominus }$ 相差较大?","${\mathrm{H}}_{4}{\mathrm{P}}_{2}{\mathrm{O}}_{7}$解离出第一个 ${\mathrm{H}}^{ + }$ 和第二个 ${\mathrm{H}}^{ + }$ 是从两个不同的磷氧四面体失去 ${\mathrm{H}}^{ + }$ ,二者解离时相互影响不大,因此, ${K}_{{\mathfrak{a}}_{1}}^{ \ominus }$ 与 ${K}_{{\mathfrak{a}}_{2}}^{ \ominus }$ 相差不大。但解离出第三个 ${\mathrm{H}}^{ + }$ 时,是从失去一个 ${\mathrm{H}}^{ + }$ 并带负电的四面体上再解离出第二个 ${\mathrm{H}}^{ + }$ ,显然困难得多。因而 ${K}_{{\mathrm{a}}_{2}}^{ \ominus }$ 与 ${K}_{{\mathrm{a}}_{3}}^{ \ominus }$ 相差较大。同理, ${K}_{{\mathrm{a}}_{3}}^{ \ominus }$ 与 ${K}_{{\mathrm{a}}_{4}}^{ \ominus }$ 相近。","：这个问题涉及到多元弱酸的逐步解离过程及其对应的解离常数（${K}_{\mathrm{a}}$）之间的关系。对于给定的化合物 ${\mathrm{H}}_{4}{\mathrm{P}}_{2}{\mathrm{O}}_{7}$，它是一个四元弱酸，在水中可以分步释放出四个质子。解离常数反映了每一步解离的难易程度，即酸性强度。
+
+1. 从给出的数据来看，${K}_{{\mathrm{a}}_{1}}^{ \ominus } = {1.2} \times {10}^{-1}$ 和 ${K}_{{\mathrm{a}}_{2}}^{ \ominus } = {7.9} \times {10}^{-3}$ 的值相对较大且比较接近，这表明前两个质子的释放相对较容易，也就是说这两个步骤中氢离子的浓度较高，意味着这些步骤中形成的阴离子较不稳定，更容易再接受一个质子形成原来的分子或更稳定的形态。
+   
+2. 相比之下，${K}_{{\mathrm{a}}_{3}}^{ \ominus } = {2.0} \times {10}^{-7}$ 和 ${K}_{{\mathrm{a}}_{4}}^{ \ominus } = {4.5} \times {10}^{-10}$ 的值明显较小，并且也彼此接近。这意味着第三和第四步解离非常困难，产生的阴离子更加稳定，不容易再与质子结合，显示出更强的基础性特征。
+   
+3. 关键点在于为什么${K}_{{\mathrm{a}}_{2}}^{ \ominus }$ 与 ${K}_{{\mathrm{a}}_{3}}^{ \ominus }$之间存在显著差异。这种现象通常与电荷分布、空间效应以及溶剂化作用等因素有关。随着每次解离，剩余部分带有的负电荷增加，导致后续解离变得越来越困难，因为额外的负电荷增加了对正电荷（即下一个要失去的质子）的吸引力。此外，当分子变得更加带电时，水分子围绕着该离子形成紧密的溶剂层，进一步阻碍了下一个质子的脱离。因此，从第二步到第三步解离，由于电荷密度的变化及结构上的调整，导致了解离难度显著增加，从而使得 ${K}_{{\mathrm{a}}_{2}}^{ \ominus }$ 与 ${K}_{{\mathrm{a}}_{3}}^{ \ominus }$ 之间出现了较大的差距。",：这是因为随着每次解离，分子所携带的负电荷逐渐增多，导致后续解离所需的能量增大；同时，更多的负电荷也会增强对剩余质子的吸引力，使得后几步解离更加困难。此外，溶剂化作用也会随着负电荷的增加而加强，进一步阻碍了质子的脱离。,N/A,N/A,N/A
+" 在酸性溶液中,按氧化能力由大到小排列这些离子,并简要说明: ${\mathrm{{NO}}}_{3}^{ - },{\mathrm{{PO}}}_{4}^{3 - },{\mathrm{{AsO}}}_{4}^{3 - }$ , ${\mathrm{{SbO}}}_{4}^{3 - },{\mathrm{{BiO}}}_{3}^{ - }$ 。","氧化能力:
+
+$$
+{\mathrm{{BiO}}}_{3}^{ - } > {\mathrm{{NO}}}_{3}^{ - } > {\mathrm{{SbO}}}_{4}^{3 - } > {\mathrm{{AsO}}}_{4}^{3 - } > {\mathrm{{PO}}}_{4}^{3 - }
+$$
+
+在氮族的五价化合物中, 随周期数增加, 元素 $\mathrm{R}$ 的半径增大, $\mathrm{R} - \mathrm{O}$ 键强度减弱,则氧化能力增强。由于 $\mathrm{{Bi}}\left( \mathrm{V}\right)$ 的惰性电子对效应,其氧化性最强且有一个突跃。而 $\mathrm{N}\left( \mathrm{V}\right)$ 由于无空的价层 $\mathrm{d}$ 轨道, $\mathrm{N} - \mathrm{O}$ 间不存在 $\mathrm{d} - \mathrm{p}\pi$ 配键使键强度变弱, $\mathrm{N} - \mathrm{O}$ 键易断而有明显的氧化性。","：要比较这些离子在酸性条件下的氧化能力，我们需要考虑它们各自能够接受电子的能力。这通常与中心原子的电负性、氧化态以及形成的化合物稳定性有关。
+
+1. ${\mathrm{BiO}}_{3}^{-}$ (铋酸根) 中铋处于+5价态，这是一个非常高的氧化态，容易被还原成较低价态如+3或0价，因此它具有很强的氧化性。
+2. ${\mathrm{NO}}_{3}^{-}$ (硝酸根) 里的氮是+5价，在酸性条件下可以被还原为更低的氧化态，比如NO、N₂O等，显示出较强的氧化性质。
+3. 对于${\mathrm{PO}}_{4}^{3-},{\mathrm{AsO}}_{4}^{3-},{\mathrm{SbO}}_{4}^{3-}$这三种磷酸盐类似物而言，它们都是中心元素处于最高氧化数（P,V; As,V; Sb,V）。但是，由于周期表从左至右电负性增加的趋势，磷的氧化物比砷和锑的更稳定，这意味着${\mathrm{PO}}_{4}^{3-}$相对不容易被还原；而随着原子序数增大，原子半径也相应增大，导致外层电子云密度降低，更容易失去电子，故砷酸根较之磷酸根略易被还原，但比亚砷酸根难；同理，亚锑酸根比砷酸根更易于被还原。
+   
+综上所述，在酸性环境中，这些离子按照氧化能力强弱排序应该是：${\mathrm{BiO}}_{3}^{-} > {\mathrm{NO}}_{3}^{-} > {\mathrm{PO}}_{4}^{3-} > {\mathrm{AsO}}_{4}^{3-} > {\mathrm{SbO}}_{4}^{3-}$。",：${\mathrm{BiO}}_{3}^{-} > {\mathrm{NO}}_{3}^{-} > {\mathrm{PO}}_{4}^{3-} > {\mathrm{AsO}}_{4}^{3-} > {\mathrm{SbO}}_{4}^{3-}$,N/A,N/A,N/A
+"解释实验现象。向含有 ${\mathrm{{Bi}}}^{3 + }$ 和 ${\mathrm{{Sn}}}^{2 + }$ 的澄清溶液中加入 $\mathrm{{NaOH}}$ 溶液会有黑色沉淀生成。
+","在碱性条件下 ${\mathrm{{Sn}}}^{2 + }$ 将 ${\mathrm{{Bi}}}^{3 + }$ 还原为单质 $\mathrm{{Bi}}$ ,生成的粉末产物为黑色:
+
+$$
+3{\mathrm{{Sn}}}^{2 + } + 2{\mathrm{{Bi}}}^{3 + } + {18}{\mathrm{{OH}}}^{ - } = 2\mathrm{{Bi}} \downarrow + 3{\left\lbrack \mathrm{{Sn}}{\left( \mathrm{{OH}}\right) }_{6}\right\rbrack }^{2 - }
+$$
+","：在解答这个问题之前，我们需要了解铋(${\mathrm{Bi}}^{3+}$)和锡(${\mathrm{Sn}}^{2+}$)离子与氢氧化钠($\mathrm{NaOH}$)反应的基本化学性质。当向含有${\mathrm{Bi}}^{3+}$和${\mathrm{Sn}}^{2+}$的溶液中加入$\mathrm{NaOH}$时，会发生以下反应：
+- 对于铋离子${\mathrm{Bi}}^{3+}$, 它会与$\mathrm{OH}^{-}$结合形成不溶性的$\mathrm{Bi(OH)}_3$沉淀。此反应可表示为：\[{\mathrm{Bi}}^{3+} + 3\mathrm{OH}^{-} \rightarrow \mathrm{Bi(OH)}_3↓\] $\mathrm{Bi(OH)}_3$是一种白色或淡黄色的固体，在空气中容易被氧化成棕色或黑色。
+- 对于锡离子${\mathrm{Sn}}^{2+}$, 它同样可以与$\mathrm{OH}^{-}$结合形成沉淀$\mathrm{Sn(OH)}_2$。该反应表达式为：\[{\mathrm{Sn}}^{2+} + 2\mathrm{OH}^{-} \rightarrow \mathrm{Sn(OH)}_2↓\] 但是，$\mathrm{Sn(OH)}_2$在空气中极易被氧化为四价锡化合物，例如$\mathrm{SnO}_2·\mathrm{H}_2\mathrm{O}$，这会导致颜色变化至灰色甚至黑色。
+
+考虑到题目描述中的“黑色沉淀”，我们可以推断出生成的沉淀物主要是由$\mathrm{Bi(OH)}_3$进一步氧化形成的产物以及部分$\mathrm{Sn(OH)}_2$被氧化后的物质共同作用的结果。因此，实验现象中观察到的黑色沉淀主要来源于这两种金属氢氧化物及其后续氧化产物。",：生成的黑色沉淀是由$\mathrm{Bi(OH)}_3$及$\mathrm{Sn(OH)}_2$经空气氧化后形成的混合物。,N/A,N/A,N/A
+"解释实验现象。向 ${\mathrm{{FeCl}}}_{3}$ 溶液中滴加 ${\mathrm{{Na}}}_{3}{\mathrm{{PO}}}_{4}$ 溶液,先有黄色沉淀生成; 继续滴加时沉淀减少,最后消失得无色溶液。","黄色沉淀为 ${\mathrm{{FePO}}}_{4}$ 。因磷酸具有配位性,当磷酸过量时,生成可溶性配位化合物 ${\left\lbrack \mathrm{{Fe}}{\left( {\mathrm{{PO}}}_{4}\right) }_{2}\right\rbrack }^{3 - }$ :
+
+$$
+{\mathrm{{Fe}}}^{3 + } + {\mathrm{{PO}}}_{4}^{3 - } = {\mathrm{{FePO}}}_{4} \downarrow
+$$
+
+$$
+{\mathrm{{FePO}}}_{4} + {\mathrm{{PO}}}_{4}^{3 - } = {\left\lbrack \mathrm{{Fe}}{\left( {\mathrm{{PO}}}_{4}\right) }_{2}\right\rbrack }^{3 - }
+$$
+","：首先，考虑${\mathrm{FeCl}}_3$与${\mathrm{Na}}_3{\mathrm{PO}}_4$之间的反应。${\mathrm{FeCl}}_3$溶液中的主要离子为${\mathrm{Fe}}^{3+}$和${\mathrm{Cl}}^-$，而${\mathrm{Na}}_3{\mathrm{PO}}_4$溶液中则含有${\mathrm{Na}}^+$和${\mathrm{PO}}_4^{3-}$。当两种溶液混合时，由于${\mathrm{Fe}}^{3+}$与${\mathrm{PO}}_4^{3-}$可以形成难溶于水的沉淀物——磷酸铁（${\mathrm{FePO}}_4$），因此会观察到黄色沉淀生成。
+
+接着分析继续滴加${\mathrm{Na}}_3{\mathrm{PO}}_4$后的情况。这里的关键在于过量的${\mathrm{PO}}_4^{3-}$离子能够进一步与已经形成的${\mathrm{FePO}}_4$作用，生成可溶性的络合物。具体来说，在足够高的${\mathrm{PO}}_4^{3-}$浓度下，${\mathrm{FePO}}_4$可以转化为更稳定的${\left[{\mathrm{Fe}}({\mathrm{PO}}_4)_2\right]}^{3-}$或类似的复杂阴离子形式，这些形态在水中是可溶的，从而导致原本的黄色沉淀逐渐溶解直至完全消失，最终得到无色溶液。这是因为形成了比简单磷酸铁更加稳定且可溶的配合物结构。",：向${\mathrm{FeCl}}_3$溶液中加入${\mathrm{Na}}_3{\mathrm{PO}}_4$溶液，先因生成${\mathrm{FePO}}_4$沉淀而出现黄色沉淀；随着${\mathrm{Na}}_3{\mathrm{PO}}_4$的继续添加，${\mathrm{FePO}}_4$进一步与${\mathrm{PO}}_4^{3-}$作用生成可溶性配合物如${\left[{\mathrm{Fe}}({\mathrm{PO}}_4)_2\right]}^{3-}$，使得沉淀重新溶解，溶液变为无色。,N/A,N/A,N/A
+"解释实验现象。 ${\mathrm{{AsH}}}_{3}$ 通入一玻璃管并在入口处加热,管壁出现有金属光泽的黑色物质。"," ${\mathrm{{AsH}}}_{3}$ 受热分解,在玻璃管壁生成了黑亮的单质 $\mathrm{{As}}$ :
+
+$$
+2{\mathrm{{AsH}}}_{3}\xrightarrow[]{\bigtriangleup }2\mathrm{{As}} + 3{\mathrm{H}}_{2}
+$$
+","：题目描述了将${\mathrm{AsH}}_3$（胂）气体通入一玻璃管，并在入口处加热，观察到的现象是在管壁上出现了具有金属光泽的黑色物质。要解释这个现象，我们需要考虑砷化氢(${\mathrm{AsH}}_3$)在受热条件下的化学性质及其可能发生的反应。
+
+1. 砷化氢是一种无色、剧毒的气体，在空气中易燃。
+2. 当${\mathrm{AsH}}_3$被加热时，它会发生分解反应，生成单质砷和氢气: ${\mathrm{2AsH}}_3 \xrightarrow{\Delta} 2As + 3H_2$。
+3. 生成的单质砷通常为灰色固体，但在特定条件下可以形成不同形态，包括有金属光泽的黑色形式。这里提到的“金属光泽”提示我们产物是砷的一种同素异形体，可能是灰砷或黑砷，但根据描述更倾向于后者。
+4. 黑砷是一种较少见的形式，具有金属光泽，与题中所述相符。
+5. 氢气则因为其低密度而逸出实验装置外，不会在管壁上留下可见痕迹。
+
+综上所述，通过分析${\mathrm{AsH}}_3$加热后的化学行为及产物特性，我们可以推断出实验中观察到的具有金属光泽的黑色物质主要是由${\mathrm{AsH}}_3$分解产生的砷沉积于管壁形成的。",：管壁上的黑色物质是有金属光泽的砷。,N/A,N/A,N/A
+解释实验现象。向 ${\mathrm{{NaNO}}}_{2}$ 溶液中加 ${\mathrm{{AgNO}}}_{3}$ 溶液有黄色沉淀生成。,"${\mathrm{{AgNO}}}_{2}$ 为微溶盐:
+
+$$
+{\mathrm{{Ag}}}^{ + } + {\mathrm{{NO}}}_{2}^{ - } = {\mathrm{{AgNO}}}_{2} \downarrow
+$$
+",：首先，我们知道${\mathrm{NaNO}}_{2}$是一种亚硝酸盐，在水中可以完全电离成${\mathrm{Na}}^{+}$和${\mathrm{NO}}_{2}^{-}$。当向这种溶液中加入${\mathrm{AgNO}}_{3}$时，${\mathrm{AgNO}}_{3}$同样会电离为${\mathrm{Ag}}^{+}$和${\mathrm{NO}}_{3}^{-}$。根据化学反应原理，这里可能发生的是${\mathrm{Ag}}^{+}$与${\mathrm{NO}}_{2}^{-}$之间的反应。查阅相关资料得知，${\mathrm{Ag}}^{+}$与${\mathrm{NO}}_{2}^{-}$确实能够形成沉淀，但值得注意的是，生成的并不是简单的银离子与亚硝酸根离子直接结合的形式，而是形成了[Ag(${\mathrm{NO}}_{2}$)]复合物，更准确地说是形成了黄色的${\mathrm{Ag}}_2{\mathrm{O}}$沉淀，这是因为在这个过程中还伴随着部分${\mathrm{Ag}}^{+}$被还原成了$\mathrm{Ag}_2\mathrm{O}$，这解释了观察到的黄色沉淀现象。不过，更常见的解释是在特定条件下（如pH值等），${\mathrm{Ag}}^{+}$与${\mathrm{NO}}_{2}^{-}$可以直接形成黄色的${\mathrm{AgNO}}_{2}$沉淀。因此，基于上述分析，实验现象是由${\mathrm{Ag}}^{+}$与${\mathrm{NO}}_{2}^{-}$作用产生的黄色沉淀所引起的。,：向${\mathrm{NaNO}}_{2}$溶液中加${\mathrm{AgNO}}_{3}$溶液后生成黄色沉淀的现象是因为形成了${\mathrm{AgNO}}_{2}$沉淀。,N/A,N/A,N/A
+"解释实验现象。将 $\mathrm{{NaOH}}$ 溶液与 ${\mathrm{{BiCl}}}_{3}$ 溶液充分混合有白色沉淀生成,再向其中通入 ${\mathrm{{Cl}}}_{2}$ 时有黄棕色沉淀生成。","白色沉淀为 $\mathrm{{Bi}}{\left( \mathrm{{OH}}\right) }_{3}$ ,呈碱性,不溶于过量的 $\mathrm{{NaOH}}$ :
+
+$$
+{\mathrm{{Bi}}}^{3 + } + 3{\mathrm{{OH}}}^{ - } = \mathrm{{Bi}}{\left( \mathrm{{OH}}\right) }_{3} \downarrow
+$$
+
+在碱性介质中,强氧化剂 ${\mathrm{{Cl}}}_{2}$ 可氧化 $\mathrm{{Bi}}{\left( \mathrm{{OH}}\right) }_{3}$ 得到上黄色沉淀物 ${\mathrm{{NaBiO}}}_{3}$ :
+
+$$
+{\mathrm{{BiCl}}}_{3} + {\mathrm{{Cl}}}_{2} + 6\mathrm{{NaOH}}\left( \mathrm{{aq}}\right) = {\mathrm{{NaBiO}}}_{3} \downarrow + 5\mathrm{{NaCl}} + 3{\mathrm{H}}_{2}\mathrm{O}
+$$
+","：首先，分析题目中的化学反应过程。当$\mathrm{NaOH}$（氢氧化钠）溶液与${\mathrm{BiCl}}_3$（三氯化铋）溶液混合时，会发生双替换反应生成难溶于水的$\mathrm{Bi(OH)}_3$沉淀和可溶性的$\mathrm{NaCl}$。化学方程式可以表示为：\[{\mathrm{BiCl}}_3 + 3\mathrm{NaOH} \rightarrow \mathrm{Bi(OH)}_3↓ + 3\mathrm{NaCl}\] 这解释了为何会有白色沉淀生成。
+
+接下来考虑向该混合物中通入${\mathrm{Cl}}_2$气体的情况。氯气是一种强氧化剂，在碱性条件下能够进一步氧化已经形成的$\mathrm{Bi(OH)}_3$沉淀。根据文献资料或实验观察可知，$\mathrm{Bi(OH)}_3$会被氯气氧化成$\mathrm{BiOCl}$（氧氯化铋），后者是一种黄色至黄棕色的固体。这个过程可以通过以下反应式概括：\[\mathrm{Bi(OH)}_3 + Cl_2 \rightarrow BiOCl + 2HCl\] 实际上，考虑到溶液环境为碱性，更准确的反应应该是：\[\mathrm{Bi(OH)}_3 + Cl_2 + OH^- \rightarrow BiOCl + 2H_2O\] 由此可以看出，随着氯气的加入，原本白色的$\mathrm{Bi(OH)}_3$沉淀转变为黄棕色的$\mathrm{BiOCl}$沉淀，这与题目描述的现象相吻合。",：在$\mathrm{NaOH}$溶液与${\mathrm{BiCl}}_3$溶液混合后产生的白色沉淀是$\mathrm{Bi(OH)}_3$；再向其中通入${\mathrm{Cl}}_2$时，白色沉淀被氧化为黄棕色的$\mathrm{BiOCl}$沉淀。,N/A,N/A,N/A
+"给出下列硝酸盐受热分解的反应方程式, 总结硝酸盐热分解反应规律。
+
+$$
+{\mathrm{{KNO}}}_{3},{\mathrm{{LiNO}}}_{3},\mathrm{{Pb}}{\left( {\mathrm{{NO}}}_{3}\right) }_{2},\mathrm{{Bi}}{\left( {\mathrm{{NO}}}_{3}\right) }_{3},{\mathrm{{AgNO}}}_{3},\mathrm{{Fe}}{\left( {\mathrm{{NO}}}_{3}\right) }_{2}\text{。}
+$$
+","
+$$
+2{\mathrm{{KNO}}}_{3}\xrightarrow[]{\bigtriangleup }2{\mathrm{{KNO}}}_{2} + {\mathrm{O}}_{2} \uparrow
+$$
+
+$$
+4{\mathrm{{LiNO}}}_{3}\xrightarrow[]{\bigtriangleup }2{\mathrm{{Li}}}_{2}\mathrm{O} + 4{\mathrm{{NO}}}_{2} \uparrow + {\mathrm{O}}_{2} \uparrow
+$$
+
+$$
+2\mathrm{\;{Pb}}{\left( {\mathrm{{NO}}}_{3}\right) }_{2}\xrightarrow[]{\bigtriangleup }2\mathrm{{PbO}} + 4{\mathrm{{NO}}}_{2} \uparrow + {\mathrm{O}}_{2} \uparrow
+$$
+
+$$
+4\mathrm{{Bi}}{\left( {\mathrm{{NO}}}_{3}\right) }_{3}\xrightarrow[]{\bigtriangleup }2{\mathrm{{Bi}}}_{2}{\mathrm{O}}_{3} + {12}{\mathrm{{NO}}}_{2} \uparrow + 3{\mathrm{O}}_{2} \uparrow
+$$
+
+$$
+2{\mathrm{{AgNO}}}_{3}\xrightarrow[]{\bigtriangleup }2\mathrm{{Ag}} + 2{\mathrm{{NO}}}_{2} \uparrow + {\mathrm{O}}_{2} \uparrow
+$$
+
+$$
+4\mathrm{{Fe}}{\left( {\mathrm{{NO}}}_{3}\right) }_{2}\xrightarrow[]{\Delta }2{\mathrm{{Fe}}}_{2}{\mathrm{O}}_{3} + 8{\mathrm{{NO}}}_{2} \uparrow + {\mathrm{O}}_{2} \uparrow
+$$
+
+硝酸盐受热分解的产物与阳离子的极化能力有关, 按照阳离子的极化能力由弱至强, 分别生成亚硝酸盐和氧气, 金属氧化物、二氧化氮和氧气, 金属单质、二氧化氮和氧气; 若阳离子有还原性, 则阳离子可被生成的氧气所氧化。
+","：首先，我们需要了解硝酸盐在受热时的一般分解行为。硝酸盐的热分解主要取决于金属离子的性质以及加热条件（温度）。对于大多数硝酸盐而言，在加热条件下会生成相应的金属氧化物、氧气和二氧化氮。但具体产物可能因金属种类的不同而有所变化。
+
+1. **KNO₃ (钾硝酸盐)**: 加热时通常先部分脱水形成亚硝酸盐，再进一步分解产生K₂O, NO₂, 和 O₂。
+2. **LiNO₃ (锂硝酸盐)**: 与KNO₃类似，最终产物为Li₂O, NO₂, 和 O₂。
+3. **Pb(NO₃)₂ (铅(II)硝酸盐)**: 分解产生PbO, NO₂, 和 O₂。
+4. **Bi(NO₃)₃ (铋(III)硝酸盐)**: 分解生成Bi₂O₃, NO₂, 和 O₂。
+5. **AgNO₃ (银硝酸盐)**: 加热时直接分解成Ag, NO₂, 和 O₂。
+6. **Fe(NO₃)₂ (铁(II)硝酸盐)**: 可能更复杂一些，因为它可能会经历氧化状态的变化，但在简单的加热下，可以认为它分解为Fe₂O₃, NO₂, 和 O₂。
+
+从这些例子中可以看出，一个普遍规律是，除了少数例外情况（如AgNO₃直接产生单质银），大多数情况下硝酸盐加热分解后都会生成金属氧化物、二氧化氮气体以及氧气。这反映了硝酸根离子在高温下的不稳定性，易于释放出氮氧组分。","：
+- KNO₃ → K₂O + 2NO₂↑ + ½O₂↑
+- LiNO₃ → Li₂O + 2NO₂↑ + ½O₂↑
+- Pb(NO₃)₂ → PbO + 4NO₂↑ + O₂↑
+- Bi(NO₃)₃ → Bi₂O₃ + 6NO₂↑ + 3/2O₂↑
+- AgNO₃ → Ag + NO₂↑ + ½O₂↑
+- Fe(NO₃)₂ → Fe₂O₃ + 4NO₂↑ + O₂↑
+
+总结的规律是：硝酸盐受热分解一般产生金属氧化物、二氧化氮气体及氧气。",N/A,N/A,N/A
+为什么 ${\mathrm{{NH}}}_{3}$ 溶液显碱性而 ${\mathrm{{HN}}}_{3}$ 溶液显酸性?,"化合物在水溶液中的酸碱性, 一般由其在水中的解离情况决定。
+
+${\mathrm{{NH}}}_{3}$ 是一种稳定的分子,在水中解离出 ${\mathrm{H}}^{ + }$ 的能力很弱。而 ${\mathrm{{NH}}}_{3}$ 中 $\mathrm{N}$ 的孤电子对有较强的配位能力,可以与 ${\mathrm{H}}_{2}\mathrm{O}$ 解离出的 ${\mathrm{H}}^{ + }$ 结合,使溶液中的 ${\mathrm{{OH}}}^{ - }$ 过剩,故 ${\mathrm{{NH}}}_{3}$ 溶液显碱性:
+
+$$
+{\mathrm{{NH}}}_{3} + {\mathrm{H}}_{2}\mathrm{O} \rightleftharpoons {\mathrm{{NH}}}_{4}^{ + } + {\mathrm{{OH}}}^{ - }\;{K}_{\mathrm{b}}^{ \ominus } = {1.8} \times {10}^{-5}
+$$
+
+${\mathrm{{HN}}}_{3}$ 分子解离出 ${\mathrm{H}}^{ + }$ 后生成的 ${\mathrm{N}}_{3}^{ - }$ 由于离域 $\pi$ 键存在使其较稳定,同时 ${\mathrm{{HN}}}_{3}$ 端原子 $\mathrm{N}$ 的电子对配位能力极弱。所以, ${\mathrm{{HN}}}_{3}$ 给出质子能力远比配位能力强而显酸性:
+
+$$
+{\mathrm{{HN}}}_{3} \rightleftharpoons {\mathrm{N}}_{3}^{ - } + {\mathrm{H}}^{ + }\;{K}_{\mathrm{a}}^{ \ominus } = {2.5} \times {10}^{-5}
+$$
+","：要理解为什么${\mathrm{NH}}_{3}$溶液显碱性而${\mathrm{HN}}_{3}$溶液显酸性，我们需要从这两个化合物在水中的行为来分析。首先，考虑${\mathrm{NH}}_{3}$（氨）。氨是一种路易斯碱，它能够接受质子(H+)。当氨溶解于水中时，会发生以下反应：
+\[{\mathrm{NH}}_{3} + {\mathrm{H}}_{2}\mathrm{O} \leftrightarrow {\mathrm{NH}}_{4}^{+} + \mathrm{OH}^{-}\]
+这个过程中，氨分子接受了一个来自水分子的质子，生成了铵离子(${\mathrm{NH}}_{4}^{+}$)和氢氧根离子(OH-)。由于溶液中产生了额外的OH-离子，这使得溶液整体呈现碱性。
+
+接着来看${\mathrm{HN}}_{3}$（叠氮酸）。叠氮酸是一种弱酸，在水中可以部分离解产生H+离子：
+\[{\mathrm{HN}}_{3} \leftrightarrow {\mathrm{H}}^{+} + {\mathrm{N}}_{3}^{-}\]
+通过这种离解作用，溶液中增加了自由的H+离子，因此整个溶液呈现出酸性特征。
+
+综上所述，${\mathrm{NH}}_{3}$与水作用生成OH-使溶液呈碱性；而${\mathrm{HN}}_{3}$则通过释放H+离子使溶液呈酸性。这两种物质之所以表现出不同的酸碱性质，关键在于它们在水中是否容易给出或接受质子，以及最终溶液中主要存在的离子类型。",：无（此题为解释题型，不适用选择、填空或计算形式的答案）,N/A,N/A,N/A
+如何配制 ${\mathrm{{SbCl}}}_{3}$ 溶液和 $\mathrm{{Bi}}{\left( {\mathrm{{NO}}}_{3}\right) }_{3}$ 溶液?,"${\mathrm{{SbCl}}}_{3}$ 和 $\mathrm{{Bi}}{\left( {\mathrm{{NO}}}_{3}\right) }_{3}$ 都易水解生成沉淀:
+
+$$
+{\mathrm{{SbCl}}}_{3} + {\mathrm{H}}_{2}\mathrm{O} \rightleftharpoons \mathrm{{SbOCl}} \downarrow + 2\mathrm{{HCl}}
+$$
+
+$$
+\mathrm{{Bi}}{\left( {\mathrm{{NO}}}_{3}\right) }_{3} + {\mathrm{H}}_{2}\mathrm{O} \rightleftharpoons {\mathrm{{BiONO}}}_{3} \downarrow + 2{\mathrm{{HNO}}}_{3}
+$$
+
+加酸可抑制盐的水解。为避免水解, 在配制溶液时先将一定量的盐溶于相应的酸中, 再稀释到所需体积即可。配制 ${\mathrm{{SbCl}}}_{3}$ 溶液时,先将 ${\mathrm{{SbCl}}}_{3}$ 溶于 $1 : 1$ 盐酸中; 配制 $\mathrm{{Bi}}{\left( {\mathrm{{NO}}}_{3}\right) }_{3}$ 溶液时,先将 $\mathrm{{Bi}}{\left( {\mathrm{{NO}}}_{3}\right) }_{3}$ 溶于 $1 : 1$ 硝酸中。
+","：题目要求说明如何配制${\mathrm{{SbCl}}}_{3}$溶液和$\mathrm{{Bi}}{\left( {\mathrm{{NO}}}_{3}\right) }_{3}$溶液。对于这类问题，我们需要考虑几个关键因素：首先，这两种化合物都是易溶于水的；其次，考虑到安全性和实验操作的可行性，我们还需要注意这些物质的化学性质以及它们与空气或水反应的可能性。
+
+1. **关于${\mathrm{{SbCl}}}_{3}$溶液的配制**：三氯化锑是一种无色液体，在空气中容易吸湿，并且遇水分解生成氧化物沉淀，因此需要在干燥条件下处理。配制时，应在惰性气体（如氮气）保护下进行，以避免其与空气中的水分接触。可以将适量的${\mathrm{{SbCl}}}_{3}$加入到预先加热去除二氧化碳和氧气的去离子水中，边加边搅拌直至完全溶解。由于${\mathrm{{SbCl}}}_{3}$具有腐蚀性，操作时应穿戴适当的个人防护装备。
+
+2. **关于$\mathrm{{Bi}}{\left( {\mathrm{{NO}}}_{3}\right) }_{3}$溶液的配制**：硝酸铋是白色固体，可溶于水。直接将其溶解于适量蒸馏水或去离子水中即可得到所需溶液。需要注意的是，硝酸铋可能对皮肤、眼睛等有刺激作用，因此处理时也应当采取适当的安全措施。此外，由于该物质含有重金属铋，使用后剩余的溶液应该按照危险废物的规定妥善处置。
+
+综上所述，两种溶液都可以通过直接溶解的方式制备，但需特别关注实验条件及安全措施。",：对于${\mathrm{{SbCl}}}_{3}$溶液，应在惰性气体保护下，将${\mathrm{{SbCl}}}_{3}$溶解于预热过的去离子水中；对于$\mathrm{{Bi}}{\left( {\mathrm{{NO}}}_{3}\right) }_{3}$溶液，则可以直接将$\mathrm{{Bi}}{\left( {\mathrm{{NO}}}_{3}\right) }_{3}$固体溶解于适量的蒸馏水或去离子水中。,N/A,N/A,N/A
+有人提出由 ${\mathrm{{NO}}}_{2}$ 的磁性测定数据可分析 ${\mathrm{{NO}}}_{2}$ 分子中的离域 $\pi$ 键是 ${\Pi }_{3}^{4}$ 还是 ${\Pi }_{3}^{3}$ 。你认为是否可行? 为什么?,"这种方法是不可行的。
+
+测定 ${\mathrm{{NO}}}_{2}$ 的磁性应是 ${\mathrm{{NO}}}_{2}$ 处在液态或固态下,而随着温度的降低, ${\mathrm{{NO}}}_{2}$ 发生聚合反应:
+
+$$
+2{\mathrm{{NO}}}_{2} \rightleftharpoons {\mathrm{N}}_{2}{\mathrm{O}}_{4}
+$$
+
+实验结果表明,在 ${\mathrm{N}}_{2}{\mathrm{O}}_{4}$ 沸点温度时,液体中含有 $1\%$ 的 ${\mathrm{{NO}}}_{2}$ ,气体中含有 ${15.9}\%$ 的 ${\mathrm{{NO}}}_{2}$ ; 在 ${\mathrm{N}}_{2}{\mathrm{O}}_{4}$ 熔点温度的液体中只含有 ${0.01}\%$ 的 ${\mathrm{{NO}}}_{2}$ ,在低于 ${\mathrm{N}}_{2}{\mathrm{O}}_{4}$ 的熔点温度时,固体中全部是 ${\mathrm{N}}_{2}{\mathrm{O}}_{4}$ 。
+
+可见,液态或固态时 ${\mathrm{{NO}}}_{2}$ 几乎全部转化为 ${\mathrm{N}}_{2}{\mathrm{O}}_{4}$ ,无法测定液态或固态时 ${\mathrm{{NO}}}_{2}$ 的磁性。
+",：首先，我们需要理解题目中提到的${\Pi}_{3}^{4}$和${\Pi}_{3}^{3}$代表什么。这里的下标3指的是参与形成π键的原子数（对于${\mathrm{NO}}_2$来说就是1个氮原子加上2个氧原子），而上标则表示该体系中的电子总数。因此，${\Pi}_{3}^{4}$意味着总共有4个π电子分布在三个原子之间，而${\Pi}_{3}^{3}$则意味着只有3个π电子。根据分子轨道理论，如果${\mathrm{NO}}_2$中有4个π电子，则会有一个单电子占据在非键轨道上，使得整个分子具有顺磁性；相反地，如果仅有3个π电子，则所有电子都成对出现，导致${\mathrm{NO}}_2$表现为抗磁性。实验测定显示，${\mathrm{NO}}_2$实际上是一个顺磁性物质，这表明它含有未配对电子。基于以上分析，我们可以通过测量${\mathrm{NO}}_2$的磁性来判断其内部结构是${\Pi}_{3}^{4}$还是${\Pi}_{3}^{3}$。,：可行。因为通过测量${\mathrm{NO}}_2$的磁性可以得知其是否含有未配对电子，进而推断出其离域π键的具体形式是${\Pi}_{3}^{4}$还是${\Pi}_{3}^{3}$。,N/A,N/A,N/A
+"比较磷的含氧酸的酸性强弱: ${\mathrm{H}}_{3}{\mathrm{{PO}}}_{2},{\mathrm{H}}_{3}{\mathrm{{PO}}}_{3},{\mathrm{H}}_{3}{\mathrm{{PO}}}_{4},{\mathrm{H}}_{4}{\mathrm{P}}_{2}{\mathrm{O}}_{7}$ 。","由酸的解离平衡常数判断,酸性 ${\mathrm{H}}_{4}{\mathrm{P}}_{2}{\mathrm{O}}_{7} > {\mathrm{H}}_{3}{\mathrm{{PO}}}_{2} > {\mathrm{H}}_{3}{\mathrm{{PO}}}_{3} > {\mathrm{H}}_{3}{\mathrm{{PO}}}_{4}$ 。
+
+$$
+{\mathrm{H}}_{3}{\mathrm{{PO}}}_{2}\;{K}_{\mathrm{a}}^{ \ominus } = {5.9} \times {10}^{-2}
+$$
+
+$$
+{\mathrm{H}}_{3}{\mathrm{{PO}}}_{3}\;{K}_{{\mathrm{a}}_{1}}^{ \ominus } = {3.7} \times {10}^{-2}
+$$
+
+$$
+{\mathrm{H}}_{3}{\mathrm{{PO}}}_{4}\;{K}_{{\mathrm{a}}_{1}}^{ \ominus } = {7.1} \times {10}^{-3}
+$$
+
+$$
+{\mathrm{H}}_{4}{\mathrm{P}}_{2}{\mathrm{O}}_{7}\;{K}_{{\mathrm{a}}_{1}}^{ \ominus } = {1.2} \times {10}^{-1}
+$$
+","：首先，我们需要了解含氧酸的酸性强弱通常与中心原子的正电性、氢氧键的极性和稳定性有关。对于磷的含氧酸来说，随着氧化数的增加，磷原子吸引电子的能力增强，导致形成的氢氧键更容易断裂释放出质子（H+），从而酸性增强。我们来逐一分析给出的四种磷的含氧酸：
+
+1. ${\mathrm{H}}_{3}{\mathrm{{PO}}}_{2}$ 中磷的氧化态为 +1，这是由于其中一个氧直接与磷形成了双键，而其他两个氧则通过单键连接，并且每个都携带了一个额外的氢。
+2. ${\mathrm{H}}_{3}{\mathrm{{PO}}}_{3}$ 中磷的氧化态为 +3，它比${\mathrm{H}}_{3}{\mathrm{{PO}}}_{2}$多一个氧原子，但仍然有两个OH基团。
+3. ${\mathrm{H}}_{3}{\mathrm{{PO}}}_{4}$ 的磷氧化态为 +5，所有三个羟基（-OH）都参与了氢键形成，没有非羟基氧存在。
+4. ${\mathrm{H}}_{4}{\mathrm{P}}_{2}{\mathrm{O}}_{7}$ 是焦磷酸的一种形式，可以看作是由两个磷酸分子去掉一个水分子后得到的产物，其中磷的平均氧化态也是 +5。
+
+基于以上信息，我们可以推断出随着磷原子氧化数的增加，相应的含氧酸的酸性也会逐渐增强。因此，从最弱到最强排列的话应该是按照磷元素氧化态从小到大的顺序：${\mathrm{H}}_{3}{\mathrm{{PO}}}_{2} < {\mathrm{H}}_{3}{\mathrm{{PO}}}_{3} < {\mathrm{H}}_{3}{\mathrm{{PO}}}_{4} \approx {\mathrm{H}}_{4}{\mathrm{P}}_{2}{\mathrm{O}}_{7}$。这里将${\mathrm{H}}_{3}{\mathrm{{PO}}}_{4}$和${\mathrm{H}}_{4}{\mathrm{P}}_{2}{\mathrm{O}}_{7}$视为等同是因为它们都是+5价磷化合物，尽管结构略有不同，但在酸性方面表现相似。",：${\mathrm{H}}_{3}{\mathrm{{PO}}}_{2} < {\mathrm{H}}_{3}{\mathrm{{PO}}}_{3} < {\mathrm{H}}_{3}{\mathrm{{PO}}}_{4} \approx {\mathrm{H}}_{4}{\mathrm{P}}_{2}{\mathrm{O}}_{7}$,N/A,N/A,N/A
+"为什么与过渡金属的配位能力 ${\mathrm{{NH}}}_{3} < {\mathrm{{PH}}}_{3},{\mathrm{{NF}}}_{3} < {\mathrm{{PF}}}_{3}$ ; 而与 ${\mathrm{H}}^{ + }$ 的配位能力 ${\mathrm{{NH}}}_{3}$ $> {\mathrm{{PH}}}_{3}$ ","${\mathrm{{NH}}}_{3}$ 和 ${\mathrm{{NF}}}_{3}$ 利用 $\mathrm{N}$ 的孤电子对向过渡金属配位形成配位键; 而 ${\mathrm{{PH}}}_{3}$ 和 ${\mathrm{{PF}}}_{3}$ 的中心原子 $\mathrm{P}$ 除利用 $\mathrm{P}$ 的孤电子对向过渡金属配位形成配位键外, $\mathrm{P}$ 原子空的 $\mathrm{d}$ 轨道接受过渡金属 $\mathrm{d}$ 轨道电子的配位,形成 $\mathrm{d} - \mathrm{d}\pi$ 配键,使 ${\mathrm{{PH}}}_{3}$ 和 ${\mathrm{{PF}}}_{3}$ 与过渡金属生成的配位化合物更稳定,即与过渡金属的配位能力 ${\mathrm{{NH}}}_{3} < {\mathrm{{PH}}}_{3},{\mathrm{{NF}}}_{3} < {\mathrm{{PF}}}_{3}$ 。
+
+由于 $\mathrm{H}$ 不存在价层 $\mathrm{d}$ 轨道,在与 ${\mathrm{H}}^{ + }$ 配位时, ${\mathrm{{NH}}}_{3}$ 和 ${\mathrm{{PH}}}_{3}$ 只能以孤电子对向 ${\mathrm{H}}^{ + }$ 的 $1\mathrm{\;s}$ 空轨道配位。 ${\mathrm{H}}^{ + }$ 的半径很小,与半径小的 $\mathrm{N}$ 形成的配位键较强,而与半径较大的 $\mathrm{P}$ 形成的配位键较弱。因此,与 ${\mathrm{H}}^{ + }$ 的配位能力 ${\mathrm{{NH}}}_{3} > {\mathrm{{PH}}}_{3}$ 。","：首先，我们要理解题目中提到的配位能力是指分子作为配体与金属离子形成配合物的能力。对于过渡金属而言，配位能力主要取决于配体提供的孤对电子以及这些电子能够有效地接近并稳定金属中心的程度。
+
+1. 对于${\mathrm{NH}}_3$和${\mathrm{PH}}_3$、${\mathrm{NF}}_3$和${\mathrm{PF}}_3$之间的比较：
+   - ${\mathrm{NH}}_3$相比${\mathrm{PH}}_3$拥有更强的电负性氮原子，这使得氨分子中的N-H键更加极化，从而增加了氮上的局部负电荷密度。然而，由于磷原子比氮原子更大，它的价电子云更分散，虽然P-H键不如N-H键那么极化，但磷原子可以提供更多的空间给过渡金属中心进行配位。因此，在考虑过渡金属时，尽管${\mathrm{NH}}_3$能更好地捐赠电子，但由于空间效应，${\mathrm{PH}}_3$可能表现出更好的配位性能。
+   - 类似地，${\mathrm{NF}}_3$与${\mathrm{PF}}_3$之间也存在这样的差异。氟是元素周期表中最电负的非金属之一，这意味着${\mathrm{NF}}_3$中的氮原子将带有部分正电荷，而氟带有部分负电荷。这种强烈的极化作用限制了氮原子上可用作配位的电子数量。相反，${\mathrm{PF}}_3$中的磷原子虽然也受到F的影响，但由于其较大的原子半径，它仍然能够为过渡金属提供足够的空间及电子密度来进行有效配位。
+
+2. 当涉及到与${\mathrm{H}}^+$（质子）的配位时，情况有所不同。这里的关键在于酸碱反应的本质，即质子接受者或供者的强度。根据路易斯酸碱理论，一个有效的碱应该能够很好地接收质子。由于氮比磷具有更高的电负性和更小的原子尺寸，${\mathrm{NH}}_3$能更有效地吸引并结合质子，因此在与${\mathrm{H}}^+$的配位能力上优于${\mathrm{PH}}_3$。
+
+综上所述，对于过渡金属来说，配位能力不仅依赖于配体本身的电子捐赠能力，还受到空间因素的影响；而对于质子而言，则主要是基于配体作为路易斯碱的有效性来决定的。",：无（此题为解释型问题，没有明确的选择或填空选项需要回答）,N/A,N/A,N/A
+"无色晶体 (A) 受热得到无色气体 (B), 将 (B) 在更高的温度下加热后再恢复到原来的温度,发现气体体积增加了 ${50}\%$ 。晶体 $\left( \mathrm{A}\right)$ 与等物质的量的 $\mathrm{{NaOH}}$ 固体共热得无色气体 (C) 和白色固体 (D)。将 $\left( \mathrm{C}\right)$ 通入 ${\mathrm{{AgNO}}}_{3}$ 溶液先有棕黑色沉淀 (E) 生成, $\left( \mathrm{C}\right)$ 过量时则 (E) 消失得到无色溶液。将 (A) 溶于浓盐酸后加入 KI 则溶液变黄。试给出 (A)、(B)、 (C)、(D) 和 (E) 所代表的物质的化学式。",(A) $- {\mathrm{{NH}}}_{4}{\mathrm{{NO}}}_{3};\;$ (B) $- {\mathrm{N}}_{2}\mathrm{O};\;$ (C) $- {\mathrm{{NH}}}_{3};\;$ (D) $- {\mathrm{{NaNO}}}_{3};\;$ (E) $- {\mathrm{{Ag}}}_{2}\mathrm{O}$,"：首先分析题目中的信息，从无色晶体(A)受热得到无色气体(B)，再加热体积增加50%，暗示着B可能是氨气(NH₃)或其类似物，在高温下分解为N₂和H₂，但根据题意更倾向于考虑NH₃直接转化为另一种形式。然而，考虑到体积增加了50%，这提示我们可能涉及到了一个分子数目的变化，比如2NH₃ -> N₂ + 3H₂这样的反应不会满足条件，因此这里考虑的是NH₃在更高温度下的部分分解成N₂和H₂的混合物，但这不是主要路径。最合理的解释是NH₃被进一步氧化或者转化为了NO（一氧化氮），因为NO与空气接触会迅速氧化为NO₂，体积增加符合1:1.5的关系。
+
+接下来，(A)与NaOH共热生成(C)和(D)，结合前文推测，如果A是铵盐如NH₄Cl，则可以合理地推断C为NH₃，D为NaCl。而将C通入AgNO₃溶液中产生棕黑色沉淀E随后消失的现象，表明C确实是NH₃，E开始时形成的应该是Ag₂O（棕色），随着NH₃过量转变为[Ag(NH₃)₂]⁺配离子导致颜色消失。
+
+最后提到A溶于浓盐酸后加入KI使溶液变黄，这意味着产生了I₂，进一步支持了A是一种含氯的铵盐的观点，如NH₄Cl，它能与KI及HCl反应释放出I₂。
+
+综上所述，我们可以得出以下结论：
+- A应为NH₄Cl
+- B应为NH₃
+- C同样为NH₃
+- D为NaCl
+- E最初形成的是Ag₂O","：A:NH₄Cl, B:NH₃, C:NH₃, D:NaCl, E:Ag₂O",N/A,N/A,N/A
+"用水处理短周期元素形成的黄色化合物 (A), 得到白色沉淀 (B) 和无色气体 (C)。(B) 不溶于 $\mathrm{{NaOH}}$ 溶液,溶于硝酸后经浓缩析出 (D) 的水合晶体。(D) 受热分解得到白色物质 (E) 和棕色气体 (F),将 $\left( \mathrm{F}\right)$ 通过 $\mathrm{{NaOH}}$ 溶液后气体体积变为原来的 ${20}\%$ 。将 $\left( \mathrm{C}\right)$ 通入 ${\mathrm{{CuSO}}}_{4}$ 溶液先有浅蓝色沉淀生成, $\left( \mathrm{C}\right)$ 过量后沉淀溶解得深蓝色溶液 $\left( \mathrm{G}\right)$ 。试给出 $\left( \mathrm{A}\right)$ 、 (B)、(C)、(D)、(E)、(F)和(G) 所代表的物质的化学式。"," (A)- ${\mathrm{{Mg}}}_{3}{\mathrm{\;N}}_{2}$ ; (B) $- \mathrm{{Mg}}{\left( \mathrm{{OH}}\right) }_{2}$ ; (C) $- {\mathrm{{NH}}}_{3}$ ; (D) $- \mathrm{{Mg}}{\left( {\mathrm{{NO}}}_{3}\right) }_{2}$ ; (E) $- \mathrm{{MgO}}$ ;
+
+(F) $- {\mathrm{{NO}}}_{2} + {\mathrm{O}}_{2}$ ; (G)- $\left\lbrack {\mathrm{{Cu}}{\left( {\mathrm{{NH}}}_{3}\right) }_{4}}\right\rbrack {\mathrm{{SO}}}_{4}$ 。","：首先，从题目信息出发，我们了解到(A)是一种黄色化合物，在水中可以分解为白色沉淀(B)和无色气体(C)。根据化学常识，短周期元素中能形成黄色化合物且满足上述条件的最常见例子是硫化物，特别是硫化氢（H₂S）的盐类。但是，考虑到生成的是白色沉淀，更合理的假设是(A)为某种含硫的酸性盐或氧化物，例如硫酸盐。
+
+- (C)作为无色气体，并且当其过量通入CuSO₄溶液时先生成浅蓝色沉淀随后溶解成深蓝色溶液(G)，这强烈提示了(C)是氨气(NH₃)。因为NH₃与Cu²⁺反应会先生成难溶于水的碱式铜盐[Cu(OH)₂]·nCuSO₄沉淀，但随着NH₃继续加入，这些沉淀会被溶解形成深蓝色的四氨合铜(II)离子[Cu(NH₃)₄]²⁺。
+- 既然(C)被确定为NH₃，则(A)很可能是铵盐与硫酸根组成的化合物，比如(NH₄)₂SO₄。这种情况下，(B)应该是指硫酸钡(BaSO₄)，这是一种典型的不溶于NaOH但在强酸如硝酸作用下可溶解的白色沉淀。
+- 接下来分析(D)，它由(B)在硝酸中的溶解产物浓缩后析出。考虑到BaSO₄在硝酸中溶解并重新结晶的可能性较小，这里更合理的解释是通过其他方式获得(D)，而(D)受热分解产生(E)和(F)。(D)可能是另一种含有硫酸根的物质，考虑到最终产物包括白色固体和棕色气体，一个合理的选择是(NH₄)₂SO₄本身或类似结构的化合物，但为了符合题意，我们考虑它是硫酸亚铁铵(FeSO₄·(NH₄)₂SO₄·6H₂O)。加热这种物质会产生白色的Fe₂O₃(E)和棕色的NO₂(F)。
+- 最后，对于(F)通过NaOH后的体积变化至20%，说明大部分NO₂转化成了NO，这是一个已知的反应过程：\[2\, \mathrm{NO}_2 + 2\, \mathrm{NaOH} \rightarrow \mathrm{NaNO}_3 + \mathrm{NaNO}_2 + \mathrm{H}_2\mathrm{O}\]
+
+综上所述，我们可以得出以下结论：
+
+- (A) 是 (NH₄)₂SO₄
+- (B) 是 BaSO₄
+- (C) 是 NH₃
+- (D) 是 FeSO₄·(NH₄)₂SO₄·6H₂O
+- (E) 是 Fe₂O₃
+- (F) 是 NO₂
+- (G) 包含 [Cu(NH₃)₄]²⁺",：(A)(NH₄)₂SO₄; (B)BaSO₄; (C)NH₃; (D)FeSO₄·(NH₄)₂SO₄·6H₂O; (E)Fe₂O₃; (F)NO₂; (G)[Cu(NH₃)₄]²⁺,N/A,N/A,N/A
+"钾盐 $\left( \mathrm{A}\right)$ 为白色粉末, $\left( \mathrm{A}\right)$ 溶于水后溶液显弱酸性。向 $\left( \mathrm{A}\right)$ 的水溶液中加入 ${\mathrm{{AgNO}}}_{3}$ 溶液有黄色沉淀 $\left( \mathrm{B}\right)$ 生成。 $\left( \mathrm{B}\right)$ 溶于硝酸得无色溶液 $\left( \mathrm{C}\right)$ 。向 $\left( \mathrm{A}\right)$ 的水溶液中加入 ${\mathrm{{CaCl}}}_{2}$ 无沉淀生成, 再加入氨水则有白色沉淀 (D) 生成。试给出 (A)、(B)、(C)、(D) 所代表的物质的化学式。",$\left( \mathrm{A}\right){\mathrm{{KH}}}_{2}{\mathrm{{PO}}}_{4};\;\left( \mathrm{B}\right) - {\mathrm{{Ag}}}_{3}{\mathrm{{PO}}}_{4};\;\left( \mathrm{C}\right) - {\mathrm{{AgNO}}}_{3} + {\mathrm{H}}_{3}{\mathrm{{PO}}}_{4};\;\left( \mathrm{D}\right) - {\mathrm{{CaHPO}}}_{4}$ 。,"：首先，根据题目描述钾盐(A)为白色粉末，溶于水后溶液显弱酸性。这提示我们(A)可能是一种含有弱酸根的钾盐。接下来，向(A)的水溶液中加入AgNO3溶液生成黄色沉淀(B)，而能够与银离子形成黄色沉淀的常见阴离子是铬酸根(CrO4^2-)。因此，可以推测(A)可能是K2CrO4（重铬酸钾在碱性条件下会转化成铬酸钾），(B)则是Ag2CrO4。
+
+然后提到(B)溶于硝酸得无色溶液(C)。Ag2CrO4溶解于硝酸中确实会产生无色溶液，这里主要是由于Ag+和CrO4^2-被还原或络合所致，但直接考虑产物的话，主要成分应该是H2CrO4（铬酸）的形式存在，不过更准确地说，在稀硝酸条件下，CrO4^2-保持不变，故(C)可视为含CrO4^2-的溶液。
+
+最后，当向(A)的水溶液中加入CaCl2时没有沉淀生成，说明A中的阴离子不是SO4^2-等容易与钙离子形成沉淀的离子，这也支持了我们之前关于A是K2CrO4的假设。再加入氨水后产生白色沉淀(D)，考虑到铬酸盐体系中，氨水可以使部分CrO4^2-转化为不溶性的Cr(OH)3沉淀，因此(D)应为Cr(OH)3。
+
+综上所述，通过上述分析我们可以得出结论：
+- (A) 是 K2CrO4
+- (B) 是 Ag2CrO4
+- (C) 主要由 CrO4^2- 组成的溶液
+- (D) 是 Cr(OH)3","：A: K2CrO4, B: Ag2CrO4, C: CrO4^2-, D: Cr(OH)3",N/A,N/A,N/A
+"化合物 (A) 为白色固体, (A) 在水中溶解度较小, 但易溶于氢氧化钠溶液和浓盐酸。(A) 溶于浓盐酸得溶液 $\left( \mathrm{B}\right)$ ,向 $\left( \mathrm{B}\right)$ 中通入 ${\mathrm{H}}_{2}\mathrm{\;S}$ 气体得黄色沉淀 $\left( \mathrm{C}\right) ,\left( \mathrm{C}\right)$ 不溶于盐酸,易溶于氢氧化钠溶液。(C) 溶于硫化钠溶液得无色溶液 (D),若将 $\left( \mathrm{C}\right)$ 溶于 ${\mathrm{{Na}}}_{2}{\mathrm{\;S}}_{2}$ 溶液则得无色溶液 (E)。向 (B) 中滴加溴水, 则溴被还原, 而 (B) 转为无色溶液 (F), 向所得 (F) 的酸性溶液中加入淀粉一碘化钾溶液, 则溶液变蓝。试给出 (A)、(B)、(C)、(D)、(E) 和 (F) 所代表的物质的化学式。","(A) $- {\mathrm{{As}}}_{2}{\mathrm{O}}_{3}$ ; (B) $- {\mathrm{{AsCl}}}_{3}$ ; (C) $- {\mathrm{{As}}}_{2}{\mathrm{\;S}}_{3}$ ; (D) $- {\mathrm{{Na}}}_{3}{\mathrm{{AsS}}}_{3}$ ; (E) $- {\mathrm{{Na}}}_{3}{\mathrm{{AsS}}}_{4}$ ;
+
+$\left( \mathrm{F}\right) - {\mathrm{{AsO}}}_{4}^{3 - }$ 。","：根据题目描述，我们可以逐步分析各个化合物的性质来推断它们的身份。
+
+1. 化合物(A)为白色固体，在水中溶解度较小，但易溶于氢氧化钠溶液和浓盐酸。这提示我们(A)可能是某种金属硫化物或金属氯化物，因为这类物质通常具有这样的溶解特性。
+2. (A)溶于浓盐酸得到溶液(B)，向(B)中通入H₂S气体生成黄色沉淀(C)，且(C)不溶于盐酸但易溶于氢氧化钠溶液。结合这些信息，(C)很可能是$\mathrm{Sb}_2\mathrm{S}_3$（锑硫化物），因为它是一种黄色沉淀，并且符合上述溶解性特点。这意味着(A)可能是$\mathrm{SbCl}_3$或者$\mathrm{Sb}_2\mathrm{O}_3$等能与HCl反应形成含锑离子的溶液。
+3. (C)溶于硫化钠得无色溶液(D)，若将(C)溶于${\mathrm{Na}}_2{\mathrm{S}}_2$溶液则得无色溶液(E)。这里，(D)应该是$\mathrm{Na}_3\mathrm{SbS}_4$形式的溶液，而(E)可能是含有$\mathrm{SbS}_3^{3-}$的溶液。
+4. 向(B)中滴加溴水，溴被还原，同时(B)转为无色溶液(F)。考虑到只有少数元素能够还原溴，结合之前的信息，(B)很可能包含$\mathrm{Sb}^{3+}$离子，它能被氧化成$\mathrm{Sb}^{5+}$。因此，(F)可能含有$\mathrm{Sb}^{5+}$。
+5. 向所得(F)的酸性溶液中加入淀粉-碘化钾溶液，溶液变蓝，表明有碘单质生成。这进一步证实了在(F)中发生了氧化还原反应，其中$\mathrm{Sb}^{5+}$作为氧化剂，将碘离子氧化成了碘单质。
+
+综上所述，可以确定：
+- (A) 是 $\mathrm{Sb}_2\mathrm{O}_3$
+- (B) 是 $\mathrm{SbCl}_3$ 溶液
+- (C) 是 $\mathrm{Sb}_2\mathrm{S}_3$
+- (D) 可能是 $\mathrm{Na}_3\mathrm{SbS}_4$ 形式的溶液
+- (E) 应该是含有 $\mathrm{SbS}_3^{3-}$ 的溶液
+- (F) 为 $\mathrm{Sb}^{5+}$ 相关的溶液","：A: $\mathrm{Sb}_2\mathrm{O}_3$, B: $\mathrm{SbCl}_3$, C: $\mathrm{Sb}_2\mathrm{S}_3$, D: $\mathrm{Na}_3\mathrm{SbS}_4$, E: 含$\mathrm{SbS}_3^{3-}$, F: 含$\mathrm{Sb}^{5+}$",N/A,N/A,N/A
+"化合物 (A) 为白色固体, 不溶于水。(A) 受热剧烈分解, 生成固体 (B) 和气体 (C)。固体 (B) 不溶于水或盐酸, 但溶于热的稀硝酸得无色溶液 (D) 和无色气体 (E)。(E) 在空气中变棕色。向溶液 (D) 中加入盐酸得白色沉淀 (F)。气体 (C) 与普通试剂不起反应, 但与热的金属镁作用生成黄色固体 $\left( \mathrm{G}\right)$ 。 $\left( \mathrm{G}\right)$ 与水作用得白色沉淀 $\left( \mathrm{H}\right)$ 及气体 $\left( \mathrm{I}\right)$ 。 $\left( \mathrm{I}\right)$ 能使湿润的红色石蕊试纸变蓝。(H) 可溶于稀硫酸得溶液 (J)。化合物 (A) 以 ${\mathrm{H}}_{2}\mathrm{\;S}$ 溶液处理时得黑色沉淀 $\left( \mathrm{K}\right)$ 、无色溶液 $\left( \mathrm{L}\right)$ 和气体 $\left( \mathrm{C}\right)$ 。过滤后,固体 $\left( \mathrm{K}\right)$ 溶于浓硝酸得气体 $\left( \mathrm{E}\right)$ 、黄色沉淀 $\left( \mathrm{M}\right)$ 和溶液 $\left( \mathrm{D}\right)$ 。用 $\mathrm{{NaOH}}$ 溶液处理滤液 $\left( \mathrm{L}\right)$ 又得气体 $\left( \mathrm{I}\right)$ 。试给出 $\left( \mathrm{A}\right) \text{、}\left( \mathrm{B}\right)$ 、 (C)、(D)、(E)、(F)、(G)、(H)、(I)、(J)、(K)、(L)和(M)所代表的物质的化学式。"," (A) $- {\mathrm{{AgN}}}_{3}$ ; (B) $- \mathrm{{Ag}}$ ; (C) $- {\mathrm{N}}_{2}$ ; (D) $- {\mathrm{{AgNO}}}_{3}$ ; (E)-NO; (F)- $\mathrm{{AgCl}}$ ;
+
+(G) $- {\mathrm{{Mg}}}_{3}{\mathrm{\;N}}_{2}$ ; (H)- $\mathrm{{Mg}}{\left( \mathrm{{OH}}\right) }_{2}$ ; (I) $- {\mathrm{{NH}}}_{3}$ ; (J) $- {\mathrm{{MgSO}}}_{4}$ ; ( $\mathrm{K}$ ) $- {\mathrm{{Ag}}}_{2}\mathrm{\;S}$ ;
+
+(L) $- {\mathrm{{NH}}}_{4}\mathrm{{HS}}$ ; (M)一S。","：根据题目描述，我们可以逐步推导出各个物质的化学式。
+1. 由(A)为白色固体且不溶于水，并在加热时剧烈分解生成(B)和(C)，结合后续信息可推测(A)可能是一种金属硫化物。考虑到(K)与H2S反应得到黑色沉淀，(A)很可能是银盐或铅盐，但铅盐较符合整体特性，因此(A)初步判断为PbSO4。
+2. (B)是不溶于水也不溶于盐酸但溶于热稀硝酸的固体，这提示我们(B)可能是难溶性碱或者某些特定类型的氧化物，鉴于其来源及后续产生的(E)，合理猜测(B)为PbO。
+3. 气体(C)在普通条件下稳定，但在高温下能与Mg反应形成黄色固体(G)，并进一步产生气体(I)，其中(I)能使湿润的红色石蕊试纸变蓝，表明(I)是NH3。(C)应为N2，而(G)则为Mg3N2。
+4. 无色溶液(D)加盐酸得白色沉淀(F)，提示(D)中含有可被沉淀出来的离子，结合上下文，(D)应该是含Pb2+的溶液，故(D)为Pb(NO3)2，(F)为PbCl2。
+5. (E)在空气中变棕色，说明(E)为NO。
+6. 白色沉淀(H)溶于稀硫酸，再次确认了之前关于(D)的推断，即(H)为PbSO4。
+7. 黑色沉淀(K)遇浓硝酸产生NO、黄色沉淀(M)以及Pb(NO3)2溶液，据此可确定(K)为PbS，(M)为S。
+8. 最后，滤液(L)处理后释放NH3，证明了之前的假设，即(L)含有铵根离子。
+
+综上所述，通过分析各步骤中物质之间的转化关系及其物理化学性质，可以较为准确地得出所有未知物的化学式。","：A: PbSO4, B: PbO, C: N2, D: Pb(NO3)2, E: NO, F: PbCl2, G: Mg3N2, H: PbSO4, I: NH3, J: PbSO4, K: PbS, L: (NH4)2SO4, M: S",N/A,N/A,N/A
+"化合物 $\left( \mathrm{A}\right)$ 加入水中得白色沉淀 $\left( \mathrm{B}\right)$ 和无色溶液 $\left( \mathrm{C}\right)$ 。取溶液 $\left( \mathrm{C}\right)$ 与饱和 ${\mathrm{H}}_{2}\mathrm{\;S}$ 溶液作用生成棕黑色沉淀 (D), (D) 不溶于 NaOH 溶液, 能溶于盐酸。向溶液 (C) 中加入 NaOH 溶液有白色沉淀 $\left( \mathrm{E}\right)$ 生成, $\left( \mathrm{E}\right)$ 不溶于 $\mathrm{{NaOH}}$ 溶液。向 ${\mathrm{{SnCl}}}_{2}$ 溶液中加入过量 $\mathrm{{NaOH}}$ 溶液后滴加溶液 $\left( \mathrm{C}\right)$ ,有黑色沉淀 $\left( \mathrm{F}\right)$ 生成。向溶液 $\left( \mathrm{C}\right)$ 中加入 ${\mathrm{{AgNO}}}_{3}$ 溶液有白色沉淀 $\left( \mathrm{G}\right)$ 生成, (G) 不溶于硝酸但易溶于氨水。试给出 (A)、(B)、(C)、(D)、(E)、(F) 和 (G) 所代表的物质的化学式。
+"," (A) $- {\mathrm{{BiCl}}}_{3}$ ; (B)-BiOCl; (C) $- {\mathrm{{BiCl}}}_{3}$ ; (D) $- {\mathrm{{Bi}}}_{2}{\mathrm{\;S}}_{3}$ ; (E) $- \mathrm{{Bi}}{\left( \mathrm{{OH}}\right) }_{3}$ ;
+
+(F)-Bi; (G)-AgCl。
+","：首先，从题目的描述中可以分析出以下几点：
+1. 化合物(A)加入水中得白色沉淀(B)和无色溶液(C)，这意味着(A)可能是某种盐类，能够部分溶解于水。
+2. 溶液(C)与饱和\({\mathrm{H}}_{2}\mathrm{\;S}\)作用生成棕黑色沉淀(D)，(D)不溶于NaOH但能溶于盐酸。根据这些性质，(D)很可能是硫化铅(PbS)，因为PbS是棕黑色且符合上述化学行为。
+3. 向(C)中加入NaOH产生白色沉淀(E)，(E)不溶于NaOH。这提示我们(E)可能为氢氧化锌(Zn(OH)\(_2\))或氢氧化铝(Al(OH)\(_3\))等，考虑到后续实验现象更倾向于Zn(OH)\(_2\)。
+4. 当向\({\mathrm{{SnCl}}}_{2}\)溶液中加入过量NaOH后再滴加(C)，形成黑色沉淀(F)。结合前面的信息以及锡的特性，这里产生的(F)可能是四氧化三锡(SnO\(_2\))或者是锡的另一种形式如SnS，但由于是在碱性条件下形成的，更有可能是SnO\(_2\)。
+5. 最后，向(C)中加入\({\mathrm{{AgNO}}}_{3}\)溶液生成白色沉淀(G)，(G)不溶于硝酸但易溶于氨水，这是银氯化物(AgCl)的典型特征。
+
+综合以上信息，我们可以推断出化合物(A)应该含有铅、锌、银元素，并且考虑到所有反应结果，最合理的解释是(A)为铅锌矿的一种常见形式——方铅矿（主要成分为PbS）加上少量其他金属杂质，其中含有的银以银离子形式存在于溶液中。因此，(B)应为未完全溶解的PbS，而(C)则是含有\(\mathrm{Zn^{2+}}\)、\(\mathrm{Pb^{2+}}\)及\(\mathrm{Ag^+}\)的混合溶液。","：A: PbS (假设主要成分); B: PbS; C: 含有\(\mathrm{Zn^{2+}}\), \(\mathrm{Pb^{2+}}\), \(\mathrm{Ag^+}\)的溶液; D: PbS; E: Zn(OH)\(_2\); F: SnO\(_2\); G: AgCl",N/A,N/A,N/A
