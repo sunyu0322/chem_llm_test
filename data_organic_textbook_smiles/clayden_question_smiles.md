@@ -2036,7 +2036,7 @@ You can check your understanding of the relationship between \( \mathrm{{pH}} \)
 
 Even a very weak solution of \( \mathrm{{NaOH}} \) will have a \( \mathrm{{pH}} > {4.2} \) . By the calculation on p. 184 of the chapter, for a \( \mathrm{{pH}} \) of 5 we should need \( \left\lbrack  {{\mathrm{H}}_{3}{\mathrm{O}}^{ + }}\right\rbrack   = {10}^{-5}\mathrm{\;{mol}}{\mathrm{{dm}}}^{-1} \) . We know that the ionic product of water is \( \left\lbrack  {{\mathrm{H}}_{3}{\mathrm{O}}^{ + }}\right\rbrack  \left\lbrack  {\mathrm{{OH}}}^{ - }\right\rbrack   = {10}^{-{14}} \) and so for \( \mathrm{{pH}}5 \) we need \( {10}^{-5}\mathrm{\;{mol}}{\mathrm{{dm}}}^{-1} \) of \( \mathrm{{NaOH}} \) . This is very dilute! The trouble is that you need one hydroxide ion for every molecule of benzoic acid so if you had, say, \( {1.22}\mathrm{\;g}{\mathrm{{PhCO}}}_{2}\mathrm{H}\left( { = {0.01}\text{equiv.}}\right) \) you would need 1000 litres \( \left( {\mathrm{{dm}}}^{-1}\right) \) of your \( \mathrm{{NaOH}} \) solution. It makes more sense to have a much more concentrated solution, say, 0.1M. This would give an unnecessarily high \( \mathrm{{pH}} \) of 13 but you would need only \( {100}\mathrm{{ml}}\left( {\mathrm{{cm}}}^{3}\right) \) to extract your benzoic acid.
 
-## Suggested solutions for Chapter 8
+~~## Suggested solutions for Chapter 8
 
 ---
 
@@ -2436,7 +2436,7 @@ The second case is more serious as the Grignard reagent destroys itself as it is
 
 `C1COCCN1CC(=O)[O-].C(CBr)CO.C(CBr)CO.CC#N.[Br-].[Mg+2].O`
 
-<!-- Media -->
+<!-- Media -->~~
 
 ## Suggested solutions for Chapter 9
 
